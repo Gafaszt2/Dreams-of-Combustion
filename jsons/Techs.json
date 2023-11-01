@@ -1,0 +1,371 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "National Victorian era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Settlement",
+				"row": 6,
+				"quote": "The Victorian era was a time of art and culture
+                                When Dickens wrote his novels and Darwin studied nature
+                                The poets sang of beauty, love, and sorrow
+                                And the painters captured scenes of yesterday and tomorrow",
+				"uniques": ["Starting tech"]
+			}
+		]
+	},
+	{
+		"columnNumber": 1,
+		"era": "National Victorian era",
+		"techCost": 70,
+		"buildingCost": 150,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Gas Lighting",
+				"row": 2,
+				"prerequisites": ["Settlement"],
+			},
+			{
+				"name": "Hunting Pets",
+				"row": 4,
+				"prerequisites": ["Settlement"],
+			},
+			{
+				"name": "Saw",
+				"row": 6,
+				"prerequisites": ["Settlement"],
+			},
+			{
+				"name": "Mining",
+				"row": 8,
+				"prerequisites": ["Settlement"],
+			},
+                        {
+				"name": "Anesthesia",
+				"row": 9,
+				"prerequisites": ["Settlement"],
+			}
+		]
+	},
+        {
+		"columnNumber": 2,
+		"era": "National Victorian era",
+		"techCost": 200,
+		"buildingCost": 170,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Archaeology",
+				"row": 2,
+				"prerequisites": ["Mining"],
+			},
+			{
+				"name": "Scientific Theory",
+				"row": 3,
+				"prerequisites": ["Hunting Pets"],
+			},
+			{
+				"name": "Industrialization",
+				"row": 4,
+				"prerequisites": ["Saw", "Mining"],
+			},
+			{
+				"name": "Telegraph",
+				"row": 5,
+				"prerequisites": ["Gas Lighting"],
+			},
+                        {
+				"name": "Railway",
+				"row": 6,
+				"prerequisites": ["Saw","Mining"],
+			},
+                        {
+				"name": "Rifling",
+				"row": 7,
+				"prerequisites": ["Hunting Pets"],
+			}
+                        {
+				"name": "Vaccine",
+				"row": 9,
+				"prerequisites": ["Anesthesia", "Mining"],
+			}
+		]
+	},
+        {
+		"columnNumber": 3,
+		"era": "Capital Victorian era",
+		"techCost": 300,
+		"buildingCost": 190,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Novel",
+				"row": 2,
+				"prerequisites": ["Archaeology"],
+			},
+			{
+				"name": "Fridge",
+				"row": 3,
+				"prerequisites": ["Scientific Theory", "Vaccine"],
+			},
+			{
+				"name": "Steam Power",
+				"row": 4,
+				"prerequisites": ["Industrialization"],
+			},
+			{
+				"name": "Photography",
+				"row": 5,
+				"prerequisites": ["Telegraph"],
+			},
+                        {
+				"name": "Dynamite",
+				"row": 6,
+				"prerequisites": ["Industrialization","Railway"],
+			},
+                        {
+				"name": "Military Science",
+				"row": 7,
+				"prerequisites": ["Rifling"],
+			}
+                        {
+				"name": "Antibiotic",
+				"row": 9,
+				"prerequisites": ["Vaccine","Scientific Theory"],
+			}
+		]
+	},
+        {
+		"columnNumber": 4,
+		"era": "Capital Victorian era",
+		"techCost": 400,
+		"buildingCost": 250,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Psychoanalysis",
+				"row": 2,
+				"prerequisites": ["Novel","Photography"],
+			},
+			{
+				"name": "Biology",
+				"row": 3,
+				"prerequisites": ["Antibiotic","Steam Power"],
+			},
+			{
+				"name": "Electricity",
+				"row": 4,
+				"prerequisites": ["Steam Power", "Fridge"],
+			},
+			{
+				"name": "Opera",
+				"row": 5,
+				"prerequisites": ["Photography","Novel"],
+			},
+                        {
+				"name": "Artillery",
+				"row": 6,
+				"prerequisites": ["Dynamite","Military Science"],
+			},
+                        {
+				"name": "Transfusion",
+				"row": 9,
+				"prerequisites": ["Antibiotic","Military Science"],
+			}
+		]
+	},
+        {
+		"columnNumber": 5,
+		"era": "First World War",
+		"techCost": 5000000000,
+		"buildingCost": 300,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Radio", 
+				"row": 2,
+				"prerequisites": ["Psychoanalysis"],
+			},
+			{
+				"name": "Electrical Refrigeration",
+				"row": 4,
+				"prerequisites": ["Transfusion", "Biology"],
+			},
+			{
+				"name": "Flight",
+				"row": 6,
+				"prerequisites": ["Opera","Artillery"],
+			},
+                        {
+				"name": "Replaceable Parts",
+				"row": 8,
+				"prerequisites": ["Electricity"],
+			},
+                        {
+				"name": "Combustion",
+				"row": 9,
+				"prerequisites": ["Artillery"],
+			}
+		]
+	},
+        {
+		"columnNumber": 6,
+		"era": "First World War",
+		"techCost": 650,
+		"buildingCost": 320,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Ballistics", 
+				"row": 2,
+				"prerequisites": ["Radio", "Combustion"],
+			},
+			{
+				"name": "Electronics",
+				"row": 4,
+				"prerequisites": ["Electrical Refrigeration"],
+			},
+			{
+				"name": "Economics",
+				"row": 7,
+				"prerequisites": ["Flight","Replaceable Parts"],
+			},
+                        {
+				"name": "Tanks",
+				"row": 6,
+				"prerequisites": ["Flight"],
+			},
+                        {
+				"name": "Chemistry",
+				"row": 9,
+				"prerequisites": ["Combustion","Electrical Refrigeration"],
+			}
+		]
+	},
+        {
+		"columnNumber": 7,
+		"era": "Second World War",
+		"techCost": 750,
+		"buildingCost": 360,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Atomic Theory", 
+				"row": 2,
+				"prerequisites": ["Ballistics", "Electronics"],
+			},
+                        {
+				"name": "Advanced Flight", 
+				"row": 3,
+				"prerequisites": ["Ballistics", "Electronics"],
+			},
+                        {
+				"name": "Advanced Ballistics", 
+				"row": 4,
+				"prerequisites": ["Ballistics", "Tanks"],
+			},
+			{
+				"name": "Plastics",
+				"row": 6,
+				"prerequisites": ["Economics","Chemistry"],
+			},
+                        {
+				"name": "Combined Arms",
+				"row": 8,
+				"prerequisites": ["Tanks","Ballistics"],
+			}
+                        {
+				"name": "Pharmaceuticals",
+				"row": 9,
+				"prerequisites": ["Chemistry","Economics"],
+			}
+		]
+	},
+        {
+		"columnNumber": 8,
+		"era": "Second World War",
+		"techCost": 890,
+		"buildingCost": 390,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Satellites", 
+				"row": 2,
+				"prerequisites": ["Atomic Theory", "Advanced Flight"],
+			},
+                        {
+				"name": "Nuclear Energy", 
+				"row": 3,
+				"prerequisites": ["Atomic Theory", "Combined Arms"],
+			},
+                        {
+				"name": "Telecommunications", 
+				"row": 4,
+				"prerequisites": ["Plastics", "Combined Arms"],
+			},
+                        {
+				"name": "Guidance Systems", 
+				"row": 6,
+				"prerequisites": ["Combined Arms", "Plastics"],
+			},
+			{
+				"name": "Composites",
+				"row": 7,
+				"prerequisites": ["Combined Arms","Plastics"],
+			},
+                        {
+				"name": "Sanitation",
+				"row": 8,
+				"prerequisites": ["Pharmaceuticals","Atomic Theory"],
+			}
+                        {
+				"name": "Computers",
+				"row": 9,
+				"prerequisites": ["Atomic Theory","Advanced Ballistics"],
+			}
+		]
+	},
+        {
+		"columnNumber": 9,
+		"era": "Second World War",
+		"techCost": 900,
+		"buildingCost": 420,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Enigma", 
+				"row": 2,
+				"prerequisites": ["Satellites"],
+			},
+                        {
+				"name": "Pressurized Cabin", 
+				"row": 4,
+				"prerequisites": ["Telecommunications", "Computers"],
+			},
+                        {
+				"name": "Synthetic Rubber", 
+				"row": 5,
+				"prerequisites": ["Guidance Systems", "Composites"],
+			},
+			{
+				"name": "Atomic Bomb",
+				"row": 7,
+				"prerequisites": ["Nuclear Energy","Composites"],
+			},
+                        {
+				"name": "Penicillin",
+				"row": 8,
+				"prerequisites": ["Sanitation"],
+			}
+                        {
+				"name": "Aerosol Can",
+				"row": 9,
+				"prerequisites": ["Telecommunications","Sanitation"],
+			}
+		]
+	}
+]

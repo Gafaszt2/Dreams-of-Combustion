@@ -1,0 +1,590 @@
+[
+	// Ancient Era
+
+	// Always available
+	{
+		"name": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city"]
+	},
+        {
+		"name": "Walls",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Anesthesia",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Scientific Theory",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "Arsenal",
+		"cost": 300,
+		"cityStrength": 9,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Castle",
+		"requiredTech": "Artillery",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Monument",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	}
+{
+		"name": "Granary",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+                "requiredTech": "Hunting Pets"
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
+	},
+{
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Gas Lighting"
+	},
+        {
+		"name": "Daguerreotype Studio",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Gold] per [4] population [in this city]"],
+		"requiredTech": "Photography"
+	},
+        {
+		"name": "Calotype Workshop",
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": ["[+1 Culture] per [2] population [in this city]"],
+		"requiredTech": "Photography"
+	},
+        {
+		"name": "Photographic Society",
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+                "happiness": 1,
+                "science": 1,
+		"requiredTech": "Photography"
+	},
+        {
+		"name": "Collodion Factory",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+                "production": 1,
+                "culture": 1,
+		"requiredTech": "Photography"
+	},
+	{
+		"name": "Paper Maker",
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] per [2] population [in this city]"],
+		"requiredTech": "Gas Lighting"
+	},
+        {
+		"name": "Circus",
+		"requiredNearbyImprovedResources": ["Ivory"],
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Gas Lighting"
+	},
+	{
+		"name": "Water Mill",
+		"food": 1,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [River]"],
+		"requiredTech": "Saw"
+	},
+        {
+		"name": "Sawmill",
+		"maintenance": 1,
+		"production": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [Forest]"],
+		"requiredTech": "Saw"
+	},
+        {
+		"name": "Dentist Office",
+		"maintenance": 2,
+		"food": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Anesthesia"
+	},
+        {
+		"name": "Pharmacy",
+                "maintenance": 2,
+		"science": 1,
+		"food": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Vaccine"
+	},
+        {
+		"name": "Sanatorium",
+                "maintenance": 2,
+		"food": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Antibiotic"
+	},
+        {
+		"name": "Sewer",
+		"food": 1,
+                "maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Antibiotic"
+	},
+        {
+		"name": "Housing",
+                "gold": 1,
+		"hurryCostModifier": 25,
+                "uniques": ["[+5]% [Food] [in this city]"],
+		"requiredTech": "Antibiotic"
+	},
+        {
+		"name": "Immunization Center",
+                "maintenance": 1,
+		"production": 1,
+		"food": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Anesthesia"
+	},
+        {
+		"name": "Museum of Medicine",
+                "maintenance": 2,
+		"culture": 1,
+		"food": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Vaccine"
+	},
+        {
+		"name": "Clinic",
+                "maintenance": 2,
+		"science": 2,
+		"food": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Anesthesia"
+	},
+        {
+		"name": "Cold Storage Warehouse",
+		"gold": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Fridge"
+	},
+        {
+		"name": "Ice Cream Parlor",
+                "maintenance": 2,
+		"happiness": 2,
+		"food": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Fridge"
+	},
+        {
+		"name": "Refrigerated Train",
+                "maintenance": 2,
+		"hurryCostModifier": 25,
+                "uniques": ["[+15]% Production when constructing [Gunpowder] units [in this city]"],
+		"requiredTech": "Fridge"
+	},
+        {
+		"name": "Vaccine Laboratory",
+                "maintenance": 2,
+		"hurryCostModifier": 25,
+                "uniques": ["[+10]% [Food] [in this city]"],
+		"requiredTech": "Fridge"
+	},
+        {
+		"name": "Telegraph Station",
+                "maintenance": 2,
+                "production": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Telegraph"
+	},
+        {
+		"name": "News Agency",
+                "maintenance": 2,
+                "science": 2,
+		"hurryCostModifier": 25,
+                "uniques": ["[+5]% [Science] [in this city]"],
+		"requiredTech": "Telegraph"
+	},
+        {
+		"name": "Stock Exchange",
+		"hurryCostModifier": 25,
+                "uniques": ["[+10]% [Gold] [in this city]"],
+		"requiredTech": "Telegraph"
+	},
+        {
+		"name": "Blood Bank",
+                "maintenance": 2,
+                "food": 2,
+		"hurryCostModifier": 25,
+                "uniques": ["[+5]% [Happiness] [in this city]"],
+		"requiredTech": "Transfusion"
+	},
+        {
+		"name": "Red Cross Society",
+                "food": 1,
+		"hurryCostModifier": 25,
+                "uniques": ["[+5]% [Happiness] [in this city]"],
+		"requiredTech": "Transfusion"
+	},
+        {
+		"name": "Genetics Facility",
+                "science": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Transfusion"
+	},
+        {
+		"name": "Carpentry Workshop",
+		"gold": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [Forest]"],
+		"requiredTech": "Saw"
+	},
+{
+		"name": "Lighthouse",
+		"cost": 75,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]" ],
+		"requiredTech": "Gas Lighting"
+	},
+{
+		"name": "Stable",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]"],
+		"requiredTech": "Hunting Pets"
+	},
+{
+		"name": "Courthouse",
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]"],
+		"requiredTech": "Rifling"
+	},
+{
+		"name": "National College",
+		"cost": 125,
+		"science": 3,
+		"culture": 1,
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Requires a [Library] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Scientific Theory"
+	},
+        {
+		"name": "Anatomy Laboratory",
+		"cost": 125,
+		"science": 2,
+		"culture": 3,
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Requires a [Library] in all cities", "Cost increases by [10] per owned city"],
+		"requiredTech": "Biology"
+	},
+{
+		"name": "Amphitheater",
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Opera"
+	},
+        {
+		"name": "Novel Library",
+		"culture": 2,
+		"specialistSlots": {"Artist": 3},
+		"requiredBuilding": "Library",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Novel"
+	},
+        {
+		"name": "Explorer Books",
+		"culture": 1,
+                "happiness": 2,
+		"requiredBuilding": "Library",
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Novel"
+	},
+        {
+		"name": "Dinosaur Park",
+		"science": 3,
+		"specialistSlots": {"Artist": 3},
+		"requiredBuilding": "Monument",
+		"maintenance": 4,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Biology"
+	},
+        {
+		"name": "Laboratory",
+		"science": 1,
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Monument",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Archaeology"
+	},
+        {
+		"name": "Psychoanalytic Clinic",
+		"happiness": 2,
+		"requiredBuilding": "Monument",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Psychoanalysis"
+	},
+        {
+		"name": "Freudian Museum",
+		"culture": 2,
+		"requiredBuilding": "Monument",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Psychoanalysis"
+	},
+        {
+		"name": "Dream Laboratory",
+		"science": 1,
+		"requiredBuilding": "Monument",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Psychoanalysis"
+	},
+        {
+		"name": "Campus",
+		"science": 1,
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Monument",
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured", "[+10]% Great Person generation [in this city]", "Cost increases by [20] per owned city"],
+		"requiredTech": "Archaeology"
+	},
+	{
+		"name": "National Epic",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
+		"requiredTech": "Archaeology"
+	},
+	{
+		"name": "Market",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Vaccine"
+	},
+        {
+		"name": "Botanical Garden",
+		"culture": 2,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"culture": 25},
+		"requiredTech": "Biology"
+	},
+{
+		"name": "Mint",
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]"],
+		"requiredTech": "Mining"
+	},
+        {
+		"name": "Stone Exploitation",
+		"maintenance": 2,
+		"requiredNearbyImprovedResources": ["Stone"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Stone] tiles [in this city]"],
+		"requiredTech": "Mining"
+	},
+{
+		"name": "Garden",
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Scientific Theory"
+	},
+        {
+		"name": "Science Gossip Museum",
+		"uniques": ["[+15]% Great Person generation [in this city]", "Must be next to [Lakes]"],
+		"hurryCostModifier": 25,
+		"science": 1,
+		"requiredTech": "Biology"
+	},
+{
+		"name": "Grand Temple",
+		"cost": 125,
+		"culture": 1,
+		"faith": 8,
+		"uniques": ["Cost increases by [30] per owned city",
+			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
+		"requiredTech": "Telegraph",
+		"isNationalWonder": true
+	},
+{
+		"name": "National Treasury",
+		"cost": 125,
+		"gold": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Market] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Railway"
+	},
+{
+		"name": "Workshop",
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Rifling"
+	},
+{
+		"name": "Forge",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Coal"],
+		"requiredTech": "Industrialization",
+		"uniques": [
+			"[+15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] from [Coal] tiles [in this city]"]
+	},
+{
+		"name": "Harbor",
+		"cost": 120,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water","Must be next to [Coast]"],
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "University",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
+		"requiredTech": "Archaeology"
+	},
+{
+		"name": "Observatory",
+		"maintenance": 0,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 50},
+		"requiredBuilding": "Library",
+		"uniques": ["Must be next to [Mountain]"],
+		"requiredTech": "Steam Power"
+	},
+	{
+		"name": "Opera House",
+		"culture": 4,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Opera",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+{
+		"name": "Bank",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
+		"requiredTech": "Electricity"
+	},
+{
+		"name": "Theatre",
+		"happiness": 3,
+		"hurryCostModifier": 10,
+		"maintenance": 2,
+		"requiredTech": "Opera"
+	},
+{
+		"name": "Seaport",
+		"hurryCostModifier": 25,
+		"maintenance": 3,
+		"requiredBuilding": "Harbor",
+		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Steam Power"
+	},
+	{
+		"name": "Hermitage",
+		"cost": 125,
+		"percentStatBonus": {"culture": 50},
+		"culture": 5,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Opera House] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Electricity"
+	},
+{
+		"name": "Museum",
+		"culture": 5,
+		"specialistSlots": {"Artist": 2},
+		"requiredBuilding": "Opera House",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Psychoanalysis",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+{
+		"name": "Factory",
+		"cost": 360,
+		"production": 4,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Workshop",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredResource": "Coal",
+		"requiredTech": "Electricity"
+	},
+{
+		"name": "Hospital",
+		"food": 5,
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredTech": "Transfusion"
+	},
+]

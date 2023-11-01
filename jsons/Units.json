@@ -1,0 +1,227 @@
+[
+
+	// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
+        	{
+		"name": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can hurry technology research",
+            "Can instantly construct a [Academy] improvement <by consuming this unit>",
+            "Great Person - [Science]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
+			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": ["Can speed up construction of a building",
+            "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
+            "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Prophet",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	/* Ancient Era */
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 70
+	},
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Explorer",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 6,
+		"cost": 40,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Line Infantry",
+                "requiredTech": "Rifling",
+		"obsoleteTech": "Military Science",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 12,
+		"cost": 55,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Skrimisher",
+                "requiredTech": "Industrialization",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Ranged Gunpowder",
+                "range": 2,
+		"movement": 3,
+		"strength": 9,
+                "rangedStrength": 6,
+		"cost": 55,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Partisan",
+                "requiredTech": "Railway",
+                "obsoleteTech": "Dynamite",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 10,
+		"cost": 66, 
+                "uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+        },
+        {
+		"name": "Halberdier",
+                "requiredTech": "Dynamite",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 20,
+		"cost": 80, 
+                "uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+        },
+        {
+		"name": "Hussar",
+                "requiredTech": "Military Science",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 80, 
+                "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+        },
+        {
+		"name": "Cuirassier",
+                "requiredTech": "Novel",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 25,
+		"cost": 120, 
+                "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+        },
+        {
+		"name": "Dragoon",
+                "requiredTech": "Military Science",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 15,
+                "rangedStrength": 10,
+		"cost": 150, 
+                "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+        },
+        {
+		"name": "Grenadier",
+                "requiredTech": "Dynamite",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 20,
+		"cost": 70,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Foot Artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 30,
+		"cost": 185,
+		"requiredTech": "Artillery",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
+		"attackSound": "cannon"
+	},
+        {
+		"name": "Mortar",
+                "range": 2,
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 50,
+		"cost": 210,
+		"requiredTech": "Artillery",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[+1] Sight","Never appears as a Barbarian unit"],
+		"attackSound": "cannon"
+	},
+        {
+		"name": "Privateer",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 16,
+		"cost": 150,
+		"promotions": ["Coastal Raider I"],
+		"uniques": ["May capture killed [Water] units"],
+		"attackSound": "cannon"
+	},
+        {
+		"name": "Frigate",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 23,
+		"rangedStrength": 28,
+		"cost": 185,
+		"requiredTech": "Steam Power",
+		"hurryCostModifier": 20,
+		"attackSound": "cannon"
+	},
+        {
+		"name": "Ironclad",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 46,
+		"cost": 250,
+		"requiredTech": "Steam Power",
+		"requiredResource": "Coal",
+		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
+		"attackSound": "shipguns"
+	},
+
+]
