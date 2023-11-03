@@ -14,6 +14,83 @@
 		"uniques": ["Indicates the capital city"]
 	},
         {
+		"name": "Pentagon",
+		"isWonder": true,
+		"culture": 3,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>"],
+		"requiredTech": "Atomic Theory",
+		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
+	},
+        {
+		"name": "Manhattan Project",
+		"cost": 750,
+		"isNationalWonder": true,
+		"uniques": ["Enables nuclear weapon", "Triggers a global alert upon completion", "Cannot be hurried"],
+		"requiredTech": "Atomic Bomb"
+	},
+        {
+		"name": "Stadium",
+		"happiness": 4,
+		"requiredBuilding": "Theatre",
+		"maintenance": 2,
+		"requiredTech": "Telecommunications"
+	},
+        {
+		"name": "Military Academy",
+		"hurryCostModifier": 0,
+		"uniques": ["New [Military] units start with [35] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Synthetic Rubber"
+	},
+        {
+		"name": "Hydro Plant",
+		"requiredResource": "Aluminum",
+		"hurryCostModifier": 0,
+		"maintenance": 3,
+		"uniques": ["Must be on [River]","[+1 Production] from [River] tiles [in this city]"],
+		"requiredTech": "Synthetic Rubber"
+	},
+        {
+		"name": "Public School",
+		"science": 3,
+		"specialistSlots": {"Scientist": 1},
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Science] per [2] population [in this city]", "Only available <in cities without a [Private School]>"],
+		"requiredTech": "Sanitation"
+	},
+        {
+		"name": "Private School",
+		"gold": 3,
+		"specialistSlots": {"Scientist": 1},
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Science] per [2] population [in this city]", "Only available <in cities without a [Public School]>"],
+		"requiredTech": "Sanitation"
+	},
+        {
+		"name": "Solar Plant",
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"maintenance": 3,
+		"requiredTech": "Enigma",
+		"uniques": ["Must be next to [Desert]", "Only available <in cities without a [Nuclear Plant]>"]
+	},
+        {
+		"name": "Recycling Center",
+		"maintenance": 3,
+		"requiredTech": "Enigma",
+		"uniques": ["Provides [2] [Aluminum]","Limited to [5] per Civilization"]
+	},
+        {
+		"name": "Nuclear Plant",
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"maintenance": 3,
+		"requiredResource": "Uranium",
+		"requiredTech": "Nuclear Energy",
+		"uniques": ["Only available <in cities without a [Solar Plant]>"]
+	},
+        {
 		"name": "Walls",
 		"cityStrength": 5,
 		"cityHealth": 50,
@@ -54,6 +131,13 @@
 		"name": "Monument",
 		"culture": 2,
 		"cost": 40,
+		"hurryCostModifier": 40,
+		"uniques": ["Destroyed when the city is captured"]
+	}
+        {
+		"name": "Temple",
+		"faith": 4,
+		"cost": 100,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"]
@@ -171,6 +255,44 @@
 		"requiredTech": "Antibiotic"
 	},
         {
+		"name": "Pharmaceutical Laboratory",
+                "gold": 3,
+		"hurryCostModifier": 25,
+                "uniques": ["[+25]% [Happiness] [in this city]"],
+		"requiredTech": "Pharmaceuticals"
+	},
+        {
+		"name": "Medical Lab",
+                "food": 3,
+		"hurryCostModifier": 25,
+                "uniques": ["[25]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Pharmaceuticals"
+	},
+        {
+		"name": "Composites Fabric",
+                "production": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Composites"
+	},
+        {
+		"name": "Space Ship Design Center",
+                "science": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Composites"
+	},
+        {
+		"name": "Military hospital",
+		"hurryCostModifier": 25,
+                "uniques": ["[+25]% [Faith] [in this city]"],
+		"requiredTech": "Penicillin"
+	},
+        {
+		"name": "Bandage Workshop",
+		"hurryCostModifier": 25,
+                "uniques": ["[+15]% [Food] [in this city]"],
+		"requiredTech": "Penicillin"
+	},
+        {
 		"name": "Immunization Center",
                 "maintenance": 1,
 		"production": 1,
@@ -259,6 +381,29 @@
 		"requiredTech": "Transfusion"
 	},
         {
+		"name": "Diplomatic Intelligence",
+                "science": 1,
+		"hurryCostModifier": 25,
+                "uniques": ["[+15]% [Science] [in this city]"],
+		"requiredTech": "Guidance Systems"
+	},
+        {
+		"name": "Propaganda",
+                "happiness": 1,
+                "culture": 2,
+		"hurryCostModifier": 25,
+                "uniques": ["[+15]% [Happiness] [in this city]"],
+		"requiredTech": "Advanced Flight"
+	},
+        {
+		"name": "Cartoon Propaganda",
+                "happiness": 3,
+                "gold": 2,
+		"hurryCostModifier": 25,
+                "uniques": ["[+15]% [Happiness] [in this city]"],
+		"requiredTech": "Telecommunications"
+	},
+        {
 		"name": "Genetics Facility",
                 "science": 2,
 		"hurryCostModifier": 25,
@@ -270,6 +415,14 @@
 		"hurryCostModifier": 25,
 		"uniques": ["Must be on [Forest]"],
 		"requiredTech": "Saw"
+	},
+        {
+		"name": "Geothermical Plant",
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"maintenance": 2,
+		"requiredTech": "Nuclear Energy",
+		"uniques": ["Must be next to [Atoll]"]
 	},
 {
 		"name": "Lighthouse",
@@ -677,5 +830,33 @@
                 "uniques": ["[Great Artist] is earned [50]% faster"],
 		"hurryCostModifier": 0,
 		"requiredTech": "Radio"
+	},
+        {
+		"name": "Precarious  Housing",
+                "food": 2,
+                "uniques": ["[Great Artist] is earned [20]% faster"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Aerosol Can"
+	},
+        {
+		"name": "Nanotechnology Laboratory",
+                "maintenance": 1,
+                "uniques": ["[+1 Production] from [Mine] tiles [in this city]"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Aerosol Can"
+	},
+        {
+		"name": "Space observatory",
+                "science": 2,
+                "uniques": ["[+15]% [Science] [in this city]"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Satellites"
+	},
+        {
+		"name": "Communications Station",
+                "maintenance": 1,
+                "uniques": ["[+15]% [Culture] [in this city]"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Satellites"
 	},
 ]

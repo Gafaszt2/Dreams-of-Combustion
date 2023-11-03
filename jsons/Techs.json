@@ -193,7 +193,7 @@
 			{
 				"name": "Electrical Refrigeration",
 				"row": 4,
-				"prerequisites": ["Transfusion", "Biology"],
+				"prerequisites": ["Transfusion", "Electricity"],
 			},
 			{
 				"name": "Flight",
@@ -203,7 +203,7 @@
                         {
 				"name": "Replaceable Parts",
 				"row": 8,
-				"prerequisites": ["Electricity"],
+				"prerequisites": ["Electricity","Biology"],
 			},
                         {
 				"name": "Combustion",
@@ -249,7 +249,7 @@
         {
 		"columnNumber": 7,
 		"era": "Second World War",
-		"techCost": 750000000,
+		"techCost": 750,
 		"buildingCost": 360,
 		"wonderCost": 300,
 		"techs": [
@@ -295,7 +295,9 @@
 			{
 				"name": "Satellites", 
 				"row": 2,
+                                "uniques": ["Reveals the entire map"],
 				"prerequisites": ["Atomic Theory", "Advanced Flight"],
+                                "quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson"
 			},
                         {
 				"name": "Nuclear Energy", 
