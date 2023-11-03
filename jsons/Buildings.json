@@ -40,6 +40,16 @@
 		"requiredTech": "Artillery",
 		"uniques": ["Destroyed when the city is captured"]
 	},
+        {
+		"name": "Trenchs",
+		"cost": 300,
+		"cityStrength": 15,
+		"cityHealth": 40,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Arsenal",
+		"requiredTech": "Replaceable Parts",
+		"uniques": ["Destroyed when the city is captured"]
+	},
 	{
 		"name": "Monument",
 		"culture": 2,
@@ -509,9 +519,8 @@
 		"name": "Observatory",
 		"maintenance": 0,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 50},
 		"requiredBuilding": "Library",
-		"uniques": ["Must be next to [Mountain]"],
+		"uniques": ["Must be next to [Mountain]", "[+1 Science] per [2] population [in this city]"],
 		"requiredTech": "Steam Power"
 	},
 	{
@@ -568,7 +577,7 @@
 		"requiredTech": "Psychoanalysis",
 		"uniques": ["Destroyed when the city is captured"]
 	},
-{
+        {
 		"name": "Factory",
 		"cost": 360,
 		"production": 4,
@@ -580,11 +589,93 @@
 		"requiredResource": "Coal",
 		"requiredTech": "Electricity"
 	},
-{
+        {
 		"name": "Hospital",
 		"food": 5,
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"requiredTech": "Transfusion"
+	},
+        { 
+		"name": "Cold Room",
+		"food": 3,
+		"requiredBuilding": "Harbor",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Electrical Refrigeration"
+	},
+        {
+		"name": "Cryogenic Laboratory",
+		"science": 3,
+		"requiredBuilding": "Laboratory",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredResource": "Aluminum",
+		"requiredTech": "Electrical Refrigeration"
+	},
+        {
+		"name": "Radio Station",
+		"culture": 3,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Electronics"
+	},
+        {
+		"name": "Electronic Laboratory",
+		"science": 3,
+		"requiredBuilding": "Laboratory",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredResource": "Aluminum",
+		"requiredTech": "Electronics"
+	},
+        {
+		"name": "Central bank",
+		"gold": 1,
+                "happiness": 1,
+		"hurryCostModifier": 0,
+		"requiredTech": "Economics"
+	},
+        {
+		"name": "Stock market",
+		"gold": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Economics"
+	},
+        {
+		"name": "Armor Plate Factory",
+                "maintenance": 2,
+                "uniques": ["[+15]% Production when constructing [Armored] units [in this city]"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Tanks"
+	},
+        {
+		"name": "Great War Arsenal",
+                "maintenance": 2,
+                "uniques": ["[+15]% Production when constructing [Gunpowder] units [in this city]"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Ballistics"
+	},
+        {
+		"name": "Hangar",
+                "maintenance": 2,
+                "uniques": ["[+15]% Production when constructing [Fighter] units [in this city]"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Flight"
+	},
+        {
+		"name": "Chemistry Laboratory",
+                "maintenance": 2,
+                "uniques": ["[+1 Science] from [Atoll] tiles [in this city]", "[+1 Science] from [Jungle] tiles [in this city]"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Chemistry"
+	},
+        {
+		"name": "Radio Antenna",
+                "maintenance": 2,
+                "uniques": ["[Great Artist] is earned [50]% faster"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Radio"
 	},
 ]

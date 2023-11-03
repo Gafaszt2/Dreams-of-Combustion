@@ -121,6 +121,7 @@
         {
 		"name": "Halberdier",
                 "requiredTech": "Dynamite",
+                "obsoleteTech": "Replaceable Parts",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 20,
@@ -130,6 +131,7 @@
         },
         {
 		"name": "Hussar",
+                "obsoleteTech": "Replaceable Parts",
                 "requiredTech": "Military Science",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -140,6 +142,7 @@
         },
         {
 		"name": "Cuirassier",
+                "obsoleteTech": "Replaceable Parts",
                 "requiredTech": "Novel",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -150,6 +153,7 @@
         },
         {
 		"name": "Dragoon",
+                "obsoleteTech": "Replaceable Parts",
                 "requiredTech": "Military Science",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -160,7 +164,18 @@
 		"attackSound": "shot"
         },
         {
+		"name": "Cavalry",
+                "requiredTech": "Replaceable Parts",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 30,
+		"cost": 210, 
+                "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+        },
+        {
 		"name": "Grenadier",
+                "obsoleteTech": "Replaceable Parts",
                 "requiredTech": "Dynamite",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -169,7 +184,100 @@
 		"attackSound": "shot"
         },
         {
+		"name": "Rifleman",
+                "upgradesTo": "Great War Infantry",
+		"obsoleteTech": "Ballistics",
+                "requiredTech": "Replaceable Parts",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 40,
+		"cost": 150,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Great War Infantry",
+                "requiredTech": "Ballistics",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 45,
+		"cost": 160,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Landship",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 60,
+		"cost": 350,
+		"requiredTech": "Tanks",
+		"requiredResource": "Oil",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+        {
+		"name": "Destroyer",
+		"unitType": "Melee Water",
+		"movement": 6,
+		"strength": 60,
+		"interceptRange": 2,
+		"cost": 350,
+		"requiredTech": "Radio",
+		"uniques": ["Can see invisible [Submarine] units", "[40]% chance to intercept air attacks",
+			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>"],
+		"attackSound": "shipguns"
+	},
+       {
+		"name": "Triplane",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 35,
+		"rangedStrength": 35,
+		"range": 5,
+		"interceptRange": 5,
+		"cost": 325,
+		"requiredTech": "Flight",
+		"requiredResource": "Oil",
+		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "machinegun"
+	},
+        {
+		"name": "Great War Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 6,
+		"cost": 325,
+		"requiredTech": "Chemistry",
+		"requiredResource": "Oil",
+		"attackSound": "bombing"
+	},
+        {
+		"name": "Gatling Gun",
+                "requiredTech": "Combustion",
+		"unitType": "Ranged Gunpowder",
+                "range": 2,
+		"movement": 3,
+		"strength": 20,
+                "rangedStrength": 40,
+		"cost": 210,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Heavy Artillery",
+                "range": 2,
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 25,
+		"rangedStrength": 70,
+		"cost": 320,
+		"requiredTech": "Combustion",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[+1] Sight","Never appears as a Barbarian unit"],
+		"attackSound": "cannon"
+	},
+        {
 		"name": "Foot Artillery",
+                "obsoleteTech": "Combustion",
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 20,
@@ -181,6 +289,7 @@
 	},
         {
 		"name": "Mortar",
+                "obsoleteTech": "Combustion",
                 "range": 2,
 		"unitType": "Siege",
 		"movement": 2,

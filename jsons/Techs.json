@@ -181,7 +181,7 @@
         {
 		"columnNumber": 5,
 		"era": "First World War",
-		"techCost": 5000000000,
+		"techCost": 600,
 		"buildingCost": 300,
 		"wonderCost": 300,
 		"techs": [
@@ -215,14 +215,14 @@
         {
 		"columnNumber": 6,
 		"era": "First World War",
-		"techCost": 650,
+		"techCost": 700,
 		"buildingCost": 320,
 		"wonderCost": 300,
 		"techs": [
 			{
 				"name": "Ballistics", 
 				"row": 2,
-				"prerequisites": ["Radio", "Combustion"],
+				"prerequisites": ["Radio", "Flight"],
 			},
 			{
 				"name": "Electronics",
@@ -237,7 +237,7 @@
                         {
 				"name": "Tanks",
 				"row": 6,
-				"prerequisites": ["Flight"],
+				"prerequisites": ["Combustion"],
 			},
                         {
 				"name": "Chemistry",
@@ -249,7 +249,7 @@
         {
 		"columnNumber": 7,
 		"era": "Second World War",
-		"techCost": 750,
+		"techCost": 750000000,
 		"buildingCost": 360,
 		"wonderCost": 300,
 		"techs": [
