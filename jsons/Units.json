@@ -212,6 +212,7 @@
 		"cost": 230,
 		"attackSound": "shot"
         },
+       
         {
 		"name": "Anti-Tank Gun",
                 "requiredTech": "Plastics",
@@ -243,6 +244,83 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
+        {
+		"name": "Zouave",
+                "uniqueTo": "French Empire",
+                "replaces": "Skrimisher",
+                "requiredTech": "Industrialization",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Ranged Gunpowder",
+                "range": 2,
+		"movement": 3,
+                 "uniques": ["Excess Food converted to Production when under construction", "Never appears as a Barbarian unit"],
+		"strength": 10,
+                "rangedStrength": 7,
+		"cost": 60,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Foreign Legion",
+                "uniqueTo": "French Empire",
+                "replaces": "Great War Infantry",
+                "requiredTech": "Ballistics",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 47,
+                "uniques": ["[+20]% to Flank Attack bonuses", "Never appears as a Barbarian unit"],
+		"cost": 165,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Fasci di Combattimento",
+                "uniqueTo": "Italian Empire",
+                "replaces": "Anti-Tank Gun",
+                "requiredTech": "Plastics",
+		"unitType": "Gunpowder",
+		"movement": 4,
+		"strength": 50,
+                "uniques": ["[+50]% Strength <vs [Armored] units>", "[+10]% Strength <when fighting in [Tundra] tiles> <when attacking>", "Never appears as a Barbarian unit"],
+		"cost": 300,
+		"attackSound": "horse"
+        },
+        {
+		"name": "Legion",
+                "uniqueTo": "Italian Empire",
+                "replaces": "Infantry",
+                "requiredTech": "Plastics",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 55,
+		"cost": 230,
+                "uniques": ["Never appears as a Barbarian unit", "[+10]% Strength <when fighting in [Tundra] tiles> <when attacking>"],
+		"attackSound": "shot"
+        },
+        {
+		"name": "Cantonist",
+                "uniqueTo": "Russian Empire",
+                "replaces": "Line Infantry",
+                "requiredTech": "Rifling",
+		"obsoleteTech": "Military Science",
+		"unitType": "Gunpowder",
+		"movement": 2.5,
+		"strength": 11,
+		"cost": 44,
+                "uniques": ["[+10]% Strength <when fighting in [Tundra] tiles> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+        },
+        {
+		"name": "Cossack",
+                "uniqueTo": "Russian Empire",
+                "replaces": "Hussar",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Military Science",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 19,
+		"cost": 60, 
+                "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+        },
         {
 		"name": "Schutzstaffel",
                 "uniqueTo": "German Empire",
