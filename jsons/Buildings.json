@@ -91,6 +91,29 @@
 		"uniques": ["Only available <in cities without a [Solar Plant]>"]
 	},
         {
+		"name": "Communist Wall",
+		"cost": 500,
+                "production": 3,
+		"cityStrength": 25,
+		"cityHealth": 60,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Trenchs",
+		"requiredTech": "Reconstruction",
+		"uniques": ["Destroyed when the city is captured", "Only available <in cities without a [Capitalist Wall]>"]
+	},
+        {
+		"name": "Capitalist Wall",
+		"cost": 500,
+                "gold": 5,
+                "happiness": 2,
+		"cityStrength": 25,
+		"cityHealth": 60,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Trenchs",
+		"requiredTech": "Reconstruction",
+		"uniques": ["Destroyed when the city is captured", "Only available <in cities without a [Communist Wall]>"]
+	},
+        {
 		"name": "Walls",
 		"cityStrength": 5,
 		"cityHealth": 50,
@@ -127,6 +150,37 @@
 		"requiredTech": "Replaceable Parts",
 		"uniques": ["Destroyed when the city is captured"]
 	},
+        {
+		"name": "Snow Bunker",
+                "uniqueTo": "Finland",
+                "replaces": "Trenchs",
+		"cost": 300,
+		"cityStrength": 15,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Arsenal",
+		"requiredTech": "Replaceable Parts",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "Bomb Shelter",
+		"cost": 500,
+		"cityStrength": 20,
+		"cityHealth": 60,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Trenchs",
+		"requiredTech": "Coexistency",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "National Visitor Center",
+		"culture": 2,
+                "production": 4,
+                "requiredTech": "Coexistency",
+		"cost": 400,
+		"hurryCostModifier": 20,
+		"uniques": ["Destroyed when the city is captured"]
+	}
 	{
 		"name": "Monument",
 		"culture": 2,
@@ -271,6 +325,14 @@
         {
 		"name": "Composites Fabric",
                 "production": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Composites"
+	},
+        {
+		"name": "Zaibatsu Fabric",
+                "uniqueTo": "Empire of the Rising Sun",
+                "replaces": "Composites Fabric",
+                "production": 5,
 		"hurryCostModifier": 25,
 		"requiredTech": "Composites"
 	},
@@ -804,6 +866,20 @@
 		"requiredTech": "Tanks"
 	},
         {
+		"name": "Military Factory",
+                "production": 2,
+                "uniques": ["[+5]% Production when constructing [Armored] units [in this city]"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Post War"
+	},
+        {
+		"name": "Peace Conferency",
+                "happiness": 2,
+                "uniques": ["[+15]% Production when constructing [Gunpowder] units [in this city]"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Post War"
+	},
+        {
 		"name": "Great War Arsenal",
                 "maintenance": 2,
                 "uniques": ["[+15]% Production when constructing [Gunpowder] units [in this city]"],
@@ -832,7 +908,7 @@
 		"requiredTech": "Radio"
 	},
         {
-		"name": "Precarious  Housing",
+		"name": "Precarious Housing",
                 "food": 2,
                 "uniques": ["[Great Artist] is earned [20]% faster"],
 		"hurryCostModifier": 0,
@@ -858,5 +934,27 @@
                 "uniques": ["[+15]% [Culture] [in this city]"],
 		"hurryCostModifier": 0,
 		"requiredTech": "Satellites"
+	},
+        {
+		"name": "Fruit Market",
+                "maintenance": 1,
+                "uniques": ["[+15]% [Food] [in this city]", "Only available <in cities without a [Home Appliances Market]>"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Free Market"
+	},
+        {
+		"name": "Home Appliances Market",
+                "maintenance": 1,
+                "uniques": ["[+15]% [Gold] [in this city]", "Only available <in cities without a [Fruit Market]>"],
+		"hurryCostModifier": 0,
+		"requiredTech": "Free Market"
+	},
+        {
+		"name": "Apollo Program",
+		"cost": 750,
+		"isNationalWonder": true,
+		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion",
+			"Hidden when [Scientific] Victory is disabled", "Cannot be hurried"],
+		"requiredTech": "Space Race"
 	},
 ]

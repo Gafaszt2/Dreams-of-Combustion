@@ -59,9 +59,45 @@
         "settlerPopulation": 2,
         "baseUnitBuyCost": 300,
         "embarkDefense": 8,
+        "settlerBuildings": ["Telegraph Station","News Agency","Stock Exchange","Workshop","Library","Paper Maker","Granary","Walls","Dentist Office","Immunization Center","Monument","Novel Library","Explorer Books","Cold Storage Warehouse","Ice Cream Parlor","Refrigerated Train","Vaccine Laboratory","Daguerreotype Studio","Calotype Workshop","Photographic Society","Collodion Factory","Sanatorium","Sewer","Housing"],
         "startPercent": 37,
         "uniques": ["Every major Civilization gains a spy once a civilization enters this era"],
         "iconRGB": [104, 58, 183]
+        "uniques": ["May not generate great prophet equivalents naturally"]
+       },
+       {
+        "name": "Cold War",
+        "researchAgreementCost": 350,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 2,
+        "startingMilitaryUnitCount": 4,
+        "startingMilitaryUnit": "Explorer",
+        "startingGold": 2500,
+        "settlerBuildings": ["Telegraph Station","News Agency","Stock Exchange","Workshop","Library","Paper Maker","Granary","Walls","Dentist Office","Immunization Center","Monument","Novel Library","Explorer Books","Cold Storage Warehouse","Ice Cream Parlor","Refrigerated Train","Vaccine Laboratory","Daguerreotype Studio","Calotype Workshop","Photographic Society","Collodion Factory","Sanatorium","Sewer","Housing"],
+        "startingCulture": 300,
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 6,
+        "startPercent": 25,
+        "iconRGB": [157, 39, 176]
+        "uniques": ["May not generate great prophet equivalents naturally"
+        ]
+        },
+       {
+        "name": "Post Cold War",
+        "researchAgreementCost": 350,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 2,
+        "startingMilitaryUnitCount": 4,
+        "startingMilitaryUnit": "Explorer",
+        "startingGold": 2500,
+        "settlerBuildings": ["Telegraph Station","News Agency","Stock Exchange","Workshop","Library","Paper Maker","Granary","Walls","Dentist Office","Immunization Center","Monument","Novel Library","Explorer Books","Cold Storage Warehouse","Ice Cream Parlor","Refrigerated Train","Vaccine Laboratory","Daguerreotype Studio","Calotype Workshop","Photographic Society","Collodion Factory","Sanatorium","Sewer","Housing"],
+        "startingCulture": 300,
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 6,
+        "startPercent": 25,
+        "iconRGB": [157, 39, 176]
         "uniques": ["May not generate great prophet equivalents naturally"
         ]
     }

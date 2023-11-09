@@ -369,5 +369,151 @@
 				"prerequisites": ["Telecommunications","Sanitation"],
 			}
 		]
+	},
+        {
+		"columnNumber": 10,
+		"era": "Cold War",
+		"techCost": 1200,
+		"buildingCost": 500,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Post War", 
+				"row": 2,
+				"prerequisites": ["Atomic Bomb"],
+			},
+                        {
+				"name": "Coexistency", 
+				"row": 4,
+				"prerequisites": ["Enigma", "Aerosol Can"],
+			},
+                        {
+				"name": "SALT Agreements", 
+				"row": 5,
+				"prerequisites": ["Penicillin", "Synthetic Rubber"],
+			},
+			{
+				"name": "Truman Doctrine",
+				"row": 7,
+				"prerequisites": ["Atomic Bomb","Enigma"],
+			},
+                        {
+				"name": "Arms Race",
+				"row": 9,
+				"prerequisites": ["Pressurized Cabin"],
+			}
+		]
+	},
+        {
+		"columnNumber": 11,
+		"era": "Cold War",
+		"techCost": 1200,
+		"buildingCost": 500,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Space Race", 
+				"row": 2,
+				"prerequisites": ["Truman Doctrine"],
+			},
+                        {
+				"name": "Korea War", 
+				"row": 4,
+				"prerequisites": ["Arms Race", "Truman Doctrine"],
+			},
+                        {
+				"name": "Vietnam War", 
+				"row": 5,
+				"prerequisites": ["SALT Agreements", "Post War"],
+			},
+			{
+				"name": "Reconstruction",
+				"row": 7,
+				"prerequisites": ["Arms Race","Coexistency"],
+			},
+                        {
+				"name": "Free Market",
+				"row": 9,
+				"prerequisites": ["Coexistency"],
+			}
+		]
+	},
+        {
+		"columnNumber": 12,
+		"era": "Post Cold War",
+		"techCost": 1200000,
+		"buildingCost": 500,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Globalization", 
+				"row": 2,
+				"prerequisites": ["Free Market","Reconstruction"],
+			},
+                        {
+				"name": "International Trade Agreements", 
+				"row": 3,
+				"prerequisites": ["Korea War", "Reconstruction"],
+			},
+                        {
+				"name": "Afganistan/Irak Wars", 
+				"row": 4,
+				"prerequisites": ["Korea War", "Vietnam War"],
+			},
+                        {
+				"name": "Paris Agreements",
+				"row": 7,
+				"prerequisites": ["Vietnam War"],
+			},
+			{
+				"name": "Personal Computing",
+				"row": 8,
+				"prerequisites": ["Space Race"],
+			},
+                        {
+				"name": "NAFTA",
+				"row": 9,
+				"prerequisites": ["Reconstruction"],
+			}
+		]
+	},
+        {
+		"columnNumber": 13,
+		"era": "Post Cold War",
+		"techCost": 1200,
+		"buildingCost": 500,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Internet", 
+				"row": 2,
+				"prerequisites": ["Globalization", "International Trade Agreements"],
+			},
+                        {
+				"name": "European Union", 
+				"row": 3,
+				"prerequisites": ["Paris Agreements", "NAFTA"],
+			},
+                        {
+				"name": "Artificial Intelligence", 
+				"row": 4,
+				"prerequisites": ["Afganistan/Irak Wars", "NAFTA"],
+			},
+                        {
+				"name": "Smarthphones",
+				"row": 7,
+				"prerequisites": ["Personal Computing", "International Trade Agreements"],
+			},
+			{
+				"name": "Social Media",
+				"row": 8,
+				"prerequisites": ["Globalization", "Personal Computing"],
+			},
+                        {
+				"name": "Cloud Computing",
+				"row": 9,
+				"prerequisites": ["Personal Computing", "International Trade Agreements"],
+			}
+		]
 	}
 ]

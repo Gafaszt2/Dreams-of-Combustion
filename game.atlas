@@ -6,672 +6,910 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Anatomy Laboratory
   rotate: false
-  xy: 4, 688
+  xy: 220, 904
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Armor Plate Factory
   rotate: false
-  xy: 4, 580
+  xy: 220, 796
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Bandage Workshop
   rotate: false
-  xy: 328, 904
+  xy: 328, 796
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Blood Bank
   rotate: false
-  xy: 220, 688
+  xy: 112, 472
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Botanical Garden
   rotate: false
-  xy: 328, 796
+  xy: 220, 580
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Calotype Workshop
   rotate: false
-  xy: 4, 364
+  xy: 436, 796
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Campus
   rotate: false
-  xy: 112, 472
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Carpentry Workshop
-  rotate: false
-  xy: 328, 688
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Cartoon Propaganda
-  rotate: false
-  xy: 436, 796
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Central bank
-  rotate: false
   xy: 544, 904
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Chemistry Laboratory
+BuildingIcons/Capitalist Wall
   rotate: false
   xy: 112, 364
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Clinic
+BuildingIcons/Carpentry Workshop
+  rotate: false
+  xy: 220, 472
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cartoon Propaganda
   rotate: false
   xy: 328, 580
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Cold Room
+BuildingIcons/Central bank
   rotate: false
   xy: 436, 688
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Cold Storage Warehouse
-  rotate: false
-  xy: 544, 796
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Collodion Factory
+BuildingIcons/Chemistry Laboratory
   rotate: false
   xy: 652, 904
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Communications Station
-  rotate: false
-  xy: 4, 148
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Composites Fabric
-  rotate: false
-  xy: 220, 364
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Cryogenic Laboratory
-  rotate: false
-  xy: 328, 472
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Daguerreotype Studio
-  rotate: false
-  xy: 544, 688
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Dentist Office
-  rotate: false
-  xy: 652, 796
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Dinosaur Park
-  rotate: false
-  xy: 760, 904
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Diplomatic Intelligence
-  rotate: false
-  xy: 4, 40
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Dream Laboratory
-  rotate: false
-  xy: 220, 256
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Electronic Laboratory
-  rotate: false
-  xy: 436, 472
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Explorer Books
-  rotate: false
-  xy: 760, 796
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Freudian Museum
-  rotate: false
-  xy: 328, 256
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Genetics Facility
-  rotate: false
-  xy: 652, 580
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Geothermical Plant
-  rotate: false
-  xy: 760, 688
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Great War Arsenal
-  rotate: false
-  xy: 976, 904
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Hangar
-  rotate: false
-  xy: 544, 364
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Housing
-  rotate: false
-  xy: 760, 580
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Ice Cream Parlor
-  rotate: false
-  xy: 976, 796
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Immunization Center
-  rotate: false
-  xy: 1084, 904
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Laboratory
-  rotate: false
-  xy: 436, 148
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Military hospital
-  rotate: false
-  xy: 760, 472
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Museum of Medicine
-  rotate: false
-  xy: 1084, 796
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Nanotechnology Laboratory
-  rotate: false
-  xy: 1192, 904
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/News Agency
-  rotate: false
-  xy: 436, 40
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Novel Library
-  rotate: false
-  xy: 652, 256
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Pharmaceutical Laboratory
-  rotate: false
-  xy: 1192, 796
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Pharmacy
-  rotate: false
-  xy: 1300, 904
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Photographic Society
-  rotate: false
-  xy: 544, 40
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Precarious Housing
-  rotate: false
-  xy: 760, 256
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Private School
-  rotate: false
-  xy: 976, 472
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Propaganda
-  rotate: false
-  xy: 1084, 580
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Psychoanalytic Clinic
-  rotate: false
-  xy: 1300, 796
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Radio Antenna
-  rotate: false
-  xy: 1408, 904
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Radio Station
-  rotate: false
-  xy: 652, 40
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Red Cross Society
-  rotate: false
-  xy: 868, 256
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Refrigerated Train
-  rotate: false
-  xy: 1084, 472
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Sanatorium
-  rotate: false
-  xy: 1300, 688
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Sawmill
-  rotate: false
-  xy: 760, 40
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Science Gossip Museum
-  rotate: false
-  xy: 976, 256
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Sewer
-  rotate: false
-  xy: 1084, 364
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Space Ship Design Center
-  rotate: false
-  xy: 1300, 580
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Space observatory
-  rotate: false
-  xy: 1408, 688
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Stock market
-  rotate: false
-  xy: 1624, 904
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Stone Exploitation
-  rotate: false
-  xy: 868, 40
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Telegraph Station
-  rotate: false
-  xy: 1192, 364
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Trenchs
-  rotate: false
-  xy: 1408, 580
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Vaccine Laboratory
-  rotate: false
-  xy: 1624, 796
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/British Empire
-  rotate: false
-  xy: 436, 904
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/French Empire
-  rotate: false
-  xy: 220, 148
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/German Empire
-  rotate: false
-  xy: 868, 796
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Italian Empire
-  rotate: false
-  xy: 328, 40
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Russian Empire
-  rotate: false
-  xy: 1192, 580
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Spanish Empire
-  rotate: false
-  xy: 1516, 796
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Bison
-  rotate: false
-  xy: 112, 580
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Advanced Flight
-  rotate: false
-  xy: 4, 796
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Aerosol Can
-  rotate: false
-  xy: 112, 904
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Anesthesia
-  rotate: false
-  xy: 112, 796
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Antibiotic
-  rotate: false
-  xy: 220, 904
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Artillery
-  rotate: false
-  xy: 112, 688
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Atomic Bomb
-  rotate: false
-  xy: 220, 796
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Composites
+BuildingIcons/Clinic
   rotate: false
   xy: 112, 256
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Electrical Refrigeration
+BuildingIcons/Cold Room
   rotate: false
-  xy: 328, 364
+  xy: 328, 472
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Enigma
+BuildingIcons/Cold Storage Warehouse
+  rotate: false
+  xy: 436, 580
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Collodion Factory
+  rotate: false
+  xy: 544, 688
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Communications Station
+  rotate: false
+  xy: 652, 796
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Communist Wall
+  rotate: false
+  xy: 760, 904
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Composites Fabric
+  rotate: false
+  xy: 112, 148
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cryogenic Laboratory
+  rotate: false
+  xy: 220, 256
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Daguerreotype Studio
   rotate: false
   xy: 544, 580
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Fridge
+BuildingIcons/Dentist Office
   rotate: false
-  xy: 436, 364
+  xy: 760, 796
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Gas Lighting
+BuildingIcons/Dinosaur Park
   rotate: false
-  xy: 544, 472
+  xy: 868, 904
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Guidance Systems
+BuildingIcons/Diplomatic Intelligence
   rotate: false
-  xy: 328, 148
+  xy: 112, 40
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Hunting Pets
+BuildingIcons/Dream Laboratory
   rotate: false
-  xy: 868, 688
+  xy: 328, 256
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Mining
+BuildingIcons/Electronic Laboratory
+  rotate: false
+  xy: 652, 580
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Explorer Books
+  rotate: false
+  xy: 220, 40
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Freudian Museum
+  rotate: false
+  xy: 328, 40
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Fruit Market
+  rotate: false
+  xy: 544, 256
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Genetics Facility
+  rotate: false
+  xy: 760, 472
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Geothermical Plant
   rotate: false
   xy: 868, 580
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Novel
+BuildingIcons/Great War Arsenal
   rotate: false
-  xy: 544, 148
+  xy: 1192, 904
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Nuclear Energy
-  rotate: false
-  xy: 760, 364
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Opera
+BuildingIcons/Hangar
   rotate: false
   xy: 868, 472
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Penicillin
+BuildingIcons/Home Appliances Market
   rotate: false
   xy: 1084, 688
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Photography
+BuildingIcons/Housing
+  rotate: false
+  xy: 1192, 796
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Ice Cream Parlor
+  rotate: false
+  xy: 544, 40
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Immunization Center
   rotate: false
   xy: 652, 148
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Pressurized Cabin
+BuildingIcons/Laboratory
   rotate: false
-  xy: 868, 364
+  xy: 1084, 580
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Psychoanalysis
+BuildingIcons/Military Factory
   rotate: false
-  xy: 1192, 688
+  xy: 652, 40
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Railway
+BuildingIcons/Military hospital
   rotate: false
   xy: 760, 148
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Sanitation
+BuildingIcons/Museum of Medicine
+  rotate: false
+  xy: 1084, 472
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Nanotechnology Laboratory
+  rotate: false
+  xy: 1192, 580
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/National Visitor Center
+  rotate: false
+  xy: 1300, 688
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/News Agency
   rotate: false
   xy: 1408, 796
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Saw
+BuildingIcons/Novel Library
   rotate: false
-  xy: 1516, 904
+  xy: 868, 148
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Synthetic Rubber
+BuildingIcons/Peace Conferency
+  rotate: false
+  xy: 1408, 688
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Pharmaceutical Laboratory
+  rotate: false
+  xy: 868, 40
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Pharmacy
   rotate: false
   xy: 976, 148
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Tanks
+BuildingIcons/Photographic Society
   rotate: false
   xy: 1084, 256
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Transfusion
+BuildingIcons/Precarious Housing
   rotate: false
   xy: 1300, 472
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Vaccine
+BuildingIcons/Private School
   rotate: false
   xy: 1516, 688
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Propaganda
+  rotate: false
+  xy: 1732, 904
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Psychoanalytic Clinic
+  rotate: false
+  xy: 1084, 148
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Radio Antenna
+  rotate: false
+  xy: 1192, 256
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Radio Station
+  rotate: false
+  xy: 1300, 364
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Red Cross Society
+  rotate: false
+  xy: 1624, 688
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Refrigerated Train
+  rotate: false
+  xy: 1840, 904
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sanatorium
+  rotate: false
+  xy: 1408, 364
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sawmill
+  rotate: false
+  xy: 1732, 688
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Science Gossip Museum
+  rotate: false
+  xy: 1300, 148
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sewer
+  rotate: false
+  xy: 1408, 256
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Snow Bunker
+  rotate: false
+  xy: 1732, 580
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Space Ship Design Center
+  rotate: false
+  xy: 1300, 40
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Space observatory
+  rotate: false
+  xy: 1408, 148
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Stock market
+  rotate: false
+  xy: 1732, 472
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Stone Exploitation
+  rotate: false
+  xy: 1840, 580
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Telegraph Station
+  rotate: false
+  xy: 1624, 256
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Trenchs
+  rotate: false
+  xy: 1840, 472
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Vaccine Laboratory
+  rotate: false
+  xy: 1840, 364
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Zaibatsu Fabric
+  rotate: false
+  xy: 1732, 148
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+EmojIcons/Culture
+  rotate: false
+  xy: 1948, 954
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojIcons/Faith
+  rotate: false
+  xy: 1732, 90
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojIcons/Food
+  rotate: false
+  xy: 1840, 198
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojIcons/Gold
+  rotate: false
+  xy: 1948, 896
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojIcons/Production
+  rotate: false
+  xy: 1948, 838
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojIcons/Science
+  rotate: false
+  xy: 1948, 780
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+NationIcons/British Empire
+  rotate: false
+  xy: 328, 688
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Empire of the Rising Sun
+  rotate: false
+  xy: 760, 688
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Finland
+  rotate: false
+  xy: 652, 472
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/French Empire
+  rotate: false
+  xy: 1084, 904
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/German Empire
+  rotate: false
+  xy: 976, 688
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Italian Empire
+  rotate: false
+  xy: 868, 364
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Ottoman Empire
+  rotate: false
+  xy: 1192, 472
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Russian Empire
+  rotate: false
+  xy: 1192, 148
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Spanish Empire
+  rotate: false
+  xy: 1516, 256
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/United States of America
+  rotate: false
+  xy: 1624, 148
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Bison
+  rotate: false
+  xy: 4, 364
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Culture
+  rotate: false
+  xy: 436, 472
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Faith
+  rotate: false
+  xy: 328, 148
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Food
+  rotate: false
+  xy: 760, 580
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Gold
+  rotate: false
+  xy: 1084, 796
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Production
+  rotate: false
+  xy: 1624, 796
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Science
+  rotate: false
+  xy: 1192, 40
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Advanced Flight
+  rotate: false
+  xy: 112, 904
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Aerosol Can
+  rotate: false
+  xy: 112, 796
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Anesthesia
+  rotate: false
+  xy: 4, 580
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Antibiotic
+  rotate: false
+  xy: 112, 688
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Arms Race
+  rotate: false
+  xy: 328, 904
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Artillery
+  rotate: false
+  xy: 4, 472
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Atomic Bomb
+  rotate: false
+  xy: 112, 580
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Coexistency
+  rotate: false
+  xy: 220, 364
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Composites
+  rotate: false
+  xy: 4, 40
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Electrical Refrigeration
+  rotate: false
+  xy: 544, 472
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Enigma
+  rotate: false
+  xy: 868, 796
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Free Market
+  rotate: false
+  xy: 976, 796
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Fridge
+  rotate: false
+  xy: 436, 148
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Gas Lighting
+  rotate: false
+  xy: 652, 364
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Guidance Systems
+  rotate: false
+  xy: 652, 256
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Hunting Pets
+  rotate: false
+  xy: 1300, 904
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Korea War
+  rotate: false
+  xy: 976, 472
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Mining
+  rotate: false
+  xy: 868, 256
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Novel
+  rotate: false
+  xy: 760, 40
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Nuclear Energy
+  rotate: false
+  xy: 976, 256
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Opera
+  rotate: false
+  xy: 1084, 364
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Penicillin
+  rotate: false
+  xy: 1516, 796
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Photography
+  rotate: false
+  xy: 1192, 364
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Pressurized Cabin
+  rotate: false
+  xy: 1408, 580
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Psychoanalysis
+  rotate: false
+  xy: 976, 40
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Railway
+  rotate: false
+  xy: 1408, 472
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Reconstruction
+  rotate: false
+  xy: 1516, 580
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/SALT Agreements
+  rotate: false
+  xy: 1300, 256
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Sanitation
+  rotate: false
+  xy: 1516, 472
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Saw
+  rotate: false
+  xy: 1624, 580
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Space Race
+  rotate: false
+  xy: 1840, 688
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Synthetic Rubber
+  rotate: false
+  xy: 1408, 40
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Tanks
+  rotate: false
+  xy: 1516, 148
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Transfusion
+  rotate: false
+  xy: 1732, 364
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Truman Doctrine
+  rotate: false
+  xy: 1516, 40
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Vaccine
+  rotate: false
+  xy: 1732, 256
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Vietnam War
+  rotate: false
+  xy: 1624, 40
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -683,142 +921,205 @@ TileSets/FantasyHex/Units/Aduanero
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Advanced Tank
+  rotate: false
+  xy: 2006, 976
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Cantonist
   rotate: false
-  xy: 976, 112
+  xy: 1732, 54
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Chapelgorris
   rotate: false
-  xy: 1084, 220
+  xy: 1790, 112
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cherrybum
   rotate: false
-  xy: 1192, 327
+  xy: 1840, 161
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cuirassier
   rotate: false
-  xy: 1300, 435
+  xy: 1898, 219
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Deli
+  rotate: false
+  xy: 1948, 743
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Dragoon
   rotate: false
-  xy: 1408, 543
+  xy: 2006, 939
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Explorer
   rotate: false
-  xy: 1516, 652
+  xy: 44, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Fasci di Combattimento
   rotate: false
-  xy: 1624, 760
+  xy: 1948, 707
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Foot Artillery
   rotate: false
-  xy: 1732, 868
+  xy: 2006, 903
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Grenadier
   rotate: false
-  xy: 1840, 976
+  xy: 84, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Guerrilla Fighter
+  rotate: false
+  xy: 1948, 671
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Halberdier
   rotate: false
-  xy: 44, 4
+  xy: 2006, 867
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Heavy Artillery
   rotate: false
-  xy: 976, 76
+  xy: 124, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hussar
   rotate: false
-  xy: 1016, 111
+  xy: 1948, 634
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Independence Brigades
+  rotate: false
+  xy: 2006, 831
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Legion
   rotate: false
-  xy: 1084, 184
+  xy: 164, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Line Infantry
   rotate: false
-  xy: 1124, 220
+  xy: 1948, 598
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/M48 Patton
+  rotate: false
+  xy: 2006, 795
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mortar
   rotate: false
-  xy: 1192, 291
+  xy: 204, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Nizam
+  rotate: false
+  xy: 1948, 562
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Partisan
   rotate: false
-  xy: 1232, 328
+  xy: 244, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Redcoat
   rotate: false
-  xy: 1300, 399
+  xy: 1948, 526
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/River Patrol
+  rotate: false
+  xy: 284, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Schutzstaffel
   rotate: false
-  xy: 1340, 436
+  xy: 1948, 490
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ski Infantry
+  rotate: false
+  xy: 324, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Skrimisher
   rotate: false
-  xy: 1408, 507
+  xy: 1948, 454
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Special Forces
+  rotate: false
+  xy: 364, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Zouave
   rotate: false
-  xy: 1448, 544
+  xy: 1948, 418
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -830,142 +1131,240 @@ UnitIcons/Aduanero
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Advanced Fighter
+  rotate: false
+  xy: 4, 796
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Advanced Tank
+  rotate: false
+  xy: 4, 688
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Atomic Submarine
+  rotate: false
+  xy: 220, 688
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Bazooka
   rotate: false
-  xy: 4, 472
+  xy: 436, 904
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Cantonist
   rotate: false
-  xy: 220, 580
+  xy: 4, 256
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Chapelgorris
   rotate: false
-  xy: 4, 256
+  xy: 544, 796
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Cherrybum
   rotate: false
-  xy: 220, 472
+  xy: 4, 148
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Cuirassier
   rotate: false
-  xy: 436, 580
+  xy: 328, 364
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Dragoon
-  rotate: false
-  xy: 112, 148
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Explorer
+UnitIcons/Deli
   rotate: false
   xy: 652, 688
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Dragoon
+  rotate: false
+  xy: 220, 148
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Drone
+  rotate: false
+  xy: 436, 364
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Explorer
+  rotate: false
+  xy: 976, 904
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Fasci di Combattimento
-  rotate: false
-  xy: 868, 904
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Foot Artillery
-  rotate: false
-  xy: 112, 40
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Grenadier
-  rotate: false
-  xy: 220, 40
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Halberdier
   rotate: false
   xy: 436, 256
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Fighter Destroyer
+  rotate: false
+  xy: 544, 364
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Foot Artillery
+  rotate: false
+  xy: 868, 688
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Grenadier
+  rotate: false
+  xy: 436, 40
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Guerrilla Fighter
+  rotate: false
+  xy: 544, 148
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Halberdier
+  rotate: false
+  xy: 760, 364
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Heavy Artillery
-  rotate: false
-  xy: 652, 472
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Legion
-  rotate: false
-  xy: 544, 256
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Line Infantry
-  rotate: false
-  xy: 652, 364
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Mortar
-  rotate: false
-  xy: 976, 688
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Partisan
   rotate: false
   xy: 976, 580
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Redcoat
+UnitIcons/Independence Brigades
+  rotate: false
+  xy: 760, 256
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Legion
+  rotate: false
+  xy: 1192, 688
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Line Infantry
+  rotate: false
+  xy: 1300, 796
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/M48 Patton
+  rotate: false
+  xy: 1408, 904
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Mortar
   rotate: false
   xy: 976, 364
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Nizam
+  rotate: false
+  xy: 1516, 904
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Partisan
+  rotate: false
+  xy: 1300, 580
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Phantom Carrier
+  rotate: false
+  xy: 1624, 904
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Redcoat
+  rotate: false
+  xy: 1732, 796
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/River Patrol
+  rotate: false
+  xy: 1084, 40
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Schutzstaffel
   rotate: false
-  xy: 868, 148
+  xy: 1840, 796
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Ski Infantry
+  rotate: false
+  xy: 1516, 364
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Skrimisher
   rotate: false
-  xy: 1192, 472
+  xy: 1624, 472
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Special Forces
+  rotate: false
+  xy: 1624, 364
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Zouave
   rotate: false
-  xy: 1732, 904
+  xy: 1840, 256
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

@@ -165,6 +165,7 @@
         },
         {
 		"name": "Cavalry",
+                "obsoleteTech": "Combined Arms",
                 "requiredTech": "Replaceable Parts",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -196,6 +197,7 @@
         },
         {
 		"name": "Great War Infantry",
+                "obsoleteTech": "Plastics",
                 "requiredTech": "Ballistics",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -212,19 +214,97 @@
 		"cost": 230,
 		"attackSound": "shot"
         },
-       
+        {
+		"name": "Special Forces",
+                "obsoleteTech": "Vietnam War",
+                "requiredTech": "SALT Agreements",
+		"unitType": "Gunpowder",
+                "uniques": ["[+50]% Strength <vs [Barbarian] units>", "Never appears as a Barbarian unit"],
+		"movement": 2,
+		"strength": 60,
+		"cost": 230,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Guerrilla Fighter",
+                "requiredTech": "Vietnam War",
+		"unitType": "Gunpowder",
+                "uniques": ["[+50]% Strength <vs [Barbarian] units>", "Never appears as a Barbarian unit"],
+		"movement": 4,
+		"strength": 70,
+		"cost": 260,
+		"attackSound": "shot"
+        },
+        {
+		"name": "River Patrol",
+                "requiredTech": "Vietnam War",
+		"unitType": "Gunpowder",
+                "uniques": ["[+50]% Strength <when fighting in [River] tiles> <when attacking>", "Never appears as a Barbarian unit"],
+		"movement": 4,
+		"strength": 70,
+		"cost": 260,
+		"attackSound": "shot"
+        },
         {
 		"name": "Anti-Tank Gun",
+                "obsoleteTech": "Arms Race",
                 "requiredTech": "Plastics",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 50,
-                "uniques": ["[+50]% Strength <vs [Armored] units>"],
+                "uniques": ["[+50]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
+		"cost": 300,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Advanced Tank",
+		"unitType": "Armored",
+                "obsoleteTech": "Korea War",
+		"movement": 5,
+		"strength": 90,
+		"cost": 500,
+		"requiredTech": "Arms Race",
+		"requiredResource": "Oil",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+        {
+		"name": "M48 Patton",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 120,
+		"cost": 600,
+		"requiredTech": "Korea War",
+		"requiredResource": "Oil",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+        {
+		"name": "Helicopter Gunship",
+		"unitType": "Helicopter",
+		"movement": 5,
+		"strength": 60,
+		"cost": 300,
+		"requiredTech": "Arms Race",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+50]% Strength <vs [Armored] units>","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+        {
+		"name": "Drone",
+                "requiredTech": "SALT Agreements",
+                "obsoleteTech": "Korea War",
+		"unitType": "Gunpowder",
+		"movement": 5,
+		"strength": 50,
+                "uniques": ["[+10]% Strength <vs [Gunpowder] units>",
+                            "[+10]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
 		"cost": 300,
 		"attackSound": "shot"
         },
         {
 		"name": "Bazooka",
+                "obsoleteTech": "SALT Agreements",
                 "requiredTech": "Guidance Systems",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -240,10 +320,74 @@
 		"strength": 70,
 		"cost": 390,
 		"requiredTech": "Combined Arms",
+                "obsoleteTech": "Arms Race",
 		"requiredResource": "Oil",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
+        {
+		"name": "Deli",
+                "uniqueTo": "Ottoman Empire",
+                "replaces": "Dragoon",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Military Science",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 13,
+                "rangedStrength": 12,
+		"cost": 110, 
+                "uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Mounted] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+        },
+        {
+		"name": "Nizam",
+                "uniqueTo": "Ottoman Empire",
+                "replaces": "Grenadier",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Dynamite",
+		"unitType": "Gunpowder",
+		"movement": 2,
+                "uniques": ["[+20]% Strength <when fighting in [Desert] tiles> <when attacking>", "[+20]% Strength <when fighting in [Hill] tiles> <when attacking>", "Never appears as a Barbarian unit"],
+		"strength": 25,
+		"cost": 90,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Independence Brigades",
+                "uniqueTo": "United States of America",
+                "replaces": "River Patrol",
+                "requiredTech": "Vietnam War",
+		"unitType": "Gunpowder",
+                "uniques": ["Never appears as a Barbarian unit"],
+		"movement": 3,
+		"strength": 75,
+		"cost": 280,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Paratrooper",
+                "uniqueTo": "United States of America",
+                "replaces": "Infantry",
+                "requiredTech": "Plastics",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 60,
+                "uniques": ["May Paradrop up to [5] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
+		"cost": 270,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Ski Infantry",
+                "uniqueTo": "Finland",
+                "replaces": "Infantry",
+                "requiredTech": "Plastics",
+		"unitType": "Gunpowder",
+		"movement": 2.5,
+                "uniques": ["[+20]% Strength <when fighting in [Tundra] tiles> <when attacking>", "[+20]% Strength <when fighting in [Snow] tiles> <when attacking>", "Never appears as a Barbarian unit"],
+		"strength": 55,
+		"cost": 230,
+		"attackSound": "shot"
+        },
         {
 		"name": "Zouave",
                 "uniqueTo": "French Empire",
@@ -340,6 +484,7 @@
 		"movement": 6,
 		"strength": 80,
 		"cost": 390,
+                "obsoleteTech": "Arms Race",
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
@@ -412,6 +557,7 @@
 	},
         {
 		"name": "Carrier",
+                "obsoleteTech": "Truman Doctrine",
 		"unitType": "Aircraft Carrier",
 		"movement": 5,
 		"strength": 40,
@@ -419,8 +565,51 @@
 		"requiredTech": "Advanced Ballistics",
 		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units"]
 	},
+        {
+		"name": "Phantom Carrier",
+		"unitType": "Aircraft Carrier",
+		"movement": 5,
+		"strength": 60,
+		"cost": 500,
+		"requiredTech": "Truman Doctrine",
+		"uniques": ["Cannot attack", "Can carry [6] [Aircraft] units"]
+	},
+        {
+		"name": "Atomic Submarine",
+		"unitType": "Submarine",
+		"movement": 3,
+		"strength": 200,
+		"cost": 700,
+		"requiredTech": "Truman Doctrine",
+		"uniques": ["Never appears as a Barbarian unit"]
+	},
+        {
+		"name": "Submarine",
+                "obsoleteTech": "Truman Doctrine",
+		"unitType": "Submarine",
+		"movement": 3,
+		"strength": 100,
+		"cost": 500,
+		"requiredTech": "Atomic Theory",
+		"uniques": ["Never appears as a Barbarian unit"]
+	},
+        {
+		"name": "Fighter Destroyer",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 100,
+		"rangedStrength": 120,
+		"range": 3,
+		"cost": 600,
+		"requiredResource": "Oil",
+		"requiredTech": "Truman Doctrine",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
 	{
 		"name": "Battleship",
+                "obsoleteTech": "Truman Doctrine",
 		"unitType": "Ranged Water",
 		"movement": 5,
 		"strength": 55,
@@ -440,6 +629,7 @@
 		"movement": 4,
 		"strength": 60,
 		"cost": 350,
+                "obsoleteTech": "Combined Arms",
 		"requiredTech": "Tanks",
 		"requiredResource": "Oil",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
@@ -450,6 +640,7 @@
 		"unitType": "Melee Water",
 		"movement": 6,
 		"strength": 60,
+                "obsoleteTech": "Advanced Ballistics",
 		"interceptRange": 2,
 		"cost": 350,
 		"requiredTech": "Radio",
@@ -467,6 +658,7 @@
 		"interceptRange": 5,
 		"cost": 325,
 		"requiredTech": "Flight",
+                "obsoleteTech": "Advanced Flight",
 		"requiredResource": "Oil",
 		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "machinegun"
@@ -481,6 +673,21 @@
 		"interceptRange": 8,
 		"cost": 375,
 		"requiredTech": "Advanced Flight",
+                "obsoleteTech": "Korea War",
+		"requiredResource": "Oil",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "machinegun"
+	},
+        {
+		"name": "Advanced Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 69,
+		"rangedStrength": 69,
+		"range": 10,
+		"interceptRange": 10,
+		"cost": 400,
+		"requiredTech": "Korea War",
 		"requiredResource": "Oil",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "machinegun"
@@ -489,11 +696,12 @@
 		"name": "Jet Fighter",
 		"unitType": "Fighter",
 		"movement": 1,
-		"strength": 75,
-		"rangedStrength": 75,
-		"range": 10,
-		"interceptRange": 10,
-		"cost": 425,
+		"strength": 66,
+		"rangedStrength": 66,
+		"range": 9,
+		"interceptRange": 9,
+		"cost": 450,
+                "obsoleteTech": "Korea War",
 		"requiredTech": "Pressurized Cabin",
 		"requiredResource": "Aluminum",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
@@ -507,6 +715,7 @@
 		"rangedStrength": 65,
 		"range": 10,
 		"cost": 375,
+                "obsoleteTech": "Korea War",
 		"requiredTech": "Pressurized Cabin",
 		"requiredResource": "Oil",
 		"attackSound": "bombing"
@@ -516,7 +725,7 @@
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 45,
-		"rangedStrength": 60,
+		"rangedStrength": 50,
 		"range": 3,
 		"cost": 425,
 		"requiredTech": "Atomic Theory",
@@ -531,7 +740,7 @@
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"interceptRange": 2,
-		"strength": 65,
+		"strength": 55,
 		"cost": 425,
 		"requiredTech": "Computers",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
@@ -555,6 +764,23 @@
 		// Plane rather than a missile - can be based in city or Carrier only.
 		// Can be intercepted, but must die for it not to take effect.
 	},
+        {
+		"name": "Zero",
+                "uniqueTo": "Empire of the Rising Sun",
+                "replaces": "Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 70,
+		"rangedStrength": 45,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 290,
+		"requiredTech": "Advanced Flight",
+                "obsoleteTech": "Korea War",
+		"requiredResource": "Oil",
+		"uniques": ["[100]% chance to intercept air attacks","Self-destructs when attacking", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "machinegun"
+	},
 	{
 		"name": "Guided Missile",
 		"unitType": "Missile",
@@ -573,6 +799,7 @@
 		"movement": 1,
 		"strength": 50,
 		"rangedStrength": 50,
+                "obsoleteTech": "Advanced Flight",
 		"range": 6,
 		"cost": 325,
 		"requiredTech": "Chemistry",
@@ -582,6 +809,7 @@
         {
 		"name": "Gatling Gun",
                 "requiredTech": "Combustion",
+                "obsoleteTech": "Combined Arms",
 		"unitType": "Ranged Gunpowder",
                 "range": 2,
 		"movement": 3,
@@ -596,8 +824,9 @@
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 25,
-		"rangedStrength": 70,
-		"cost": 320,
+		"rangedStrength": 50,
+		"cost": 400,
+                "obsoleteTech": "Atomic Theory",
 		"requiredTech": "Combustion",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[+1] Sight","Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
@@ -630,6 +859,7 @@
         {
 		"name": "Privateer",
 		"unitType": "Melee Water",
+                "obsoleteTech": "Steam Power",
 		"movement": 5,
 		"strength": 16,
 		"cost": 150,
@@ -640,6 +870,7 @@
         {
 		"name": "Frigate",
 		"unitType": "Ranged Water",
+                "obsoleteTech": "Radio",
 		"movement": 5,
 		"strength": 23,
 		"rangedStrength": 28,
@@ -650,6 +881,7 @@
 	},
         {
 		"name": "Ironclad",
+                "obsoleteTech": "Radio",
 		"unitType": "Melee Water",
 		"movement": 3,
 		"strength": 46,
@@ -659,5 +891,45 @@
 		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
 	},
+        {
+		"name": "SS Booster",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Space Race",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "SS Cockpit",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Space Race",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "SS Engine",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Space Race",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "SS Stasis Chamber",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Space Race",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+		// costs 1500 in BNW
+	}
 
 ]
