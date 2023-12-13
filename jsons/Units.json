@@ -216,6 +216,7 @@
         },
         {
 		"name": "Supply Convoy",
+                "requiredTech": "Combustion",
                 "obsoleteTech": "Ballistics",
 		"unitType": "Civilian",
 		"movement": 5,
