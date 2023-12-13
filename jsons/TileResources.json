@@ -456,5 +456,17 @@
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [Forest] [Hill] tiles>",
 					"Doesn't generate naturally <in [Tundra] [Forest] tiles>"]
+	},
+        {
+		"name": "Yerba Mate",
+		"resourceType": "Luxury",
+		"culture": 1,
+                "gold": 1,
+	}
+        {
+		"name": "Guava",
+		"resourceType": "Luxury",
+		"culture": 1,
+                "food": 1,
 	}
 ]

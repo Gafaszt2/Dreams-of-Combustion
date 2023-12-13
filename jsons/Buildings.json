@@ -37,6 +37,21 @@
 		"requiredTech": "Telecommunications"
 	},
         {
+		"name": "Safari",
+                "happiness": 3,
+                "uniqueTo": "South African Union",
+		"maintenance": 1,
+		"requiredTech": "Biology"
+	},
+        {
+		"name": "Propaganda Village",
+		"culture": 2,
+                "happiness": 1,
+                "uniqueTo": "North Korea",
+		"maintenance": 2,
+		"requiredTech": "Telecommunications"
+	},
+        {
 		"name": "Military Academy",
 		"hurryCostModifier": 0,
 		"uniques": ["New [Military] units start with [35] Experience [in this city]", "Destroyed when the city is captured"],
@@ -189,6 +204,31 @@
 		"uniques": ["Destroyed when the city is captured"]
 	}
         {
+		"name": "War Factory",
+                "uniqueTo": "Chinese Republic",
+                "replaces": "Military Academy",
+		"hurryCostModifier": 0,
+                "production": 1,
+                "food": 1,
+		"uniques": ["New [Military] units start with [35] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Synthetic Rubber"
+	},
+        {
+		"name": "Chaebol",
+                "uniqueTo": "South Korea",
+                "replaces": "Factory",
+		"cost": 360,
+		"production": 4,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Workshop",
+		"maintenance": 3,
+                "uniques": ["[+3 Gold] from each [Trade route]"],
+		"hurryCostModifier": 0,
+		"requiredResource": "Coal",
+		"requiredTech": "Electricity"
+	},
+        {
 		"name": "Temple",
 		"faith": 4,
 		"cost": 100,
@@ -196,6 +236,26 @@
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"]
 	}
+        {
+		"name": "Agro Market",
+		"replaces": "Granary",
+		"uniqueTo": "Argentina",
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["Free [Gaucho] appears","Provides [1] [Wheat] <with [100]% chance>","Provides [1] [Yerba Mate] <with [50]% chance>","Unsellable","[+1 Food] from [Farm] tiles [in this city]"],
+		"requiredTech": "Hunting Pets"
+	},
+        {
+		"name": "Fazenda",
+		"replaces": "Granary",
+		"uniqueTo": "Brasilian Empire",
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["Provides [1] [Guava] <with [100]% chance>","Provides [1] [Yerba Mate] <with [50]% chance>","Unsellable","[+1 Gold] from [Plantation] tiles [in this city]"],
+		"requiredTech": "Hunting Pets"
+	},
 {
 		"name": "Granary",
 		"food": 2,
@@ -688,6 +748,17 @@
 		"cost": 125,
 		"gold": 8,
 		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Market] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Railway"
+	},
+       {
+		"name": "Colonial Railway",
+                "uniqueTo": "Indian Raj",
+                "replaces": "National Treasury",
+		"cost": 125,
+		"gold": 2,
+		"production": 4,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Market] in all cities", "Cost increases by [30] per owned city"],
 		"requiredTech": "Railway"

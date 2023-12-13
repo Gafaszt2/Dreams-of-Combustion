@@ -6,6 +6,178 @@
 //		"innerColor": [255,255,255]
 },
 {
+		"name": "Serbian Empire",
+		"leaderName": "Nikola Pašić",
+		"adjective": ["Serbian"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "",
+
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Hello.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+		"outerColor": [252, 220, 146],
+		"innerColor": [130, 95, 5],
+	        "favoredReligion": "Christianity",
+		"uniqueName": "Assassination of Archduke Franz Ferdinand",
+		"uniques": ["[+1 Food] from every [River]","[+20]% Faith] <starting from the [First World War]> <before the [Second World War]>","[+10]% Production] <starting from the [First World War]> <before the [Second World War]>"],
+		"cities": ["Stari Ras","Bor","Negotin","Pozarevac","Zajecar","Uzice","Leskovac","Valjevo","Pristina","Djakovica",
+			"Pec","Prizren","Mitrovica","Morava","Sabac","Cacak","Nis","Pirot","Smederevo","Jagodna",
+			"Vranje","Krusevac","Beograd","Rudo Polje","Dmitrovica","Prokuplje","Vucitrn","Debrc","Skopje",
+			"Prilep","Kumanovo","Presevo","Ostrovica","Prijepolje","Brodarevo","Priboj","Kratovo","Hvosno",]
+	},
+{
+		"name": "Montenegro",
+		"leaderName": "Nicholas I",
+		"adjective": ["Montenegrin"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "",
+
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Hello.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+		"outerColor": [66, 135, 245],
+		"innerColor": [28, 32, 38],
+	        "favoredReligion": "Christianity",
+		"uniqueName": "Vladika",
+		"uniques": ["[+1 Culture] from every [Mountain]","[+1 Culture] from every [Hill]","[+1 Faith] from every [Mountain]"],
+		"cities": ["Cetinje","Pljevlja","Pluzhine","Zhabljak","Mojkovac","Bijelo Polje","Berane","Petnjica","Rozhaje","Shavnik",
+			"Nikshitch","Kolashin","Andrijevica","Plav","Gusinje","Kotor","Gradina","Podgorica","Tuzi","Herceg Novi",
+			"Tivat","Budva","Bar","Ulcinj","Vranjina",]
+	},
+{
+		"name": "Brasilian Empire",
+		"leaderName": "Dom Pedro II",
+		"adjective": ["Brasilian"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Hello.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [191, 178, 117],
+		"innerColor": [37, 64, 184],
+		"uniqueName": "Imperio da Grandeza",
+		"uniques": ["[+2 Culture] from every [Lakes]", "[+2 Food] from every [Lakes]", "[+2 Gold] from every [Plantation]"],
+		"cities": ["Rio de Janeiro","Sydney","Launceston","Ballaarat","Perth","Brisbane","Toowoomba","Melbourne","Townsville","Geelong",
+			"Adelaide","Hobart","Bendigo","Broken Hill","Cairns","Newcastle","Maitland","Rockhampton","Wagga Wagga","Wollongong",
+			"Albury","Alice Springs","Bathurst","Queanbeyan","Bundaberg","Coffs Harbor","Darwin","Dremantle","Gladstone","Goulburn","Hervery Bay",
+			"Kalgoorlie","Lismore","Lithgow","Maryborough","Orange","Port Macquarie","Port Pirie","Boomahnoomoonah","Tweed Heads"]
+	},
+{
+		"name": "Austria Hungary",
+		"leaderName": "Archduke Franz Ferdinand",
+		"adjective": ["Austrian Hungarian"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "Shame that it has come this far. But ye wished it so. Next time, be so good, choose your words more wisely.",
+		"attacked": "What a fool ye are! Ye will end swiftly and miserably.",
+		"defeated": "The world is pitiful! There's no beauty in it, no wisdom. I am almost glad to go.",
+		"introduction": "The archduchess of Austria welcomes your Eminence to... Oh let's get this over with! I have a luncheon at four o'clock.",
+
+		"neutralHello": "Hello!",
+		"hateHello": "Oh, it's ye!",
+		"tradeRequest": "I see you admire my new damask. Nobody should say that I am an unjust woman. Let's reach an agreement!",
+
+        "outerColor": [234,0,0],
+        "innerColor": [255,255,255],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Double Monarchy",
+		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns."],
+		"cities": ["Vienna", "Salzburg", "Graz", "Linz", "Klagenfurt", "Bregenz", "Innsbruck", "Kitzbühel",
+			"St. Pölten", "Eisenstadt", "Villach", "Zwettl", "Traun", "Wels", "Dornbirn", "Feldkirch",
+			"Amstetten", "Bad Ischl", "Wolfsberg", "Kufstein", "Leoben", "Klosterneuburg", "Leonding",
+			"Kapfenberg", "Hallein", "Bischofshofen", "Waidhofen", "Saalbach", "Lienz", "Steyr"
+		],
+        "spyNames": ["Ferdinand", "Johanna", "Franz-Josef", "Astrid", "Anna", "Hubert", "Alois", "Natter", "Georg", "Arnold"]
+    },
+{
+		"name": "Chinese Republic",
+		"leaderName": "Mao Zedong",
+		"adjective": ["Chinese"],
+		"preferredVictoryType": "Scientific",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "You won't ever be able to bother me again.",
+		"attacked": "Fool! I will disembowel you all!",
+		"defeated": "You have proven to be a cunning and competent adversary. I congratulate you on your victory.",
+		"introduction": "Greetings. China desires peace and development. You leave us alone, we'll leave you alone.",
+		"neutralHello": "How are you today?",
+		"hateHello": "Oh. It's you?",
+		"tradeRequest": "My friend, do you think you can accept this request?",
+
+        "outerColor": [245, 6, 2],
+        "innerColor": [250, 236, 85],
+
+		"favoredReligion": "Taoism",
+		"uniqueName": "Long March",
+		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [50]% faster"],
+		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
+			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
+			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
+			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"],
+        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
+
+    },
+    {
+		"name": "Indian Raj",
+		"leaderName": "Louis Mountbatten",
+		"adjective": ["Indian"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Cultural",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "I have just received a report that large numbers of my troops have crossed your borders.",
+		"attacked": "My attempts to avoid violence have failed. An eye for an eye only makes the world blind.",
+		"defeated": "No, this cannot be possible!.",
+		"introduction": "Hello, the Raj recieves you with pleasure.",
+		"neutralHello": "Hello.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "My friend, are you interested in this arrangement?",
+
+        "outerColor": [14, 113, 4],
+        "innerColor": [255, 163, 71],
+
+		"favoredReligion": "Hinduism",
+		"uniqueName": "Queen´s Jewelry",
+		"uniques": ["[+10]% Gold from [Population] [in all cities]", "[+20]% Production from [Population] [in all cities]"],
+		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
+			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
+			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
+        "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]
+    },
+{
 		"name": "Ottoman Empire",
 		"leaderName": "Abdulhamid II",
 		"adjective": ["Ottoman"],
@@ -113,8 +285,8 @@
 		"neutralHello": "Hello, again.",
 		"hateHello": "Oh, it's you!",
 		"tradeRequest": "Would you be interested in a trade agreement with England?",
-		"outerColor": [28,51,119],
-		"innerColor": [217, 78, 189],
+		"outerColor": [10, 18, 79],
+		"innerColor": [250, 88, 70],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Rule Brittania",
 		"uniques": ["[+2 Production] from every [Coast]"],
@@ -124,6 +296,31 @@
 			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"],
         "spyNames": ["James", "Scarlett", "Scott", "Anne"]
     },
+{
+		"name": "South African Union",
+		"leaderName": "Jan Smuts",
+		"adjective": ["South African"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Culture",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of white people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Hello.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [255, 129, 10],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "Cape Richness",
+		"uniques": ["[+2 Gold] from every [Mine]", "[+70]% Strength <vs [Barbarian] units>"],
+		"cities": ["Cape Town","Hogannesburg","Pretoria","Durban","Bloemfontein","Soweto","Elizabeth Port","Nelspruit","Kimberley","Polokwane"]
+	},
         {
 		"name": "German Empire",
 		"leaderName": "Otto von Bismarck",
@@ -140,11 +337,11 @@
 		"neutralHello": "What now?",
 		"hateHello": "So, out with it!",
 		"tradeRequest": "It would be in your best interest, to carefully consider this proposal.",
-		"outerColor": [31, 29, 29],
-		"innerColor": [217, 4, 4],
+		"outerColor": [250, 250, 250],
+		"innerColor": [33, 33, 33],
 		"favoredReligion": "Christianity",
-		"uniqueName": "Furor Teutonicus",
-		"uniques": ["[+10]% [Production] [in all cities] <when at war>", "[+10]% [Science] [in all cities] <when at war>", "[-50]% maintenance costs <for [Land] units>"],
+		"uniqueName": "Until Nobody mess with Germany´s Happiness!",
+		"uniques": ["[+30]% Production] <starting from the [Second World War]> <before the [Cold War]>", "[+50]% [Science] [in all cities] <when at war>", "[-50]% maintenance costs <for [Land] units>"],
 		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
 			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
 			"Münster","Rostock","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
@@ -294,7 +491,112 @@
 		"cities": ["Helsinki", "Espoo","Tampere","Vantaa","Oulu","Turku","Jyvaskyla","Lahti","Kuopio","Pori","Joensuu","Lappeenranta","Hameenlinna","Vaasa"],
         "spyNames": ["Saki"]
     },
+    {
+		"name": "North Korea",
+		"leaderName": "Kim Il-Sung",
+		"adjective": ["NorthKorean"],
+		"startBias":["Tundra"],
+		"preferredVictoryType": "Domination",
 
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+                "declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to the land of north Korea",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [46, 46, 45],
+		"innerColor": [252, 195, 8],
+		"favoredReligion": "Taoism",
+		"uniqueName": "Hermit Republic",
+		"uniques": ["[+1] Culture from every [Military] buildings"],
+		"cities": ["Pyongyang", "Hamhung","Chongjin","Nampo","Wonsan","Tanchon","Sinuiju","Kaechon","Kaesong","Sunchon","Sariwon","Pyongsong","Kanggye","Anju","Haeju","Kimchaek","Hyesan","Chongju"],
+        "spyNames": ["Saki"]
+    },
+    {
+		"name": "South Korea",
+		"leaderName": "Park Chung-hee",
+		"adjective": ["SouthKorean"],
+		"startBias":["Fresh water"],
+		"preferredVictoryType": "Domination",
+
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+                "declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to the land of south Korea",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [252, 215, 141],
+		"innerColor": [250, 49, 42],
+		"favoredReligion": "Taoism",
+		"uniqueName": "Miracle of the Han River",
+		"uniques": ["[+1 Food] from every [River]","[+1 Gold] from every [River]"],
+		"cities": ["Seoul", "Busan","Incheon","Daegu","Daejeon","Gwangju","Ulsan","Suwon","Changwon","Goyang","Seongnam","Yongin"],
+        "spyNames": ["Saki"]
+    },
+    {
+		"name": "Paraguay",
+		"leaderName": "Francisco Solano López",
+		"adjective": ["Paraguayan"],
+		"startBias":["Jungle"],
+		"preferredVictoryType": "Domination",
+
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+                "declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to the land of Paraguay",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [123, 186, 140],
+		"innerColor": [87, 86, 66],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Until the Last Man",
+		"uniques": ["[+70]% [Production] [in all cities] <when at war>","[-5]% [Food] [in all cities] <when at war>"],
+		"cities": ["Asuncion","Ciudad del Este","San Lorenzo","Encarnacion","Ñemby","Oviedo","Capiata","Limpio","Lambare","Itaugua","Luque","Villa Elisa","Villarrica","Hermandarias","Aregua","Caacupe","Minga Guazu",],
+        "spyNames": ["Saki"]
+    },
+    {
+		"name": "Argentina",
+		"leaderName": "Julio Argentino Roca",
+		"adjective": ["Argentinian"],
+		"startBias":["Plains"],
+		"preferredVictoryType": "Domination",
+
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+                "declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to the land of Argentina",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [0, 187, 250],
+		"innerColor": [64, 11, 11],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Desert Expedition",
+		"uniques": ["[+50]% Yield from every [Pasture]","[+50]% Yield from every [Farm]", "[+10]% Strength <vs [Barbarian] units>"],
+		"cities": ["Buenos Aires","Cordoba","Rosario","La Plata","Tucuman","Salta","Mendoza","Vera Cruz","Corrientes","Pilar","Bahia Blanca",
+                            "Resistencia","Posadas","Jujuy","Parana","Merlo","Neuquen","Quilmes","Banfield","Formosa","Lanus",
+                            "La Rioja","Comodora","Rivadavia","San Luis","Ituzaingo","Santa fe","Rio Cuarto","San Rafael","Bariloche"],
+        "spyNames": ["Saki"]
+    },
 
 	// City-States sorted by cityStateType, name
 	{
