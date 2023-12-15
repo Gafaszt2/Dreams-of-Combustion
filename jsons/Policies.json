@@ -1,5 +1,78 @@
 [
     {
+        "name": "Liberty",
+        "era": "National Victorian era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 0,
+            "Diplomatic": 0,
+            "Domination": 0,
+            "Scientific": 0
+        },
+        "uniques": [
+            "[+1 Gold] [in all cities]", "[+1 Production] [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "Republic",
+                "uniques": [
+                    "[+1 Production] from every [Monument]", "[+1 Gold] per [2] population [in capital]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Citizenship",
+                "uniques": [
+                    "[+30]% Production when constructing [Settler] units [in capital]",
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Collective Rule",
+                "uniques": [
+                    "[+10]% Production when constructing [All] buildings [in all cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Representation",
+                "uniques": [
+                    "Free [Line Infantry] appears"
+                ],
+                "row": 1,
+                "column": 7
+            },
+            {
+                "name": "Meritocracy",
+                "uniques": [
+                    "Each city founded increases culture cost of policies [20]% less than normal",
+                    "Empire enters golden age"
+                ],
+                "requires": ["Collective Rule"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Discipline",
+                "uniques": [
+                    "[+4 Faith] [in capital]"
+                ],
+                "requires": ["Citizenship"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Liberty Complete",
+                "uniques": [
+                    "[+3 Culture] [in capital]","[+2 Production] [in capital]","[+1 Science] [in capital]"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Imperialism",
         "era": "National Victorian era",
         "priorities": {
@@ -40,6 +113,14 @@
                 "column": 5
             },
             {
+                "name": "Slave Policy",
+                "uniques": [
+                    "Gain a free [Slave Market] [in capital]"
+                ],
+                "row": 1,
+                "column": 7
+            },
+            {
                 "name": "Social Reform",
                 "uniques": [
                     "[+10]% growth [in capital]",
@@ -74,7 +155,7 @@
             "Cultural": 10,
             "Diplomatic": 0,
             "Domination": 0,
-            "Scientific": 0
+            "Scientific": 10
         },
         "uniques": [
             "[+1 Culture] per [2] population [in all cities]"
@@ -106,6 +187,14 @@
                 "column": 3
             },
             {
+                "name": "Parlament Union",
+                "uniques": [
+                    "Gain a free [Central Industry] [in capital]"
+                ],
+                "row": 1,
+                "column": 7
+            },
+            {
                 "name": "Technology Innovation",
                 "uniques": [
                     "[+2 Science] [in capital]"
@@ -134,10 +223,10 @@
         "name": "Peace",
         "era": "First World War",
         "priorities": {
-            "Neutral": 0,
-            "Cultural": 0,
+            "Neutral": 10,
+            "Cultural": 10,
             "Diplomatic": 0,
-            "Domination": 10,
+            "Domination": 0,
             "Scientific": 0
         },
         "uniques": [
@@ -224,6 +313,15 @@
                 "column": 5
             },
             {
+                "name": "Doctors go to War",
+                "uniques": [
+                    "Free [Medic] appears"
+                ],
+                "requires": ["Defense Ways"],
+                "row": 2,
+                "column": 5
+            },
+            {
                 "name": "War Preparation Complete",
                 "uniques": [
                     "[+20]% Strength <while the empire is happy>"
@@ -273,6 +371,14 @@
                 "column": 5
             },
             {
+                "name": "Hate",
+                "uniques": [
+                    "Gain a free [Concentration Camp] [in all cities]"
+                ],
+                "row": 1,
+                "column": 7
+            },
+            {
                 "name": "War Propaganda",
                 "uniques": [
                     "[+25]% Strength <for [Wounded] units>"
@@ -294,15 +400,15 @@
         "name": "Communism",
         "era": "Second World War",
         "priorities": {
-            "Neutral": 0,
-            "Cultural": 0,
+            "Neutral": 10,
+            "Cultural": 10,
             "Diplomatic": 0,
-            "Domination": 10,
+            "Domination": 5,
             "Scientific": 0
         },
         "uniques": [
-            "[+5]% growth [in all cities]",
-            "[-15]% Culture cost of natural border growth [in all cities]"
+            "[+15]% Production [in all cities]",
+            "[+3 Happiness] [in capital]","[-3 Gold] [in capital]"
         ],
         "policies": [
             {
@@ -320,6 +426,14 @@
                 ],
                 "row": 1,
                 "column": 3
+            },
+            {
+                "name": "Soviets Force",
+                "uniques": [
+                    "Gain a free [Gulag] [in all cities]"
+                ],
+                "row": 1,
+                "column": 7
             },
             {
                 "name": "Proletary Internationalism",
@@ -343,7 +457,7 @@
             {
                 "name": "Communism Complete",
                 "uniques": [
-                    "[+15]% growth [in all cities]"
+                    "[+25]% Production [in all cities]",
                 ]
             }
         ]
@@ -352,7 +466,7 @@
         "name": "Allies",
         "era": "Second World War",
         "priorities": {
-            "Neutral": 0,
+            "Neutral": 10,
             "Cultural": 10,
             "Diplomatic": 0,
             "Domination": 0,
@@ -388,6 +502,14 @@
                 ],
                 "row": 1,
                 "column": 5
+            },
+            {
+                "name": "America Takes Place",
+                "uniques": [
+                    "Gain a free [Allies Embassy] [in all cities]"
+                ],
+                "row": 1,
+                "column": 7
             },
             {
                 "name": "Expression Liberty",

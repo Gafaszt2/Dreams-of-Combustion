@@ -6,6 +6,137 @@
 //		"innerColor": [255,255,255]
 },
 {
+		"name": "British Canada",
+		"leaderName": "John A. MacDonald",
+		"adjective": ["Canadian"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Diplomatic",
+                "startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Hello, you.",
+		"hateHello": "What YOU want?!",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [255, 255, 255],
+		"innerColor": [255, 0, 0],
+                "favoredReligion": "Christianity",
+		"uniqueName": "Ethnocide",
+		"uniques": ["[+30]% Strength <vs [Barbarian] units>","[+1 Science] from every [Lakes]"],
+		"cities": ["Ottawa","Toronto","Montreal","Vancouver","Calgary","Edmonton","Winnipeg","Quebec City","Hamilton","Kitchener","Laval","London","Victoria","Halifax","Oshawa","Windsor","Saskatoon","St. Catharines","Regina","St. John's","Kelowna"]
+	},
+{
+		"name": "Zulu",
+		"leaderName": "Shaka",
+		"adjective": ["Zulu"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Hello, you.",
+		"hateHello": "What YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [189, 51, 40],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "Impi Iyehlisa",
+		"uniques": ["[1] additional attacks per turn", "[+1] Movement <for [{Military} {Land}] units>", "[+10]% Production <for [{Military} {Land}] units> [in all cities] during [Golden Age]"],
+		"cities": ["Ulundi", "KwaDukuza" ,"Bulawayo", "Isandlwana", "Rorke´s Drift", "Eshowe", "Ondini", "Gingindlovu"]
+	},
+{
+		"name": "Portugal",
+		"leaderName": "António de Oliveira Salazar",
+		"adjective": ["Portuguese"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Scientific",
+
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Hello.",
+		"hateHello": "What do YOU want?!",
+		"tradeRequest": "How would you like it if I propose this kind of exchange?",
+		"outerColor": [207, 209, 232],
+		"innerColor": [80, 61, 110],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Mare Clausum",
+		"uniques": ["[+1 Gold] from every [Strategic resource]", "[+2 Gold] from every specialist [in all cities]", "[+1 Gold] from every [Great Improvement]"],
+		"cities": ["Lisboa","Oporto","Viseu"
+			"Braga","Coimbra","Funchal","Amadora","Guarda","Suzdal","Silves"],
+        "spyNames": ["Marco"]
+    },
+{
+		"name": "Denmark",
+		"leaderName": "King Christian X",
+		"adjective": ["Danish"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "",
+
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Hello.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+		"outerColor": [87, 18, 39],
+		"innerColor": [255, 252, 253],
+	        "favoredReligion": "Christianity",
+		"uniqueName": "God's help, the love of the people, Denmark's strength",
+		"uniques": ["Gain a free [Havn] [in all coastal cities]","[+10]% Strength <when fighting in [Coast] tiles>"],
+		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Oslo","Jelling","Truso",
+			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
+			"Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers",
+			"Fredrikstad","Kolding","Horsens","Tromsoe","Vejle","Koge","Sandnes","Holstebro","Slagelse","Drammen",
+			"Hillerod","Sonderborg","Skien","Svendborg","Holbaek","Hjorring","Fladstrand","Haderslev","Ringsted","Skrive"],
+	},
+{
+		"name": "Uruguay",
+		"leaderName": "Venacio Flores",
+		"adjective": ["Uruguayan"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "",
+
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Hello.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+		"outerColor": [111, 247, 148],
+		"innerColor": [8, 8, 82],
+	        "favoredReligion": "Christianity",
+		"uniqueName": "Apostadero",
+		"uniques": ["[+1 Gold] from each [Trade route]","[+1 Production] from each [Trade route]"],
+		"cities": ["Montevideo","Salto","Ciudad de la Costa","Paysandú",
+			"Maldonado","Rivera","Las Piedras","Tacuarembó",
+			"Melo","Artigas","Mercedes","Minas","San Jose de Mayo","Barros Blancos",
+			"Ciudad del Plata","San Carlos",]
+	},
+{
 		"name": "Serbian Empire",
 		"leaderName": "Nikola Pašić",
 		"adjective": ["Serbian"],
@@ -562,7 +693,7 @@
 		"hateHello": "We do not fear war",
 		"tradeRequest": "Check out this",
 		"outerColor": [123, 186, 140],
-		"innerColor": [87, 86, 66],
+		"innerColor": [28, 32, 38],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Until the Last Man",
 		"uniques": ["[+70]% [Production] [in all cities] <when at war>","[-5]% [Food] [in all cities] <when at war>"],

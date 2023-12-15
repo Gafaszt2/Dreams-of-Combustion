@@ -185,6 +185,32 @@
 		"attackSound": "shot"
         },
         {
+		"name": "Legione Agricola",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 22,
+                "uniques": ["Unbuildable","Never appears as a Barbarian unit"],
+		"cost": 70,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Picador Infernal",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 23,
+                "uniques": ["Unbuildable", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+        },
+        {
+		"name": "Krupp Steel Cannon",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 30,
+		"uniques": ["Unbuildable","[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
+		"attackSound": "cannon"
+	},
+        {
 		"name": "Rifleman",
                 "upgradesTo": "Great War Infantry",
 		"obsoleteTech": "Ballistics",
@@ -359,6 +385,66 @@
 		"attackSound": "cannon"
 	},
         {
+		"name": "Askari",
+                "uniqueTo": "Zulu",
+                "replaces": "Grenadier",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Dynamite",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 19,
+                "uniques": ["Can be purchased with [Gold] [in all cities]","Can be purchased for [20] [Gold] [in all cities]","Unbuildable","Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+        },
+        {
+		"name": "Boer Ally",
+                "uniqueTo": "Zulu",
+                "replaces": "Dragoon",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Military Science",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 14,
+                "rangedStrength": 10,
+                "uniques": ["Can be purchased with [Gold] [in all cities]","Can be purchased for [40] [Gold] [in all cities]","Unbuildable","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+        },
+        {
+		"name": "Forca de Exploracao Africana",
+                "uniqueTo": "Portugal",
+                "replaces": "Grenadier",
+                "requiredTech": "Plastics",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 56,
+                "uniques": ["Heal this unit by [+5] HP <upon ending a turn in a [Foreign Land] tile>","Never appears as a Barbarian unit"],
+		"cost": 290,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Cassador Montado",
+                "uniqueTo": "Portugal",
+                "replaces": "Explorer",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 6,
+                "uniques": ["[+50]% Strength <vs [Barbarian] units>", "Never appears as a Barbarian unit"],
+		"cost": 60,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Blandengue",
+                "uniqueTo": "Uruguay",
+                "replaces": "Grenadier",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Dynamite",
+		"unitType": "Gunpowder",
+		"movement": 4,
+		"strength": 18,
+		"cost": 67,
+		"attackSound": "shot"
+        },
+        {
 		"name": "Montenegrin Carabineer",
                 "uniqueTo": "Montenegro",
                 "replaces": "Grenadier",
@@ -416,6 +502,44 @@
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 55
 	},
+        {
+		"name": "Slave",
+                "replaces": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Unbuildable","Can build [Land] improvements on tiles", "Automation is a primary action", "Never appears as a Barbarian unit"],
+		"cost": 55
+	},
+         {
+		"name": "SS Troop",
+                "replaces": "Infantry",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 57,
+                "uniques": ["Unbuildable","[+5]% Strength <vs cities> <when attacking>", "[+5]% Strength <when fighting in [Foreign Land] tiles> <when attacking>", "Never appears as a Barbarian unit"],
+		"cost": 250,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Marine",
+                "replaces": "Infantry",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 57,
+                "uniques": ["Unbuildable","[+5]% Strength <vs cities> <when attacking>", "[+5]% Strength <when fighting in [Friendly] tiles> <when attacking>", "Never appears as a Barbarian unit"],
+		"cost": 250,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Moscow Defender",
+                "replaces": "Infantry",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 57,
+                "uniques": ["Unbuildable","[+5]% Strength <vs cities> <when attacking>", "[+5]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
+		"cost": 250,
+		"attackSound": "shot"
+        },
         {
 		"name": "Primero de Linea",
                 "uniqueTo": "Paraguay",
@@ -618,6 +742,35 @@
 		"cost": 165,
 		"attackSound": "shot"
         },
+        {
+		"name": "C Force",
+                "uniqueTo": "British Canada",
+                "replaces": "Infantry",
+                "requiredTech": "Plastics",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 55,
+                "uniques": ["This Unit gains [+5] XP <upon ending a turn in a [All] tile>"],
+		"cost": 230,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Royal Air Force",
+                "uniqueTo": "British Canada",
+                "replaces": "Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 375,
+		"requiredTech": "Advanced Flight",
+                "obsoleteTech": "Korea War",
+		"requiredResource": "Oil",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "machinegun"
+	},
         {
 		"name": "Fasci di Combattimento",
                 "uniqueTo": "Italian Empire",

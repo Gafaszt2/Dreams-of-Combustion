@@ -52,6 +52,51 @@
 		"requiredTech": "Telecommunications"
 	},
         {
+		"name": "Immigrant Colony",
+		"production": 2,
+                "uniqueTo": "Uruguay",
+                "uniques": ["[-10]% construction time for [All] improvements [in this city]","[1] free [Picador Infernal] units appear <with [40]% chance>","[1] free [Legione Agricola] units appear <with [40]% chance>","[1] free [Krupp Steel Cannon] units appear <with [20]% chance>"],
+		"requiredTech": "Novel"
+	},
+        {
+		"name": "Havn",
+                "requiredTech": "Settlement"
+                "uniqueTo": "Denmark",
+                "uniques": ["[+10]% Production when constructing [Water] units [in this city]","[1] free [Worker] units appear <with [100]% chance>"],
+	},
+        {
+		"name": "Slave Market",
+                "requiredTech": "Settlement"
+                "uniques": ["Unbuildable","Unsellable","[1] free [Slave] units appear <with [100]% chance>"],
+	},
+        {
+		"name": "Central Industry",
+                "requiredTech": "Settlement"
+                "uniques": ["Unbuildable","Unsellable","[1] free [Line Infantry] units appear <with [100]% chance>"],
+	},
+        {
+		"name": "Gulag",
+                "requiredTech": "Settlement"
+                "uniques": ["[+5]% Gold] [in all cities] <starting from the [Second World War]> <before the [Cold War]>", "[-3]% [Food] [in all cities] <starting from the [Second World War]> <before the [Cold War]>","Unbuildable","Unsellable","[1] free [SS Troop] units appear <with [100]% chance>"],
+	},
+        {
+		"name": "Concentration Camp",
+                "requiredTech": "Settlement"
+                "uniques": ["[+5]% Production] [in all cities] <starting from the [Second World War]> <before the [Cold War]>", "[-3]% [Culture] [in all cities] <starting from the [Second World War]> <before the [Cold War]>","Unbuildable","Unsellable","[1] free [Moscow Defender] units appear <with [100]% chance>"],
+	},
+        {
+		"name": "Allies Embassy",
+                "requiredTech": "Settlement"
+                "uniques": ["[+5]% Science] [in all cities] <starting from the [Second World War]> <before the [Cold War]>", "[-3]% [Production] [in all cities] <starting from the [Second World War]> <before the [Cold War]>","Unbuildable","Unsellable","[1] free [Marine] units appear <with [100]% chance>"],
+	},
+        {
+		"name": "Tillaegscenter",
+                "uniqueTo": "Denmark",
+                "requiredTech": "Combined Arms",
+                "requiredBuilding": "Havn",
+                "uniques": ["[+10]% Production when constructing [Water] units [in this city]","[1] free [Worker] units appear <with [100]% chance>"],
+	},
+        {
 		"name": "Military Academy",
 		"hurryCostModifier": 0,
 		"uniques": ["New [Military] units start with [35] Experience [in this city]", "Destroyed when the city is captured"],
