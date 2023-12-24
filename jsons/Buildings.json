@@ -223,6 +223,31 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
         {
+		"name": "Madrasah",
+                "uniqueTo": "Nejd Sultanate",
+                "replaces": "Public School",
+		"faith": 2,
+                "science": 3,
+		"specialistSlots": {"Scientist": 1},
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Science] per [2] population [in this city]", "Only available <in cities without a [Private School]>"],
+		"requiredTech": "Sanitation"
+	},
+        {
+		"name": "Language School",
+                "uniqueTo": "Egypt",
+                "replaces": "University",
+		"culture": 2,
+                "science": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+1 Production] from [Desert] tiles [in this city]"],
+		"requiredTech": "Archaeology"
+	},
+        {
 		"name": "Bomb Shelter",
 		"cost": 500,
 		"cityStrength": 20,
@@ -276,6 +301,7 @@
         {
 		"name": "Temple",
 		"faith": 4,
+                "greatPersonPoints": {"Great Prophet": 1},
 		"cost": 100,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
@@ -477,6 +503,7 @@
 	},
         {
 		"name": "Clinic",
+                "greatPersonPoints": {"Great Prophet": 1},
                 "maintenance": 2,
 		"science": 2,
 		"food": 3,
@@ -514,6 +541,7 @@
         {
 		"name": "Telegraph Station",
                 "maintenance": 2,
+                "greatPersonPoints": {"Great Prophet": 1},
                 "production": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Telegraph"
@@ -594,6 +622,7 @@
 {
 		"name": "Lighthouse",
 		"cost": 75,
+                "greatPersonPoints": {"Great Prophet": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
@@ -726,6 +755,7 @@
 	},
 	{
 		"name": "National Epic",
+                "greatPersonPoints": {"Great Prophet": 1},
 		"cost": 125,
 		"culture": 1,
 		"isNationalWonder": true,
@@ -750,6 +780,7 @@
 	},
 {
 		"name": "Mint",
+                "greatPersonPoints": {"Great Prophet": 1},
 		"maintenance": 0,
 		"requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
 		"hurryCostModifier": 25,
@@ -1025,6 +1056,7 @@
 	},
         {
 		"name": "Precarious Housing",
+                "greatPersonPoints": {"Great Prophet": 2},
                 "food": 2,
                 "uniques": ["[Great Artist] is earned [20]% faster"],
 		"hurryCostModifier": 0,
@@ -1070,7 +1102,7 @@
 		"cost": 750,
 		"isNationalWonder": true,
 		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion",
-			"Hidden when [Scientific] Victory is disabled", "Cannot be hurried"],
+			"Hidden when [Space Race] Victory is disabled", "Cannot be hurried"],
 		"requiredTech": "Space Race"
 	},
 ]

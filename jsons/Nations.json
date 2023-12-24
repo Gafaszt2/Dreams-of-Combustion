@@ -6,6 +6,66 @@
 //		"innerColor": [255,255,255]
 },
 {
+		"name": "Nejd Sultanate",
+		"leaderName": "Abdul Rahman bin Faisal",
+		"adjective": ["Arabian"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Scientific",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "The world will be more beautiful without you. Prepare for war.",
+		"attacked": "Fool! You will soon regret dearly! I swear it!",
+		"defeated": "You have won, congratulations. My palace is now in your possession, and I beg that you care well for the peacock.",
+		"introduction": "Welcome foreigner, Come and tell me about your empire.",
+		"neutralHello": "Peace be upon you.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "Come forth, let's do business.",
+		"outerColor": [43, 88, 46],
+		"innerColor": [146, 221, 10],
+		"favoredReligion": "Islam",
+		"uniqueName": "The Renaissance of Najd",
+		"uniques": ["[+15]% Production towards any buildings that already exist in the Capital","[+1 Faith] from every [Luxury resource]", "Double quantity of [Oil] produced"],
+		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
+			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
+			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"],
+        "spyNames": ["Solhofaat", "Khenzeer", "Zarafah", "Temsaah", "Abyadh", "Mostafa", "Yusuf", "Waddah", "Sameera", "Gamal"]
+
+    },
+{
+		"name": "Egypt",
+		"leaderName": "Ali Pasha Mubarak",
+		"adjective": ["Egyptian"],
+		"startBias": ["Avoid [Jungle]","Avoid [Forest]"],
+		"preferredVictoryType": "Cultural",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+		"declaringWar": "You are but a pest on this Earth, prepare to be eliminated!",
+		"attacked": "You are a fool who evokes pity. You have brought my hostility upon yourself and your repulsive civilization!",
+		"defeated": "Strike me down and my soul will torment yours forever, you have won nothing.",
+		"introduction": "Greetings, I am Ali the Sultan. I am the living embodiment of muslim Egypt",
+
+		"neutralHello": "Good day.",
+		"hateHello": "Oh, it's you.",
+
+		"tradeRequest": "Generous Egypt makes you this offer.",
+
+		"outerColor": [74, 27, 20],
+		"innerColor": [236, 157, 250],
+		"favoredReligion": "Islam",
+		"uniqueName": "Modernization Era",
+		"uniques": ["No Maintenance costs for improvements in [Desert] tiles","[+15]% Production when constructing [Settler] units [in all cities]"],
+		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
+			   "Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
+			   "Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant",
+			   "Balat","Ellahun","Hawara","Dashur","Damanhur","Abusir","Herakleopolis","Akoris",
+			   "Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"],
+        "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
+    },
+{
 		"name": "British Canada",
 		"leaderName": "John A. MacDonald",
 		"adjective": ["Canadian"],
@@ -23,7 +83,7 @@
 		"tradeRequest": "Better hurry, I may change my mind.",
 		"outerColor": [255, 255, 255],
 		"innerColor": [255, 0, 0],
-                "favoredReligion": "Christianity",
+                "favoredReligion": "Calvinism",
 		"uniqueName": "Ethnocide",
 		"uniques": ["[+30]% Strength <vs [Barbarian] units>","[+1 Science] from every [Lakes]"],
 		"cities": ["Ottawa","Toronto","Montreal","Vancouver","Calgary","Edmonton","Winnipeg","Quebec City","Hamilton","Kitchener","Laval","London","Victoria","Halifax","Oshawa","Windsor","Saskatoon","St. Catharines","Regina","St. John's","Kelowna"]
@@ -49,6 +109,7 @@
 				
 		"outerColor": [189, 51, 40],
 		"innerColor": [255, 255, 255],
+                "favoredReligion": "Shamanism",
 		"uniqueName": "Impi Iyehlisa",
 		"uniques": ["[1] additional attacks per turn", "[+1] Movement <for [{Military} {Land}] units>", "[+10]% Production <for [{Military} {Land}] units> [in all cities] during [Golden Age]"],
 		"cities": ["Ulundi", "KwaDukuza" ,"Bulawayo", "Isandlwana", "Rorke´s Drift", "Eshowe", "Ondini", "Gingindlovu"]
@@ -74,7 +135,7 @@
 		"tradeRequest": "How would you like it if I propose this kind of exchange?",
 		"outerColor": [207, 209, 232],
 		"innerColor": [80, 61, 110],
-		"favoredReligion": "Christianity",
+		"favoredReligion": "Catholic",
 		"uniqueName": "Mare Clausum",
 		"uniques": ["[+1 Gold] from every [Strategic resource]", "[+2 Gold] from every specialist [in all cities]", "[+1 Gold] from every [Great Improvement]"],
 		"cities": ["Lisboa","Oporto","Viseu"
@@ -100,7 +161,7 @@
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 		"outerColor": [87, 18, 39],
 		"innerColor": [255, 252, 253],
-	        "favoredReligion": "Christianity",
+	        "favoredReligion": "Baptist",
 		"uniqueName": "God's help, the love of the people, Denmark's strength",
 		"uniques": ["Gain a free [Havn] [in all coastal cities]","[+10]% Strength <when fighting in [Coast] tiles>"],
 		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Oslo","Jelling","Truso",
@@ -128,7 +189,7 @@
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 		"outerColor": [111, 247, 148],
 		"innerColor": [8, 8, 82],
-	        "favoredReligion": "Christianity",
+	        "favoredReligion": "Candomble",
 		"uniqueName": "Apostadero",
 		"uniques": ["[+1 Gold] from each [Trade route]","[+1 Production] from each [Trade route]"],
 		"cities": ["Montevideo","Salto","Ciudad de la Costa","Paysandú",
@@ -155,7 +216,7 @@
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 		"outerColor": [252, 220, 146],
 		"innerColor": [130, 95, 5],
-	        "favoredReligion": "Christianity",
+	        "favoredReligion": "Catholic",
 		"uniqueName": "Assassination of Archduke Franz Ferdinand",
 		"uniques": ["[+1 Food] from every [River]","[+20]% Faith] <starting from the [First World War]> <before the [Second World War]>","[+10]% Production] <starting from the [First World War]> <before the [Second World War]>"],
 		"cities": ["Stari Ras","Bor","Negotin","Pozarevac","Zajecar","Uzice","Leskovac","Valjevo","Pristina","Djakovica",
@@ -182,7 +243,7 @@
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 		"outerColor": [66, 135, 245],
 		"innerColor": [28, 32, 38],
-	        "favoredReligion": "Christianity",
+	        "favoredReligion": "Catholic",
 		"uniqueName": "Vladika",
 		"uniques": ["[+1 Culture] from every [Mountain]","[+1 Culture] from every [Hill]","[+1 Faith] from every [Mountain]"],
 		"cities": ["Cetinje","Pljevlja","Pluzhine","Zhabljak","Mojkovac","Bijelo Polje","Berane","Petnjica","Rozhaje","Shavnik",
@@ -212,10 +273,9 @@
 		"innerColor": [37, 64, 184],
 		"uniqueName": "Imperio da Grandeza",
 		"uniques": ["[+2 Culture] from every [Lakes]", "[+2 Food] from every [Lakes]", "[+2 Gold] from every [Plantation]"],
-		"cities": ["Rio de Janeiro","Sydney","Launceston","Ballaarat","Perth","Brisbane","Toowoomba","Melbourne","Townsville","Geelong",
-			"Adelaide","Hobart","Bendigo","Broken Hill","Cairns","Newcastle","Maitland","Rockhampton","Wagga Wagga","Wollongong",
-			"Albury","Alice Springs","Bathurst","Queanbeyan","Bundaberg","Coffs Harbor","Darwin","Dremantle","Gladstone","Goulburn","Hervery Bay",
-			"Kalgoorlie","Lismore","Lithgow","Maryborough","Orange","Port Macquarie","Port Pirie","Boomahnoomoonah","Tweed Heads"]
+		"cities": ["Rio de Janeiro","Sao Paulo","Salvador","Fortalezaq","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
+			    "Belém","Goiania","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina",
+                            "Florianópolis","Nova Iguaçu","Sao Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju"],
 	},
 {
 		"name": "Austria Hungary",
@@ -239,7 +299,7 @@
         "outerColor": [234,0,0],
         "innerColor": [255,255,255],
 
-		"favoredReligion": "Christianity",
+		"favoredReligion": "Catholic",
 		"uniqueName": "Double Monarchy",
 		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns."],
 		"cities": ["Vienna", "Salzburg", "Graz", "Linz", "Klagenfurt", "Bregenz", "Innsbruck", "Kitzbühel",
@@ -359,7 +419,7 @@
         "outerColor": [28,51,119],
         "innerColor": [164, 252, 191],
 
-        "favoredReligion": "Christianity",
+        "favoredReligion": "Baptist",
 		"uniqueName": "Democracy Arsenal",
 		"uniques": ["[+2] Sight <for [{Military} {Land}] units>", "[+20]% Production <for [{Military} {Land}] units> [in all cities]"], 
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
@@ -418,7 +478,7 @@
 		"tradeRequest": "Would you be interested in a trade agreement with England?",
 		"outerColor": [10, 18, 79],
 		"innerColor": [250, 88, 70],
-		"favoredReligion": "Christianity",
+		"favoredReligion": "Calvinism",
 		"uniqueName": "Rule Brittania",
 		"uniques": ["[+2 Production] from every [Coast]"],
 		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
@@ -449,6 +509,7 @@
 		"outerColor": [255, 129, 10],
 		"innerColor": [255, 255, 255],
 		"uniqueName": "Cape Richness",
+                "favoredReligion": "Catholic",
 		"uniques": ["[+2 Gold] from every [Mine]", "[+70]% Strength <vs [Barbarian] units>"],
 		"cities": ["Cape Town","Hogannesburg","Pretoria","Durban","Bloemfontein","Soweto","Elizabeth Port","Nelspruit","Kimberley","Polokwane"]
 	},
@@ -470,7 +531,7 @@
 		"tradeRequest": "It would be in your best interest, to carefully consider this proposal.",
 		"outerColor": [250, 250, 250],
 		"innerColor": [33, 33, 33],
-		"favoredReligion": "Christianity",
+		"favoredReligion": "Catholic",
 		"uniqueName": "Until Nobody mess with Germany´s Happiness!",
 		"uniques": ["[+30]% Production] <starting from the [Second World War]> <before the [Cold War]>", "[+50]% [Science] [in all cities] <when at war>", "[-50]% maintenance costs <for [Land] units>"],
 		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
@@ -500,7 +561,7 @@
 		"tradeRequest": "I hope this deal will receive your blessing.",
 		"outerColor": [250, 250, 250],
 		"innerColor": [232, 7, 7],
-		"favoredReligion": "Christianity",
+		"favoredReligion": "Catholic",
 		"uniqueName": "Seven Cities of Gold",
 		"uniques": ["[+100]% Yield from every [Luxury resource]", "[+100]% Yield from every [Natural Wonder]"],
 		"cities": ["Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona",
@@ -529,7 +590,7 @@
         "outerColor": [ 38, 98, 255],
         "innerColor": [239,236,148],
 
-		"favoredReligion": "Christianity",
+		"favoredReligion": "Judaism",
 		"uniqueName": "Ancien Régime",
 		"uniques": ["[+2 Culture] [in all cities] <before discovering [Steam Power]>"],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
@@ -558,7 +619,7 @@
 		"tradeRequest": "How would you like it if I propose this kind of exchange?",
 		"outerColor": [207, 209, 232],
 		"innerColor": [32, 57, 87],
-		"favoredReligion": "Christianity",
+		"favoredReligion": "Orthodox",
 		"uniqueName": "Siberian Riches",
 		"uniques": ["[+1 Production] from every [Strategic resource]","[+50]% Yield from every [Tundra]"],
 		"cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
@@ -587,7 +648,7 @@
 		"tradeRequest": "I offer this, for your consideration.",
 		"outerColor": [65, 41, 82],
 		"innerColor": [240, 171, 10],
-		"favoredReligion": "Christianity",
+		"favoredReligion": "Catholic",
 		"uniqueName": "Mediterranean Glory",
 		"uniques": ["[+30]% Production towards any buildings that already exist in the Capital", "[+1] Food from every [Coast]"],
 		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
@@ -616,7 +677,7 @@
 		"tradeRequest": "Peace with Finland is as warm as our saunas",
 		"outerColor": [250, 250, 250],
 		"innerColor": [21, 68, 237],
-		"favoredReligion": "Christianity",
+		"favoredReligion": "Catholic",
 		"uniqueName": "Winter Defense",
 		"uniques": ["[+20]% [Happiness] [in all cities] <when at war>", "[+15]% Strength <when defending>"],
 		"cities": ["Helsinki", "Espoo","Tampere","Vantaa","Oulu","Turku","Jyvaskyla","Lahti","Kuopio","Pori","Joensuu","Lappeenranta","Hameenlinna","Vaasa"],
@@ -694,7 +755,7 @@
 		"tradeRequest": "Check out this",
 		"outerColor": [123, 186, 140],
 		"innerColor": [28, 32, 38],
-		"favoredReligion": "Christianity",
+		"favoredReligion": "Catholic",
 		"uniqueName": "Until the Last Man",
 		"uniques": ["[+70]% [Production] [in all cities] <when at war>","[-5]% [Food] [in all cities] <when at war>"],
 		"cities": ["Asuncion","Ciudad del Este","San Lorenzo","Encarnacion","Ñemby","Oviedo","Capiata","Limpio","Lambare","Itaugua","Luque","Villa Elisa","Villarrica","Hermandarias","Aregua","Caacupe","Minga Guazu",],
@@ -705,7 +766,7 @@
 		"leaderName": "Julio Argentino Roca",
 		"adjective": ["Argentinian"],
 		"startBias":["Plains"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Cultural",
 
 
         "startIntroPart1": "",
@@ -720,7 +781,7 @@
 		"tradeRequest": "Check out this",
 		"outerColor": [0, 187, 250],
 		"innerColor": [64, 11, 11],
-		"favoredReligion": "Christianity",
+		"favoredReligion": "Catholic",
 		"uniqueName": "Desert Expedition",
 		"uniques": ["[+50]% Yield from every [Pasture]","[+50]% Yield from every [Farm]", "[+10]% Strength <vs [Barbarian] units>"],
 		"cities": ["Buenos Aires","Cordoba","Rosario","La Plata","Tucuman","Salta","Mendoza","Vera Cruz","Corrientes","Pilar","Bahia Blanca",
@@ -728,6 +789,57 @@
                             "La Rioja","Comodora","Rivadavia","San Luis","Ituzaingo","Santa fe","Rio Cuarto","San Rafael","Bariloche"],
         "spyNames": ["Saki"]
     },
+    {
+		"name": "Chile",
+		"leaderName": "Diego Portales",
+		"adjective": ["Chilean"],
+		"startBias":["Coast"],
+		"preferredVictoryType": "Cultural",
+
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+                "declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to the land of Argentina",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [48, 47, 82],
+		"innerColor": [250, 20, 12],
+		"favoredReligion": "Animism",
+		"uniqueName": "Frontier Cavalry",
+		"uniques": ["[+20]% Production when constructing [Mounted] units [in all cities]","[+50]% Yield from every [Hill]"],
+		"cities": ["Santiago","Valparaiso","Copiapo","Antofagasta","Iquique","Valdivia","Rancagua","Concepcion","La Serena","Temuco","Osorno","Port Montt", "Arica","Calama","Valparaiso","Talca","Chillan","Quellon","Chaiten","Puerto Aysen","Cochrane","Natales Port","Punta Arenas", "Los Angeles","Quillota","Coronel-Lota","Curico","San Antonio","Melipilla","Ovalle","Los Andes"]
+        "spyNames": ["Saki"]
+    },
+    {
+		"name": "Central Americans",
+		"leaderName": "Francisco Morazán",
+		"adjective": ["Central Americans"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [245, 209, 66],
+		"innerColor": [47, 47, 120],
+		"uniqueName": "Beneficio",
+		"uniques": ["[+50]% Yield from every [Jungle]", "[+1 Science] [in all cities] during [Golden Age]"],
+		"cities": ["San Miguel", "Conchagua" ,"Tegucigalpa", "Leon", "Granada", "San Salvador", "Managua", "San Jose", "Belmopán"]
+	},
 
 	// City-States sorted by cityStateType, name
 	{

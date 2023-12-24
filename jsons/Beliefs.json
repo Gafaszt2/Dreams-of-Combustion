@@ -3,84 +3,54 @@
     {
         "name": "Desert Folklore",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Desert]"]
+        "uniques": ["[+1 Faith] from every [Desert]","[+1 Gold] from every [Desert]"]
     },
     {
-        "name": "Faith Healers",
+        "name": "Kindness Glow",
         "type": "Pantheon",
-        "uniques": ["[All] Units adjacent to this city heal [+30] HP per turn when healing"]
+        "uniques": ["[+10]% growth [in this city]"]
         // This should be worded better
     },
     {
-        "name": "Fertility Rites",
+        "name": "Praying Slaves",
         "type": "Pantheon",
-        "uniques": ["[+10]% growth [in this city]"]
+        "uniques": ["[+10]% gold [in this city]"]
         // Preferably I would not have a cityFilter here, but doing so requires no additional implementation
     },
     {
-        "name": "God of Craftsman",
+        "name": "Colony Faith",
         "type": "Pantheon",
         "uniques": ["[+1 Production] [in cities following this religion] <in cities with at least [3] [Population]>"]
     },
     {
-        "name": "God of the Open Sky",
+        "name": "Piety Enlightenment",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Pasture]"]
+        "uniques": ["[+1 Production] from every [Railroad]"]
     },
     {
-        "name": "God of the Sea",
+        "name": "Passion for Art",
         "type": "Pantheon",
-        "uniques": ["[+1 Production] from every [Fishing Boats]"]
+        "uniques": ["[+15]% culture [in capital]"]
     },
     {
-        "name": "God of War",
+        "name": "Expansive Faith",
         "type": "Pantheon",
         "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
     },
     {
-        "name": "Goddess of Love",
+        "name": "Passion for Science",
         "type": "Pantheon",
-        "uniques": ["[+1 Happiness] [in cities following this religion] <in cities with at least [6] [Population]>"]
+        "uniques": ["[+1 Science] [in cities following this religion] <in cities with at least [6] [Population]>"]
     },
     {
-        "name": "Goddess of Protection",
+        "name": "Worker's Faith",
+        "type": "Pantheon",
+        "uniques": ["[+25]% food [in capital]"]
+    },
+    {
+        "name": "War´s Faith",
         "type": "Pantheon",
         "uniques": ["[+30]% Strength for cities <when attacking>"]
-    },
-    {
-        "name": "Goddess of the Hunt",
-        "type": "Pantheon",
-        "uniques": ["[+1 Food] from every [Camp]"]
-    },
-    {
-        "name": "Messenger of the Gods",
-        "type": "Pantheon",
-        "uniques": ["[+2 Science] from each Trade Route"]
-    },
-    {
-        "name": "One with Nature",
-        "type": "Pantheon",
-        "uniques": ["[+4 Faith] from every [Natural Wonder]"]
-    },
-    {
-        "name": "Oral Tradition",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Plantation]"]
-    },
-    {
-        "name": "Religious Settlements",
-        "type": "Pantheon",
-        "uniques": ["[-15]% Culture cost of natural border growth [in cities following this religion]"]
-    },
-    {
-        "name": "Sacred Waters",
-        "type": "Pantheon",
-        "uniques": ["[+1 Happiness] in cities on [River] tiles"]
-    },
-    {
-        "name": "Stone Circles",
-        "type": "Pantheon",
-        "uniques": ["[+2 Faith] from every [Quarry]"]
     },
 
 ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////

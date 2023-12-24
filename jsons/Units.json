@@ -370,6 +370,57 @@
 		"attackSound": "tankshot"
 	},
         {
+		"name": "Modern Mameluke",
+                "replaces": "Rifleman",
+                "uniqueTo": "Egypt",
+                "upgradesTo": "Great War Infantry",
+		"obsoleteTech": "Ballistics",
+                "requiredTech": "Replaceable Parts",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 40,
+		"cost": 160,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Ikhwan",
+                "replaces": "Rifleman",
+                "uniqueTo": "Nejd Sultanate",
+                "upgradesTo": "Great War Infantry",
+		"obsoleteTech": "Ballistics",
+                "requiredTech": "Replaceable Parts",
+		"unitType": "Gunpowder",
+		"movement": 2.5,
+		"strength": 40,
+		"cost": 110,
+		"attackSound": "camel"
+        },
+        {
+		"name": "Perico",
+                "replaces": "Grenadier",
+                "uniqueTo": "Central Americans",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Dynamite",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 17,
+                "uniques": ["[+15]% Strength <when fighting in [Jungle] tiles> <when attacking>","Can be purchased with [Faith] [in all cities]","Never appears as a Barbarian unit"],
+		"cost": 67,
+		"attackSound": "shot"
+        },
+         {
+		"name": "American Fillibuster",
+                "uniqueTo": "Central Americans",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Dynamite",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 25,
+                "uniques": ["[+5]% Strength <when fighting in [Friendly] tiles> <when attacking>","Can be purchased with [Gold] [in all cities]","Never appears as a Barbarian unit"],
+		"cost": 90,
+		"attackSound": "shot"
+        },
+        {
 		"name": "Skoda Mortar",
                 "uniqueTo": "Montenegro",
                 "replaces": "Mortar",
@@ -395,6 +446,19 @@
 		"strength": 19,
                 "uniques": ["Can be purchased with [Gold] [in all cities]","Can be purchased for [20] [Gold] [in all cities]","Unbuildable","Never appears as a Barbarian unit"],
 		"attackSound": "shot"
+        },
+        {
+		"name": "Batallon Civico",
+                "uniqueTo": "Chile",
+                "replaces": "Partisan",
+                "requiredTech": "Railway",
+                "obsoleteTech": "Dynamite",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 15,
+		"cost": 80, 
+                "uniques": ["[+30]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
         },
         {
 		"name": "Boer Ally",
@@ -541,6 +605,15 @@
 		"attackSound": "shot"
         },
         {
+		"name": "Roto",
+                "uniqueTo": "Chile",
+                "replaces": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles", "Empire enters a [2]-turn Golden Age <by consuming this unit>", "Automation is a primary action"],
+		"cost": 90
+	},
+        {
 		"name": "Primero de Linea",
                 "uniqueTo": "Paraguay",
                 "replaces": "Skrimisher",
@@ -633,7 +706,7 @@
 		"strength": 20,
 		"cost": 50, 
                 "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
-		"attackSound": "horse"
+		"attackSound": "camel"
         },
         {
 		"name": "Deli",
