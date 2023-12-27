@@ -441,7 +441,7 @@
         {
 		"columnNumber": 12,
 		"era": "Post Cold War",
-		"techCost": 1200000,
+		"techCost": 1200,
 		"buildingCost": 500,
 		"wonderCost": 500,
 		"techs": [
@@ -480,39 +480,93 @@
         {
 		"columnNumber": 13,
 		"era": "Post Cold War",
-		"techCost": 1200,
+		"techCost": 1300,
 		"buildingCost": 500,
 		"wonderCost": 500,
 		"techs": [
 			{
 				"name": "Internet", 
 				"row": 2,
-				"prerequisites": ["Globalization", "International Trade Agreements"],
+				"prerequisites": ["Globalization", "International Trade Agreements","Personal Computing"],
 			},
                         {
 				"name": "European Union", 
-				"row": 3,
-				"prerequisites": ["Paris Agreements", "NAFTA"],
-			},
-                        {
-				"name": "Artificial Intelligence", 
 				"row": 4,
-				"prerequisites": ["Afganistan/Irak Wars", "NAFTA"],
+				"prerequisites": ["Paris Agreements", "NAFTA","International Trade Agreements"],
 			},
                         {
-				"name": "Smarthphones",
-				"row": 7,
-				"prerequisites": ["Personal Computing", "International Trade Agreements"],
+				"name": "Desert Storm", 
+				"row": 6,
+				"prerequisites": ["Afganistan/Irak Wars", "NAFTA"],
 			},
 			{
 				"name": "Social Media",
-				"row": 8,
-				"prerequisites": ["Globalization", "Personal Computing"],
+				"row": 9,
+				"prerequisites": ["Globalization", "Personal Computing","Afganistan/Irak Wars"],
+			}
+		]
+	},
+        {
+		"columnNumber": 14,
+		"era": "Post Cold War",
+		"techCost": 1400,
+		"buildingCost": 500,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Farm Technology", 
+				"row": 2,
+				"prerequisites": ["European Union", "Desert Storm"],
+			},
+                        {
+				"name": "Socially Correct Ministry",
+				"row": 6,
+				"prerequisites": ["Social Media", "Internet"],
+			}
+                        {
+				"name": "OTAN", 
+				"row": 3,
+                                "uniques": ["[+1 Faith] per [2] population [in all cities]","[+1 Culture] per [2] population [in all cities]","[+1 Science] per [2] population [in all cities]","[+1 Gold] per [2] population [in all cities]"],
+				"prerequisites": ["European Union", "Desert Storm"],
+			},
+                        {
+				"name": "Smartphones",
+				"row": 7,
+				"prerequisites": ["Social Media", "Internet"],
 			},
                         {
 				"name": "Cloud Computing",
 				"row": 9,
-				"prerequisites": ["Personal Computing", "International Trade Agreements"],
+				"prerequisites": ["Internet"],
+			}
+		]
+	},
+        {
+		"columnNumber": 15,
+		"era": "Post Cold War",
+		"techCost": 1500,
+		"buildingCost": 500,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Ukraine War", 
+				"row": 2,
+				"prerequisites": ["Farm Technology", "OTAN"],
+			},
+                        {
+				"name": "Modern Burned Earth", 
+				"row": 3,
+				"prerequisites": ["OTAN", "Cloud Computing"],
+			},
+                        {
+				"name": "Spiritualism",
+				"row": 7,
+				"prerequisites": ["Socially Correct Ministry"],
+			},
+                        {
+				"name": "Inclusive Marriage",
+				"row": 9,
+				"prerequisites": ["Socially Correct Ministry"],
 			}
 		]
 	}

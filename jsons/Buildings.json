@@ -59,6 +59,41 @@
 		"requiredTech": "Novel"
 	},
         {
+		"name": "Vehicle Factory",
+		"hurryCostModifier": 25,
+                "requiredResource": "Lithium",
+		"uniques": ["[+1 Production] per [2] population [in this city]"],
+		"requiredTech": "Smartphones"
+	},
+        {
+		"name": "SixDegrees",
+		"hurryCostModifier": 25,
+                "requiredResource": "Computer",
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Social Media"
+	},
+        {
+		"name": "Connection Network",
+		"hurryCostModifier": 25,
+                "requiredResource": "Computer",
+		"uniques": ["[+1 Happiness] per [2] population [in this city]"],
+		"requiredTech": "Internet"
+	},
+        {
+		"name": "First Posts",
+		"hurryCostModifier": 25,
+                "requiredResource": "Computer",
+		"uniques": ["[+1 Culture] per [2] population [in this city]"],
+		"requiredTech": "Internet"
+	},
+        {
+		"name": "Email",
+		"hurryCostModifier": 25,
+                "requiredResource": "Computer",
+		"uniques": ["[+1 Happiness] per [2] population [in this city]"],
+		"requiredTech": "Social Media"
+	},
+        {
 		"name": "Havn",
                 "requiredTech": "Settlement"
                 "uniqueTo": "Denmark",
@@ -77,17 +112,17 @@
         {
 		"name": "Gulag",
                 "requiredTech": "Settlement"
-                "uniques": ["[+5]% Gold] [in all cities] <starting from the [Second World War]> <before the [Cold War]>", "[-3]% [Food] [in all cities] <starting from the [Second World War]> <before the [Cold War]>","Unbuildable","Unsellable","[1] free [SS Troop] units appear <with [100]% chance>"],
+                "uniques": ["[+5]% Gold] [in all cities] <starting from the [Second World War]> <before the [Cold War]>", "[-3]% [Food] [in all cities] <starting from the [Second World War]> <before the [Cold War]>","Unbuildable","Unsellable","[2] free [Moscow Defender] units appear <with [100]% chance>"],
 	},
         {
 		"name": "Concentration Camp",
                 "requiredTech": "Settlement"
-                "uniques": ["[+5]% Production] [in all cities] <starting from the [Second World War]> <before the [Cold War]>", "[-3]% [Culture] [in all cities] <starting from the [Second World War]> <before the [Cold War]>","Unbuildable","Unsellable","[1] free [Moscow Defender] units appear <with [100]% chance>"],
+                "uniques": ["[+5]% Production] [in all cities] <starting from the [Second World War]> <before the [Cold War]>", "[-3]% [Culture] [in all cities] <starting from the [Second World War]> <before the [Cold War]>","Unbuildable","Unsellable","[2] free [SS Troop] units appear <with [100]% chance>"],
 	},
         {
 		"name": "Allies Embassy",
                 "requiredTech": "Settlement"
-                "uniques": ["[+5]% Science] [in all cities] <starting from the [Second World War]> <before the [Cold War]>", "[-3]% [Production] [in all cities] <starting from the [Second World War]> <before the [Cold War]>","Unbuildable","Unsellable","[1] free [Marine] units appear <with [100]% chance>"],
+                "uniques": ["[+5]% Science] [in all cities] <starting from the [Second World War]> <before the [Cold War]>", "[-3]% [Production] [in all cities] <starting from the [Second World War]> <before the [Cold War]>","Unbuildable","Unsellable","[2] free [Marine] units appear <with [100]% chance>"],
 	},
         {
 		"name": "Tillaegscenter",
@@ -120,6 +155,56 @@
 		"requiredTech": "Sanitation"
 	},
         {
+		"name": "LGBT Friendly State",
+		"happiness": 3,
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Happiness] per [2] population [in this city]", "Only available <in cities without a [LGBT Ban]>"],
+		"requiredTech": "Inclusive Marriage"
+	},
+        {
+		"name": "LGBT Ban",
+		"happiness": -1,
+		"faith": 2,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Faith] per [2] population [in this city]", "Only available <in cities without a [LGBT Friendly State]>"],
+		"requiredTech": "Inclusive Marriage"
+	},
+        {
+		"name": "Great Women Library",
+		"maintenance": 1,
+		"science": 2,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Science] per [2] population [in this city]", "Only available <in cities without a [LGBT Friendly State]>"],
+		"requiredTech": "Spiritualism"
+	},
+        {
+		"name": "Horoscope Meditation",
+		"maintenance": 1,
+		"faith": 2,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Faith] per [2] population [in this city]", "Only available <in cities without a [LGBT Friendly State]>"],
+		"requiredTech": "Spiritualism"
+	},
+        {
+		"name": "Women Rights",
+		"happiness": 1,
+                "culture": 3,
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Culture] per [2] population [in this city]", "Only available <in cities without a [Repress Women]>"],
+		"requiredTech": "Socially Correct Ministry"
+	},
+        {
+		"name": "Repress Women",
+		"happiness": -1,
+                "gold": 2,
+		"production": 2,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Gold] per [2] population [in this city]", "Only available <in cities without a [Women Rights]>"],
+		"requiredTech": "Socially Correct Ministry"
+	},
+        {
 		"name": "Private School",
 		"gold": 3,
 		"specialistSlots": {"Scientist": 1},
@@ -140,6 +225,12 @@
 		"maintenance": 3,
 		"requiredTech": "Enigma",
 		"uniques": ["Provides [2] [Aluminum]","Limited to [5] per Civilization"]
+	},
+        {
+		"name": "Lithium Race",
+		"maintenance": 1,
+		"requiredTech": "Smartphones",
+		"uniques": ["Provides [2] [Lithium]","Limited to [15] per Civilization"]
 	},
         {
 		"name": "Nuclear Plant",
@@ -744,6 +835,64 @@
 		"requiredTech": "Psychoanalysis"
 	},
         {
+		"name": "World Trade Center",
+                "requiredNearbyImprovedResources": ["Oil"],
+		"gold": 4,
+		"specialistSlots": {"Merchant": 6},
+		"requiredBuilding": "Market",
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured", "[+5]% Great Person generation [in this city]", "Cost increases by [50] per owned city"],
+		"requiredTech": "International Trade Agreements"
+	},
+        {
+		"name": "Silicon Market",
+                "requiredNearbyImprovedResources": ["Oil"],
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["Provides [1] [Silicon] <with [100]% chance>","[+1 Gold] from [Oil] tiles [in this city]"],
+		"requiredTech": "Personal Computing"
+	},
+        {
+		"name": "Computers Market",
+                "maintenance": 3,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["Provides [1] [Computer] <with [100]% chance>"],
+		"requiredTech": "Personal Computing"
+	},
+        {
+		"name": "Organ Market",
+		"gold": 6,
+                "food": -3,
+		"requiredBuilding": "Market",
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured", "Cost increases by [5] per owned city"],
+		"requiredTech": "International Trade Agreements"
+	},
+        {
+		"name": "Technology Factory",
+                "requiredNearbyImprovedResources": ["Aluminum"],
+		"science": 2,
+                "maintenance": 5,
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "Campus",
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured","Cost increases by [50] per owned city"],
+		"requiredTech": "Globalization"
+	},
+        {
+		"name": "Foreign Embassy",
+                "requiredNearbyImprovedResources": ["Aluminum"],
+		"culture": 2,
+                "maintenance": 2,
+		"requiredBuilding": "Campus",
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured","Cost increases by [10] per owned city"],
+		"requiredTech": "Globalization"
+	},
+        {
 		"name": "Campus",
 		"science": 1,
 		"specialistSlots": {"Scientist": 2},
@@ -762,6 +911,26 @@
 		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
 		"requiredTech": "Archaeology"
 	},
+        {
+		"name": "WW2 Memorial",
+                "requiredNearbyImprovedResources": ["Aluminum"],
+                "specialistSlots": {"Artist": 5},
+		"hurryCostModifier": 25,
+		"culture": 2,
+                "faith": 1,
+		"uniques": ["[+15]% Great Person generation [in this city]", "Cost increases by [50] per owned city"],
+		"requiredTech": "Paris Agreements"
+	},
+        {
+		"name": "Cold War Memorial",
+                "requiredNearbyImprovedResources": ["Coal"],
+                "specialistSlots": {"Artist": 5},
+		"hurryCostModifier": 25,
+		"culture": 1,
+                "production": 1,
+		"uniques": ["[+15]% Great Person generation [in this city]", "Cost increases by [50] per owned city"],
+		"requiredTech": "Paris Agreements"
+	},
 	{
 		"name": "Market",
 		"gold": 2,
@@ -773,7 +942,7 @@
         {
 		"name": "Botanical Garden",
 		"culture": 2,
-		"specialistSlots": {"Artist": 1},
+		"specialistSlots": {"Artist": 5},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"culture": 25},
 		"requiredTech": "Biology"
@@ -1096,6 +1265,52 @@
                 "uniques": ["[+15]% [Gold] [in this city]", "Only available <in cities without a [Fruit Market]>"],
 		"hurryCostModifier": 0,
 		"requiredTech": "Free Market"
+	},
+        {
+		"name": "War Ministry",
+                "production": 1,
+                "uniques": ["[+100]% Yield from every [Great Improvement] [in this city]","New [Military] units start with [35] Experience [in this city]"],
+		"hurryCostModifier": 0,
+		"requiredTech": "European Union"
+	},
+        {
+		"name": "Fertilizer and Sulphate",
+                "food": 1,
+                "uniques": ["[+1 Food] per [2] [Farm]"],
+		"hurryCostModifier": 25,
+		"requiredResource": "Nitter"
+		"requiredTech": "Farm Technology"
+	},
+        {
+		"name": "Artificial Seed",
+                "food": 1,
+                "uniques": ["[+1 Food] per [2] [Wheat]"],
+		"hurryCostModifier": 25,
+		"requiredResource": "Nitter"
+		"requiredTech": "Farm Technology"
+	},
+        {
+		"name": "Digital Service",
+                "uniques": ["[+1 Science] per [2] [Luxury resource]"],
+		"hurryCostModifier": 25,
+		"requiredResource": "Computer"
+		"requiredTech": "Cloud Computing"
+	},
+        {
+		"name": "Digital Propaganda",
+                "uniques": ["[+1 Science] per [2] [Strategic resource]"],
+		"hurryCostModifier": 25,
+		"requiredResource": "Computer"
+		"requiredTech": "Cloud Computing"
+	},
+        {
+		"name": "United Nations",
+		"isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"requiredTech": "European Union",
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
+		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
 	},
         {
 		"name": "Apollo Program",

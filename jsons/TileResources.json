@@ -102,12 +102,13 @@
 					"Minor deposits generated with weight [30] <in [Desert] [Hill] tiles>",
 					"Minor deposits generated with weight [30] <in [Tundra] [Hill] tiles>",
 					"Minor deposits generated with weight [30] <in [Snow] [Hill] tiles>"],
-		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	{
 		"name": "Oil",
 		"resourceType": "Strategic",
+                "revealedBy": "Industrialization",
 		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Jungle"],
 		"production": 1,
 		"improvedBy": ["Oil well", "Offshore Platform"],
@@ -124,11 +125,12 @@
 					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
 					"Minor deposits generated with weight [20] <in [Featureless] [Tundra] tiles>",
 					"Minor deposits generated with weight [20] <in [Featureless] [Snow] tiles>"],
-		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 9},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+		"majorDepositAmount": {"sparse": 1, "default": 3, "abundant": 4},
+		"minorDepositAmount": {"sparse": 1, "default": 3, "abundant": 4}
 	},
 	{
 		"name": "Aluminum",
+                "revealedBy": "Industrialization",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Jungle"],
 		"production": 1,
@@ -139,11 +141,25 @@
 					"Generated with weight [39] <in [Hill] tiles>",
 					"Minor deposits generated with weight [20] <in [Jungle] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>"],
-		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+		"majorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3},
+		"minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3}
+	},
+        {
+		"name": "Nitter",
+                "revealedBy": "Industrialization",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Forest","Jungle"],
+		"production": 1,
+                "gold": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [300] tiles <in [Featureless] [Desert] tiles>","Generated on every [300] tiles <in [Featureless] [Hill] tiles>","Generated on every [300] tiles <in [Featureless] [Jungle] tiles>","Generated on every [300] tiles <in [Featureless] [Forest] tiles>"],
+		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3},
+		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2}
 	},
 	{
 		"name": "Uranium",
+                "revealedBy": "Atomic Bomb",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Marsh","Jungle","Forest","Tundra","Snow"],
 		"production": 1,
@@ -155,8 +171,8 @@
 					"Minor deposits generated with weight [10] <in [Forest] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>"],
-		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 4},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+		"majorDepositAmount": {"sparse": 1, "default": 2, "abundant": 2},
+		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 2}
 	},
         {
 		"name": "Furs",
@@ -359,6 +375,23 @@
 		"resourceType": "Luxury",
 		"gold": 2,
 		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+        {
+		"name": "Silicon",
+		"resourceType": "Luxury",
+		"gold": 3,
+	},
+        {
+		"name": "Computer",
+                "revealedBy": "Personal Computing",
+		"resourceType": "Strategic",
+		"science": 1,
+	},
+        {
+		"name": "Lithium",
+                "revealedBy": "Smartphones",
+		"resourceType": "Strategic",
+		"gold": 1,
 	},
 	{
 		"name": "Porcelain",

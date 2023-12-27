@@ -373,7 +373,7 @@
             {
                 "name": "Hate",
                 "uniques": [
-                    "Gain a free [Concentration Camp] [in all cities]"
+                    "Gain a free [Concentration Camp] [in capital]"
                 ],
                 "row": 1,
                 "column": 7
@@ -430,7 +430,7 @@
             {
                 "name": "Soviets Force",
                 "uniques": [
-                    "Gain a free [Gulag] [in all cities]"
+                    "Gain a free [Gulag] [in capital]"
                 ],
                 "row": 1,
                 "column": 7
@@ -506,7 +506,7 @@
             {
                 "name": "America Takes Place",
                 "uniques": [
-                    "Gain a free [Allies Embassy] [in all cities]"
+                    "Gain a free [Allies Embassy] [in capital]"
                 ],
                 "row": 1,
                 "column": 7

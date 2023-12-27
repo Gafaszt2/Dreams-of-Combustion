@@ -115,6 +115,58 @@
 		"cities": ["Ulundi", "KwaDukuza" ,"Bulawayo", "Isandlwana", "Rorke´s Drift", "Eshowe", "Ondini", "Gingindlovu"]
 	},
 {
+		"name": "Ukraine",
+		"leaderName": "Mykhailo Hrushevsky",
+		"adjective": ["Ukranian"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Political",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Hello, you.",
+		"hateHello": "What YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [50, 78, 168],
+		"innerColor": [250, 247, 82],
+                "favoredReligion": "Orthodox",
+		"uniqueName": "Breadbasket of Europe",
+		"uniques": ["[+1 Food] from every [Farm]", "[+20]% Food] <starting from the [National Victorian era]> <before the [Capital Victorian era]>"],
+		"cities": ["Kyiv", "Kharkiv" ,"Odesa", "Dnipro", "Donetsk", "Lviv", "Zaporizhizhia", "Kryvyi Rih", "Mykolaiv", "Sevastopol", "Mariupol", "Luhansk", "Vinnytsia", "Makiivka"],
+	},
+{
+		"name": "Afghanistan",
+		"leaderName": "Sher Ali Khan",
+		"adjective": ["Afghan"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Political",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Hello, you.",
+		"hateHello": "What YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [43, 56, 43],
+		"innerColor": [214, 26, 19],
+                "favoredReligion": "Islam",
+		"uniqueName": "Victorian Resistance",
+		"uniques": ["[+15]% Strength <when fighting units from a Civilization with more Cities than you>", "[+20]% Culture] <starting from the [National Victorian era]> <before the [Capital Victorian era]>"],
+		"cities": ["Kabul","Kandahar","Herat","Mazar I Shariff", "Jalalabad", "Kunduz", "Ghazni", "Balkh", "Baghlan", "Gardez", "Khost", "Maymana", "Khanabad", "Taloqan", "Pul e Khumri", "Sari Pul", "Paghman"],
+	},
+{
 		"name": "Portugal",
 		"leaderName": "António de Oliveira Salazar",
 		"adjective": ["Portuguese"],
@@ -218,7 +270,7 @@
 		"innerColor": [130, 95, 5],
 	        "favoredReligion": "Catholic",
 		"uniqueName": "Assassination of Archduke Franz Ferdinand",
-		"uniques": ["[+1 Food] from every [River]","[+20]% Faith] <starting from the [First World War]> <before the [Second World War]>","[+10]% Production] <starting from the [First World War]> <before the [Second World War]>"],
+		"uniques": ["[+1 Food] from every [River]","[+10]% Faith] <starting from the [First World War]> <before the [Second World War]>","[+5]% Production] <starting from the [First World War]> <before the [Second World War]>"],
 		"cities": ["Stari Ras","Bor","Negotin","Pozarevac","Zajecar","Uzice","Leskovac","Valjevo","Pristina","Djakovica",
 			"Pec","Prizren","Mitrovica","Morava","Sabac","Cacak","Nis","Pirot","Smederevo","Jagodna",
 			"Vranje","Krusevac","Beograd","Rudo Polje","Dmitrovica","Prokuplje","Vucitrn","Debrc","Skopje",
