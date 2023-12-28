@@ -326,6 +326,13 @@
 		"requiredTech": "Sanitation"
 	},
         {
+		"name": "Mining Camp",
+                "uniqueTo": "Bolivia",
+                "gold": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Mining"
+	},
+        {
 		"name": "Language School",
                 "uniqueTo": "Egypt",
                 "replaces": "University",
@@ -337,6 +344,24 @@
 		"requiredBuilding": "Library",
 		"uniques": ["[+1 Production] from [Desert] tiles [in this city]"],
 		"requiredTech": "Archaeology"
+	},
+        {
+		"name": "King Embassy",
+                "uniqueTo": "The Netherlands",
+                "culture": 4,
+		"hurryCostModifier": 50,
+		"uniques": ["Only available <in cities without a [Dutch General Statue]>",
+			"Can only be built [in annexed cities]"],
+		"requiredTech": "Rifling"
+	},
+        {
+		"name": "Dutch General Statue",
+                "uniqueTo": "The Netherlands",
+                "faith": 4,
+		"hurryCostModifier": 50,
+		"uniques": ["Only available <in cities without a [King Embassy]>",
+			"Can only be built [in annexed cities]"],
+		"requiredTech": "Rifling"
 	},
         {
 		"name": "Bomb Shelter",
@@ -409,6 +434,17 @@
 		"requiredTech": "Hunting Pets"
 	},
         {
+		"name": "Hacienda",
+                "replaces": "Granary",
+		"uniqueTo": "Mexico",
+		"food": 3,
+		"hurryCostModifier": 25,
+                "requiredTech": "Hunting Pets"
+		"uniques": ["[+1 Gold] from [Marsh] tiles [in this city]",
+			"[+1 Gold] from [Forest] tiles [in this city]",
+			"[+1 Gold] from [Jungle] tiles [in this city]"],
+	},
+        {
 		"name": "Fazenda",
 		"replaces": "Granary",
 		"uniqueTo": "Brasilian Empire",
@@ -417,6 +453,16 @@
 		"percentStatBonus": {"gold": 25},
 		"uniques": ["Provides [1] [Guava] <with [100]% chance>","Provides [1] [Yerba Mate] <with [50]% chance>","Unsellable","[+1 Gold] from [Plantation] tiles [in this city]"],
 		"requiredTech": "Hunting Pets"
+	},
+        {
+		"name": "Criadero de Llamas",
+                "replaces": "Granary",
+		"uniqueTo": "Peru",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+                "requiredTech": "Hunting Pets"
+		"uniques": ["[+1 Food] from [Hill] tiles [in this city]",
+			"[+1 Food] from [Desert] tiles [in this city]"],
 	},
 {
 		"name": "Granary",
