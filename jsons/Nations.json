@@ -6,6 +6,172 @@
 //		"innerColor": [255,255,255]
 },
 {
+		"name": "Persia",
+		"leaderName": "Nasir al-Din Shah Qajar",
+		"adjective": ["Persian"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Tsarate i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [227, 247, 161],
+		"innerColor": [110, 10, 1],
+		"uniqueName": "Qajar dynasty",
+                "favoredReligion": "Islam",
+		"uniques": ["[+20]% Production when constructing [Missile] units [in all cities]","+15% science while empire is happy","City-State Influence degrades at half rate"],
+		"cities": ["Teheran","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
+			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
+			"Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube",
+			"Dura Europos","Aleppo","Qatna","Kabul","Capisa","Kyreskhata","Marakanda","Peshawar","Van","Pteira","Arshada",
+			"Artakaona","Aspabota","Autiyara","Bagastana","Baxtri","Darmasa","Daphnai","Drapsaka","Eion","Gandutava",
+			"Gaugamela","Harmozeia","Ekatompylos","Izata","Kampada","Kapisa","Karmana","Kounaxa","Kuganaka","Nautaka",
+			"Paishiyauvada","Patigrbana","Phrada"],
+	},
+{
+		"name": "Albania",
+		"leaderName": "Ismail Qemali",
+		"adjective": ["Albanian"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Tsarate i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [173, 61, 70],
+		"innerColor": [26, 25, 25],
+                "favoredReligion": "Orthodox",
+		"uniqueName": "Land of the Eagles",
+		"uniques": ["[+2 Production] from every [Mountain]","[+10]% Strength <when fighting in [Hill] tiles>"],
+		"cities": ["Tirana", "Durres","Vlore","Elbasan","Shkoder","Sarande","Berat","Fier","Korce","Pogradec","Kruje","Gijokaster","Kamez","Lushnje","Kavaje"]
+	},
+{
+		"name": "Bulgarian Empire",
+		"leaderName": "Stefan Stambolov",
+		"adjective": ["Bulgarians"],
+		"startBias": ["River"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Tsarate i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [60, 74, 15],
+		"innerColor": [210, 255, 61],
+		"uniqueName": "Lion’s Roar",
+		"uniques": ["Recieve free [Great General] when you discover [Mining]","[Land] units gain the [Bulgarian Blood] promotion"],
+		"cities": ["Sofia", "Plovdiv" ,"Varna", "Burgas", "Ruse", "Stara Zagora", "Pleven", "Sliven", "Dobrich",
+			"Shumen",
+			"Pernik", "Haskovo"]
+	},
+{
+		"name": "Colonial Empire of Belgium",
+		"leaderName": "Leopold II",
+		"adjective": ["Belgium"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of the Empire i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [187, 139, 57],
+		"innerColor": [77, 9, 9],
+		"uniqueName": "Belgium Congo",
+		"uniques": ["Receive free [Slave] when you discover [Mining]","[+2 Gold] from each Trade Route","[+1 Gold] from every [Mine]"],
+		"cities": ["Brussels", "Ostend", "Brabante", "West Vlaanderen", "Henao", "Lieja", "Limburg", "Luxemburg",
+			"Namur", "Antwerpen", "Hainaut"],
+	},
+{
+		"name": "Switzerland",
+		"leaderName": "William Tell",
+		"adjective": ["Swiss"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType": "Political",
+                "startIntroPart1": " ",
+		"startIntroPart2": " ",
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Hello, you.",
+		"hateHello": "What YOU want?!",
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"outerColor": [66, 30, 44],
+		"innerColor": [252, 23, 107],
+		"favoredReligion": "Catholic",
+		"uniqueName": "Armed Neutrality",
+		"uniques": ["[+20]% Strength <when fighting in [Friendly Land] tiles>", "[Gold] cost of purchasing items in cities [-75]%", "[-5]% Strength <when attacking>"],
+		"cities": ["Zürich","Geneva","Basel","Lausanne","Bern","Winterthur","Lucerne","St. Gallen","Lugano","Biel",
+			"Thun","Bellinzona","Köniz","Fribourgh","La Chaux-de-Fonds","Schaffhausen","Chur","Vernier","Uster","Sion"]
+	},
+{
+	    "name": "Sweden",
+		"leaderName": "Gustaf V",
+		"adjective": ["Swedish"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Diplomatic",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "The Hakkapeliittas will ride again and your men will fall just at the sight of my cavalry! God with us!",
+		"attacked": "Ha ha ha, captain Gars will be very glad to head out to war again.",
+		"defeated": "I am Sweden's king. You can take my lands, my people, my kingdom, but you will never reach the House of Vasa.",
+		"introduction": "Stranger, welcome to the Snow King's kingdom! I am Gustaf V, member of the esteemed House of Vasa",
+
+		"neutralHello": "Oh, welcome!",
+		"hateHello": "Oh, it is you.",
+		"tradeRequest": "My friend, it is my belief that this settlement can benefit both our peoples.",
+        "outerColor": [17, 37, 120],
+		"innerColor": [255, 204, 94],
+		"favoredReligion": "Lutheran",
+		"uniqueName": "Nobel Prize",
+		"uniques": ["Gain [90] Influence with a [Great Person] gift to a City-State", "When declaring friendship, both parties gain a [10]% boost to great person generation"],
+		"cities": ["Stockholm","Uppsala","Gothenburg","Malmö","Linköping","Kalmar","Skara","Västerås","Jönköping",
+            "Visby","Falun","Norrköping","Gävle","Halmstad","Karlskrona","Hudiksvall","Örebro","Umeå","Karlstad",
+            "Helsingborg","Härnösand","Vadstena","Lund","Västervik","Enköping","Skövde","Eskilstuna","Luleå","Lidköping",
+            "Södertälje","Mariestad","Östersund","Borås","Sundsvall","Vimmerby","Köping","Mora","Arboga","Växjö","Gränna",
+            "Kiruna","Borgholm","Strängnäs","Sveg"
+        ],
+        "spyNames": ["Leif", "Ingegard", "Sören", "Ragnhild", "Lars", "Lina", "Herr Grå", "Magnus", "Vilma", "Kusin"]
+    },
+{
 		"name": "The Netherlands",
 		"leaderName": "William III",
 		"adjective": ["Dutch"],

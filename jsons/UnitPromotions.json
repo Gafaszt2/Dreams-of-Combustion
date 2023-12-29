@@ -699,6 +699,10 @@
 		"name": "Home Sweet Home", // only for Mehal Sefari and subsequent upgrades
 		"uniques": ["[+30]% Strength decreasing with distance from the capital"]
 	},
+        {
+		"name": "Bulgarian Blood",
+		"uniques": ["[+15]% Strength when stacked with [Great General]"]
+	},
     {
         "name": "Devout",
         "uniques": ["Can Spread Religion <[1] additional time(s)>"]

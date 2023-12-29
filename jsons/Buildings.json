@@ -314,6 +314,32 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
         {
+		"name": "Kulla",
+                "culture": 2,
+                "happiness": 1,
+                "uniqueTo": "Albania",
+                "replaces": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Scientific Theory",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "Chitalishte",
+                "uniqueTo": "Bulgarian Empire",
+                "replaces": "Opera House",
+		"culture": 5,
+                "happiness": 1,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Opera",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
 		"name": "Madrasah",
                 "uniqueTo": "Nejd Sultanate",
                 "replaces": "Public School",
@@ -412,6 +438,17 @@
                 "uniques": ["[+3 Gold] from each [Trade route]"],
 		"hurryCostModifier": 0,
 		"requiredResource": "Coal",
+		"requiredTech": "Electricity"
+	},
+        {
+		"name": "Swizz Bank",
+                "uniqueTo": "Switzerland",
+                "replaces": "Bank",
+		"gold": 4,
+		"specialistSlots": {"Merchant": 3},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
 		"requiredTech": "Electricity"
 	},
         {
@@ -603,6 +640,17 @@
                 "production": 5,
 		"hurryCostModifier": 25,
 		"requiredTech": "Composites"
+	},
+        {
+		"name": "Colonial Outpost",
+                "uniqueTo": "Colonial Empire of Belgium",
+                "replaces": "Courthouse",
+		"gold": 2,
+                "production": 1,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]"],
+		"requiredTech": "Rifling"
 	},
         {
 		"name": "Space Ship Design Center",
