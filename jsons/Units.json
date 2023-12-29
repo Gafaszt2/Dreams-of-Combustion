@@ -62,6 +62,25 @@
 	},
 	/* Ancient Era */
 	{
+		"name": "Bedouin",
+                "uniqueTo": "Bedouin Ottoman Domains",
+                "replaces": "Worker",
+		"unitType": "Civilian",
+                "obsoleteTech": "Replaceable Parts",
+		"movement": 2,
+		"uniques": ["Can instantly construct a [Nomad Settlement] improvement <by consuming this unit>"],
+		"cost": 70
+	},
+        {
+		"name": "Modern Work Labor",
+                "uniqueTo": "Bedouin Ottoman Domains",
+		"unitType": "Civilian",
+                "requiredTech": "Replaceable Parts",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 70
+	},
+        {
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -1903,4 +1922,32 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[+5]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
+        {
+		"name": "Winged Hussar",
+                "uniqueTo": "Poland",
+                "replaces": "Hussar",
+                "upgradesTo": "Cavalry",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Military Science",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 25,
+		"cost": 89, 
+                "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+        },
+        {
+		"name": "Yoruk",
+                "uniqueTo": "Uzbekistan",
+                "replaces": "Hussar",
+                "upgradesTo": "Cavalry",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Military Science",
+		"unitType": "Mounted",
+		"movement": 4.5,
+		"strength": 20,
+		"cost": 76, 
+                "uniques": ["Can build [Farm] improvements on tiles","Can build [Mine] improvements on tiles","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+        },
 ]

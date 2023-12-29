@@ -6,6 +6,169 @@
 //		"innerColor": [255,255,255]
 },
 {
+		"name": "Bedouin Ottoman Domains",
+		"leaderName": "Sheikh Zayed bin Sultan Al Nahyan",
+		"adjective": ["Bedouin"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Diplomatic",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Tsarate i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [194, 190, 155],
+		"innerColor": [64, 62, 43],
+                "favoredReligion": "Islam",
+		"uniqueName": "Desert Nomads",
+		"uniques": ["[+10]% Production when constructing [Melee] units [in all cities]","[+10]% Strength <when fighting units from a Civilization with more Cities than you>","[+2] Gold from every [Desert]","[+4 Culture] [in all cities] <with [3] to [4] neighboring [Desert] tiles>","[+6 Culture] [in all cities] <with [5] to [6] neighboring [Desert] tiles>"],
+		"cities": ["Al Ramlah","Ibexia","Badiyatun","Oasisend","Al Khaimah","Al Jamalah","Rihlatun","Al Ma anah", "Al Hurriyah"]
+	},
+{
+		"name": "Uzbekistan",
+		"leaderName": "Muhammad Rahim Khan II",
+		"adjective": ["Uzbek"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Tsarate i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [62, 54, 69],
+		"innerColor": [95, 163, 140],
+                "favoredReligion": "Islam",
+		"uniqueName": "Emirate of Bukhara Silk Road Merchants",
+		"uniques": ["[+2] Gold from every [Gold] buildings","[+1 Production, +1 Faith] per every [4] [Gold]","[+1 Faith] in cities on [Hill] tiles","[+20]% Happiness from luxury resources gifted by City-States"],
+		"cities": ["Tashkent","Samarkand","Bukhara","Nukus","Fergana","Qarshi","Kokand","Margilan","Termez","Jizzakh","Angren","Chirchiq","Navoiy","Urgench","Shahrisabz"]
+	},
+{
+		"name": "Poland",
+		"leaderName": "Count Andrzej Zamoyski",
+		"adjective": ["Polish"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Tsarate i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [255, 51, 116],
+		"innerColor": [252, 250, 251],
+                "favoredReligion": "Orthodox",
+		"uniqueName": "Winged Hussars",
+		"uniques": ["[+30]% Production when constructing [Mounted] units [in all cities]", "[+15]% Production when constructing [Faith] buildings [in all cities]", "[+1 Faith] [in all cities] during [Golden Age]"],
+		"cities": ["Varsovia","Cracovia","Breslavia","Poznan","Zakopane","Gdynia","Lodz","Szczecin","Torun","Lublin","Kolobrezeg","Sopot"]
+	},
+{
+		"name": "Greece",
+		"leaderName": "King Otto",
+		"adjective": ["Greek"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Tsarate i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [120, 217, 250],
+		"innerColor": [26, 25, 25],
+                "favoredReligion": "Orthodox",
+		"uniqueName": "Greek Enlightenment",
+		"uniques": ["[+1] Science from every [Science] buildings"],
+		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
+			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
+			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos",
+			"Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis",
+			"Patras","Lamia","Nafplion","Apolyton"],
+	},
+{
+		"name": "Norway",
+		"leaderName": "King Oscar II",
+		"adjective": ["Nordish"],
+		"startBias": ["Snow"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Tsarate i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [156, 118, 245],
+		"innerColor": [26, 25, 25],
+                "favoredReligion": "Orthodox",
+		"uniqueName": "Nordic Resilence",
+		"uniques": ["[+10]% Strength <when fighting in [Tundra] tiles>","[+10]% Strength <when fighting in [Snow] tiles>","[+3]% Strength <when fighting in [Coast] tiles>"],
+		"cities": ["Nidaros","Avaldsnes","Bergen","Bjarkøy","Brattahlíð","Drammen","Frosta","Hamar","Hundorp","Karmøy","Kristiansand",
+			"Kristiansund","Kvitsøy","Moster","Namsos","Oslo","Reykjavik","Ringerike","Sandnæs","Sarpsborg","Skedsmo",
+			"Skien","Sogndal","Stange","Stavanger","Stiklestad","Tjøtta","Tromsø","Verdal","Vinland","Alesund"]
+	},
+{
+		"name": "Romania",
+		"leaderName": "Alexandru Ioan Cuza",
+		"adjective": ["Romanian"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Tsarate i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [233, 255, 36],
+		"innerColor": [26, 25, 25],
+                "favoredReligion": "Orthodox",
+		"uniqueName": "Cultural Renaissance",
+		"uniques": ["[+1] Culture from every [Culture] buildings"],
+		"cities": ["Bucharest", "Cluj-Napoca","Timișoara","Lași","Constanța","Craiova","Brașov","Galați","Ploiești","Oradea",
+                       "Brăila","Arad","Pitești","Sibiu","Băcau","Târgu Mureș","Baia Mare","Buzău","Botoșani","Satu Mare"]
+	},
+{
 		"name": "Persia",
 		"leaderName": "Nasir al-Din Shah Qajar",
 		"adjective": ["Persian"],
@@ -1165,7 +1328,7 @@
                 "declaringWar": "We cannot tolerate you anymore",
 		"attacked": "The war has hardened us, but it has not broken us",
 		"defeated": "This cannot happen!",
-		"introduction": "Welcome to the land of Argentina",
+		"introduction": "Welcome to the land of Chile",
 		"neutralHello": "Hello.",
 		"hateHello": "We do not fear war",
 		"tradeRequest": "Check out this",
@@ -1205,212 +1368,17 @@
 
 	// City-States sorted by cityStateType, name
 	{
-		"name": "Brussels",
-		"adjective": ["Bruxellois"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I guess you weren't here for the sprouts after all...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [153,255,51],
-		"cities": ["Brussels"]
-	},
-	{
-		"name": "Florence",
-		"adjective": ["Florentine"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "And so the flower of Florence falls to barbaric hands...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [62,197,252],
-		"cities": ["Florence"]
-	},
-	{
-		"name": "Hanoi",
-		"adjective": ["Hanoi"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "So this is how it feels to die...",
-		"outerColor": [0, 0, 0],
-        "innerColor": [51,51,255],
-		"cities": ["Hanoi"]
-	},
-	{
-		"name": "Kabul",
-		"adjective": ["Kabul"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Unacceptable!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [168,38,102],
-		"cities": ["Kabul"]
-	},
-	{
-		"name": "Kuala Lumpur",
-		"adjective": ["KLite"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Today, the Malay people obey you, but do not think this is over...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [0,102,102],
-		"cities": ["Kuala Lumpur"]
-	},
-	{
-		"name": "Lhasa",
-		"adjective": ["tibetano"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Perhaps now we will find peace in death...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [204,102,0],
-		"cities": ["Lhasa"]
-	},
-	{
-		"name": "Milan",
-		"adjective": ["Milanese"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "You fiend! History shall remember this!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [185,132,66],
-		"cities": ["Milan"]
-	},
-	{
-		"name": "Quebec City",
-		"adjective": ["Québécois"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We were too weak to protect ourselves...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [51,102,0],
-		"cities": ["Quebec City"]
-	},
-
-	{
-		"name": "Cape Town",
-		"adjective": ["Cape Town"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I have failed. May you, at least, know compassion towards our people.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,153,153],
-		"cities": ["Cape Town"]
-	},
-	{
-		"name": "Helsinki",
-		"adjective": ["Helsinki"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,178,102],
-		"cities": ["Helsinki"]
-	},
-	{
-		"name": "Manila",
-		"adjective": ["Manilan"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Ah, Gods! Why have you forsaken us?",
-		"outerColor": [0, 0, 0],
-		"innerColor": [96,96,96],
-		"cities": ["Manila"]
-	},
-	{
-		"name": "Mogadishu",
-		"adjective": ["Mogadishu"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Congratulations, conqueror. This tribe serves you now.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [224,224,224],
-		"cities": ["Mogadishu"]
-	},
-	{
-		"name": "Rio de Janeiro",
-		"adjective": ["Carioca"],
+		"name": "Malta",
+		"adjective": ["Maltese"],
 		"cityStateType": "Maritime",
 		"startBias": ["Coast"],
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "You can see how fruitless this will be for you... right?",
-		"defeated": "May God grant me these last wishes - peace and prosperity for Brazil.",
+		"defeated": "May God grant me these last wishes - peace and prosperity for Malta.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [211, 220, 103],
-		"cities": ["Rio de Janeiro"]
-	},
-	{
-		"name": "Sydney",
-		"adjective": ["Sydney"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, for war is upon us.",
-		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
-		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,204,204],
-		"cities": ["Sydney"]
-	},
-	{
-		"name": "Ur",
-		"adjective": ["Ur"],
-		"cityStateType": "Maritime",
-		"startBias": ["Coast"],
-
-		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
-		"attacked": "Why do we fight? Because Inanna demands it. Now, witness the power of the Sumerians!",
-		"defeated": "What treachery has struck us? No, what evil?",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,69,0],
-		"cities": ["Ur"]
-	},
-	{
-		"name": "Vancouver",
-		"adjective": ["Vancouverite"],
-		"cityStateType": "Maritime",
-
-		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with Canada, we can have no recourse but war!",
-		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.",
-		"defeated": "I regret not defending my country to the last, although it was not of use.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [0,255,128],
-		"cities": ["Vancouver"]
-	},
-	{
-		"name": "Venice",
-		"adjective": ["Venetian"],
-		"cityStateType": "Maritime",
-		"startBias": ["Coast"],
-
-		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "A wrong calculation, on my part.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [153,204,255],
-		"cities": ["Venice"]
+		"cities": ["Malta"]
 	},
 
 	{

@@ -302,6 +302,27 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
         {
+		"name": "Central Courtyard",
+                "uniqueTo": "Uzbekistan",
+                "replaces": "Market",
+		"gold": 2,
+                "culture": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Vaccine"
+	},
+        {
+		"name": "Cloth Hall",
+                "uniqueTo": "Poland",
+                "replaces": "Market",
+		"gold": 5,
+		"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Vaccine"
+	},
+        {
 		"name": "Snow Bunker",
                 "uniqueTo": "Finland",
                 "replaces": "Trenchs",
@@ -312,6 +333,31 @@
 		"requiredBuilding": "Arsenal",
 		"requiredTech": "Replaceable Parts",
 		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "Peles Castle",
+                "culture": 1,
+                "gold": 2,
+                "uniqueTo": "Romania",
+                "replaces": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Scientific Theory",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
+		"name": "Old Royal Palace",
+                "uniqueTo": "Greece",
+                "replaces": "Hermitage",
+		"cost": 125,
+		"percentStatBonus": {"culture": 50},
+		"culture": 3,
+                "science": 2,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Opera House] in all cities", "Cost increases by [25] per owned city"],
+		"requiredTech": "Electricity"
 	},
         {
 		"name": "Kulla",
@@ -426,6 +472,15 @@
 		"requiredTech": "Synthetic Rubber"
 	},
         {
+		"name": "Greek Revival Architecture",
+                "uniqueTo": "Greece",
+                "replaces": "Monument",
+		"happiness": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"uniques": ["Destroyed when the city is captured"]
+	}
+        {
 		"name": "Chaebol",
                 "uniqueTo": "South Korea",
                 "replaces": "Factory",
@@ -451,6 +506,18 @@
 		"requiredBuilding": "Market",
 		"requiredTech": "Electricity"
 	},
+        {
+		"name": "Stave Church",
+                "uniqueTo": "Norway",
+                "replaces": "Temple",
+		"faith": 2,
+                "culture": 2,
+                "greatPersonPoints": {"Great Prophet": 1},
+		"cost": 100,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	}
         {
 		"name": "Temple",
 		"faith": 4,
@@ -482,6 +549,19 @@
 			"[+1 Gold] from [Jungle] tiles [in this city]"],
 	},
         {
+		"name": "Folk Museum",
+                "replaces": "Museum",
+		"uniqueTo": "Norway",
+		"culture": 4,
+                "happiness": 2,
+		"specialistSlots": {"Artist": 2},
+		"requiredBuilding": "Opera House",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Psychoanalysis",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
 		"name": "Fazenda",
 		"replaces": "Granary",
 		"uniqueTo": "Brasilian Empire",
@@ -490,6 +570,15 @@
 		"percentStatBonus": {"gold": 25},
 		"uniques": ["Provides [1] [Guava] <with [100]% chance>","Provides [1] [Yerba Mate] <with [50]% chance>","Unsellable","[+1 Gold] from [Plantation] tiles [in this city]"],
 		"requiredTech": "Hunting Pets"
+	},
+        {
+		"name": "Apartment",
+                "replaces": "Housing",
+		"uniqueTo": "Romania",
+                "gold": 3,
+		"hurryCostModifier": 25,
+                "uniques": ["[+5]% [Gold] [in this city]"],
+		"requiredTech": "Antibiotic"
 	},
         {
 		"name": "Criadero de Llamas",
