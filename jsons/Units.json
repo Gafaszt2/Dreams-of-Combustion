@@ -81,6 +81,15 @@
 		"cost": 70
 	},
         {
+		"name": "Convict",
+                "replaces": "Worker",
+                "uniqueTo": "Colony of New South Wales",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can be purchased with [Gold] [in capital]","Can be purchased for [30] [Gold] [in capital]","Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 60
+	},
+        {
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -1488,6 +1497,20 @@
 		"attackSound": "shot"
         },
         {
+		"name": "Viet Cong",
+                "uniqueTo": "Vietnam",
+                "replaces": "River Patrol",
+                "upgradesTo": "AK47",
+                "obsoleteTech": "Afganistan/Irak Wars",
+                "requiredTech": "Vietnam War",
+		"unitType": "Gunpowder",
+                "uniques": ["Invisible to non-adjacent units","Double movement in [Forest]","Double movement in [Jungle]", "Never appears as a Barbarian unit"],
+		"movement": 2,
+		"strength": 70,
+		"cost": 260,
+		"attackSound": "shot"
+        },
+        {
 		"name": "Independence Brigades",
                 "uniqueTo": "United States of America",
                 "replaces": "River Patrol",
@@ -1722,7 +1745,7 @@
 		"attackSound": "horse"
         },
         {
-		"name": "Independentista Montado",
+		"name": "Llanero",
                 "uniqueTo": "Colombia",
                 "replaces": "Grenadier",
                 "upgradesTo": "Rifleman",
@@ -1733,10 +1756,10 @@
 		"strength": 25,
                 "uniques": ["[+5]% Strength <when fighting in [Plains] tiles> <when attacking>","Never appears as a Barbarian unit"],
 		"cost": 85,
-		"attackSound": "shot"
+		"attackSound": "metalhit"
         },
         {
-		"name": "Batallon de Voluntarios",
+		"name": "Paramilitar",
                 "uniqueTo": "Colombia",
                 "replaces": "M16 Infantry",
                 "upgradesTo": "Modern Day Reserve",
@@ -1949,5 +1972,89 @@
 		"cost": 76, 
                 "uniques": ["Can build [Farm] improvements on tiles","Can build [Mine] improvements on tiles","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
+        },
+        {
+		"name": "Officer",
+                "uniqueTo": "Dutch East India Company",
+                "replaces": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+                "strength": 8,
+		"cost": 146,
+		"uniques": ["[+100]% Strength <starting from the [Capital Victorian era]>","[+100]% Strength <starting from the [Second World War]>","[+100]% Strength <starting from the [Post Cold War]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+	},
+        {
+		"name": "Katipunero",
+                "uniqueTo": "Philipines",
+                "replaces": "Rifleman",
+                "upgradesTo": "Great War Infantry",
+                "upgradesTo": "Great War Infantry",
+		"obsoleteTech": "Ballistics",
+                "requiredTech": "Replaceable Parts",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 40,
+		"cost": 150,
+                 "uniques": ["[+15]% Strength <when fighting in [Friendly] tiles> <when attacking>","Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+        },
+        {
+		"name": "Company Fleet",
+                "uniqueTo": "Dutch East India Company",
+                "replaces": "Frigate",
+		"unitType": "Ranged Water",
+                "obsoleteTech": "Radio",
+		"movement": 5,
+		"strength": 26,
+		"rangedStrength": 31,
+		"cost": 185,
+		"requiredTech": "Steam Power",
+		"hurryCostModifier": 20,
+		"attackSound": "cannon"
+	},
+        {
+		"name": "Gatling Elephant",
+                "uniqueTo": "Siam Kingdom",
+                "replaces": "Gatling Gun",
+                "requiredTech": "Combustion",
+                "obsoleteTech": "Combined Arms",
+		"unitType": "Gunpowder",
+		"movement": 4,
+		"strength": 25,
+                "rangedStrength": 45,
+		"cost": 250,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Bushranger",
+                "uniqueTo": "Colony of Victoria",
+                "replaces": "Rifleman",
+                "upgradesTo": "Great War Infantry",
+                "upgradesTo": "Great War Infantry",
+		"obsoleteTech": "Ballistics",
+                "requiredTech": "Replaceable Parts",
+		"unitType": "Gunpowder",
+		"movement": 3.5,
+		"strength": 40,
+		"cost": 150,
+                 "uniques": ["Can move after attacking","Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+        },
+        {
+		"name": "Tirailleur Indochinois",
+                "uniqueTo": "French Indochina",
+                "replaces": "Rifleman",
+                "upgradesTo": "Great War Infantry",
+                "upgradesTo": "Great War Infantry",
+		"obsoleteTech": "Ballistics",
+                "requiredTech": "Replaceable Parts",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 40,
+		"cost": 150,
+                 "uniques": ["Double movement in [Jungle]","Never appears as a Barbarian unit","[+15]% Strength <when fighting in [Jungle] tiles> <when attacking>"],
+		"attackSound": "shot"
         },
 ]
