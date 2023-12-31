@@ -1430,7 +1430,7 @@
         },
         {
 		"name": "Commando",
-                "uniqueTo": "South African Union",
+                "uniqueTo": "Transvaal",
                 "replaces": "Infantry",
                 "requiredTech": "Plastics",
 		"unitType": "Gunpowder",
@@ -1441,7 +1441,7 @@
         },
         {
 		"name": "Sowar War Camel",
-                "uniqueTo": "Indian Raj",
+                "uniqueTo": "British Raj",
                 "replaces": "Dragoon",
                 "obsoleteTech": "Replaceable Parts",
                 "requiredTech": "Military Science",
@@ -2025,7 +2025,7 @@
 		"strength": 25,
                 "rangedStrength": 45,
 		"cost": 250,
-		"attackSound": "shot"
+		"attackSound": "elephant"
         },
         {
 		"name": "Bushranger",
@@ -2054,7 +2054,34 @@
 		"movement": 2,
 		"strength": 40,
 		"cost": 150,
-                 "uniques": ["Double movement in [Jungle]","Never appears as a Barbarian unit","[+15]% Strength <when fighting in [Jungle] tiles> <when attacking>"],
+                 "uniques": ["Double movement in [Jungle]","Never appears as a Barbarian unit","[+15]% Strength <when fighting in [Jungle] tiles> <when attacking>","Never appears as a Barbarian unit"],
 		"attackSound": "shot"
+        },
+        {
+		"name": "War Elephant",
+                "uniqueTo": "Burma",
+                "replaces": "Halberdier",
+                "requiredTech": "Dynamite",
+                "obsoleteTech": "Replaceable Parts",
+		"unitType": "Sword",
+		"movement": 3.5,
+		"strength": 25,
+		"cost": 90, 
+                "uniques": ["[+50]% Strength <vs [Mounted] units>","Never appears as a Barbarian unit"],
+		"attackSound": "elephant"
+        },
+        {
+		"name": "Akali Nihang",
+                "uniqueTo": "Sikh Empire",
+                "replaces": "Line Infantry",
+                "upgradesTo": "Grenadier",
+                "requiredTech": "Rifling",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Sword",
+		"movement": 3,
+                "uniques": ["Earn [2]% of killed [Military] unit's [Strength] as [Science]","Never appears as a Barbarian unit"],
+		"strength": 13,
+		"cost": 59,
+		"attackSound": "metalhit"
         },
 ]

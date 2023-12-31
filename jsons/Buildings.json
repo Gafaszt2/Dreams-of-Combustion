@@ -39,7 +39,7 @@
         {
 		"name": "Safari",
                 "happiness": 3,
-                "uniqueTo": "South African Union",
+                "uniqueTo": "Cape Colony",
 		"maintenance": 1,
 		"requiredTech": "Biology"
 	},
@@ -346,6 +346,19 @@
 		"requiredTech": "Vaccine"
 	},
         {
+		"name": "Kyaung",
+                "uniqueTo": "Burma",
+                "replaces": "University",
+		"maintenance": 2,
+                "faith": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]","[+1 Faith] from [Jungle] tiles [in this city]"],
+		"requiredTech": "Archaeology"
+	},
+        {
 		"name": "Snow Bunker",
                 "uniqueTo": "Finland",
                 "replaces": "Trenchs",
@@ -565,6 +578,19 @@
 		"requiredTech": "Vaccine"
 	},
         {
+		"name": "Gurdwara",
+                "uniqueTo": "Sikh Empire",
+                "replaces": "Temple",
+		"faith": 3,
+                "culture": 1,
+                "happiness": 1,
+                "greatPersonPoints": {"Great Prophet": 1},
+		"cost": 100,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	}
+        {
 		"name": "Stave Church",
                 "uniqueTo": "Norway",
                 "replaces": "Temple",
@@ -596,6 +622,17 @@
 		"requiredTech": "Hunting Pets"
 	},
         {
+		"name": "Wine Estate",
+                "replaces": "Market",
+		"uniqueTo": "Cape Colony",
+		"gold": 3,
+		"specialistSlots": {"Merchant": 1},
+                "uniques": ["Provides [1] [Wine] <with [100]% chance>","Unsellable","[+1 Gold] from [Plantation] tiles [in this city]"],
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Vaccine"
+	},
+        {
 		"name": "Hacienda",
                 "replaces": "Granary",
 		"uniqueTo": "Mexico",
@@ -605,6 +642,17 @@
 		"uniques": ["[+1 Gold] from [Marsh] tiles [in this city]",
 			"[+1 Gold] from [Forest] tiles [in this city]",
 			"[+1 Gold] from [Jungle] tiles [in this city]"],
+	},
+        {
+		"name": "Gold Mine",
+                "replaces": "Bank",
+		"uniqueTo": "Transvaal",
+		"gold": 4,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
+		"requiredTech": "Electricity"
 	},
         {
 		"name": "Folk Museum",
@@ -1250,7 +1298,7 @@
 	},
        {
 		"name": "Colonial Railway",
-                "uniqueTo": "Indian Raj",
+                "uniqueTo": "British Raj",
                 "replaces": "National Treasury",
 		"cost": 125,
 		"gold": 2,

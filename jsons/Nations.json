@@ -6,6 +6,58 @@
 //		"innerColor": [255,255,255]
 },
 {
+		"name": "Sikh Empire",
+		"leaderName": "Maharaja Ranjit Singh",
+		"adjective": ["Sikh"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Empire i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [161, 237, 222],
+		"innerColor": [0, 49, 133],
+                "favoredReligion": "Buddhism",
+		"uniqueName": "Akal Sahai",
+		"uniques": ["Enemy [Wounded] units must spend [1] extra movement points when inside your territory",  "[-20]% Gold cost of upgrading", "Earn [50]% of killed [Wounded] unit's [Cost] as [Faith]"],
+		"cities": ["Lahore","Multan","Peshawar","Kashmir","Gujranwala",Amritsar","Jammu"],
+	},
+{
+		"name": "Burma",
+		"leaderName": "King Mindon Min",
+		"adjective": ["Burma"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Empire i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [174, 201, 245],
+		"innerColor": [161, 3, 0],
+                "favoredReligion": "Buddhism",
+		"uniqueName": "Golden Land",
+		"uniques": ["[+10]% Production when constructing [Water] units [in all cities]","[+5]% of excess happiness converted to [Science]","[-30]% Gold cost of acquiring tiles [in all cities]"],
+		"cities": ["Yangon","Mandalay","Naypyidaw","Mawlamyine","Taunggi","Bago","Monywa","Myitkyna","Pathein","Sittwe"],
+	},
+{
 		"name": "Colony of New South Wales",
 		"leaderName": "Arthur Phillip",
 		"adjective": ["Australian"],
@@ -209,7 +261,7 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [194, 190, 155],
+		"outerColor": [245,248,185],
 		"innerColor": [64, 62, 43],
                 "favoredReligion": "Islam",
 		"uniqueName": "Desert Nomads",
@@ -372,7 +424,7 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [227, 247, 161],
+		"outerColor": [245,248,185],
 		"innerColor": [110, 10, 1],
 		"uniqueName": "Qajar dynasty",
                 "favoredReligion": "Islam",
@@ -592,8 +644,8 @@
 
 		"tradeRequest": "Generous Egypt makes you this offer.",
 
-		"outerColor": [74, 27, 20],
-		"innerColor": [236, 157, 250],
+		"outerColor": [245,248,185],
+		"innerColor": [53, 35, 94],
 		"favoredReligion": "Islam",
 		"uniqueName": "Modernization Era",
 		"uniques": ["No Maintenance costs for improvements in [Desert] tiles","[+15]% Production when constructing [Settler] units [in all cities]"],
@@ -739,8 +791,8 @@
 		"neutralHello": "Hello, you.",
 		"hateHello": "What YOU want?!",
 		"tradeRequest": "Better hurry, I may change my mind.",
-		"outerColor": [7, 19, 54],
-		"innerColor": [72, 75, 84],
+		"outerColor": [108, 110, 117],
+		"innerColor": [11, 18, 46],
                 "favoredReligion": "Voodoo",
 		"uniqueName": "Dictatorship",
 		"uniques": ["[+5]% Production towards any buildings that already exist in the Capital","[+2 Faith] from every [Fort]","[+1] Movement <for [Water] units>","[Great General] is earned [20]% faster"],
@@ -1050,7 +1102,7 @@
 
     },
     {
-		"name": "Indian Raj",
+		"name": "British Raj",
 		"leaderName": "Louis Mountbatten",
 		"adjective": ["Indian"],
 		"startBias": ["Grassland"],
@@ -1067,7 +1119,7 @@
 		"hateHello": "What do you want?",
 		"tradeRequest": "My friend, are you interested in this arrangement?",
 
-        "outerColor": [14, 113, 4],
+        "outerColor": [10, 18, 79],
         "innerColor": [255, 163, 71],
 
 		"favoredReligion": "Hinduism",
@@ -1198,9 +1250,9 @@
         "spyNames": ["James", "Scarlett", "Scott", "Anne"]
     },
 {
-		"name": "South African Union",
-		"leaderName": "Jan Smuts",
-		"adjective": ["South African"],
+		"name": "Cape Colony",
+		"leaderName": "Sir Walter Francis Hely Hutchinson",
+		"adjective": ["Cape Colony"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Culture",
 		
@@ -1216,12 +1268,38 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [255, 129, 10],
-		"innerColor": [255, 255, 255],
+		"outerColor": [10, 18, 79],
+		"innerColor": [206, 255, 122],
 		"uniqueName": "Cape Richness",
-                "favoredReligion": "Catholic",
-		"uniques": ["[+2 Gold] from every [Mine]", "[+70]% Strength <vs [Barbarian] units>"],
-		"cities": ["Cape Town","Hogannesburg","Pretoria","Durban","Bloemfontein","Soweto","Elizabeth Port","Nelspruit","Kimberley","Polokwane"]
+                "favoredReligion": "Calvinism",
+		"uniques": ["[+2 Gold] from every [Coast]", "[+20]% Production when constructing [Production] buildings [in all cities]"],
+		"cities": ["Cape Town","Clanwilliam","Stellenbosch","Zwellendam","Tullbagh","Beufort","George","Uitenhangue"]
+	},
+{
+		"name": "Transvaal",
+		"leaderName": "Sir Walter Francis Hely Hutchinson",
+		"adjective": ["Transvaal"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Culture",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of white people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Hello.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [38, 38, 37],
+		"innerColor": [250, 98, 10],
+		"uniqueName": "Treaty of Vereeniging",
+                "favoredReligion": "Calvinism",
+		"uniques": ["[+2 Gold] from every [Mine]", "[+1 Gold] from every [Grassland]","[+25]% Strength <vs [Barbarian] units>"],
+		"cities": ["Pretoria","Johannesburg","Vereeniging","Heidelberg","Messina","Nelspruit","Witwatersrand","Vaal Triangle","Zoutpansberg"]
 	},
         {
 		"name": "German Empire",
@@ -1552,6 +1630,62 @@
 	},
 
 	// City-States sorted by cityStateType, name
+
+
+
+        {
+		"name": "Kokand",
+		"adjective": ["Kokand"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "We cant forgive you!",
+		"attacked": "This will be the beggining of your nightmares...",
+		"defeated": "We cannot lose!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [119, 217, 247],
+		"cities": ["Kokand"]
+	},
+         {
+		"name": "Bukhara",
+		"adjective": ["Bukhara"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "We cant forgive you!",
+		"attacked": "This will be the beggining of your nightmares...",
+		"defeated": "We cannot lose!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [170, 119, 247],
+		"cities": ["Bukhara"]
+	},
+         {
+		"name": "Kalat",
+		"adjective": ["Kalat"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "We cant forgive you!",
+		"attacked": "This will be the beggining of your nightmares...",
+		"defeated": "We cannot lose!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [247, 119, 200],
+		"cities": ["Kalat"]
+	},
+        {
+		"name": "Sindv",
+		"adjective": ["Sindv"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "We cant forgive you!",
+		"attacked": "This will be the beggining of your nightmares...",
+		"defeated": "We cannot lose!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [119, 247, 149],
+		"cities": ["Sindv"]
+	},
+
+
+
+
+
 	{
 		"name": "Malta",
 		"adjective": ["Maltese"],
@@ -1562,7 +1696,7 @@
 		"attacked": "You can see how fruitless this will be for you... right?",
 		"defeated": "May God grant me these last wishes - peace and prosperity for Malta.",
 		"outerColor": [0, 0, 0],
-		"innerColor": [211, 220, 103],
+		"innerColor": [250, 84, 75],
 		"cities": ["Malta"]
 	},
 	{
@@ -1574,7 +1708,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Perhaps, in another world, we could have been friends...",
 		"outerColor": [0, 0, 0],
-		"innerColor": [255,255,0],
+		"innerColor": [245, 194, 191],
 		"cities": ["Singapore"]
 	},
 
@@ -1587,7 +1721,7 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "How could we fall to the likes of you?!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [152,0,241],
+		"innerColor": [156, 37, 30],
 		"cities": ["Papal States"]
 	},
 	{
@@ -1599,7 +1733,7 @@
 		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Ireland!",
 		"defeated": "A lonely wind blows through the highlands today. A dirge for Ireland. Can you hear it?",
 		"outerColor": [0, 0, 0],
-		"innerColor": [211,180,113],
+		"innerColor": [194, 255, 97],
 		"cities": ["Ireland"],
 		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games"]
 	},
@@ -1612,7 +1746,7 @@
 		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
 		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
 		"outerColor": [0, 0, 0],
-		"innerColor": [255,128,0],
+		"innerColor": [245, 123, 17],
 		"cities": ["M'Banza-Kongo"]
 	},
 	{
@@ -1624,9 +1758,13 @@
 		"attacked": "Very well, we will kick you back to the ancient era!",
 		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [203, 253, 232],
+		"innerColor": [255, 254, 252],
 		"cities": ["Palestine"]
 	},
+
+
+
+        
 
 
 
