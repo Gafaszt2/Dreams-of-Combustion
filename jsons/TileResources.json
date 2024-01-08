@@ -10,6 +10,16 @@
 		"uniques": ["Generated on every [18] tiles <in [Featureless] [Grassland] tiles>",
 					"Generated on every [22] tiles <in [Featureless] [Grassland] tiles> <in [Hill] Regions>"]
 	},
+        {
+		"name": "Horses",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"food": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [37] tiles <in [Featureless] [Grassland] tiles>",
+					"Generated on every [47] tiles <in [Featureless] [Grassland] tiles> <in [Hill] Regions>"]
+	},
 	{
 		"name": "Sheep",
 		"resourceType": "Bonus",

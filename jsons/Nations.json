@@ -6,6 +6,32 @@
 //		"innerColor": [255,255,255]
 },
 {
+		"name": "Patagonian Confederation",
+		"leaderName": "Orelie Antoine de Tounens",
+		"adjective": ["Patagonia"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Empire i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [138, 135, 135],
+		"innerColor": [46, 30, 6],
+                "favoredReligion": "Shamanism",
+		"uniqueName": "Land of Giants",
+		"uniques": ["Gain a free [Pillaged Town] [in all cities]","[+1 Food] [in all cities] per [2] social policies adopted"],
+		"cities": ["Coyhaique","El Chalten","El Calafate","Ushuaia","Puyuhuapi","Frutillar","Puerto Montt","Castro","Puerto Natales","Punta Arenas"],
+	},
+{
 		"name": "Sikh Empire",
 		"leaderName": "Maharaja Ranjit Singh",
 		"adjective": ["Sikh"],
@@ -30,7 +56,61 @@
 		"uniqueName": "Akal Sahai",
 		"uniques": ["Enemy [Wounded] units must spend [1] extra movement points when inside your territory",  "[-20]% Gold cost of upgrading", "Earn [50]% of killed [Wounded] unit's [Cost] as [Faith]"],
 		"cities": ["Lahore","Multan","Peshawar","Kashmir","Gujranwala",Amritsar","Jammu"],
-	},
+	},{
+		"name": "Maori",
+		"leaderName": "King Tawhiao",
+		"adjective": ["Maori"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "The ancient fire flashing across the sky is what proclaimed that this day would come, though I had foolishly hoped for a different outcome.",
+		"attacked": "It is obvious now that I misjudged you and your true intentions.",
+		"defeated": "The hard-shelled crab yields, and the lion lies down to sleep. Kanaloa comes for me now.",
+		"introduction": "Aloha! Greetings and blessings upon you, friend.",
+		"neutralHello": "Welcome, friend!",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "Come, let our people feast together!",
+		"outerColor": [63, 77, 99],
+		"innerColor": [250, 180, 67],
+		"favoredReligion": "Manaism",
+		"uniqueName": "Mana Whenua",
+		"uniques": ["Enables embarkation for land units <starting from the [National Victorian era]>", "Enables [All] units to enter ocean tiles <starting from the [National Victorian era]>",
+ "[+1] Sight <for [Embarked] units>", "[+10]% Strength <within [2] tiles of a [Moai]>", "Reveal up to [10] [Coast] within a [20] tile radius","Reveal up to [10] [Ocean] within a [20] tile radius"],
+		"cities": ["Honolulu","Samoa","Tonga","Nuku Hiva","Raiatea","Aotearoa","Tahiti","Hilo","Te Wai Pounamu","Rapa Nui",
+			"Tuamotu","Rarotonga","Tuvalu","Tubuai","Mangareva","Oahu","Kiritimati","Ontong Java","Niue","Rekohu",
+			"Rakahanga","Bora Bora","Kailua","Uvea","Futuna","Rotuma","Tokelau","Lahaina","Bellona","Mungava","Tikopia",
+			"Emae","Kapingamarangi","Takuu","Nukuoro","Sikaiana","Anuta","Nuguria","Pileni","Nukumanu"],
+        "spyNames": ["Tiki", "Hotu Matua", "Rongo-ma-tane", "Kupe", "Haloti", "Degei", "Babamik", "Kulu Lau", "Nangananga", "Turua"]
+    }, {
+		"name": "Tupi",
+		"leaderName": "Cunhambebe",
+		"adjective": ["Tupi"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Religious",
+
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time.",
+		"attacked": "You've mistaken my passion for a weakness, you'll regret about this.",
+		"defeated": "We were defeated, so this makes me your prisoner. I suppose there are worse fates.",
+		"introduction": "I greet you, stranger! If you are as intelligent and tactful as you are attractive, we'll get along just fine.",
+		"neutralHello": "Hello!",
+		"hateHello": "What do you need?!",
+		"tradeRequest": "How would you like it if I propose this kind of exchange?",
+		"outerColor": [110, 36, 31],
+		"innerColor": [38, 15, 14],
+		"favoredReligion": "Shamanism",
+		"uniqueName": "Migration from the Jungle",
+		"uniques": ["[+15]% Production when constructing [Civilian] units [in all cities]","[+3 Culture] [in all cities] <with [3] to [6] neighboring [Jungle] tiles>","[+15]% of excess happiness converted to [Faith]"],
+		"cities": ["Tupinamba","Tamoio","Temimino"
+		"Tupiniquim","Potiguara","Tabajara","Guaraní","Kaingang","Nheengatu"],
+        "spyNames": ["Japa"]
+    },
 {
 		"name": "Burma",
 		"leaderName": "King Mindon Min",
@@ -512,7 +592,7 @@
 		"outerColor": [187, 139, 57],
 		"innerColor": [77, 9, 9],
 		"uniqueName": "Belgium Congo",
-		"uniques": ["Receive free [Slave] when you discover [Mining]","[+2 Gold] from each Trade Route","[+1 Gold] from every [Mine]"],
+		"uniques": ["Free [Slave] appears <upon discovering [Mining]>","[+2 Gold] from each Trade Route","[+1 Gold] from every [Mine]"],
 		"cities": ["Brussels", "Ostend", "Brabante", "West Vlaanderen", "Henao", "Lieja", "Limburg", "Luxemburg",
 			"Namur", "Antwerpen", "Hainaut"],
 	},
@@ -1544,8 +1624,8 @@
 		"outerColor": [123, 186, 140],
 		"innerColor": [28, 32, 38],
 		"favoredReligion": "Catholic",
-		"uniqueName": "Until the Last Man",
-		"uniques": ["[+70]% [Production] [in all cities] <when at war>","[-5]% [Food] [in all cities] <when at war>"],
+		"uniqueName": "Alma Guaraní",
+		"uniques": ["[+10]% [Production] [in capital] <when at war>","[+1] Production from every [Production] buildings [in capital]","[+30]% Strength <when fighting in [Jungle] tiles> [in capital]"],
 		"cities": ["Asuncion","Ciudad del Este","San Lorenzo","Encarnacion","Ñemby","Oviedo","Capiata","Limpio","Lambare","Itaugua","Luque","Villa Elisa","Villarrica","Hermandarias","Aregua","Caacupe","Minga Guazu",],
         "spyNames": ["Saki"]
     },
@@ -1571,7 +1651,7 @@
 		"innerColor": [64, 11, 11],
 		"favoredReligion": "Catholic",
 		"uniqueName": "Desert Expedition",
-		"uniques": ["[+50]% Yield from every [Pasture]","[+50]% Yield from every [Farm]", "[+10]% Strength <vs [Barbarian] units>"],
+		"uniques": ["[+20]% Production when constructing [Mounted] units [in all cities]","[+1 Culture] from every [2] [Pasture]","[+1 Culture] from every [2] [Farm]", "[+10]% Strength <vs [Barbarian] units>"],
 		"cities": ["Buenos Aires","Cordoba","Rosario","La Plata","Tucuman","Salta","Mendoza","Vera Cruz","Corrientes","Pilar","Bahia Blanca",
                             "Resistencia","Posadas","Jujuy","Parana","Merlo","Neuquen","Quilmes","Banfield","Formosa","Lanus",
                             "La Rioja","Comodora","Rivadavia","San Luis","Ituzaingo","Santa fe","Rio Cuarto","San Rafael","Bariloche"],
@@ -1599,7 +1679,7 @@
 		"innerColor": [250, 20, 12],
 		"favoredReligion": "Animism",
 		"uniqueName": "Frontier Cavalry",
-		"uniques": ["[+20]% Production when constructing [Mounted] units [in all cities]","[+50]% Yield from every [Hill]"],
+		"uniques": ["[+20]% Production when constructing [Mounted] units [in all cities]","[+50]% Yield from every [Hill]","[+1 Faith] from every [2] [Mountain]"],
 		"cities": ["Santiago","Valparaiso","Copiapo","Antofagasta","Iquique","Valdivia","Rancagua","Concepcion","La Serena","Temuco","Osorno","Port Montt", "Arica","Calama","Valparaiso","Talca","Chillan","Quellon","Chaiten","Puerto Aysen","Cochrane","Natales Port","Punta Arenas", "Los Angeles","Quillota","Coronel-Lota","Curico","San Antonio","Melipilla","Ovalle","Los Andes"]
         "spyNames": ["Saki"]
     },
@@ -1622,10 +1702,10 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [245, 209, 66],
-		"innerColor": [47, 47, 120],
-		"uniqueName": "Beneficio",
-		"uniques": ["[+50]% Yield from every [Jungle]", "[+1 Science] [in all cities] during [Golden Age]"],
+		"outerColor": [199, 248, 255],
+		"innerColor": [3, 135, 89],
+		"uniqueName": "War Against American Insurrection",
+		"uniques": ["[+1 Food] from every [Bananas]","[+1 Gold] from every [Bananas]","[+1 Gold] from every [Plantation]","[+1 Food] from every [Jungle]","[+1 Food] from every [Atoll]", "[+20]% Science [in capital] during [Golden Age]"],
 		"cities": ["San Miguel", "Conchagua" ,"Tegucigalpa", "Leon", "Granada", "San Salvador", "Managua", "San Jose", "Belmopán"]
 	},
 

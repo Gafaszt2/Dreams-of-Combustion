@@ -102,7 +102,12 @@
         {
 		"name": "Slave Market",
                 "requiredTech": "Settlement"
-                "uniques": ["Unbuildable","Unsellable","[1] free [Slave] units appear <with [100]% chance>"],
+                "uniques": ["Unbuildable","Unsellable","Free [Slave] appears"],
+	},
+        {
+		"name": "Pillaged Town",
+                "requiredTech": "Settlement"
+                "uniques": ["Unbuildable","Unsellable","[1] free [Worker] units appear <with [100]% chance>"],
 	},
         {
 		"name": "Central Industry",
@@ -508,6 +513,16 @@
 		"hurryCostModifier": 40,
 		"uniques": ["Destroyed when the city is captured"]
 	}
+          {
+		"name": "Wharenui",
+                "uniqueTo": "Maori",
+                "replaces": "Monument",
+		"culture": 3,
+                "faith": 1,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"uniques": ["Destroyed when the city is captured"]
+	}
         {
 		"name": "War Factory",
                 "uniqueTo": "Chinese Republic",
@@ -612,13 +627,12 @@
 		"uniques": ["Destroyed when the city is captured"]
 	}
         {
-		"name": "Agro Market",
+		"name": "Pillaged Estancia",
 		"replaces": "Granary",
-		"uniqueTo": "Argentina",
+		"uniqueTo": "Patagonian Confederation",
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"gold": 25},
-		"uniques": ["Free [Gaucho] appears","Provides [1] [Wheat] <with [100]% chance>","Provides [1] [Yerba Mate] <with [50]% chance>","Unsellable","[+1 Food] from [Farm] tiles [in this city]"],
+		"uniques": ["Free [Worker] appears","Provides [1] [Wheat] <with [100]% chance>","Provides [1] [Horses] <with [100]% chance>","Unsellable","[+1 Food] from [Farm] tiles [in this city]"],
 		"requiredTech": "Hunting Pets"
 	},
         {

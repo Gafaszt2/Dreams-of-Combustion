@@ -90,6 +90,36 @@
 		"cost": 60
 	},
         {
+		"name": "Female Worker",
+                "strength": 5,
+                "replaces": "Worker",
+                "uniqueTo": "Tupi",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["[+350]% Strength <starting from the [Second World War]>","Can build [Farm] improvements on tiles","Can build [Plantation] improvements on tiles","Can build [Pasture] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Oil well] improvements on tiles", "Automation is a primary action"],
+		"cost": 50
+	},
+        {
+		"name": "Hunter",
+                "strength": 5,
+                "replaces": "Explorer",
+                "uniqueTo": "Tupi",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["[+350]% Strength <starting from the [Second World War]>","Can build [Mine] improvements on tiles","Can build [Quarry] improvements on tiles","Can build [Lumber mill] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Camp] improvements on tiles", "Automation is a primary action"],
+		"cost": 50
+	},
+        {
+		"name": "Toa",
+                "uniqueTo": "Maori",
+		"unitType": "Sword",
+		"movement": 3,
+                "uniques": ["Can build [Moai] improvements on tiles", "Automation is a primary action"],
+		"strength": 10,
+		"cost": 90,
+		"attackSound": "metalhit"
+        },
+        {
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -1141,27 +1171,30 @@
         },
         {
 		"name": "Perico",
-                "replaces": "Grenadier",
                 "uniqueTo": "Central Americans",
-                "obsoleteTech": "Replaceable Parts",
-                "requiredTech": "Dynamite",
+                "upgradesTo": "Grenadier",
+                "requiredTech": "Industrialization",
+		"obsoleteTech": "Dynamite",
 		"unitType": "Gunpowder",
+                "range": 2,
 		"movement": 3,
-		"strength": 17,
-                "uniques": ["[+15]% Strength <when fighting in [Jungle] tiles> <when attacking>","Can be purchased with [Faith] [in all cities]","Never appears as a Barbarian unit"],
-		"cost": 67,
+		"strength": 12,
+                "uniques": ["Can build [Plantation] improvements on tiles","[+5]% Strength <when defending>"],           
+		"cost": 55,
 		"attackSound": "shot"
         },
          {
 		"name": "American Fillibuster",
                 "uniqueTo": "Central Americans",
-                "obsoleteTech": "Replaceable Parts",
-                "requiredTech": "Dynamite",
+                "upgradesTo": "Grenadier",
+                "requiredTech": "Industrialization",
+		"obsoleteTech": "Dynamite",
 		"unitType": "Gunpowder",
+                "range": 2,
 		"movement": 2,
-		"strength": 25,
-                "uniques": ["[+5]% Strength <when fighting in [Friendly] tiles> <when attacking>","Can be purchased with [Gold] [in all cities]","Never appears as a Barbarian unit"],
-		"cost": 90,
+		"strength": 15,
+                "uniques": ["Can build [Fort] improvements on tiles","[+5]% Strength <when defending>"],           
+		"cost": 95,
 		"attackSound": "shot"
         },
         {
@@ -1315,8 +1348,7 @@
                 "replaces": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Unbuildable","Can build [Land] improvements on tiles", "Automation is a primary action", "Never appears as a Barbarian unit"],
-		"cost": 55
+		"uniques": ["Can be purchased with [Gold] [in all cities]","Can be purchased for [70] [Gold] [in all cities]","Unbuildable","Never appears as a Barbarian unit"],
 	},
          {
 		"name": "SS Troop",
@@ -1360,7 +1392,7 @@
         {
 		"name": "Primero de Linea",
                 "uniqueTo": "Paraguay",
-                "replaces": "Skrimisher",
+                "replaces": "Hussar",
                 "requiredTech": "Industrialization",
 		"obsoleteTech": "Dynamite",
 		"unitType": "Sword",
@@ -1374,11 +1406,11 @@
                 "uniqueTo": "Paraguay",
                 "replaces": "Grenadier",
                 "obsoleteTech": "Replaceable Parts",
-                "requiredTech": "Dynamite",
+                "requiredTech": "Military Science",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 12,
-		"cost": 40,
+		"strength": 11,
+		"cost": 30,
 		"attackSound": "shot"
         },
         {
@@ -1754,7 +1786,7 @@
 		"unitType": "Mounted",
 		"movement": 3,
 		"strength": 25,
-                "uniques": ["[+5]% Strength <when fighting in [Plains] tiles> <when attacking>","Never appears as a Barbarian unit"],
+                "uniques": ["Can build [Farm] improvements on tiles","[+5]% Strength <when fighting in [Plains] tiles> <when attacking>","Never appears as a Barbarian unit"],
 		"cost": 85,
 		"attackSound": "metalhit"
         },
@@ -2083,5 +2115,33 @@
 		"strength": 13,
 		"cost": 59,
 		"attackSound": "metalhit"
+        },
+        {
+		"name": "Horse Grenadier",
+                "uniqueTo": "Argentina",
+                "replaces": "Hussar",
+                "upgradesTo": "Cavalry",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Military Science",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 75, 
+                "uniques": ["Double movement in [Hill]","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+        },
+        {
+		"name": "Malon Raider",
+                "uniqueTo": "Patagonian Confederation",
+                "replaces": "Hussar",
+                "upgradesTo": "Cavalry",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Military Science",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 82, 
+                "uniques": ["[+20]% Strength <vs [Gunpowder] units>","Double movement in [Plains]","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
         },
 ]
