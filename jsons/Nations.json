@@ -6,6 +6,110 @@
 //		"innerColor": [255,255,255]
 },
 {
+		"name": "Buganda",
+		"leaderName": "Kabaka Mutesa I",
+		"adjective": ["Buganda"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Political",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Empire i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [133, 4, 4],
+		"innerColor": [235, 247, 124],
+                "favoredReligion": "Catholic",
+		"uniqueName": "Empire of the Great Lakes",
+		"uniques": ["[+2 Gold] from every [Lakes]","[+1 Culture] from every [2] [Lakes]","[+1 Faith] from every [4] [Lakes]"],
+		"cities": ["Kampala","Entebbe","Jinja","Masaka","Mubende","Mukono","Kireka","Nansana","Kira","Lugazi","Mityana","Mpigi","Bombo","Wobulenzi","Buikwe"],
+	},
+{
+		"name": "Ashanti Empire",
+		"leaderName": "Sumaila Ndewura Jakpa",
+		"adjective": ["Gonja"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Political",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Empire i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [255, 255, 255],
+		"innerColor": [252, 28, 88],
+                "favoredReligion": "Catholic",
+		"uniqueName": "Dutch´s Slave Trade",
+		"uniques": ["[+1] Food from every [Gold] buildings"],
+		"cities": ["Kumasi","Denkyira","Bonoman","Akan","Togo","Ivory Coast"],
+	},
+{
+		"name": "Gonja Kingdom",
+		"leaderName": "Sumaila Ndewura Jakpa",
+		"adjective": ["Gonja"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Political",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Empire i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [180, 202, 237],
+		"innerColor": [5, 122, 73],
+                "favoredReligion": "Islam",
+		"uniqueName": "Mali´s Successor",
+		"uniques": ["[+1 Faith] from every [Bonus resource]","[+1 Gold] from every [Desert]"],
+		"cities": ["Yagbum","Salaga","Bole","Kpembe","Tuweli","Wasipe","Kusugu"],
+	},
+{
+		"name": "Sultanate of Morocco",
+		"leaderName": "Sultan Hassan I",
+		"adjective": ["Morocco"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Political",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Empire i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [252, 118, 56],
+		"innerColor": [110, 36, 2],
+                "favoredReligion": "Islam",
+		"uniqueName": "Gateway to Africa",
+		"uniques": ["Gifts of Gold to City-States generate [+50]% more Influence","[+50]% resources gifted by City-States"],
+		"cities": ["Fez","Marrakech","Mequinez","Rabat","Tanger","Sale","Uchda","Kenitra","Agadir","Tetuan"],
+	},
+{
 		"name": "Patagonian Confederation",
 		"leaderName": "Orelie Antoine de Tounens",
 		"adjective": ["Patagonia"],
@@ -849,7 +953,7 @@
 		"hateHello": "What YOU want?!",
 		"tradeRequest": "Better hurry, I may change my mind.",
 		"outerColor": [138, 34, 12],
-		"innerColor": [240, 102, 74],
+		"innerColor": [252, 215, 194],
                 "favoredReligion": "Catholic",
 		"uniqueName": "Nevando Esta",
 		"uniques": ["Land units may cross [Mountain] tiles after the first [Great General] is earned","[+1 Faith] from every [Mountain]","[+2 Faith] [in all cities] <with [3] to [6] neighboring [unimproved] [Hill] tiles>"],
@@ -897,8 +1001,8 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [189, 51, 40],
-		"innerColor": [255, 255, 255],
+		"outerColor": [161, 130, 130],
+		"innerColor": [46, 32, 12],
                 "favoredReligion": "Shamanism",
 		"uniqueName": "Impi Iyehlisa",
 		"uniques": ["[1] additional attacks per turn", "[+1] Movement <for [{Military} {Land}] units>", "[+10]% Production <for [{Military} {Land}] units> [in all cities] during [Golden Age]"],
@@ -1427,8 +1531,8 @@
 		"neutralHello": "Greetings.",
 		"hateHello": "Well?",
 		"tradeRequest": "I hope this deal will receive your blessing.",
-		"outerColor": [250, 250, 250],
-		"innerColor": [232, 7, 7],
+		"outerColor": [168, 17, 0],
+		"innerColor": [255, 255, 255],
 		"favoredReligion": "Catholic",
 		"uniqueName": "Seven Cities of Gold",
 		"uniques": ["[+100]% Yield from every [Luxury resource]", "[+100]% Yield from every [Natural Wonder]"],

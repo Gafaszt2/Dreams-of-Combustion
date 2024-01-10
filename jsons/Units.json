@@ -1523,8 +1523,8 @@
                 "requiredTech": "Dynamite",
 		"unitType": "Gunpowder",
 		"movement": 2,
-                "uniques": ["[+20]% Strength <when fighting in [Desert] tiles> <when attacking>", "[+20]% Strength <when fighting in [Hill] tiles> <when attacking>", "Never appears as a Barbarian unit"],
-		"strength": 25,
+                "uniques": ["[+15]% Strength <when fighting in [Desert] tiles> <when attacking>", "[+5]% Strength <when fighting in [Hill] tiles> <when attacking>", "Never appears as a Barbarian unit"],
+		"strength": 22,
 		"cost": 90,
 		"attackSound": "shot"
         },
@@ -2131,6 +2131,19 @@
 		"attackSound": "horse"
         },
         {
+		"name": "Berber Cavalry",
+                "uniqueTo": "Sultanate of Morocco",
+                "replaces": "Cavalry",
+                "obsoleteTech": "Combined Arms",
+                "requiredTech": "Replaceable Parts",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 30,
+		"cost": 210, 
+                "uniques": ["[+15]% Strength <when fighting in [Desert] tiles> <when attacking>","Double movement in [Desert]","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+        },
+        {
 		"name": "Malon Raider",
                 "uniqueTo": "Patagonian Confederation",
                 "replaces": "Hussar",
@@ -2143,5 +2156,42 @@
 		"cost": 82, 
                 "uniques": ["[+20]% Strength <vs [Gunpowder] units>","Double movement in [Plains]","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
+        },
+        {
+		"name": "Mande Warrior",
+                "uniqueTo": "Gonja Kingdom",
+                "replaces": "Line Infantry",
+                "upgradesTo": "Grenadier",
+                "requiredTech": "Rifling",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 11,
+                "uniques": ["Never appears as a Barbarian unit"],
+		"cost": 52,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Exportation Slave",
+                "uniqueTo": "Ashanti Empire",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Gain [60] [Gold] (modified by game speed) <by consuming this unit>"],
+		"cost": 50
+	},
+        {
+		"name": "Nte",
+                "uniqueTo": "Buganda",
+		"replaces": "Rifleman",
+                "upgradesTo": "Great War Infantry",
+                "upgradesTo": "Great War Infantry",
+		"obsoleteTech": "Ballistics",
+                "requiredTech": "Replaceable Parts",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 40,
+		"cost": 150,
+                 "uniques": ["Gain [35] [Gold] <upon defeating a [Wounded] unit>","May capture killed [Wounded] units","Never appears as a Barbarian unit"],
+		"attackSound": "shot"
         },
 ]

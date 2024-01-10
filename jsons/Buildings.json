@@ -321,6 +321,18 @@
 		"requiredTech": "Electricity"
 	},
         {
+		"name": "Kasbah",
+                "uniqueTo": "Sultanate of Morocco",
+                "replaces": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 27,
+                "gold": 2,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Scientific Theory",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+        {
 		"name": "Stockade",
                 "gold": 2,
                 "uniqueTo": "Colony of Victoria",
@@ -618,6 +630,17 @@
 		"uniques": ["Destroyed when the city is captured"]
 	}
         {
+		"name": "Desert Mosque",
+                "uniqueTo": "Gonja Kingdom",
+                "replaces": "Temple",
+		"faith": 4,
+                "greatPersonPoints": {"Great Prophet": 1},
+		"cost": 100,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["[+1 Faith] from every [Desert]","Destroyed when the city is captured"]
+	}
+        {
 		"name": "Temple",
 		"faith": 4,
                 "greatPersonPoints": {"Great Prophet": 1},
@@ -643,6 +666,17 @@
 		"specialistSlots": {"Merchant": 1},
                 "uniques": ["Provides [1] [Wine] <with [100]% chance>","Unsellable","[+1 Gold] from [Plantation] tiles [in this city]"],
 		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Vaccine"
+	},
+        {
+		"name": "Kumasi Market",
+                "replaces": "Market",
+		"uniqueTo": "Ashanti Empire",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+                "uniques": ["Free [Exportation Slave] appears"],
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Vaccine"
 	},
@@ -1320,6 +1354,16 @@
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Market] in all cities", "Cost increases by [30] per owned city"],
 		"requiredTech": "Railway"
+	},
+        {
+		"name": "Kiguba"
+                "uniqueTo": "Buganda",
+                "replaces": "Mint",
+                "greatPersonPoints": {"Great Prophet": 1},
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Gold] from every [Luxury resource] [in this city]",],
+		"requiredTech": "Mining"
 	},
 {
 		"name": "Workshop",
