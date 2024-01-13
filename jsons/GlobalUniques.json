@@ -13,6 +13,7 @@
         "Cannot build [Settler] units <when below [-10] Happiness>",
         "Rebel units may spawn <when below [-20] Happiness>",
         "[-1] Sight <for [Embarked] units>",
+        "Cannot enter coast tiles <before discovering [Industrialization]>"
 
         // Filtering uniques must be listed here to tell RulesetValidator they're OK despite untyped
         "Aircraft"

@@ -68,7 +68,7 @@
 		"unitType": "Civilian",
                 "obsoleteTech": "Replaceable Parts",
 		"movement": 2,
-		"uniques": ["Can instantly construct a [Nomad Settlement] improvement <by consuming this unit>"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","Can instantly construct a [Nomad Settlement] improvement <by consuming this unit>"],
 		"cost": 70
 	},
         {
@@ -86,7 +86,7 @@
                 "uniqueTo": "Colony of New South Wales",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can be purchased with [Gold] [in capital]","Can be purchased for [30] [Gold] [in capital]","Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","Can be purchased with [Gold] [in capital]","Can be purchased for [30] [Gold] [in capital]","Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 60
 	},
         {
@@ -96,7 +96,7 @@
                 "uniqueTo": "Tupi",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["[+350]% Strength <starting from the [Second World War]>","Can build [Farm] improvements on tiles","Can build [Plantation] improvements on tiles","Can build [Pasture] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Oil well] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+350]% Strength <starting from the [Second World War]>","Can build [Farm] improvements on tiles","Can build [Plantation] improvements on tiles","Can build [Pasture] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Oil well] improvements on tiles", "Automation is a primary action"],
 		"cost": 50
 	},
         {
@@ -106,24 +106,73 @@
                 "uniqueTo": "Tupi",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["[+350]% Strength <starting from the [Second World War]>","Can build [Mine] improvements on tiles","Can build [Quarry] improvements on tiles","Can build [Lumber mill] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Camp] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+350]% Strength <starting from the [Second World War]>","Can build [Mine] improvements on tiles","Can build [Quarry] improvements on tiles","Can build [Lumber mill] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Camp] improvements on tiles", "Automation is a primary action"],
+		"cost": 50
+	},
+        {
+		"name": "Marksman",
+                "uniqueTo": "Maori",
+                "replaces": "Worker",
+		"unitType": "Civilian",
+                "strength": 3,
+		"movement": 2,
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+100]% Strength <vs [Barbarian] units>","Can build [Pa] improvements on tiles", "Automation is a primary action"],
 		"cost": 50
 	},
         {
 		"name": "Toa",
-                "uniqueTo": "Maori",
-		"unitType": "Sword",
-		"movement": 3,
-                "uniques": ["Can build [Moai] improvements on tiles", "Automation is a primary action"],
-		"strength": 10,
-		"cost": 90,
-		"attackSound": "metalhit"
-        },
+                "uniqueTo": "Tui Tonga",
+                "replaces": "Worker",
+		"unitType": "Civilian",
+                "strength": 3,
+		"movement": 2,
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+100]% Strength <vs [Barbarian] units>","Can build [Mala e] improvements on tiles", "Automation is a primary action"],
+		"cost": 50
+	},
+        {
+		"name": "Kalia",
+                "uniqueTo": "Tui Tonga",
+                "replaces": "Frigate",
+		"unitType": "Ranged Water",
+                "obsoleteTech": "Electricity",
+		"movement": 5,
+		"strength": 17,
+		"rangedStrength": 18,
+		"cost": 100,
+                "uniques": ["Double movement in [Friendly Land]"],
+		"requiredTech": "Mining",
+		"hurryCostModifier": 20,
+		"attackSound": "cannon"
+	},
+        {
+		"name": "Pahi",
+                "uniqueTo": "Tahiti",
+                "replaces": "Frigate",
+		"unitType": "Ranged Water",
+                "obsoleteTech": "Electricity",
+		"movement": 5,
+		"strength": 15,
+		"rangedStrength": 16,
+		"cost": 98,
+                "uniques": ["Can build [Fishing Boats] improvements on tiles"],
+		"requiredTech": "Mining",
+		"hurryCostModifier": 20,
+		"attackSound": "cannon"
+	},
+        {
+		"name": "Hare Paenga Builder",
+                "uniqueTo": "Rapa Nui",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 10,
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>", "Can build [Hare Paenga] improvements on tiles",
+            "Uncapturable", "Automation is a primary action"]
+	},
         {
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 70
 	},
 	{
@@ -131,9 +180,17 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
-		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
+	},
+        {
+		"name": "Work Boats",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 30,
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>", "May create improvements on water resources",
+            "Uncapturable", "Automation is a primary action"]
 	},
 	{
 		"name": "Explorer",
@@ -1331,7 +1388,7 @@
                 "replaces": "Worker",
 		"unitType": "Civilian",
 		"movement": 3,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 75
 	},
         {
@@ -1340,7 +1397,7 @@
                 "replaces": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 55
 	},
         {
@@ -1348,7 +1405,7 @@
                 "replaces": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can be purchased with [Gold] [in all cities]","Can be purchased for [70] [Gold] [in all cities]","Unbuildable","Never appears as a Barbarian unit"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","Can be purchased with [Gold] [in all cities]","Can be purchased for [70] [Gold] [in all cities]","Unbuildable","Never appears as a Barbarian unit"],
 	},
          {
 		"name": "SS Troop",
@@ -1386,7 +1443,7 @@
                 "replaces": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Empire enters a [2]-turn Golden Age <by consuming this unit>", "Automation is a primary action"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","Can build [Land] improvements on tiles", "Empire enters a [2]-turn Golden Age <by consuming this unit>", "Automation is a primary action"],
 		"cost": 90
 	},
         {
@@ -1838,7 +1895,7 @@
                 "replaces": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Double movement in [Hill]","Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","Double movement in [Hill]","Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 70
 	},
         {
@@ -2013,7 +2070,7 @@
 		"movement": 2,
                 "strength": 8,
 		"cost": 146,
-		"uniques": ["[+100]% Strength <starting from the [Capital Victorian era]>","[+100]% Strength <starting from the [Second World War]>","[+100]% Strength <starting from the [Post Cold War]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+100]% Strength <starting from the [Capital Victorian era]>","[+100]% Strength <starting from the [Second World War]>","[+100]% Strength <starting from the [Post Cold War]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
@@ -2193,5 +2250,47 @@
 		"cost": 150,
                  "uniques": ["Gain [35] [Gold] <upon defeating a [Wounded] unit>","May capture killed [Wounded] units","Never appears as a Barbarian unit"],
 		"attackSound": "shot"
+        },
+        {
+		"name": "Nifo oti",
+                "uniqueTo": "Samoa",
+		"replaces": "Line Infantry",
+                "upgradesTo": "Grenadier",
+                "requiredTech": "Rifling",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 12,
+                "uniques": ["[+20]% Strength <vs [Wounded] units>","Double movement in [Coastal tiles]","Never appears as a Barbarian unit"],
+		"cost": 55,
+		"attackSound": "metalhit"
+        },
+        {
+		"name": "Teva Warrior",
+                "uniqueTo": "Tahiti",
+		"replaces": "Explorer",
+                "upgradesTo": "Mounted Explorer",
+                "obsoleteTech": "Railway",
+		"unitType": "Sword",
+		"movement": 4,
+		"strength": 8,
+                "uniques": ["[+20]% Strength in [Coastal tiles]","Never appears as a Barbarian unit"],
+		"cost": 45,
+		"attackSound": "shot"
+        },
+         {
+		"name": "Koa",
+                "uniqueTo": "Hawaii",
+		"replaces": "Partisan",
+                "upgradesTo": "Halberdier",
+                "requiredTech": "Railway",
+                "obsoleteTech": "Dynamite",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 25,
+		"cost": 66, 
+                "uniques": ["[+5]% Strength in [Coastal tiles]","Never appears as a Barbarian unit"],
+                "promotions":  ["Amphibious"],
+		"attackSound": "metalhit"
         },
 ]

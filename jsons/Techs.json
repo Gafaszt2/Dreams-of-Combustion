@@ -71,6 +71,7 @@
 			{
 				"name": "Industrialization",
 				"row": 4,
+                                "uniques": ["Enables embarkation for land units"],
 				"prerequisites": ["Saw", "Mining"],
 			},
 			{

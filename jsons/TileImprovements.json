@@ -25,7 +25,8 @@
 	},
         {
 		"name": "Moai",
-                                        "faith": 4,
+                "uniqueTo": "Rapa Nui",
+                                        "culture": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
@@ -35,6 +36,36 @@
         	"Constructing it will take over the tiles around it and assign them to your closest city",
 			"Removes removable features when built",
 		]
+	},
+        {
+		"name": "Pa",
+                "turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"Adjacent enemy units ending their turn take [5] damage",
+			"Removes removable features when built","[+6 Production] for each adjacent [Coast]","[+1 Production] for each adjacent [Mala´e]","[+2 Science] for each adjacent [Coast]"]
+	},
+        {
+		"name": "Mala e",
+                "turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"Adjacent enemy units ending their turn take [5] damage",
+			"Removes removable features when built","[+4 Food] for each adjacent [Coast]","[+1 Food] for each adjacent [Mala´e]","[+2 Culture] for each adjacent [Coast]"]
+	},
+        {
+		"name": "Hare Paenga",
+                "turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Atoll"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"Adjacent enemy units ending their turn take [5] damage",
+			"Removes removable features when built","[+2 Faith] for each adjacent [Coast]","[+1 Faith] for each adjacent [Mala´e]","[+3 Faith] for each adjacent [Luxury resource]"]
 	},
 	{
 		"name": "Lumber mill",

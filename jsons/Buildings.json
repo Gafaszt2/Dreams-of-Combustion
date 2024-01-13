@@ -641,6 +641,18 @@
 		"uniques": ["[+1 Faith] from every [Desert]","Destroyed when the city is captured"]
 	}
         {
+		"name": "Heiau",
+                "uniqueTo": "Hawaii",
+                "replaces": "Temple",
+		"faith": 4,
+                "food": 1,
+                "greatPersonPoints": {"Great Prophet": 4},
+		"cost": 100,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	}
+        {
 		"name": "Temple",
 		"faith": 4,
                 "greatPersonPoints": {"Great Prophet": 1},
@@ -1364,6 +1376,17 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Gold] from every [Luxury resource] [in this city]",],
 		"requiredTech": "Mining"
+	},
+        {
+		"name": "Fale Tele",
+                "uniqueTo": "Samoa",
+                "replaces": "Harbor",
+		"cost": 120,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Faith] from [Coast] tiles [in this city]",
+			"[+15]% Food [in this city] during [Golden Age]"],
+		"requiredTech": "Industrialization"
 	},
 {
 		"name": "Workshop",
