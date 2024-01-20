@@ -179,9 +179,23 @@
 		"shortcutKey": "X"
 	},
 	{
+		"name": "Remove Forest",
+		"turnsToBuild": 6,
+		"shortcutKey": "X"
+	},
+        {
 		"name": "Remove Marsh",
 		"turnsToBuild": 6,
-		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+	},
+        {
+		"name": "Remove Jungle",
+		"turnsToBuild": 6,
+		"shortcutKey": "X"
+	},
+        {
+		"name": "Remove Hill",
+		"turnsToBuild": 6,
 		"shortcutKey": "X"
 	},
 
