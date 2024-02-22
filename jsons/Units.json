@@ -96,7 +96,7 @@
                 "uniqueTo": "Tupi",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+350]% Strength <starting from the [Second World War]>","Can build [Farm] improvements on tiles","Can build [Plantation] improvements on tiles","Can build [Pasture] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Oil well] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+350]% Strength <starting from the [Second World War]>","Can build [Farm] improvements on tiles","Can build [Slave Labor Plantation] improvements on tiles","Can build [Lodge Cabin] improvements on tiles","Can build [Ranch] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Oil well] improvements on tiles", "Automation is a primary action"],
 		"cost": 50
 	},
         {
@@ -106,7 +106,7 @@
                 "uniqueTo": "Tupi",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+350]% Strength <starting from the [Second World War]>","Can build [Mine] improvements on tiles","Can build [Quarry] improvements on tiles","Can build [Lumber mill] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Camp] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+350]% Strength <starting from the [Second World War]>","Can build [Mine] improvements on tiles","Can build [Quarry] improvements on tiles","Can build [House] improvements on tiles","Can build [Stable] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Hunter Lodge] improvements on tiles", "Automation is a primary action"],
 		"cost": 50
 	},
         {
@@ -1236,7 +1236,7 @@
                 "range": 2,
 		"movement": 3,
 		"strength": 12,
-                "uniques": ["Can build [Plantation] improvements on tiles","[+5]% Strength <when defending>"],           
+                "uniques": ["Can build [Slave Labor Plantation] improvements on tiles","[+5]% Strength <when defending>"],           
 		"cost": 55,
 		"attackSound": "shot"
         },
@@ -1504,17 +1504,6 @@
 		"movement": 3,
 		"strength": 75,
 		"cost": 240,
-		"attackSound": "shot"
-        },
-        {
-		"name": "Burma Route Army",
-                "uniqueTo": "Chinese Republic",
-                "replaces": "Infantry",
-                "requiredTech": "Plastics",
-		"unitType": "Gunpowder",
-		"movement": 3,
-		"strength": 55,
-		"cost": 200,
 		"attackSound": "shot"
         },
         {
@@ -2059,7 +2048,7 @@
 		"movement": 4.5,
 		"strength": 20,
 		"cost": 76, 
-                "uniques": ["Can build [Farm] improvements on tiles","Can build [Mine] improvements on tiles","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+                "uniques": ["Can build [Mill] improvements on tiles","Can build [Mine] improvements on tiles","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
         },
         {
@@ -2274,7 +2263,7 @@
 		"unitType": "Sword",
 		"movement": 4,
 		"strength": 8,
-                "uniques": ["[+20]% Strength in [Coastal tiles]","Never appears as a Barbarian unit"],
+                "uniques": ["[+20]% Strength <when fighting in [Coast] tiles>","Never appears as a Barbarian unit"],
 		"cost": 45,
 		"attackSound": "shot"
         },
@@ -2289,8 +2278,22 @@
 		"movement": 2,
 		"strength": 25,
 		"cost": 66, 
-                "uniques": ["[+5]% Strength in [Coastal tiles]","Never appears as a Barbarian unit"],
+                "uniques": ["[+5]% Strength <when fighting in [Coast] tiles>","Never appears as a Barbarian unit"],
                 "promotions":  ["Amphibious"],
 		"attackSound": "metalhit"
+        },
+        {
+		"name": "Yung",
+                "uniqueTo": "Imperial China",
+		"replaces": "Line Infantry",
+                "upgradesTo": "Grenadier",
+                "requiredTech": "Rifling",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 12,
+		"cost": 55, 
+                "uniques": ["Never appears as a Barbarian unit","[+15]% Strength bonus for [Siege] units within [2] tiles"],
+		"attackSound": "shot"
         },
 ]

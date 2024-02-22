@@ -407,7 +407,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+15]% Production [in all cities]",
+            "[+1 Production] per [3] social policies adopted",
             "[+3 Happiness] [in capital]","[-3 Gold] [in capital]"
         ],
         "policies": [
@@ -457,7 +457,7 @@
             {
                 "name": "Communism Complete",
                 "uniques": [
-                    "[+25]% Production [in all cities]",
+                    "[+3 Production] per [3] social policies adopted",
                 ]
             }
         ]

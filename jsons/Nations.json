@@ -32,7 +32,7 @@
 		"cities": ["Afaahiti",
 "Afatauri",
 "Faaone",
-"Fa´a´ā",
+"Fa´a´ ?",
 "Hitiaa",
 "Mahaena",
 "Mataiea",
@@ -73,7 +73,7 @@
 		"innerColor": [60, 69, 60],
                 "favoredReligion": "Manaism",
 		"uniqueName": "Ava Ceremony",
-		"uniques": ["[-20]% Food consumption by specialists [in all cities]","[-20]% Culture cost of adopting new Policies","Water units may cross [Ocean] tiles after the first [Melee] is earned"],
+		"uniques": ["[-20]% Food consumption by specialists [in all cities]","[-25]% Culture cost of adopting new Policies"],
 		"cities": ["Apia",
 "Salelologa",
 "Afega",
@@ -213,7 +213,7 @@
 		"innerColor": [235, 247, 124],
                 "favoredReligion": "Catholic",
 		"uniqueName": "Empire of the Great Lakes",
-		"uniques": ["[+2 Gold] from every [Lakes]","[+1 Culture] from every [2] [Lakes]","[+1 Faith] from every [4] [Lakes]"],
+		"uniques": ["[+2 Gold] from every [Lakes]","[+2 Culture] from every [Great Improvement]"],
 		"cities": ["Kampala","Entebbe","Jinja","Masaka","Mubende","Mukono","Kireka","Nansana","Kira","Lugazi","Mityana","Mpigi","Bombo","Wobulenzi","Buikwe"],
 	},
 {
@@ -239,7 +239,7 @@
 		"innerColor": [252, 28, 88],
                 "favoredReligion": "Catholic",
 		"uniqueName": "Dutch´s Slave Trade",
-		"uniques": ["[+1] Food from every [Gold] buildings"],
+		"uniques": ["[+1 Gold] from every [Bonus resource]","[+1 Food] from every [Bonus resource]"],
 		"cities": ["Kumasi","Denkyira","Bonoman","Akan","Togo","Ivory Coast"],
 	},
 {
@@ -317,7 +317,7 @@
 		"innerColor": [46, 30, 6],
                 "favoredReligion": "Shamanism",
 		"uniqueName": "Land of Giants",
-		"uniques": ["Gain a free [Pillaged Town] [in all cities]","[+1 Food] [in all cities] per [2] social policies adopted"],
+		"uniques": ["Gain a free [Pillaged Town] [in all cities]","[+2 Food] from every [Great Improvement]"],
 		"cities": ["Coyhaique","El Chalten","El Calafate","Ushuaia","Puyuhuapi","Frutillar","Puerto Montt","Castro","Puerto Natales","Punta Arenas"],
 	},
 {
@@ -496,7 +496,7 @@
 		"innerColor": [231, 255, 201],
                 "favoredReligion": "Taoism",
 		"uniqueName": "Colonial Exploitation",
-		"uniques": ["[+2 Gold] from every [Plantation]","[+1 Gold] from every [Strategic resource]"],
+		"uniques": ["[+2 Gold] from every [Slave Labor Plantation]","[+1 Gold] from every [Strategic resource]"],
 		"cities": ["Saigon","Hanoi","Da Lat","Phnom Penh","Vientiane","Zhanjiang","Haiphong","Battambang","Savannakhet","Fort Bayard"],
 	},
 {
@@ -522,7 +522,7 @@
 		"innerColor": [72, 106, 171],
                 "favoredReligion": "Taoism",
 		"uniqueName": "Water Puppetry",
-		"uniques": ["[+1] Happiness from every [Culture] buildings","[+1 Food] from every [Lakes]"],
+		"uniques": ["[+2 Food] from every [Lakes]","[+1 Faith] from every [Lakes]"],
 		"cities": ["Thang Long","Ho Chi Minh","Da Nang","Hue","Nha Trang","Ha Long","Can Tho","Da Lat","Hai Phong","Vinh"],
 	},
 {
@@ -577,7 +577,7 @@
 		"innerColor": [250, 250, 107],
                 "favoredReligion": "Catholic",
 		"uniqueName": "Slave Trade Monopoly",
-		"uniques": ["[+1] Production from every [Gold] buildings","[+1 Production] per every [6] [Gold]"],
+		"uniques": ["[+1 Production] per every [4] [Gold]"],
 		"cities": ["Surat","Madras","Banten","West Java","Jayakarta","Jepara","Aceh","Pariaman","Jambi","Ambon","Banda Neira","Bengkulu","Cirebon","Makassar","Malacca","Patani","Ternate"]
 	},
 {
@@ -603,7 +603,7 @@
 		"innerColor": [165, 184, 118],
                 "favoredReligion": "Catholic",
 		"uniqueName": "Pear of the Orient Seas",
-		"uniques": ["[+1] Food from every [Ocean]","[+1] Culture from every [Coast]","[+3 Faith] [in all cities] <with [3] to [4] neighboring [Coast] tiles>"],
+		"uniques": ["[+1 Culture] from every [Coast]","[+3 Faith] [in all cities] <with [3] to [4] neighboring [Coast] tiles>"],
 		"cities": ["Manila","Quezon City","Boracay","Cebú","Puerto Princesa","El Nido","Bohol","Davao","Baguio","Siargao","Corón","Tagaytay","Makati","Taguig","Dumaguete","Bacólod","Puerto Galera","Sagada","Laoag","Zamboanga"]
 	},
 {
@@ -629,7 +629,7 @@
 		"innerColor": [64, 62, 43],
                 "favoredReligion": "Islam",
 		"uniqueName": "Desert Nomads",
-		"uniques": ["[+10]% Production when constructing [Melee] units [in all cities]","[+10]% Strength <when fighting units from a Civilization with more Cities than you>","[+2] Gold from every [Desert]","[+4 Culture] [in all cities] <with [3] to [4] neighboring [Desert] tiles>","[+6 Culture] [in all cities] <with [5] to [6] neighboring [Desert] tiles>"],
+		"uniques": ["[+10]% Production when constructing [Melee] units [in all cities]","[+10]% Strength <when fighting units from a Civilization with more Cities than you>","[+1 Food] from every [Desert]","[+4 Culture] [in all cities] <with [3] to [4] neighboring [Desert] tiles>","[+6 Culture] [in all cities] <with [5] to [6] neighboring [Desert] tiles>"],
 		"cities": ["Al Ramlah","Ibexia","Badiyatun","Oasisend","Al Khaimah","Al Jamalah","Rihlatun","Al Ma anah", "Al Hurriyah"]
 	},
 {
@@ -655,7 +655,7 @@
 		"innerColor": [95, 163, 140],
                 "favoredReligion": "Islam",
 		"uniqueName": "Emirate of Bukhara Silk Road Merchants",
-		"uniques": ["[+2] Gold from every [Gold] buildings","[+1 Production, +1 Faith] per every [4] [Gold]","[+1 Faith] in cities on [Hill] tiles","[+20]% Happiness from luxury resources gifted by City-States"],
+		"uniques": ["[+1 Culture] from every [Desert]","[+1 Production, +1 Faith] per every [4] [Gold]","[+1 Faith] in cities on [Hill] tiles","[+20]% Happiness from luxury resources gifted by City-States"],
 		"cities": ["Tashkent","Samarkand","Bukhara","Nukus","Fergana","Qarshi","Kokand","Margilan","Termez","Jizzakh","Angren","Chirchiq","Navoiy","Urgench","Shahrisabz"]
 	},
 {
@@ -681,7 +681,7 @@
 		"innerColor": [252, 250, 251],
                 "favoredReligion": "Orthodox",
 		"uniqueName": "Winged Hussars",
-		"uniques": ["[+30]% Production when constructing [Mounted] units [in all cities]", "[+15]% Production when constructing [Faith] buildings [in all cities]", "[+1 Faith] [in all cities] during [Golden Age]"],
+		"uniques": ["[+30]% Production when constructing [Mounted] units [in all cities]", "[+15]% Production when constructing [Faith] buildings [in all cities]", "[+2 Faith] from every [Great Improvement]"],
 		"cities": ["Varsovia","Cracovia","Breslavia","Poznan","Zakopane","Gdynia","Lodz","Szczecin","Torun","Lublin","Kolobrezeg","Sopot"]
 	},
 {
@@ -707,7 +707,7 @@
 		"innerColor": [26, 25, 25],
                 "favoredReligion": "Orthodox",
 		"uniqueName": "Greek Enlightenment",
-		"uniques": ["[+1] Science from every [Science] buildings"],
+		"uniques": ["[+2 Science] from every [Natural Wonder]","[+20]% Production when constructing [Water] units [in all cities]"],
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
 			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
 			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos",
@@ -765,7 +765,7 @@
 		"innerColor": [26, 25, 25],
                 "favoredReligion": "Orthodox",
 		"uniqueName": "Cultural Renaissance",
-		"uniques": ["[+1] Culture from every [Culture] buildings"],
+		"uniques": ["[+1 Faith] from every [Grassland]"],
 		"cities": ["Bucharest", "Cluj-Napoca","Timișoara","Lași","Constanța","Craiova","Brașov","Galați","Ploiești","Oradea",
                        "Brăila","Arad","Pitești","Sibiu","Băcau","Târgu Mureș","Baia Mare","Buzău","Botoșani","Satu Mare"]
 	},
@@ -792,7 +792,7 @@
 		"innerColor": [110, 10, 1],
 		"uniqueName": "Qajar dynasty",
                 "favoredReligion": "Islam",
-		"uniques": ["[+20]% Production when constructing [Missile] units [in all cities]","+15% science while empire is happy","City-State Influence degrades at half rate"],
+		"uniques": ["[+35]% Production when constructing [Missile] units [in all cities]","[+2 Science] from every [Great Improvement]"],
 		"cities": ["Teheran","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
 			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
 			"Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube",
@@ -849,7 +849,7 @@
 		"outerColor": [60, 74, 15],
 		"innerColor": [210, 255, 61],
 		"uniqueName": "Lion’s Roar",
-		"uniques": ["Recieve free [Great General] when you discover [Mining]","[Land] units gain the [Bulgarian Blood] promotion"],
+		"uniques": ["[-50]% maintenance on road & railroads","[Land] units gain the [Bulgarian Blood] promotion"],
 		"cities": ["Sofia", "Plovdiv" ,"Varna", "Burgas", "Ruse", "Stara Zagora", "Pleven", "Sliven", "Dobrich",
 			"Shumen",
 			"Pernik", "Haskovo"]
@@ -1063,7 +1063,7 @@
 		"innerColor": [15, 43, 107],
                 "favoredReligion": "Catholic",
 		"uniqueName": "Llanos",
-		"uniques": ["[+1 Culture] from every [Plantation]","[+50]% Yield from every [Plains]"],
+		"uniques": ["[+1 Culture] from every [Slave Labor Plantation]","[+50]% Yield from every [Plains]"],
 		"cities": ["Bogota","Cartagena","Medellin","Cali","Barranquilla","Bucaramanga","Cucuta","Buenaventura","Ibague","Santa Marta",
 				"Tunja","Valledupar","Villavicencio","Pereira","Barrancabermaja","Popayan","Pasto","Manizales","Armenia","Arauca",
 				"Florencia","Villa de Leyva","Guatavita","Neiva","Riohacha","Monteria","Yopal","Buga","Sogamoso","San Andres","Leticia"],
@@ -1185,7 +1185,7 @@
 		"innerColor": [46, 32, 12],
                 "favoredReligion": "Shamanism",
 		"uniqueName": "Impi Iyehlisa",
-		"uniques": ["[1] additional attacks per turn", "[+1] Movement <for [{Military} {Land}] units>", "[+10]% Production <for [{Military} {Land}] units> [in all cities] during [Golden Age]"],
+		"uniques": ["[1] additional attacks per turn", "[+1] Movement <for [{Military} {Land}] units>", "[+1 Gold] from every [Plains]","[+3 Food] from every [Ivory]"],
 		"cities": ["Ulundi", "KwaDukuza" ,"Bulawayo", "Isandlwana", "Rorke´s Drift", "Eshowe", "Ondini", "Gingindlovu"]
 	},
 {
@@ -1211,7 +1211,7 @@
 		"innerColor": [250, 247, 82],
                 "favoredReligion": "Orthodox",
 		"uniqueName": "Breadbasket of Europe",
-		"uniques": ["[+1 Food] from every [Farm]", "[+20]% Food] <starting from the [National Victorian era]> <before the [Capital Victorian era]>"],
+		"uniques": ["[+1 Food] from every [Hill]", "[+5 Gold] from every [Wheat]"],
 		"cities": ["Kyiv", "Kharkiv" ,"Odesa", "Dnipro", "Donetsk", "Lviv", "Zaporizhizhia", "Kryvyi Rih", "Mykolaiv", "Sevastopol", "Mariupol", "Luhansk", "Vinnytsia", "Makiivka"],
 	},
 {
@@ -1237,7 +1237,7 @@
 		"innerColor": [214, 26, 19],
                 "favoredReligion": "Islam",
 		"uniqueName": "Victorian Resistance",
-		"uniques": ["[+15]% Strength <when fighting units from a Civilization with more Cities than you>", "[+20]% Culture] <starting from the [National Victorian era]> <before the [Capital Victorian era]>"],
+		"uniques": ["[+15]% Strength <when fighting units from a Civilization with more Cities than you>", "[+2 Gold] from every [Hill]"],
 		"cities": ["Kabul","Kandahar","Herat","Mazar I Shariff", "Jalalabad", "Kunduz", "Ghazni", "Balkh", "Baghlan", "Gardez", "Khost", "Maymana", "Khanabad", "Taloqan", "Pul e Khumri", "Sari Pul", "Paghman"],
 	},
 {
@@ -1317,7 +1317,7 @@
 		"innerColor": [8, 8, 82],
 	        "favoredReligion": "Candomble",
 		"uniqueName": "Apostadero",
-		"uniques": ["[+1 Gold] from each [Trade route]","[+1 Production] from each [Trade route]"],
+		"uniques": ["[+1 Gold] from every [Coast]","[+1 Gold] from every [Luxury resource]","[+1 Faith] from every [Lakes]"],
 		"cities": ["Montevideo","Salto","Ciudad de la Costa","Paysandú",
 			"Maldonado","Rivera","Las Piedras","Tacuarembó",
 			"Melo","Artigas","Mercedes","Minas","San Jose de Mayo","Barros Blancos",
@@ -1344,7 +1344,7 @@
 		"innerColor": [130, 95, 5],
 	        "favoredReligion": "Catholic",
 		"uniqueName": "Assassination of Archduke Franz Ferdinand",
-		"uniques": ["[+15]% Faith] <starting from the [First World War]> <before the [Second World War]>","[+10]% Production] <starting from the [First World War]> <before the [Second World War]>"],
+		"uniques": ["[+1 Gold] from every [Hill]","[+1 Faith] from every [Mountain]","[+1 Food] from every [Forest]"],
 		"cities": ["Stari Ras","Bor","Negotin","Pozarevac","Zajecar","Uzice","Leskovac","Valjevo","Pristina","Djakovica",
 			"Pec","Prizren","Mitrovica","Morava","Sabac","Cacak","Nis","Pirot","Smederevo","Jagodna",
 			"Vranje","Krusevac","Beograd","Rudo Polje","Dmitrovica","Prokuplje","Vucitrn","Debrc","Skopje",
@@ -1398,7 +1398,7 @@
 		"outerColor": [191, 178, 117],
 		"innerColor": [37, 64, 184],
 		"uniqueName": "Imperio da Grandeza",
-		"uniques": ["[+2 Culture] from every [Lakes]", "[+2 Food] from every [Lakes]", "[+2 Gold] from every [Plantation]"],
+		"uniques": ["[+2 Culture] from every [Lakes]", "[+2 Food] from every [Lakes]", "[+2 Gold] from every [Slave Labor Plantation]"],
 		"cities": ["Rio de Janeiro","Sao Paulo","Salvador","Fortalezaq","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
 			    "Belém","Goiania","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina",
                             "Florianópolis","Nova Iguaçu","Sao Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju"],
@@ -1436,8 +1436,8 @@
         "spyNames": ["Ferdinand", "Johanna", "Franz-Josef", "Astrid", "Anna", "Hubert", "Alois", "Natter", "Georg", "Arnold"]
     },
 {
-		"name": "Chinese Republic",
-		"leaderName": "Mao Zedong",
+		"name": "Imperial China",
+		"leaderName": "Empress Dowager Cixi",
 		"adjective": ["Chinese"],
 		"preferredVictoryType": "Scientific",
 
@@ -1452,12 +1452,12 @@
 		"hateHello": "Oh. It's you?",
 		"tradeRequest": "My friend, do you think you can accept this request?",
 
-        "outerColor": [245, 6, 2],
-        "innerColor": [250, 236, 85],
+        "outerColor": [245, 211, 118],
+        "innerColor": [47, 128, 214],
 
 		"favoredReligion": "Taoism",
-		"uniqueName": "Long March",
-		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [50]% faster"],
+		"uniqueName": "Sky Mandate",
+		"uniques": ["[+1 Culture] from every [Mountain]","[+2 Faith] from every [Jungle]"],
 		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
 			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
 			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
@@ -1488,7 +1488,7 @@
 
 		"favoredReligion": "Hinduism",
 		"uniqueName": "Queen´s Jewelry",
-		"uniques": ["[+10]% Gold from [Population] [in all cities]", "[+20]% Production from [Population] [in all cities]"],
+		"uniques": ["[+1 Gold] from every [River]","[+1 Faith] from every [Hill]"],
 		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
 			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
 			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
@@ -1547,7 +1547,7 @@
 
         "favoredReligion": "Baptist",
 		"uniqueName": "Democracy Arsenal",
-		"uniques": ["[+2] Sight <for [{Military} {Land}] units>", "[+20]% Production <for [{Military} {Land}] units> [in all cities]"], 
+		"uniques": ["[+2] Sight <for [{Military} {Land}] units>", "[+1 Production] from every [Mountain]","[+1 Food] from every [Mountain]"], 
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
 			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
 			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
@@ -1606,7 +1606,7 @@
 		"innerColor": [250, 88, 70],
 		"favoredReligion": "Calvinism",
 		"uniqueName": "Rule Brittania",
-		"uniques": ["[+2 Production] from every [Coast]"],
+		"uniques": ["[+1 Production] from every [Coast]","[+1 Gold] from every [Coast]"],
 		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
 			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
 			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
@@ -1685,7 +1685,7 @@
 		"innerColor": [33, 33, 33],
 		"favoredReligion": "Catholic",
 		"uniqueName": "Until Nobody mess with Germany´s Happiness!",
-		"uniques": ["[+30]% Production] <starting from the [Second World War]> <before the [Cold War]>", "[+50]% [Science] [in all cities] <when at war>", "[-50]% maintenance costs <for [Land] units>"],
+		"uniques": ["[-50]% Gold cost of acquiring tiles [in all cities]", "When conquering an encampment, earn [15] Gold and recruit a Barbarian unit <with [40]% chance>","[-50]% maintenance costs <for [Land] units>"],
 		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
 			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
 			"Münster","Rostock","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
@@ -1802,7 +1802,7 @@
 		"innerColor": [240, 171, 10],
 		"favoredReligion": "Catholic",
 		"uniqueName": "Mediterranean Glory",
-		"uniques": ["[+30]% Production towards any buildings that already exist in the Capital", "[+1] Food from every [Coast]"],
+		"uniques": ["[+30]% Production towards any buildings that already exist in the Capital", "[+1 Food] from every [Coast]"],
 		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
 			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
 			"Signia","Aquileia","Clusium","Sutrium","Cremona","Placentia","Hispalis","Artaxata","Aurelianorum","Nicopolis",
@@ -1857,7 +1857,7 @@
 		"innerColor": [252, 195, 8],
 		"favoredReligion": "Taoism",
 		"uniqueName": "Hermit Republic",
-		"uniques": ["[+1] Culture from every [Military] buildings"],
+		"uniques": ["[+1 Science] from every [Strategic resource]","[+1 Culture] from every [Snow]"],
 		"cities": ["Pyongyang", "Hamhung","Chongjin","Nampo","Wonsan","Tanchon","Sinuiju","Kaechon","Kaesong","Sunchon","Sariwon","Pyongsong","Kanggye","Anju","Haeju","Kimchaek","Hyesan","Chongju"],
         "spyNames": ["Saki"]
     },
@@ -1909,7 +1909,7 @@
 		"innerColor": [28, 32, 38],
 		"favoredReligion": "Catholic",
 		"uniqueName": "Alma Guaraní",
-		"uniques": ["[+10]% [Production] [in capital] <when at war>","[+1] Production from every [Production] buildings [in capital]","[+30]% Strength <when fighting in [Jungle] tiles> [in capital]"],
+		"uniques": ["[+10]% [Production] [in capital] <when at war>","[+1 Food] from every [Jungle]","[+1 Production] from every [Mill]"],
 		"cities": ["Asuncion","Ciudad del Este","San Lorenzo","Encarnacion","Ñemby","Oviedo","Capiata","Limpio","Lambare","Itaugua","Luque","Villa Elisa","Villarrica","Hermandarias","Aregua","Caacupe","Minga Guazu",],
         "spyNames": ["Saki"]
     },
@@ -1935,7 +1935,7 @@
 		"innerColor": [64, 11, 11],
 		"favoredReligion": "Catholic",
 		"uniqueName": "Desert Expedition",
-		"uniques": ["[+20]% Production when constructing [Mounted] units [in all cities]","[+1 Culture] from every [2] [Pasture]","[+1 Culture] from every [2] [Farm]", "[+10]% Strength <vs [Barbarian] units>"],
+		"uniques": ["[+1 Culture] from every [Stable]","[+1 Culture] from every [Mill]", "[+10]% Strength <vs [Barbarian] units>"],
 		"cities": ["Buenos Aires","Cordoba","Rosario","La Plata","Tucuman","Salta","Mendoza","Vera Cruz","Corrientes","Pilar","Bahia Blanca",
                             "Resistencia","Posadas","Jujuy","Parana","Merlo","Neuquen","Quilmes","Banfield","Formosa","Lanus",
                             "La Rioja","Comodora","Rivadavia","San Luis","Ituzaingo","Santa fe","Rio Cuarto","San Rafael","Bariloche"],
@@ -1963,7 +1963,7 @@
 		"innerColor": [250, 20, 12],
 		"favoredReligion": "Animism",
 		"uniqueName": "Frontier Cavalry",
-		"uniques": ["[+20]% Production when constructing [Mounted] units [in all cities]","[+50]% Yield from every [Hill]","[+1 Faith] from every [2] [Mountain]"],
+		"uniques": ["[+20]% Production when constructing [Mounted] units [in all cities]","[+50]% Yield from every [Hill]","[+1 Faith] from every [Mill]"],
 		"cities": ["Santiago","Valparaiso","Copiapo","Antofagasta","Iquique","Valdivia","Rancagua","Concepcion","La Serena","Temuco","Osorno","Port Montt", "Arica","Calama","Valparaiso","Talca","Chillan","Quellon","Chaiten","Puerto Aysen","Cochrane","Natales Port","Punta Arenas", "Los Angeles","Quillota","Coronel-Lota","Curico","San Antonio","Melipilla","Ovalle","Los Andes"]
         "spyNames": ["Saki"]
     },
@@ -1989,7 +1989,7 @@
 		"outerColor": [199, 248, 255],
 		"innerColor": [3, 135, 89],
 		"uniqueName": "War Against American Insurrection",
-		"uniques": ["[+1 Food] from every [Bananas]","[+1 Gold] from every [Bananas]","[+1 Gold] from every [Plantation]","[+1 Food] from every [Jungle]","[+1 Food] from every [Atoll]", "[+20]% Science [in capital] during [Golden Age]"],
+		"uniques": ["[+1 Food] from every [Bananas]","[+1 Gold] from every [Bananas]","[+1 Gold] from every [Slave Labor Plantation]","[+1 Food] from every [Jungle]","[+1 Food] from every [Atoll]", "[+1 Science] per [3] social policies adopted"],
 		"cities": ["San Miguel", "Conchagua" ,"Tegucigalpa", "Leon", "Granada", "San Salvador", "Managua", "San Jose", "Belmopán"]
 	},
 

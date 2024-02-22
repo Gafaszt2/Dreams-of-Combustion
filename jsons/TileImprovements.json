@@ -1,7 +1,7 @@
 [
 
 	{
-		"name": "Farm",
+		"name": "Mill",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
 		"food": 1,
 		"turnsToBuild": 7,
@@ -11,65 +11,27 @@
 		"shortcutKey": "F"
 	},
         {
-		"name": "Nomad Settlement",
-                                        "food": 4,
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": [
-			"Great Improvement",
-			"Gives a defensive bonus of [20]%",
-			"Adjacent enemy units ending their turn take [10] damage",
-			"Can be built just outside your borders",
-        	"Constructing it will take over the tiles around it and assign them to your closest city",
-			"Removes removable features when built",
-		]
+		"name": "House",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Tundra","Snow","Desert"],
+		"turnsToBuild": 7,
+		"techRequired": "Gas Lighting",
+		"uniques": ["[+1 Food] for each adjacent [Bonus resource]","[+1 Happiness] for each adjacent [Luxury resource]","[+1 Food] for each adjacent [Bonus resource] <after discovering [Scientific Theory]>","Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "F"
 	},
         {
-		"name": "Moai",
-                "uniqueTo": "Rapa Nui",
-                                        "culture": 2,
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": [
-			"Great Improvement",
-			"Gives a defensive bonus of [20]%",
-			"Adjacent enemy units ending their turn take [10] damage",
-			"Can be built just outside your borders",
-        	"Constructing it will take over the tiles around it and assign them to your closest city",
-			"Removes removable features when built",
-		]
+		"name": "Hunter Lodge",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Tundra","Desert","Hill","Forest","Jungle"],
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Hunting Pets",
+		"uniques": ["Can only be built to improve a resource",
+            "Pillaging this improvement yields approximately [+18 Gold]","[+1 Gold] <after discovering [Scientific Theory]>"],
+		"shortcutKey": "F"
 	},
-        {
-		"name": "Pa",
-                "turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": [
-			"Great Improvement",
-			"Gives a defensive bonus of [10]%",
-			"Adjacent enemy units ending their turn take [5] damage",
-			"Removes removable features when built","[+6 Production] for each adjacent [Coast]","[+1 Production] for each adjacent [Mala´e]","[+2 Science] for each adjacent [Coast]"]
-	},
-        {
-		"name": "Mala e",
-                "turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": [
-			"Great Improvement",
-			"Gives a defensive bonus of [10]%",
-			"Adjacent enemy units ending their turn take [5] damage",
-			"Removes removable features when built","[+4 Food] for each adjacent [Coast]","[+1 Food] for each adjacent [Mala´e]","[+2 Culture] for each adjacent [Coast]"]
-	},
-        {
-		"name": "Hare Paenga",
-                "turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": ["Atoll"],
-		"uniques": [
-			"Great Improvement",
-			"Gives a defensive bonus of [10]%",
-			"Adjacent enemy units ending their turn take [5] damage",
-			"Removes removable features when built","[+2 Faith] for each adjacent [Coast]","[+1 Faith] for each adjacent [Mala´e]","[+3 Faith] for each adjacent [Luxury resource]"]
-	},
+        
 	{
-		"name": "Lumber mill",
-		"terrainsCanBeBuiltOn": ["Forest"],
+		"name": "Log Cabin",
+		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Saw",
@@ -85,15 +47,6 @@
 		"uniques": ["[+1 Production] <after discovering [Scientific Theory]>","Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
 	},
-
-	// Resource-specific
-	{
-		"name": "Camp",
-		"turnsToBuild": 7,
-		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
-"techRequired": "Hunting Pets",
-		"shortcutKey": "C"
-	},
 	{
 		"name": "Oil well",
 		"turnsToBuild": 9,
@@ -106,14 +59,30 @@
 		"shortcutKey": "P"
 	},
 	{
-		"name": "Pasture",
+		"name": "Ranch",
 		"turnsToBuild": 8,
 "techRequired": "Hunting Pets",
+		"uniques": ["[+1 Food] <after discovering [Scientific Theory]>","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "P"
+	},
+        {
+		"name": "Slave Labor Plantation",
+		"turnsToBuild": 8,
+"techRequired": "Hunting Pets",
+		"uniques": ["[+1 Gold] <after discovering [Scientific Theory]>","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "P"
+	},
+        {
+		"name": "Heavy Labor Plantation",
+                "production": 2,
+                "gold": 1,
+		"turnsToBuild": 11,
+"techRequired": "Electrical Refrigeration",
 		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
 	},
 	{
-		"name": "Plantation",
+		"name": "Stable",
 "techRequired": "Settlement",
 		"turnsToBuild": 6,
 		"gold": 1,
@@ -290,6 +259,66 @@
 			{"text":"Marks the center of a city"},
 			{"text":"Appearance changes with the technological era of the owning civilization"}
 		]
+	},
+        {
+		"name": "Nomad Settlement",
+                                        "food": 4,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [20]%",
+			"Adjacent enemy units ending their turn take [10] damage",
+			"Can be built just outside your borders",
+        	"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Removes removable features when built",
+		]
+	},
+        {
+		"name": "Moai",
+                "uniqueTo": "Rapa Nui",
+                                        "culture": 2,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [20]%",
+			"Adjacent enemy units ending their turn take [10] damage",
+			"Can be built just outside your borders",
+        	"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Removes removable features when built",
+		]
+	},
+        {
+		"name": "Pa",
+                "uniqueTo": "Maori",
+                "turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"Adjacent enemy units ending their turn take [5] damage",
+			"Removes removable features when built","[+6 Production] for each adjacent [Coast]","[+1 Production] for each adjacent [Mala´e]","[+2 Science] for each adjacent [Coast]"]
+	},
+        {
+		"name": "Mala e",
+                "uniqueTo": "Tui Tonga",
+                "turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"Adjacent enemy units ending their turn take [5] damage",
+			"Removes removable features when built","[+4 Food] for each adjacent [Coast]","[+1 Food] for each adjacent [Mala´e]","[+2 Culture] for each adjacent [Coast]"]
+	},
+        {
+		"name": "Hare Paenga",
+                "uniqueTo": "Rapa Nui",
+                "turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Atoll"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"Adjacent enemy units ending their turn take [5] damage",
+			"Removes removable features when built","[+2 Faith] for each adjacent [Coast]","[+1 Faith] for each adjacent [Mala´e]","[+3 Faith] for each adjacent [Luxury resource]"]
 	},
 	{
 		"name": "Barbarian encampment",

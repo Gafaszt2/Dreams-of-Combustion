@@ -55,42 +55,42 @@
 		"name": "Immigrant Colony",
 		"production": 2,
                 "uniqueTo": "Uruguay",
-                "uniques": ["[-10]% construction time for [All] improvements [in this city]","[1] free [Picador Infernal] units appear <with [40]% chance>","[1] free [Legione Agricola] units appear <with [40]% chance>","[1] free [Krupp Steel Cannon] units appear <with [20]% chance>"],
+                "uniques": ["[1] free [Picador Infernal] units appear <with [40]% chance>","[1] free [Legione Agricola] units appear <with [40]% chance>","[1] free [Krupp Steel Cannon] units appear <with [20]% chance>"],
 		"requiredTech": "Novel"
 	},
         {
 		"name": "Vehicle Factory",
 		"hurryCostModifier": 25,
                 "requiredResource": "Lithium",
-		"uniques": ["[+1 Production] per [2] population [in this city]"],
+		"uniques": ["[+1 Production] from [House] tiles [in this city]"],
 		"requiredTech": "Smartphones"
 	},
         {
 		"name": "SixDegrees",
 		"hurryCostModifier": 25,
                 "requiredResource": "Computer",
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"uniques": ["[+1 Science] from [House] tiles [in this city]"],
 		"requiredTech": "Social Media"
 	},
         {
 		"name": "Connection Network",
 		"hurryCostModifier": 25,
                 "requiredResource": "Computer",
-		"uniques": ["[+1 Happiness] per [2] population [in this city]"],
+		"uniques": ["[+1 Happiness] from [House] tiles [in this city]"],
 		"requiredTech": "Internet"
 	},
         {
 		"name": "First Posts",
 		"hurryCostModifier": 25,
                 "requiredResource": "Computer",
-		"uniques": ["[+1 Culture] per [2] population [in this city]"],
+		"uniques": ["[+1 Culture] from [House] tiles [in this city]"],
 		"requiredTech": "Internet"
 	},
         {
 		"name": "Email",
 		"hurryCostModifier": 25,
                 "requiredResource": "Computer",
-		"uniques": ["[+1 Happiness] per [2] population [in this city]"],
+		"uniques": ["[+1 Happiness] from [House] tiles [in this city]"],
 		"requiredTech": "Social Media"
 	},
         {
@@ -115,19 +115,25 @@
                 "uniques": ["Unbuildable","Unsellable","[1] free [Line Infantry] units appear <with [100]% chance>"],
 	},
         {
-		"name": "Gulag",
+		"name": "Gulag", 
+                "gold": 2,
+                "food": -2,
                 "requiredTech": "Settlement"
-                "uniques": ["[+5]% Gold] [in all cities] <starting from the [Second World War]> <before the [Cold War]>", "[-3]% [Food] [in all cities] <starting from the [Second World War]> <before the [Cold War]>","Unbuildable","Unsellable","[2] free [Moscow Defender] units appear <with [100]% chance>"],
+                "uniques": ["Unbuildable","Unsellable","[2] free [Moscow Defender] units appear <with [100]% chance>"],
 	},
         {
 		"name": "Concentration Camp",
+                 "production": 2,
+                "culture": -2,
                 "requiredTech": "Settlement"
-                "uniques": ["[+5]% Production] [in all cities] <starting from the [Second World War]> <before the [Cold War]>", "[-3]% [Culture] [in all cities] <starting from the [Second World War]> <before the [Cold War]>","Unbuildable","Unsellable","[2] free [SS Troop] units appear <with [100]% chance>"],
+                "uniques": ["Unbuildable","Unsellable","[2] free [SS Troop] units appear <with [100]% chance>"],
 	},
         {
 		"name": "Allies Embassy",
+                 "science": 2,
+                "production": -2,
                 "requiredTech": "Settlement"
-                "uniques": ["[+5]% Science] [in all cities] <starting from the [Second World War]> <before the [Cold War]>", "[-3]% [Production] [in all cities] <starting from the [Second World War]> <before the [Cold War]>","Unbuildable","Unsellable","[2] free [Marine] units appear <with [100]% chance>"],
+                "uniques": ["Unbuildable","Unsellable","[2] free [Marine] units appear <with [100]% chance>"],
 	},
         {
 		"name": "Tillaegscenter",
@@ -156,7 +162,7 @@
 		"specialistSlots": {"Scientist": 1},
 		"maintenance": 3,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Science] per [2] population [in this city]", "Only available <in cities without a [Private School]>"],
+		"uniques": ["[+1 Science] from [House] tiles [in this city]", "Only available <in cities without a [Private School]>"],
 		"requiredTech": "Sanitation"
 	},
         {
@@ -164,7 +170,7 @@
 		"happiness": 3,
 		"maintenance": 3,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Happiness] per [2] population [in this city]", "Only available <in cities without a [LGBT Ban]>"],
+		"uniques": ["[+1 Culture] from [House] tiles [in this city]", "Only available <in cities without a [LGBT Ban]>"],
 		"requiredTech": "Inclusive Marriage"
 	},
         {
@@ -172,7 +178,7 @@
 		"happiness": -1,
 		"faith": 2,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Faith] per [2] population [in this city]", "Only available <in cities without a [LGBT Friendly State]>"],
+		"uniques": ["[+1 Faith] from [House] tiles [in this city]", "Only available <in cities without a [LGBT Friendly State]>"],
 		"requiredTech": "Inclusive Marriage"
 	},
         {
@@ -180,7 +186,7 @@
 		"maintenance": 1,
 		"science": 2,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Science] per [2] population [in this city]", "Only available <in cities without a [LGBT Friendly State]>"],
+		"uniques": ["[+1 Science] from [House] tiles [in this city]", "Only available <in cities without a [LGBT Friendly State]>"],
 		"requiredTech": "Spiritualism"
 	},
         {
@@ -188,7 +194,7 @@
 		"maintenance": 1,
 		"faith": 2,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Faith] per [2] population [in this city]", "Only available <in cities without a [LGBT Friendly State]>"],
+		"uniques": ["[+1 Faith] from [House] tiles [in this city]", "Only available <in cities without a [LGBT Friendly State]>"],
 		"requiredTech": "Spiritualism"
 	},
         {
@@ -197,7 +203,7 @@
                 "culture": 3,
 		"maintenance": 2,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Culture] per [2] population [in this city]", "Only available <in cities without a [Repress Women]>"],
+		"uniques": ["[+1 Culture] from [House] tiles [in this city]", "Only available <in cities without a [Repress Women]>"],
 		"requiredTech": "Socially Correct Ministry"
 	},
         {
@@ -206,7 +212,7 @@
                 "gold": 2,
 		"production": 2,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Gold] per [2] population [in this city]", "Only available <in cities without a [Women Rights]>"],
+		"uniques": ["[+1 Gold] from [House] tiles [in this city]", "Only available <in cities without a [Women Rights]>"],
 		"requiredTech": "Socially Correct Ministry"
 	},
         {
@@ -214,7 +220,7 @@
 		"gold": 3,
 		"specialistSlots": {"Scientist": 1},
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Science] per [2] population [in this city]", "Only available <in cities without a [Public School]>"],
+		"uniques": ["[+1 Science] from [House] tiles [in this city]", "Only available <in cities without a [Public School]>"],
 		"requiredTech": "Sanitation"
 	},
         {
@@ -447,7 +453,7 @@
 		"specialistSlots": {"Scientist": 1},
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Science] per [2] population [in this city]", "Only available <in cities without a [Private School]>"],
+		"uniques": ["[+1 Faith] from [House] tiles [in this city]", "Only available <in cities without a [Private School]>"],
 		"requiredTech": "Sanitation"
 	},
         {
@@ -456,6 +462,16 @@
                 "replaces": "Courthouse",
                 "production": 2,
                 "gold": 2,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]"],
+		"requiredTech": "Rifling"
+	},
+        {
+		"name": "Consulate",
+                "uniqueTo": "Imperial China",
+                "replaces": "Courthouse",
+                "culture": 4,
 		"hurryCostModifier": 50,
 		"uniques": ["Remove extra unhappiness from annexed cities",
 			"Can only be built [in annexed cities]"],
@@ -536,16 +552,6 @@
 		"uniques": ["Destroyed when the city is captured"]
 	}
         {
-		"name": "War Factory",
-                "uniqueTo": "Chinese Republic",
-                "replaces": "Military Academy",
-		"hurryCostModifier": 0,
-                "production": 1,
-                "food": 1,
-		"uniques": ["New [Military] units start with [35] Experience [in this city]", "Destroyed when the city is captured"],
-		"requiredTech": "Synthetic Rubber"
-	},
-        {
 		"name": "Greek Revival Architecture",
                 "uniqueTo": "Greece",
                 "replaces": "Monument",
@@ -576,7 +582,7 @@
 		"specialistSlots": {"Engineer": 2},
 		"requiredBuilding": "Workshop",
 		"maintenance": 3,
-                "uniques": ["[+3 Gold] from each [Trade route]"],
+                "uniques": ["[+1 Production] from [Mine] tiles [in this city]"],
 		"hurryCostModifier": 0,
 		"requiredResource": "Coal",
 		"requiredTech": "Electricity"
@@ -600,7 +606,7 @@
                 "food": 1,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
-                "uniques": ["[+1 Food] from every [Lakes] [in this city]"],
+                "uniques": ["[+1 Food] from every [Lakes]"],
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Vaccine"
 	},
@@ -667,7 +673,7 @@
 		"uniqueTo": "Patagonian Confederation",
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
-		"uniques": ["Free [Worker] appears","Provides [1] [Wheat] <with [100]% chance>","Provides [1] [Horses] <with [100]% chance>","Unsellable","[+1 Food] from [Farm] tiles [in this city]"],
+		"uniques": ["Free [Worker] appears","Provides [1] [Wheat] <with [100]% chance>","Provides [1] [Horses] <with [100]% chance>","Unsellable","[+1 Food] from [Mill] tiles [in this city]"],
 		"requiredTech": "Hunting Pets"
 	},
         {
@@ -676,7 +682,7 @@
 		"uniqueTo": "Cape Colony",
 		"gold": 3,
 		"specialistSlots": {"Merchant": 1},
-                "uniques": ["Provides [1] [Wine] <with [100]% chance>","Unsellable","[+1 Gold] from [Plantation] tiles [in this city]"],
+                "uniques": ["Provides [1] [Wine] <with [100]% chance>","Unsellable","[+1 Gold] from [Slave Labor Plantation] tiles [in this city]"],
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Vaccine"
@@ -734,7 +740,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
-		"uniques": ["Provides [1] [Guava] <with [100]% chance>","Provides [1] [Yerba Mate] <with [50]% chance>","Unsellable","[+1 Gold] from [Plantation] tiles [in this city]"],
+		"uniques": ["Provides [1] [Guava] <with [100]% chance>","Provides [1] [Yerba Mate] <with [50]% chance>","Unsellable","[+1 Gold] from [Slave Labor Plantation] tiles [in this city]"],
 		"requiredTech": "Hunting Pets"
 	},
         {
@@ -780,21 +786,21 @@
 		"name": "Library",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"uniques": ["[+1 Science] from [House] tiles [in this city]"],
 		"requiredTech": "Gas Lighting"
 	},
         {
 		"name": "Daguerreotype Studio",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["[+1 Gold] per [4] population [in this city]"],
+		"uniques": ["[+1 Gold] from [House] tiles [in this city]"],
 		"requiredTech": "Photography"
 	},
         {
 		"name": "Calotype Workshop",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"uniques": ["[+1 Culture] per [2] population [in this city]"],
+		"uniques": ["[+1 Culture] from [House] tiles [in this city]"],
 		"requiredTech": "Photography"
 	},
         {
@@ -816,7 +822,7 @@
 	{
 		"name": "Paper Maker",
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] per [2] population [in this city]"],
+		"uniques": ["[+1 Production] from [Log Cabin] tiles [in this city]"],
 		"requiredTech": "Gas Lighting"
 	},
         {
@@ -1374,7 +1380,7 @@
                 "greatPersonPoints": {"Great Prophet": 1},
 		"maintenance": 0,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Gold] from every [Luxury resource] [in this city]",],
+		"uniques": ["[+1 Gold] from every [Luxury resource]"],
 		"requiredTech": "Mining"
 	},
         {
@@ -1383,9 +1389,9 @@
                 "replaces": "Harbor",
 		"cost": 120,
 		"maintenance": 2,
+                "culture": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Faith] from [Coast] tiles [in this city]",
-			"[+15]% Food [in this city] during [Golden Age]"],
+		"uniques": ["[+1 Faith] from [Coast] tiles [in this city]"],
 		"requiredTech": "Industrialization"
 	},
 {
@@ -1431,7 +1437,7 @@
 		"maintenance": 0,
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Library",
-		"uniques": ["Must be next to [Mountain]", "[+1 Science] per [2] population [in this city]"],
+		"uniques": ["Must be next to [Mountain]", "[+1 Science] from [Mine] tiles [in this city]"],
 		"requiredTech": "Steam Power"
 	},
 	{
@@ -1651,14 +1657,14 @@
         {
 		"name": "War Ministry",
                 "production": 1,
-                "uniques": ["[+100]% Yield from every [Great Improvement] [in this city]","New [Military] units start with [35] Experience [in this city]"],
+                "uniques": ["[+100]% Yield from every [Great Improvement]","New [Military] units start with [35] Experience [in this city]"],
 		"hurryCostModifier": 0,
 		"requiredTech": "European Union"
 	},
         {
 		"name": "Fertilizer and Sulphate",
                 "food": 1,
-                "uniques": ["[+1 Food] per [2] [Farm]"],
+                "uniques": ["[+1 Food] from every [Mill]"],
 		"hurryCostModifier": 25,
 		"requiredResource": "Nitter"
 		"requiredTech": "Farm Technology"
@@ -1666,21 +1672,21 @@
         {
 		"name": "Artificial Seed",
                 "food": 1,
-                "uniques": ["[+1 Food] per [2] [Wheat]"],
+                "uniques": ["[+1 Food] from every [Wheat]"],
 		"hurryCostModifier": 25,
 		"requiredResource": "Nitter"
 		"requiredTech": "Farm Technology"
 	},
         {
 		"name": "Digital Service",
-                "uniques": ["[+1 Science] per [2] [Luxury resource]"],
+                "uniques": ["[+1 Science] from every [Luxury resource]"],
 		"hurryCostModifier": 25,
 		"requiredResource": "Computer"
 		"requiredTech": "Cloud Computing"
 	},
         {
 		"name": "Digital Propaganda",
-                "uniques": ["[+1 Science] per [2] [Strategic resource]"],
+                "uniques": ["[+1 Science] from every [Strategic resource]"],
 		"hurryCostModifier": 25,
 		"requiredResource": "Computer"
 		"requiredTech": "Cloud Computing"
