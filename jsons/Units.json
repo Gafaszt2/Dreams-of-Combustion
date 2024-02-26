@@ -2296,4 +2296,34 @@
                 "uniques": ["Never appears as a Barbarian unit","[+15]% Strength bonus for [Siege] units within [2] tiles"],
 		"attackSound": "shot"
         },
+        {
+		"name": "Mehal Sefari", 
+                "uniqueTo": "Ethiopia",
+		"replaces": "Grenadier",
+                "upgradesTo": "Rifleman",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Dynamite",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 23,
+                "uniques": ["Never appears as a Barbarian unit"],
+		"cost": 70,
+                "promotions": ["Home Sweet Home"],
+		"attackSound": "shot"
+        },
+        {
+		"name": "Oromo Cavalry",
+                "uniqueTo": "Ethiopia",
+		"replaces": "Hussar",
+                "upgradesTo": "Cavalry",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Military Science",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 25,
+		"cost": 90, 
+                "promotions": ["Home Sweet Home"],
+                "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+        },
 ]
