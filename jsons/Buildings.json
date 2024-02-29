@@ -415,7 +415,7 @@
 		"culture": 3,
                 "science": 2,
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [25] per owned city"],
+		"uniques": ["Cost increases by [25] per owned city"],
 		"requiredTech": "Electricity"
 	},
         {
@@ -1110,7 +1110,7 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"percentStatBonus": {"science": 50},
-		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"uniques": ["Cost increases by [30] per owned city"],
 		"requiredTech": "Scientific Theory"
 	},
         {
@@ -1119,7 +1119,7 @@
 		"science": 2,
 		"culture": 3,
 		"percentStatBonus": {"science": 50},
-		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [10] per owned city"],
+		"uniques": ["Cost increases by [10] per owned city"],
 		"requiredTech": "Biology"
 	},
 {
@@ -1273,7 +1273,7 @@
 		"cost": 125,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
+		"uniques": ["[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
 		"requiredTech": "Archaeology"
 	},
         {
@@ -1359,7 +1359,7 @@
 		"gold": 8,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Market] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"uniques": ["Cost increases by [30] per owned city"],
 		"requiredTech": "Railway"
 	},
        {
@@ -1370,7 +1370,7 @@
 		"gold": 2,
 		"production": 4,
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Market] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"uniques": ["Cost increases by [30] per owned city"],
 		"requiredTech": "Railway"
 	},
         {
@@ -1481,7 +1481,7 @@
 		"percentStatBonus": {"culture": 50},
 		"culture": 5,
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"uniques": ["Cost increases by [30] per owned city"],
 		"requiredTech": "Electricity"
 	},
 {
