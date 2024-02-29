@@ -10,7 +10,7 @@
 		"leaderName": "Pomare III",
 		"adjective": ["Tahiti"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Political",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -55,7 +55,7 @@
 		"leaderName": "Lauaki Namulauulu Mamoe",
 		"adjective": ["Samoa"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Political",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -299,7 +299,7 @@
 		"leaderName": "Orelie Antoine de Tounens",
 		"adjective": ["Patagonia"],
 		"startBias": ["Plains"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -325,7 +325,7 @@
 		"leaderName": "Maharaja Ranjit Singh",
 		"adjective": ["Sikh"],
 		"startBias": ["Plains"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -350,7 +350,7 @@
 		"leaderName": "King Tawhiao",
 		"adjective": ["Maori"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Supremacy",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -373,7 +373,7 @@
 		"leaderName": "Cunhambebe",
 		"adjective": ["Tupi"],
 		"startBias": ["Jungle"],
-		"preferredVictoryType": "Religious",
+		"preferredVictoryType": "Supremacy",
 
 
         "startIntroPart1": "",
@@ -400,7 +400,7 @@
 		"leaderName": "King Mindon Min",
 		"adjective": ["Burma"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -426,7 +426,7 @@
 		"leaderName": "Arthur Phillip",
 		"adjective": ["Australian"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -452,7 +452,7 @@
 		"leaderName": "Governor Charles Hotham",
 		"adjective": ["Australian"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -478,7 +478,7 @@
 		"leaderName": "General Ernest Constans",
 		"adjective": ["French"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -504,7 +504,7 @@
 		"leaderName": "Emperor Tu Duc",
 		"adjective": ["Vietnamese"],
 		"startBias": ["Jungle"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -530,7 +530,7 @@
 		"leaderName": "King Chulalongkorn",
 		"adjective": ["Siamese"],
 		"startBias": ["Jungle"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -559,7 +559,7 @@
 		"leaderName": "Jan Pieterszoon Coen",
 		"adjective": ["Dutch"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -585,7 +585,7 @@
 		"leaderName": "Emilio Aguinaldo",
 		"adjective": ["Philipines"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -611,7 +611,7 @@
 		"leaderName": "Sheikh Zayed bin Sultan Al Nahyan",
 		"adjective": ["Bedouin"],
 		"startBias": ["Desert"],
-		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -637,7 +637,7 @@
 		"leaderName": "Muhammad Rahim Khan II",
 		"adjective": ["Uzbek"],
 		"startBias": ["Mountain"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -663,7 +663,7 @@
 		"leaderName": "Count Andrzej Zamoyski",
 		"adjective": ["Polish"],
 		"startBias": ["Mountain"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -689,7 +689,7 @@
 		"leaderName": "King Otto",
 		"adjective": ["Greek"],
 		"startBias": ["Mountain"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -719,7 +719,7 @@
 		"leaderName": "King Oscar II",
 		"adjective": ["Nordish"],
 		"startBias": ["Snow"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -747,7 +747,7 @@
 		"leaderName": "Alexandru Ioan Cuza",
 		"adjective": ["Romanian"],
 		"startBias": ["Mountain"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -774,7 +774,7 @@
 		"leaderName": "Nasir al-Din Shah Qajar",
 		"adjective": ["Persian"],
 		"startBias": ["Hill"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -806,7 +806,7 @@
 		"leaderName": "Ismail Qemali",
 		"adjective": ["Albanian"],
 		"startBias": ["Mountain"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -832,7 +832,7 @@
 		"leaderName": "Stefan Stambolov",
 		"adjective": ["Bulgarians"],
 		"startBias": ["River"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -859,7 +859,7 @@
 		"leaderName": "Leopold II",
 		"adjective": ["Belgium"],
 		"startBias": ["Forest"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -885,7 +885,7 @@
 		"leaderName": "William Tell",
 		"adjective": ["Swiss"],
 		"startBias": ["Mountain"],
-		"preferredVictoryType": "Political",
+		"preferredVictoryType": "Supremacy",
                 "startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "For the good of my people i must declare war!",
@@ -909,7 +909,7 @@
 		"leaderName": "Gustaf V",
 		"adjective": ["Swedish"],
 		"startBias": ["Tundra"],
-		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Supremacy",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -940,7 +940,7 @@
 		"leaderName": "William III",
 		"adjective": ["Dutch"],
 		"startBias": ["Grassland"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Supremacy",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -965,7 +965,7 @@
 		"leaderName": "Abdul Rahman bin Faisal",
 		"adjective": ["Arabian"],
 		"startBias": ["Desert"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Supremacy",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -993,7 +993,7 @@
 		"leaderName": "Ali Pasha Mubarak",
 		"adjective": ["Egyptian"],
 		"startBias": ["Avoid [Jungle]","Avoid [Forest]"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Supremacy",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -1025,7 +1025,7 @@
 		"leaderName": "John A. MacDonald",
 		"adjective": ["Canadian"],
 		"startBias": ["Tundra"],
-		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Supremacy",
                 "startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "For the good of my people i must declare war!",
@@ -1048,7 +1048,7 @@
 		"leaderName": "Simon Bolivar",
 		"adjective": ["Colombian"],
 		"startBias": ["Plains"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
                 "startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "For the good of my people i must declare war!",
@@ -1073,7 +1073,7 @@
 		"leaderName": "Benito Juarez",
 		"adjective": ["Mexican"],
 		"startBias": ["Hill"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
                 "startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "For the good of my people i must declare war!",
@@ -1098,7 +1098,7 @@
 		"leaderName": "Martin Vizcarra",
 		"adjective": ["Peruvian"],
 		"startBias": ["Hill"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
                 "startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "For the good of my people i must declare war!",
@@ -1121,7 +1121,7 @@
 		"leaderName": "Manuel Isidoro Belzu",
 		"adjective": ["Bolivian"],
 		"startBias": ["Hill"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
                 "startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "For the good of my people i must declare war!",
@@ -1144,7 +1144,7 @@
 		"leaderName": "Faustin I",
 		"adjective": ["Haitian"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
                 "startIntroPart1": " ",
 		"startIntroPart2": " ",
 		"declaringWar": "For the good of my people i must declare war!",
@@ -1167,7 +1167,7 @@
 		"leaderName": "Shaka",
 		"adjective": ["Zulu"],
 		"startBias": ["Plains"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -1193,7 +1193,7 @@
 		"leaderName": "Mykhailo Hrushevsky",
 		"adjective": ["Ukranian"],
 		"startBias": ["Plains"],
-		"preferredVictoryType": "Political",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -1245,7 +1245,7 @@
 		"leaderName": "António de Oliveira Salazar",
 		"adjective": ["Portuguese"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Supremacy",
 
 
         "startIntroPart1": "",
@@ -1272,7 +1272,7 @@
 		"name": "Denmark",
 		"leaderName": "King Christian X",
 		"adjective": ["Danish"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 
@@ -1300,7 +1300,7 @@
 		"name": "Uruguay",
 		"leaderName": "Venacio Flores",
 		"adjective": ["Uruguayan"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 
@@ -1327,7 +1327,7 @@
 		"name": "Serbian Empire",
 		"leaderName": "Nikola Pašić",
 		"adjective": ["Serbian"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 
@@ -1354,7 +1354,7 @@
 		"name": "Montenegro",
 		"leaderName": "Nicholas I",
 		"adjective": ["Montenegrin"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 
@@ -1381,7 +1381,7 @@
 		"leaderName": "Dom Pedro II",
 		"adjective": ["Brasilian"],
 		"startBias": ["Jungle"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -1408,7 +1408,7 @@
 		"leaderName": "Archduke Franz Ferdinand",
 		"adjective": ["Austrian Hungarian"],
 		"startBias": ["Hill"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -1439,7 +1439,7 @@
 		"name": "Imperial China",
 		"leaderName": "Empress Dowager Cixi",
 		"adjective": ["Chinese"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Supremacy",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -1470,7 +1470,7 @@
 		"leaderName": "Louis Mountbatten",
 		"adjective": ["Indian"],
 		"startBias": ["Grassland"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Supremacy",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -1499,7 +1499,7 @@
 		"leaderName": "Abdulhamid II",
 		"adjective": ["Ottoman"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -1529,7 +1529,7 @@
 		"name": "United States of America",
 		"leaderName": "Franklin D. Roosevelt",
 		"adjective": ["American"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Supremacy",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -1562,7 +1562,7 @@
 		"leaderName": "Hirohito",
 		"adjective": ["Japanese"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -1590,7 +1590,7 @@
 		"leaderName": "Victoria",
 		"adjective": ["British"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -1618,7 +1618,7 @@
 		"leaderName": "Sir Walter Francis Hely Hutchinson",
 		"adjective": ["Cape Colony"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Culture",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -1644,7 +1644,7 @@
 		"leaderName": "Sir Walter Francis Hely Hutchinson",
 		"adjective": ["Transvaal"],
 		"startBias": ["Grassland"],
-		"preferredVictoryType": "Culture",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
@@ -1669,7 +1669,7 @@
 		"name": "German Empire",
 		"leaderName": "Otto von Bismarck",
 		"adjective": ["German"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Supremacy",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -1699,7 +1699,7 @@
 		"leaderName": "Isabel II",
 		"adjective": ["Spanish"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -1726,7 +1726,7 @@
 		"name": "French Empire",
 		"leaderName": "Napoleon III",
 		"adjective": ["French"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Supremacy",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -1756,7 +1756,7 @@
 		"leaderName": "Zar Nicholas II",
 		"adjective": ["Russian"],
 		"startBias": ["Tundra"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Supremacy",
 
 
         "startIntroPart1": "",
@@ -1785,7 +1785,7 @@
 		"leaderName": "Victor Emmanuel II",
 		"adjective": ["Italian"],
 		"startBias":["Avoid [Tundra]","Avoid [Desert]"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Supremacy",
 
 
         "startIntroPart1": "",
@@ -1814,7 +1814,7 @@
 		"leaderName": "Carl Gustaf Emil Mannerheim",
 		"adjective": ["Finnish"],
 		"startBias":["Avoid [Plains]","Snow","Avoid [Desert]","Avoid [Grassland]"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Supremacy",
 
 
         "startIntroPart1": "",
@@ -1840,7 +1840,7 @@
 		"leaderName": "Kim Il-Sung",
 		"adjective": ["NorthKorean"],
 		"startBias":["Tundra"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
 
 
         "startIntroPart1": "",
@@ -1866,7 +1866,7 @@
 		"leaderName": "Haile Selassie",
 		"adjective": ["ethiopian"],
 		"startBias": ["Jungle"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Supremacy",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -1898,7 +1898,7 @@
 		"leaderName": "Park Chung-hee",
 		"adjective": ["SouthKorean"],
 		"startBias":["Fresh water"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
 
 
         "startIntroPart1": "",
@@ -1924,7 +1924,7 @@
 		"leaderName": "Francisco Solano López",
 		"adjective": ["Paraguayan"],
 		"startBias":["Jungle"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Supremacy",
 
 
         "startIntroPart1": "",
@@ -1950,7 +1950,7 @@
 		"leaderName": "Julio Argentino Roca",
 		"adjective": ["Argentinian"],
 		"startBias":["Plains"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Supremacy",
 
 
         "startIntroPart1": "",
@@ -1978,7 +1978,7 @@
 		"leaderName": "Diego Portales",
 		"adjective": ["Chilean"],
 		"startBias":["Coast"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Supremacy",
 
 
         "startIntroPart1": "",
@@ -2004,7 +2004,7 @@
 		"leaderName": "Francisco Morazán",
 		"adjective": ["Central Americans"],
 		"startBias": ["Jungle"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
 		
