@@ -31,7 +31,7 @@
         
 	{
 		"name": "Log Cabin",
-		"terrainsCanBeBuiltOn": ["Forest","Jungle","Acacia","Mangroove","Baobab","Cherry Blossom","Pine Tree","Plains Pine Tree","Serra Tree"],
+		"terrainsCanBeBuiltOn": ["Forest","Jungle","Acacia","Mangroove","Baobab","Cherry Blossom","Pine Tree","Plains Pine Tree","Serra Tree","Dry Tree","Amazon Tall Tree"],
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Saw",
