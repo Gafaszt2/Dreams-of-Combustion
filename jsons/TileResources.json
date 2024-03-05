@@ -13,7 +13,7 @@
         {
 		"name": "Horses",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland","Savannah","Mountain Land","Mud"],
+		"terrainsCanBeFoundOn": ["Grassland","Savannah","Mountain Land","Mud","Cold Soil","Tundra"],
 		"food": 1,
 		"improvement": "Stable",
 		"improvementStats": {"production": 1},
@@ -33,7 +33,7 @@
 	{
 		"name": "Deer",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Forest","Tundra"], // Tundra only if lowland
+		"terrainsCanBeFoundOn": ["Forest","Tundra","Cold Soil"], // Tundra only if lowland
 		"food": 1,
 		"improvement": "Hunter Lodge",
 		"improvementStats": {"production": 1},
@@ -57,7 +57,7 @@
 	{
 		"name": "Wheat",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert","Savannah","Mountain Land","Mud"], // Desert only if fresh water
+		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert","Savannah","Mountain Land","Mud","Cold Soil"], // Desert only if fresh water
 		"food": 1,
 		"improvement": "Mill",
 		"uniques": ["Generated on every [27] tiles <in [Featureless] [Plains] tiles>",
@@ -187,7 +187,7 @@
         {
 		"name": "Furs",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Tundra","Dry Soil"],
+		"terrainsCanBeFoundOn": ["Forest","Tundra","Dry Soil","Cold Soil"],
 		"gold": 2,
 		"improvement": "Hunter Lodge",
 		"improvementStats": {"gold": 1},
@@ -412,7 +412,7 @@
 	{
 		"name": "Citrus",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Flood plains"],
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Flood plains","Mud"],
 		"food": 1,
 		"gold": 1,
 		"improvedBy": ["Slave Labor Plantation", "Heavy Labor Plantation"],
@@ -487,7 +487,7 @@
 	{
 		"name": "Truffles",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
+		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle","Cold Soil"],
 		"gold": 2,
 		"improvement": "Hunter Lodge",
 		"improvementStats": {"gold": 1},
@@ -624,6 +624,30 @@
 		"food": 1,
 		"improvement": "Hunter Lodge",
 		"improvementStats": {"faith": 1},
+	}, 
+        {
+		"name": "Philipines Crocodile",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Fresh Soil","Mud","Narra"],
+		"food": 1,
+		"improvement": "Hunter Lodge",
+		"improvementStats": {"faith": 1},
+	},
+        {
+		"name": "Frog",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Fresh Soil","Mud","Narra"],
+		"food": 1,
+		"improvement": "Hunter Lodge",
+		"improvementStats": {"faith": 1},
+	}, 
+        {
+		"name": "Turtle",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Fresh Soil","Mud","Narra"],
+		"food": 1,
+		"improvement": "Hunter Lodge",
+		"improvementStats": {"faith": 1},
 	},
         {
 		"name": "Yerba Mate",
@@ -640,5 +664,22 @@
 		"gold": 2,
 		"improvement": "Fishing Boats",
 		"improvementStats": {"faith": 3},
+	},
+        {
+		"name": "Whale Shark",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coast","Ocean"],
+		"faith": 2,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"faith": 3},
+	},
+        {
+		"name": "Shark",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast","Ocean"],
+		"food": 1,
+                "production": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"gold": 2},
 	},
 ]
