@@ -498,6 +498,16 @@
 		"requiredTech": "Archaeology"
 	},
         {
+		"name": "Rova",
+                "uniqueTo": "Merina Kingdom",
+                "replaces": "Monument",
+		"culture": 2,
+                "happiness": 1,
+		"cost": 42,
+		"hurryCostModifier": 40,
+		"uniques": ["Destroyed when the city is captured"]
+	}
+        {
 		"name": "King Embassy",
                 "uniqueTo": "The Netherlands",
                 "culture": 4,
@@ -515,6 +525,7 @@
 			"Can only be built [in annexed cities]"],
 		"requiredTech": "Rifling"
 	},
+        
         {
 		"name": "Bomb Shelter",
 		"cost": 500,
@@ -708,6 +719,16 @@
 		"uniques": ["[+1 Gold] from [Marsh] tiles [in this city]",
 			"[+1 Gold] from [Forest] tiles [in this city]",
 			"[+1 Gold] from [Jungle] tiles [in this city]"],
+	},
+        {
+		"name": "Guild",
+                "replaces": "Mint",
+		"uniqueTo": "Benin Kingdom",
+                "greatPersonPoints": {"Great Prophet": 1},
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Gold] from [Jungle] tiles [in this city]","[+2 Gold] from [Luxury resource] tiles [in this city]"],
+		"requiredTech": "Mining"
 	},
         {
 		"name": "Gold Mine",

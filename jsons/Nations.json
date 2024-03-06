@@ -386,7 +386,7 @@
 		"neutralHello": "Hello!",
 		"hateHello": "What do you need?!",
 		"tradeRequest": "How would you like it if I propose this kind of exchange?",
-		"outerColor": [110, 36, 31],
+		"outerColor": [196, 52, 41],
 		"innerColor": [38, 15, 14],
 		"favoredReligion": "Shamanism",
 		"uniqueName": "Migration from the Jungle",
@@ -518,8 +518,8 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [164, 247, 47],
-		"innerColor": [72, 106, 171],
+		"outerColor": [139, 181, 98],
+		"innerColor": [23, 39, 77],
                 "favoredReligion": "Taoism",
 		"uniqueName": "Water Puppetry",
 		"uniques": ["[+2 Food] from every [Lakes]","[+1 Faith] from every [Lakes]"],
@@ -652,7 +652,7 @@
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
 		"outerColor": [62, 54, 69],
-		"innerColor": [95, 163, 140],
+		"innerColor": [118, 245, 164],
                 "favoredReligion": "Islam",
 		"uniqueName": "Emirate of Bukhara Silk Road Merchants",
 		"uniques": ["[+1 Culture] from every [Desert]","[+1 Production, +1 Faith] per every [4] [Gold]","[+1 Faith] in cities on [Hill] tiles","[+20]% Happiness from luxury resources gifted by City-States"],
@@ -1181,11 +1181,11 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [161, 130, 130],
-		"innerColor": [46, 32, 12],
+		"outerColor": [214, 141, 69],
+		"innerColor": [59, 21, 5],
                 "favoredReligion": "Shamanism",
 		"uniqueName": "Impi Iyehlisa",
-		"uniques": ["[1] additional attacks per turn", "[+1] Movement <for [{Military} {Land}] units>", "[+1 Gold] from every [Plains]","[+3 Food] from every [Ivory]"],
+		"uniques": ["[+1 Food] from every [Plains]","[+1 Food] from every [Hunter Lodge]"],
 		"cities": ["Ulundi", "KwaDukuza" ,"Bulawayo", "Isandlwana", "Rorke´s Drift", "Eshowe", "Ondini", "Gingindlovu"]
 	},
 {
@@ -1233,8 +1233,8 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [43, 56, 43],
-		"innerColor": [214, 26, 19],
+		"outerColor": [64, 9, 4],
+		"innerColor": [237, 38, 38],
                 "favoredReligion": "Islam",
 		"uniqueName": "Victorian Resistance",
 		"uniques": ["[+15]% Strength <when fighting units from a Civilization with more Cities than you>", "[+2 Gold] from every [Hill]"],
@@ -2024,6 +2024,106 @@
 		"uniques": ["[+1 Food] from every [Bananas]","[+1 Gold] from every [Bananas]","[+1 Gold] from every [Slave Labor Plantation]","[+1 Food] from every [Jungle]","[+1 Food] from every [Atoll]", "[+1 Science] per [3] social policies adopted"],
 		"cities": ["San Miguel", "Conchagua" ,"Tegucigalpa", "Leon", "Granada", "San Salvador", "Managua", "San Jose", "Belmopán"]
 	},
+        {
+		"name": "Merina Kingdom",
+		"leaderName": "Queen Ranavalona I",
+		"adjective": ["Merina"],
+		"startBias": ["Baobab"],
+		"preferredVictoryType": "Supremacy",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [49, 74, 28],
+		"innerColor": [240, 93, 77],
+		"uniqueName": "Christian Killer",
+		"uniques": ["[+1 Faith] from every [House]","[+1 Faith] from every [Forest]","[+1 Production] from every [Hunter Lodge]"],
+		"cities": ["Antananarivo Renivohitra", "Toamasina" ,"Fianarantsoa", "Mahajanga", "Toliara", "Antsirabe", "Antsiranana", "Ambovombe", "Ambositra","Ambanja","Ambatolampy","Ambatondrazaka","Ambilobe"]
+	},
+        {
+		"name": "Benin Kingdom",
+		"leaderName": "Oba Ovonramwen",
+		"adjective": ["Benin"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Supremacy",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [197, 226, 237],
+		"innerColor": [16, 71, 92],
+		"uniqueName": "The Rising Sun which spreads over all",
+		"uniques": ["[+1 Production] from every [Oil]","[+2 Production] from every [Bronze]","[+1 Production] from every [Jungle]"],
+		"cities": ["Benin City", "Udo" ,"Ekpoma", "Auchi", "Akure", "Warri", "Ondo", "Ife","Ijebu Ode","Abeokuta"]
+	},
+        {
+		"name": "Kongo Kingdom",
+		"leaderName": "Henrique III",
+		"adjective": ["Kongo"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Supremacy",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [204, 198, 200],
+		"innerColor": [94, 1, 27],
+		"uniqueName": "Kivuzu Faction Fracturation",
+		"uniques": ["[+1 Culture] from every [Slave Labor Plantation]","[+2 Production] from every [Slave Labor Plantation]"],
+		"cities": ["Mbanza Kongo", "Soyo" ,"Boma", "Matadi", "Bandundu", "Kinshasa", "Kisantu", "Kikwit","Kananga","Lubumbashi","Likasi"]
+	},
+        {
+		"name": "Dahomey Kingdom",
+		"leaderName": "King Béhanzin",
+		"adjective": ["Dahomey"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Supremacy",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [245, 215, 118],
+		"innerColor": [70, 115, 104],
+		"uniqueName": "King Wives",
+		"uniques": ["[+10]% [Production] [in capital] <when at war>","[+50]% [Gold] [in capital] <when at war>","[+50]% [Happiness] [in capital] <when at war>"],
+		"cities": ["Abomey", "Allada" ,"Porto-Novo", "Cotonou", "Ouidah", "Parakou", "Djougou", "Bohicon","Kandi","Lokossa"]
+	},
 
 	// City-States sorted by cityStateType, name
 
@@ -2132,18 +2232,6 @@
 		"innerColor": [194, 255, 97],
 		"cities": ["Ireland"],
 		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games"]
-	},
-	{
-		"name": "M'Banza-Kongo",
-		"adjective": ["M'Banza-Kongo"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to Kongo - not to my people!",
-		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
-		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [245, 123, 17],
-		"cities": ["M'Banza-Kongo"]
 	},
 	{
 		"name": "Palestine",

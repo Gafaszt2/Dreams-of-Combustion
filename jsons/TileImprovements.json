@@ -31,7 +31,7 @@
         
 	{
 		"name": "Log Cabin",
-		"terrainsCanBeBuiltOn": ["Forest","Jungle","Acacia","Mangroove","Baobab","Cherry Blossom","Pine Tree","Plains Pine Tree","Serra Tree","Dry Tree","Amazon Tall Tree"],
+		"terrainsCanBeBuiltOn": ["Forest","Jungle","Acacia","Mangroove","Baobab","Cherry Blossom","Pine Tree","Plains Pine Tree","Serra Tree","Dry Tree","Amazon Tall Tree","Narra"],
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Saw",
@@ -338,6 +338,17 @@
 			"Gives a defensive bonus of [10]%",
 			"Adjacent enemy units ending their turn take [5] damage",
 			"Removes removable features when built","[+4 Food] for each adjacent [Coast]","[+1 Food] for each adjacent [Mala´e]","[+2 Culture] for each adjacent [Coast]"]
+	},
+        {
+		"name": "Mbanza",
+                "production": 1,
+                "uniqueTo": "Kongo Kingdom",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"Adjacent enemy units ending their turn take [5] damage",
+			"Removes removable features when built","[+2 Food] for each adjacent [Mbanza]"]
 	},
         {
 		"name": "Hare Paenga",
