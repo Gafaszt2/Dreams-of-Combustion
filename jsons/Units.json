@@ -370,7 +370,7 @@
 		"movement": 2,
 		"strength": 20,
 		"rangedStrength": 30,
-		"uniques": ["Unbuildable","[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
+		"uniques": ["Limited to [4] per Civilization","Unbuildable","[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
         {
@@ -529,7 +529,7 @@
 		"cost": 520,
 "requiredTech": "NAFTA",
 		"requiredResource": "Oil",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["Limited to [4] per Civilization","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
         {
@@ -564,7 +564,7 @@
 		"requiredTech": "Desert Storm",
                 "obsoleteTech": "Ukraine War",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+		"uniques": ["Limited to [4] per Civilization","[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
 			"[+1] Sight", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
@@ -579,7 +579,7 @@
 		"cost": 650,
 "requiredTech": "NAFTA",
 		"requiredResource": "Oil",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["Limited to [4] per Civilization","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
         {
@@ -592,7 +592,7 @@
 		"cost": 590,
 		"requiredTech": "Ukraine War",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+		"uniques": ["Limited to [4] per Civilization","[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
 			"[+1] Sight", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
@@ -605,7 +605,7 @@
 		"cost": 700,
 "requiredTech": "Ukraine War",
 		"requiredResource": "Oil",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["Limited to [4] per Civilization","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
         {
@@ -667,7 +667,7 @@
 		"cost": 500,
 		"requiredTech": "Arms Race",
 		"requiredResource": "Oil",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["Limited to [4] per Civilization","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
         {
@@ -680,14 +680,14 @@
 		"cost": 600,
 		"requiredTech": "Korea War",
 		"requiredResource": "Oil",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["Limited to [4] per Civilization","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
         {
 		"name": "Helicopter Gunship",
 		"unitType": "Helicopter",
 		"movement": 5,
-		"strength": 60,
+		"strength": 70,
 		"cost": 300,
 		"requiredTech": "Arms Race",
 		"requiredResource": "Aluminum",
@@ -738,7 +738,7 @@
 		"requiredTech": "Combined Arms",
                 "obsoleteTech": "Arms Race",
 		"requiredResource": "Oil",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["Limited to [4] per Civilization","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
         {
@@ -872,7 +872,7 @@
                 "obsoleteTech": "Combined Arms",
 		"requiredTech": "Tanks",
 		"requiredResource": "Oil",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["Limited to [4] per Civilization","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
         {
@@ -983,7 +983,7 @@
 		"cost": 425,
 		"requiredTech": "Atomic Theory",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+		"uniques": ["Limited to [4] per Civilization","[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
 			"[-1] Sight", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
@@ -998,7 +998,7 @@
 		"strength": 55,
 		"cost": 425,
 		"requiredTech": "Computers",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
+		"uniques": ["Limited to [4] per Civilization","[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
 			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "missile"
 	},
@@ -1096,7 +1096,7 @@
 		"cost": 400,
                 "obsoleteTech": "Atomic Theory",
 		"requiredTech": "Combustion",
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[+1] Sight","Never appears as a Barbarian unit"],
+		"uniques": ["Limited to [4] per Civilization","[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[+1] Sight","Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
         {
@@ -1108,7 +1108,7 @@
 		"rangedStrength": 30,
 		"cost": 185,
 		"requiredTech": "Artillery",
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
+		"uniques": ["Limited to [4] per Civilization","[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
         {
@@ -1121,7 +1121,7 @@
 		"rangedStrength": 50,
 		"cost": 210,
 		"requiredTech": "Artillery",
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[+1] Sight","Never appears as a Barbarian unit"],
+		"uniques": ["Limited to [4] per Civilization","[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[+1] Sight","Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
         {
@@ -1293,7 +1293,7 @@
 		"rangedStrength": 50,
 		"cost": 190,
 		"requiredTech": "Artillery",
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[+1] Sight","Never appears as a Barbarian unit"],
+		"uniques": ["Limited to [4] per Civilization","[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[+1] Sight","Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
         {
@@ -1381,7 +1381,7 @@
 		"rangedStrength": 30,
 		"cost": 185,
 		"requiredTech": "Artillery",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit","Heal this unit by [+2] HP <upon ending a turn in a [All] tile>","[+10]% Strength <when defending>"],
+		"uniques": ["Limited to [4] per Civilization","[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit","Heal this unit by [+2] HP <upon ending a turn in a [All] tile>","[+10]% Strength <when defending>"],
 		"attackSound": "cannon"
 	},
         {
@@ -1406,7 +1406,7 @@
 		"name": "Slave",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","Can be purchased with [Gold] [in all cities]","Can be purchased for [70] [Gold] [in all cities]","Unbuildable","Never appears as a Barbarian unit"],
+		"uniques": ["Limited to [4] per Civilization","Cannot enter ocean tiles <before discovering [Industrialization]>","Can be purchased with [Gold] [in all cities]","Can be purchased for [70] [Gold] [in all cities]","Unbuildable","Never appears as a Barbarian unit"],
 	},
          {
 		"name": "SS Troop",
@@ -1554,7 +1554,7 @@
 		"cost": 425,
 		"requiredTech": "Atomic Theory",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+15]% Strength <when fighting in [Friendly] tiles> <when attacking>", "[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+		"uniques": ["Limited to [4] per Civilization","[+15]% Strength <when fighting in [Friendly] tiles> <when attacking>", "[+100]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
 			"[-1] Sight", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
@@ -1763,7 +1763,7 @@
                 "obsoleteTech": "Arms Race",
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["Limited to [4] per Civilization","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
         {
@@ -1937,7 +1937,7 @@
 		"cost": 520,
 "requiredTech": "NAFTA",
 		"requiredResource": "Oil",
-		"uniques": ["[+10]% Strength <vs [Armored] units>","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["Limited to [4] per Civilization","[+10]% Strength <vs [Armored] units>","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
         {

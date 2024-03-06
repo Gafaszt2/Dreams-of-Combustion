@@ -998,6 +998,13 @@ NationIcons/German Empire
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/SS Troop
+  rotate: false
+  xy: 220, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Gonja Kingdom
   rotate: false
   xy: 544, 436
@@ -2888,13 +2895,6 @@ PolicyBranchIcons/Allies
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Axis
-  rotate: false
-  xy: 1084, 1229
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitIcons/SS Troop
   rotate: false
   xy: 1084, 1229
   size: 50, 50
