@@ -1996,32 +1996,6 @@
 		"attackSound": "shot"
         },
         {
-		"name": "Loyal Alfaris",
-                "uniqueTo": "Persia",
-                "replaces": "Cuirassier",
-                "upgradesTo": "Cavalry",
-                "obsoleteTech": "Replaceable Parts",
-                "requiredTech": "Novel",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 28,
-		"cost": 140, 
-                "uniques": ["Double movement in [Hill]","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
-		"attackSound": "horse"
-        },
-        {
-		"name": "Loyal Artesh",
-                "uniqueTo": "Persia",
-                "replaces": "Modern Day Levy",
-		"unitType": "Gunpowder",
-		"movement": 2.5,
-		"strength": 50,
-		"cost": 190,
-"requiredTech": "Ukraine War",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[+5]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
-		"attackSound": "shot"
-	},
-        {
 		"name": "Winged Hussar",
                 "uniqueTo": "Poland",
                 "replaces": "Hussar",
@@ -2061,6 +2035,17 @@
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
+        {
+		"name": "Nomadic Pastoralist",
+                "uniqueTo": "Guled Dynasty",
+                "replaces": "Worker",
+		"unitType": "Civilian",
+                "strength": 8,
+		"movement": 4,
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","Can build [Land] improvements on tiles","[+100]% Strength <starting from the [Capital Victorian era]>","[+100]% Strength <starting from the [Second World War]>","[+100]% Strength <starting from the [Post Cold War]>", "Automation is a primary action"],
+		"cost": 89
+	},
+
         {
 		"name": "Katipunero",
                 "uniqueTo": "Philipines",
@@ -2388,4 +2373,60 @@
                 "cost": 190,
 		"movement": 3
 	},
+        {
+		"name": "Cavalry Corps",
+                "uniqueTo": "Confederate States of America",
+		"replaces": "Cuirassier",
+                "upgradesTo": "Cavalry",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Novel",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 55,
+                "promotions": ["Elite"],
+		"cost": 210, 
+                "uniques": ["Can move after attacking","No defensive terrain bonus","[-10]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+        },
+        {
+		"name": "Texas Ranger",
+                "uniqueTo": "Confederate States of America",
+		"replaces": "Dragoon",
+                "upgradesTo": "Cavalry",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Military Science",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 39,
+                "rangedStrength": 39,
+		"cost": 270, 
+                "promotions": ["Elite"],
+                "uniques": ["Can move after attacking","No defensive terrain bonus","[-10]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+        },
+        {
+		"name": "Turkoman Cavalry",
+                "uniqueTo": "Persia",
+		"replaces": "Grenadier",
+                "upgradesTo": "Rifleman",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Dynamite",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 30,
+                "uniques": ["Never appears as a Barbarian unit"],
+		"cost": 90,
+		"attackSound": "horse"
+        },
+        {
+		"name": "Georgian Slave",
+                "uniqueTo": "Persia",
+		"replaces": "Slave",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Limited to [6] per Civilization","Cannot enter ocean tiles <before discovering [Industrialization]>","Can be purchased with [Gold] [in all cities]","Can be purchased with [Faith] [in all cities]","Can be purchased for [70] [Gold] [in all cities]","Can be purchased for [85] [Faith] [in all cities]","Unbuildable","Never appears as a Barbarian unit"],
+	},
+
+
+
 ]

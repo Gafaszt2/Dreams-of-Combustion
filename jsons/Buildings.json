@@ -284,6 +284,13 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
         {
+		"name": "Spices Shop",
+                "uniqueTo": "Guled Dynasty",
+		"maintenance": 3,
+		"requiredTech": "Enigma",
+		"uniques": ["Provides [1] [Spices]","Provides [1] [Incense]","Limited to [2] per Civilization"]
+	},
+        {
 		"name": "Castle",
 		"cityStrength": 7,
 		"cityHealth": 25,

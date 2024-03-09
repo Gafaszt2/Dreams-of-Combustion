@@ -658,6 +658,28 @@
 		"occursOn": ["Lakes"],
 	},
         {
+		"name": "Plains Beach",
+		"type": "TerrainFeature",
+		"faith": 1,
+		"overrideStats": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Beach"],
+	},
+        {
+		"name": "Clean Coast",
+		"type": "TerrainFeature",
+		"faith": 1,
+		"overrideStats": false,
+		"occursOn": ["Coast"],
+	},
+        {
+		"name": "Clean Ocean",
+		"type": "TerrainFeature",
+		"faith": 1,
+		"overrideStats": false,
+		"occursOn": ["Ocean"],
+	},
+        {
 		"name": "Japan Mountain",
 		"type": "TerrainFeature",
 		"faith": 1,

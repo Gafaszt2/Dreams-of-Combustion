@@ -703,6 +703,10 @@
 		"name": "Bulgarian Blood",
 		"uniques": ["[+15]% Strength when stacked with [Great General]"]
 	},
+        {
+		"name": "Elite",
+		"uniques": ["[+5]% Strength <vs cities>","[+5]% Strength when stacked with [Great General]", "[+5]% Strength <vs [Mounted] units>", "[+5]% Strength <vs [Gunpowder] units>"]
+	},
     {
         "name": "Devout",
         "uniques": ["Can Spread Religion <[1] additional time(s)>"]

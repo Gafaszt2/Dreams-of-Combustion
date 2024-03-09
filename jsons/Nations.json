@@ -788,11 +788,11 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [245,248,185],
-		"innerColor": [110, 10, 1],
-		"uniqueName": "Qajar dynasty",
+		"outerColor": [250, 235, 167],
+		"innerColor": [82, 33, 47],
+		"uniqueName": "Qajar Dynasty Black Sea Slave Trade",
                 "favoredReligion": "Islam",
-		"uniques": ["[+35]% Production when constructing [Missile] units [in all cities]","[+2 Science] from every [Great Improvement]"],
+		"uniques": ["[+4 Culture] from every [Holy site]","[+3 Production] from every [Holy site]","[+1 Food] from every [Holy site]"],
 		"cities": ["Teheran","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
 			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
 			"Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube",
@@ -826,6 +826,32 @@
 		"uniqueName": "Land of the Eagles",
 		"uniques": ["[+2 Production] from every [Mountain]","[+10]% Strength <when fighting in [Hill] tiles>"],
 		"cities": ["Tirana", "Durres","Vlore","Elbasan","Shkoder","Sarande","Berat","Fier","Korce","Pogradec","Kruje","Gijokaster","Kamez","Lushnje","Kavaje"]
+	},
+        {
+		"name": "Guled Dynasty",
+		"leaderName": "Sultan Deria Hassan",
+		"adjective": ["Somali"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Supremacy",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Empire i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [61, 159, 166],
+		"innerColor": [247, 247, 247],
+                "favoredReligion": "Islam",
+		"uniqueName": "Somali Incense and Aromatics",
+		"uniques": ["[+4 Production] [in all cities] <with [1] to [2] neighboring [unimproved] [Desert] tiles>","[+20]% Strength <when fighting in [Coast] tiles>"],
+		"cities": ["Mogadishu", "Hargeysa", "Berbera", "Kismayo", "Baidoa", "Bosaso", "Galkacyo", "Garowe", "Burco", "Jowhar"]
 	},
 {
 		"name": "Bulgarian Empire",
@@ -1556,6 +1582,33 @@
 			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
+        {
+		"name": "Confederate States of America",
+		"leaderName": "Jefferson Davis",
+		"adjective": ["Confederate"],
+		"preferredVictoryType": "Supremacy",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
+		"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
+		"defeated": "The day...is yours. I hope you will be merciful in your triumph.",
+		"introduction": "The people of the Confederate States of America welcome you.",
+		"neutralHello": "Good day.",
+		"hateHello": "Well?",
+		"tradeRequest": "Is the following trade of interest to you?",
+
+        "outerColor": [1, 55, 145],
+        "innerColor": [245, 48, 44],
+
+        "favoredReligion": "Baptist",
+		"uniqueName": "Deo Vindice",
+		"uniques": ["Free [Cavalry Corps] appears <upon discovering [Railway]>","Free [Texas Ranger] appears <upon discovering [Rifling]>","[+3 Faith] from every [Slave Labor Plantation]","[+1 Faith] from every [Mine]"], 
+		"cities": ["Montgomery","Richmond","Danville","New Orleans","Charleston","Atlanta"],
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
+	},
+
 	
 {
 		"name": "Empire of the Rising Sun",
@@ -1831,7 +1884,7 @@
 		"innerColor": [21, 68, 237],
 		"favoredReligion": "Catholic",
 		"uniqueName": "Winter Defense",
-		"uniques": ["[+20]% [Happiness] [in all cities] <when at war>", "[+15]% Strength <when defending>"],
+		"uniques": ["[+20]% [Happiness] [in all cities] <when at war>", "[+2 Food] from every [Log Cabin]"],
 		"cities": ["Helsinki", "Espoo","Tampere","Vantaa","Oulu","Turku","Jyvaskyla","Lahti","Kuopio","Pori","Joensuu","Lappeenranta","Hameenlinna","Vaasa"],
         "spyNames": ["Saki"]
     },
@@ -1991,8 +2044,8 @@
 		"neutralHello": "Hello.",
 		"hateHello": "We do not fear war",
 		"tradeRequest": "Check out this",
-		"outerColor": [48, 47, 82],
-		"innerColor": [250, 20, 12],
+		"outerColor": [86, 94, 107],
+		"innerColor": [207, 223, 250],
 		"favoredReligion": "Animism",
 		"uniqueName": "Frontier Cavalry",
 		"uniques": ["[+20]% Production when constructing [Mounted] units [in all cities]","[+50]% Yield from every [Hill]","[+1 Faith] from every [Mill]"],
@@ -2071,7 +2124,7 @@
 		"outerColor": [197, 226, 237],
 		"innerColor": [16, 71, 92],
 		"uniqueName": "The Rising Sun which spreads over all",
-		"uniques": ["[+1 Production] from every [Oil]","[+2 Production] from every [Bronze]","[+1 Production] from every [Jungle]"],
+		"uniques": ["[+1 Production] from every [Oil]","[+1 Production] from every [Ocean]","[+1 Production] from every [Jungle]"],
 		"cities": ["Benin City", "Udo" ,"Ekpoma", "Auchi", "Akure", "Warri", "Ondo", "Ife","Ijebu Ode","Abeokuta"]
 	},
         {
