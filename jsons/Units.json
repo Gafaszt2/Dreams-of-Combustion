@@ -1406,7 +1406,7 @@
 		"name": "Slave",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Limited to [4] per Civilization","Cannot enter ocean tiles <before discovering [Industrialization]>","Can be purchased with [Gold] [in all cities]","Can be purchased for [70] [Gold] [in all cities]","Unbuildable","Never appears as a Barbarian unit"],
+		"uniques": ["Limited to [4] per Civilization","Cannot enter ocean tiles <before discovering [Industrialization]>","Can be purchased with [Gold] [in all cities]","Can be purchased for [70] [Gold] [in all cities]","Unbuildable","Never appears as a Barbarian unit","Can build [Land] improvements on tiles", "Automation is a primary action"],
 	},
          {
 		"name": "SS Troop",
@@ -1803,8 +1803,9 @@
 		"obsoleteTech": "Military Science",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 15,
-		"cost": 60,
+		"strength": 17,
+                "uniques": ["[+10]% Strength <vs [Mounted] units>","[-10]% Strength <vs [Ranged Gunpowder] units>","Never appears as a Barbarian unit"],
+		"cost": 83,
 		"attackSound": "shot"
         },
         {
@@ -1816,8 +1817,8 @@
 		"unitType": "Mounted",
 		"movement": 5,
 		"strength": 25,
-		"cost": 80, 
-                "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"cost": 70, 
+                "uniques": ["[+50]% Strength <vs [Mounted] units>","[-20]% Strength <vs [Gunpowder] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
         },
         {
@@ -2033,6 +2034,18 @@
 		"cost": 146,
 		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+100]% Strength <starting from the [Capital Victorian era]>","[+100]% Strength <starting from the [Second World War]>","[+100]% Strength <starting from the [Post Cold War]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+	},
+        {
+		"name": "Tengrich",
+                "uniqueTo": "Kazakhs",
+                "replaces": "Settler",
+		"unitType": "Civilian",
+		"movement": 3,
+                "strength": 20,
+		"cost": 126,
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+10]% Strength <starting from the [Capital Victorian era]>","[+30]% Strength <starting from the [Second World War]>","[+90]% Strength <starting from the [Post Cold War]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [1] population"],
 		"hurryCostModifier": 20
 	},
         {
@@ -2426,7 +2439,71 @@
 		"movement": 2,
 		"uniques": ["Limited to [6] per Civilization","Cannot enter ocean tiles <before discovering [Industrialization]>","Can be purchased with [Gold] [in all cities]","Can be purchased with [Faith] [in all cities]","Can be purchased for [70] [Gold] [in all cities]","Can be purchased for [85] [Faith] [in all cities]","Unbuildable","Never appears as a Barbarian unit"],
 	},
-
-
-
-]
+        {
+		"name": "Patagonian Ranger",
+                "uniqueTo": "Selk Nam",
+		"replaces": "Skrimisher",
+                "upgradesTo": "Grenadier",
+                "requiredTech": "Industrialization",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Archery",
+                "range": 3,
+		"movement": 3,
+		"strength": 16,
+                "rangedStrength": 16,
+                "uniques": ["[+15]% Strength <when defending>"],           
+		"cost": 60,
+		"attackSound": "metalhit"
+        },
+        {
+		"name": "Hain Initiate",
+                "uniqueTo": "Selk Nam",
+		"replaces": "Grenadier",
+                "upgradesTo": "Rifleman",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Dynamite",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 18,
+                "uniques": ["[+15]% Strength <when defending>","Never appears as a Barbarian unit"],
+		"cost": 76,
+		"attackSound": "metalhit"
+        },
+        {
+		"name": "Cheyenne Dog Soldier",
+                "uniqueTo": "Lakota People",
+		"replaces": "Explorer",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 6,
+		"cost": 60,
+                "uniques": ["[+100]% Strength <starting from the [Capital Victorian era]>","[+200]% Strength <starting from the [First World War]>","[+50]% Strength <starting from the [Post Cold War]>","Requires at least [1] population"],
+		"attackSound": "metalhit"
+        },
+        {
+		"name": "Comanche Tokala Chief",
+                "uniqueTo": "Lakota People",
+		"replaces": "Mounted Explorer",
+                "requiredTech": "Railway",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 9,
+		"cost": 110, 
+                "uniques": ["[+100]% Strength <starting from the [Capital Victorian era]>","[+210]% Strength <starting from the [First World War]>","[+50]% Strength <starting from the [Post Cold War]>","Requires at least [2] population"],
+		"attackSound": "metalhit"
+        },
+        {
+		"name": "Naiza Rider",
+                "uniqueTo": "Kazakhs",
+		"replaces": "Grenadier",
+                "upgradesTo": "Cavalry",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Military Science",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 38,
+		"cost": 350,
+                "uniques": ["No defensive terrain bonus","[+15]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "metalhit"
+        },
+] 

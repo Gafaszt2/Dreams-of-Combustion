@@ -1659,7 +1659,7 @@
 		"innerColor": [250, 88, 70],
 		"favoredReligion": "Calvinism",
 		"uniqueName": "Rule Brittania",
-		"uniques": ["[+1 Production] from every [Coast]","[+1 Gold] from every [Coast]"],
+		"uniques": ["[+1 Production] from every [Mine]","[+25]% Production when constructing [Water] units [in all cities]"],
 		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
 			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
 			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
@@ -2177,6 +2177,83 @@
 		"uniques": ["[+10]% [Production] [in capital] <when at war>","[+50]% [Gold] [in capital] <when at war>","[+50]% [Happiness] [in capital] <when at war>"],
 		"cities": ["Abomey", "Allada" ,"Porto-Novo", "Cotonou", "Ouidah", "Parakou", "Djougou", "Bohicon","Kandi","Lokossa"]
 	},
+        {
+		"name": "Selk Nam",
+		"leaderName": "Xalpen",
+		"adjective": ["Selk Nam"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Supremacy",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [196, 207, 184],
+		"innerColor": [31, 127, 140],
+		"uniqueName": "Nomadic Survivalists",
+		"uniques": ["[+15]% [Faith] [in all cities] <when at war>","[+2 Culture] from every [Log Cabin]","[+2 Faith] from every [Log Cabin]"],
+		"cities": ["Tierra del Fuego","Parik","Hersk","Cerro Benitez","Cerro Toro","Strait of Magellan"]
+	},
+        {
+		"name": "Lakota People",
+		"leaderName": "Sitting Bull",
+		"adjective": ["Lakota"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Supremacy",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [59, 50, 46],
+		"innerColor": [230, 133, 90],
+		"uniqueName": "Great Plains Tipis",
+		"uniques": ["[+2 Food] from every [House]","[+2 Faith] from every [Bison]","[+1 Gold] from every [Bison]","[+1 Culture] from every [Forest]"],
+		"cities": ["Little Big Horn","Ochethi Ota","Lakhota Makoce", "Rapid City", "Wood Mountain", "Sichangu", "Oglála", "Hunkpapha", "Mnikhowozu", "Sihasapa", "Oohenunpa"]
+	},
+        {
+		"name": "Kazakhs",
+		"leaderName": "Kenesary Khan",
+		"adjective": ["Kazakhs"],
+		"startBias": ["Mountain Land"],
+		"preferredVictoryType": "Supremacy",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [1, 40, 66],
+		"innerColor": [179, 245, 229],
+		"uniqueName": "Steppe Sense",
+		"uniques": ["[+1 Culture] from every [Ranch]","[+2 Faith] from every [Stable]","[+1] Sight"],
+		"cities": ["Astana","Almaty","Shymkent","Karaganda","Aktobe","Taraz","Pavlodar","Oskemen","Semey","Atyrau","Kostanay","Kyzylorda","Uralsk","Petropavl","Aktau"]
+	},
+
+
 
 	// City-States sorted by cityStateType, name
 
