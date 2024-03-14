@@ -288,6 +288,17 @@
 		"attackSound": "metalhit"
         },
         {
+		"name": "Lancer",
+                "requiredTech": "Dynamite",
+                "obsoleteTech": "Replaceable Parts",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 18,
+		"cost": 75, 
+                "uniques": ["[+20]% Strength bonus for [Sword] units within [2] tiles","[+10]% Strength <vs [Mounted] units>","[+10]% Strength <vs [Gunpowder] units>","[+20]% Strength <vs [Ranged Gunpowder] units>","[-10]% Strength <vs [Sword] units>"],
+		"attackSound": "metalhit"
+        },
+        {
 		"name": "Hussar",
                 "upgradesTo": "Cavalry",
                 "obsoleteTech": "Replaceable Parts",
@@ -384,6 +395,19 @@
 		"strength": 40,
 		"cost": 150,
                  "uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+        },
+        {
+		"name": "Ranger",
+                "upgradesTo": "Great War Infantry",
+                "upgradesTo": "Great War Infantry",
+		"obsoleteTech": "Ballistics",
+                "requiredTech": "Replaceable Parts",
+		"unitType": "Scout",
+		"movement": 5,
+		"strength": 25,
+		"cost": 130,
+                 "uniques": ["[+2] Sight","[+25]% Strength <when defending>","Never appears as a Barbarian unit"],
 		"attackSound": "shot"
         },
         {
@@ -746,7 +770,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"interceptRange": 2,
-		"strength": 150,
+		"strength": 130,
 		"cost": 675,
 		"requiredTech": "Modern Burned Earth",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
@@ -2506,4 +2530,90 @@
                 "uniques": ["No defensive terrain bonus","[+15]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
         },
+        {
+		"name": "French Fur Trader",
+                "uniqueTo": "Iroquois",
+		"replaces": "Explorer",
+                "upgradesTo": "Mounted Explorer",
+                "obsoleteTech": "Railway",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 20,
+                "uniques": ["Limited to [4] per Civilization","Can build [Hunter Lodge] improvements on tiles", "Never appears as a Barbarian unit"],
+		"cost": 90, 
+		"attackSound": "shot"
+        },
+        {
+		"name": "Tuscarora Bowman",
+                "uniqueTo": "Iroquois",
+		"replaces": "Grenadier",
+                "upgradesTo": "Rifleman",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Dynamite",
+		"unitType": "Archery",
+		"movement": 3,
+		"strength": 20,
+                "uniques": ["Never appears as a Barbarian unit"],
+		"cost": 60,
+		"attackSound": "metalhit"
+        },
+        {
+		"name": "Baluch Mercenary",
+                "uniqueTo": "Sultanate of Muscat and Oman",
+		"replaces": "Rifleman",
+                "upgradesTo": "Great War Infantry",
+                "upgradesTo": "Great War Infantry",
+		"obsoleteTech": "Ballistics",
+                "requiredTech": "Replaceable Parts",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 40,
+		"cost": 120,
+                 "uniques": ["[+15]% Strength bonus for [Armored] units within [2] tiles","Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+        },
+        {
+		"name": "Abyssinian Infantry",
+                "uniqueTo": "Sultanate of Muscat and Oman",
+		"replaces": "Ranger",
+                "upgradesTo": "Great War Infantry",
+                "upgradesTo": "Great War Infantry",
+		"obsoleteTech": "Ballistics",
+                "requiredTech": "Replaceable Parts",
+		"unitType": "Scout",
+		"movement": 5,
+		"strength": 25,
+		"cost": 110,
+                 "uniques": ["[+15]% Strength bonus for [Mounted] units within [2] tiles","[+2] Sight","[+25]% Strength <when defending>","Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+        },
+        {
+		"name": "Bounty Hunter",
+                "uniqueTo": "Republic of Texas",
+		"replaces": "Dragoon",
+                "upgradesTo": "Alamo Defender Corps",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Military Science",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 20,
+                "rangedStrength": 20,
+		"cost": 180, 
+                "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+        },
+        {
+		"name": "Alamo Defender Corps",
+                "uniqueTo": "Republic of Texas",
+		"replaces": "Cavalry",
+                "obsoleteTech": "Combined Arms",
+                "requiredTech": "Replaceable Parts",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 40,
+		"cost": 290, 
+                "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+        },
+
 ] 

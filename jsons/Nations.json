@@ -115,7 +115,7 @@
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
 		"outerColor": [61, 32, 32],
-		"innerColor": [166, 5, 5],
+		"innerColor": [235, 64, 52],
                 "favoredReligion": "Manaism",
 		"uniqueName": "Easter Island",
 		"uniques": ["[+35]% Production when constructing [Water] units [in all cities]"],
@@ -1608,6 +1608,33 @@
 		"cities": ["Montgomery","Richmond","Danville","New Orleans","Charleston","Atlanta"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
+        {
+		"name": "Republic of Texas",
+		"leaderName": "Sam Houston",
+		"adjective": ["Texan"],
+                "startBias": ["Plains"],
+		"preferredVictoryType": "Supremacy",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
+		"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
+		"defeated": "The day...is yours. I hope you will be merciful in your triumph.",
+		"introduction": "Hello my friend, im Sam Houston, i welcome you to Texas.",
+		"neutralHello": "Hey.",
+		"hateHello": "Well?",
+		"tradeRequest": "Is the following trade of interest to you?",
+
+        "outerColor": [235, 64, 52],
+        "innerColor": [9, 15, 79],
+
+        "favoredReligion": "Baptist",
+		"uniqueName": "Lone Star State",
+		"uniques": ["[+1 Faith] from every [Plains]","[+1 Production] from every [Plains]"], 
+		"cities": ["Austin","Houston","San Antonio","Dallas","Galveston","Corpus Christi","Fort Worth","El Paso","Amarillo","Lubbock"],
+        "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
+	},
 
 	
 {
@@ -2252,6 +2279,62 @@
 		"uniques": ["[+1 Culture] from every [Ranch]","[+2 Faith] from every [Stable]","[+1] Sight"],
 		"cities": ["Astana","Almaty","Shymkent","Karaganda","Aktobe","Taraz","Pavlodar","Oskemen","Semey","Atyrau","Kostanay","Kyzylorda","Uralsk","Petropavl","Aktau"]
 	},
+        {
+		"name": "Sultanate of Muscat and Oman",
+		"leaderName": "Sultan Said bin Sultan Al-Busaidi",
+		"adjective": ["MuscatOmani"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Supremacy",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [220, 232, 207],
+		"innerColor": [79, 8, 4],
+		"uniqueName": "Gateway to the East",
+		"uniques": ["[+2 Gold] from every [Fishing Boats]","[+1 Gold] from every [Desert]","[+1 Gold] from every [Oil]"],
+		"cities": ["Astana","Almaty","Shymkent","Karaganda","Aktobe","Taraz","Pavlodar","Oskemen","Semey","Atyrau","Kostanay","Kyzylorda","Uralsk","Petropavl","Aktau"]
+	},
+
+        {
+		"name": "Iroquois",
+		"leaderName": "John Norton",
+		"adjective": ["Iroquoise"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Scientific",
+
+       "startIntroPart1": "",
+
+        "declaringWar": "You are a plague upon Mother Earth! Prepare for battle!",
+		"attacked": "You evil creature! My braves will slaughter you!",
+		"defeated": "You have defeated us... but our spirits will never be vanquished! We shall return!",
+		"introduction": "Greetings, stranger. I am John Norton, speaker for the Iroquois. We seek peace with all, but we do not shrink from war.",
+		"neutralHello": "Good day.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "Does this trade work for you, my friend?",
+
+        "outerColor": [54,72,72],
+        "innerColor": [246,205,137],
+
+        "favoredReligion": "Shamanism",
+		"uniqueName": "The Great Warpath",
+		"uniques": ["[+3 Food] [in all cities] <with [3] to [6] neighboring [unimproved] [Forest] tiles>","[+2 Culture] [in all cities] <with [3] to [6] neighboring [unimproved] [Jungle] tiles>"],
+		"cities": ["Onondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River",
+			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
+			"Chondote","Canajoharie","Nedrow","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley",
+			"Schoharie","Bay of Quinte","Kanawale","Kanatsiokareke","Tyendinaga","Hahta"],
+        "spyNames": ["Onatah", "Oneida", "Oshadagea", "Otetiani", "Genesee", "Dadgayadoh", "Otwtiani", "Kateri", "Onondakai", "Honanyawus"]
+    },
+    
 
 
 
