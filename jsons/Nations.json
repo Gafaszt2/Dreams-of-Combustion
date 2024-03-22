@@ -655,7 +655,7 @@
 		"innerColor": [118, 245, 164],
                 "favoredReligion": "Islam",
 		"uniqueName": "Emirate of Bukhara Silk Road Merchants",
-		"uniques": ["[+1 Culture] from every [Desert]","[+1 Production, +1 Faith] per every [4] [Gold]","[+1 Faith] in cities on [Hill] tiles","[+20]% Happiness from luxury resources gifted by City-States"],
+		"uniques": ["[+1 Culture] from every [Desert]","[+1 Gold] from every [House]","[+1 Faith] in cities on [Hill] tiles","[+50]% Happiness from luxury resources gifted by City-States"],
 		"cities": ["Tashkent","Samarkand","Bukhara","Nukus","Fergana","Qarshi","Kokand","Margilan","Termez","Jizzakh","Angren","Chirchiq","Navoiy","Urgench","Shahrisabz"]
 	},
 {
