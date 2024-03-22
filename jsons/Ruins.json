@@ -1,19 +1,19 @@
 [
     {
         "name": "discover cultural artifacts",
-        "notification": "We have discovered cultural artifacts in the ruins! (+20 culture)",
+        "notification": "We enriched our politics with the Natives! (+20 culture)",
         "uniques": ["Gain [20] [Culture]"],
         "color": "#cf8ff7"
     },
     {
         "name": "squatters willing to work for you",
-        "notification": "A [Worker] has joined us!",
-        "uniques": ["Free [Worker] found in the ruins"],
+        "notification": "We captured an [Slave] from the Natives",
+        "uniques": ["Free [Slave] found in the ruins"],
         "excludedDifficulties": ["Prince", "King", "Emperor", "Immortal", "Deity"]
     },
     {
         "name": "squatters wishing to settle under your rule",
-        "notification": "A [Settler] has joined us!",
+        "notification": "A captured colonial [Settler] has joined our empire!",
         "uniques": ["Free [Settler] found in the ruins"],
         "excludedDifficulties": ["Warlord","Prince","King","Emperor","Immortal","Deity"]
     },
@@ -36,13 +36,13 @@
     },
     {
         "name": "discover a lost technology",
-        "notification": "We have discovered the lost technology of [techName] in the ruins!",
+        "notification": "We exchanged the Native Slaves for a new tech called [techName]",
         "uniques": ["[1] free random researchable Tech(s) from the [National Victorian era]"],
 		"color": "#7f7fff"
     },
     {
         "name": "advanced weaponry for your explorer",
-        "notification": "Our unit finds advanced weaponry hidden in the ruins!",
+        "notification": "Our unit finds advanced weaponry hidden in the huts!",
         "uniques": ["This Unit upgrades for free including special upgrades"]
     },
     {
@@ -57,7 +57,7 @@
     },
     {
         "name": "discover holy symbols",
-        "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)",
+        "notification": "We have found holy symbols in the natives huts, giving us a deeper understanding of religion! (+[faithAmount] Faith)",
         "uniques": ["Hidden when religion is disabled", "Gain enough Faith for a Pantheon", "Only available <before founding a Pantheon>", "Only available <after [20] turns>"],
 		"color": "#CDDDF4"
     },
