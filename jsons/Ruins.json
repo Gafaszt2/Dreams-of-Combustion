@@ -7,8 +7,8 @@
     },
     {
         "name": "squatters willing to work for you",
-        "notification": "We captured an [Slave] from the Natives",
-        "uniques": ["Free [Slave] found in the ruins"],
+        "notification": "We captured an [Worker] from the Natives",
+        "uniques": ["Free [Worker] found in the ruins"],
         "excludedDifficulties": ["Prince", "King", "Emperor", "Immortal", "Deity"]
     },
     {
