@@ -1410,7 +1410,7 @@
 	},
         {
 		"name": "Gaucho",
-                "uniqueTo": "Argentina",
+                "uniqueTo": "Argentinian Confederation",
                 "replaces": "Worker",
 		"unitType": "Civilian",
 		"movement": 3,
@@ -2614,6 +2614,33 @@
 		"cost": 290, 
                 "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
+        },
+        {
+		"name": "Patricio",
+                "uniqueTo": "Argentina",
+		"replaces": "Skrimisher",
+                "upgradesTo": "Grenadier",
+                "requiredTech": "Industrialization",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Ranged Gunpowder",
+                "range": 2,
+		"movement": 2,
+		"strength": 9,
+                "rangedStrength": 9,
+                "uniques": ["[+15]% Strength <vs [Wounded] units>","[+15]% Strength <vs [Mounted] units>"],           
+		"cost": 55,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Montonera",
+                "uniqueTo": "Argentinian Confederation",
+                "requiredTech": "Dynamite",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 20,
+		"cost": 125, 
+                "uniques": ["[+10]% Strength bonus for [Gunpowder] units within [2] tiles","[+50]% Strength <vs [Mounted] units>","[-35]% Strength <vs [Gunpowder] units>","[-20]% Strength <vs [Ranged Gunpowder] units>","[-20]% Strength <vs [Sword] units>","[+50]% Strength <starting from the [Capital Victorian era]>","[+200]% Strength <starting from the [First World War]>","[+200]% Strength <starting from the [Post Cold War]>"],
+		"attackSound": "metalhit"
         },
 
 ] 

@@ -135,9 +135,8 @@
 	},
         {
 		"name": "Civil Factory",
-                "food": 4,
-                "production": 2,
-                "culture": 1,
+                "production": 4,
+                "food": 2,
                 "techRequired": "Plastics",
                 "uniques": ["Costs [6] [Gold] per turn"],
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Savannah","Mountain Land","Mud","Cold Soil"],

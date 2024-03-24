@@ -2027,7 +2027,7 @@
     },
     {
 		"name": "Argentina",
-		"leaderName": "Julio Argentino Roca",
+		"leaderName": "Justo José de Urquiza",
 		"adjective": ["Argentinian"],
 		"startBias":["Plains"],
 		"preferredVictoryType": "Supremacy",
@@ -2046,13 +2046,42 @@
 		"outerColor": [0, 187, 250],
 		"innerColor": [64, 11, 11],
 		"favoredReligion": "Catholic",
-		"uniqueName": "Desert Expedition",
-		"uniques": ["[+1 Culture] from every [Stable]","[+1 Culture] from every [Mill]", "[+10]% Strength <vs [Barbarian] units>"],
+		"uniqueName": "Mueran los Enemigos de la Organizacion Nacional",
+		"uniques": ["[+2 Culture] from every [Mill]", "[+50]% Strength <vs [Barbarian] units>"],
 		"cities": ["Buenos Aires","Cordoba","Rosario","La Plata","Tucuman","Salta","Mendoza","Vera Cruz","Corrientes","Pilar","Bahia Blanca",
                             "Resistencia","Posadas","Jujuy","Parana","Merlo","Neuquen","Quilmes","Banfield","Formosa","Lanus",
                             "La Rioja","Comodora","Rivadavia","San Luis","Ituzaingo","Santa fe","Rio Cuarto","San Rafael","Bariloche"],
         "spyNames": ["Saki"]
     },
+    {
+		"name": "Argentinian Confederation",
+		"leaderName": "Juan Manuel de Rosas",
+		"adjective": ["Argentinian"],
+		"startBias":["Plains"],
+		"preferredVictoryType": "Supremacy",
+
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+                "declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to the land of Argentina",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [255, 3, 3],
+		"innerColor": [29, 36, 48],
+		"favoredReligion": "Catholic",
+		"uniqueName": "Mueran los Salvajes Unitarios",
+		"uniques": ["[+1 Production] from every [Mill]", "[+1 Production] from every [Stable]", "[+2 Food] from every [Slave Labor Plantation]"],
+		"cities": ["Buenos Aires","Cordoba","Rosario","La Plata","Tucuman","Salta","Mendoza","Vera Cruz","Corrientes","Pilar","Bahia Blanca",
+                            "Resistencia","Posadas","Jujuy","Parana","Merlo","Neuquen","Quilmes","Banfield","Formosa","Lanus",
+                            "La Rioja","Comodora","Rivadavia","San Luis","Ituzaingo","Santa fe","Rio Cuarto","San Rafael","Bariloche"],
+        "spyNames": ["Saki"]
+    },
+
     {
 		"name": "Chile",
 		"leaderName": "Diego Portales",
