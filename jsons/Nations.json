@@ -2349,51 +2349,76 @@
         {
 		"name": "Kokand",
 		"adjective": ["Kokand"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Asian",
 
 		"declaringWar": "We cant forgive you!",
 		"attacked": "This will be the beggining of your nightmares...",
 		"defeated": "We cannot lose!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [119, 217, 247],
+		"innerColor": [240, 56, 36],
 		"cities": ["Kokand"]
-	},
-         {
-		"name": "Bukhara",
-		"adjective": ["Bukhara"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "We cant forgive you!",
-		"attacked": "This will be the beggining of your nightmares...",
-		"defeated": "We cannot lose!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [170, 119, 247],
-		"cities": ["Bukhara"]
 	},
          {
 		"name": "Kalat",
 		"adjective": ["Kalat"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Asian",
 
 		"declaringWar": "We cant forgive you!",
 		"attacked": "This will be the beggining of your nightmares...",
 		"defeated": "We cannot lose!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [247, 119, 200],
+		"innerColor": [252, 113, 58],
 		"cities": ["Kalat"]
 	},
         {
 		"name": "Sindv",
 		"adjective": ["Sindv"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Asian",
 
 		"declaringWar": "We cant forgive you!",
 		"attacked": "This will be the beggining of your nightmares...",
 		"defeated": "We cannot lose!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [119, 247, 149],
+		"innerColor": [247, 180, 104],
 		"cities": ["Sindv"]
 	},
+{
+		"name": "Macau",
+		"adjective": ["Macau"],
+		"cityStateType": "Asian",
+
+		"declaringWar": "We cant forgive you!",
+		"attacked": "This will be the beggining of your nightmares...",
+		"defeated": "We cannot lose!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [252, 210, 56],
+		"cities": ["Macau"]
+	},
+{
+		"name": "Edinburgh",
+		"adjective": ["Edinburgh"],
+		"cityStateType": "European",
+
+		"declaringWar": "We cant forgive you!",
+		"attacked": "This will be the beggining of your nightmares...",
+		"defeated": "We cannot lose!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [186, 207, 103],
+		"cities": ["Edinburgh"]
+	},
+{
+		"name": "Geneva",
+		"adjective": ["Geneva"],
+		"cityStateType": "European",
+
+		"declaringWar": "We cant forgive you!",
+		"attacked": "This will be the beggining of your nightmares...",
+		"defeated": "We cannot lose!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [102, 186, 28],
+		"cities": ["Geneva"]
+	},
+
 
 
 
@@ -2402,70 +2427,154 @@
 	{
 		"name": "Malta",
 		"adjective": ["Maltese"],
-		"cityStateType": "Maritime",
+		"cityStateType": "European",
 		"startBias": ["Coast"],
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "You can see how fruitless this will be for you... right?",
 		"defeated": "May God grant me these last wishes - peace and prosperity for Malta.",
 		"outerColor": [0, 0, 0],
-		"innerColor": [250, 84, 75],
+		"innerColor": [177, 242, 153],
 		"cities": ["Malta"]
 	},
 	{
 		"name": "Singapore",
 		"adjective": ["Singaporean"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Asian",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Perhaps, in another world, we could have been friends...",
 		"outerColor": [0, 0, 0],
-		"innerColor": [245, 194, 191],
+		"innerColor": [53, 130, 58],
 		"cities": ["Singapore"]
 	},
-
-	{
-		"name": "Papal States",
-		"adjective": ["Papal States"],
-		"cityStateType": "Religious",
+{
+		"name": "Calcutta",
+		"adjective": ["Calcutta"],
+		"cityStateType": "Asian",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "How could we fall to the likes of you?!",
+		"defeated": "Perhaps, in another world, we could have been friends...",
 		"outerColor": [0, 0, 0],
-		"innerColor": [156, 37, 30],
-		"cities": ["Papal States"]
+		"innerColor": [90, 184, 170],
+		"cities": ["Calcutta"]
 	},
-	{
-		"name": "Ireland",
-		"adjective": ["Ireland"],
-		"cityStateType": "Militaristic",
 
-		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
-		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Ireland!",
-		"defeated": "A lonely wind blows through the highlands today. A dirge for Ireland. Can you hear it?",
-		"outerColor": [0, 0, 0],
-		"innerColor": [194, 255, 97],
-		"cities": ["Ireland"],
-		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games"]
-	},
-	{
-		"name": "Palestine",
-		"adjective": ["Palestine"],
-		"cityStateType": "Religious",
+        {
+		"name": "Timbuktu",
+		"adjective": ["Timbuktu"],
+		"cityStateType": "African",
 
 		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
 		"attacked": "Very well, we will kick you back to the ancient era!",
 		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [255, 254, 252],
-		"cities": ["Palestine"]
+		"innerColor": [120, 147, 214],
+		"cities": ["Timbuktu"]
+	},
+        {
+		"name": "Mombasa",
+		"adjective": ["Mombasa"],
+		"cityStateType": "African",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [148, 87, 235],
+		"cities": ["Mombasa"]
+	},
+        {
+		"name": "Great Zimbabwe",
+		"adjective": ["Great Zimbabwe"],
+		"cityStateType": "African",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [237, 121, 252],
+		"cities": ["Great Zimbabwe"]
+	},
+{
+		"name": "Lagos",
+		"adjective": ["Lagos"],
+		"cityStateType": "African",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [232, 88, 177],
+		"cities": ["Lagos"]
 	},
 
 
+{
+		"name": "San Francisco",
+		"adjective": ["San Francisco"],
+		"cityStateType": "American",
 
-        
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [232, 30, 94],
+		"cities": ["San Francisco"]
+	},
+{
+		"name": "Montreal",
+		"adjective": ["Montreal"],
+		"cityStateType": "American",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [175, 220, 224],
+		"cities": ["Montreal"]
+	},
+
+        {
+		"name": "Baghdad",
+		"adjective": ["Baghdad"],
+		"cityStateType": "Middle Eastern",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [152, 166, 156],
+		"cities": ["Baghdad"]
+	},
+{
+		"name": "Beirut",
+		"adjective": ["Beirut"],
+		"cityStateType": "Middle Eastern",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [247, 240, 12],
+		"cities": ["Beirut"]
+	},
+
+{
+		"name": "Mecca",
+		"adjective": ["Mecca"],
+		"cityStateType": "Middle Eastern",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [232, 247, 215],
+		"cities": ["Mecca"]
+	},
+
 
 
 
@@ -2473,7 +2582,7 @@
 	{
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
-        "innerColor": [185,12,12],
+        "innerColor": [245, 24, 0],
 		"uniques": ["Can only heal by pillaging"]
 	}
 ]

@@ -51,5 +51,65 @@
             "[+26 Faith] <starting from the [First World War]>"
         ],
         "color": [255, 255, 255]
+    },
+    {
+        "name": "African",
+        "friendBonusUniques": [
+            "[+1 Happiness] <before the [Capital Victorian era]>",
+            "[+1 Gold] <before the [Capital Victorian era]>",
+            "[+4 Happiness] <starting from the [Capital Victorian era]>",
+            "[+4 Gold] <starting from the [Capital Victorian era]>"
+        ],
+        "allyBonusUniques": ["Provides military units every ≈[17] turns"
+        ],
+        "color": [245, 155, 66]
+    },
+    {
+        "name": "American",
+        "friendBonusUniques": [
+            "[+1 Production] <before the [Capital Victorian era]>",
+            "[+1 Culture] <before the [Capital Victorian era]>",
+            "[+4 Culture] <starting from the [Capital Victorian era]>",
+            "[+1 Production] <starting from the [Capital Victorian era]>"
+        ],
+        "allyBonusUniques": ["[+2 Culture] <starting from the [Capital Victorian era]>"
+        ],
+        "color": [86, 182, 214]
+    },
+    {
+        "name": "European",
+        "friendBonusUniques": [
+            "[+1 Science] <before the [Capital Victorian era]>",
+            "[+1 Faith] <before the [Capital Victorian era]>",
+            "[+2 Culture] <starting from the [Capital Victorian era]>",
+            "[+2 Faith] <starting from the [Capital Victorian era]>"
+        ],
+        "allyBonusUniques": ["[+2 Production] <before the [Capital Victorian era]>"
+        ],
+        "color": [150, 242, 155]
+    },
+    {
+        "name": "Asian",
+        "friendBonusUniques": [
+            "[+1 Faith] <before the [Capital Victorian era]>",
+            "[+1 Production] <before the [Capital Victorian era]>",
+            "[+4 Faith] <starting from the [Capital Victorian era]>",
+            "[+2 Culture] <starting from the [Capital Victorian era]>"
+        ],
+        "allyBonusUniques": ["[+3 Production] <before the [Capital Victorian era]>"
+        ],
+        "color": [210, 242, 80]
+    },
+    {
+        "name": "Middle Eastern",
+        "friendBonusUniques": [
+            "[+1 Gold] <before the [Capital Victorian era]>",
+            "[+3 Faith] <before the [Capital Victorian era]>",
+            "[+4 Faith] <starting from the [Capital Victorian era]>",
+            "[+2 Gold] <starting from the [Capital Victorian era]>"
+        ],
+        "allyBonusUniques": ["[+5 Gold] <before the [Capital Victorian era]>"
+        ],
+        "color": [240, 56, 36]
     }
 ]
