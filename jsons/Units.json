@@ -1432,6 +1432,7 @@
                 "uniqueTo": "The Netherlands",
 		"unitType": "Civilian",
 		"movement": 4,
+                "cost": 66
 		"uniques": ["Limited to [3] per Civilization","Cannot enter ocean tiles <before discovering [Industrialization]>","Never appears as a Barbarian unit","Can build [Land] improvements on tiles", "Automation is a primary action"],
 	},
         {
