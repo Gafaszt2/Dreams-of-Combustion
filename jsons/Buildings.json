@@ -366,16 +366,6 @@
 		"requiredTech": "Vaccine"
 	},
         {
-		"name": "Cloth Hall",
-                "uniqueTo": "Poland",
-                "replaces": "Market",
-		"gold": 5,
-		"specialistSlots": {"Merchant": 2},
-		"hurryCostModifier": 25,
-		"percentStatBonus": {"gold": 25},
-		"requiredTech": "Vaccine"
-	},
-        {
 		"name": "Kyaung",
                 "uniqueTo": "Burma",
                 "replaces": "University",
@@ -401,19 +391,6 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
         {
-		"name": "Peles Castle",
-                "culture": 1,
-                "gold": 2,
-                "uniqueTo": "Romania",
-                "replaces": "Castle",
-		"cityStrength": 7,
-		"cityHealth": 25,
-		"hurryCostModifier": 25,
-		"requiredBuilding": "Walls",
-		"requiredTech": "Scientific Theory",
-		"uniques": ["Destroyed when the city is captured"]
-	},
-        {
 		"name": "Old Royal Palace",
                 "uniqueTo": "Greece",
                 "replaces": "Hermitage",
@@ -421,6 +398,7 @@
 		"percentStatBonus": {"culture": 50},
 		"culture": 3,
                 "science": 2,
+                "faith": 2,
 		"isNationalWonder": true,
 		"uniques": ["Cost increases by [25] per owned city"],
 		"requiredTech": "Electricity"
@@ -515,21 +493,14 @@
 		"uniques": ["Destroyed when the city is captured"]
 	}
         {
-		"name": "King Embassy",
-                "uniqueTo": "The Netherlands",
-                "culture": 4,
-		"hurryCostModifier": 50,
-		"uniques": ["Only available <in cities without a [Dutch General Statue]>",
-			"Can only be built [in annexed cities]"],
-		"requiredTech": "Rifling"
-	},
-        {
 		"name": "Dutch General Statue",
                 "uniqueTo": "The Netherlands",
                 "faith": 4,
+                "culture": 2,
+                "science": 1,
+                "gold": 1,
 		"hurryCostModifier": 50,
-		"uniques": ["Only available <in cities without a [King Embassy]>",
-			"Can only be built [in annexed cities]"],
+		"uniques": ["Can only be built [in annexed cities]"],
 		"requiredTech": "Rifling"
 	},
         
@@ -565,15 +536,6 @@
                 "replaces": "Monument",
 		"culture": 3,
                 "faith": 1,
-		"cost": 40,
-		"hurryCostModifier": 40,
-		"uniques": ["Destroyed when the city is captured"]
-	}
-        {
-		"name": "Greek Revival Architecture",
-                "uniqueTo": "Greece",
-                "replaces": "Monument",
-		"happiness": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"uniques": ["Destroyed when the city is captured"]
@@ -749,19 +711,6 @@
 		"requiredTech": "Electricity"
 	},
         {
-		"name": "Folk Museum",
-                "replaces": "Museum",
-		"uniqueTo": "Norway",
-		"culture": 4,
-                "happiness": 2,
-		"specialistSlots": {"Artist": 2},
-		"requiredBuilding": "Opera House",
-		"maintenance": 3,
-		"hurryCostModifier": 0,
-		"requiredTech": "Psychoanalysis",
-		"uniques": ["Destroyed when the city is captured"]
-	},
-        {
 		"name": "Fazenda",
 		"replaces": "Granary",
 		"uniqueTo": "Brasilian Empire",
@@ -770,15 +719,6 @@
 		"percentStatBonus": {"gold": 25},
 		"uniques": ["Provides [1] [Guava] <with [100]% chance>","Provides [1] [Yerba Mate] <with [50]% chance>","Unsellable","[+1 Gold] from [Slave Labor Plantation] tiles [in this city]"],
 		"requiredTech": "Hunting Pets"
-	},
-        {
-		"name": "Apartment",
-                "replaces": "Housing",
-		"uniqueTo": "Romania",
-                "gold": 3,
-		"hurryCostModifier": 25,
-                "uniques": ["[+5]% [Gold] [in this city]"],
-		"requiredTech": "Antibiotic"
 	},
         {
 		"name": "Criadero de Llamas",

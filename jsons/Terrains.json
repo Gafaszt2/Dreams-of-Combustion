@@ -657,6 +657,15 @@
 		"defenceBonus": 0.25,
 		"occursOn": ["Lakes"],
 	},
+{
+		"name": "Andes Soil",
+		"type": "TerrainFeature",
+		"faith": 1,
+		"overrideStats": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Mountain Land"],
+	},
+
         {
 		"name": "Plains Beach",
 		"type": "TerrainFeature",
@@ -695,6 +704,15 @@
 		"defenceBonus": 0.25,
 		"occursOn": ["Mountain"],
 	},
+ {
+		"name": "Andes Mountain",
+		"type": "TerrainFeature",
+		"faith": 1,
+		"overrideStats": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Mountain"],
+	},
+
         {
 		"name": "Mud",
 		"type": "Land",

@@ -1427,6 +1427,14 @@
 		"cost": 55
 	},
         {
+		"name": "Javanese Worker",
+                "replaces": "Worker",
+                "uniqueTo": "The Netherlands",
+		"unitType": "Civilian",
+		"movement": 4,
+		"uniques": ["Limited to [3] per Civilization","Cannot enter ocean tiles <before discovering [Industrialization]>","Never appears as a Barbarian unit","Can build [Land] improvements on tiles", "Automation is a primary action"],
+	},
+        {
 		"name": "Slave",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -2461,7 +2469,7 @@
 		"replaces": "Slave",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Limited to [6] per Civilization","Cannot enter ocean tiles <before discovering [Industrialization]>","Can be purchased with [Gold] [in all cities]","Can be purchased with [Faith] [in all cities]","Can be purchased for [70] [Gold] [in all cities]","Can be purchased for [85] [Faith] [in all cities]","Unbuildable","Never appears as a Barbarian unit"],
+		"uniques": ["Can build [Land] improvements on tiles","Limited to [6] per Civilization","Cannot enter ocean tiles <before discovering [Industrialization]>","Can be purchased with [Gold] [in all cities]","Can be purchased with [Faith] [in all cities]","Can be purchased for [70] [Gold] [in all cities]","Can be purchased for [85] [Faith] [in all cities]","Unbuildable","Never appears as a Barbarian unit"],
 	},
         {
 		"name": "Patagonian Ranger",
@@ -2641,6 +2649,104 @@
 		"cost": 125, 
                 "uniques": ["[+10]% Strength bonus for [Gunpowder] units within [2] tiles","[+50]% Strength <vs [Mounted] units>","[-35]% Strength <vs [Gunpowder] units>","[-20]% Strength <vs [Ranged Gunpowder] units>","[-20]% Strength <vs [Sword] units>","[+50]% Strength <starting from the [Capital Victorian era]>","[+200]% Strength <starting from the [First World War]>","[+200]% Strength <starting from the [Post Cold War]>"],
 		"attackSound": "metalhit"
+        },
+        {
+		"name": "Dorobant",
+                "uniqueTo": "Romania",
+		"replaces": "Skrimisher",
+                "upgradesTo": "Grenadier",
+                "requiredTech": "Industrialization",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Ranged Gunpowder",
+                "range": 3,
+		"movement": 3,
+		"strength": 6,
+                "rangedStrength": 8,
+                "uniques": ["[+5]% Strength <when defending>"],           
+		"cost": 30,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Domnitor Prince",
+                "uniqueTo": "Romania",
+		"replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [10]-turn Golden Age <by consuming this unit>",
+            "[+20]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+        {
+		"name": "Volunteer",
+                "uniqueTo": "Norway",
+		"replaces": "Partisan",
+                "upgradesTo": "Halberdier",
+                "requiredTech": "Railway",
+                "obsoleteTech": "Dynamite",
+		"unitType": "Gunpowder",
+		"movement": 4,
+		"strength": 25,
+		"cost": 100, 
+                "uniques": ["[-10]% Strength <vs [Mounted] units>","[-10]% Strength <vs [Ranged Gunpowder] units>"],
+		"attackSound": "metalhit"
+        },
+        {
+		"name": "Polish Legion",
+                "uniqueTo": "Poland",
+		"replaces": "Grenadier",
+                "upgradesTo": "Rifleman",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Dynamite",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 20,
+                "uniques": ["[+60]% Strength <vs [Ranged Gunpowder] units>","[+60]% Strength <vs [Siege] units>","[+60]% Strength <vs [Sword] units>","Never appears as a Barbarian unit"],
+		"cost": 200,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Rebel Raider",
+                "uniqueTo": "Greece",
+		"replaces": "Skrimisher",
+                "upgradesTo": "Grenadier",
+                "requiredTech": "Industrialization",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 15,
+                "uniques": ["[+5]% Strength <vs [Ranged Gunpowder] units>","[+5]% Strength <vs [Mounted] units>","[-15]% Strength <vs [Sword] units>","[+5]% Strength <when defending>"],           
+		"cost": 55,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Kihei", 
+                "uniqueTo": "Japanese Empire",
+		"replaces": "Grenadier",
+                "upgradesTo": "Rifleman",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Dynamite",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 18,
+                "uniques": ["[+25]% Strength <vs [Mounted] units>","[-5]% Strength <when defending>","Never appears as a Barbarian unit"],
+		"cost": 60,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Gunto Rider",
+                "uniqueTo": "Japanese Empire",
+		"replaces": "Hussar",
+                "upgradesTo": "Cavalry",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Military Science",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 80, 
+                "uniques": ["[+25]% Strength <vs [Gunpowder] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
         },
 
 ] 

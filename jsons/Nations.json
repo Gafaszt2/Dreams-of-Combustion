@@ -184,7 +184,7 @@
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
 		"outerColor": [166, 5, 5],
-		"innerColor": [158, 181, 255],
+		"innerColor": [173, 234, 237],
                 "favoredReligion": "Manaism",
 		"uniqueName": "Sea Warriors",
 		"uniques": ["[+2] Sight <for [Embarked] units>","[+35]% Production when constructing [Water] units [in all cities]"],
@@ -677,12 +677,12 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [255, 51, 116],
-		"innerColor": [252, 250, 251],
+		"outerColor": [204, 47, 91],
+		"innerColor": [69, 31, 42],
                 "favoredReligion": "Orthodox",
 		"uniqueName": "Winged Hussars",
-		"uniques": ["[+30]% Production when constructing [Mounted] units [in all cities]", "[+15]% Production when constructing [Faith] buildings [in all cities]", "[+2 Faith] from every [Great Improvement]"],
-		"cities": ["Varsovia","Cracovia","Breslavia","Poznan","Zakopane","Gdynia","Lodz","Szczecin","Torun","Lublin","Kolobrezeg","Sopot"]
+		"uniques": ["[+20]% Production when constructing [Mounted] units [in all cities]", "[+1 Faith] from every [Mill]","[+1 Gold] from every [House]"],
+		"cities": ["Warsaw","Cracovia","Breslavia","Poznan","Zakopane","Gdynia","Lodz","Szczecin","Torun","Lublin","Kolobrezeg","Sopot"]
 	},
 {
 		"name": "Greece",
@@ -703,8 +703,8 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [120, 217, 250],
-		"innerColor": [26, 25, 25],
+		"outerColor": [45, 52, 117],
+		"innerColor": [197, 202, 252],
                 "favoredReligion": "Orthodox",
 		"uniqueName": "Greek Enlightenment",
 		"uniques": ["[+2 Science] from every [Natural Wonder]","[+20]% Production when constructing [Water] units [in all cities]"],
@@ -733,8 +733,8 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [156, 118, 245],
-		"innerColor": [26, 25, 25],
+		"outerColor": [39, 33, 48],
+		"innerColor": [161, 110, 250],
                 "favoredReligion": "Orthodox",
 		"uniqueName": "Nordic Resilence",
 		"uniques": ["[+10]% Strength <when fighting in [Tundra] tiles>","[+10]% Strength <when fighting in [Snow] tiles>","[+3]% Strength <when fighting in [Coast] tiles>"],
@@ -744,7 +744,7 @@
 	},
 {
 		"name": "Romania",
-		"leaderName": "Alexandru Ioan Cuza",
+		"leaderName": "King Carol",
 		"adjective": ["Romanian"],
 		"startBias": ["Mountain"],
 		"preferredVictoryType": "Supremacy",
@@ -761,11 +761,11 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [181, 134, 4],
-		"innerColor": [26, 25, 25],
+		"outerColor": [29, 28, 54],
+		"innerColor": [252, 115, 3],
                 "favoredReligion": "Orthodox",
 		"uniqueName": "Cultural Renaissance",
-		"uniques": ["[+1 Faith] from every [Grassland]"],
+		"uniques": ["[+1 Culture] from every [Mine]","[+1 Faith] from every [Hill]","[-1 Food] from every [Mill]","[-1 Food] from every [House]"],
 		"cities": ["Bucharest", "Cluj-Napoca","Timișoara","Lași","Constanța","Craiova","Brașov","Galați","Ploiești","Oradea",
                        "Brăila","Arad","Pitești","Sibiu","Băcau","Târgu Mureș","Baia Mare","Buzău","Botoșani","Satu Mare"]
 	},
@@ -846,8 +846,8 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [61, 159, 166],
-		"innerColor": [247, 247, 247],
+		"outerColor": [0, 86, 115],
+		"innerColor": [250, 250, 157],
                 "favoredReligion": "Islam",
 		"uniqueName": "Somali Incense and Aromatics",
 		"uniques": ["[+4 Production] [in all cities] <with [1] to [2] neighboring [unimproved] [Desert] tiles>","[+20]% Strength <when fighting in [Coast] tiles>"],
@@ -1135,8 +1135,8 @@
 		"neutralHello": "Hello, you.",
 		"hateHello": "What YOU want?!",
 		"tradeRequest": "Better hurry, I may change my mind.",
-		"outerColor": [247, 242, 228],
-		"innerColor": [181, 134, 4],
+		"outerColor": [71, 52, 36],
+		"innerColor": [245, 168, 61],
                 "favoredReligion": "Catholic",
 		"uniqueName": "El Condor Pasa",
 		"uniques": ["[+1 Faith] from every [Hill]","[+1 Gold] from every [Hill]"],
@@ -1638,8 +1638,8 @@
 
 	
 {
-		"name": "Empire of the Rising Sun",
-		"leaderName": "Hirohito",
+		"name": "Japanese Empire",
+		"leaderName": "Emperor Meiji",
 		"adjective": ["Japanese"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Supremacy",
@@ -1654,10 +1654,10 @@
 		"neutralHello": "Hello.",
 		"hateHello": "Oh, it's you...",
 		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
-		"outerColor": [250, 236, 85],
-		"innerColor": [184, 0, 0],
+		"outerColor": [235, 227, 197],
+		"innerColor": [166, 20, 15],
 		"favoredReligion": "Shinto",
-		"uniqueName": "Azuma no meihakuna unmei",
+		"uniqueName": "Meiji Restauration",
 		"uniques": ["Damage is ignored when determining unit Strength <for [non-air] units>"],
 		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
 			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
@@ -1962,7 +1962,7 @@
 		"hateHello": "What do you want?",
 
         "outerColor": [252, 186, 3],
-        "innerColor": [86, 122, 95],
+        "innerColor": [19, 46, 30],
 
 		"favoredReligion": "Orthodox",
 		"uniqueName": "Spirit of Adwa",
@@ -2152,7 +2152,7 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [49, 74, 28],
+		"outerColor": [16, 36, 18],
 		"innerColor": [240, 93, 77],
 		"uniqueName": "Christian Killer",
 		"uniques": ["[+1 Faith] from every [House]","[+1 Faith] from every [Forest]","[+1 Production] from every [Hunter Lodge]"],

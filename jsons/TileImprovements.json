@@ -135,12 +135,20 @@
 	},
         {
 		"name": "Civil Factory",
-                "production": 4,
-                "food": 2,
+                "food": 3,
+                "happiness": 2,
                 "techRequired": "Plastics",
-                "uniques": ["Costs [6] [Gold] per turn"],
+                "uniques": ["[+1 Production] for each adjacent [House]","Costs [30] [Gold] per turn"],
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Savannah","Mountain Land","Mud","Cold Soil"],
-		"turnsToBuild": 20,
+		"turnsToBuild": 21,
+	},
+        {
+		"name": "Millitary Factory",
+                "production": 3,
+                "techRequired": "Plastics",
+                "uniques": ["[+2 Production] for each adjacent [Civil Factory]","Costs [30] [Gold] per turn"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Savannah","Mountain Land","Mud","Cold Soil"],
+		"turnsToBuild": 23,
 	},
 
 	// Transportation
