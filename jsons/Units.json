@@ -1159,6 +1159,7 @@
 		"uniques": ["May capture killed [Water] units"],
 		"attackSound": "cannon"
 	},
+        
         {
 		"name": "Frigate",
 		"unitType": "Ranged Water",
@@ -1528,7 +1529,7 @@
         },
         {
 		"name": "Blue Dragon Brigade",
-                "uniqueTo": "South Korea",
+                "uniqueTo": "Korea",
                 "requiredTech": "Korea War",
 		"unitType": "Gunpowder",
                 "uniques": ["[+20]% Strength <vs [Barbarian] units>", "Never appears as a Barbarian unit"],
@@ -1737,18 +1738,6 @@
 		"attackSound": "horse"
         },
         {
-		"name": "Legion",
-                "uniqueTo": "Italian Empire",
-                "replaces": "Infantry",
-                "requiredTech": "Plastics",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 55,
-		"cost": 230,
-                "uniques": ["Never appears as a Barbarian unit", "[+10]% Strength <when fighting in [Tundra] tiles> <when attacking>"],
-		"attackSound": "shot"
-        },
-        {
 		"name": "Cantonist",
                 "uniqueTo": "Russian Empire",
                 "replaces": "Line Infantry",
@@ -1773,17 +1762,6 @@
 		"cost": 60, 
                 "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
-        },
-        {
-		"name": "Schutzstaffel",
-                "uniqueTo": "German Empire",
-                "replaces": "Infantry",
-                "requiredTech": "Plastics",
-		"unitType": "Gunpowder",
-		"movement": 3,
-		"strength": 57,
-		"cost": 250,
-		"attackSound": "shot"
         },
         {
 		"name": "Panzer",
@@ -2749,5 +2727,42 @@
                 "uniques": ["[+25]% Strength <vs [Gunpowder] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
         },
+        {
+		"name": "Alpino",
+                "uniqueTo": "Italian Empire",
+		"replaces": "Skrimisher",
+                "upgradesTo": "Grenadier",
+                "requiredTech": "Industrialization",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Gunpowder",
+		"movement": 5,
+		"strength": 10,
+                "uniques": ["Can move after attacking"],           
+		"cost": 55,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Prussian Landwehr",
+                "uniqueTo": "German Empire",
+                "requiredTech": "Industrialization",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 30,
+                "uniques": ["[-30]% Strength <when defending>"],           
+		"cost": 300,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Turtle Ship",
+                "uniqueTo": "Korea",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 25,
+		"cost": 200,
+		"uniques": ["Can move after attacking"],
+		"attackSound": "cannon"
+	},
+
 
 ] 

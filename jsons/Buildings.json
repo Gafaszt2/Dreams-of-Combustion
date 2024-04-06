@@ -53,9 +53,9 @@
 	},
         {
 		"name": "Immigrant Colony",
-		"production": 2,
                 "uniqueTo": "Uruguay",
                 "uniques": ["[1] free [Picador Infernal] units appear <with [40]% chance>","[1] free [Legione Agricola] units appear <with [40]% chance>","[1] free [Krupp Steel Cannon] units appear <with [20]% chance>"],
+                "isNationalWonder": true,
 		"requiredTech": "Novel"
 	},
         {

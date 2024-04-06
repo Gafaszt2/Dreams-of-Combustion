@@ -1764,8 +1764,8 @@
 		"outerColor": [250, 250, 250],
 		"innerColor": [33, 33, 33],
 		"favoredReligion": "Catholic",
-		"uniqueName": "Until Nobody mess with Germany´s Happiness!",
-		"uniques": ["[-50]% Gold cost of acquiring tiles [in all cities]", "When conquering an encampment, earn [15] Gold and recruit a Barbarian unit <with [40]% chance>","[-50]% maintenance costs <for [Land] units>"],
+		"uniqueName": "Krupp Factories",
+		"uniques": ["[-50]% Gold cost of acquiring tiles [in all cities]", "Free [Krupp Steal Cannon] appears <upon discovering [Mining]>","[-50]% maintenance costs <for [Land] units>"],
 		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
 			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
 			"Münster","Rostock","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
@@ -1882,7 +1882,7 @@
 		"innerColor": [240, 171, 10],
 		"favoredReligion": "Catholic",
 		"uniqueName": "Mediterranean Glory",
-		"uniques": ["[+30]% Production towards any buildings that already exist in the Capital", "[+1 Food] from every [Coast]"],
+		"uniques": ["Free [Legione Agricola] appears <upon discovering [Novel]>","[+30]% Production towards any buildings that already exist in the Capital", "[+1 Food] from every [Coast]"],
 		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
 			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
 			"Signia","Aquileia","Clusium","Sutrium","Cremona","Placentia","Hispalis","Artaxata","Aurelianorum","Nicopolis",
@@ -1915,32 +1915,7 @@
 		"cities": ["Helsinki", "Espoo","Tampere","Vantaa","Oulu","Turku","Jyvaskyla","Lahti","Kuopio","Pori","Joensuu","Lappeenranta","Hameenlinna","Vaasa"],
         "spyNames": ["Saki"]
     },
-    {
-		"name": "North Korea",
-		"leaderName": "Kim Il-Sung",
-		"adjective": ["NorthKorean"],
-		"startBias":["Tundra"],
-		"preferredVictoryType": "Supremacy",
 
-
-        "startIntroPart1": "",
-        "startIntroPart2": "",
-
-                "declaringWar": "We cannot tolerate you anymore",
-		"attacked": "The war has hardened us, but it has not broken us",
-		"defeated": "This cannot happen!",
-		"introduction": "Welcome to the land of north Korea",
-		"neutralHello": "Hello.",
-		"hateHello": "We do not fear war",
-		"tradeRequest": "Check out this",
-		"outerColor": [46, 46, 45],
-		"innerColor": [252, 195, 8],
-		"favoredReligion": "Taoism",
-		"uniqueName": "Hermit Republic",
-		"uniques": ["[+1 Science] from every [Strategic resource]","[+1 Culture] from every [Snow]"],
-		"cities": ["Pyongyang", "Hamhung","Chongjin","Nampo","Wonsan","Tanchon","Sinuiju","Kaechon","Kaesong","Sunchon","Sariwon","Pyongsong","Kanggye","Anju","Haeju","Kimchaek","Hyesan","Chongju"],
-        "spyNames": ["Saki"]
-    },
     {
 		"name": "Ethiopia",
 		"leaderName": "Haile Selassie",
@@ -1974,9 +1949,9 @@
         "spyNames": ["Mulu Ken", "Wendimu", "Li'ol", "Demeke", "Mulu Alem", "Abebech", "Zema", "Mihret", "Kebedech", "Alemnesh"]
     },
     {
-		"name": "South Korea",
-		"leaderName": "Park Chung-hee",
-		"adjective": ["SouthKorean"],
+		"name": "Korea",
+		"leaderName": "Empress Myeongseong",
+		"adjective": ["Korean"],
 		"startBias":["Fresh water"],
 		"preferredVictoryType": "Supremacy",
 
