@@ -1765,7 +1765,7 @@
 		"innerColor": [33, 33, 33],
 		"favoredReligion": "Catholic",
 		"uniqueName": "Krupp Factories",
-		"uniques": ["[-50]% Gold cost of acquiring tiles [in all cities]", "Free [Krupp Steal Cannon] appears <upon discovering [Mining]>","[-50]% maintenance costs <for [Land] units>"],
+		"uniques": ["[-50]% Gold cost of acquiring tiles [in all cities]", "Free [Krupp Steel Cannon] appears <upon discovering [Mining]>","[-50]% maintenance costs <for [Land] units>"],
 		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
 			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
 			"Münster","Rostock","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
