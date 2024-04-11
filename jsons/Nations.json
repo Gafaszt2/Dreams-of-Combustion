@@ -269,6 +269,86 @@
 		"cities": ["Yagbum","Salaga","Bole","Kpembe","Tuweli","Wasipe","Kusugu"],
 	},
 {
+		"name": "Langkat",
+		"leaderName": "Abdul Aziz",
+		"adjective": ["Langkat"],
+		"startBias": ["Lakes"],
+		"preferredVictoryType": "Political",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Empire i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [191, 250, 177],
+		"innerColor": [163, 46, 46],
+                "favoredReligion": "Islam",
+		"uniqueName": "Oil and Rubber Royalties",
+		"uniques": ["[+1 Culture] from every [Slave Labor Plantation]","[+1 Culture] from every [Heavy Labor Plantation]","[+1 Culture] from every [Oil well]"],
+		"cities": ["Tanjung Pura", "Binjai", "Stabat", "Bahorok", "Salapian", "Kuala", "Sei Bingai", "Selesai", "Wampu", "Secanggang", "Hinai", "Padang Tualang", "Gebang", "Babalan", "Pangkalan Susu", "Besitang", "Sei Lepan", "Brandan Barat", "Batang Serangan", "Sawit Seberang", "Sirapit", "Kutambaru", "Pematang Jaya"],
+	},
+{
+		"name": "The Bunuba",
+		"leaderName": "Jandamarra",
+		"adjective": ["Bunuba"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Political",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Empire i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [147, 189, 182],
+		"innerColor": [18, 18, 46],
+		"uniqueName": "Windjana Resistance",
+		"uniques": ["Earn [55]% of killed [Military] unit's [Strength] as [Faith]"],
+		"cities": ["Junjuwa","Daringunaya","Bandilngan","Dimalurru", "Yaranggi", "Baraa", "Jijidu", "Yuwa", "Miluwindi", "Mindi Rardi", "Gurang.ngadja", "Dawadiya", "Danggu", "Biridu", "Balili", "Kurnangki", "Bungardi", "Galamunda", "Malarabah", "Yirimalay", "Buruwa", "Jimbalakudunj"],
+	},
+{
+		"name": "Inca",
+		"leaderName": "Tupac Amaru II",
+		"adjective": ["Incan"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Political",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Empire i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [171, 64, 56],
+		"innerColor": [255, 170, 0],
+		"uniqueName": "Central Andes People",
+		"uniques": ["[+2 Gold] from every [Mine]","[+1 Faith] from every [Hill]","[+1 Faith] from every [Mountain]","[+1 Gold] from every [Mountain]"],
+		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
+			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
+			"Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac",
+			"Llactapata","Pisac","Kuelap","Pajaten","Chucuito","Choquequirao"],
+	},
+
+{
 		"name": "Sultanate of Morocco",
 		"leaderName": "Sultan Hassan I",
 		"adjective": ["Morocco"],
@@ -2574,6 +2654,126 @@
 		"innerColor": [232, 247, 215],
 		"cities": ["Mecca"]
 	},
+
+
+
+
+{
+		"name": "Kelmis",
+		"adjective": ["Kelmis"],
+		"cityStateType": "European",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [170, 197, 242],
+		"cities": ["Kelmis"]
+	},
+{
+		"name": "Cospaia",
+		"adjective": ["Cospaia"],
+		"cityStateType": "European",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [247, 236, 200],
+		"cities": ["Cospaia"]
+	},
+{
+		"name": "Kulangsu",
+		"adjective": ["Kulangsu"],
+		"cityStateType": "Asian",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [82, 84, 222],
+		"cities": ["Kulangsu"]
+	},
+{
+		"name": "Jorhat",
+		"adjective": ["Jorhat"],
+		"cityStateType": "Asian",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [239, 184, 252],
+		"cities": ["Jorhat"]
+	},
+{
+		"name": "Arochukwu",
+		"adjective": ["Arochukwu"],
+		"cityStateType": "African",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [173, 152, 113],
+		"cities": ["Arochukwu"]
+	},
+
+
+{
+		"name": "Lingga",
+		"adjective": ["Lingga"],
+		"cityStateType": "Asian",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [247, 138, 119],
+		"cities": ["Lingga"]
+	},
+
+
+{
+		"name": "Khiva",
+		"adjective": ["Khiva"],
+		"cityStateType": "Asian",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [232, 247, 215],
+		"cities": ["Khiva"]
+	},
+
+{
+		"name": "Bushong",
+		"adjective": ["Bushong"],
+		"cityStateType": "American",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [50, 240, 82],
+		"cities": ["Bushong"]
+	},
+
+{
+		"name": "Papeete",
+		"adjective": ["Papeete"],
+		"cityStateType": "Polynessian",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [73, 94, 130],
+		"cities": ["Papeete"]
+	},
+
+
 
 
 

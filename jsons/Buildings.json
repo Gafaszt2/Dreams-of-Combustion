@@ -430,6 +430,19 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
         {
+		"name": "Rumah Panggung",
+                "uniqueTo": "Langkat",
+                "replaces": "Amphitheater",
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Faith] per [3] population [in this city]","Destroyed when the city is captured"],
+		"requiredTech": "Opera"
+	},
+
+        {
 		"name": "Madrasah",
                 "uniqueTo": "Nejd Sultanate",
                 "replaces": "Public School",

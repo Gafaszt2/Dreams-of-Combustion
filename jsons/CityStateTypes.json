@@ -112,4 +112,17 @@
         ],
         "color": [240, 56, 36]
     }
+    {
+        "name": "Polynessian",
+        "friendBonusUniques": [
+            "[+1 Culture] <before the [Capital Victorian era]>",
+            "[+3 Faith] <before the [Capital Victorian era]>",
+            "[+4 Faith] <starting from the [Capital Victorian era]>",
+            "[+2 Culture] <starting from the [Capital Victorian era]>"
+        ],
+        "allyBonusUniques": ["[+3 Food] <before the [Capital Victorian era]>"
+        ],
+        "color": [252, 3, 69]
+    }
+
 ]
