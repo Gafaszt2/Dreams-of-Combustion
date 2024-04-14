@@ -651,6 +651,18 @@
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"]
 	}
+{
+		"name": "Qubba",
+                "uniqueTo": "Sultanate of Darfur",
+                "replaces": "Temple",
+		"faith": 4,
+                "greatPersonPoints": {"Great Prophet": 1},
+		"cost": 100,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured","[+2 Gold] from [Holy Site] tiles [in this city]"]
+	}
+
         {
 		"name": "Temple",
 		"faith": 4,
@@ -753,6 +765,28 @@
                 "requiredTech": "Hunting Pets"
 		"uniques": ["[+1 Food] from [Lakes] tiles [in this city]","[+1 Food] from [Marsh] tiles [in this city]","[+1 Food] from [Jungle] tiles [in this city]"],
 	},
+ {
+		"name": "Caboclo Village",
+                "replaces": "Library",
+		"uniqueTo": "Great Para",
+		"hurryCostModifier": 25,
+		"food": 1,
+		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]","[+1 Faith] from [Jungle] tiles [in this city]"],
+		"requiredTech": "Gas Lighting"
+	},
+{
+		"name": "Mudbrick Skyscraper",
+                "replaces": "Granary",
+		"uniqueTo": "Yemen",
+		"food": 2,
+                "culture": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+                "requiredTech": "Hunting Pets"
+		"uniques": ["Must be on [Desert]","[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
+	},
 {
 		"name": "Granary",
 		"food": 2,
@@ -821,6 +855,7 @@
 		"uniques": ["Must be on [River]"],
 		"requiredTech": "Saw"
 	},
+        
         {
 		"name": "Sawmill",
 		"maintenance": 1,

@@ -96,7 +96,7 @@
                 "uniqueTo": "Tupi",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+350]% Strength <starting from the [Second World War]>","Can build [Farm] improvements on tiles","Can build [Slave Labor Plantation] improvements on tiles","Can build [Lodge Cabin] improvements on tiles","Can build [Ranch] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Oil well] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+350]% Strength <starting from the [Second World War]>","Can build [House] improvements on tiles","Can build [Slave Labor Plantation] improvements on tiles","Can build [Lodge Cabin] improvements on tiles","Can build [Ranch] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Oil well] improvements on tiles", "Automation is a primary action"],
 		"cost": 50
 	},
         {
@@ -106,7 +106,7 @@
                 "uniqueTo": "Tupi",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+350]% Strength <starting from the [Second World War]>","Can build [Mine] improvements on tiles","Can build [Quarry] improvements on tiles","Can build [House] improvements on tiles","Can build [Stable] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Hunter Lodge] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+350]% Strength <starting from the [Second World War]>","Can build [Mine] improvements on tiles","Can build [Quarry] improvements on tiles","Can build [Mill] improvements on tiles","Can build [Stable] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Hunter Lodge] improvements on tiles", "Automation is a primary action"],
 		"cost": 50
 	},
         {
@@ -2837,6 +2837,75 @@
                  "uniques": ["Never appears as a Barbarian unit","[-20]% Strength for enemy [City] units in adjacent [Slave Labor Plantation] tiles","[-20]% Strength for enemy [City] units in adjacent [Slave Labor Plantation] tiles","[-20]% Strength for enemy [City] units in adjacent [Oil well] tiles"],
 		"attackSound": "shot"
         },
+        {
+		"name": "Veioimaour",
+                "uniqueTo": "Iceland",
+		"replaces": "Skrimisher",
+                "upgradesTo": "Grenadier",
+                "requiredTech": "Industrialization",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Gunpowder",
+		"movement": 1,
+		"strength": 5,
+                "uniques": ["Can build [Hunter Lodge] improvements on tiles","Double movement in [Snow]","[+20]% Strength <when defending>"],           
+		"cost": 60,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Snjovorour",
+                "uniqueTo": "Iceland",
+		"replaces": "Partisan",
+                "upgradesTo": "Halberdier",
+                "requiredTech": "Railway",
+                "obsoleteTech": "Dynamite",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 20,
+		"cost": 80, 
+                "uniques": ["Can build [Mill] improvements on tiles","Double movement in [Snow]","[+20]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+        },
+        {
+		"name": "Japanese Immigrant",
+                "uniqueTo": "Great Para",
+		"replaces": "Halberdier",
+                "requiredTech": "Dynamite",
+                "obsoleteTech": "Replaceable Parts",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75, 
+                "uniques": ["Can build [Slave Labor Plantation] improvements on tiles","[+10]% Strength <vs [Wounded] units>","[+25]% Strength <vs [Gunpowder] units>"],
+		"attackSound": "metalhit"
+        },
 
-
+        {
+		"name": "Ukfa Troop",
+                "uniqueTo": "Yemen",
+		"replaces": "Great War Infantry",
+                "upgradesTo": "Infantry",
+                "obsoleteTech": "Plastics",
+                "requiredTech": "Ballistics",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 45,
+		"cost": 160,
+                "promotions": ["Drill I","Drill II"],
+                 "uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+        },
+        {
+		"name": "Fursan",
+                "uniqueTo": "Sultanate of Darfur",
+		"replaces": "Line Infantry",
+                "upgradesTo": "Grenadier",
+                "requiredTech": "Rifling",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 12,
+  "uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>"],
+		"cost": 55,
+		"attackSound": "shot"
+        },
 ] 
