@@ -660,7 +660,7 @@
 		"cost": 100,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured","[+2 Gold] from [Holy Site] tiles [in this city]"]
+		"uniques": ["Destroyed when the city is captured","[+2 Gold] from [Holy site] tiles [in this city]"]
 	}
 
         {

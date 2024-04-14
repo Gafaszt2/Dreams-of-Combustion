@@ -416,7 +416,7 @@
 		"outerColor": [61, 33, 36],
 		"innerColor": [252, 159, 88],
 		"uniqueName": "Ata el-Mawla",
-		"uniques": ["Provides the cheapest [Faith] building in your first [4] cities for free","[+3 Gold] from every [Holy Site]"],
+		"uniques": ["Provides the cheapest [Faith] building in your first [4] cities for free","[+3 Gold] from every [Holy site]"],
 		"cities": ["Sanaa", "Taiz", "Amrān", "Raydah", "Huth", "Sa’dah", "Al Hazm", "Jihanah", "Ma’rib", "Harib", "Al Bayda’", "Rida’", "Ma’bar", "Dhamar", "Yarim", "An Nadirah", "Qa’tabah", "Ibb", "At Turbah", "Mecca", "Hays", "Zabid", "Manakhah", "Al Mansuriyah", "Bajil", "Al Hudaydah", "Hajja", "Ad Dabi", "Ad Zaydiyah", "Salif", "Al Qanawis", "Az Zubrah", "Al Luhayyah Suq ‘Abs", "Harad", "Maydi"],
 	},
 
