@@ -6,6 +6,165 @@
 //		"innerColor": [255,255,255]
 },
 {
+		"name": "North Korea",
+		"leaderName": "Kim Il-Sung",
+		"adjective": ["NorthKorean"],
+		"startBias":["Tundra"],
+		"preferredVictoryType": "Supremacy",
+
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+                "declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to the land of north Korea",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [46, 46, 45],
+		"innerColor": [252, 195, 8],
+		"favoredReligion": "Taoism",
+		"uniqueName": "Hermit Republic",
+		"uniques": ["[+1 Science] from every [Strategic resource]","[+1 Culture] from every [Snow]"],
+		"cities": ["Pyongyang", "Hamhung","Chongjin","Nampo","Wonsan","Tanchon","Sinuiju","Kaechon","Kaesong","Sunchon","Sariwon","Pyongsong","Kanggye","Anju","Haeju","Kimchaek","Hyesan","Chongju"],
+        "spyNames": ["Saki"]
+    },
+
+{
+		"name": "Seminole People",
+		"leaderName": "Coacoochee",
+		"adjective": ["Seminole"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Political",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Empire i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [27, 54, 34],
+		"innerColor": [127, 130, 66],
+                "favoredReligion": "Baptist",
+		"uniqueName": "Runaway Slaves",
+		"uniques": ["Free [Captured American Child] appears <upon discovering [Rifling]>","[-2 Gold] from every [Slave Labor Plantation]","[+2 Production] from every [Heavy Labor Plantation]"],
+		"cities": ["Everglades","Apalachee","Timucua","Creek","Muskogean"],
+	}
+        {
+		"name": "Mughal Empire",
+		"leaderName": "Akbar",
+		"adjective": ["Mughals"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Political",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Empire i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [61, 161, 114],
+		"innerColor": [236, 255, 184],
+                "favoredReligion": "Hinduism",
+		"uniqueName": "Conquest of Rajputana",
+		"uniques": ["[-50]% maintenance costs <for [Siege] units>","[+33]% Strength <when fighting in [Hill] tiles>"],
+		"cities": ["Agra","Delhi","Lahore","Fatehpur Sikri","Dhaka","Srinagar","Multan","Allahabad","Kabul"],
+	}
+{
+		"name": "Bukhara",
+		"leaderName": "Shah Murad",
+		"adjective": ["Bukhara"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Political",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Empire i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [50, 168, 82],
+		"innerColor": [247, 246, 178],
+                "favoredReligion": "Islam",
+		"uniqueName": "The Sinless Emir",
+		"uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <upon founding a Pantheon>","Gain a free [Namazgah] [in all cities] <upon conquering a city>"],
+		"cities": ["Bukhara", "Samarkand", "Qarshi", "Balkh", "Shakhrisabz", "Chardjuy", "Hisor", "G'uzor", "Kattakurgan", "Sheberghan", "Khujand", "Jizzakh", "Maimana", "Chirakchi", "Denau", "Kulab", "Nurota", "Termez", "Kurganteppa", "Karakul", "Kermine", "Vobkent", "Uroteppa"],
+	}
+{
+		"name": "Dervish State",
+		"leaderName": "Mohammed Hassan",
+		"adjective": ["Dervish"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Political",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Empire i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [16, 48, 29],
+		"innerColor": [250, 10, 34],
+                "favoredReligion": "Islam",
+		"uniqueName": "The Horn Resistance",
+		"uniques": ["[+2 Faith] from every [Fort]","[+2 Faith] from every [Citadel]","[Mounted] units gain the [Charge] promotion <before the [First World War]>"],
+		"cities": ["Taleh", "Buuhoodle", "Las Anod", "Beledweyne", "Galkayo", "Werder", "Galdogob", "Garoowe", "Dhusamareb", "Mustahil", "Kalabaydh", "Bacadweyn", "Geladin", "Ferfer", "Gori Rit", "Farlibaax", "Dudub", "Xaaballas", "Mugul", "Badhan", "Erigavo", "Aynabo"],
+	}
+
+        {
+		"name": "Mangkunegaran",
+		"leaderName": "Mangkunegara IV",
+		"adjective": ["Mangkuneragan"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Political",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Empire i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [147, 232, 49],
+		"innerColor": [250, 74, 15],
+                "favoredReligion": "Islam",
+		"uniqueName": "Wedhatama",
+		"uniques": ["Free [Great Artist] appears <upon discovering [Industrialization]>","[+2 Faith] from all [Culture] buildings","Provides [1] [Sugar] <with [100]% chance>"],
+		"cities": ["Mangkunegara","Surakarta","Saidabad","Pakubuwonograd","Solo Mangku"],
+	}
+
+{
 		"name": "Tahiti",
 		"leaderName": "Pomare III",
 		"adjective": ["Tahiti"],
@@ -342,7 +501,7 @@
 		"innerColor": [120, 215, 250],
 		"uniqueName": "Notwithstanding",
 		"uniques": ["[1] free [Explorer] units appear","[+1 Science, +1 Happiness] from all [Science] buildings","[+1 Culture] from every [Geothermal Plant]"],
-		"cities": ["Reykjavík","Akureyri","Kópavogur","Hafnarfjörður","Reykjanesbær","Garðabær","Mosfellsbær","Árborg","Akranes","Fjarðabyggð"],
+		"cities": ["Reykjavík","Akureyri","Kópavogur","Hafnarfjörður","Reykjanesbær","Garðabær","Mosfellsbær","�?rborg","Akranes","Fjarðabyggð"],
 	},
 {
 		"name": "Great Para",
@@ -366,7 +525,7 @@
 		"outerColor": [246, 250, 120],
 		"innerColor": [89, 48, 2],
 		"uniqueName": "Heart of the Amazon",
-		"uniques": ["[+2 Gold] from all [Food] buildings","[+1 Production] from every [Forest]","[+3 Gold] from every [Jungle]"],
+		"uniques": ["[+1 Gold] from all [Food] buildings","[+1 Production] from every [Forest]","[+2 Gold] from every [Jungle]"],
 		"cities": ["Belém","Santarém","Marabá","Castanhal","Abaetetuba","Braganca","Parauapebas","Altamira","Cametá","Barcarena"],
 	},
 {
@@ -392,7 +551,7 @@
 		"innerColor": [33, 61, 37],
 		"uniqueName": "Isolationist Imam",
 		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>","[+1 Culture] [in all cities] <with [1] to [6] neighboring [improved] [Hill] tiles>"],
-		"cities": ["Sanaa", "Taiz", "Amrān", "Raydah", "Huth", "Sa’dah", "Al Hazm", "Jihanah", "Ma’rib", "Harib", "Al Bayda’", "Rida’", "Ma’bar", "Dhamar", "Yarim", "An Nadirah", "Qa’tabah", "Ibb", "At Turbah", "Mecca", "Hays", "Zabid", "Manakhah", "Al Mansuriyah", "Bajil", "Al Hudaydah", "Hajja", "Ad Dabi", "Ad Zaydiyah", "Salif", "Al Qanawis", "Az Zubrah", "Al Luhayyah Suq ‘Abs", "Harad", "Maydi"],
+		"cities": ["Sanaa", "Taiz", "Amr�?n", "Raydah", "Huth", "Sa’dah", "Al Hazm", "Jihanah", "Ma’rib", "Harib", "Al Bayda’", "Rida’", "Ma’bar", "Dhamar", "Yarim", "An Nadirah", "Qa’tabah", "Ibb", "At Turbah", "Mecca", "Hays", "Zabid", "Manakhah", "Al Mansuriyah", "Bajil", "Al Hudaydah", "Hajja", "Ad Dabi", "Ad Zaydiyah", "Salif", "Al Qanawis", "Az Zubrah", "Al Luhayyah Suq ‘Abs", "Harad", "Maydi"],
 	},
 {
 		"name": "Sultanate of Darfur",
@@ -417,7 +576,7 @@
 		"innerColor": [252, 159, 88],
 		"uniqueName": "Ata el-Mawla",
 		"uniques": ["Provides the cheapest [Faith] building in your first [4] cities for free","[+3 Gold] from every [Holy site]"],
-		"cities": ["Sanaa", "Taiz", "Amrān", "Raydah", "Huth", "Sa’dah", "Al Hazm", "Jihanah", "Ma’rib", "Harib", "Al Bayda’", "Rida’", "Ma’bar", "Dhamar", "Yarim", "An Nadirah", "Qa’tabah", "Ibb", "At Turbah", "Mecca", "Hays", "Zabid", "Manakhah", "Al Mansuriyah", "Bajil", "Al Hudaydah", "Hajja", "Ad Dabi", "Ad Zaydiyah", "Salif", "Al Qanawis", "Az Zubrah", "Al Luhayyah Suq ‘Abs", "Harad", "Maydi"],
+		"cities": ["Sanaa", "Taiz", "Amr�?n", "Raydah", "Huth", "Sa’dah", "Al Hazm", "Jihanah", "Ma’rib", "Harib", "Al Bayda’", "Rida’", "Ma’bar", "Dhamar", "Yarim", "An Nadirah", "Qa’tabah", "Ibb", "At Turbah", "Mecca", "Hays", "Zabid", "Manakhah", "Al Mansuriyah", "Bajil", "Al Hudaydah", "Hajja", "Ad Dabi", "Ad Zaydiyah", "Salif", "Al Qanawis", "Az Zubrah", "Al Luhayyah Suq ‘Abs", "Harad", "Maydi"],
 	},
 
 {
@@ -2463,6 +2622,31 @@
 		"uniqueName": "Steppe Sense",
 		"uniques": ["[+1 Culture] from every [Ranch]","[+2 Faith] from every [Stable]","[+1] Sight"],
 		"cities": ["Astana","Almaty","Shymkent","Karaganda","Aktobe","Taraz","Pavlodar","Oskemen","Semey","Atyrau","Kostanay","Kyzylorda","Uralsk","Petropavl","Aktau"]
+	},
+        {
+		"name": "Soviet Union",
+		"leaderName": "Joseph Stalin",
+		"adjective": ["Soviet"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Supremacy",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of my people i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [250, 10, 34],
+		"innerColor": [250, 182, 55],
+		"uniqueName": "Warsaw Pact",
+		"uniques": ["[+5]% Strength <when fighting in [Friendly Land] tiles>","Earn [10]% of the damage done to [City] units as [Culture]","Upon capturing a city, receive [2] times its [Gold] production as [Culture] immediately"],
+		"cities": ["Moscow", "Leningrad", "Kiev", "Minsk", "Kharkov", "Stalingrad", "Sverdlovsk", "Gorky", "Krasnodar", "Vladivostok", "Novosibirsk", "Krasnoyarsk", "Kuybyshev", "Baku", "Tbilisi", "Alma Ata", "Tashkent", "Omsk", "Ufa", "Chelyabinsk", "Sevastopol", "Molotov", "Kaliningrad", "Riga", "Tallinn", "Kazan", "Odessa", "Kirov", "Ulyanovsk"]
 	},
         {
 		"name": "Sultanate of Muscat and Oman",

@@ -13,6 +13,29 @@
 		"cost": 1,
 		"uniques": ["Indicates the capital city"]
 	},
+{
+		"name": "Red Fort",
+                "uniqueTo": "Mughal Empire",
+                "replaces": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 28,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Scientific Theory",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+{
+		"name": "Qalcad",
+                "uniqueTo": "Dervish State",
+                "replaces": "Arsenal",
+		"cost": 300,
+		"cityStrength": 9,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Castle",
+		"requiredTech": "Artillery",
+		"uniques": ["New [Military] units start with [10] Experience [in this city]","Destroyed when the city is captured"]
+	},
         {
 		"name": "Pentagon",
 		"isWonder": true,
@@ -462,7 +485,7 @@
                 "gold": 2,
 		"hurryCostModifier": 50,
 		"uniques": ["Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]"],
+			"Can only be built <in [Annexed] cities>"],
 		"requiredTech": "Rifling"
 	},
         {
@@ -472,7 +495,7 @@
                 "culture": 4,
 		"hurryCostModifier": 50,
 		"uniques": ["Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]"],
+			"Can only be built <in [Annexed] cities>"],
 		"requiredTech": "Rifling"
 	},
         {
@@ -513,10 +536,22 @@
                 "science": 1,
                 "gold": 1,
 		"hurryCostModifier": 50,
-		"uniques": ["Can only be built [in annexed cities]"],
+		"uniques": ["Can only be built <in [Annexed] cities>"],
 		"requiredTech": "Rifling"
 	},
-        
+        {
+		"name": "Narkomat",
+                "uniqueTo": "Soviet Union",
+                "replaces": "National Visitor Center",
+		"culture": 2,
+                "production": 4, 
+                "gold": 4,
+                "requiredTech": "Coexistency",
+		"cost": 400,
+		"hurryCostModifier": 20,
+		"uniques": ["Destroyed when the city is captured"]
+	}
+
         {
 		"name": "Bomb Shelter",
 		"cost": 500,
@@ -661,6 +696,17 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured","[+2 Gold] from [Holy site] tiles [in this city]"]
+	}
+{
+		"name": "Namazgah",
+"uniqueTo": "Bukhara",
+                "replaces": "Temple",
+		"faith": 4,
+                "greatPersonPoints": {"Great Prophet": 1},
+		"cost": 100,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured", "Gain [2] [Happiness] (modified by game speed) <in cities with a major religion>"]
 	}
 
         {
@@ -936,7 +982,7 @@
                 "production": 1,
 		"hurryCostModifier": 50,
 		"uniques": ["Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]"],
+			"Can only be built <in [Annexed] cities>"],
 		"requiredTech": "Rifling"
 	},
         {
@@ -1116,7 +1162,7 @@
 		"maintenance": 4,
 		"hurryCostModifier": 50,
 		"uniques": ["Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]"],
+			"Can only be built <in [Annexed] cities>"],
 		"requiredTech": "Rifling"
 	},
 {
@@ -1365,7 +1411,7 @@
 		"culture": 1,
 		"faith": 8,
 		"uniques": ["Cost increases by [30] per owned city",
-			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
+			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built <in [Holy] cities>"],
 		"requiredTech": "Telegraph",
 		"isNationalWonder": true
 	},

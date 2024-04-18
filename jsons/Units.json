@@ -60,6 +60,74 @@
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
+{
+		"name": "Captured American Child",
+                "uniqueTo": "Seminole People",
+                "replaces": "Slave",
+		"unitType": "Civilian",
+		"movement": 4,
+		"uniques": ["Limited to [8] per Civilization","Cannot enter ocean tiles <before discovering [Industrialization]>","Can be purchased with [Faith] [in all cities]","Gain [120] [Gold] (modified by game speed) <by consuming this unit>","Can be purchased for [100] [Faith] [in all cities]","Unbuildable","Never appears as a Barbarian unit","Can build [Land] improvements on tiles", "Automation is a primary action"],
+	},
+         {
+		"name": "Sharktooth Archer",
+                "uniqueTo": "Seminole People",
+                "replaces": "Grenadier",
+                "upgradesTo": "Rifleman",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Dynamite",
+		"unitType": "Archery",
+		"movement": 4,
+		"strength": 10,
+                "uniques": ["Never appears as a Barbarian unit"],
+		"cost": 50,
+		"attackSound": "nonmetalhit"
+        },
+        {
+		"name": "Gajnal",
+                "uniqueTo": "Mughal Empire",
+                "replaces": "Foot Artillery",
+                "obsoleteTech": "Combustion",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 40,
+		"cost": 200,
+		"requiredTech": "Artillery",
+		"uniques": ["Limited to [3] per Civilization","[+100]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
+		"attackSound": "cannon"
+	},
+        {
+		"name": "Estri",
+                "uniqueTo": "Mangkunegaran",
+                "replaces": "Explorer",
+                "upgradesTo": "Mounted Explorer",
+                "obsoleteTech": "Railway",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 7,
+                "uniques": ["[+15]% Strength bonus for [Gunpowder] units within [2] tiles"],
+                "civilopediaText": [
+			{"text": "Female Musketeer, stronger in groups."}
+		]
+		"cost": 70,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Dragonder",
+                "uniqueTo": "Mangkunegaran",
+                "replaces": "Dragoon",
+                "upgradesTo": "Cavalry",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Military Science",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 17,
+                "rangedStrength": 24,
+		"cost": 160, 
+                "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+        },
+
 	/* Ancient Era */
 	{
 		"name": "Bedouin",
@@ -2908,4 +2976,49 @@
 		"cost": 55,
 		"attackSound": "shot"
         },
+        {
+		"name": "Sarbaz",
+                "uniqueTo": "Bukhara",
+		"replaces": "Rifleman",
+                "upgradesTo": "Great War Infantry",
+                "upgradesTo": "Great War Infantry",
+		"obsoleteTech": "Ballistics",
+                "requiredTech": "Replaceable Parts",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 40,
+		"cost": 150,
+                 "uniques": ["May withdraw before melee ([30]%)","Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+        },
+        {
+		"name": "Maara Weyn",
+                "uniqueTo": "Dervish State",
+		"replaces": "Dragoon",
+                "upgradesTo": "Cavalry",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Military Science",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 20,
+		"cost": 170, 
+                "uniques": ["[+30]% Strength when stacked with [Great Artist]","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+        },
+        {
+		"name": "IS-2",
+                "uniqueTo": "Soviet Union",
+		"replaces": "Advanced Tank",
+                "upgradesTo": "M48 Patton",
+		"unitType": "Armored",
+                "obsoleteTech": "Korea War",
+		"movement": 5,
+		"strength": 90,
+		"cost": 500,
+		"requiredTech": "Arms Race",
+		"requiredResource": "Oil",
+		"uniques": ["[+15]% to Flank Attack bonuses","Limited to [4] per Civilization","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+
 ] 
