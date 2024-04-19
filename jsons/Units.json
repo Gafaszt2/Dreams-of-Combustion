@@ -550,7 +550,7 @@
 		"movement": 2,
 		"strength": 25,
                 "uniques": ["Invisible to non-adjacent units", "Can see invisible [Civilian] units","Never appears as a Barbarian unit"],
-		"cost": 530,
+		"cost": 400,
 		"attackSound": "shot"
         },
         {
@@ -3020,5 +3020,35 @@
 		"uniques": ["[+15]% to Flank Attack bonuses","Limited to [4] per Civilization","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
+{
+		"name": "TNI",
+                "uniqueTo": "Indonesia",
+		"replaces": "Infantry",
+                "upgradesTo": "Special Forces",
+                "obsoleteTech": "SALT Agreements",
+                "requiredTech": "Plastics",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 35,
+                "promotions": ["Survivalism I"],
+		"cost": 100,
+		"attackSound": "shot"
+        },
+{
+		"name": "Guerrillero",
+                "uniqueTo": "Cuba",
+		"replaces": "Guerrilla Fighter",
+                "upgradesTo": "AK47",
+                "obsoleteTech": "Afganistan/Irak Wars",
+                "requiredTech": "Vietnam War",
+		"unitType": "Gunpowder",
+                "uniques": ["Invisible to non-adjacent units", "Can see invisible [Civilian] units","[+20]% Strength <vs [Barbarian] units>", "Never appears as a Barbarian unit"],
+		"movement": 2,
+		"strength": 70,
+		"cost": 260,
+		"attackSound": "shot"
+        },
+
+
 
 ] 

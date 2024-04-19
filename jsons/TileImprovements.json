@@ -340,7 +340,7 @@
 			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
 			"Adjacent enemy units ending their turn take [5] damage",
-			"Removes removable features when built","[+6 Production] for each adjacent [Coast]","[+1 Production] for each adjacent [Mala´e]","[+2 Science] for each adjacent [Coast]"]
+			"Removes removable features when built","[+1 Production] for each adjacent [Coast]","[+1 Production] for each adjacent [Mala´e]","[+1 Gold] for each adjacent [Coast]"]
 	},
         {
 		"name": "Mala e",
@@ -351,7 +351,7 @@
 			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
 			"Adjacent enemy units ending their turn take [5] damage",
-			"Removes removable features when built","[+4 Food] for each adjacent [Coast]","[+1 Food] for each adjacent [Mala´e]","[+2 Culture] for each adjacent [Coast]"]
+			"Removes removable features when built","[+1 Food] for each adjacent [Coast]","[+1 Food] for each adjacent [Mala´e]","[+1 Culture] for each adjacent [Coast]"]
 	},
         {
 		"name": "Mbanza",
@@ -363,6 +363,17 @@
 			"Gives a defensive bonus of [10]%",
 			"Adjacent enemy units ending their turn take [5] damage",
 			"Removes removable features when built","[+2 Food] for each adjacent [Mbanza]"]
+	},
+        {
+		"name": "Malecon",
+                "production": 1,
+                "turnsToBuild": 6,
+                "uniqueTo": "Cuba",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"uniques": ["Irremovable",
+                        "Can also be built on tiles adjacent to fresh water",
+			"Great Improvement",
+			"Removes removable features when built","[+1 Culture] for each adjacent [Coast]","[+1 Gold] for each adjacent [Coast]"]
 	},
         {
 		"name": "Hare Paenga",

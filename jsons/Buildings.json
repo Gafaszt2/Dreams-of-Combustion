@@ -551,7 +551,14 @@
 		"hurryCostModifier": 20,
 		"uniques": ["Destroyed when the city is captured"]
 	}
-
+        {
+		"name": "Puskesmas",
+                "uniqueTo": "Indonesia",
+                "replaces": "Hospital",
+		"food": 3,
+		"hurryCostModifier": 10,
+		"requiredTech": "Transfusion"
+	},
         {
 		"name": "Bomb Shelter",
 		"cost": 500,
