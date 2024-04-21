@@ -110,6 +110,32 @@
 		"uniques": ["[+10]% [Happiness] [in all cities] <when at war>", "[+10]% [Gold] [in all cities] <when at war>","[+10]% [Food] [in all cities] <when at war>","[+5]% [Production] [in all cities] <when at war>"],
 		"cities": ["Havana", "Santiago de Cuba", "Camagüey", "Guantanamo", "Pinar del Rio", "Holguin", "Cienfuegos", "Santa Clara", "Matanzas", "Bayamo", "Sancti Spiritus", Florida, Moron, Ciego de Avila, Las Tunas, Artemisa, Nueva Gerona, Cardenas, Baracoa, Palma Soriano, Varadero, Manzanilla, Colon, Contramaestro, Sandino, La Maya, Guanabacoa, Baracoa, Guines, Sagua La Grande"],
 	}
+{
+		"name": "Yugoslavia",
+		"leaderName": "Josip Broz Tito",
+		"adjective": ["Yugoslav"],
+		"startBias": ["River"],
+		"preferredVictoryType": "Political",
+		
+		"startIntroPart1": "",
+		
+		"declaringWar": "For the good of The Empire i must declare war!",
+		"attacked": "You are making a big mistake.",
+		"defeated": "Will this be my last goodbye to you?.",
+		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+				
+		"outerColor": [69, 10, 3],
+		"innerColor": [169, 171, 212],
+                "favoredReligion": "Orthodox",
+		"uniqueName": "Hej Slaveni",
+		"uniques": ["[+1 Gold, +2 Production] per every [5] [Culture]","New [Military] units start with [15] Experience [in all cities] <upon declaring war with a major Civilization>"],
+		"cities": ["Belgrade", "Zagreb", "Sarajevo", "Skopje", "Ljubljana", "Titograd", "Split", "Pristina", "Novi Sad", "Nis", "Banja Luka", "Rijeka", "Maribor", "Mostar", "Osijek", "Zadar", "Kragujevac", "Tuzla", "Subotica", "Pula", "Zenica", "Prizren", "Mitrovica", "Niksic", "Cacak", "Bitola", "Kraljevo", "Kumanovo", "Novi Pazar"],
+	}
 
         {
 		"name": "Mughal Empire",
@@ -1814,8 +1840,8 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [191, 178, 117],
-		"innerColor": [37, 64, 184],
+		"outerColor": [83, 171, 63],
+		"innerColor": [254, 224, 12],
 		"uniqueName": "Imperio da Grandeza",
 		"uniques": ["[+2 Culture] from every [Lakes]", "[+2 Food] from every [Lakes]", "[+2 Gold] from every [Slave Labor Plantation]"],
 		"cities": ["Rio de Janeiro","Sao Paulo","Salvador","Fortalezaq","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",

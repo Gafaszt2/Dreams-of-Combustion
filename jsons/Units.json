@@ -3048,6 +3048,32 @@
 		"cost": 260,
 		"attackSound": "shot"
         },
+{
+		"name": "Lanceiro Negro",
+                "uniqueTo": "Brasilian Empire",
+		"replaces": "Lancer",
+                "requiredTech": "Dynamite",
+                "obsoleteTech": "Replaceable Parts",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 30,
+                "uniques": ["Limited to [3] per Civilization","Can be purchased with [Gold] [in all cities]","Can be purchased for [200] [Gold] [in all cities]","Unbuildable","[+20]% Strength bonus for [Sword] units within [2] tiles","[+10]% Strength <vs [Mounted] units>","[+10]% Strength <vs [Gunpowder] units>","[+20]% Strength <vs [Ranged Gunpowder] units>","[-10]% Strength <vs [Sword] units>"],
+		"attackSound": "metalhit"
+        },
+        {
+		"name": "Yugoslav Partisan",
+                "uniqueTo": "Yugoslavia",
+		"replaces": "Infantry",
+                "upgradesTo": "Special Forces",
+                "obsoleteTech": "SALT Agreements",
+                "requiredTech": "Plastics",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 55,
+                "promotions": ["Barrage I","Barrage II"],
+		"cost": 230,
+		"attackSound": "shot"
+        },
 
 
 
