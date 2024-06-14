@@ -719,12 +719,13 @@
 		"name": "Namazgah",
 "uniqueTo": "Bukhara",
                 "replaces": "Temple",
-		"faith": 4,
+		"faith": 4, 
+                "gold": 2,
                 "greatPersonPoints": {"Great Prophet": 1},
 		"cost": 100,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured", "Gain [2] [Happiness] (modified by game speed) <in cities with a major religion>"]
+		"uniques": ["Destroyed when the city is captured"]
 	}
 
         {

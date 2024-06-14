@@ -55,7 +55,7 @@
 		"innerColor": [127, 130, 66],
                 "favoredReligion": "Baptist",
 		"uniqueName": "Runaway Slaves",
-		"uniques": ["Free [Captured American Child] appears <upon discovering [Rifling]>","[-2 Gold] from every [Slave Labor Plantation]","[+2 Production] from every [Heavy Labor Plantation]"],
+		"uniques": ["Free [Captured American Child] appears <upon discovering [Rifling] technology>","[-2 Gold] from every [Slave Labor Plantation]","[+2 Production] from every [Heavy Labor Plantation]"],
 		"cities": ["Everglades","Apalachee","Timucua","Creek","Muskogean"],
 	}
 {
@@ -239,7 +239,7 @@
 		"innerColor": [250, 74, 15],
                 "favoredReligion": "Islam",
 		"uniqueName": "Wedhatama",
-		"uniques": ["Free [Great Artist] appears <upon discovering [Industrialization]>","[+2 Faith] from all [Culture] buildings","Provides [1] [Sugar] <with [100]% chance>"],
+		"uniques": ["Free [Great Artist] appears <upon discovering [Industrialization] technology>","[+2 Faith] from all [Culture] buildings","Provides [1] [Sugar] <with [100]% chance>"],
 		"cities": ["Mangkunegara","Surakarta","Saidabad","Pakubuwonograd","Solo Mangku"],
 	}
 
@@ -629,7 +629,7 @@
 		"outerColor": [230, 216, 219],
 		"innerColor": [33, 61, 37],
 		"uniqueName": "Isolationist Imam",
-		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>","[+1 Culture] [in all cities] <with [1] to [6] neighboring [improved] [Hill] tiles>"],
+		"uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>","[+2 Culture] [in all cities] <with [1] to [2] neighboring [{improved} {Hill}] tiles>"],
 		"cities": ["Sanaa", "Taiz", "Amr ?n", "Raydah", "Huth", "Sa’dah", "Al Hazm", "Jihanah", "Ma’rib", "Harib", "Al Bayda’", "Rida’", "Ma’bar", "Dhamar", "Yarim", "An Nadirah", "Qa’tabah", "Ibb", "At Turbah", "Mecca", "Hays", "Zabid", "Manakhah", "Al Mansuriyah", "Bajil", "Al Hudaydah", "Hajja", "Ad Dabi", "Ad Zaydiyah", "Salif", "Al Qanawis", "Az Zubrah", "Al Luhayyah Suq ‘Abs", "Harad", "Maydi"],
 	},
 {
@@ -1269,7 +1269,7 @@
 		"innerColor": [250, 250, 157],
                 "favoredReligion": "Islam",
 		"uniqueName": "Somali Incense and Aromatics",
-		"uniques": ["[+4 Production] [in all cities] <with [1] to [2] neighboring [unimproved] [Desert] tiles>","[+20]% Strength <when fighting in [Coast] tiles>"],
+		"uniques": ["[+4 Production] [in all cities] <with [1] to [2] neighboring [{unimproved} {Desert}] tiles>","[+20]% Strength <when fighting in [Coast] tiles>"],
 		"cities": ["Mogadishu", "Hargeysa", "Berbera", "Kismayo", "Baidoa", "Bosaso", "Galkacyo", "Garowe", "Burco", "Jowhar"]
 	},
 {
@@ -1321,7 +1321,7 @@
 		"outerColor": [187, 139, 57],
 		"innerColor": [77, 9, 9],
 		"uniqueName": "Belgium Congo",
-		"uniques": ["Free [Slave] appears <upon discovering [Mining]>","[+2 Gold] from each Trade Route","[+1 Gold] from every [Mine]"],
+		"uniques": ["Free [Slave] appears <upon discovering [Mining] technology>","[+2 Gold] from each Trade Route","[+1 Gold] from every [Mine]"],
 		"cities": ["Brussels", "Ostend", "Brabante", "West Vlaanderen", "Henao", "Lieja", "Limburg", "Luxemburg",
 			"Namur", "Antwerpen", "Hainaut"],
 	},
@@ -1581,7 +1581,7 @@
 		"innerColor": [252, 215, 194],
                 "favoredReligion": "Catholic",
 		"uniqueName": "Nevando Esta",
-		"uniques": ["Land units may cross [Mountain] tiles after the first [Great General] is earned","[+1 Faith] from every [Mountain]","[+2 Faith] [in all cities] <with [3] to [6] neighboring [unimproved] [Hill] tiles>"],
+		"uniques": ["Land units may cross [Mountain] tiles after the first [Great General] is earned","[+2 Faith] [in all cities] <with [1] to [2] neighboring [{unimproved} {Hill}] tiles>"],
 		"cities": ["Sucre","La Paz","El Alto","Cochabamba","Santa Cruz de la Sierra","Tarija","Potosi","Oruro","Cobija","Riberalta","Yacuiba","Sacaba","Viacha","Tiquipaya","Quillacollo","Robore","Guayaramerin","Tupiza","Villa Montes","Villazon","Camiri","Warnes","Trinidad","Bermejo","Montero","Colcapirhua","Villa Yapacani"],
 	},
 {
@@ -2023,7 +2023,7 @@
 
         "favoredReligion": "Baptist",
 		"uniqueName": "Deo Vindice",
-		"uniques": ["Free [Cavalry Corps] appears <upon discovering [Railway]>","Free [Texas Ranger] appears <upon discovering [Rifling]>","[+3 Faith] from every [Slave Labor Plantation]","[+1 Faith] from every [Mine]"], 
+		"uniques": ["Free [Cavalry Corps] appears <upon discovering [Railway] technology>","Free [Texas Ranger] appears <upon discovering [Rifling] technology>","[+3 Faith] from every [Slave Labor Plantation]","[+1 Faith] from every [Mine]"], 
 		"cities": ["Montgomery","Richmond","Danville","New Orleans","Charleston","Atlanta"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
@@ -2184,7 +2184,7 @@
 		"innerColor": [33, 33, 33],
 		"favoredReligion": "Catholic",
 		"uniqueName": "Krupp Factories",
-		"uniques": ["[-50]% Gold cost of acquiring tiles [in all cities]", "Free [Krupp Steel Cannon] appears <upon discovering [Mining]>","[-50]% maintenance costs <for [Land] units>"],
+		"uniques": ["[-50]% Gold cost of acquiring tiles [in all cities]", "Free [Krupp Steel Cannon] appears <upon discovering [Mining] technology>","[-50]% maintenance costs <for [Land] units>"],
 		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
 			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
 			"Münster","Rostock","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
@@ -2301,7 +2301,7 @@
 		"innerColor": [240, 171, 10],
 		"favoredReligion": "Catholic",
 		"uniqueName": "Mediterranean Glory",
-		"uniques": ["Free [Legione Agricola] appears <upon discovering [Novel]>","[+30]% Production towards any buildings that already exist in the Capital", "[+1 Food] from every [Coast]"],
+		"uniques": ["Free [Legione Agricola] appears <upon discovering [Novel] technology>","[+30]% Production towards any buildings that already exist in the Capital", "[+1 Food] from every [Coast]"],
 		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
 			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
 			"Signia","Aquileia","Clusium","Sutrium","Cremona","Placentia","Hispalis","Artaxata","Aurelianorum","Nicopolis",
@@ -2758,7 +2758,7 @@
 		"leaderName": "John Norton",
 		"adjective": ["Iroquoise"],
 		"startBias": ["Forest"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Supremacy",
 
        "startIntroPart1": "",
 
@@ -2775,7 +2775,7 @@
 
         "favoredReligion": "Shamanism",
 		"uniqueName": "The Great Warpath",
-		"uniques": ["[+3 Food] [in all cities] <with [3] to [6] neighboring [unimproved] [Forest] tiles>","[+2 Culture] [in all cities] <with [3] to [6] neighboring [unimproved] [Jungle] tiles>"],
+		"uniques": ["[+2 Culture] [in all cities] <with [1] to [2] neighboring [{unimproved} {Forest}] tiles>","[+2 Faith] [in all cities] <with [1] to [2] neighboring [{unimproved} {Forest}] tiles>"],
 		"cities": ["Onondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River",
 			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
 			"Chondote","Canajoharie","Nedrow","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley",
