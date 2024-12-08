@@ -45,7 +45,7 @@
             "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
             "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
-			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
+			"Unbuildable", "Religious Unit", "Only available <when religion is enabled>",
 			"Takes your religion over the one in their birth city"],
 		"movement": 2,
 		"religiousStrength": 1000
@@ -66,7 +66,7 @@
                 "replaces": "Slave",
 		"unitType": "Civilian",
 		"movement": 4,
-		"uniques": ["Limited to [8] per Civilization","Cannot enter ocean tiles <before discovering [Industrialization]>","Can be purchased with [Faith] [in all cities]","Gain [120] [Gold] (modified by game speed) <by consuming this unit>","Can be purchased for [100] [Faith] [in all cities]","Unbuildable","Never appears as a Barbarian unit","Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Limited to [8] per Civilization","Cannot enter ocean tiles <before discovering [Industrialization]>","Can be purchased with [Faith] [in all cities]","Gain [120] [Gold] <(modified by game speed)> <by consuming this unit>","Can be purchased for [100] [Faith] [in all cities]","Unbuildable","Never appears as a Barbarian unit","Can build [Land] improvements on tiles", "Automation is a primary action"],
 	},
          {
 		"name": "Sharktooth Archer",
@@ -81,6 +81,20 @@
                 "uniques": ["Never appears as a Barbarian unit"],
 		"cost": 50,
 		"attackSound": "nonmetalhit"
+        },
+        {
+		"name": "Legie",
+                "uniqueTo": "Czechoslovakia",
+                "replaces": "Great War Infantry",
+                "upgradesTo": "Infantry",
+                "obsoleteTech": "Plastics",
+                "requiredTech": "Ballistics",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 45,
+		"cost": 150,
+                 "uniques": ["[+25]% Strength <when fighting in [Foreign Land] tiles>","Never appears as a Barbarian unit"],
+		"attackSound": "shot"
         },
         {
 		"name": "Gajnal",
@@ -977,7 +991,7 @@
 		"cost": 350,
 		"requiredTech": "Radio",
 		"uniques": ["Can see invisible [Submarine] units", "[40]% chance to intercept air attacks",
-			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>"],
+			"Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Submarine] units>"],
 		"attackSound": "shipguns"
 	},
        {
@@ -1128,18 +1142,6 @@
 		"uniques": ["[100]% chance to intercept air attacks","Self-destructs when attacking", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "machinegun"
 	},
-        {
-		"name": "Suicide Al Qaeda Troop",
-                "uniqueTo": "Afghanistan",
-                "requiredTech": "Afganistan/Irak Wars",
-		"unitType": "Gunpowder",
-                "range": 2,
-		"movement": 3,
-		"strength": 190,
-		"cost": 165,
-                "uniques": ["Self-destructs when attacking", "[+150]% Strength <vs [Ranged Gunpowder] units>"],
-		"attackSound": "shot"
-        },
 	{
 		"name": "Guided Missile",
                 "obsoleteTech": "Desert Storm",
@@ -1410,7 +1412,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 56,
-                "uniques": ["Heal this unit by [+5] HP <upon ending a turn in a [Foreign Land] tile>","Never appears as a Barbarian unit"],
+                "uniques": ["[This Unit] heals [+5] HP <upon ending a turn in a [Foreign Land] tile>","Never appears as a Barbarian unit"],
 		"cost": 290,
 		"attackSound": "shot"
         },
@@ -1446,7 +1448,7 @@
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 17,
-                "uniques": ["Heal this unit by [+5] HP <upon ending a turn in a [Hill] tile>"],
+                "uniques": ["[This Unit] heals [+5] HP <upon ending a turn in a [Hill] tile>"],
 		"cost": 65,
 		"attackSound": "shot"
         },
@@ -1459,7 +1461,7 @@
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 17,
-                "uniques": ["Heal this unit by [+1] HP <upon ending a turn in a [All] tile>"],
+                "uniques": ["[This Unit] heals [+1] HP <upon ending a turn in a [All] tile>"],
 		"cost": 65,
 		"attackSound": "shot"
         },
@@ -1474,7 +1476,7 @@
 		"rangedStrength": 30,
 		"cost": 185,
 		"requiredTech": "Artillery",
-		"uniques": ["Limited to [4] per Civilization","[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit","Heal this unit by [+2] HP <upon ending a turn in a [All] tile>","[+10]% Strength <when defending>"],
+		"uniques": ["Limited to [4] per Civilization","[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit","[This Unit] heals [+2] HP <upon ending a turn in a [All] tile>","[+10]% Strength <when defending>"],
 		"attackSound": "cannon"
 	},
         {
@@ -1725,19 +1727,6 @@
 		"attackSound": "shot"
         },
         {
-		"name": "Taliban Soldier",
-                "uniqueTo": "Afghanistan",
-                "replaces": "AK47",
-                "requiredTech": "Afganistan/Irak Wars",
-		"unitType": "Ranged Gunpowder",
-                "range": 2,
-		"movement": 3,
-		"strength": 70,
-                "rangedStrength": 70,
-		"cost": 265,
-		"attackSound": "shot"
-        },
-        {
 		"name": "Zouave",
                 "uniqueTo": "French Empire",
                 "replaces": "Skrimisher",
@@ -1772,7 +1761,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 55,
-                "uniques": ["This Unit gains [+5] XP <upon ending a turn in a [All] tile>"],
+                "uniques": ["[This Unit] gains [5] XP <upon ending a turn in a [All] tile>"],
 		"cost": 230,
 		"attackSound": "shot"
         },
@@ -2297,7 +2286,7 @@
                 "uniqueTo": "Ashanti Empire",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Gain [60] [Gold] (modified by game speed) <by consuming this unit>"],
+		"uniques": ["Gain [60] [Gold] <(modified by game speed)> <by consuming this unit>"],
 		"cost": 50
 	},
         {
@@ -2885,7 +2874,7 @@
             "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
             "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
-			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
+			"Unbuildable", "Religious Unit", "Only available <when religion is enabled>",
 			"Takes your religion over the one in their birth city"],
 		"movement": 2,
 		"religiousStrength": 1000
@@ -2988,7 +2977,7 @@
 		"movement": 2,
 		"strength": 40,
 		"cost": 150,
-                 "uniques": ["May withdraw before melee ([30]%)","Never appears as a Barbarian unit"],
+                 "uniques": ["Withdraws before melee combat <with [30]% chance>","Never appears as a Barbarian unit"],
 		"attackSound": "shot"
         },
         {
@@ -3074,7 +3063,60 @@
 		"cost": 230,
 		"attackSound": "shot"
         },
+        {
+		"name": "Chelee",
+                "uniqueTo": "Apache",
+		"replaces": "Dragoon",
+                "upgradesTo": "Cavalry",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Military Science",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 16,
+                "rangedStrength": 13,
+		"cost": 150, 
+                "uniques": ["Ignores Zone of Control","[+20]% to Flank Attack bonuses","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+        },
+        {
+		"name": "Sacabuzos",
+                "uniqueTo": "Miskito People",
+		"replaces": "Work Boats",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 30,
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>", "May create improvements on water resources","Gain [25] [Culture] <by consuming this unit>"
+            "Uncapturable", "Automation is a primary action"]
+	},
+        {
+		"name": "Sambu",
+                "uniqueTo": "Miskito People",
+		"replaces": "Line Infantry",
+                "upgradesTo": "Grenadier",
+                "requiredTech": "Rifling",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 12,
+                "uniques": ["[+15]% to Flank Attack bonuses"]
 
+		"cost": 52,
+		"attackSound": "shot"
+        },
+        {
+		"name": "Jezailchi",
+                "uniqueTo": "Afghanistan",
+		"replaces": "Line Infantry",
+                "upgradesTo": "Grenadier",
+                "requiredTech": "Rifling",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 12,
+                "uniques": ["[-22]% Strength for enemy [Wounded] units in adjacent [Hill] tiles"]
 
+		"cost": 52,
+		"attackSound": "shot"
+        },
 
 ] 

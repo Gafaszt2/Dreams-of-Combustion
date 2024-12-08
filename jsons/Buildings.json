@@ -14,6 +14,20 @@
 		"uniques": ["Indicates the capital city"]
 	},
 {
+		"name": "Jazz Section",
+                "uniqueTo": "Czechoslovakia",
+                "replaces": "Opera House",
+		"culture": 4,
+                "happiness": 2,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Opera",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+
+{
 		"name": "Red Fort",
                 "uniqueTo": "Mughal Empire",
                 "replaces": "Castle",
@@ -853,6 +867,19 @@
 			"[+1 Food] from [Wheat] tiles [in this city]"],
 	},
 {
+		"name": "Wickiup",
+		"food": 2,
+                "replaces": "Granary",
+		"uniqueTo": "Apache",
+
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+                "requiredTech": "Hunting Pets"
+		"uniques": ["[+1 Gold, +1 Production] in cities on [Plains] tiles","[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
+	},
+{
 		"name": "Library",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -1420,7 +1447,7 @@
 		"culture": 1,
 		"faith": 8,
 		"uniques": ["Cost increases by [30] per owned city",
-			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built <in [Holy] cities>"],
+			"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>", "Can only be built <in [Holy] cities>"],
 		"requiredTech": "Telegraph",
 		"isNationalWonder": true
 	},
@@ -1768,7 +1795,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"requiredTech": "European Union",
-		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
 	},
         {
@@ -1776,7 +1803,7 @@
 		"cost": 750,
 		"isNationalWonder": true,
 		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion",
-			"Hidden when [Space Race] Victory is disabled", "Cannot be hurried"],
+			"Only available <when [Space Race] Victory is enabled>", "Cannot be hurried"],
 		"requiredTech": "Space Race"
 	},
 ]

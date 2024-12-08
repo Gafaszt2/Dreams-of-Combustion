@@ -19,6 +19,33 @@
 		"uniques": ["Generated on every [160] tiles <in [Coast] tiles>","Generated on every [80] tiles <in [Ocean] tiles>"]
 	},
         {
+		"name": "Cod",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Ocean","Coast"],
+		"gold": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [30] tiles <in [Coast] tiles>","Generated on every [80] tiles <in [Ocean] tiles>"]
+	},
+        {
+		"name": "Tuna",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Ocean","Coast"],
+		"gold": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [30] tiles <in [Ocean] tiles>"]
+	},
+        {
+		"name": "Sardine",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Ocean","Coast"],
+		"gold": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [30] tiles <in [Coast] tiles>","Generated on every [80] tiles <in [Ocean] tiles>"]
+	},
+        {
 		"name": "Horses",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland","Savannah","Mountain Land","Mud","Cold Soil","Tundra"],
@@ -77,7 +104,7 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvement": "Fishing Boats",
-		"uniques": ["Generated on every [10] tiles <in [Coast] tiles>"]
+		"uniques": ["Doesn't generate naturally","Generated on every [10] tiles <in [Coast] tiles>"]
 	},
 	{
 		"name": "Bison",
@@ -347,12 +374,14 @@
                 "terrainsCanBeFoundOn": ["Mud","Fresh Soil"],
 		"resourceType": "Luxury",
 		"culture": 1,
+                "uniques": ["Doesn't generate naturally"]
                 "gold": 1,
 	}
         {
 		"name": "Guava",
 		"resourceType": "Luxury",
 		"culture": 1,
+                "uniques": ["Doesn't generate naturally"]
                 "food": 1,
 	}
         {
@@ -360,6 +389,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Mud","Jungle"],
 		"food": 1,
+                "uniques": ["Doesn't generate naturally"]
 		"improvement": "Hunter Lodge",
 		"improvementStats": {"food": 1},
 	},
@@ -368,6 +398,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Jungle","Mud"],
 		"food": 1,
+                "uniques": ["Doesn't generate naturally"]
 		"improvement": "Hunter Lodge",
 		"improvementStats": {"faith": 1},
 	},
@@ -376,6 +407,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Jungle","Mud","Savannah"],
 		"gold": 2,
+                "uniques": ["Doesn't generate naturally"]
 		"improvement": "Hunter Lodge",
 		"improvementStats": {"gold": 1},
 	},
@@ -384,6 +416,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Mountain Land","Savannah","Hill"],
 		"food": 1,
+                "uniques": ["Doesn't generate naturally"]
 		"improvement": "Hunter Lodge",
 		"improvementStats": {"culture": 1},
 	},
@@ -392,12 +425,14 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland","Tundra","Cold Soil","Hill"],
 		"food": 1,
+                "uniques": ["Doesn't generate naturally"]
 		"improvement": "Hunter Lodge",
 		"improvementStats": {"faith": 1},
 	},
         {
 		"name": "Japanese Macaque",
 		"resourceType": "Bonus",
+                "uniques": ["Doesn't generate naturally"]
 		"terrainsCanBeFoundOn": ["Grassland","Tundra","Cold Soil","Hill"],
 		"food": 1,
 		"improvement": "Hunter Lodge",
@@ -406,6 +441,7 @@
         {
 		"name": "Japanese Black Bear",
 		"resourceType": "Bonus",
+                "uniques": ["Doesn't generate naturally"]
 		"terrainsCanBeFoundOn": ["Grassland","Tundra","Cold Soil","Hill"],
 		"food": 1,
 		"improvement": "Hunter Lodge",
@@ -414,6 +450,7 @@
         {
 		"name": "Dromedary Camel",
 		"resourceType": "Bonus",
+                "uniques": ["Doesn't generate naturally"]
 		"terrainsCanBeFoundOn": ["Desert","Plains","Dry Soil","Fresh Soil"],
 		"food": 1,
 		"improvement": "Hunter Lodge",
@@ -421,6 +458,7 @@
 	},
         {
 		"name": "Syrian Onager",
+                "uniques": ["Doesn't generate naturally"]
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Desert","Plains","Dry Soil","Fresh Soil"],
 		"food": 1,
@@ -430,6 +468,7 @@
         {
 		"name": "Mountain Gazelle",
 		"resourceType": "Bonus",
+                "uniques": ["Doesn't generate naturally"]
 		"terrainsCanBeFoundOn": ["Desert","Plains","Dry Soil","Fresh Soil"],
 		"food": 1,
 		"improvement": "Hunter Lodge",
@@ -437,6 +476,7 @@
 	},
         {
 		"name": "Aguara Guazu",
+                "uniques": ["Doesn't generate naturally"]
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Dry Soil"],
 		"food": 1,
@@ -445,6 +485,7 @@
 	},
         {
 		"name": "Tapir",
+                "uniques": ["Doesn't generate naturally"]
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland","Fresh Soil","Dry Soil"],
 		"food": 1,
@@ -453,6 +494,7 @@
 	},
         {
 		"name": "Snake",
+                "uniques": ["Doesn't generate naturally"]
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Jungle","Fresh Soil","Dry Soil"],
 		"food": 1,
@@ -462,6 +504,7 @@
         {
 		"name": "Yacare",
 		"resourceType": "Bonus",
+                "uniques": ["Doesn't generate naturally"]
 		"terrainsCanBeFoundOn": ["Grassland","Fresh Soil","Mud"],
 		"food": 1,
 		"improvement": "Hunter Lodge",
@@ -470,6 +513,7 @@
         {
 		"name": "Philipines Crocodile",
 		"resourceType": "Bonus",
+                "uniques": ["Doesn't generate naturally"]
 		"terrainsCanBeFoundOn": ["Grassland","Fresh Soil","Mud","Narra"],
 		"food": 1,
 		"improvement": "Hunter Lodge",
@@ -478,6 +522,7 @@
         {
 		"name": "Frog",
 		"resourceType": "Bonus",
+                "uniques": ["Doesn't generate naturally"]
 		"terrainsCanBeFoundOn": ["Grassland","Fresh Soil","Mud","Narra"],
 		"food": 1,
 		"improvement": "Hunter Lodge",
@@ -486,6 +531,7 @@
         {
 		"name": "Turtle",
 		"resourceType": "Bonus",
+                "uniques": ["Doesn't generate naturally"]
 		"terrainsCanBeFoundOn": ["Grassland","Fresh Soil","Mud","Narra"],
 		"food": 1,
 		"improvement": "Hunter Lodge",
@@ -494,6 +540,7 @@
         {
 		"name": "Yerba Mate",
 		"resourceType": "Luxury",
+                "uniques": ["Doesn't generate naturally"]
 		"terrainsCanBeFoundOn": ["Grassland","Fresh Soil"],
 		"faith": 1,
 		"improvedBy": ["Slave Labor Plantation", "Heavy Labor Plantation"],
@@ -502,6 +549,7 @@
         {
 		"name": "Fossa",
 		"resourceType": "Bonus",
+                "uniques": ["Doesn't generate naturally"]
 		"terrainsCanBeFoundOn": ["Mountain Land","Savannah","Hill"],
 		"faith": 2,
 		"improvement": "Hunter Lodge",
@@ -510,6 +558,7 @@
         {
 		"name": "Ring Tailed Lemur",
 		"resourceType": "Bonus",
+                 "uniques": ["Doesn't generate naturally"]
 		"terrainsCanBeFoundOn": ["Mountain Land","Savannah","Hill"],
 		"culture": 2,
 		"improvement": "Hunter Lodge",
@@ -518,6 +567,7 @@
         {
 		"name": "Giraffe",
 		"resourceType": "Bonus",
+                "uniques": ["Doesn't generate naturally"]
 		"terrainsCanBeFoundOn": ["Plains","Jungle","Mud","Savannah"],
 		"culture": 2,
 		"improvement": "Hunter Lodge",
@@ -528,6 +578,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Jungle","Mud","Savannah"],
 		"culture": 2,
+                "uniques": ["Doesn't generate naturally"]
 		"improvement": "Hunter Lodge",
 		"improvementStats": {"gold": 1},
 	},
@@ -537,6 +588,7 @@
 		"terrainsCanBeFoundOn": ["Mud"],
 		"science": 1,
 		"improvement": "Hunter Lodge",
+                "uniques": ["Doesn't generate naturally"]
 		"improvementStats": {"science": 1},
 	},
         {
@@ -544,12 +596,14 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Dry Soil","Fresh Soil"],
 		"food": 1,
+                "uniques": ["Doesn't generate naturally"]
 		"improvement": "House",
 		"improvementStats": {"food": 1},
 	},
         {
 		"name": "Cactus",
 		"resourceType": "Bonus",
+                "uniques": ["Doesn't generate naturally"]
 		"terrainsCanBeFoundOn": ["Dry Soil"],
 		"food": 1,
 		"improvement": "Mine",
@@ -558,6 +612,7 @@
         {
 		"name": "Humpback Whale",
 		"resourceType": "Luxury",
+                "uniques": ["Doesn't generate naturally"]
 		"terrainsCanBeFoundOn": ["Coast","Ocean"],
 		"gold": 2,
 		"improvement": "Fishing Boats",

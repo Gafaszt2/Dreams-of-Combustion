@@ -6,6 +6,85 @@
 //		"innerColor": [255,255,255]
 },
 {
+		"name": "Miskito People",
+		"leaderName": "Robert Charles Frederic",
+		"adjective": ["Miskito People"],
+		"startBias":["Coast"],
+		"preferredVictoryType": "Destruction",
+
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+                "declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [255, 232, 232],
+		"innerColor": [245, 93, 66],
+		"favoredReligion": "Catholic",
+		"uniqueName": "Miskito Coast",
+		"uniques": ["[+1 Food] from every [Hunter Lodge]","[+1 Production] from every [Fishing Boats]","[+1 Food] from every [Fishing Boats]"],
+		"cities": ["Bluefields", "Sandy Bay", "Puerto Cabezas", "Trujillo", "Pearl Key Lagoon", "Kukra Hill", "Matina", "Black River", "Gracias a Dios", "Serapaqui", "Greytown", "El Tigre", "Mulukuku", "Prinzapolka"],
+        "spyNames": ["Saki"]
+    },
+
+{
+		"name": "Apache",
+		"leaderName": "Geronimo",
+		"adjective": ["Apache"],
+		"startBias":["Plains","Desert"],
+		"preferredVictoryType": "Destruction",
+
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+                "declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [255, 246, 222],
+		"innerColor": [138, 115, 56],
+		"favoredReligion": "Wakan Tanka",
+		"uniqueName": "Once They Moved Like the Wind",
+		"uniques": ["No movement cost to pillage <for [Mounted] units>","[+1] Movement <for [Mounted] units>","[-50]% maintenance costs <for [Mounted] units>"],
+		"cities": ["Tiiis Tseba", "Chichiil Bidagoteel", "Teehach", "Tichlog", "Kiis Chiintiidn", "Ts Tsskidn", "Dzi Likesilan", "Tsebainasti", "Hakiy", "Ts L' tah", "Naleei Danakaiy", "T' Yadnlin", "Nagonltin", "Chichiil da'kizh", "Izee Dighin", "Ts Dadlit'as", "T' Edn", "Tse Nanesnasdz", "Ts Ya Kih Nastl"],
+        "spyNames": ["Saki"]
+    },
+{
+		"name": "Czechoslovakia",
+		"leaderName": "Tomáš Masaryk",
+		"adjective": ["Czechoslovakia"],
+		"startBias":["Forest"],
+		"preferredVictoryType": "Political",
+
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+                "declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [168, 50, 50],
+		"innerColor": [232, 247, 208],
+		"favoredReligion": "Orthodox",
+		"uniqueName": "Golden Republic",
+		"uniques": ["[+1 Culture] from every specialist [in all cities]","[+2 Culture] from every specialist [in all cities] <starting from the [First World War]>"],
+		"cities": ["Prague", "Bratislava", "Brno", "Ostrava", "Kosice", "Plzen", "Liberec", "Uzhorod", "Presov", "Zilina", "Olomouc", "Ústí nad Labem", "Ceské Budejovice", "Banská Bystrica", "Nitra"],
+        "spyNames": ["Saki"]
+    },
+{
 		"name": "North Korea",
 		"leaderName": "Kim Il-Sung",
 		"adjective": ["NorthKorean"],
@@ -156,8 +235,8 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [61, 161, 114],
-		"innerColor": [236, 255, 184],
+		"outerColor": [57, 152, 108],
+		"innerColor": [236, 255, 187],
                 "favoredReligion": "Hinduism",
 		"uniqueName": "Conquest of Rajputana",
 		"uniques": ["[-50]% maintenance costs <for [Siege] units>","[+33]% Strength <when fighting in [Hill] tiles>"],
@@ -182,8 +261,8 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [50, 168, 82],
-		"innerColor": [247, 246, 178],
+		"outerColor": [47, 159, 77],
+		"innerColor": [247, 246, 181],
                 "favoredReligion": "Islam",
 		"uniqueName": "The Sinless Emir",
 		"uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <upon founding a Pantheon>","Gain a free [Namazgah] [in all cities] <upon conquering a city>"],
@@ -235,8 +314,8 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [147, 232, 49],
-		"innerColor": [250, 74, 15],
+		"outerColor": [163, 235, 79],
+		"innerColor": [212, 62, 12],
                 "favoredReligion": "Islam",
 		"uniqueName": "Wedhatama",
 		"uniques": ["Free [Great Artist] appears <upon discovering [Industrialization] technology>","[+2 Faith] from all [Culture] buildings","Provides [1] [Sugar] <with [100]% chance>"],
@@ -1096,8 +1175,8 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [204, 47, 91],
-		"innerColor": [69, 31, 42],
+		"outerColor": [206, 57, 99],
+		"innerColor": [65, 29, 39],
                 "favoredReligion": "Orthodox",
 		"uniqueName": "Winged Hussars",
 		"uniques": ["[+20]% Production when constructing [Mounted] units [in all cities]", "[+1 Faith] from every [Mill]","[+1 Gold] from every [House]"],
@@ -1239,8 +1318,8 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [173, 61, 70],
-		"innerColor": [26, 25, 25],
+		"outerColor": [177, 70, 79],
+		"innerColor": [24, 23, 23],
                 "favoredReligion": "Orthodox",
 		"uniqueName": "Land of the Eagles",
 		"uniques": ["[+2 Production] from every [Mountain]","[+10]% Strength <when fighting in [Hill] tiles>"],
@@ -1661,8 +1740,8 @@
 	},
 {
 		"name": "Afghanistan",
-		"leaderName": "Sher Ali Khan",
-		"adjective": ["Afghan"],
+		"leaderName": "Emir Abdur Rahman Khan",
+		"adjective": ["Afghanistan"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Political",
 		
@@ -1678,11 +1757,11 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [64, 9, 4],
-		"innerColor": [237, 38, 38],
+		"outerColor": [46, 46, 46],
+		"innerColor": [255, 255, 255],
                 "favoredReligion": "Islam",
-		"uniqueName": "Victorian Resistance",
-		"uniques": ["[+15]% Strength <when fighting units from a Civilization with more Cities than you>", "[+2 Gold] from every [Hill]"],
+		"uniqueName": "Graveyard of Empires",
+		"uniques": ["[+20]% Strength <vs [Ranged Gunpowder] units>", "[+1 Culture] from every [Hill]","[+1 Faith] from every [Mountain]"],
 		"cities": ["Kabul","Kandahar","Herat","Mazar I Shariff", "Jalalabad", "Kunduz", "Ghazni", "Balkh", "Baghlan", "Gardez", "Khost", "Maymana", "Khanabad", "Taloqan", "Pul e Khumri", "Sari Pul", "Paghman"],
 	},
 {
@@ -1840,8 +1919,8 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [83, 171, 63],
-		"innerColor": [254, 224, 12],
+		"outerColor": [59, 177, 45],
+		"innerColor": [254, 232, 79],
 		"uniqueName": "Imperio da Grandeza",
 		"uniques": ["[+2 Culture] from every [Lakes]", "[+2 Food] from every [Lakes]", "[+2 Gold] from every [Slave Labor Plantation]"],
 		"cities": ["Rio de Janeiro","Sao Paulo","Salvador","Fortalezaq","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
@@ -1897,8 +1976,8 @@
 		"hateHello": "Oh. It's you?",
 		"tradeRequest": "My friend, do you think you can accept this request?",
 
-        "outerColor": [245, 211, 118],
-        "innerColor": [47, 128, 214],
+        "outerColor": [245, 213, 124],
+        "innerColor": [44, 121, 203],
 
 		"favoredReligion": "Taoism",
 		"uniqueName": "Sky Mandate",
@@ -2018,8 +2097,8 @@
 		"hateHello": "Well?",
 		"tradeRequest": "Is the following trade of interest to you?",
 
-        "outerColor": [1, 55, 145],
-        "innerColor": [245, 48, 44],
+        "outerColor": [0, 49, 130],
+        "innerColor": [246, 68, 65],
 
         "favoredReligion": "Baptist",
 		"uniqueName": "Deo Vindice",
@@ -2077,7 +2156,7 @@
 		"innerColor": [166, 20, 15],
 		"favoredReligion": "Shinto",
 		"uniqueName": "Meiji Restauration",
-		"uniques": ["Damage is ignored when determining unit Strength <for [non-air] units>"],
+		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
 		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
 			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
 			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
@@ -2385,8 +2464,8 @@
 		"neutralHello": "Hello.",
 		"hateHello": "We do not fear war",
 		"tradeRequest": "Check out this",
-		"outerColor": [252, 215, 141],
-		"innerColor": [250, 49, 42],
+		"outerColor": [252, 217, 146],
+		"innerColor": [237, 46, 39],
 		"favoredReligion": "Taoism",
 		"uniqueName": "Miracle of the Han River",
 		"uniques": ["[+1 Food] from every [River]","[+1 Gold] from every [River]"],
@@ -2646,8 +2725,8 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [196, 207, 184],
-		"innerColor": [31, 127, 140],
+		"outerColor": [198, 209, 187],
+		"innerColor": [29, 120, 133],
 		"uniqueName": "Nomadic Survivalists",
 		"uniques": ["[+15]% [Faith] [in all cities] <when at war>","[+2 Culture] from every [Log Cabin]","[+2 Faith] from every [Log Cabin]"],
 		"cities": ["Tierra del Fuego","Parik","Hersk","Cerro Benitez","Cerro Toro","Strait of Magellan"]
@@ -2721,8 +2800,8 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [250, 10, 34],
-		"innerColor": [250, 182, 55],
+		"outerColor": [212, 8, 28],
+		"innerColor": [250, 192, 85],
 		"uniqueName": "Warsaw Pact",
 		"uniques": ["[+5]% Strength <when fighting in [Friendly Land] tiles>","Earn [10]% of the damage done to [City] units as [Culture]","Upon capturing a city, receive [2] times its [Gold] production as [Culture] immediately"],
 		"cities": ["Moscow", "Leningrad", "Kiev", "Minsk", "Kharkov", "Stalingrad", "Sverdlovsk", "Gorky", "Krasnodar", "Vladivostok", "Novosibirsk", "Krasnoyarsk", "Kuybyshev", "Baku", "Tbilisi", "Alma Ata", "Tashkent", "Omsk", "Ufa", "Chelyabinsk", "Sevastopol", "Molotov", "Kaliningrad", "Riga", "Tallinn", "Kazan", "Odessa", "Kirov", "Ulyanovsk"]
