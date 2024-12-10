@@ -6,6 +6,32 @@
 //		"innerColor": [255,255,255]
 },
 {
+		"name": "Mongolia",
+		"leaderName": "Bogd Khan",
+		"adjective": ["Mongolia"],
+		"startBias":["Mountain"],
+		"preferredVictoryType": "Destruction",
+
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+                "declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [255, 216, 125],
+		"innerColor": [44, 78, 133],
+		"favoredReligion": "Buddhism",
+		"uniqueName": "Elevated by the Many",
+		"uniques": ["When defeating a [{Barbarian} {Land}] unit, earn [60] Gold and recruit it <with [100]% chance>"],
+		"cities": ["Niislel Khüree", "Burga", "Tsetserleg", "Tsagaan Baishin", "Uliastai", "Khovd", "Manjusri", "Kharkorin", "Bayan Tümen", "Choibalsan", "Ölgii", "Ulaangom", "Arvaikheer", "Bayankhongor", "Öndörkhaan", "Zuunmod", "Zamyn-Üüd", "Mörön", "Gandan", "Khatgal", "Choir", "Hailar", "Erdene Zuu"],
+        "spyNames": ["Saki"]
+    },
+{
 		"name": "Miskito People",
 		"leaderName": "Robert Charles Frederic",
 		"adjective": ["Miskito People"],

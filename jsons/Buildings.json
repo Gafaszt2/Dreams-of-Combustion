@@ -741,6 +741,17 @@
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"]
 	}
+{
+		"name": "Spiritual Shrine",
+                "uniqueTo": "Mongolia",
+                "replaces": "Temple",
+		"faith": 4,
+                "greatPersonPoints": {"Great Prophet": 1},
+		"cost": 90,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["[+30]% [Faith] <during a Golden Age>","Destroyed when the city is captured"]
+	}
 
         {
 		"name": "Temple",

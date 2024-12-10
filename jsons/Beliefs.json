@@ -3,7 +3,7 @@
     {
         "name": "Desert Folklore",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Desert]","[+1 Gold] from every [Desert]"]
+        "uniques": ["[+1 Faith] [in cities following this religion] <in cities with at least [3] [Population]>"]
     },
     {
         "name": "Kindness Glow",
@@ -25,7 +25,7 @@
     {
         "name": "Piety Enlightenment",
         "type": "Pantheon",
-        "uniques": ["[+1 Production] from every [Railroad]"]
+        "uniques": ["[+2 Faith] from every [Library]"]
     },
     {
         "name": "Passion for Art",
