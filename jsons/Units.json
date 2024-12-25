@@ -60,6 +60,20 @@
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
+	{
+		"name": "Massachusetts Regiment",
+		"uniqueTo": "United States of America",
+                "replaces": "Grenadier",
+                "upgradesTo": "Rifleman",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Dynamite",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 25,
+                "uniques": ["Earn [35]% of the damage done to [Gunpowder] units as [Gold]","Never appears as a Barbarian unit"],
+		"cost": 70,
+		"attackSound": "shot"
+        },
 {
 		"name": "Captured American Child",
                 "uniqueTo": "Seminole People",
@@ -1690,30 +1704,8 @@
 		"cost": 260,
 		"attackSound": "shot"
         },
-        {
-		"name": "Independence Brigades",
-                "uniqueTo": "United States of America",
-                "replaces": "River Patrol",
-                "requiredTech": "Vietnam War",
-		"unitType": "Gunpowder",
-                "uniques": ["Never appears as a Barbarian unit"],
-		"movement": 3,
-		"strength": 75,
-		"cost": 280,
-		"attackSound": "shot"
-        },
-        {
-		"name": "Paratrooper",
-                "uniqueTo": "United States of America",
-                "replaces": "Infantry",
-                "requiredTech": "Plastics",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 60,
-                "uniques": ["May Paradrop up to [5] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
-		"cost": 270,
-		"attackSound": "shot"
-        },
+        
+
         {
 		"name": "Ski Infantry",
                 "uniqueTo": "Finland",
@@ -3120,7 +3112,7 @@
         },
         {
 		"name": "Manlaibaatar",
-                "uniqueTo": "Mongolia",
+        "uniqueTo": "Mongolia",
 		"replaces": "Great Prophet",
 		"unitType": "Civilian",
 		"uniques": ["[-44]% Strength for enemy [Wounded] units in adjacent [Hill] tiles",
@@ -3135,5 +3127,33 @@
 		"movement": 2,
 		"religiousStrength": 1000
 	},
-
+	{
+		"name": "Red Band",
+		"uniqueTo": "Murrinh Patha",
+		"replaces": "Skrimisher",
+                "upgradesTo": "Grenadier",
+                "requiredTech": "Industrialization",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Ranged Gunpowder",
+                "range": 2,
+		"movement": 3,
+		"strength": 10,
+                "rangedStrength": 10,
+                "uniques": ["[+5]% Strength <when defending>","[-35]% Strength for enemy [Wounded] units in adjacent [Plains] tiles","[-35]% Strength for enemy [Wounded] units in adjacent [Forest] tiles"],           
+		"cost": 55,
+		"attackSound": "shot"
+        },
+		{
+			"name": "Buffalo Runner",
+			"uniqueTo": "Metis",
+		"replaces": "Cavalry",
+					"obsoleteTech": "Combined Arms",
+					"requiredTech": "Replaceable Parts",
+			"unitType": "Mounted",
+			"movement": 5,
+			"strength": 36,
+			"cost": 200, 
+					"uniques": ["Can move after attacking","No defensive terrain bonus","Can build [Hunting Lodge] improvements on tiles","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+			"attackSound": "horse"
+			},
 ] 

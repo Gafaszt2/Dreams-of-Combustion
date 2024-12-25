@@ -6,6 +6,67 @@
 //		"innerColor": [255,255,255]
 },
 {
+	"name": "Metis",
+	"leaderName": "Louis Riel",
+	"adjective": ["Metis"],
+	"startBias":["Forest"],
+	"preferredVictoryType": "Destruction",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [0, 71, 186],
+	"innerColor": [255, 255, 255],
+	"uniqueName": "Chosen from the Flock",
+	"uniques": ["[+30]% Production when constructing [Faith] buildings [in all cities]","[+1 Faith] from all [Faith] buildings"],
+	"cities": ["Batoche", "Winnipeg", "Pembina", "Duck Lake", "St. Laurent", "St. Norbert", "Fish Creek", "Frog Lake", "Nipawin", "La Ronge", "Regina"],
+	"spyNames": ["Saki"]
+},
+{
+	"name": "Murrinh Patha",
+	"leaderName": "Nemarluk",
+	"adjective": ["Murrinh Patha"],
+	"startBias":["Marsh"],
+	"preferredVictoryType": "Destruction",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [197, 219, 31],
+	"innerColor": [51, 44, 40],
+	"uniqueName": "Ngoiminggi",
+	"uniques": ["When defeating a [{Land}] unit, earn [20] Gold and recruit it <with [30]% chance>","[+1 Food] from all [Food] buildings","[+1 Food] from all [Production] buildings"],
+	"cities": ["Werntek Nganaiyi", "Wadeye", "Nganmarriyanga", "Thamarur", "Yambarnyi", "Nemarluk", "Thuykem", "Bullo River", "Kultjill", "Legune", "Auvergne", "Litchfield", "Mulyung"],
+	"spyNames": ["Saki"]
+},
+
+
+
+
+
+
+
+
+
+
+
+{
 		"name": "Mongolia",
 		"leaderName": "Bogd Khan",
 		"adjective": ["Mongolia"],
@@ -1123,8 +1184,8 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [79, 84, 66],
-		"innerColor": [165, 184, 118],
+		"outerColor": [138, 255, 214],
+		"innerColor": [0, 60, 97],
                 "favoredReligion": "Catholic",
 		"uniqueName": "Pear of the Orient Seas",
 		"uniques": ["[+1 Culture] from every [Coast]","[+3 Faith] [in all cities] <with [3] to [4] neighboring [Coast] tiles>"],
@@ -1423,8 +1484,8 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [187, 139, 57],
-		"innerColor": [77, 9, 9],
+		"outerColor": [67, 71, 84],
+		"innerColor": [237, 255, 133],
 		"uniqueName": "Belgium Congo",
 		"uniques": ["Free [Slave] appears <upon discovering [Mining] technology>","[+2 Gold] from each Trade Route","[+1 Gold] from every [Mine]"],
 		"cities": ["Brussels", "Ostend", "Brabante", "West Vlaanderen", "Henao", "Lieja", "Limburg", "Luxemburg",
@@ -2077,8 +2138,8 @@
     },
 {
 		"name": "United States of America",
-		"leaderName": "Franklin D. Roosevelt",
-		"adjective": ["American"],
+		"leaderName": "Abraham Lincoln",
+		"adjective": ["United States of America"],
 		"preferredVictoryType": "Supremacy",
 
         "startIntroPart1": "",
@@ -2096,8 +2157,13 @@
         "innerColor": [164, 252, 191],
 
         "favoredReligion": "Baptist",
-		"uniqueName": "Democracy Arsenal",
-		"uniques": ["[+2] Sight <for [{Military} {Land}] units>", "[+1 Production] from every [Mountain]","[+1 Food] from every [Mountain]"], 
+		"uniqueName": "Emancipation Proclamation",
+		"uniqueText": "[+30]% [Production] from every [House], [+20]% [Production] from every [Mill], [-3]% [Happiness] from every [Slave Labor Plantation], [Gold] cost of purchasing [Slave] units [+200]%
+
+Nixon Bureaucratic Reforms
+[+20]% [Science] [in all cities] starting from the [Cold War], [+20]% [Gold] [in all cities] starting from the [Cold War]",
+		"uniques": ["[+30]% [Production] from every [House]","[+20]% [Production] from every [Mill]","[-3]% [Happiness] from every [Slave Labor Plantation]", "[Gold] cost of purchasing [Slave] units [+200]%",
+	"[+20]% [Science] [in all cities] <starting from the [Cold War]>","[+20]% [Gold] [in all cities] <starting from the [Cold War]>"], 
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
 			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
 			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",

@@ -382,6 +382,17 @@
 		"requiredTech": "Scientific Theory",
 		"uniques": ["Destroyed when the city is captured"]
 	},
+	{
+		"name": "General Store",
+		"uniqueTo": "United States of America",
+        "replaces": "Market",
+		"gold": 3,
+		"food": 1,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Vaccine"
+	},
         {
 		"name": "Stockade",
                 "gold": 2,
@@ -762,6 +773,19 @@
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"]
 	}
+	{
+		"name": "Ngudangu",
+		"replaces": "Temple",
+		"uniqueTo": "Murrinh Patha",
+		"faith": 4,
+		"culture": 1,
+		"happiness": 1,
+                "greatPersonPoints": {"Great Prophet": 1},
+		"cost": 100,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	}
         {
 		"name": "Pillaged Estancia",
 		"replaces": "Granary",
@@ -874,6 +898,18 @@
 		"hurryCostModifier": 25,
                 "requiredTech": "Hunting Pets"
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
+	},
+	{
+		"name": "Hivernant",
+		"replaces": "Granary",
+		"uniqueTo": "Metis",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+                "requiredTech": "Hunting Pets"
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]","[+1 Faith] from [Hunting Lodge] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]"],
 	},
