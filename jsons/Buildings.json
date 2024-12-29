@@ -909,7 +909,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
                 "requiredTech": "Hunting Pets"
-		"uniques": ["[+1 Food] from [Deer] tiles [in this city]","[+1 Faith] from [Hunting Lodge] tiles [in this city]",
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]","[+1 Faith] from [Hunter Lodge] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]"],
 	},

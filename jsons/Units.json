@@ -3153,7 +3153,7 @@
 			"movement": 5,
 			"strength": 36,
 			"cost": 200, 
-					"uniques": ["Can move after attacking","No defensive terrain bonus","Can build [Hunting Lodge] improvements on tiles","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+					"uniques": ["Can move after attacking","No defensive terrain bonus","Can build [Hunter Lodge] improvements on tiles","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 			"attackSound": "horse"
 			},
 ] 
