@@ -11,6 +11,49 @@
         "name": "Gunpowder",
         "movementType": "Land"
     },
+
+//// THE NEW DEAL
+
+    {
+        "name": "Infantry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Archaic Infantry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Light Cavalry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Heavy Cavalry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Camel",
+        "movementType": "Land"
+    },
+    {
+        "name": "Elephant",
+        "movementType": "Land"
+    },
+    {
+        "name": "Machinegun",
+        "movementType": "Land"
+    },
+    {
+        "name": "Artillery",
+        "movementType": "Land"
+    },
+    {
+        "name": "Drone",
+        "movementType": "Land"
+    },
+
+/////
+
+
     {
         "name": "Archery",
         "movementType": "Land"

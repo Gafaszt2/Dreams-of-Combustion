@@ -1,7 +1,7 @@
 [
     {
         "name": "Liberty",
-        "era": "National Victorian era",
+        "era": "Industrial Era",
         "priorities": {
             "Neutral": 10,
             "Cultural": 0,
@@ -9,8 +9,8 @@
             "Domination": 0,
             "Scientific": 0
         },
-        "uniques": [
-            "[+1 Gold] [in all cities]", "[+1 Production] [in all cities]"
+        "uniques": ["Only available <before adopting [Imperialism]>","Only available <before adopting [Revolution]>",
+            "[+5]% growth [in all cities]","[+2 Gold] [in all cities]", "[+1 Production] [in all cities]"
         ],
         "policies": [
             {
@@ -32,18 +32,10 @@
             {
                 "name": "Collective Rule",
                 "uniques": [
-                    "[+10]% Production when constructing [All] buildings [in all cities]"
+                    "[+15]% Production when constructing [All] buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 5
-            },
-            {
-                "name": "Representation",
-                "uniques": [
-                    "Free [Line Infantry] appears"
-                ],
-                "row": 1,
-                "column": 7
             },
             {
                 "name": "Meritocracy",
@@ -74,7 +66,7 @@
     },
     {
         "name": "Imperialism",
-        "era": "National Victorian era",
+        "era": "Industrial Era",
         "priorities": {
             "Neutral": 0,
             "Cultural": 0,
@@ -82,7 +74,7 @@
             "Domination": 10,
             "Scientific": 0
         },
-        "uniques": [
+        "uniques": ["Only available <before adopting [Liberty]>","Only available <before adopting [Revolution]>",
             "[+5]% growth [in all cities]",
             "[-15]% Culture cost of natural border growth [in all cities]"
         ],
@@ -106,19 +98,11 @@
             {
                 "name": "Global Diplomacy",
                 "uniques": [
-                    "[+1 Gold] from every [Luxury resource]"
+                    "[+1 Gold] from every [Luxury resource]",
                     "[+1 Gold] per [5] population [in all cities]"
                 ],
                 "row": 1,
                 "column": 5
-            },
-            {
-                "name": "Slave Policy",
-                "uniques": [
-                    "Gain a free [Slave Market] [in capital]"
-                ],
-                "row": 1,
-                "column": 7
             },
             {
                 "name": "Social Reform",
@@ -149,7 +133,7 @@
     },
     {
         "name": "Revolution",
-        "era": "National Victorian era",
+        "era": "Industrial Era",
         "priorities": {
             "Neutral": 0,
             "Cultural": 10,
@@ -157,8 +141,8 @@
             "Domination": 0,
             "Scientific": 10
         },
-        "uniques": [
-            "[+1 Culture] per [2] population [in all cities]"
+        "uniques": ["Only available <before adopting [Liberty]>","Only available <before adopting [Imperialism]>",
+            "[+1 Culture] per [2] population [in all cities]",
             "[-5]% Culture cost of natural border growth [in all cities]"
         ],
         "policies": [
@@ -340,7 +324,7 @@
             "Domination": 10,
             "Scientific": 0
         },
-        "uniques": [
+        "uniques": ["Only available <before adopting [Communism]>","Only available <before adopting [Allies]>",
             "[+2] Sight <for [{Military} {Land}] units>",
             "[Gold] cost of purchasing [All] units [-33]%"
         ],
@@ -371,14 +355,6 @@
                 "column": 5
             },
             {
-                "name": "Hate",
-                "uniques": [
-                    "Gain a free [Concentration Camp] [in capital]"
-                ],
-                "row": 1,
-                "column": 7
-            },
-            {
                 "name": "War Propaganda",
                 "uniques": [
                     "[+25]% Strength <for [Wounded] units>"
@@ -391,7 +367,7 @@
                 "name": "Axis Complete",
                 "uniques": [
                     "[+25]% Production when constructing [Military] units [in all cities]",
-                    "New [Military] units start with [15] Experience [in all cities]"
+                    "New [Military] units start with [15] XP [in all cities]"
                 ]
             }
         ]
@@ -406,7 +382,7 @@
             "Domination": 5,
             "Scientific": 0
         },
-        "uniques": [
+        "uniques": ["Only available <before adopting [Allies]>","Only available <before adopting [Axis]>",
             "[+1 Production] per [3] social policies adopted",
             "[+3 Happiness] [in capital]","[-3 Gold] [in capital]"
         ],
@@ -426,14 +402,6 @@
                 ],
                 "row": 1,
                 "column": 3
-            },
-            {
-                "name": "Soviets Force",
-                "uniques": [
-                    "Gain a free [Gulag] [in capital]"
-                ],
-                "row": 1,
-                "column": 7
             },
             {
                 "name": "Proletary Internationalism",
@@ -472,7 +440,7 @@
             "Domination": 0,
             "Scientific": 0
         },
-        "uniques": [
+        "uniques": ["Only available <before adopting [Communism]>","Only available <before adopting [Axis]>",
             "[+2] Sight <for [{Military} {Water}] units>",
             "[+2 Happiness] [in capital]"
         ],
@@ -504,14 +472,6 @@
                 "column": 5
             },
             {
-                "name": "America Takes Place",
-                "uniques": [
-                    "Gain a free [Allies Embassy] [in capital]"
-                ],
-                "row": 1,
-                "column": 7
-            },
-            {
                 "name": "Expression Liberty",
                 "uniques": [
                     "[+1 Happiness] from every [Strategic resource]"
@@ -524,7 +484,7 @@
                 "name": "Allies Complete",
                 "uniques": [
                    "[+4 Production] [in capital]",
-                    "New [Military] units start with [15] Experience [in all cities]"
+                    "New [Military] units start with [15] XP [in all cities]"
              ]
             }
         ]

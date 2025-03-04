@@ -1,7 +1,7 @@
 [
 	{
 		"columnNumber": 0,
-		"era": "National Victorian era",
+		"era": "Industrial Era",
 		"techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 185,
@@ -19,7 +19,7 @@
 	},
 	{
 		"columnNumber": 1,
-		"era": "National Victorian era",
+		"era": "Industrial Era",
 		"techCost": 70,
 		"buildingCost": 150,
 		"wonderCost": 250,
@@ -53,7 +53,7 @@
 	},
         {
 		"columnNumber": 2,
-		"era": "National Victorian era",
+		"era": "Industrial Era",
 		"techCost": 200,
 		"buildingCost": 170,
 		"wonderCost": 185,
@@ -98,7 +98,7 @@
 	},
         {
 		"columnNumber": 3,
-		"era": "Capital Victorian era",
+		"era": "New Imperial Era",
 		"techCost": 300,
 		"buildingCost": 190,
 		"wonderCost": 185,
@@ -142,7 +142,7 @@
 	},
         {
 		"columnNumber": 4,
-		"era": "Capital Victorian era",
+		"era": "New Imperial Era",
 		"techCost": 400,
 		"buildingCost": 250,
 		"wonderCost": 185,

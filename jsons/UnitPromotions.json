@@ -1,83 +1,92 @@
 [
-
-	{
-		"name": "Heal Instantly",
-		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
-        "row": 0,
-        "column": 0
-    },
-
 	// Ranged+Siege
 	{
 		"name": "Accuracy I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Machinegun","Artillery"],
         "column": 1,
         "row": 1
     },
 	{
 		"name": "Accuracy II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Accuracy I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Machinegun","Artillery"],
         "column": 1,
         "row": 2
     },
 	{
 		"name": "Accuracy III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Accuracy II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Machinegun","Artillery"],
         "column": 1,
         "row": 3
     },
 
 	{
 		"name": "Barrage I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Machinegun","Artillery"],
         "column": 2,
         "row": 1
 	},
 	{
 		"name": "Barrage II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Barrage I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Machinegun","Artillery"],
         "column": 2,
         "row": 2
 	},
 	{
 		"name": "Barrage III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Barrage II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Siege","Archery","Machinegun","Artillery"],
         "column": 2,
         "row": 3
 	},
 
 	{
 		"name": "Volley",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Accuracy I","Barrage I"],
 		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Siege"],
+		"unitTypes": ["Siege","Artillery"],
         "column": 3,
         "row": 1
 	},
 	{
 		"name": "Extended Range",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II", "Wolfpack II"],
 		"uniques": ["[+1] Range"],
-		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine"],
+		"unitTypes": ["Archery","Machinegun","Siege","Artillery","Ranged Water","Submarine"],
         "column": 3,
         "row": 3
 	},
 	{
 		"name": "Indirect Fire",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Accuracy III", "Barrage III", "Bombardment II", "Targeting II"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
-		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water"],
+		"unitTypes": ["Archery","Machinegun","Siege","Ranged Water","Artillery"],
         "column": 3,
         "row": 4
 	},
@@ -85,6 +94,8 @@
 	// Melee, Mounted+Armor
 	{
 		"name": "Shock I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
         "column": 4,
@@ -92,6 +103,8 @@
 	},
 	{
 		"name": "Shock II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Shock I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
@@ -100,6 +113,8 @@
 	},
 	{
 		"name": "Shock III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Shock II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
@@ -109,6 +124,8 @@
 
 	{
 		"name": "Drill I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
         "column": 5,
@@ -116,6 +133,8 @@
 	},
 	{
 		"name": "Drill II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Drill I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
@@ -124,6 +143,8 @@
 	},
 	{
 		"name": "Drill III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Drill II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
@@ -132,122 +153,34 @@
 	},
 	{
 		"name": "Charge",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Mounted","Armored"],
         "column": 6,
         "row": 2
 	},
-	{
-		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
-		"prerequisites": ["Shock II","Drill II"],
-		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Sword","Gunpowder"],
-        "column": 6,
-        "row": 3
-	},
-	{
-		"name": "Formation I",
-		"prerequisites": ["Shock II","Drill II"], // G&K also has Accuracy II & Barrage II as possible prerequisites for this, but I couldn't find a source for the unittypes
-		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted"],
-        "column": 7,
-        "row": 2
-	},
-	{
-		"name": "Formation II",
-		"prerequisites": ["Formation I"],
-		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted"],
-        "column": 7,
-        "row": 3
-	},
+	
 
 	{
 		"name": "Blitz",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
         "column": 6,
         "row": 4
 	},
-	{
-		"name": "Amphibious",
-		"prerequisites": ["Shock I", "Drill I"],
-		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Sword","Gunpowder"],
-        "column": 6,
-        "row": 1
-	},
-	{
-		"name": "Medic",
-		"prerequisites": ["Shock I", "Drill I", "Scouting II", "Survivalism II"],
-		"uniques": ["All adjacent units heal [+5] HP when healing"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout"],
-        "column": 10, // after scout base
-        "row": 1
-	},
-	{
-		"name": "Medic II",
-		"prerequisites": ["Medic"],
-		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+5] HP when healing"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout"],
-        "column": 10,
-        "row": 2
-	},
+	
 
-	// Scout
-	{
-		"name": "Scouting I",
-		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Scout"],
-        "column": 8,
-        "row": 1
-	},
-	{
-		"name": "Scouting II",
-		"prerequisites": ["Scouting I"],
-		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Scout"],
-        "column": 8,
-        "row": 2
-	},
-	{
-		"name": "Scouting III",
-		"prerequisites": ["Scouting II"],
-		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Scout"],
-        "column": 8,
-        "row": 3
-	},
-	{
-		"name": "Survivalism I",
-		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
-		"unitTypes": ["Scout"],
-        "column": 9,
-        "row": 1
-	},
-	{
-		"name": "Survivalism II",
-		"prerequisites": ["Survivalism I"],
-		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
-		"unitTypes": ["Scout"],
-        "column": 9,
-        "row": 2
-	},
-	{
-		"name": "Survivalism III",
-		"prerequisites": ["Survivalism II"],
-		"uniques": ["Unit will heal every turn, even if it performs an action", "Withdraws before melee combat <with [75]% chance>"], // This number is not based on any source
-		"unitTypes": ["Scout"],
-        "column": 9,
-        "row": 3
-	},
-
-
+	
 	// Water melee
 	{
 		"name": "Boarding Party I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Melee Water"],
         "column": 11,
@@ -255,6 +188,8 @@
 	},
 	{
 		"name": "Boarding Party II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Boarding Party I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Melee Water"],
@@ -263,6 +198,8 @@
 	},
 	{
 		"name": "Boarding Party III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Boarding Party II"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Melee Water"],
@@ -272,6 +209,8 @@
 
 	{
 		"name": "Coastal Raider I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["Melee Water"],
         "column": 12,
@@ -279,6 +218,8 @@
 	},
 	{
 		"name": "Coastal Raider II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Coastal Raider I"],
 		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["Melee Water"],
@@ -287,6 +228,8 @@
 	},
 	{
 		"name": "Coastal Raider III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Coastal Raider II"],
 		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["Melee Water"],
@@ -295,6 +238,8 @@
 	},
 	{
 		"name": "Landing Party",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"uniques": ["Eliminates combat penalty for attacking across a coast"],
 		"unitTypes": ["Melee Water"],
         "column": 12,
@@ -304,6 +249,8 @@
 	// Water Ranged
 	{
 		"name": "Targeting I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Ranged Water"],
         "column": 13,
@@ -311,6 +258,8 @@
 	},
 	{
 		"name": "Targeting II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Targeting I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Ranged Water"],
@@ -319,6 +268,8 @@
 	},
 	{
 		"name": "Targeting III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Targeting II"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
 		"unitTypes": ["Ranged Water"],
@@ -329,6 +280,8 @@
 	// Submarine
 	{
 		"name": "Wolfpack I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"uniques": ["[+25]% Strength <when attacking>"],
 		"unitTypes": ["Submarine"],
         "column": 14,
@@ -336,6 +289,8 @@
 	},
 	{
 		"name": "Wolfpack II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Wolfpack I"],
 		"uniques": ["[+25]% Strength <when attacking>"],
 		"unitTypes": ["Submarine"],
@@ -344,6 +299,8 @@
 	},
 	{
 		"name": "Wolfpack III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Wolfpack II"],
 		"uniques": ["[+25]% Strength <when attacking>"],
 		"unitTypes": ["Submarine"],
@@ -354,6 +311,8 @@
 	// Aircraft Carrier
 	{
 		"name": "Armor Plating I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["Aircraft Carrier"],
         "column": 15,
@@ -361,6 +320,8 @@
 	},
 	{
 		"name": "Armor Plating II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Armor Plating I"],
 		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["Aircraft Carrier"],
@@ -369,6 +330,8 @@
 	},
 	{
 		"name": "Armor Plating III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Armor Plating II"],
 		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["Aircraft Carrier"],
@@ -377,6 +340,8 @@
 	},
 	{
 		"name": "Flight Deck I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
 		"unitTypes": ["Aircraft Carrier"],
         "column": 16,
@@ -384,6 +349,8 @@
 	},
 	{
 		"name": "Flight Deck II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Flight Deck I"],
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
 		"unitTypes": ["Aircraft Carrier"],
@@ -392,6 +359,8 @@
 	},
 	{
 		"name": "Flight Deck III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Flight Deck II"],
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
 		"unitTypes": ["Aircraft Carrier"],
@@ -402,6 +371,8 @@
 	// Mixed Water
 	{
 		"name" : "Supply",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Bombardment III", "Targeting III", "Boarding Party III", "Coastal Raider III"],
 		"uniques": ["May heal outside of friendly territory", "[+15] HP when healing <in [Foreign Land] tiles>"],
 		"unitTypes": ["Melee Water", "Ranged Water"],
@@ -412,29 +383,37 @@
 	// Bomber
 	{
 		"name": "Siege I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"uniques": ["[+33]% Strength <vs cities>"],
-		"unitTypes": ["Bomber"],
+		"unitTypes": ["Bomber","Artillery"],
         "column": 17,
         "row": 1
 	},
 	{
 		"name": "Siege II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Siege I"],
 		"uniques": ["[+33]% Strength <vs cities>"],
-		"unitTypes": ["Bomber"],
+		"unitTypes": ["Bomber","Artillery"],
         "column": 17,
         "row": 2
 	},
 	{
 		"name": "Siege III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Siege II"],
 		"uniques": ["[+34]% Strength <vs cities>"],
-		"unitTypes": ["Bomber"],
+		"unitTypes": ["Bomber","Artillery"],
         "column": 17,
         "row": 3
 	},
 	{
 		"name": "Evasion",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Siege II", "Bombardment II"],
 		"uniques": ["Damage taken from interception reduced by [50]%"],
 		"unitTypes": ["Bomber"],
@@ -445,6 +424,8 @@
 	// Aircraft
 	{
 		"name": "Interception I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"uniques": ["[+33]% Damage when intercepting"],
 		"unitTypes": ["Fighter"],
         "column": 18,
@@ -452,6 +433,8 @@
 	},
 	{
 		"name": "Interception II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Interception I"],
 		"uniques": ["[+33]% Damage when intercepting"],
 		"unitTypes": ["Fighter"],
@@ -460,6 +443,8 @@
 	},
 	{
 		"name": "Interception III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Interception II"],
 		"uniques": ["[+34]% Damage when intercepting"],
 		"unitTypes": ["Fighter"],
@@ -468,6 +453,8 @@
 	},
 	{
 		"name": "Dogfighting I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"uniques": ["[+33]% Strength when performing Air Sweep"],
 		"unitTypes": ["Fighter"],
         "column": 19,
@@ -475,6 +462,8 @@
 	},
 	{
 		"name": "Dogfighting II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Dogfighting I"],
 		"uniques": ["[+33]% Strength when performing Air Sweep"],
 		"unitTypes": ["Fighter"],
@@ -483,6 +472,8 @@
 	},
 	{
 		"name": "Dogfighting III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Dogfighting II"],
 		"uniques": ["[+34]% Strength when performing Air Sweep"],
 		"unitTypes": ["Fighter"],
@@ -491,6 +482,8 @@
 	},
 	{
 		"name": "Air Targeting I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Interception I","Siege I","Bombardment I","Dogfighting I"],
 		"uniques": ["[+33]% Strength <vs [Water] units>"],
 		"unitTypes": ["Fighter","Bomber"],
@@ -499,6 +492,8 @@
 	},
 	{
 		"name": "Air Targeting II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Air Targeting I"],
 		"uniques": ["[+33]% Strength <vs [Water] units>"],
 		"unitTypes": ["Fighter","Bomber"],
@@ -508,6 +503,8 @@
 
 	{
 		"name": "Sortie",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Interception II", "Dogfighting II"],
 		"uniques": ["[1] extra interceptions may be made per turn"],
 		"unitTypes": ["Fighter"],
@@ -517,14 +514,18 @@
 
 	{
 		"name": "Operational Range",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Interception I", "Dogfighting I", "Siege I", "Bombardment I"],
 		"uniques": ["[+2] Range"],
-		"unitTypes": ["Fighter","Bomber"],
+		"unitTypes": ["Fighter","Bomber","Artillery"],
         "column": 21,
         "row": 1
 	},
 	{
 		"name": "Air Repair",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Interception II", "Dogfighting II", "Siege II", "Bombardment II", "Mobility II", "Anti-Armor II"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Fighter", "Bomber", "Helicopter"],
@@ -535,31 +536,39 @@
 	// Helicopter
 	{
 		"name": "Mobility I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Helicopter"],
+		"unitTypes": ["Helicopter","Drone"],
         "column": 22,
         "row": 1
 	},
 	{
 		"name": "Mobility II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Mobility I"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Helicopter"],
+		"unitTypes": ["Helicopter","Drone"],
         "column": 22,
         "row": 2
 	},
 	{
 		"name": "Anti-Armor I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"uniques": ["[+25]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Helicopter"],
+		"unitTypes": ["Helicopter","Drone"],
         "column": 23,
         "row": 1
 	},
 	{
 		"name": "Anti-Armor II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Anti-Armor I"],
 		"uniques": ["[+25]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Helicopter"],
+		"unitTypes": ["Helicopter","Drone"],
         "column": 23,
         "row": 2
 	},
@@ -567,30 +576,38 @@
 	// Mixed
 	{
 		"name": "Cover I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Machinegun","Siege","Drone"],
         "column": 24,
         "row": 1
 	},
 	{
 		"name": "Cover II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Cover I"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Machinegun","Siege","Drone"],
         "column": 24,
         "row": 2
 	},
 
 	{
 		"name": "March",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Mounted"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Machinegun","Siege","Mounted"],
         "column": 10,
         "row": 3
 	},
 	{
 		"name": "Mobility",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Shock II","Drill II","Targeting I",
 			"Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I"],
 		"uniques": ["[+1] Movement"],
@@ -600,6 +617,8 @@
 	},
 	{
 		"name": "Sentry",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
 		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water"],
@@ -608,16 +627,20 @@
 	},
 	{
 		"name": "Logistics",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
 			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III", "Mobility II", "Anti-Armor II"],
 		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
-		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Fighter","Bomber","Helicopter"],
+		"unitTypes": ["Archery","Machinegun","Siege","Melee Water","Ranged Water","Submarine","Fighter","Bomber","Helicopter"],
         "column": 24,
         "row": 5
 	},
 
 	{
 		"name": "Ambush I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"uniques": ["[+33]% Strength <vs [Armored] units>"],
 		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber"],
         "column": 25,
@@ -625,12 +648,289 @@
 	},
 	{
 		"name": "Ambush II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
 		"prerequisites": ["Ambush I"],
 		"uniques": ["[+33]% Strength <vs [Armored] units>"],
 		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber"],
         "column": 25,
         "row": 2
 	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//// DOC
+	{
+		"name": "Instruction I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>","[+10]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant"],
+        "column": 30,
+        "row": 30
+	},
+	{
+		"name": "Instruction II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Instruction I"],
+		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>","[+10]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant"],
+        "column": 31,
+        "row": 31
+	},
+	{
+		"name": "Instruction III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Instruction II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>","[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant"],
+        "column": 32,
+        "row": 32
+	},
+	{
+		"name": "Entrenched I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+15]% Strength <when defending>"],
+		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant"],
+        "column": 33,
+        "row": 33
+	},
+	{
+		"name": "Entrenched II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Entrenched I"],
+		"uniques": ["[+15]% Strength <when defending>"],
+		"unitTypes": ["Infantry"],
+        "column": 34,
+        "row": 34
+	},
+	{
+		"name": "Entrenched III",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Entrenched II"],
+		"uniques": ["[+20]% Strength <when defending>"],
+		"unitTypes": ["Infantry"],
+        "column": 35,
+        "row": 35
+	},
+	{
+		"name": "Canteen",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Entrenched II"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>","[+15] HP when healing <in [Desert] tiles>"],
+		"unitTypes": ["Infantry"],
+        "column": 36,
+        "row": 36
+	},
+	{
+		"name": "Coat",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Instruction II"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>","[+15] HP when healing <in [Tundra] tiles>"],
+		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant"],
+        "column": 37,
+        "row": 37
+	},
+	{
+		"name": "Veterany I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Instruction I","Entrenched I"],
+		"uniques": ["[1] additional attacks per turn","[+5]% Strength bonus for [Wounded] units within [2] tiles"],
+		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant"],
+        "column": 38,
+        "row": 38
+	},
+	{
+		"name": "Veterany II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Veterany I"],
+		"uniques": ["[+10]% Strength bonus for [Wounded] units within [2] tiles"],
+		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant"],
+        "column": 39,
+        "row": 39
+	},
+	{
+		"name": "Mortar Equipment",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Instruction II"],
+		"uniques": ["[+30]% Strength <vs [Water] units>"],
+		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant"],
+        "column": 40,
+        "row": 40
+	},
+	{
+		"name": "Siege Specialist",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Entrenched II"],
+		"uniques": ["[+20]% Strength <vs cities>","Earn [40]% of the damage done to [City] units as [Gold]"],
+		"unitTypes": ["Infantry"],
+        "column": 41,
+        "row": 41
+	},
+	{
+		"name": "Flamethrower",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Instruction III"],
+		"uniques": ["[+20]% Strength","Only available <starting from the [First World War]>"],
+		"unitTypes": ["Infantry","Camel","Elephant"],
+        "column": 42,
+        "row": 42
+	},
+	{
+		"name": "Cannibalism",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Entrenched III"],
+		"uniques": ["Heals [35] damage if it kills a unit","Only available <starting from the [First World War]>"],
+		"unitTypes": ["Infantry"],
+        "column": 43,
+        "row": 43
+	},
+	{
+		"name": "Camel Odor",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+20]% Strength <vs [Light Cavalry] units>","[+20]% Strength <vs [Heavy Cavalry] units>"],
+		"unitTypes": ["Camel"],
+        "column": 44,
+        "row": 44
+	},
+	{
+		"name": "Gallop I",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+30]% XP gained from combat"],
+		"unitTypes": ["Light Cavalry","Heavy Cavalry"],
+        "column": 45,
+        "row": 45
+	},
+	{
+		"name": "Gallop II",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"prerequisites": ["Gallop I"],
+		"uniques": ["[+10]% XP gained from combat","Double movement in [Grassland]","Double movement in [Plains]"],
+		"unitTypes": ["Light Cavalry","Heavy Cavalry"],
+        "column": 46,
+        "row": 46
+	},
+////// Archaic Units
+
+{
+	"name": "Modernization I",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"uniques": ["[+25]% XP gained from combat","[+5]% Strength","[+5]% Strength <vs [Light Cavalry] units>","[+5]% Strength <vs [Heavy Cavalry] units>"],
+	"unitTypes": ["Archaic Infantry"],
+	"column": 47,
+	"row": 47
+},
+{
+	"name": "Modernization II",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Modernization I"],
+	"uniques": ["[+25]% XP gained from combat","[+5]% Strength","[+5]% Strength <vs [Light Cavalry] units>","[+5]% Strength <vs [Heavy Cavalry] units>"],
+	"unitTypes": ["Archaic Infantry"],
+	"column": 48,
+	"row": 48
+},
+{
+	"name": "Modernization III",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Modernization II"],
+	"uniques": ["[+25]% XP gained from combat","[+5]% Strength","[+5]% Strength <vs [Light Cavalry] units>","[+5]% Strength <vs [Heavy Cavalry] units>","[+15]% Strength <vs [Infantry] units>"],
+	"unitTypes": ["Archaic Infantry"],
+	"column": 49,
+	"row": 49
+},
+{
+	"name": "Equipment I",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"uniques": ["[+5]% Strength <vs cities>","[+1] Movement"],
+	"unitTypes": ["Archaic Infantry"],
+	"column": 50,
+	"row": 50
+},
+{
+	"name": "Equipment II",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Equipment I"],
+	"uniques": ["[+1] Movement","[+2] HP when healing <in [Foreign Land] tiles>"],
+	"unitTypes": ["Archaic Infantry"],
+	"column": 51,
+	"row": 51
+},
+{
+	"name": "Equipment III",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Equipment II"],
+	"uniques": ["[+1] Sight","[+6] HP when healing <in [Foreign Land] tiles>"],
+	"unitTypes": ["Archaic Infantry"],
+	"column": 52,
+	"row": 52
+},
+{
+	"name": "Conqueror",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"uniques": ["[+100]% Strength <when defending> <when [Embarked]>"],
+	"unitTypes": ["Archaic Infantry"],
+	"column": 53,
+	"row": 53
+},
+{
+	"name": "Desert Warrior",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"uniques": ["[+30]% Strength <when fighting in [Desert] tiles>"],
+	"unitTypes": ["Archaic Infantry"],
+	"column": 54,
+	"row": 54
+},
+//////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	// Water ranged and air units

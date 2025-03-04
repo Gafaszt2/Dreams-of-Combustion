@@ -1,5 +1,4 @@
 [	
-	// Bonus resources
         {
 		"name": "Cattle",
 		"resourceType": "Bonus",
@@ -8,6 +7,15 @@
 		"improvement": "Ranch",
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [18] tiles <in [Grassland] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"]
+	},
+	{
+		"name": "Camel",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Desert"],
+		"food": 1,
+		"improvement": "Ranch",
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [20] tiles <in [Desert] tiles>"]
 	},
         {
 		"name": "Lobster",

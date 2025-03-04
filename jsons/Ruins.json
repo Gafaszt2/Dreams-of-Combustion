@@ -37,7 +37,7 @@
     {
         "name": "discover a lost technology",
         "notification": "We exchanged the Native Slaves for a new tech called [techName]",
-        "uniques": ["[1] free random researchable Tech(s) from the [National Victorian era]"],
+        "uniques": ["[1] free random researchable Tech(s) from the [Industrial Era]"],
 		"color": "#7f7fff"
     },
     {

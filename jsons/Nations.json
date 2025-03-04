@@ -110,8 +110,8 @@
 		"neutralHello": "Hello.",
 		"hateHello": "We do not fear war",
 		"tradeRequest": "Check out this",
-		"outerColor": [255, 232, 232],
-		"innerColor": [245, 93, 66],
+		"outerColor": [255, 255, 255],
+		"innerColor": [191, 67, 0],
 		"favoredReligion": "Catholic",
 		"uniqueName": "Miskito Coast",
 		"uniques": ["[+1 Food] from every [Hunter Lodge]","[+1 Production] from every [Fishing Boats]","[+1 Food] from every [Fishing Boats]"],
@@ -141,7 +141,7 @@
 		"innerColor": [138, 115, 56],
 		"favoredReligion": "Wakan Tanka",
 		"uniqueName": "Once They Moved Like the Wind",
-		"uniques": ["No movement cost to pillage <for [Mounted] units>","[+1] Movement <for [Mounted] units>","[-50]% maintenance costs <for [Mounted] units>"],
+		"uniques": ["No movement cost to pillage <for [Light Cavalry] units>","[+1] Movement <for [Light Cavalry] units>","[-50]% maintenance costs <for [Light Cavalry] units>"],
 		"cities": ["Tiiis Tseba", "Chichiil Bidagoteel", "Teehach", "Tichlog", "Kiis Chiintiidn", "Ts Tsskidn", "Dzi Likesilan", "Tsebainasti", "Hakiy", "Ts L' tah", "Naleei Danakaiy", "T' Yadnlin", "Nagonltin", "Chichiil da'kizh", "Izee Dighin", "Ts Dadlit'as", "T' Edn", "Tse Nanesnasdz", "Ts Ya Kih Nastl"],
         "spyNames": ["Saki"]
     },
@@ -299,7 +299,7 @@
 		"innerColor": [169, 171, 212],
                 "favoredReligion": "Orthodox",
 		"uniqueName": "Hej Slaveni",
-		"uniques": ["[+1 Gold, +2 Production] per every [5] [Culture]","New [Military] units start with [15] Experience [in all cities] <upon declaring war with a major Civilization>"],
+		"uniques": ["[+1 Gold, +2 Production] per every [5] [Culture]","New [Military] units start with [15] XP [in all cities] <upon declaring war with a major Civilization>"],
 		"cities": ["Belgrade", "Zagreb", "Sarajevo", "Skopje", "Ljubljana", "Titograd", "Split", "Pristina", "Novi Sad", "Nis", "Banja Luka", "Rijeka", "Maribor", "Mostar", "Osijek", "Zadar", "Kragujevac", "Tuzla", "Subotica", "Pula", "Zenica", "Prizren", "Mitrovica", "Niksic", "Cacak", "Bitola", "Kraljevo", "Kumanovo", "Novi Pazar"],
 	}
 
@@ -378,7 +378,7 @@
 		"innerColor": [250, 10, 34],
                 "favoredReligion": "Islam",
 		"uniqueName": "The Horn Resistance",
-		"uniques": ["[+2 Faith] from every [Fort]","[+2 Faith] from every [Citadel]","[Mounted] units gain the [Charge] promotion <before the [First World War]>"],
+		"uniques": ["[+2 Faith] from every [Fort]","[+2 Faith] from every [Citadel]","[Light Cavalry] units gain the [Charge] promotion <before the [First World War]>"],
 		"cities": ["Taleh", "Buuhoodle", "Las Anod", "Beledweyne", "Galkayo", "Werder", "Galdogob", "Garoowe", "Dhusamareb", "Mustahil", "Kalabaydh", "Bacadweyn", "Geladin", "Ferfer", "Gori Rit", "Farlibaax", "Dudub", "Xaaballas", "Mugul", "Badhan", "Erigavo", "Aynabo"],
 	}
 
@@ -548,7 +548,8 @@
 		"innerColor": [250, 225, 244],
                 "favoredReligion": "Manaism",
 		"uniqueName": "Aloha Spirit",
-		"uniques": ["Enables embarkation for land units <starting from the [National Victorian era]>", "Enables [All] units to enter ocean tiles <starting from the [National Victorian era]>",
+		"uniques": ["Enables embarkation for land units <starting from the [Industrial Era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
+            "Enables [All] units to enter ocean tiles <starting from the [Industrial Era]>",
  "[+1] Sight <for [Embarked] units>"],
 		"cities": ["Honolulu",
 "Hilo",
@@ -876,7 +877,7 @@
 		"innerColor": [110, 36, 2],
                 "favoredReligion": "Islam",
 		"uniqueName": "Gateway to Africa",
-		"uniques": ["Gifts of Gold to City-States generate [+50]% more Influence","[+50]% resources gifted by City-States"],
+		"uniques": ["[+20]% Strength <for [Camel] units>","Gifts of Gold to City-States generate [+50]% more Influence","[+50]% resources gifted by City-States"],
 		"cities": ["Fez","Marrakech","Mequinez","Rabat","Tanger","Sale","Uchda","Kenitra","Agadir","Tetuan"],
 	},
 {
@@ -1188,7 +1189,7 @@
 		"innerColor": [0, 60, 97],
                 "favoredReligion": "Catholic",
 		"uniqueName": "Pear of the Orient Seas",
-		"uniques": ["[+1 Culture] from every [Coast]","[+3 Faith] [in all cities] <with [3] to [4] neighboring [Coast] tiles>"],
+		"uniques": ["[+1 Culture] from every [Coast]","[+2 Faith] [in all cities] <with [1] to [2] neighboring [Coast] tiles>","[+3 Faith] [in all cities] <with [3] to [4] neighboring [Coast] tiles>"],
 		"cities": ["Manila","Quezon City","Boracay","Cebú","Puerto Princesa","El Nido","Bohol","Davao","Baguio","Siargao","Corón","Tagaytay","Makati","Taguig","Dumaguete","Bacólod","Puerto Galera","Sagada","Laoag","Zamboanga"]
 	},
 {
@@ -1214,7 +1215,7 @@
 		"innerColor": [64, 62, 43],
                 "favoredReligion": "Islam",
 		"uniqueName": "Desert Nomads",
-		"uniques": ["[+10]% Production when constructing [Melee] units [in all cities]","[+10]% Strength <when fighting units from a Civilization with more Cities than you>","[+1 Food] from every [Desert]","[+4 Culture] [in all cities] <with [3] to [4] neighboring [Desert] tiles>","[+6 Culture] [in all cities] <with [5] to [6] neighboring [Desert] tiles>"],
+		"uniques": ["[+10]% Strength <for [Camel] units>","[+25]% Strength <for [Heavy Cavalry] units>","Cannot build [Settler] units","May not annex cities"],
 		"cities": ["Al Ramlah","Ibexia","Badiyatun","Oasisend","Al Khaimah","Al Jamalah","Rihlatun","Al Ma anah", "Al Hurriyah"]
 	},
 {
@@ -1266,7 +1267,7 @@
 		"innerColor": [65, 29, 39],
                 "favoredReligion": "Orthodox",
 		"uniqueName": "Winged Hussars",
-		"uniques": ["[+20]% Production when constructing [Mounted] units [in all cities]", "[+1 Faith] from every [Mill]","[+1 Gold] from every [House]"],
+		"uniques": ["[+20]% Production when constructing [Light Cavalry] units [in all cities]", "[+1 Faith] from every [Mill]","[+1 Gold] from every [House]"],
 		"cities": ["Warsaw","Cracovia","Breslavia","Poznan","Zakopane","Gdynia","Lodz","Szczecin","Torun","Lublin","Kolobrezeg","Sopot"]
 	},
 {
@@ -1848,7 +1849,7 @@
 		"innerColor": [255, 255, 255],
                 "favoredReligion": "Islam",
 		"uniqueName": "Graveyard of Empires",
-		"uniques": ["[+20]% Strength <vs [Ranged Gunpowder] units>", "[+1 Culture] from every [Hill]","[+1 Faith] from every [Mountain]"],
+		"uniques": ["[+25]% Strength <for [Camel] units>", "[+1 Culture] from every [Hill]","[+1 Faith] from every [Mountain]"],
 		"cities": ["Kabul","Kandahar","Herat","Mazar I Shariff", "Jalalabad", "Kunduz", "Ghazni", "Balkh", "Baghlan", "Gardez", "Khost", "Maymana", "Khanabad", "Taloqan", "Pul e Khumri", "Sari Pul", "Paghman"],
 	},
 {
@@ -2006,8 +2007,8 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [59, 177, 45],
-		"innerColor": [254, 232, 79],
+		"outerColor": [31, 107, 51],
+		"innerColor": [255, 254, 181],
 		"uniqueName": "Imperio da Grandeza",
 		"uniques": ["[+2 Culture] from every [Lakes]", "[+2 Food] from every [Lakes]", "[+2 Gold] from every [Slave Labor Plantation]"],
 		"cities": ["Rio de Janeiro","Sao Paulo","Salvador","Fortalezaq","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
@@ -2038,7 +2039,7 @@
 
 		"favoredReligion": "Catholic",
 		"uniqueName": "Double Monarchy",
-		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns."],
+		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns"],
 		"cities": ["Vienna", "Salzburg", "Graz", "Linz", "Klagenfurt", "Bregenz", "Innsbruck", "Kitzbühel",
 			"St. Pölten", "Eisenstadt", "Villach", "Zwettl", "Traun", "Wels", "Dornbirn", "Feldkirch",
 			"Amstetten", "Bad Ischl", "Wolfsberg", "Kufstein", "Leoben", "Klosterneuburg", "Leonding",
@@ -2079,7 +2080,7 @@
     {
 		"name": "British Raj",
 		"leaderName": "Louis Mountbatten",
-		"adjective": ["Indian"],
+		"adjective": ["British Raj"],
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Supremacy",
 
@@ -2098,11 +2099,119 @@
         "innerColor": [255, 163, 71],
 
 		"favoredReligion": "Hinduism",
-		"uniqueName": "Queen´s Jewelry",
-		"uniques": ["[+1 Gold] from every [River]","[+1 Faith] from every [Hill]"],
+		"uniqueName": "Oppression",
+		"uniques": ["[+2 Gold] in cities on [River] tiles","[+2 Gold] in cities on [Hill] tiles","[+2 Gold] in cities on [Jungle] tiles","[+35]% [Gold] [in all cities]","[-10]% [Happiness] [in all cities]"],
 		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
 			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
 			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
+        "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]
+    },
+	{
+		"name": "Colony of Malaysia",
+		"leaderName": "Sir Henry Gurney",
+		"adjective": ["Colony of Malaysia"],
+		"startBias": ["Coast","Jungle"],
+		"preferredVictoryType": "Supremacy",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "I have just received a report that large numbers of my troops have crossed your borders.",
+		"attacked": "My attempts to avoid violence have failed. An eye for an eye only makes the world blind.",
+		"defeated": "No, this cannot be possible!.",
+		"introduction": "Hello, the Raj recieves you with pleasure.",
+		"neutralHello": "Hello.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "My friend, are you interested in this arrangement?",
+
+        "outerColor": [10, 18, 79],
+        "innerColor": [179, 102, 255],
+
+		"favoredReligion": "Islam",
+		"uniqueName": "The Crown's Jewel",
+		"uniques": ["[+4 Gold] from every [Luxury resource]","[+1 Gold] from every [Coast]"],
+		"cities": ["Kuala Lumpur",
+"Penang",
+"Malacca",
+"Ipoh",
+"Johor Bahru",
+"Kota Kinabalu",
+"Kuching",
+"George Town",
+"Alor Setar",
+"Seremban"],
+        "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]
+    },
+	{
+		"name": "British Trucial States",
+		"leaderName": "Sheikh Zayed bin Khalifa Al Nahyan",
+		"adjective": ["British Trucial States"],
+		"startBias": ["Coast","Desert"],
+		"preferredVictoryType": "Supremacy",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "I have just received a report that large numbers of my troops have crossed your borders.",
+		"attacked": "My attempts to avoid violence have failed. An eye for an eye only makes the world blind.",
+		"defeated": "No, this cannot be possible!.",
+		"introduction": "Hello, the Raj recieves you with pleasure.",
+		"neutralHello": "Hello.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "My friend, are you interested in this arrangement?",
+
+        "outerColor": [10, 18, 79],
+        "innerColor": [255, 171, 227],
+
+		"favoredReligion": "Islam",
+		"uniqueName": "Pearl of the Gulf",
+		"uniques": ["[+2 Gold] from every [Coast]","[+1 Science] from every [Strategic resource]","[+1 Gold] from every [Camel]"],
+		"cities": ["Abu Dhabi",
+"Dubai",
+"Sharjah",
+"Ajman",
+"Umm Al Quwain",
+"Fujairah",
+"Ras Al Khaimah",
+"Kalba",
+"Al Hamriyah",
+"Al Heera"],
+        "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]
+    },
+	{
+		"name": "British Hong Kong",
+		"leaderName": "Pearl of the Orient",
+		"adjective": ["British Hong Kong"],
+		"startBias": ["Coast","Jungle"],
+		"preferredVictoryType": "Supremacy",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "I have just received a report that large numbers of my troops have crossed your borders.",
+		"attacked": "My attempts to avoid violence have failed. An eye for an eye only makes the world blind.",
+		"defeated": "No, this cannot be possible!.",
+		"introduction": "Hello, the Raj recieves you with pleasure.",
+		"neutralHello": "Hello.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "My friend, are you interested in this arrangement?",
+
+        "outerColor": [10, 18, 79],
+        "innerColor": [212, 196, 255],
+
+		"favoredReligion": "Buddhism",
+		"uniqueName": "Pearl of the Orient",
+		"uniques": ["Free [Great Merchant] appears <upon entering a Golden Age>","Free [Great Merchant] appears <upon adopting [Imperialism]>","[+1 Food] from all [Gold] buildings"],
+		"cities": ["Victoria City",
+"Kowloon",
+"Aberdeen",
+"Tsuen Wan",
+"Sha Tin",
+"Yuen Long",
+"Tuen Mun",
+"Tai Po",
+"Fanling",
+"Sheung Shui"],
         "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]
     },
 {
@@ -2128,7 +2237,7 @@
 
 		"favoredReligion": "Islam",
 		"uniqueName": "Barbary Corsairs",
-		"uniques": ["[+1 Faith] [in all cities] <before discovering [Steam Power]>"
+		"uniques": ["[+1 Faith] [in all cities] <before discovering [Steam Power]>",
 			"When defeating a [{Barbarian} {Land}] unit, earn [25] Gold and recruit it <with [50]% chance>", "[+50]% Yield from every [Desert]"],
 		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya",
 			"Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin",
@@ -2669,7 +2778,7 @@ Nixon Bureaucratic Reforms
 		"innerColor": [207, 223, 250],
 		"favoredReligion": "Animism",
 		"uniqueName": "Frontier Cavalry",
-		"uniques": ["[+20]% Production when constructing [Mounted] units [in all cities]","[+50]% Yield from every [Hill]","[+1 Faith] from every [Mill]"],
+		"uniques": ["[+20]% Production when constructing [Heavy Cavalry] units [in all cities]","[+50]% Yield from every [Hill]","[+1 Faith] from every [Mill]"],
 		"cities": ["Santiago","Valparaiso","Copiapo","Antofagasta","Iquique","Valdivia","Rancagua","Concepcion","La Serena","Temuco","Osorno","Port Montt", "Arica","Calama","Valparaiso","Talca","Chillan","Quellon","Chaiten","Puerto Aysen","Cochrane","Natales Port","Punta Arenas", "Los Angeles","Quillota","Coronel-Lota","Curico","San Antonio","Melipilla","Ovalle","Los Andes"]
         "spyNames": ["Saki"]
     },
