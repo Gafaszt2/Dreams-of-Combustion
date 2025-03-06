@@ -1,6 +1,9 @@
 {
     "name": "Global uniques",
-    "uniques": ["May buy [Great Artist] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
+    "uniques": [
+        
+        
+        "May buy [Great Artist] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
         "May buy [Great Engineer] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
         "May buy [Great General] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
         "May buy [Great Merchant] units for [1000] [Faith] [in all cities] at an increasing price ([500])",

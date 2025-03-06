@@ -43,7 +43,6 @@
                     "Each city founded increases culture cost of policies [20]% less than normal",
                     "Empire enters golden age"
                 ],
-                "requires": ["Collective Rule"],
                 "row": 2,
                 "column": 5
             },
@@ -52,7 +51,6 @@
                 "uniques": [
                     "[+4 Faith] [in capital]"
                 ],
-                "requires": ["Citizenship"],
                 "row": 2,
                 "column": 3
             },
@@ -110,7 +108,6 @@
                     "[+10]% growth [in capital]",
                     "[+2 Happiness] [in capital]"
                 ],
-                "requires": ["Global Diplomacy"],
                 "row": 2,
                 "column": 5
             },
@@ -119,7 +116,6 @@
                 "uniques": [
                     "[+30]% Yield from every [Strategic resource]"
                 ],
-                "requires": ["Colonialism"],
                 "row": 2,
                 "column": 3
             },
@@ -171,28 +167,18 @@
                 "column": 3
             },
             {
-                "name": "Parlament Union",
-                "uniques": [
-                    "Gain a free [Central Industry] [in capital]"
-                ],
-                "row": 1,
-                "column": 7
-            },
-            {
                 "name": "Technology Innovation",
                 "uniques": [
                     "[+2 Science] [in capital]"
                 ],
-                "requires": ["Independent Workshops"],
                 "row": 2,
                 "column": 5
             },
             {
                 "name": "Democracy",
                 "uniques": [
-                    "[+20]% Yield from every [Bonus resource]"
+                    "[+30]% Yield from every [Bonus resource]"
                 ],
-                "requires": ["Sindicalism"],
                 "row": 2,
                 "column": 3
             },
@@ -246,7 +232,6 @@
                 "uniques": [
                     "[+15]% to Flank Attack bonuses <vs [Land] units>"
                 ],
-                "requires": ["Peace Conferency"],
                 "row": 2,
                 "column": 5
             },
@@ -299,9 +284,8 @@
             {
                 "name": "Doctors go to War",
                 "uniques": [
-                    "Free [Medic] appears"
+                    "[+20]% Strength <when defending> <when adjacent to a [Medic] unit>","Free [Medic] appears"
                 ],
-                "requires": ["Defense Ways"],
                 "row": 2,
                 "column": 5
             },
@@ -359,7 +343,6 @@
                 "uniques": [
                     "[+25]% Strength <for [Wounded] units>"
                 ],
-                "requires": ["Global Diplomacy"],
                 "row": 2,
                 "column": 5
             },
@@ -406,7 +389,7 @@
             {
                 "name": "Proletary Internationalism",
                 "uniques": [
-                    "[+1 Gold] from every [Luxury resource]"
+                    "[+1 Gold] from every [Luxury resource]",
                     "[+1 Gold] per [5] population [in all cities]"
                 ],
                 "row": 1,
@@ -418,7 +401,6 @@
                     "[+10]% growth [in capital]",
                     "[+2 Happiness] [in capital]"
                 ],
-                "requires": ["Global Diplomacy"],
                 "row": 2,
                 "column": 5
             },
@@ -476,7 +458,6 @@
                 "uniques": [
                     "[+1 Happiness] from every [Strategic resource]"
                 ],
-                "requires": ["Global Diplomacy"],
                 "row": 2,
                 "column": 5
             },

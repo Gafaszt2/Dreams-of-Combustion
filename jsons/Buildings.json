@@ -1,7 +1,4 @@
 [
-	// Ancient Era
-
-	// Always available
 	{
 		"name": "Palace",
 		"isNationalWonder": true,
@@ -94,6 +91,222 @@
                 "uniques": ["[1] free [Picador Infernal] units appear","[1] free [Legione Agricola] units appear"],
                 "isNationalWonder": true,
 		"requiredTech": "Novel"
+	},
+	{
+		"name": "First Generic Focus",
+        "uniques": ["Triggers a [First Generic Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Second Generic Focus",
+        "uniques": ["Triggers a [First Generic Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Third Generic Focus",
+        "uniques": ["Triggers a [First Generic Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "First ME Focus",
+        "uniques": ["Triggers a [First ME Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Second ME Focus",
+        "uniques": ["Triggers a [Second ME Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Third ME Focus",
+        "uniques": ["Triggers a [Third ME Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "War of the Triple Alliance",
+        "uniques": ["Triggers a [War of the Triple Alliance] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "First LA Focus",
+        "uniques": ["Triggers a [First LA Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Second LA Focus",
+        "uniques": ["Triggers a [Second LA Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Third LA Focus",
+        "uniques": ["Triggers a [Third LA Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "First British Focus",
+        "uniques": ["Triggers a [First British Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Second British Focus",
+        "uniques": ["Triggers a [Second British Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Third British Focus",
+        "uniques": ["Triggers a [Third British Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Raj Focus",
+        "uniques": ["Triggers a [Raj Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "South African Focus",
+        "uniques": ["Triggers a [South African Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "First Chinese Focus",
+        "uniques": ["Triggers a [First Chinese Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Second Chinese Focus",
+        "uniques": ["Triggers a [Second Chinese Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "ABAU Focus",
+        "uniques": ["Triggers a [An Unusual Chapter in Australian History] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Meiji Restauration Focus",
+        "uniques": ["Triggers a [Meiji Restauration] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "First PO Focus",
+        "uniques": ["Triggers a [First PO Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Second PO Focus",
+        "uniques": ["Triggers a [Second PO Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Third PO Focus",
+        "uniques": ["Triggers a [Third PO Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "First AFR Focus",
+        "uniques": ["Triggers a [First AFR Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Second AFR Focus",
+        "uniques": ["Triggers a [Second AFR Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Third AFR Focus",
+        "uniques": ["Triggers a [Third AFR Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "First SEA Focus",
+        "uniques": ["Triggers a [First SEA Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Second SEA Focus",
+        "uniques": ["Triggers a [Second SEA Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Third SEA Focus",
+        "uniques": ["Triggers a [Third SEA Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "America Focus",
+        "uniques": ["Triggers a [America Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Mongolia Focus",
+        "uniques": ["Triggers a [Battles of Khalkhin Gol] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Germany Focus",
+        "uniques": ["Triggers a [Germany Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Switzerland Focus",
+        "uniques": ["Triggers a [Switzerland Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Russia Focus",
+        "uniques": ["Triggers a [Russia Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Italy Focus",
+        "uniques": ["Triggers a [Italy Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Finland Focus",
+        "uniques": ["Triggers a [Finland Focus] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
+	},
+	{
+		"name": "Zulu Focus",
+        "uniques": ["Triggers a [Battle of Isandlwana] event","Unbuildable","Cannot be purchased","Moves to new capital when capital changes"],
+        "isNationalWonder": true,
+		"requiredTech": "Settlement"
 	},
         {
 		"name": "Vehicle Factory",
@@ -894,6 +1107,20 @@
 		"uniques": ["Must be on [Desert]","[+1 Food] from [Deer] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]"],
+	},
+	{
+		"name": "Ajagwar",
+		"replaces": "Factory",
+		"uniqueTo": "Circassia",
+		"cost": 360,
+		"production": 4,
+		"culture": 3,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Workshop",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredTech": "Electricity"
 	},
 {
 		"name": "Granary",
