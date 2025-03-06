@@ -1,0 +1,1769 @@
+[
+    {
+        "name": "Finland Focus",
+        "text": "The world is once again engulfed in war, and our nation stands at a critical crossroads. This focus will lead us in adopting a comprehensive strategy to confront the looming threats and secure our future. We must strengthen our military capabilities, develop advanced weaponry, and coordinate our efforts with allied nations. Additionally, we must address the home front, ensuring our citizens' morale and well-being remain strong. For nations influenced by the war's far-reaching effects, strategic planning and collaboration will be key to navigating this turbulent period and emerging stronger",
+        "choices": [
+                {
+                        "text": "Winter War",
+                        "uniques": [
+                        "[+15]% Production when constructing [Infantry] units [in all cities] <for [110] turns>","Gain [200] [Culture]","[Land] units gain the [Flamethrower] promotion"]
+      },
+      {
+                        "text": "Internationalism Focus",
+                        "uniques": [
+                        "Free Great Person","[4] population [in all cities]"]
+     },
+     {
+                        "text": "Alliance with the Allies",
+                        "uniques": [
+                        "[2] Free Technologies"]
+    },
+    {
+        "text": "Nuclear Effort",
+        "uniques": [
+        "[+45]% Production when constructing [Atomic Bomb] units [in all cities] <for [110] turns>"]
+    },
+    {
+        "text": "Continuation War Alliance",
+        "uniques": [
+        "[+35]% Production when constructing [Infantry] units [in all cities] <for [110] turns>"]
+    },
+    {
+        "text": "Flexible Navy",
+        "uniques": [
+        "[+35]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Aviation Effort",
+        "uniques": [
+        "[+35]% Production when constructing [Fighter] units [in all cities] <for [100] turns>","[+35]% Production when constructing [Bomber] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Nokia Industry",
+        "uniques": [
+        "[+40]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+40]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+    },
+    {
+        "text": "Strict Neutrality",
+        "uniques": [
+        "Gain [2000] [Gold]"]
+    },
+    {
+        "text": "Political Effort.",
+        "uniques": [
+        "[1] Free Social Policies"]
+    }
+
+        ]
+},
+    {
+        "name": "Italy Focus",
+        "text": "The world is once again engulfed in war, and our nation stands at a critical crossroads. This focus will lead us in adopting a comprehensive strategy to confront the looming threats and secure our future. We must strengthen our military capabilities, develop advanced weaponry, and coordinate our efforts with allied nations. Additionally, we must address the home front, ensuring our citizens' morale and well-being remain strong. For nations influenced by the war's far-reaching effects, strategic planning and collaboration will be key to navigating this turbulent period and emerging stronger",
+        "choices": [
+                {
+                        "text": "March on Rome",
+                        "uniques": [
+                        "[+19]% Production when constructing [Infantry] units [in all cities] <for [110] turns>","Gain [200] [Culture]","[Land] units gain the [Flamethrower] promotion"]
+      },
+      {
+                        "text": "Overthrow Mussolini",
+                        "uniques": [
+                        "Free Great Person","[4] population [in all cities]"]
+     },
+     {
+                        "text": "Italian Republic",
+                        "uniques": [
+                        "[2] Free Technologies"]
+    },
+    {
+        "text": "Nuclear Effort",
+        "uniques": [
+        "[+45]% Production when constructing [Atomic Bomb] units [in all cities] <for [110] turns>"]
+    },
+    {
+        "text": "Roman Empire Revival",
+        "uniques": [
+        "[+70]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+35]% Production when constructing [Infantry] units [in all cities] <for [110] turns>","[+40]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+    },
+    {
+        "text": "Restore the Monarchy",
+        "uniques": [
+        "Gain [1700] [Gold]","[1] Free Social Policies"]
+    }
+
+        ]
+},
+{
+    "name": "Russia Focus",
+    "text": "The world is once again engulfed in war, and our nation stands at a critical crossroads. This focus will lead us in adopting a comprehensive strategy to confront the looming threats and secure our future. We must strengthen our military capabilities, develop advanced weaponry, and coordinate our efforts with allied nations. Additionally, we must address the home front, ensuring our citizens' morale and well-being remain strong. For nations influenced by the war's far-reaching effects, strategic planning and collaboration will be key to navigating this turbulent period and emerging stronger",
+    "choices": [
+            {
+                    "text": "Red Army",
+                    "uniques": [
+                    "Free Great Person","[4] population [in all cities]","[+35]% Production when constructing [Infantry] units [in all cities] <for [110] turns>"]
+ },
+ {
+                    "text": "Alliance with the Allies",
+                    "uniques": [
+                    "[2] Free Technologies"]
+},
+{
+    "text": "Technological Superiority",
+    "uniques": [
+    "[+45]% Production when constructing [Atomic Bomb] units [in all cities] <for [110] turns>"]
+},
+{
+    "text": "Restore the Monarchy",
+    "uniques": [
+    "[+40]% Production when constructing [Gold] buildings [in all cities] <for [190] turns>","[+35]% Production when constructing [Water] units [in all cities] <for [100] turns>","[+35]% Production when constructing [Fighter] units [in all cities] <for [100] turns>"]
+},
+{
+    "text": "Civil Rights Movement",
+    "uniques": [
+    "[+40]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+40]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+},
+{
+    "text": "Orthodox Revival",
+    "uniques": [
+    "Gain [2000] [Gold]","Gain [300] [Faith]"]
+},
+{
+    "text": "Political Effort.",
+    "uniques": [
+    "[1] Free Social Policies"]
+}
+
+    ]
+},
+    {
+        "name": "Switzerland Focus",
+        "text": "The world is once again engulfed in war, and our nation stands at a critical crossroads. This focus will lead us in adopting a comprehensive strategy to confront the looming threats and secure our future. We must strengthen our military capabilities, develop advanced weaponry, and coordinate our efforts with allied nations. Additionally, we must address the home front, ensuring our citizens' morale and well-being remain strong. For nations influenced by the war's far-reaching effects, strategic planning and collaboration will be key to navigating this turbulent period and emerging stronger",
+        "choices": [
+                {
+                        "text": "Alliance with the Axis",
+                        "uniques": [
+                        "[+15]% Production when constructing [Infantry] units [in all cities] <for [110] turns>","Gain [200] [Culture]","[Land] units gain the [Flamethrower] promotion"]
+      },
+      {
+                        "text": "Alliance with the Soviets",
+                        "uniques": [
+                        "Free Great Person","[4] population [in all cities]"]
+     },
+     {
+                        "text": "Alliance with the Allies",
+                        "uniques": [
+                        "[2] Free Technologies"]
+    },
+    {
+        "text": "Nuclear Effort",
+        "uniques": [
+        "[+45]% Production when constructing [Atomic Bomb] units [in all cities] <for [110] turns>"]
+    },
+    {
+        "text": "Neutrality and Defense",
+        "uniques": [
+        "[+35]% Strength <when fighting in [Friendly Land] tiles> <for [110] turns>", "[Gold] cost of purchasing items in cities [-10]% <for [110] turns>", "[-15]% Strength <when attacking> <for [110] turns>"]
+    },
+    {
+        "text": "Resource Stockpiling",
+        "uniques": [
+        "Provides [15] [Oil] <for [210] turns>","Provides [10] [Computer] <for [210] turns>"]
+    },
+    {
+        "text": "National Redoubt",
+        "uniques": [
+        "[+40]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+40]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+    },
+    {
+        "text": "Swiss Banks",
+        "uniques": [
+        "Gain [3500] [Gold]"]
+    },
+    {
+        "text": "Diplomatic Maneuvering.",
+        "uniques": [
+        "[1] Free Social Policies"]
+    }
+
+        ]
+},
+{
+    "name": "Germany Focus",
+    "text": "The world is once again engulfed in war, and our nation stands at a critical crossroads. This focus will lead us in adopting a comprehensive strategy to confront the looming threats and secure our future. We must strengthen our military capabilities, develop advanced weaponry, and coordinate our efforts with allied nations. Additionally, we must address the home front, ensuring our citizens' morale and well-being remain strong. For nations influenced by the war's far-reaching effects, strategic planning and collaboration will be key to navigating this turbulent period and emerging stronger",
+    "choices": [
+            {
+                    "text": "Reichstag Fire Decree",
+                    "uniques": [
+                    "[+15]% Production when constructing [Infantry] units [in all cities] <for [110] turns>","Gain [200] [Culture]","[Land] units gain the [Flamethrower] promotion"]
+  },
+  {
+                    "text": "Overthrow the Regime",
+                    "uniques": [
+                    "Free Great Person","[4] population [in all cities]"]
+ },
+ {
+    "text": "New Weimar Republic",
+    "uniques": [
+    "Free Great Person","[+10]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+35]% Production when constructing [Armored] units [in all cities] <for [300] turns>"]
+},
+ {
+                    "text": "Allied Cooperation",
+                    "uniques": [
+                    "[2] Free Technologies"]
+},
+{
+    "text": "Nuclear Effort",
+    "uniques": [
+    "[+45]% Production when constructing [Atomic Bomb] units [in all cities] <for [110] turns>"]
+},
+{
+    "text": "Doctrine Effort",
+    "uniques": [
+    "[+35]% Production when constructing [Infantry] units [in all cities] <for [110] turns>"]
+},
+{
+    "text": "Flexible Navy",
+    "uniques": [
+    "[+35]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+},
+{
+    "text": "Aviation Effort",
+    "uniques": [
+    "[+35]% Production when constructing [Fighter] units [in all cities] <for [100] turns>","[+35]% Production when constructing [Bomber] units [in all cities] <for [100] turns>"]
+},
+{
+    "text": "Infrastructure Effort",
+    "uniques": [
+    "[+40]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+40]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+},
+{
+    "text": "Economy Effort",
+    "uniques": [
+    "Gain [2000] [Gold]"]
+},
+{
+    "text": "Political Effort.",
+    "uniques": [
+    "[1] Free Social Policies"]
+}
+
+    ]
+},
+    {
+        "name": "Third AFR Focus",
+        "text": "The world is once again engulfed in war, and our nation stands at a critical crossroads. This focus will lead us in adopting a comprehensive strategy to confront the looming threats and secure our future. We must strengthen our military capabilities, develop advanced weaponry, and coordinate our efforts with allied nations. Additionally, we must address the home front, ensuring our citizens' morale and well-being remain strong. For nations influenced by the war's far-reaching effects, strategic planning and collaboration will be key to navigating this turbulent period and emerging stronger",
+        "choices": [
+                {
+                        "text": "African Fascism",
+                        "uniques": [
+                        "[+15]% Production when constructing [Infantry] units [in all cities] <for [110] turns>","Gain [200] [Culture]","[Land] units gain the [Flamethrower] promotion"]
+      },
+      {
+                        "text": "African Communist Movement",
+                        "uniques": [
+                        "Free Great Person","[4] population [in all cities]"]
+     },
+     {
+                        "text": "Technology Sharing",
+                        "uniques": [
+                        "[2] Free Technologies"]
+    },
+    {
+        "text": "Great Project",
+        "uniques": [
+        "[+45]% Production when constructing [Atomic Bomb] units [in all cities] <for [110] turns>"]
+    },
+    {
+        "text": "African Axis",
+        "uniques": [
+        "[+45]% Production when constructing [Infantry] units [in all cities] <for [110] turns>"]
+    },
+    {
+        "text": "Flexible Navy",
+        "uniques": [
+        "[+35]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Aviation Effort",
+        "uniques": [
+        "[+35]% Production when constructing [Fighter] units [in all cities] <for [100] turns>","[+35]% Production when constructing [Bomber] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Infrastructure Effort",
+        "uniques": [
+        "[+40]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+40]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+    },
+    {
+        "text": "Economy Effort",
+        "uniques": [
+        "Gain [2000] [Gold]"]
+    },
+    {
+        "text": "Humanitarian Effort.",
+        "uniques": [
+        "[1] Free Social Policies"]
+    }
+
+        ]
+},
+{
+        "name": "Second AFR Focus",
+        "text": "With the outbreak of the Great War, our nation must prepare for an unprecedented conflict that will test our strength and resilience. This focus will guide us in mobilizing our armed forces, fortifying our defenses, and forging strategic alliances. Even for those nations that remain neutral, the global impact of this war will influence our economic and political decisions. We must support our troops with adequate supplies and resources to ensure their success on the battlefield, and navigate the complex web of international relations that shape this era",
+        "choices": [
+    {
+        "text": "The Lions",
+        "uniques": [
+        "[+25]% Production when constructing [Infantry] units [in all cities] <for [110] turns>"]
+    },
+    {
+        "text": "Flexible Navy",
+        "uniques": [
+        "[+25]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "The African Eagles",
+        "uniques": [
+        "[+25]% Production when constructing [Fighter] units [in all cities] <for [100] turns>","[+25]% Production when constructing [Bomber] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Improve Irrigation",
+        "uniques": [
+        "[+30]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+30]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+    },
+    {
+        "text": "Economy Effort",
+        "uniques": [
+        "Gain [1000] [Gold]"]
+    },
+    {
+        "text": "Build an Government.",
+        "uniques": [
+        "[1] Free Social Policies"]
+    }
+
+        ]
+},
+{
+        "name": "First AFR Focus",
+        "text": "Welcome to the dawn of a new era! As a leader of an African nation on the brink of industrialization, you stand at a crossroads where tradition meets innovation. The industrial era promises unprecedented opportunities for growth, modernization, and progress, but it also presents challenges that will test your leadership and vision.
+
+Your nation is rich in cultural heritage, natural resources, and the resilience of its people. The path to industrialization will require you to harness these strengths, navigate the complexities of modernization, and balance the preservation of your unique identity with the demands of progress.
+
+Guide your nation through this transformative period, fostering economic development, social advancements, and technological innovations. Unite your people, forge strategic alliances, and build a legacy that will shape the future of your nation and inspire generations to come.",
+        "choices": [
+    {
+        "text": "Promote the Tribal War",
+        "uniques": [
+        "[+20]% Production when constructing [Infantry] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Naval Effort",
+        "uniques": [
+        "[+20]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Industrial Effort",
+        "uniques": [
+        "[+15]% [Production] [in all cities] <for [150] turns>"]
+    },
+    {
+        "text": "Infrastructure Effort",
+        "uniques": [
+        "[+20]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+20]% Production when constructing [Food] buildings [in all cities] <for [120] turns>"]
+    },
+    {
+        "text": "Golden Mines",
+        "uniques": [
+        "Gain [325] [Gold]"]
+    },
+    {
+        "text": "Enforce the Askari",
+        "uniques": [
+        "[1] free [Line Infantry] units appear"]
+    },
+    {
+        "text": "Political Effort.",
+        "uniques": [
+        "[1] Free Social Policies"]
+    }
+
+        ]
+}
+    {
+        "name": "Third SEA Focus",
+        "text": "The world is once again engulfed in war, and our nation stands at a critical crossroads. This focus will lead us in adopting a comprehensive strategy to confront the looming threats and secure our future. We must strengthen our military capabilities, develop advanced weaponry, and coordinate our efforts with allied nations. Additionally, we must address the home front, ensuring our citizens' morale and well-being remain strong. For nations influenced by the war's far-reaching effects, strategic planning and collaboration will be key to navigating this turbulent period and emerging stronger",
+        "choices": [
+                {
+                        "text": "Adopt Fascism",
+                        "uniques": [
+                        "[+15]% Production when constructing [Infantry] units [in all cities] <for [110] turns>","Gain [200] [Culture]","[Land] units gain the [Flamethrower] promotion"]
+      },
+      {
+                        "text": "Adopt Communism",
+                        "uniques": [
+                        "Free Great Person","[4] population [in all cities]"]
+     },
+     {
+                        "text": "Temple Schools",
+                        "uniques": [
+                        "[2] Free Technologies"]
+    },
+    {
+        "text": "Nuclear Effort",
+        "uniques": [
+        "[+45]% Production when constructing [Atomic Bomb] units [in all cities] <for [110] turns>"]
+    },
+    {
+        "text": "Doctrine Effort",
+        "uniques": [
+        "[+35]% Production when constructing [Infantry] units [in all cities] <for [110] turns>"]
+    },
+    {
+        "text": "Flexible Navy",
+        "uniques": [
+        "[+35]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Aviation Effort",
+        "uniques": [
+        "[+35]% Production when constructing [Fighter] units [in all cities] <for [100] turns>","[+35]% Production when constructing [Bomber] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Infrastructure Effort",
+        "uniques": [
+        "[+40]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+40]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+    },
+    {
+        "text": "Economy Effort",
+        "uniques": [
+        "Gain [2000] [Gold]"]
+    },
+    {
+        "text": "Political Effort.",
+        "uniques": [
+        "[1] Free Social Policies"]
+    }
+
+        ]
+},
+{
+        "name": "Second SEA Focus",
+        "text": "With the outbreak of the Great War, our nation must prepare for an unprecedented conflict that will test our strength and resilience. This focus will guide us in mobilizing our armed forces, fortifying our defenses, and forging strategic alliances. Even for those nations that remain neutral, the global impact of this war will influence our economic and political decisions. We must support our troops with adequate supplies and resources to ensure their success on the battlefield, and navigate the complex web of international relations that shape this era",
+        "choices": [
+    {
+        "text": "Divine Protectors",
+        "uniques": [
+        "[+25]% Production when constructing [Infantry] units [in all cities] <for [110] turns>"]
+    },
+    {
+        "text": "Flexible Navy",
+        "uniques": [
+        "[+25]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Sky Tigers",
+        "uniques": [
+        "[+25]% Production when constructing [Fighter] units [in all cities] <for [100] turns>","[+25]% Production when constructing [Bomber] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Mystic Weavers",
+        "uniques": [
+        "[+30]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+30]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+    },
+    {
+        "text": "Spice Trade Revival",
+        "uniques": [
+        "Gain [1000] [Gold]"]
+    },
+    {
+        "text": "Political Effort.",
+        "uniques": [
+        "[1] Free Social Policies"]
+    }
+
+        ]
+},
+{
+        "name": "First SEA Focus",
+        "text": "As our nation transitions into the industrial age, we must prioritize the modernization of our infrastructure and industries. This focus will enable us to harness the power of steam and machinery, driving economic growth and technological advancement. By investing in factories, railways, and new technologies, we will lay the foundation for a prosperous and powerful nation. Let us seize this opportunity to lead the world in innovation and progress, while respecting the unique cultural identities that shape our diverse society",
+        "choices": [
+    {
+        "text": "Sultan's Mandate",
+        "uniques": [
+        "Gain [55] [Gold]","[+20]% Production when constructing [Infantry] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Naval Effort",
+        "uniques": [
+        "[+20]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Industrial Effort",
+        "uniques": [
+        "[+15]% [Production] [in all cities] <for [150] turns>"]
+    },
+    {
+        "text": "Shadow Network",
+        "uniques": [
+        "[+20]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+20]% Production when constructing [Food] buildings [in all cities] <for [120] turns>"]
+    },
+    {
+        "text": "Economy Effort",
+        "uniques": [
+        "Gain [325] [Gold]"]
+    },
+    {
+        "text": "Alliance of Islands",
+        "uniques": [
+        "Gain [55] [Gold]","[1] free [Worker] units appear"]
+    },
+    {
+        "text": "Council of Rajas.",
+        "uniques": [
+        "Gain [55] [Gold]","[1] Free Social Policies"]
+    }
+
+        ]
+}
+    {
+        "name": "Third PO Focus",
+        "text": "The world is once again engulfed in war, and our nation stands at a critical crossroads. This focus will lead us in adopting a comprehensive strategy to confront the looming threats and secure our future. We must strengthen our military capabilities, develop advanced weaponry, and coordinate our efforts with allied nations. Additionally, we must address the home front, ensuring our citizens' morale and well-being remain strong. For nations influenced by the war's far-reaching effects, strategic planning and collaboration will be key to navigating this turbulent period and emerging stronger",
+        "choices": [
+                {
+                        "text": "Embrace the German Polynessia",
+                        "uniques": [
+                        "[+15]% Production when constructing [Infantry] units [in all cities] <for [110] turns>","Gain [200] [Culture]","[Land] units gain the [Flamethrower] promotion"]
+      },
+      {
+                        "text": "Embrace the Soviet Polynessia",
+                        "uniques": [
+                        "Free Great Person","[4] population [in all cities]"]
+     },
+     {
+                        "text": "Join the Allies",
+                        "uniques": [
+                        "[2] Free Technologies"]
+    },
+    {
+        "text": "Mana o te Iwi",
+        "uniques": [
+        "[+45]% Production when constructing [Atomic Bomb] units [in all cities] <for [110] turns>"]
+    },
+    {
+        "text": "Doctrine Effort",
+        "uniques": [
+        "[+35]% Production when constructing [Infantry] units [in all cities] <for [110] turns>"]
+    },
+    {
+        "text": "Taonga tuku Iiho",
+        "uniques": [
+        "[+39]% Production when constructing [Water] units [in all cities] <for [160] turns>"]
+    },
+    {
+        "text": "The Hawks",
+        "uniques": [
+        "[+35]% Production when constructing [Fighter] units [in all cities] <for [100] turns>","[+35]% Production when constructing [Bomber] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "British Advanced Tools",
+        "uniques": [
+        "[+40]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+40]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+    },
+    {
+        "text": "Economy Effort",
+        "uniques": [
+        "Gain [2000] [Gold]"]
+    },
+    {
+        "text": "Political Effort.",
+        "uniques": [
+        "[1] Free Social Policies"]
+    }
+
+        ]
+},
+{
+        "name": "Second PO Focus",
+        "text": "With the outbreak of the Great War, our nation must prepare for an unprecedented conflict that will test our strength and resilience. This focus will guide us in mobilizing our armed forces, fortifying our defenses, and forging strategic alliances. Even for those nations that remain neutral, the global impact of this war will influence our economic and political decisions. We must support our troops with adequate supplies and resources to ensure their success on the battlefield, and navigate the complex web of international relations that shape this era",
+        "choices": [
+    {
+        "text": "Marksmen",
+        "uniques": [
+        "[+25]% Production when constructing [Infantry] units [in all cities] <for [110] turns>"]
+    },
+    {
+        "text": "Flexible Navy",
+        "uniques": [
+        "[+25]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "The Hawks",
+        "uniques": [
+        "[+25]% Production when constructing [Fighter] units [in all cities] <for [100] turns>","[+25]% Production when constructing [Bomber] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "European Tools",
+        "uniques": [
+        "[+30]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+30]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+    },
+    {
+        "text": "Golden Nature Gifts",
+        "uniques": [
+        "Gain [1000] [Gold]"]
+    },
+    {
+        "text": "United Society.",
+        "uniques": [
+        "[1] Free Social Policies"]
+    }
+
+        ]
+},
+{
+        "name": "First PO Focus",
+        "text": "As our nation transitions into the industrial age, we must prioritize the modernization of our infrastructure and industries. This focus will enable us to harness the power of steam and machinery, driving economic growth and technological advancement. By investing in factories, railways, and new technologies, we will lay the foundation for a prosperous and powerful nation. Let us seize this opportunity to lead the world in innovation and progress, while respecting the unique cultural identities that shape our diverse society",
+        "choices": [
+    {
+        "text": "Forced Modernization",
+        "uniques": [
+        "[+20]% Production when constructing [Infantry] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Naval Effort",
+        "uniques": [
+        "[+20]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Community",
+        "uniques": [
+        "[+15]% [Production] [in all cities] <for [150] turns>"]
+    },
+    {
+        "text": "Embrace the Elder Spirits",
+        "uniques": [
+        "[+20]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+20]% Production when constructing [Food] buildings [in all cities] <for [120] turns>"]
+    },
+    {
+        "text": "Kava Party",
+        "uniques": [
+        "Gain [325] [Gold]"]
+    },
+    {
+        "text": "Builders",
+        "uniques": [
+        "[1] free [Worker] units appear"]
+    },
+    {
+        "text": "Political Effort.",
+        "uniques": [
+        "[1] Free Social Policies"]
+    }
+
+        ]
+}
+    {
+        "name": "America Focus",
+        "text": "The world is once again engulfed in war, and our nation stands at a critical crossroads. This focus will lead us in adopting a comprehensive strategy to confront the looming threats and secure our future. We must strengthen our military capabilities, develop advanced weaponry, and coordinate our efforts with allied nations. Additionally, we must address the home front, ensuring our citizens' morale and well-being remain strong. For nations influenced by the war's far-reaching effects, strategic planning and collaboration will be key to navigating this turbulent period and emerging stronger",
+        "choices": [
+                {
+                        "text": "Paramiliatrism",
+                        "uniques": [
+                        "[+15]% Production when constructing [Infantry] units [in all cities] <for [110] turns>","Gain [200] [Culture]","[Land] units gain the [Flamethrower] promotion"]
+      },
+      {
+                        "text": "Communist America",
+                        "uniques": [
+                        "Free Great Person","[4] population [in all cities]"]
+     },
+     {
+        "text": "Embrace the Colonial Past",
+        "uniques": [
+        "[1] Free Technologies","[2] population [in all cities]"]
+},
+     {
+                        "text": "Fascist America",
+                        "uniques": [
+                        "[2] Free Technologies"]
+    },
+    {
+        "text": "Nuclear Effort",
+        "uniques": [
+        "[+45]% Production when constructing [Atomic Bomb] units [in all cities] <for [110] turns>"]
+    },
+    {
+        "text": "Doctrine Effort",
+        "uniques": [
+        "[+35]% Production when constructing [Infantry] units [in all cities] <for [110] turns>"]
+    },
+    {
+        "text": "Flexible Navy",
+        "uniques": [
+        "[+35]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Aviation Effort",
+        "uniques": [
+        "[+35]% Production when constructing [Fighter] units [in all cities] <for [100] turns>","[+35]% Production when constructing [Bomber] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Infrastructure Effort",
+        "uniques": [
+        "[+40]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+40]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+    },
+    {
+        "text": "Economy Effort",
+        "uniques": [
+        "Gain [2000] [Gold]"]
+    },
+    {
+        "text": "Political Effort.",
+        "uniques": [
+        "[1] Free Social Policies"]
+    }
+
+        ]
+},
+    {
+        "name": "Meiji Restauration",
+        "text": "The Meiji Restoration was a period of profound transformation that laid the foundation for Japan's emergence as a major international power. It marked the transition from a feudal society to a modern, industrialized nation, setting the stage for Japan's future growth and development",
+        "choices": [
+    {
+        "text": "Centralization of Power",
+        "uniques": [
+        "[+24]% Production when constructing [Infantry] units [in all cities] <for [110] turns>"]
+    },
+    {
+        "text": "Naval Effort",
+        "uniques": [
+        "[+20]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Westernization",
+        "uniques": [
+        "[+15]% [Production] [in all cities] <for [175] turns>"]
+    },
+    {
+        "text": "Infrastructure Effort",
+        "uniques": [
+        "[+20]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+20]% Production when constructing [Food] buildings [in all cities] <for [120] turns>"]
+    },
+    {
+        "text": "Land Tax Reform",
+        "uniques": [
+        "Gain [325] [Gold]"]
+    },
+    {
+        "text": "Abolition of the Feudal System",
+        "uniques": [
+        "[1] free [Worker] units appear"]
+    },
+    {
+        "text": "Political Effort.",
+        "uniques": [
+        "[1] Free Social Policies"]
+    }
+
+        ]
+}
+    {
+        "name": "Second Chinese Focus",
+        "text": "The world is once again engulfed in war, and our nation stands at a critical crossroads. This focus will lead us in adopting a comprehensive strategy to confront the looming threats and secure our future. We must strengthen our military capabilities, develop advanced weaponry, and coordinate our efforts with allied nations. Additionally, we must address the home front, ensuring our citizens' morale and well-being remain strong. For nations influenced by the war's far-reaching effects, strategic planning and collaboration will be key to navigating this turbulent period and emerging stronger",
+        "choices": [
+                {
+                        "text": "Communist Guerilla Warfare",
+                        "uniques": [
+                        "[+15]% Production when constructing [Infantry] units [in all cities] <for [110] turns>","Gain [200] [Culture]","[Land] units gain the [Flamethrower] promotion"]
+      },
+      {
+                        "text": "Pan-Asian Solidarity",
+                        "uniques": [
+                        "Free Great Person","[4] population [in all cities]"]
+     },
+     {
+                        "text": "Join the Allies",
+                        "uniques": [
+                        "[2] Free Technologies"]
+    },
+    {
+        "text": "Dragon's Wrath",
+        "uniques": [
+        "[+45]% Production when constructing [Atomic Bomb] units [in all cities] <for [110] turns>"]
+    },
+    {
+        "text": "Yunnan Cooperation",
+        "uniques": [
+        "[+35]% Production when constructing [Infantry] units [in all cities] <for [110] turns>"]
+    },
+    {
+        "text": "Naval Raiding Operations",
+        "uniques": [
+        "[+35]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Aviation Effort",
+        "uniques": [
+        "[+35]% Production when constructing [Fighter] units [in all cities] <for [100] turns>","[+35]% Production when constructing [Bomber] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Infrastructure Effort",
+        "uniques": [
+        "[+40]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+40]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+    },
+    {
+        "text": "Economy Effort",
+        "uniques": [
+        "Gain [2000] [Gold]"]
+    },
+    {
+        "text": "Mongolian Negotiations.",
+        "uniques": [
+        "[1] Free Social Policies"]
+    }
+
+        ]
+},
+    {
+        "name": "First Chinese Focus",
+        "text": "As our nation transitions into the industrial age, we must prioritize the modernization of our infrastructure and industries. This focus will enable us to harness the power of steam and machinery, driving economic growth and technological advancement. By investing in factories, railways, and new technologies, we will lay the foundation for a prosperous and powerful nation. Let us seize this opportunity to lead the world in innovation and progress, while respecting the unique cultural identities that shape our diverse society",
+        "choices": [
+    {
+        "text": "Army Effort",
+        "uniques": [
+        "[+20]% Production when constructing [Infantry] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Modern Shipyards",
+        "uniques": [
+        "[+20]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Yangtze River Delta Industrial Zone",
+        "uniques": [
+        "[+15]% [Production] [in all cities] <for [150] turns>"]
+    },
+    {
+        "text": "Infrastructure Effort",
+        "uniques": [
+        "[+20]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+20]% Production when constructing [Food] buildings [in all cities] <for [120] turns>"]
+    },
+    {
+        "text": "Economy Effort",
+        "uniques": [
+        "Gain [325] [Gold]"]
+    },
+    {
+        "text": "Regional Specialization",
+        "uniques": [
+        "[1] free [Worker] units appear"]
+    },
+    {
+        "text": "Revival of Confucian Values.",
+        "uniques": [
+        "[1] Free Social Policies"]
+    }
+
+        ]
+},
+    {
+        "name": "South African Focus",
+        "text": "During World War II, South Africa played a significant role as part of the British Empire. The country was divided on whether to join the war, with Prime Minister J.B.M. Hertzog advocating for neutrality and General Jan Smuts pushing for participation on the side of the Allies. Ultimately, Smuts prevailed, and South Africa declared war on Germany and the Axis powers on September 6, 1939.
+
+South African forces were involved in several key campaigns, including the North African and East African campaigns. The South African Air Force made notable contributions, such as performing the first Allied bombing run of the war2. South African troops also fought in Italy and Madagascar.
+
+The war had a significant impact on South Africa's economy and society. The manufacturing industry expanded, and the number of people employed in this sector increased by 60% between 1939 and 1945. However, the post-war period brought challenges, including supply shortages and political resistance",
+        "choices": [
+            {
+                "text": "Fascist South Africa",
+                "uniques": [
+                "[+35]% Production when constructing [Armored] units [in all cities] <for [150] turns>","[Land] units gain the [Instruction I] promotion"]
+},
+            {
+                "text": "Evoke a new Zulu King",
+                "uniques": [
+                "[+50]% Production when constructing [Infantry] units [in all cities] <for [200] turns>","[Land] units gain the [Equipment I] promotion","[Land] units gain the [Equipment II] promotion"]
+},
+                {
+                        "text": "Support the Boers",
+                        "uniques": [
+                        "[+15]% Production when constructing [Infantry] units [in all cities] <for [110] turns>","Gain [200] [Culture]","[Land] units gain the [Flamethrower] promotion"]
+      },
+      {
+                        "text": "Soviet South Africa",
+                        "uniques": [
+                        "Free Great Person","[4] population [in all cities]"]
+     },
+     {
+                        "text": "CSIR",
+                        "uniques": [
+                        "[2] Free Technologies"]
+    },
+    {
+        "text": "Nuclear Effort",
+        "uniques": [
+        "[+45]% Production when constructing [Atomic Bomb] units [in all cities] <for [110] turns>"]
+    },
+    {
+        "text": "Flexible Navy",
+        "uniques": [
+        "[+35]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Aviation Effort",
+        "uniques": [
+        "[+35]% Production when constructing [Fighter] units [in all cities] <for [100] turns>","[+35]% Production when constructing [Bomber] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Infrastructure Effort",
+        "uniques": [
+        "[+40]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+40]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+    },
+    {
+        "text": "Economy Effort",
+        "uniques": [
+        "Gain [2000] [Gold]"]
+    },
+    {
+        "text": "Political Effort.",
+        "uniques": [
+        "[1] Free Social Policies"]
+    }
+
+        ]
+},
+    {
+        "name": "Raj Focus",
+        "text": "The world is once again engulfed in war, and our nation stands at a critical crossroads. This focus will lead us in adopting a comprehensive strategy to confront the looming threats and secure our future. We must strengthen our military capabilities, develop advanced weaponry, and coordinate our efforts with allied nations. Additionally, we must address the home front, ensuring our citizens' morale and well-being remain strong. For nations influenced by the war's far-reaching effects, strategic planning and collaboration will be key to navigating this turbulent period and emerging stronger",
+        "choices": [
+                {
+                        "text": "Paramiliatrism",
+                        "uniques": [
+                        "[+18]% Production when constructing [Infantry] units [in all cities] <for [110] turns>","Gain [200] [Culture]","[Land] units gain the [Flamethrower] promotion"]
+      },
+      {
+                        "text": "Seek Help From Soviet",
+                        "uniques": [
+                        "Free Great Person","[4] population [in all cities]"]
+     },
+     {
+                        "text": "Research City Excursions",
+                        "uniques": [
+                        "[2] Free Technologies"]
+    },
+    {
+        "text": "Nuclear Effort",
+        "uniques": [
+        "[+45]% Production when constructing [Atomic Bomb] units [in all cities] <for [110] turns>"]
+    },
+    {
+        "text": "Swaraj",
+        "uniques": [
+        "[+35]% Production when constructing [Infantry] units [in all cities] <for [110] turns>","[+15]% Production when constructing [Bomber] units [in all cities] <for [110] turns>"]
+    },
+    {
+        "text": "Flexible Navy",
+        "uniques": [
+        "[+35]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Aviation Effort",
+        "uniques": [
+        "[+35]% Production when constructing [Fighter] units [in all cities] <for [100] turns>","[+35]% Production when constructing [Bomber] units [in all cities] <for [100] turns>"]
+    },
+    {
+        "text": "Infrastructure Effort",
+        "uniques": [
+        "[+40]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+40]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+    },
+    {
+        "text": "All India Forward Bloc",
+        "uniques": [
+        "Gain [2400] [Gold]"]
+    },
+    {
+        "text": "Provincial Elections.",
+        "uniques": [
+        "[1] Free Social Policies"]
+    }
+
+        ]
+},
+        {
+                "name": "Third British Focus",
+                "text": "The world is once again engulfed in war, and our nation stands at a critical crossroads. This focus will lead us in adopting a comprehensive strategy to confront the looming threats and secure our future. We must strengthen our military capabilities, develop advanced weaponry, and coordinate our efforts with allied nations. Additionally, we must address the home front, ensuring our citizens' morale and well-being remain strong. For nations influenced by the war's far-reaching effects, strategic planning and collaboration will be key to navigating this turbulent period and emerging stronger",
+                "choices": [
+                    {
+                        "text": "The British Union of Fascists",
+                        "uniques": [
+                        "[3] free [Defenders of the Realm] units appear","[Land] units gain the [Flamethrower] promotion"]
+      },
+                    {
+                        "text": "The Commonwealth Federation",
+                        "uniques": [
+                        "[3] free [Great General] units appear","[1] population [in all cities]","[3] free [Worker] units appear"]
+      },
+                        {
+                                "text": "Reinstate the Monarchy",
+                                "uniques": [
+                                "Empire enters a [220]-turn Golden Age"]
+              },
+              {
+                                "text": "Internationalism Focus",
+                                "uniques": [
+                                "Free Great Person","[4] population [in all cities]"]
+             },
+             {
+                                "text": "Technology Sharing",
+                                "uniques": [
+                                "[2] Free Technologies"]
+            },
+            {
+                "text": "Nuclear Effort",
+                "uniques": [
+                "[+45]% Production when constructing [Atomic Bomb] units [in all cities] <for [110] turns>"]
+            },
+            {
+                "text": "Flexible Navy",
+                "uniques": [
+                "[+35]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Aviation Effort",
+                "uniques": [
+                "[+35]% Production when constructing [Fighter] units [in all cities] <for [100] turns>","[+35]% Production when constructing [Bomber] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Infrastructure Effort",
+                "uniques": [
+                "[+40]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+40]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+            },
+            {
+                "text": "Economy Effort",
+                "uniques": [
+                "Gain [2000] [Gold]"]
+            }
+
+                ]
+        },
+        {
+                "name": "Second British Focus",
+                "text": "With the outbreak of the Great War, our nation must prepare for an unprecedented conflict that will test our strength and resilience. This focus will guide us in mobilizing our armed forces, fortifying our defenses, and forging strategic alliances. Even for those nations that remain neutral, the global impact of this war will influence our economic and political decisions. We must support our troops with adequate supplies and resources to ensure their success on the battlefield, and navigate the complex web of international relations that shape this era",
+                "choices": [
+            {
+                "text": "Strengthening the Empire",
+                "uniques": [
+                "[1] free [Great War Infantry] units appear","[+25]% Production when constructing [Infantry] units [in all cities] <for [110] turns>"]
+            },
+            {
+                "text": "Flexible Navy",
+                "uniques": [
+                "[+25]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Aviation Effort",
+                "uniques": [
+                "[+25]% Production when constructing [Fighter] units [in all cities] <for [100] turns>","[+25]% Production when constructing [Bomber] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Colonial Contributions",
+                "uniques": [
+                "[+30]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+30]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+            },
+            {
+                "text": "Economy Effort",
+                "uniques": [
+                "Gain [1300] [Gold]"]
+            },
+            {
+                "text": "Diplomatic Maneuvers.",
+                "uniques": [
+                "[1] Free Social Policies"]
+            }
+
+                ]
+        },
+        {
+                "name": "First British Focus",
+                "text": "As our nation transitions into the industrial age, we must prioritize the modernization of our infrastructure and industries. This focus will enable us to harness the power of steam and machinery, driving economic growth and technological advancement. By investing in factories, railways, and new technologies, we will lay the foundation for a prosperous and powerful nation. Let us seize this opportunity to lead the world in innovation and progress, while respecting the unique cultural identities that shape our diverse society",
+                "choices": [
+            {
+                "text": "Colonial Forces",
+                "uniques": [
+                "[1] free [Redcoat] units appear","[+25]% Production when constructing [Infantry] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Discovery",
+                "uniques": [
+                "[+2 Science] [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Naval Supremacy",
+                "uniques": [
+                "[+20]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Industrial Era Fathers",
+                "uniques": [
+                "[+30]% [Production] [in all cities] <for [150] turns>"]
+            },
+            {
+                "text": "Political Effort.",
+                "uniques": [
+                "[1] Free Social Policies"]
+            }
+
+                ]
+        },
+        {
+                "name": "Third LA Focus",
+                "text": "During the Second World War, Latin America played a crucial role in supporting the Allied war effort. The region provided essential resources such as raw materials, foodstuffs, and strategic minerals. Countries like Brazil and Mexico sent troops to fight alongside the Allies, while others, like Argentina and Chile, maintained neutrality for most of the war. The United States expanded its influence in the region through programs like Lend-Lease, which provided economic and military aid. The war led to significant economic and political changes, including the modernization of industries and infrastructure, and the strengthening of diplomatic ties with the United States",
+                "choices": [
+                        {
+                                "text": "Logistical Support",
+                                "uniques": [
+                                "[+15]% Production when constructing [Infantry] units [in all cities] <for [110] turns>","Gain [200] [Culture]","[Land] units gain the [Flamethrower] promotion"]
+              },
+              {
+                                "text": "Authoritarian Rule",
+                                "uniques": [
+                                "Free Great Person","[4] population [in all cities]"]
+             },
+             {
+                                "text": "Technology Sharing",
+                                "uniques": [
+                                "[2] Free Technologies"]
+            },
+            {
+                "text": "Nuclear Effort",
+                "uniques": [
+                "[+45]% Production when constructing [Atomic Bomb] units [in all cities] <for [110] turns>"]
+            },
+            {
+                "text": "Blitzkrieg",
+                "uniques": [
+                "[+25]% Production when constructing [Infantry] units [in all cities] <for [110] turns>","Provides a [Factory] in your first [5] cities for free","[+10]% Production when constructing [Armored] units [in all cities] <for [110] turns>"]
+            },
+            {
+                "text": "Flexible Navy",
+                "uniques": [
+                "[+35]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Aviation Effort",
+                "uniques": [
+                "[+35]% Production when constructing [Fighter] units [in all cities] <for [100] turns>","[+35]% Production when constructing [Bomber] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Resource Plunder",
+                "uniques": [
+                "[+40]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+40]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+            },
+            {
+                "text": "Economy Effort",
+                "uniques": [
+                "Gain [2000] [Gold]"]
+            },
+            {
+                "text": "Secret Police.",
+                "uniques": [
+                "[1] Free Social Policies"]
+            }
+
+                ]
+        },
+        {
+                "name": "Second LA Focus",
+                "text": "The First World War had a profound impact on Latin America, even though the region was geographically distant from the main theaters of conflict. The war disrupted global trade, leading to economic hardships for many Latin American countries that relied on exports. The region experienced a rise in social movements and labor strikes as workers demanded better conditions and wages. Some countries, like Brazil, actively participated in the war by providing resources and support to the Allies. The war also led to a shift in political and cultural attitudes, with many Latin Americans turning away from European models and embracing new national identities",
+                "choices": [
+            {
+                "text": "Mobilization",
+                "uniques": [
+                "[+25]% Production when constructing [Infantry] units [in all cities] <for [110] turns>"]
+            },
+            {
+                "text": "Bright Future",
+                "uniques": [
+                "[+55]% Production when constructing [Science] buildings [in all cities] <for [160] turns>"]
+            },
+            {
+                "text": "Flexible Navy",
+                "uniques": [
+                "[+25]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Aviation Effort",
+                "uniques": [
+                "[+25]% Production when constructing [Fighter] units [in all cities] <for [100] turns>","[+25]% Production when constructing [Bomber] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Reconstruction Planning",
+                "uniques": [
+                "[+30]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+30]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+            },
+            {
+                "text": "Economic Stabilization",
+                "uniques": [
+                "Gain [1000] [Gold]"]
+            },
+            {
+                "text": "Neutrality and Diplomacy.",
+                "uniques": [
+                "[1] Free Social Policies"]
+            }
+
+                ]
+        },
+        {
+                "name": "First LA Focus",
+                "text": "During the Industrial Era, Latin America experienced significant economic and social transformations. The region underwent a process of industrialization, marked by the development of key industries such as textiles, mining, and agriculture. Countries like Brazil, Mexico, and Argentina saw the establishment of factories and the growth of urban centers. However, the region also faced challenges such as economic dependency on foreign investments and the exploitation of natural resources. Despite these obstacles, Latin America managed to modernize its infrastructure, improve education, and foster economic diversification",
+                "choices": [
+            {
+                "text": "Military Modernization",
+                "uniques": [
+                "[+20]% Production when constructing [Infantry] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Acorazados",
+                "uniques": [
+                "[+20]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Industrialization and Manufacturing",
+                "uniques": [
+                "[+15]% [Production] [in all cities] <for [150] turns>"]
+            },
+            {
+                "text": "Educational Reforms",
+                "uniques": [
+                "[+20]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+20]% Production when constructing [Food] buildings [in all cities] <for [120] turns>"]
+            },
+            {
+                "text": "Economy Effort",
+                "uniques": [
+                "Gain [325] [Gold]"]
+            },
+            {
+                "text": "European Immigration",
+                "uniques": [
+                "[1] free [Worker] units appear"]
+            },
+            {
+                "text": "Labor Reforms.",
+                "uniques": [
+                "[1] Free Social Policies"]
+            }
+
+                ]
+        },
+        {
+                "name": "War of the Triple Alliance",
+                "text": "The Paraguayan War, or War of the Triple Alliance, fought by
+Paraguay against Brazil, Argentina, and Uruguay (1864-1870), remains
+unique in the Latin American context in several respects. Dire in its
+duration and human toll, the war's underlying conflict was not directly
+related to specific boundary disagreements. Unlike other Latin American conflicts, the War of the Triple Alliance has stirred a passionate
+controversy involving heavy ideological connotations, with some analysts viewing it as a struggle between civilization (the Alliance) and
+barbarism (Paraguay) and others depicting it as a confrontation between British imperialism (the Alliance) and Latin American nationalism (Paraguay).
+Many attempts have been made to explain this war. A number of
+studies have assumed an apologetic approach (Garcia Mellid 1963;
+Pomer 1968; Trias 1975). Some contain careful and detailed chronological accounts (Cardozo 1967a), and others present in-depth analysis of
+the diplomatic and political dimensions of the conflict (Box 1948; Cardozo 1954, 1961). But excepting a few remarks by Robert Burr (1955), no
+one has systematically applied insights from contemporary research on
+international conflict to explain the war. Such is the goal of this article,
+albeit as a preliminary exercise subject to further refinement.
+Numerous benefits result from applying various theories of war
+to the Triple Alliance conflict. First, this exercise submits previous interpretations of the war to more rigorous tests. Second, it assesses the
+usefulness of concepts developed in the subdiscipline of international
+politics. Third and even more important, it generates a healthy revision
+of the conceptual tools used to explain armed conflicts in Latin America and opens doors to more fruitful interdisciplinary study of relations
+among Latin American countries.
+The first part of this study will briefly review the historical sequence of events that led to the war. Discussed next will be three competing models widely used in the literature on international relations to
+explain the outbreak of armed conflict-imperialism, balance of power,
+and power transition. 1 To ascertain their usefulness in explaining the
+War of the Triple Alliance, the following section will provide the data
+needed to test these models empirically. The last part will assess comparatively their explanatory power.",
+                "choices": [
+            {
+                "text": "Transit Corridor",
+                "uniques": [
+                "[+20]% Production when constructing [Infantry] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Acorazados do Rio",
+                "uniques": [
+                "[+20]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Factories",
+                "uniques": [
+                "[+15]% [Production] [in all cities] <for [150] turns>"]
+            },
+            {
+                "text": "Heavy Labor",
+                "uniques": [
+                "[+20]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+20]% Production when constructing [Food] buildings [in all cities] <for [120] turns>"]
+            },
+            {
+                "text": "Economy Effort",
+                "uniques": [
+                "Gain [455] [Gold]"]
+            },
+            {
+                "text": "European Immigration",
+                "uniques": [
+                "[1] free [Worker] units appear"]
+            },
+            {
+                "text": "Labor Reforms.",
+                "uniques": [
+                "[1] Free Social Policies"]
+            }
+
+                ]
+        },
+        {
+                "name": "Third ME Focus",
+                "text": "During the Second World War, the Middle East was a major theatre of operations, with interconnected land, naval, and air campaigns fought for control of the Mediterranean, North Africa, the Horn of Africa, and Southern Europe. The British Middle East Command played a crucial role in coordinating military operations and defending British interests in the region. Key countries such as Egypt, Iraq, Iran, and Turkey experienced political, economic, and social changes due to the war. The region's strategic importance and its resources, particularly oil, made it a focal point of the conflict. The Middle East emerged from the war with strengthened states and a central role in global geopolitics.",
+                "choices": [
+                        {
+                                "text": "Avenging the Sack of Baghdad",
+                                "uniques": [
+                                "[+25]% Production when constructing [Infantry] units [in all cities] <for [110] turns>","Gain [200] [Culture]","[Land] units gain the [Flamethrower] promotion"]
+              },
+              {
+                                "text": "Cradle of Civilization",
+                                "uniques": [
+                                "Free Great Person","[4] population [in all cities]"]
+             },
+             {
+                                "text": "Strategic Alliances",
+                                "uniques": [
+                                "[2] Free Technologies"]
+            },
+            {
+                "text": "Nuclear Effort",
+                "uniques": [
+                "[+45]% Production when constructing [Atomic Bomb] units [in all cities] <for [110] turns>"]
+            },
+            {
+                "text": "The Legacy of Cyrus the Great",
+                "uniques": [
+                "[+45]% Production when constructing [Infantry] units [in all cities] <for [110] turns>"]
+            },
+            {
+                "text": "Flexible Navy",
+                "uniques": [
+                "[+35]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Aviation Effort",
+                "uniques": [
+                "[+35]% Production when constructing [Fighter] units [in all cities] <for [100] turns>","[+35]% Production when constructing [Bomber] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "The Sands of Time",
+                "uniques": [
+                "[+50]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+50]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+            },
+            {
+                "text": "Economy Effort",
+                "uniques": [
+                "Gain [2000] [Gold]"]
+            },
+            {
+                "text": "Political Effort.",
+                "uniques": [
+                "[1] Free Social Policies"]
+            }
+
+                ]
+        },
+        {
+                "name": "Second ME Focus",
+                "text": "The Middle Eastern theatre of World War I saw significant action between October 29, 1914, and October 30, 1918. The Ottoman Empire, aligned with the Central Powers, faced the Allied forces in various campaigns, including the Gallipoli Campaign and the Caucasus Campaign. The war led to the partitioning of the Ottoman Empire and the foundation of new states in the region. The Sykes-Picot Agreement and the Balfour Declaration were key decisions that reshaped the Middle East, laying the foundation for modern nations such as Israel, Jordan, and Syria4. The region's survival during this period was marked by fluctuating alliances, strategic decisions, and the resilience of its people.",
+                "choices": [
+                        {
+                                "text": "An United Arab World",
+                                "uniques": [
+                                "[3] free [Great War Infantry] units appear","[3] free [Worker] units appear"]
+                            },
+            {
+                "text": "A look into the Past",
+                "uniques": [
+                "[+25]% Production when constructing [Infantry] units [in all cities] <for [110] turns>"]
+            },
+            {
+                "text": "Flexible Navy",
+                "uniques": [
+                "[+25]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Aviation Effort",
+                "uniques": [
+                "[+25]% Production when constructing [Fighter] units [in all cities] <for [100] turns>","[+25]% Production when constructing [Bomber] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Public Health Initiatives",
+                "uniques": [
+                "[+30]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+30]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+            },
+            {
+                "text": "Economy Effort",
+                "uniques": [
+                "Gain [1000] [Gold]"]
+            },
+            {
+                "text": "Diplomatic Maneuvering.",
+                "uniques": [
+                "[1] Free Social Policies"]
+            }
+
+                ]
+        },
+        {
+                "name": "First ME Focus",
+                "text": "During the Industrial Era, the Middle East experienced significant changes and challenges. The region underwent a process of de-industrialization followed by re-industrialization. Traditional handicrafts declined, but the growth of modern factory industries began around the 1890s and gained momentum in the 1920s and 1930s. The development of the petroleum industry played a crucial role in the region's economic transformation, although it is not covered in this discussion. The Middle East adapted to these changes by modernizing infrastructure, investing in education, and fostering economic diversification.",
+                "choices": [
+            {
+                "text": "Nomadic Heritage",
+                "uniques": [
+                "[+20]% Production when constructing [Infantry] units [in all cities] <for [100] turns>","[+10]% Production when constructing [Camel] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Naval Effort",
+                "uniques": [
+                "[+20]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Industrial Effort",
+                "uniques": [
+                "[+15]% [Production] [in all cities] <for [150] turns>"]
+            },
+            {
+                "text": "Traditional Crafts and Industries",
+                "uniques": ["[+10]% Production when constructing [Gold] buildings [in all cities] <for [120] turns>",
+                "[+20]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+20]% Production when constructing [Food] buildings [in all cities] <for [120] turns>"]
+            },
+            {
+                "text": "Revival of Ancient Trade Routes",
+                "uniques": [
+                "Gain [325] [Gold]"]
+            },
+            {
+                "text": "Oasis Agriculture",
+                "uniques": [
+                "[1] free [Worker] units appear"]
+            },
+            {
+                "text": "Cultural Renaissance.",
+                "uniques": [
+                "[1] Free Social Policies"]
+            }
+
+                ]
+        }
+        {
+                "name": "Battle of Isandlwana",
+                "text": "The Battle of Isandlwana, fought on January 22, 1879, was the first major encounter in the Anglo-Zulu War between the British Empire and the Zulu Kingdom. The battle took place at Isandlwana, a hill in the Zulu Kingdom (present-day South Africa)",
+                "choices": [
+            {
+                "text": "Impi Warrior Tradition",
+                "uniques": [
+                "[+30]% Production when constructing [Archaic Infantry] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Naval Effort",
+                "uniques": [
+                "[+20]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Drum of Unity",
+                "uniques": [
+                "[+15]% [Production] [in all cities] <for [150] turns>"]
+            },
+            {
+                "text": "Kingdom of the Skies",
+                "uniques": [
+                "[+25]% Production when constructing [Production] buildings [in all cities] <for [145] turns>","[+25]% Production when constructing [Food] buildings [in all cities] <for [145] turns>"]
+            },
+            {
+                "text": "Economy Effort",
+                "uniques": [
+                "Gain [455] [Gold]"]
+            },
+            {
+                "text": "Cattle Wealth",
+                "uniques": [
+                "[1] free [Worker] units appear"]
+            },
+            {
+                "text": "Political Effort.",
+                "uniques": [
+                "[1] Free Social Policies"]
+            }
+
+                ]
+        }
+        {
+                "name": "Battles of Khalkhin Gol",
+                "text": "During the Second World War, Mongolia, officially known as the Mongolian People's Republic, played a significant yet often overlooked role. Governed by Khorloogiin Choibalsan, Mongolia had strong ties with the Soviet Union and was seen by many as a breakaway province of China. The Soviet-Mongolian mutual assistance pact of 1936 formalized their alliance, with Soviet troops stationed in Mongolia to counter Japanese expansion.
+
+Mongolia supported the Soviet war effort by providing livestock, raw materials, money, food, and military clothing. The Battles of Khalkhin Gol in 1939, fought along Mongolia's eastern borders, saw Soviet-Mongolian forces successfully repelling Japanese incursions. Throughout the war, Mongolia maintained neutrality but was recognized as part of the Soviet sphere of influence.",
+                "choices": [
+                        {
+                                "text": "Genghis Khan Legacy",
+                                "uniques": [
+                                "[2] free [Khan Wrath Battalion] units appear"]
+              },
+              {
+                                "text": "Paramiliatrism",
+                                "uniques": [
+                                "[+15]% Production when constructing [Infantry] units [in all cities] <for [110] turns>","Gain [200] [Culture]","[Land] units gain the [Flamethrower] promotion"]
+              },
+              {
+                                "text": "Internationalism Focus",
+                                "uniques": [
+                                "Free Great Person","[4] population [in all cities]"]
+             },
+             {
+                                "text": "Technology Sharing",
+                                "uniques": [
+                                "[2] Free Technologies"]
+            },
+            {
+                "text": "Rediscovery of Ancient Secrets",
+                "uniques": [
+                "[+45]% Production when constructing [Atomic Bomb] units [in all cities] <for [110] turns>"]
+            },
+            {
+                "text": "Khalkhin Gol Defenses",
+                "uniques": [
+                "[+35]% Production when constructing [Infantry] units [in all cities] <for [110] turns>"]
+            },
+            {
+                "text": "Flexible Navy",
+                "uniques": [
+                "[+35]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Aviation Effort",
+                "uniques": [
+                "[+35]% Production when constructing [Fighter] units [in all cities] <for [100] turns>","[+35]% Production when constructing [Bomber] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Industrial Modernization",
+                "uniques": [
+                "[+40]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+40]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+            },
+            {
+                "text": "Economy Effort",
+                "uniques": [
+                "Gain [2000] [Gold]"]
+            },
+            {
+                "text": "Strengthening Soviet Alliance.",
+                "uniques": [
+                "[1] Free Social Policies"]
+            }
+
+                ]
+        },
+        {
+                "name": "An Unusual Chapter in Australian History",
+                "text": "Following World War I, Australian soldiers were given land to farm in the Wheatbelt region. However, the arrival of the Great Depression made life challenging for these farmers. To add to their woes, a large population of emus migrated to the area during their annual breeding season, seeking food and water. The emus caused significant damage to crops, leading to substantial losses for the farmers",
+                "choices": [
+                        {
+                                "text": "Join the Emus",
+                                "uniques": [
+                                "[5] free [Emu] units appear"]
+              },
+              {
+                                "text": "Paramiliatrism",
+                                "uniques": [
+                                "[+15]% Production when constructing [Infantry] units [in all cities] <for [110] turns>","Gain [200] [Culture]","[Land] units gain the [Flamethrower] promotion"]
+              },
+              {
+                                "text": "Internationalism Focus",
+                                "uniques": [
+                                "Free Great Person","[4] population [in all cities]"]
+             },
+             {
+                                "text": "Technology Sharing",
+                                "uniques": [
+                                "[2] Free Technologies"]
+            },
+            {
+                "text": "Nuclear Effort",
+                "uniques": [
+                "[+45]% Production when constructing [Atomic Bomb] units [in all cities] <for [110] turns>"]
+            },
+            {
+                "text": "Doctrine Effort",
+                "uniques": [
+                "[+35]% Production when constructing [Infantry] units [in all cities] <for [110] turns>"]
+            },
+            {
+                "text": "Flexible Navy",
+                "uniques": [
+                "[+35]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Aviation Effort",
+                "uniques": [
+                "[+35]% Production when constructing [Fighter] units [in all cities] <for [100] turns>","[+35]% Production when constructing [Bomber] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Infrastructure Effort",
+                "uniques": [
+                "[+40]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+40]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+            },
+            {
+                "text": "Economy Effort",
+                "uniques": [
+                "Gain [2000] [Gold]"]
+            },
+            {
+                "text": "Political Effort.",
+                "uniques": [
+                "[1] Free Social Policies"]
+            }
+
+                ]
+        },
+        {
+                "name": "Third Generic Focus",
+                "text": "The world is once again engulfed in war, and our nation stands at a critical crossroads. This focus will lead us in adopting a comprehensive strategy to confront the looming threats and secure our future. We must strengthen our military capabilities, develop advanced weaponry, and coordinate our efforts with allied nations. Additionally, we must address the home front, ensuring our citizens' morale and well-being remain strong. For nations influenced by the war's far-reaching effects, strategic planning and collaboration will be key to navigating this turbulent period and emerging stronger",
+                "choices": [
+                        {
+                                "text": "Paramiliatrism",
+                                "uniques": [
+                                "[+15]% Production when constructing [Infantry] units [in all cities] <for [110] turns>","Gain [200] [Culture]","[Land] units gain the [Flamethrower] promotion"]
+              },
+              {
+                                "text": "Internationalism Focus",
+                                "uniques": [
+                                "Free Great Person","[4] population [in all cities]"]
+             },
+             {
+                                "text": "Technology Sharing",
+                                "uniques": [
+                                "[2] Free Technologies"]
+            },
+            {
+                "text": "Nuclear Effort",
+                "uniques": [
+                "[+45]% Production when constructing [Atomic Bomb] units [in all cities] <for [110] turns>"]
+            },
+            {
+                "text": "Doctrine Effort",
+                "uniques": [
+                "[+35]% Production when constructing [Infantry] units [in all cities] <for [110] turns>"]
+            },
+            {
+                "text": "Flexible Navy",
+                "uniques": [
+                "[+35]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Aviation Effort",
+                "uniques": [
+                "[+35]% Production when constructing [Fighter] units [in all cities] <for [100] turns>","[+35]% Production when constructing [Bomber] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Infrastructure Effort",
+                "uniques": [
+                "[+40]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+40]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+            },
+            {
+                "text": "Economy Effort",
+                "uniques": [
+                "Gain [2000] [Gold]"]
+            },
+            {
+                "text": "Political Effort.",
+                "uniques": [
+                "[1] Free Social Policies"]
+            }
+
+                ]
+        },
+        {
+                "name": "Second Generic Focus",
+                "text": "With the outbreak of the Great War, our nation must prepare for an unprecedented conflict that will test our strength and resilience. This focus will guide us in mobilizing our armed forces, fortifying our defenses, and forging strategic alliances. Even for those nations that remain neutral, the global impact of this war will influence our economic and political decisions. We must support our troops with adequate supplies and resources to ensure their success on the battlefield, and navigate the complex web of international relations that shape this era",
+                "choices": [
+            {
+                "text": "Doctrine Effort",
+                "uniques": [
+                "[+25]% Production when constructing [Infantry] units [in all cities] <for [110] turns>"]
+            },
+            {
+                "text": "Flexible Navy",
+                "uniques": [
+                "[+25]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Aviation Effort",
+                "uniques": [
+                "[+25]% Production when constructing [Fighter] units [in all cities] <for [100] turns>","[+25]% Production when constructing [Bomber] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Infrastructure Effort",
+                "uniques": [
+                "[+30]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+30]% Production when constructing [Science] buildings [in all cities] <for [120] turns>"]
+            },
+            {
+                "text": "Economy Effort",
+                "uniques": [
+                "Gain [1000] [Gold]"]
+            },
+            {
+                "text": "Political Effort.",
+                "uniques": [
+                "[1] Free Social Policies"]
+            }
+
+                ]
+        },
+        {
+                "name": "First Generic Focus",
+                "text": "As our nation transitions into the industrial age, we must prioritize the modernization of our infrastructure and industries. This focus will enable us to harness the power of steam and machinery, driving economic growth and technological advancement. By investing in factories, railways, and new technologies, we will lay the foundation for a prosperous and powerful nation. Let us seize this opportunity to lead the world in innovation and progress, while respecting the unique cultural identities that shape our diverse society",
+                "choices": [
+            {
+                "text": "Army Effort",
+                "uniques": [
+                "[+20]% Production when constructing [Infantry] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Naval Effort",
+                "uniques": [
+                "[+20]% Production when constructing [Water] units [in all cities] <for [100] turns>"]
+            },
+            {
+                "text": "Industrial Effort",
+                "uniques": [
+                "[+15]% [Production] [in all cities] <for [150] turns>"]
+            },
+            {
+                "text": "Infrastructure Effort",
+                "uniques": [
+                "[+20]% Production when constructing [Production] buildings [in all cities] <for [120] turns>","[+20]% Production when constructing [Food] buildings [in all cities] <for [120] turns>"]
+            },
+            {
+                "text": "Economy Effort",
+                "uniques": [
+                "Gain [325] [Gold]"]
+            },
+            {
+                "text": "European Influence",
+                "uniques": [
+                "[1] free [Worker] units appear"]
+            },
+            {
+                "text": "Political Effort.",
+                "uniques": [
+                "[1] Free Social Policies"]
+            }
+
+                ]
+        }
+
+]
