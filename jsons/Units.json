@@ -68,7 +68,7 @@
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 25,
-                "uniques": ["Earn [35]% of the damage done to [Gunpowder] units as [Gold]","Never appears as a Barbarian unit"],
+                "uniques": ["Earn [35]% of the damage done to [Infantry] units as [Gold]","Never appears as a Barbarian unit"],
 		"cost": 70,
 		"attackSound": "shot"
         },
@@ -131,7 +131,7 @@
 		"unitType": "Infantry",
 		"movement": 3,
 		"strength": 7,
-                "uniques": ["[+15]% Strength bonus for [Gunpowder] units within [2] tiles"],
+                "uniques": ["[+15]% Strength bonus for [Infantry] units within [2] tiles"],
                 "civilopediaText": [
 			{"text": "Female Musketeer, stronger in groups."}
 		]
@@ -161,7 +161,7 @@
                 "uniqueTo": "Colony of New South Wales",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","Can be purchased with [Gold] [in capital]","Can be purchased for [30] [Gold] [in capital]","Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","Can be purchased with [Gold] [in capital]","Can be purchased for [34] [Gold] [in capital]","Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 60
 	},
         {
@@ -268,7 +268,7 @@
 		"cost": 30,
 		"requiredTech": "Settlement",
                 "upgradesTo": "Rifleman",
-                "uniques": ["[-20]% Strength <vs [Gunpowder] units>","[-10]% Strength for enemy [Military] units in adjacent [All] tiles","No movement cost to pillage","[+10]% to Flank Attack bonuses"],
+                "uniques": ["[-20]% Strength <vs [Infantry] units>","[-10]% Strength for enemy [Military] units in adjacent [All] tiles","No movement cost to pillage","[+10]% to Flank Attack bonuses"],
 		"obsoleteTech": "Replaceable Parts",
 		"attackSound": "metalhit",
 	},
@@ -349,8 +349,8 @@
 				"requiredResource": "Camel",
 				"attackSound": "camel"
 				},
-				{
-					"name": " Vanguard Camel",
+{
+					"name": "Vanguard Camel",
 					"requiredTech": "Artillery",
 					"unitType": "Camel",
 					"movement": 3,
@@ -360,7 +360,7 @@
 					"obsoleteTech": "Replaceable Parts",
 					"requiredResource": "Camel",
 					"attackSound": "camel"
-					},
+},
 					{
 						"name": "Sirocco Camel",
 						"requiredTech": "Replaceable Parts",
@@ -906,7 +906,7 @@
 		"unitType": "Drone",
 		"movement": 5,
 		"strength": 50,
-                "uniques": ["[+10]% Strength <vs [Gunpowder] units>",
+                "uniques": ["[+10]% Strength <vs [Infantry] units>",
                             "[+10]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
 		"cost": 300,
 		"attackSound": "shot"
@@ -1186,7 +1186,7 @@
 		"name": "Mobile SAM",
                 "upgradesTo": "Sidewinder",
                 "obsoleteTech": "Modern Burned Earth",
-		"unitType": "Gunpowder",
+		"unitType": "Siege",
 		"movement": 3,
 		"interceptRange": 2,
 		"strength": 55,
@@ -1497,7 +1497,7 @@
 		"name": "Forca de Exploracao Africana",
         "uniqueTo": "Portugal",
         "requiredTech": "Plastics",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 56,
                 "uniques": ["[This Unit] heals [+5] HP <upon ending a turn in a [Foreign Land] tile>","Never appears as a Barbarian unit"],
@@ -1508,7 +1508,7 @@
 		"name": "Cassador Montado",
                 "uniqueTo": "Portugal",
                 "replaces": "Explorer",
-		"unitType": "Gunpowder",
+		"unitType": "Light Cavalry",
 		"movement": 3,
 		"strength": 6,
                 "uniques": ["[+50]% Strength <vs [Barbarian] units>", "Never appears as a Barbarian unit"],
@@ -1575,6 +1575,15 @@
 		"movement": 3,
 		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 75
+	},
+	{
+		"name": "Pied Noir",
+		"uniqueTo": "French North Africa",
+        "replaces": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["[70]% production cost <in cities with a [Temple]>","[This Unit] gains [1] movement <starting from the [First World War]>","Cannot enter ocean tiles <before discovering [Industrialization]>","Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 60
 	},
         {
 		"name": "African Slave",
@@ -2142,8 +2151,8 @@
                 "requiredTech": "Military Science",
 		"unitType": "Light Cavalry",
 		"movement": 4.5,
-		"strength": 20,
-		"cost": 76, 
+		"strength": 24,
+		"cost": 71, 
                 "uniques": ["Can build [Mill] improvements on tiles","Can build [Mine] improvements on tiles","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
         },
@@ -3221,6 +3230,20 @@
 			"attackSound": "horse"
 			},
 			{
+				"name": "Algerian Sipahi",
+				"uniqueTo": "French North Africa",
+		"replaces": "Hussar",
+						"upgradesTo": "Cavalry",
+						"obsoleteTech": "Replaceable Parts",
+						"requiredTech": "Military Science",
+				"unitType": "Heavy Cavalry",
+				"movement": 4,
+				"strength": 29,
+				"cost": 105, 
+						"uniques": ["[70]% production cost <in cities with a [Stable]>","[+8]% Strength <when defending>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+				"attackSound": "horse"
+				},
+			{
 				"name": "Ottoman Sipahi",
 				"uniqueTo": "Bedouin Ottoman Domains",
 		"replaces": "Hussar",
@@ -3294,6 +3317,60 @@
 	"requiredResource": "Camel",
 	"attackSound": "camel"
 	},
+	{
+		"name": "Askari",
+		"uniqueTo": "German Kamerun",
+"replaces": "Line Infantry",
+                "upgradesTo": "Grenadier",
+                "requiredTech": "Rifling",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 14,
+		"cost": 51,
+		"uniques": ["Double movement in [Jungle]","[+35]% Strength <vs [Barbarian] units>","[+10]% Strength <vs [Heavy Cavalry] units>"],
+		"attackSound": "shot"
+        },
+	{
+		"name": "Merchant Guard",
+		"uniqueTo": "The Karamanli",
+"replaces": "Halberdier",
+                "requiredTech": "Dynamite",
+                "obsoleteTech": "Replaceable Parts",
+		"unitType": "Archaic Infantry",
+		"movement": 2,
+		"strength": 20,
+		"cost": 80, 
+                "uniques": ["Double movement in [Desert]","[+50]% Strength <vs [Barbarian] units>","[+33]% Strength <vs [Infantry] units> <when below [5] HP>","[+30]% Strength <vs [Heavy Cavalry] units>","[+30]% Strength <vs [Light Cavalry] units>","[+30]% Strength <vs [Camel] units>"],
+		"attackSound": "metalhit"
+        },
+		{
+			"name": "Camel Corp",
+			"uniqueTo": "German South West Africa",
+"replaces": "War Camel",
+			"requiredTech": "Dynamite",
+			"unitType": "Camel",
+			"movement": 3,
+			"strength": 27,
+			"uniques": ["[+20]% Strength <vs [Infantry] units>","Never appears as a Barbarian unit"],
+			"cost": 110, 
+			"obsoleteTech": "Artillery",
+			"requiredResource": "Camel",
+			"attackSound": "camel"
+			},
+			{
+				"name": "Zebra Corps",
+				"uniqueTo": "German East Africa",
+"replaces": "Cavalry",
+						"obsoleteTech": "Combined Arms",
+						"requiredTech": "Replaceable Parts",
+				"unitType": "Light Cavalry",
+				"movement": 4,
+				"strength": 32,
+				"cost": 210, 
+						"uniques": ["Double movement in [Plains]","[+25]% Strength <when fighting in [Plains] tiles>","[+25]% Strength <when fighting in [Grassland] tiles>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+				"attackSound": "horse"
+				},
 	{
 		"name": "Circassian Highlander",
 		"uniqueTo": "Circassia",
