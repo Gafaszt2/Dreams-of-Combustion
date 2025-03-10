@@ -104,6 +104,45 @@
 		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "F"
 	},
+	/// advanced
+	{
+		"name": "Solar Panels",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 4,
+		"gold": 2,
+		"science": 1,
+		"turnsToBuild": 4,
+		"techRequired": "Renewable Materials",
+		"uniques": [
+            "Pillaging this improvement yields approximately [+30 Gold]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Modern District",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 5,
+		"food": 5,
+		"science": 2,
+		"faith": 2,
+		"culture": 2,
+		"turnsToBuild": 4,
+		"techRequired": "Global Surveillance Systems",
+		"uniques": ["[+3 Production] for each adjacent [Civil Factory]","[+4 Production] for each adjacent [Military Factory]","[+1 Production] for each adjacent [Mill]",
+            "Pillaging this improvement yields approximately [+30 Gold]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Biodome",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 3,
+		"production": 2,
+		"science": 3,
+		"turnsToBuild": 4,
+		"techRequired": "Climate Engineering",
+		"uniques": [
+            "Pillaging this improvement yields approximately [+30 Gold]"],
+		"shortcutKey": "F"
+	},
 
 	// Military improvement
 	{
@@ -150,7 +189,7 @@
 		"turnsToBuild": 21,
 	},
         {
-		"name": "Millitary Factory",
+		"name": "Military Factory",
                 "production": 1,
                 "techRequired": "Plastics",
                 "uniques": ["[+2 Production] for each adjacent [Civil Factory]","Costs [30] [Gold] per turn"],
@@ -240,6 +279,16 @@
 
 
     // Great Person improvements
+	{
+		"name": "Renovated Kaaba",
+		"uniqueTo": "Nejd Sultanate",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 5,
+		"culture": 4,
+		"techRequired": "Settlement",
+		"uniques": ["Great Improvement","[+1 Faith] for each adjacent [House]","Unpillagable","Irremovable"],
+		"shortcutKey": "K"
+	},
 	{
 		"name": "Academy",
 		"terrainsCanBeBuiltOn": ["Land"],

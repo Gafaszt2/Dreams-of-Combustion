@@ -6,6 +6,41 @@
 //		"innerColor": [255,255,255]
 },
 {
+	"name": "German New Guinea",
+	"leaderName": "Franz Boluminski",
+	"adjective": ["German New Guinea"],
+	"startBias":["Coast"],
+	"preferredVictoryType": "Destruction",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [250, 250, 250],
+	"innerColor": [33, 33, 33],
+	"uniqueName": "Copra and Rubber",
+	"uniques": [
+	"[+15]% Production when constructing [Armored] units [in all cities]","[+20]% Production when constructing [Bomber] units [in all cities]","[+1 Gold] from [Slave Labor Plantation] tiles [in all cities]","[+1 Food] from [River] tiles [in all cities]"],
+	"cities": ["Herbertshöhe",
+"Friedrich-Wilhelmshafen",
+"Stephansort",
+"Finschhafen",
+"Madang",
+"Rabaul",
+"Kavieng",
+"Manus",
+"Mioko",
+"Duke of York Islands"],
+	"spyNames": ["Saki"]
+},
+{
 	"name": "German East Africa",
 	"leaderName": "Governor Heinrich von Schnee",
 	"adjective": ["German East Africa"],
@@ -1042,7 +1077,7 @@
 		"uniqueName": "Isolationist Imam",
 		"uniques": [
 		"[+15]% Strength <when fighting in [Friendly Land] tiles>","[+2 Culture] [in all cities] <with [1] to [2] neighboring [{improved} {Hill}] tiles>"],
-		"cities": ["Sanaa", "Taiz", "Amr ?n", "Raydah", "Huth", "Sa’dah", "Al Hazm", "Jihanah", "Ma’rib", "Harib", "Al Bayda’", "Rida’", "Ma’bar", "Dhamar", "Yarim", "An Nadirah", "Qa’tabah", "Ibb", "At Turbah", "Mecca", "Hays", "Zabid", "Manakhah", "Al Mansuriyah", "Bajil", "Al Hudaydah", "Hajja", "Ad Dabi", "Ad Zaydiyah", "Salif", "Al Qanawis", "Az Zubrah", "Al Luhayyah Suq ‘Abs", "Harad", "Maydi"],
+		"cities": ["Sanaa", "Taiz", "Amr ?n", "Raydah", "Huth", "Sa’dah", "Al Hazm", "Jihanah", "Ma’rib", "Harib", "Al Bayda’", "Rida’", "Ma’bar", "Dhamar", "Yarim", "An Nadirah", "Qa’tabah", "Ibb", "At Turbah", "Hays", "Zabid", "Manakhah", "Al Mansuriyah", "Bajil", "Al Hudaydah", "Hajja", "Ad Dabi", "Ad Zaydiyah", "Salif", "Al Qanawis", "Az Zubrah", "Al Luhayyah Suq ‘Abs", "Harad", "Maydi"],
 	},
 {
 		"name": "Sultanate of Darfur",
@@ -1068,7 +1103,7 @@
 		"uniqueName": "Ata el-Mawla",
 		"uniques": [
 		"Provides the cheapest [Faith] building in your first [4] cities for free","[+3 Gold] from every [Holy site]"],
-		"cities": ["Sanaa", "Taiz", "Amr ?n", "Raydah", "Huth", "Sa’dah", "Al Hazm", "Jihanah", "Ma’rib", "Harib", "Al Bayda’", "Rida’", "Ma’bar", "Dhamar", "Yarim", "An Nadirah", "Qa’tabah", "Ibb", "At Turbah", "Mecca", "Hays", "Zabid", "Manakhah", "Al Mansuriyah", "Bajil", "Al Hudaydah", "Hajja", "Ad Dabi", "Ad Zaydiyah", "Salif", "Al Qanawis", "Az Zubrah", "Al Luhayyah Suq ‘Abs", "Harad", "Maydi"],
+		"cities": ["Sanaa", "Taiz", "Amr ?n", "Raydah", "Huth", "Sa’dah", "Al Hazm", "Jihanah", "Ma’rib", "Harib", "Al Bayda’", "Rida’", "Ma’bar", "Dhamar", "Yarim", "An Nadirah", "Qa’tabah", "Ibb", "At Turbah", "Hays", "Zabid", "Manakhah", "Al Mansuriyah", "Bajil", "Al Hudaydah", "Hajja", "Ad Dabi", "Ad Zaydiyah", "Salif", "Al Qanawis", "Az Zubrah", "Al Luhayyah Suq ‘Abs", "Harad", "Maydi"],
 	},
 
 {
@@ -1849,7 +1884,7 @@
 {
 		"name": "Nejd Sultanate",
 		"leaderName": "Abdul Rahman bin Faisal",
-		"adjective": ["Arabian"],
+		"adjective": ["Nejd Sultanate"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Supremacy",
 
@@ -1866,9 +1901,10 @@
 		"outerColor": [43, 88, 46],
 		"innerColor": [146, 221, 10],
 		"favoredReligion": "Islam",
-		"uniqueName": "The Renaissance of Najd",
+		"uniqueName": "Hajj and Umrah Pilgrimages",
 		"uniques": [
-		"[+15]% Production towards any buildings that already exist in the Capital","[+1 Faith] from every [Luxury resource]", "Double quantity of [Oil] produced"],
+			"Free [Kaaba Reconstructor] appears <upon entering the [Industrial Era]>","[1] Free Social Policies <upon building a [Renovated Kaaba] improvement>","Gain [150] [Faith] <upon gaining a [Mu'min] unit>",
+		"Free [Mu'min] appears <upon discovering [Anesthesia] technology>","Free [Mu'min] appears <upon discovering [Vaccine] technology>","Free [Ikhwan] appears <upon discovering [Sanitation] technology>","Free [Mu'min] appears <upon discovering [Sanitation] technology>"],
 		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
 			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
 			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr"],
@@ -3615,18 +3651,7 @@ Nixon Bureaucratic Reforms
 		"cities": ["Beirut"]
 	},
 
-{
-		"name": "Mecca",
-		"adjective": ["Mecca"],
-		"cityStateType": "Middle Eastern",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Perhaps, in another world, we could have been friends...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [232, 247, 215],
-		"cities": ["Mecca"]
-	},
 
 
 

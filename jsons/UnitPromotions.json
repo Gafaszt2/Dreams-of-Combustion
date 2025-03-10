@@ -902,7 +902,7 @@
 	"name": "Conqueror",
 	"innerColor": [128, 154, 196],
 	"outerColor": [23, 27, 33],
-	"uniques": ["[+100]% Strength <when defending> <when [Embarked]>"],
+	"uniques": ["[+100]% Strength <when [Embarked]>"],
 	"unitTypes": ["Archaic Infantry"],
 	"column": 53,
 	"row": 53

@@ -86,7 +86,7 @@
                 "column": 1
             },
             {
-                "name": "Colonialism",
+                "name": "Royal Mines",
                 "uniques": [
                     "[+20]% Yield from every [Strategic resource]"
                 ],
@@ -103,7 +103,7 @@
                 "column": 5
             },
             {
-                "name": "Social Reform",
+                "name": "Monarchy Reform",
                 "uniques": [
                     "[+10]% growth [in capital]",
                     "[+2 Happiness] [in capital]"
@@ -190,6 +190,110 @@
         ]
     },
     {
+        "name": "Colonialism",
+        "era": "New Imperial Era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 0,
+            "Diplomatic": 0,
+            "Domination": 10,
+            "Scientific": 0
+        },
+        "uniques": ["Only available <before adopting [Social Reform]>","[+2 Gold] from [Luxury resource] tiles [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "Missionary Work",
+                "uniques": [
+                    "[+2 Faith] from [Slave Labor Plantation] tiles [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Siege",
+                "uniques": [
+                    "[+10]% Strength <vs cities>"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Ethnocide",
+                "uniques": [
+                    "[+20]% Strength <vs [Archaic Infantry] units>","[+35]% Strength <vs [Barbarian] units>"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Colonial Power",
+                "uniques": [
+                    "[+25]% [Production] [in all cities]"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Colonialism Complete",
+                "uniques": [
+                    "[+2 Gold] [in all cities]","[+2 Production] [in all cities]"]
+            }
+        ]
+    },
+    {
+        "name": "Social Reform",
+        "era": "New Imperial Era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 0,
+            "Scientific": 10
+        },
+        "uniques": ["Only available <before adopting [Colonialism]>","[+1 Science, +2 Gold] [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "Labor Rights",
+                "uniques": [
+                    "[+1 Happiness] per [2] social policies adopted"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Rebellion",
+                "uniques": [
+                    "[+10]% Strength <vs cities>"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Liberation",
+                "uniques": [
+                    "[+20]% Strength <vs [Heavy Cavalry] units>","[+10]% Strength <vs [Light Cavalry] units>","[+5]% Strength <vs [Camel] units>","[+5]% Strength <vs [Barbarian] units>"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Public Education",
+                "uniques": [
+                    "[+15]% [Science] [in all cities]"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Social Reform Complete",
+                "uniques": [
+                    "[+25]% [Science] [in all cities]"]
+            }
+        ]
+    },
+    {
         "name": "Peace",
         "era": "First World War",
         "priorities": {
@@ -239,6 +343,60 @@
                 "name": "Peace Complete",
                 "uniques": [
                     "[+50]% XP gained from combat","[-33]% Gold cost of upgrading"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cultural Unity",
+        "era": "First World War",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 0,
+            "Scientific": 0
+        },
+        "uniques": [
+            "[+15]% [Culture] [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "National Pride",
+                "uniques": [
+                     "[+2 Culture] from every [Walls]","[+3 Culture] from every [Castle]",
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Patriotic Celebrations",
+                "uniques": [
+                    "[+3 Culture] from every [Museum]","[+1 Happiness] from every [Museum]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Cultural Exchange",
+                "uniques": [
+                    "[+3 Happiness] from every [Theatre]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Artistic Expression",
+                "uniques": [
+                    "[+15]% [Culture] [in all cities]"
+                ],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Cultural Unity Complete",
+                "uniques": [
+                    "[+35]% [Culture] [in all cities]"
                 ]
             }
         ]
@@ -308,15 +466,15 @@
             "Domination": 10,
             "Scientific": 0
         },
-        "uniques": ["Only available <before adopting [Communism]>","Only available <before adopting [Allies]>",
-            "[+2] Sight <for [{Military} {Land}] units>",
-            "[Gold] cost of purchasing [All] units [-33]%"
+        "uniques": ["Only available <before adopting [Communism]>","Only available <before adopting [Allies]>","Only available <before adopting [Not Aligned]>","Only available <before adopting [Socialism]>",
+            "[+1] Sight <for [{Military} {Land}] units>",
+            "[Gold] cost of purchasing [All] units [-53]%"
         ],
         "policies": [
             {
                 "name": "Fascism",
                 "uniques": [
-                     "Quantity of strategic resources produced by the empire +[100]%",
+                     "Quantity of strategic resources produced by the empire +[50]%"
                 ],
                 "row": 1,
                 "column": 1
@@ -324,7 +482,7 @@
             {
                 "name": "Millitary Alliances",
                 "uniques": [
-                    "[+1] Movement <for [{Military} {Land}] units>",
+                    "[+1] Movement <for [Infantry] units>",
                     "[+1 Happiness] from every [Luxury resource]"
                 ],
                 "row": 1,
@@ -333,7 +491,7 @@
             {
                 "name": "Blitzkrieg",
                 "uniques": [
-                    "[+10]% Strength <for [{Military} {Land}] units> <when adjacent to a [{Military} {Land}] unit>",
+                    "[+30]% Strength <for [Armored] units> <when adjacent to a [Armored] unit>"
                 ],
                 "row": 1,
                 "column": 5
@@ -341,7 +499,7 @@
             {
                 "name": "War Propaganda",
                 "uniques": [
-                    "[+25]% Strength <for [Wounded] units>"
+                    "[+10]% Strength <for [Wounded] units>"
                 ],
                 "row": 2,
                 "column": 5
@@ -365,7 +523,7 @@
             "Domination": 5,
             "Scientific": 0
         },
-        "uniques": ["Only available <before adopting [Allies]>","Only available <before adopting [Axis]>",
+        "uniques": ["Only available <before adopting [Allies]>","Only available <before adopting [Axis]>","Only available <before adopting [Not Aligned]>","Only available <before adopting [Socialism]>",
             "[+1 Production] per [3] social policies adopted",
             "[+3 Happiness] [in capital]","[-3 Gold] [in capital]"
         ],
@@ -412,6 +570,114 @@
             }
         ]
     },
+    {
+        "name": "Not Aligned",
+        "era": "Second World War",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 5,
+            "Scientific": 0
+        },
+        "uniques": ["Only available <before adopting [Allies]>","Only available <before adopting [Axis]>","Only available <before adopting [Communism]>","Only available <before adopting [Socialism]>",
+            "[+50]% Yield from every [Bonus resource]"
+        ],
+        "policies": [
+            {
+                "name": "Tank Warfare",
+                "uniques": [
+                    "New [Armored] units start with [60] XP [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "War Economy",
+                "uniques": [
+                    "[+25]% [Gold] [in all cities]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Industrial Mobilization",
+                "uniques": [
+                    "[+25]% [Production] [in all cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Patriotic Fervor",
+                "uniques": [
+                    "[-35]% unhappiness from the number of cities"
+                ],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Not Aligned Complete",
+                "uniques": [
+                    "[-35]% Science cost of researching new Technologies"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Socialism",
+        "era": "Second World War",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 5,
+            "Scientific": 0
+        },
+        "uniques": ["Only available <before adopting [Allies]>","Only available <before adopting [Axis]>","Only available <before adopting [Communism]>","Only available <before adopting [Not Aligned]>",
+            "[+25]% [Happiness] [in all cities]","[+15]% [Culture] [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "State-Owned Industries",
+                "uniques": [
+                    "[+35]% [Production] [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Collective Farming",
+                "uniques": [
+                    "[+2 Gold, +2 Production] from every [Mill]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Social Welfare",
+                "uniques": ["[+1 Gold] from every [Factory]",
+                    "New [Infantry] units start with [40] XP [in all cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Free Healthcare",
+                "uniques": [
+                    "[+3 Happiness, +3 Food] from every [Hospital]"
+                ],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Socialism Complete",
+                "uniques": [
+                    "[-15]% Science cost of researching new Technologies","[+15]% [Happiness] [in all cities]","[+15]% [Culture] [in all cities]"
+                ]
+            }
+        ]
+    },
         {
         "name": "Allies",
         "era": "Second World War",
@@ -422,7 +688,7 @@
             "Domination": 0,
             "Scientific": 0
         },
-        "uniques": ["Only available <before adopting [Communism]>","Only available <before adopting [Axis]>",
+        "uniques": ["Only available <before adopting [Communism]>","Only available <before adopting [Axis]>","Only available <before adopting [Not Aligned]>","Only available <before adopting [Socialism]>",
             "[+2] Sight <for [{Military} {Water}] units>",
             "[+2 Happiness] [in capital]"
         ],
@@ -445,10 +711,9 @@
                 "column": 3
             },
             {
-                "name": "War Economy",
+                "name": "Oceanic Strategy",
                 "uniques": [
-                    "[+15]% Strength <for [{Military} {Water}] units> <when adjacent to a [{Military} {Water}] unit>",
-                    "[+1 Gold] from every [Strategic resource]"
+                    "[+20]% Strength <for [{Military} {Water}] units> <when adjacent to a [{Military} {Water}] unit>"
                 ],
                 "row": 1,
                 "column": 5

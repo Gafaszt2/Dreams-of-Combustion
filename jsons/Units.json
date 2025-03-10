@@ -18,6 +18,13 @@
 		"movement": 2
 	},
 	{
+		"name": "Kaaba Reconstructor",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can instantly construct a [Renovated Kaaba] improvement <by consuming this unit>","Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
@@ -207,7 +214,7 @@
         {
 		"name": "Kalia",
                 "uniqueTo": "Tui Tonga",
-                "replaces": "Frigate",
+                "replaces": "Steam frigate",
 		"unitType": "Ranged Water",
                 "obsoleteTech": "Electricity",
 		"movement": 5,
@@ -233,7 +240,7 @@
         {
 		"name": "Pahi",
                 "uniqueTo": "Tahiti",
-                "replaces": "Frigate",
+                "replaces": "Steam frigate",
 		"unitType": "Ranged Water",
                 "obsoleteTech": "Electricity",
 		"movement": 5,
@@ -659,7 +666,7 @@
 		"name": "M16 Infantry",
                 "upgradesTo": "Modern Day Reserve",
                 "requiredTech": "Afganistan/Irak Wars",
-                "obsoleteTech": "Ukraine War",
+                "obsoleteTech": "Modern Burned Earth",
 		"unitType": "Infantry",
                 "uniques": ["[+20]% Strength <when fighting in [Desert] tiles> <when attacking>", "Never appears as a Barbarian unit"],
 		"movement": 2,
@@ -696,7 +703,7 @@
 		"movement": 2.5,
 		"strength": 75,
 		"cost": 490,
-"requiredTech": "Ukraine War",
+"requiredTech": "Modern Burned Earth",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
@@ -706,7 +713,37 @@
 		"movement": 2,
 		"strength": 55,
 		"cost": 200,
-"requiredTech": "Ukraine War",
+"requiredTech": "Modern Burned Earth",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Advanced Reserve",
+		"unitType": "Infantry",
+		"movement": 2.5,
+		"strength": 100,
+		"cost": 400,
+"requiredTech": "Urban Warfare Training",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+	},
+        {
+		"name": "Advanced Levy",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 90,
+		"cost": 300,
+"requiredTech": "Urban Warfare Training",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Vanguard Tank",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 300,
+		"cost": 800,
+"requiredTech": "Urban Warfare Training",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
@@ -720,7 +757,7 @@
 		"range": 3,
 		"cost": 500,
 		"requiredTech": "Desert Storm",
-                "obsoleteTech": "Ukraine War",
+                "obsoleteTech": "Modern Burned Earth",
 		"requiredResource": "Aluminum",
 		"uniques": ["Limited to [4] per Civilization","[-15]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
 			"[+1] Sight", "Never appears as a Barbarian unit"],
@@ -730,7 +767,7 @@
         {
 		"name": "Leopard 2",
                 "upgradesTo": "Leopard 2A7",
-                "obsoleteTech": "Ukraine War",
+                "obsoleteTech": "Modern Burned Earth",
 		"unitType": "Armored",
 		"movement": 5,
 		"strength": 150,
@@ -748,7 +785,7 @@
 		"rangedStrength": 125,
 		"range": 3,
 		"cost": 590,
-		"requiredTech": "Ukraine War",
+		"requiredTech": "Modern Burned Earth",
 		"requiredResource": "Aluminum",
 		"uniques": ["Limited to [4] per Civilization","[-15]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
 			"[+1] Sight", "Never appears as a Barbarian unit"],
@@ -761,7 +798,7 @@
 		"movement": 5,
 		"strength": 185,
 		"cost": 700,
-"requiredTech": "Ukraine War",
+"requiredTech": "Modern Burned Earth",
 		"requiredResource": "Oil",
 		"uniques": ["Limited to [4] per Civilization","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
@@ -779,18 +816,6 @@
 		"requiredResource": "Oil",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "machinegun"
-	},
-        {
-		"name": "Terrorist Suicide Plane",
-                "requiredTech": "Desert Storm",
-		"unitType": "Missile",
-		"movement": 1,
-		"strength": 450,
-		"rangedStrength": 450,
-		"range": 12,
-		"cost": 790,
-		"uniques": ["[-100]% maintenance costs"],
-		"attackSound": "missile"
 	},
         {
 		"name": "AIM 2000",
@@ -899,6 +924,17 @@
 		"uniques": ["[+100]% Strength <vs [Armored] units>","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
+	{
+		"name": "Advanced Helicopter",
+		"unitType": "Helicopter",
+		"movement": 5.5,
+		"strength": 140,
+		"cost": 610,
+		"requiredTech": "Stealth Technology",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+50]% Strength <vs [Armored] units>","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
         {
 		"name": "Drone",
                 "requiredTech": "SALT Agreements",
@@ -911,6 +947,17 @@
 		"cost": 300,
 		"attackSound": "shot"
         },
+		{
+			"name": "Laser Drone",
+					"requiredTech": "Lasers",
+			"unitType": "Drone",
+			"movement": 5,
+			"strength": 110,
+					"uniques": ["[+15]% Strength <vs [Infantry] units>",
+								"[+15]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
+			"cost": 300,
+			"attackSound": "shot"
+			},
         {
 		"name": "Bazooka",
                 "obsoleteTech": "SALT Agreements",
@@ -1167,6 +1214,18 @@
 		"requiredResource": "Oil",
 		"attackSound": "bombing"
 	},
+	{
+		"name": "Stealth Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 160,
+		"rangedStrength": 160,
+		"range": 15,
+		"cost": 850,
+		"requiredTech": "Stealth Technology",
+		"requiredResource": "Oil",
+		"attackSound": "bombing"
+	},
         {
 		"name": "Rocket Artillery",
 		"unitType": "Siege",
@@ -1317,16 +1376,39 @@
 		"uniques": ["May capture killed [Water] units"],
 		"attackSound": "cannon"
 	},
-        
-        {
-		"name": "Frigate",
+	{
+		"name": "Steam frigate",
 		"unitType": "Ranged Water",
-                "obsoleteTech": "Radio",
+        "obsoleteTech": "Radio",
 		"movement": 5,
 		"strength": 23,
 		"rangedStrength": 28,
 		"cost": 185,
 		"requiredTech": "Steam Power",
+		"hurryCostModifier": 20,
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Torpedo Boat",
+		"unitType": "Melee Water",
+        "obsoleteTech": "Radio",
+		"movement": 4,
+		"strength": 27,
+		"cost": 195,
+		"uniques": ["Self-destructs when attacking","Blast radius [2]", "Never appears as a Barbarian unit"],
+		"requiredTech": "Steam Power",
+		"hurryCostModifier": 20,
+		"attackSound": "cannon"
+	},
+        {
+		"name": "Frigate",
+		"unitType": "Ranged Water",
+                "obsoleteTech": "Steam Power",
+		"movement": 5,
+		"strength": 20,
+		"rangedStrength": 28,
+		"cost": 185,
+		"requiredTech": "Industrialization",
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
@@ -1397,14 +1479,13 @@
         },
         {
 		"name": "Ikhwan",
-                "replaces": "Rifleman",
-                "uniqueTo": "Nejd Sultanate",
                 "upgradesTo": "Great War Infantry",
 		"obsoleteTech": "Ballistics",
                 "requiredTech": "Replaceable Parts",
 		"unitType": "Camel",
 		"movement": 2.5,
 		"strength": 40,
+		"uniques": ["Unbuildable","Cannot be purchased","Never appears as a Barbarian unit"],
 		"requiredResource": "Camel",
 		"cost": 110,
 		"attackSound": "camel"
@@ -1973,7 +2054,7 @@
                 "replaces": "M16 Infantry",
                 "upgradesTo": "Modern Day Reserve",
                 "requiredTech": "Afganistan/Irak Wars",
-                "obsoleteTech": "Ukraine War",
+                "obsoleteTech": "Modern Burned Earth",
 		"unitType": "Infantry",
                 "uniques": ["[+5]% Strength <when fighting in [Plains] tiles> <when attacking>","[+10]% Strength <when fighting in [Jungle] tiles> <when attacking>", "Never appears as a Barbarian unit"],
 		"movement": 2,
@@ -2209,7 +2290,7 @@
         {
 		"name": "Company Fleet",
                 "uniqueTo": "Dutch East India Company",
-                "replaces": "Frigate",
+                "replaces": "Steam frigate",
 		"unitType": "Ranged Water",
                 "obsoleteTech": "Radio",
 		"movement": 5,
@@ -2496,6 +2577,15 @@
 		"cost": 60,
 		"attackSound": "shot"
         },
+		{
+			"name": "Mu'min",
+			"uniqueTo": "Nejd Sultanate",
+		"replaces": "Worker",
+			"unitType": "Civilian",
+			"movement": 2,
+			"uniques": ["Can be purchased for [55] [Faith] [in all cities]","Cannot enter ocean tiles <before discovering [Industrialization]>","Can build [Land] improvements on tiles", "Automation is a primary action"],
+			"cost": 70
+		},
         {
 		"name": "Amazon Mino",
                 "uniqueTo": "Dahomey Kingdom",
@@ -3371,6 +3461,20 @@
 						"uniques": ["Double movement in [Plains]","[+25]% Strength <when fighting in [Plains] tiles>","[+25]% Strength <when fighting in [Grassland] tiles>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 				"attackSound": "horse"
 				},
+				{
+					"name": "Kolonialmacht",
+					"uniqueTo": "German New Guinea",
+"replaces": "Great War Infantry",
+							"upgradesTo": "Infantry",
+							"obsoleteTech": "Plastics",
+							"requiredTech": "Ballistics",
+					"unitType": "Infantry",
+					"movement": 2,
+					"strength": 47,
+					"cost": 150,
+							 "uniques": ["Double movement in [Jungle]","[+50]% Strength <when [Embarked]>","Never appears as a Barbarian unit"],
+					"attackSound": "shot"
+					},
 	{
 		"name": "Circassian Highlander",
 		"uniqueTo": "Circassia",

@@ -395,56 +395,8 @@
 		"uniques": ["[+1 Science] from [House] tiles [in this city]", "Only available <in cities without a [Private School]>"],
 		"requiredTech": "Sanitation"
 	},
-        {
-		"name": "LGBT Friendly State",
-		"happiness": 3,
-		"maintenance": 3,
-		"hurryCostModifier": 0,
-		"uniques": ["[+1 Culture] from [House] tiles [in this city]", "Only available <in cities without a [LGBT Ban]>"],
-		"requiredTech": "Inclusive Marriage"
-	},
-        {
-		"name": "LGBT Ban",
-		"happiness": -1,
-		"faith": 2,
-		"hurryCostModifier": 0,
-		"uniques": ["[+1 Faith] from [House] tiles [in this city]", "Only available <in cities without a [LGBT Friendly State]>"],
-		"requiredTech": "Inclusive Marriage"
-	},
-        {
-		"name": "Great Women Library",
-		"maintenance": 1,
-		"science": 2,
-		"hurryCostModifier": 0,
-		"uniques": ["[+1 Science] from [House] tiles [in this city]", "Only available <in cities without a [LGBT Friendly State]>"],
-		"requiredTech": "Spiritualism"
-	},
-        {
-		"name": "Horoscope Meditation",
-		"maintenance": 1,
-		"faith": 2,
-		"hurryCostModifier": 0,
-		"uniques": ["[+1 Faith] from [House] tiles [in this city]", "Only available <in cities without a [LGBT Friendly State]>"],
-		"requiredTech": "Spiritualism"
-	},
-        {
-		"name": "Women Rights",
-		"happiness": 1,
-                "culture": 3,
-		"maintenance": 2,
-		"hurryCostModifier": 0,
-		"uniques": ["[+1 Culture] from [House] tiles [in this city]", "Only available <in cities without a [Repress Women]>"],
-		"requiredTech": "Socially Correct Ministry"
-	},
-        {
-		"name": "Repress Women",
-		"happiness": -1,
-                "gold": 2,
-		"production": 2,
-		"hurryCostModifier": 0,
-		"uniques": ["[+1 Gold] from [House] tiles [in this city]", "Only available <in cities without a [Women Rights]>"],
-		"requiredTech": "Socially Correct Ministry"
-	},
+
+        
         {
 		"name": "Private School",
 		"gold": 3,
@@ -697,10 +649,10 @@
 
         {
 		"name": "Madrasah",
-                "uniqueTo": "Nejd Sultanate",
+                "uniqueTo": "Egypt",
                 "replaces": "Public School",
-		"faith": 2,
-                "science": 3,
+		"faith": 3,
+                "science": 4,
 		"specialistSlots": {"Scientist": 1},
 		"maintenance": 1,
 		"hurryCostModifier": 0,
@@ -734,19 +686,6 @@
                 "gold": 3,
 		"hurryCostModifier": 25,
 		"requiredTech": "Mining"
-	},
-        {
-		"name": "Language School",
-                "uniqueTo": "Egypt",
-                "replaces": "University",
-		"culture": 2,
-                "science": 1,
-		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 33},
-		"specialistSlots": {"Scientist": 2},
-		"requiredBuilding": "Library",
-		"uniques": ["[+1 Production] from [Desert] tiles [in this city]"],
-		"requiredTech": "Archaeology"
 	},
         {
 		"name": "Rova",
@@ -797,6 +736,16 @@
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Trenchs",
 		"requiredTech": "Coexistency",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Bionic Shield",
+		"cost": 500,
+		"cityStrength": 35,
+		"cityHealth": 110,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Bomb Shelter",
+		"requiredTech": "Biodefense",
 		"uniques": ["Destroyed when the city is captured"]
 	},
         {
@@ -1694,24 +1643,21 @@
 		"uniques": ["[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
 		"requiredTech": "Archaeology"
 	},
+
         {
-		"name": "WW2 Memorial",
-                "requiredNearbyImprovedResources": ["Aluminum"],
+		"name": "Memorial",
                 "specialistSlots": {"Artist": 5},
 		"hurryCostModifier": 25,
-		"culture": 2,
-                "faith": 1,
-		"uniques": ["[+15]% Great Person generation [in this city]", "Cost increases by [50] per owned city"],
+		"culture": 3,
+                "production": 1,
+		"uniques": ["[+35]% Great Person generation [in this city]", "Cost increases by [50] per owned city"],
 		"requiredTech": "Paris Agreements"
 	},
-        {
-		"name": "Cold War Memorial",
-                "requiredNearbyImprovedResources": ["Coal"],
-                "specialistSlots": {"Artist": 5},
+	{
+		"name": "Modern Barracks",
 		"hurryCostModifier": 25,
-		"culture": 1,
-                "production": 1,
-		"uniques": ["[+15]% Great Person generation [in this city]", "Cost increases by [50] per owned city"],
+		"production": 5,
+		"uniques": ["New [Military] units start with [50] XP [in this city]"],
 		"requiredTech": "Paris Agreements"
 	},
 	{
@@ -1802,6 +1748,18 @@
 		"isNationalWonder": true,
 		"uniques": ["Cost increases by [30] per owned city"],
 		"requiredTech": "Railway"
+	},
+	{
+		"name": "Pacific Formation Campus",
+		"uniqueTo": "German New Guinea",
+        "replaces": "Campus",
+		"science": 3,
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Monument",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured", "[+10]% Great Person generation [in this city]", "Cost increases by [20] per owned city"],
+		"requiredTech": "Archaeology"
 	},
         {
 		"name": "Kiguba"

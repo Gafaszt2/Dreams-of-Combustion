@@ -487,21 +487,24 @@
 		"techs": [
 			{
 				"name": "Internet", 
+				"uniques": ["[+2 Science, +3 Happiness] [in all cities]"],
 				"row": 2,
 				"prerequisites": ["Globalization", "International Trade Agreements","Personal Computing"],
 			},
-                        {
+            {
 				"name": "European Union", 
 				"row": 4,
+				"uniques": ["[+2 Production] from [Military Factory] tiles [in all cities]"],
 				"prerequisites": ["Paris Agreements", "NAFTA","International Trade Agreements"],
 			},
-                        {
+            {
 				"name": "Desert Storm", 
 				"row": 6,
-				"prerequisites": ["Afganistan/Irak Wars", "NAFTA"],
+				"prerequisites": ["Afganistan/Irak Wars","NAFTA"],
 			},
 			{
 				"name": "Social Media",
+				"uniques": ["[+2 Happiness] from [House] tiles [in all cities]"],
 				"row": 9,
 				"prerequisites": ["Globalization", "Personal Computing","Afganistan/Irak Wars"],
 			}
@@ -517,27 +520,31 @@
 			{
 				"name": "Farm Technology", 
 				"row": 2,
+				"uniques": ["[+4 Production] from [Wheat] tiles [in all cities]","[+4 Production] from [Ranch] tiles [in all cities]","[+4 Production] from [Stable] tiles [in all cities]"],
 				"prerequisites": ["European Union", "Desert Storm"],
 			},
                         {
-				"name": "Socially Correct Ministry",
+				"name": "Ecology",
 				"row": 6,
+				"uniques": ["[+3 Science] from [Forest] tiles [in all cities]","[+3 Science] from [Jungle] tiles [in all cities]","[+3 Science] from [Marsh] tiles [in all cities]"],
 				"prerequisites": ["Social Media", "Internet"],
 			}
                         {
-				"name": "OTAN", 
+				"name": "Renewable Materials", 
 				"row": 3,
-                                "uniques": ["[+1 Faith] per [2] population [in all cities]","[+1 Culture] per [2] population [in all cities]","[+1 Science] per [2] population [in all cities]","[+1 Gold] per [2] population [in all cities]"],
+                "uniques": ["[+2 Gold, +2 Production] from [Strategic resource] tiles [in all cities]"],
 				"prerequisites": ["European Union", "Desert Storm"],
 			},
                         {
 				"name": "Smartphones",
 				"row": 7,
+				"uniques": ["[+2 Science, +2 Production] from [Civil Factory] tiles [in all cities]"],
 				"prerequisites": ["Social Media", "Internet"],
 			},
                         {
 				"name": "Cloud Computing",
 				"row": 9,
+                "uniques": ["[+2 Happiness] from [House] tiles [in all cities]"],
 				"prerequisites": ["Internet"],
 			}
 		]
@@ -550,24 +557,74 @@
 		"wonderCost": 500,
 		"techs": [
 			{
-				"name": "Ukraine War", 
+				"name": "Global Surveillance Systems", 
 				"row": 2,
-				"prerequisites": ["Farm Technology", "OTAN"],
+				"uniques": ["[+1 Science] from [Mine] tiles [in all cities]","[+1 Science] from [Mine] tiles [in capital]"],
+				"prerequisites": ["Smartphones", "Renewable Materials"],
 			},
                         {
 				"name": "Modern Burned Earth", 
 				"row": 3,
-				"prerequisites": ["OTAN", "Cloud Computing"],
+				"prerequisites": ["Renewable Materials", "Cloud Computing"],
 			},
                         {
-				"name": "Spiritualism",
+				"name": "Lasers",
 				"row": 7,
-				"prerequisites": ["Socially Correct Ministry"],
+				"uniques": ["[+3 Production] from [Military Factory] tiles [in all cities]","[+1 Production] from [Civil Factory] tiles [in all cities]"],
+				"prerequisites": ["Ecology"],
 			},
                         {
-				"name": "Inclusive Marriage",
+				"name": "Climate Engineering",
+				"uniques": ["[+1 Science] from [Tundra] tiles [in all cities]","[+1 Science] from [Desert] tiles [in all cities]","[+1 Science] from [Snow] tiles [in all cities]"],
 				"row": 9,
-				"prerequisites": ["Socially Correct Ministry"],
+				"prerequisites": ["Farm Technology"],
+			}
+		]
+	},
+        {
+		"columnNumber": 16,
+		"era": "Post Cold War",
+		"techCost": 1500,
+		"buildingCost": 500,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Urban Warfare Training", 
+				"row": 2,
+				"prerequisites": ["Global Surveillance Systems", "Modern Burned Earth"],
+			},
+                        {
+				"name": "Drone Warfare", 
+				"uniques": ["[+60]% Strength <for [Drone] units>","[+20]% Strength <for [Infantry] units>","[+30]% Strength <for [Armored] units>"],
+				"row": 6,
+				"prerequisites": ["Lasers","Modern Burned Earth"],
+			},
+                        {
+				"name": "Biodefense",
+				"row": 4,
+				"uniques": ["[+200]% Yield from every [Forest]","[+200]% Yield from every [Jungle]","[+200]% Yield from every [Marsh]"],
+				"prerequisites": ["Climate Engineering"],
+			},
+                        {
+				"name": "Stealth Technology",
+				"uniques": ["[+59]% Strength <for [Water] units>"],
+				"row": 9,
+				"prerequisites": ["Lasers"],
+			}
+		]
+	},
+        {
+		"columnNumber": 17,
+		"era": "Post Cold War",
+		"techCost": 1500,
+		"buildingCost": 500,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Humanity",
+				"row": 6,
+				"uniques": ["Can be continually researched"],
+				"prerequisites": ["Urban Warfare Training","Drone Warfare","Biodefense","Stealth Technology"],
 			}
 		]
 	}
