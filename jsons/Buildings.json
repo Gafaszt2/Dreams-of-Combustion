@@ -1771,6 +1771,17 @@
 		"uniques": ["[+1 Gold] from every [Luxury resource]"],
 		"requiredTech": "Mining"
 	},
+	{
+		"name": "Clove Plantation",
+		"uniqueTo": "Portuguese Timor",
+        "replaces": "Market",
+		"gold": 3,
+		"production": 1,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Vaccine"
+	},
         {
 		"name": "Fale Tele",
                 "uniqueTo": "Samoa",
@@ -1781,6 +1792,18 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Faith] from [Coast] tiles [in this city]"],
 		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Casa da India",
+		"uniqueTo": "Portuguese India",
+        "replaces": "Bank",
+		"gold": 3,
+		"production": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
+		"requiredTech": "Electricity"
 	},
 {
 		"name": "Workshop",

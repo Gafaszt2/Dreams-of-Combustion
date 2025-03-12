@@ -6,6 +6,76 @@
 //		"innerColor": [255,255,255]
 },
 {
+	"name": "Portuguese India",
+	"leaderName": "Afonso de Albuquerque",
+	"adjective": ["Portuguese India"],
+	"startBias":["Coast"],
+	"preferredVictoryType": "Destruction",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [207, 209, 232],
+	"innerColor": [80, 61, 110],
+	"uniqueName": "Estado da Índia",
+	"uniques": [
+	"[+50]% Yield from every [House] <in cities connected to the capital>","[+35]% Yield from every [Luxury resource] <in cities connected to the capital>"],
+	"cities": ["Goa",
+"Cochin",
+"Diu",
+"Bombay",
+"Calicut",
+"Mangalore",
+"Surat",
+"Cannanore",
+"Nagapattinam",
+"Tuticorin"],
+	"spyNames": ["Saki"]
+},
+{
+	"name": "Portuguese Timor",
+	"leaderName": "Dom Manuel de Sá",
+	"adjective": ["Portuguese Timor"],
+	"startBias":["Coast"],
+	"preferredVictoryType": "Destruction",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [207, 209, 232],
+	"innerColor": [80, 61, 110],
+	"uniqueName": "Sandalwood",
+	"uniques": [
+	"Provides [2] [Sandalwood] <upon conquering a city>","[2] free [African Slave] units appear <upon founding a Religion>"],
+	"cities": ["Dili",
+"Baucau",
+"Manatuto",
+"Liquiçá",
+"Ermera",
+"Viqueque",
+"Ainaro",
+"Lospalos",
+"Bobonaro",
+"Aileu"],
+	"spyNames": ["Saki"]
+},
+{
 	"name": "German New Guinea",
 	"leaderName": "Franz Boluminski",
 	"adjective": ["German New Guinea"],
@@ -1905,7 +1975,7 @@
 		"uniques": [
 			"Free [Kaaba Reconstructor] appears <upon entering the [Industrial Era]>","[1] Free Social Policies <upon building a [Renovated Kaaba] improvement>","Gain [150] [Faith] <upon gaining a [Mu'min] unit>",
 		"Free [Mu'min] appears <upon discovering [Anesthesia] technology>","Free [Mu'min] appears <upon discovering [Vaccine] technology>","Free [Ikhwan] appears <upon discovering [Sanitation] technology>","Free [Mu'min] appears <upon discovering [Sanitation] technology>"],
-		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
+		"cities": ["Mecca","Medina","Damascus","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
 			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
 			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr"],
         "spyNames": ["Solhofaat", "Khenzeer", "Zarafah", "Temsaah", "Abyadh", "Mostafa", "Yusuf", "Waddah", "Sameera", "Gamal"]
@@ -3604,7 +3674,7 @@ Nixon Bureaucratic Reforms
 {
 		"name": "San Francisco",
 		"adjective": ["San Francisco"],
-		"cityStateType": "American",
+		"cityStateType": "Colonial American",
 
 		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
 		"attacked": "Very well, we will kick you back to the ancient era!",
@@ -3616,7 +3686,7 @@ Nixon Bureaucratic Reforms
 {
 		"name": "Montreal",
 		"adjective": ["Montreal"],
-		"cityStateType": "American",
+		"cityStateType": "Colonial American",
 
 		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
 		"attacked": "Very well, we will kick you back to the ancient era!",
@@ -3748,7 +3818,7 @@ Nixon Bureaucratic Reforms
 {
 		"name": "Bushong",
 		"adjective": ["Bushong"],
-		"cityStateType": "American",
+		"cityStateType": "Colonial American",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -3770,10 +3840,167 @@ Nixon Bureaucratic Reforms
 		"innerColor": [73, 94, 130],
 		"cities": ["Papeete"]
 	},
+	{
+		"name": "Formosa",
+		"adjective": ["Formosa"],
+		"cityStateType": "Asian",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [3, 169, 252],
+		"cities": ["Formosa"]
+	},
+	{
+		"name": "Manchukuo",
+		"adjective": ["Manchukuo"],
+		"cityStateType": "Asian",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [252, 17, 13],
+		"cities": ["Manchukuo"]
+	},
+
+
+
+	{
+		"name": "Yorta Yorta",
+		"adjective": ["Yorta Yorta"],
+		"cityStateType": "Australian Aboriginal",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"uniques": ["[-10]% Strength <when attacking>"],
+		"outerColor": [0, 0, 0],
+		"innerColor": [252, 123, 3],
+		"cities": ["Murray River"]
+	},
+	{
+		"name": "Ngunnawal",
+		"adjective": ["Ngunnawal"],
+		"cityStateType": "Australian Aboriginal",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"uniques": ["[-10]% Strength <when attacking>"],
+		"outerColor": [0, 0, 0],
+		"innerColor": [38, 176, 255],
+		"cities": ["Canberra Custody"]
+	},
+	{
+		"name": "Bundjalung",
+		"adjective": ["Bundjalung"],
+		"cityStateType": "Australian Aboriginal",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"uniques": ["[-10]% Strength <when attacking>"],
+		"outerColor": [0, 0, 0],
+		"innerColor": [189, 89, 255],
+		"cities": ["Northern New South Wales"]
+	},
+	{
+		"name": "Wurundjeri",
+		"adjective": ["Wurundjeri"],
+		"cityStateType": "Australian Aboriginal",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"uniques": ["[-10]% Strength <when attacking>"],
+		"outerColor": [0, 0, 0],
+		"innerColor": [107, 255, 164],
+		"cities": ["Melbourne Area"]
+	},
 
 
 
 
+	{
+		"name": "Zuni Pueblo",
+		"adjective": ["Zuni Pueblo"],
+		"cityStateType": "Native American",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"uniques": ["[+10]% growth [in all cities]"],
+		"outerColor": [0, 0, 0],
+		"innerColor": [94, 128, 191],
+		"cities": ["Zuni Pueblo"]
+	},
+	{
+		"name": "Hopi Villages",
+		"adjective": ["Hopi Villages"],
+		"cityStateType": "Native American",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"uniques": ["[+10]% growth [in all cities]"],
+		"outerColor": [0, 0, 0],
+		"innerColor": [165, 217, 172],
+		"cities": ["Hopi Villages"]
+	},
+	{
+		"name": "Navajo Nation",
+		"adjective": ["Navajo Nation"],
+		"cityStateType": "Native American",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"uniques": ["[+10]% growth [in all cities]"],
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 220, 82],
+		"cities": ["Navajo Nation"]
+	},
+	{
+		"name": "Oklahoma",
+		"adjective": ["Oklahoma"],
+		"cityStateType": "Native American",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"uniques": ["[+10]% growth [in all cities]"],
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 119, 82],
+		"cities": ["Oklahoma"]
+	},
+	{
+		"name": "Arequipa",
+		"adjective": ["Arequipa"],
+		"cityStateType": "Native American",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"uniques": ["[+10]% growth [in all cities]"],
+		"outerColor": [0, 0, 0],
+		"innerColor": [158, 115, 103],
+		"cities": ["Arequipa"]
+	},
+	{
+		"name": "Río Negro",
+		"adjective": ["Río Negro"],
+		"cityStateType": "Native American",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"uniques": ["[+10]% growth [in all cities]"],
+		"outerColor": [0, 0, 0],
+		"innerColor": [59, 74, 237],
+		"cities": ["Río Negro"]
+	},
 
 
 	//Barbarian

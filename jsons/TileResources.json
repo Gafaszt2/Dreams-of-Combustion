@@ -323,6 +323,11 @@
 		"uniques": ["Can only be created by Mercantile City-States"]
 	},
 	{
+		"name": "Sandalwood",
+		"resourceType": "Luxury",
+		"gold": 1
+	},
+	{
 		"name": "Citrus",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Flood plains","Mud"],
@@ -339,16 +344,6 @@
 		"improvement": "Mine",
 		"uniques": ["Generated on every [100] tiles <in [Hill] tiles>"]
 	},
-	/* 
-	{
-		"name": "Cocoa",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest"], // Forest only if flat, non-tundra
-		"food": 1,
-		"gold": 1,
-		"improvedBy": ["Slave Labor Plantation", "Heavy Labor Plantation"],
-	},
-	*/
 	{
 		"name": "Crab",
 		"resourceType": "Luxury",
@@ -369,7 +364,7 @@
 		"uniques": ["Generated on every [100] tiles <in [Desert] tiles>"]
 	},
 	{
-		"name": "Truffles",
+		"name": "Pigs",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle","Cold Soil"],
 		"gold": 2,

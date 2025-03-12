@@ -372,7 +372,6 @@
                                         "culture": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Great Improvement",
 			"Gives a defensive bonus of [20]%",
 			"Adjacent enemy units ending their turn take [10] damage",
 			"Can be built just outside your borders",
@@ -384,23 +383,24 @@
 		"name": "Pa",
                 "uniqueTo": "Maori",
                 "turnsToBuild": 7,
+				"food": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
 			"Adjacent enemy units ending their turn take [5] damage",
-			"Removes removable features when built","[+1 Production] for each adjacent [Coast]","[+1 Production] for each adjacent [Mala´e]","[+1 Gold] for each adjacent [Coast]"]
+			"Removes removable features when built","[+1 Production] for each adjacent [Pa]"]
 	},
         {
 		"name": "Mala e",
                 "uniqueTo": "Tui Tonga",
                 "turnsToBuild": 7,
+				"food": 1,
+				"production": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
 			"Adjacent enemy units ending their turn take [5] damage",
-			"Removes removable features when built","[+1 Food] for each adjacent [Coast]","[+1 Food] for each adjacent [Mala´e]","[+1 Culture] for each adjacent [Coast]"]
+			"Removes removable features when built","[+1 Food] for each adjacent [Mala e]"]
 	},
         {
 		"name": "Mbanza",
@@ -408,7 +408,6 @@
                 "uniqueTo": "Kongo Kingdom",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
 			"Adjacent enemy units ending their turn take [5] damage",
 			"Removes removable features when built","[+2 Food] for each adjacent [Mbanza]"]

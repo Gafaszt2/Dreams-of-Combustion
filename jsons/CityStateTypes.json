@@ -12,7 +12,19 @@
         "color": [245, 155, 66]
     },
     {
-        "name": "American",
+        "name": "Australian Aboriginal",
+        "friendBonusUniques": [
+            "[+2 Faith]",
+            "[+1 Culture]"
+            
+        ],
+        "allyBonusUniques": ["Free [Aboriginal Elder] appears <every [20] turns>","[+4 Faith]",
+            "[+3 Culture]"
+        ],
+        "color": [252, 123, 3]
+    },
+    {
+        "name": "Colonial American",
         "friendBonusUniques": [
             "[+2 Production]",
             "[+2 Culture]"
@@ -20,6 +32,16 @@
         "allyBonusUniques": ["[+4 Culture]","[+2 Production]"
         ],
         "color": [86, 182, 214]
+    },
+    {
+        "name": "Native American",
+        "friendBonusUniques": [
+            "[+2 Food]",
+            "[+3 Production]"
+        ],
+        "allyBonusUniques": ["[+4 Food]","[+4 Production]"
+        ],
+        "color": [107, 255, 164]
     },
     {
         "name": "European",

@@ -178,7 +178,7 @@
                 "uniqueTo": "Tupi",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+350]% Strength <starting from the [Second World War]>","Can build [House] improvements on tiles","Can build [Slave Labor Plantation] improvements on tiles","Can build [Lodge Cabin] improvements on tiles","Can build [Ranch] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Oil well] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+350]% Strength <starting from the [Second World War]>","Can build [House] improvements on tiles","Can build [Slave Labor Plantation] improvements on tiles","Can build [Lodge Cabin] improvements on tiles","Can build [Ranch] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Oil well] improvements on tiles","Can build [Biodome] improvements on tiles","Can build [Solar Farm] improvements on tiles", "Automation is a primary action"],
 		"cost": 50
 	},
         {
@@ -188,7 +188,7 @@
                 "uniqueTo": "Tupi",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+350]% Strength <starting from the [Second World War]>","Can build [Mine] improvements on tiles","Can build [Quarry] improvements on tiles","Can build [Mill] improvements on tiles","Can build [Stable] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Hunter Lodge] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+350]% Strength <starting from the [Second World War]>","Can build [Mine] improvements on tiles","Can build [Quarry] improvements on tiles","Can build [Mill] improvements on tiles","Can build [Stable] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Hunter Lodge] improvements on tiles","Can build [Modern District] improvements on tiles", "Automation is a primary action"],
 		"cost": 50
 	},
         {
@@ -198,7 +198,7 @@
 		"unitType": "Civilian",
                 "strength": 3,
 		"movement": 2,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+100]% Strength <vs [Barbarian] units>","Can build [Pa] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+100]% Strength <vs [Barbarian] units>","Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 50
 	},
         {
@@ -208,7 +208,7 @@
 		"unitType": "Civilian",
                 "strength": 3,
 		"movement": 2,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+100]% Strength <vs [Barbarian] units>","Can build [Mala e] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+100]% Strength <vs [Barbarian] units>","Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 50
 	},
         {
@@ -2427,6 +2427,13 @@
 		"cost": 52,
 		"attackSound": "shot"
         },
+		{
+			"name": "Aboriginal Elder",
+			"unitType": "Civilian",
+			"movement": 3,
+			"uniques": ["Unbuildable","Cannot be purchased","Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence","Gain [30] [Culture] <(modified by game speed)> <by consuming this unit>","Gain [40] [Faith] <(modified by game speed)> <by consuming this unit>"],
+			"cost": 50
+		},
         {
 		"name": "Exportation Slave",
                 "uniqueTo": "Ashanti Empire",
@@ -2660,7 +2667,7 @@
 		"replaces": "Slave",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles","Limited to [6] per Civilization","Cannot enter ocean tiles <before discovering [Industrialization]>","Can be purchased with [Gold] [in all cities]","Can be purchased with [Faith] [in all cities]","Can be purchased for [70] [Gold] [in all cities]","Can be purchased for [85] [Faith] [in all cities]","Unbuildable","Never appears as a Barbarian unit"],
+		"uniques": ["Can build [Land] improvements on tiles","Limited to [6] per Civilization","Cannot enter ocean tiles <before discovering [Industrialization]>","Can be purchased with [Gold] [in all cities]","Can be purchased with [Faith] [in all cities]","Can be purchased for [50] [Gold] [in all cities]","Can be purchased for [55] [Faith] [in all cities]","Unbuildable","Never appears as a Barbarian unit"],
 	},
         {
 		"name": "Patagonian Ranger",
@@ -3475,6 +3482,19 @@
 							 "uniques": ["Double movement in [Jungle]","[+50]% Strength <when [Embarked]>","Never appears as a Barbarian unit"],
 					"attackSound": "shot"
 					},
+					{
+						"name": "Timorese Lancer",
+						"uniqueTo": "Portuguese Timor",
+                        "replaces": "Lancer",
+								"requiredTech": "Dynamite",
+								"obsoleteTech": "Replaceable Parts",
+						"unitType": "Light Cavalry",
+						"movement": 5,
+						"strength": 21,
+						"cost": 75, 
+								"uniques": ["[+20]% Strength bonus for [Archaic Infantry] units within [2] tiles","[+10]% Strength <vs [Heavy Cavalry] units>"],
+						"attackSound": "metalhit"
+						},
 	{
 		"name": "Circassian Highlander",
 		"uniqueTo": "Circassia",
@@ -3489,5 +3509,19 @@
 		"cost": 140,
                  "uniques": ["Double movement in [Friendly Land]","Never appears as a Barbarian unit"],
 		"attackSound": "shot"
-        }
+        },
+{
+			"name": "Goa Musketeer",
+			"uniqueTo": "Portuguese India",
+            "replaces": "Line Infantry",
+					"upgradesTo": "Grenadier",
+					"requiredTech": "Rifling",
+			"obsoleteTech": "Dynamite",
+			"unitType": "Infantry",
+			"movement": 2,
+			"strength": 14,
+			"uniques": ["[+30]% Strength <in cities with a [Wonder]>"],
+			"cost": 55,
+			"attackSound": "shot"
+},
 ] 
