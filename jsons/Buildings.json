@@ -558,6 +558,20 @@
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Vaccine"
 	},
+	{
+		"name": "Cigar Factory",
+		"uniqueTo": "Cuba",
+        "replaces": "Factory",
+		"cost": 360,
+		"production": 4,
+		"food": -1,
+		"happiness": 3,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Workshop",
+		"hurryCostModifier": 0,
+		"requiredTech": "Electricity"
+	},
         {
 		"name": "Kyaung",
                 "uniqueTo": "Burma",
@@ -916,7 +930,7 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": ["[+30]% [Faith] <during a Golden Age>","Destroyed when the city is captured"]
-	}
+	},
 
         {
 		"name": "Temple",
@@ -926,7 +940,7 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"]
-	}
+	},
 	{
 		"name": "Ngudangu",
 		"replaces": "Temple",
@@ -1082,15 +1096,51 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Electricity"
 	},
+	{
+		"name": "Mahdi's Tomb",
+		"replaces": "Memorial",
+		"uniqueTo": "Mahdist Sudan",
+                "specialistSlots": {"Artist": 5},
+		"hurryCostModifier": 25,
+		"culture": 4,
+                "production": 1,
+		"uniques": ["[+35]% [Culture] [in this city]",
+
+"[+35]% Great Person generation [in this city]", "Cost increases by [50] per owned city"],
+		"requiredTech": "Paris Agreements"
+	},
 {
 		"name": "Granary",
 		"food": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-                "requiredTech": "Hunting Pets"
+                "requiredTech": "Hunting Pets",
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
-			"[+1 Food] from [Wheat] tiles [in this city]"],
+			"[+1 Food] from [Wheat] tiles [in this city]"]
+	},
+	{
+		"name": "Apple Tree Plot",
+		"replaces": "Granary",
+		"uniqueTo": "Vermont",
+		"food": 2,
+		"hurryCostModifier": 25,
+                "requiredTech": "Hunting Pets",
+		"uniques": ["[+2 Food] [in this city] <during the [Industrial Era]>","[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"]
+	},
+	{
+		"name": "Arepa Hacienda",
+		"replaces": "Granary",
+		"uniqueTo": "Venezuela",
+		"food": 2,
+		"culture": 1,
+		"hurryCostModifier": 25,
+                "requiredTech": "Hunting Pets",
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+2 Food] from [Wheat] tiles [in this city]"]
 	},
 	{
 		"name": "Desert Supplies",
@@ -1098,10 +1148,10 @@
 		"uniqueTo": "German South West Africa",
 		"food": 3,
 		"hurryCostModifier": 25,
-                "requiredTech": "Hunting Pets"
+                "requiredTech": "Hunting Pets",
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]","[+1 Food] in cities on [Desert] tiles",
 			"[+1 Food] from [Bananas] tiles [in this city]",
-			"[+1 Food] from [Wheat] tiles [in this city]"],
+			"[+1 Food] from [Wheat] tiles [in this city]"]
 	},
 	{
 		"name": "Hivernant",
@@ -1110,10 +1160,10 @@
 		"food": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-                "requiredTech": "Hunting Pets"
+                "requiredTech": "Hunting Pets",
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]","[+1 Faith] from [Hunter Lodge] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
-			"[+1 Food] from [Wheat] tiles [in this city]"],
+			"[+1 Food] from [Wheat] tiles [in this city]"]
 	},
 {
 		"name": "Wickiup",
@@ -1123,10 +1173,10 @@
 
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-                "requiredTech": "Hunting Pets"
+                "requiredTech": "Hunting Pets",
 		"uniques": ["[+1 Gold, +1 Production] in cities on [Plains] tiles","[+1 Food] from [Deer] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
-			"[+1 Food] from [Wheat] tiles [in this city]"],
+			"[+1 Food] from [Wheat] tiles [in this city]"]
 	},
 	{
 		"name": "Colonial Plantation",

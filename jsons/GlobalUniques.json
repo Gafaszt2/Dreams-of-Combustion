@@ -1,7 +1,32 @@
 {
     "name": "Global uniques",
-    "uniques": ["Can build [all] improvements at a [+25]% rate <upon entering a new era>",
+    "uniques": [
         
+        ///// Building Rates
+
+        "Can build [all] improvements at a [+25]% rate <upon entering a new era>",
+
+        ///// Great Persons 
+        
+        "[Gold] cost of purchasing [Land] units [-20]% <during a Golden Age>",
+        "[Gold] cost of purchasing [Water] units [-20]% <during a Golden Age>",
+        "[Gold] cost of purchasing [Air] units [-20]% <during a Golden Age>",
+
+        "[Gold] cost of purchasing [Land] units [-3]% <upon entering a new era>",
+        "[Gold] cost of purchasing [Water] units [-3]% <upon entering a new era>",
+        "[Gold] cost of purchasing [Air] units [-3]% <upon entering a new era>",
+
+        "[Faith] cost of purchasing [Great General] units [-10]% <during a Golden Age>",
+        "[Faith] cost of purchasing [Great Engineer] units [-10]% <during a Golden Age>",
+        "[Faith] cost of purchasing [Great Artist] units [-10]% <during a Golden Age>",
+        "[Faith] cost of purchasing [Great Merchant] units [-10]% <during a Golden Age>",
+        "[Faith] cost of purchasing [Great Scientist] units [-10]% <during a Golden Age>",
+
+        "[Faith] cost of purchasing [Great General] units [-10]% <upon entering a new era>",
+        "[Faith] cost of purchasing [Great Engineer] units [-10]% <upon entering a new era>",
+        "[Faith] cost of purchasing [Great Artist] units [-10]% <upon entering a new era>",
+        "[Faith] cost of purchasing [Great Merchant] units [-10]% <upon entering a new era>",
+        "[Faith] cost of purchasing [Great Scientist] units [-10]% <upon entering a new era>",
         
         "May buy [Great Artist] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
         "May buy [Great Engineer] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
@@ -9,13 +34,42 @@
         "May buy [Great Merchant] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
         "May buy [Great Scientist] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
         "May buy [Great Prophet] units for [500] [Faith] [in all cities] at an increasing price ([100])",
-        "[-75]% growth [in all cities] <when between [-10] and [0] Happiness>",
-        "Nullifies Growth [in all cities] <when below [-10] Happiness>",
-        "[-50]% [Production] [in all cities] <when below [-10] Happiness>",
-        "[-33]% Strength <for [All] units> <when below [-10] Happiness>",
-        "Cannot build [Settler] units <when below [-10] Happiness>",
-        "Rebel units may spawn <when below [-20] Happiness>",
-        "[+1 Gold] per every [10] [Faith]",
+
+        ////// Maluses when sadness
+        
+        "[-2]% [Production] [in all cities] <when below [1] Happiness>",
+        "[-2]% [Gold] [in all cities] <when below [1] Happiness>",
+
+        "[-4]% [Production] [in all cities] <when below [4] Happiness>",
+        "[-4]% [Gold] [in all cities] <when below [4] Happiness>",
+
+        "[-6]% [Production] [in all cities] <when below [8] Happiness>",
+        "[-6]% [Gold] [in all cities] <when below [8] Happiness>",
+        "[-5]% [Science] [in all cities] <when below [8] Happiness>",
+ 
+        "[-12]% [Production] [in all cities] <when below [12] Happiness>",
+        "[-12]% [Gold] [in all cities] <when below [12] Happiness>",
+        "[-25]% growth [in all cities] <when below [12] Happiness>",
+        
+        "[-20]% [Production] [in all cities] <when below [20] Happiness>",
+        "[-20]% [Gold] [in all cities] <when below [20] Happiness>",
+        
+        "[-30]% [Production] [in all cities] <when below [25] Happiness>",
+        "[-30]% [Gold] [in all cities] <when below [25] Happiness>",
+        "[-65]% growth [in all cities] <when below [12] Happiness>",
+        "[-10]% [Happiness] [in all cities] <when below [25] Happiness>",
+        "Rebel units may spawn <when below [25] Happiness>",
+
+        "[-60]% [Production] [in all cities] <when below [35] Happiness>",
+        "[-60]% [Gold] [in all cities] <when below [35] Happiness>",
+        "[-30]% [Happiness] [in all cities] <when below [35] Happiness>",
+
+        "[-90]% [Production] [in all cities] <when below [65] Happiness>",
+        "[-90]% [Gold] [in all cities] <when below [65] Happiness>",
+        "[-90]% [Happiness] [in all cities] <when below [65] Happiness>",
+
+        ////// Embarked Stuff
+
         "[-1] Sight <for [Embarked] units>",
 
         // Filtering uniques must be listed here to tell RulesetValidator they're OK despite untyped

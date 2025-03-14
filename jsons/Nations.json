@@ -6,6 +6,179 @@
 //		"innerColor": [255,255,255]
 },
 {
+	"name": "Mahdist Sudan",
+	"leaderName": "Muhammad Ahmad al-Mahdi",
+	"adjective": ["Mahdist Sudan"],
+	"startBias":["Desert"],
+	"preferredVictoryType": "Destruction",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [23, 209, 82],
+	"innerColor": [28, 28, 28],
+	"uniqueName": "Jihad State",
+	"uniques": [
+	"[Gold] cost of purchasing [Camel] units [-60]%","[+2 Gold] from [Camel] tiles [in all cities]","[+1 Production] from [Desert] tiles [in all cities]"],
+	"cities": ["Omdurman",
+"Khartoum",
+"El Obeid",
+"Kassala",
+"Dongola",
+"Berber",
+"Sennar",
+"Wad Madani",
+"Kosti"],
+	"spyNames": ["Saki"]
+},
+{
+	"name": "Vermont",
+	"leaderName": "Thomas Chittenden",
+	"adjective": ["Vermont"],
+	"startBias":["Grassland"],
+	"preferredVictoryType": "Destruction",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [92, 96, 214],
+	"innerColor": [255, 255, 255],
+	"uniqueName": "Mormonism",
+	"uniques": [
+	"[Gold] cost of purchasing [Slave] units [+150]%","[Gold] cost of purchasing [Gardener] units [-20]%","[+1 Gold, +2 Food] from [Forest] tiles [in all cities]","[+1 Gold, +1 Food] from [Heavy Labor Plantation] tiles [in all cities]"],
+	"cities": ["Castleton",
+"Burlington",
+"Montpelier",
+"Rutland",
+"St. Albans",
+"Barre",
+"Middlebury",
+"Brattleboro",
+"Newport"],
+	"spyNames": ["Saki"]
+},
+{
+	"name": "Venezuela",
+	"leaderName": "Antonio Guzmán Blanco",
+	"adjective": ["Venezuela"],
+	"startBias":["Plains"],
+	"preferredVictoryType": "Destruction",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [64, 50, 40],
+	"innerColor": [235, 208, 127],
+	"uniqueName": "Caudillo's Reforms",
+	"uniques": [
+	"[+5]% growth [in capital]","[+10]% Production when constructing [Heavy Cavalry] units [in capital]","[+20]% Production when constructing [Light Cavalry] units [in all cities]","[+35]% Production when constructing [Armored] units [in all cities]"],
+	"cities": ["Caracas",
+"Maracaibo",
+"Valencia",
+"Barquisimeto",
+"Maracay",
+"Ciudad Bolívar",
+"San Cristóbal",
+"Mérida",
+"Barcelona",
+"Cumaná"],
+	"spyNames": ["Saki"]
+},
+{
+	"name": "Cuba",
+	"leaderName": "José Martí",
+	"adjective": ["Cuba"],
+	"startBias":["Coast"],
+	"preferredVictoryType": "Destruction",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [143, 229, 255],
+	"innerColor": [28, 67, 79],
+	"uniqueName": "Grito de Baire",
+	"uniques": [
+	"[+1 Gold] from all [Production] buildings","[-10]% unhappiness from the number of cities","[+25]% Production when constructing [Production] buildings [in all cities]"],
+	"cities": ["Havana",
+"Santiago de Cuba",
+"Camagüey",
+"Holguín",
+"Guantánamo",
+"Santa Clara",
+"Las Tunas",
+"Bayamo",
+"Cienfuegos",
+"Pinar del Río"],
+	"spyNames": ["Saki"]
+},
+{
+	"name": "Aceh",
+	"leaderName": "Sultan Muhammad Daud Syah",
+	"adjective": ["Aceh"],
+	"startBias":["Coast"],
+	"preferredVictoryType": "Destruction",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [245, 0, 0],
+	"innerColor": [255, 255, 255],
+	"uniqueName": "Ottoman Influence",
+	"uniques": [
+	"[+1 Faith] per [2] social policies adopted","[+1 Faith] from each Trade Route","[+30]% Production when constructing [Worker] units [in all cities]","Gain a free [Library] [in capital] <upon constructing [Temple]>"],
+	"cities": ["Banda Aceh",
+"Meulaboh",
+"Sabang",
+"Lhokseumawe",
+"Sigli",
+"Tapaktuan",
+"Langsa",
+"Takengon",
+"Calang",
+"Bireuen"],
+	"spyNames": ["Saki"]
+},
+{
 	"name": "Portuguese India",
 	"leaderName": "Afonso de Albuquerque",
 	"adjective": ["Portuguese India"],
@@ -472,60 +645,6 @@
 		"cities": ["Tiiis Tseba", "Chichiil Bidagoteel", "Teehach", "Tichlog", "Kiis Chiintiidn", "Ts Tsskidn", "Dzi Likesilan", "Tsebainasti", "Hakiy", "Ts L' tah", "Naleei Danakaiy", "T' Yadnlin", "Nagonltin", "Chichiil da'kizh", "Izee Dighin", "Ts Dadlit'as", "T' Edn", "Tse Nanesnasdz", "Ts Ya Kih Nastl"],
         "spyNames": ["Saki"]
     },
-{
-		"name": "Czechoslovakia",
-		"leaderName": "Tomáš Masaryk",
-		"adjective": ["Czechoslovakia"],
-		"startBias":["Forest"],
-		"preferredVictoryType": "Political",
-
-
-        "startIntroPart1": "",
-        "startIntroPart2": "",
-
-                "declaringWar": "We cannot tolerate you anymore",
-		"attacked": "The war has hardened us, but it has not broken us",
-		"defeated": "This cannot happen!",
-		"introduction": "Welcome to our land",
-		"neutralHello": "Hello.",
-		"hateHello": "We do not fear war",
-		"tradeRequest": "Check out this",
-		"outerColor": [168, 50, 50],
-		"innerColor": [232, 247, 208],
-		"favoredReligion": "Orthodox",
-		"uniqueName": "Golden Republic",
-		"uniques": [
-		"[+1 Culture] from every specialist [in all cities]","[+2 Culture] from every specialist [in all cities] <starting from the [First World War]>"],
-		"cities": ["Prague", "Bratislava", "Brno", "Ostrava", "Kosice", "Plzen", "Liberec", "Uzhorod", "Presov", "Zilina", "Olomouc", "Ústí nad Labem", "Ceské Budejovice", "Banská Bystrica", "Nitra"],
-        "spyNames": ["Saki"]
-    },
-{
-		"name": "North Korea",
-		"leaderName": "Kim Il-Sung",
-		"adjective": ["NorthKorean"],
-		"startBias":["Tundra"],
-		"preferredVictoryType": "Supremacy",
-
-
-        "startIntroPart1": "",
-        "startIntroPart2": "",
-
-                "declaringWar": "We cannot tolerate you anymore",
-		"attacked": "The war has hardened us, but it has not broken us",
-		"defeated": "This cannot happen!",
-		"introduction": "Welcome to the land of north Korea",
-		"neutralHello": "Hello.",
-		"hateHello": "We do not fear war",
-		"tradeRequest": "Check out this",
-		"outerColor": [46, 46, 45],
-		"innerColor": [252, 195, 8],
-		"favoredReligion": "Taoism",
-		"uniqueName": "Hermit Republic",
-		"uniques": [
-		"[+1 Science] from every [Strategic resource]","[+1 Culture] from every [Snow]"],
-		"cities": ["Pyongyang", "Hamhung","Chongjin","Nampo","Wonsan","Tanchon","Sinuiju","Kaechon","Kaesong","Sunchon","Sariwon","Pyongsong","Kanggye","Anju","Haeju","Kimchaek","Hyesan","Chongju"],
-        "spyNames": ["Saki"]
-    },
 
 {
 		"name": "Seminole People",
@@ -553,60 +672,6 @@
 		"uniques": [
 		"Free [Captured American Child] appears <upon discovering [Rifling] technology>","[-2 Gold] from every [Slave Labor Plantation]","[+2 Production] from every [Heavy Labor Plantation]"],
 		"cities": ["Everglades","Apalachee","Timucua","Creek","Muskogean"],
-	}
-{
-		"name": "Indonesia",
-		"leaderName": "Sukarno",
-		"adjective": ["Indonesian"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Political",
-		
-		"startIntroPart1": "",
-		
-		"declaringWar": "For the good of The Empire i must declare war!",
-		"attacked": "You are making a big mistake.",
-		"defeated": "Will this be my last goodbye to you?.",
-		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
-		
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-		
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-				
-		"outerColor": [150, 224, 198],
-		"innerColor": [59, 23, 66],
-                "favoredReligion": "Islam",
-		"uniqueName": "Pancasila",
-		"uniques": [
-		"[+1 Production] per [2] social policies adopted","[+1 Food] per [1] social policies adopted"],
-		"cities": ["Jakarta", "Surabaya", "Yogyakarta", "Medan", "Bandung", "Semarang", "Palembang", "Makassar", "Pekanbaru", "Bandar Lampung", "Batam", "Padang", "Malang", "Denpasar", "Samarinda", "Banjarmasin", "Serang", "Balikpapan", "Pontianak", "Jambi", "Surakarta", "Tanjung Pinang", "Pangkal Pinang", "Gorontalo", "Ternate", "Metro"],
-	},
-{
-		"name": "Cuba",
-		"leaderName": "Fidel Castro",
-		"adjective": ["Cuban"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Political",
-		
-		"startIntroPart1": "",
-		
-		"declaringWar": "For the good of The Empire i must declare war!",
-		"attacked": "You are making a big mistake.",
-		"defeated": "Will this be my last goodbye to you?.",
-		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
-		
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-		
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-				
-		"outerColor": [161, 213, 240],
-		"innerColor": [207, 23, 2],
-                "favoredReligion": "Catholic",
-		"uniqueName": "¡Viva la Revolución!",
-		"uniques": [
-		"[+10]% [Happiness] [in all cities] <when at war>", "[+10]% [Gold] [in all cities] <when at war>","[+10]% [Food] [in all cities] <when at war>","[+5]% [Production] [in all cities] <when at war>"],
-		"cities": ["Havana", "Santiago de Cuba", "Camagüey", "Guantanamo", "Pinar del Rio", "Holguin", "Cienfuegos", "Santa Clara", "Matanzas", "Bayamo", "Sancti Spiritus", Florida, Moron, Ciego de Avila, Las Tunas, Artemisa, Nueva Gerona, Cardenas, Baracoa, Palma Soriano, Varadero, Manzanilla, Colon, Contramaestro, Sandino, La Maya, Guanabacoa, Baracoa, Guines, Sagua La Grande"],
 	},
 {
 		"name": "Yugoslavia",
@@ -889,8 +954,7 @@
                 "favoredReligion": "Manaism",
 		"uniqueName": "Aloha Spirit",
 		"uniques": [
-		"Enables embarkation for land units <starting from the [Industrial Era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
-            "Enables [All] units to enter ocean tiles <starting from the [Industrial Era]>",
+		"[+1] Movement <for [Water] units>","[+1] Movement <for [Land] units>",
  "[+1] Sight <for [Embarked] units>"],
 		"cities": ["Honolulu",
 "Hilo",
@@ -1285,7 +1349,7 @@
 		"uniqueName": "Akal Sahai",
 		"uniques": [
 		"Enemy [Wounded] units must spend [1] extra movement points when inside your territory",  "[-20]% Gold cost of upgrading", "Earn [50]% of killed [Wounded] unit's [Cost] as [Faith]"],
-		"cities": ["Lahore","Multan","Peshawar","Kashmir","Gujranwala",Amritsar","Jammu"],
+		"cities": ["Lahore","Multan","Peshawar","Kashmir","Gujranwala","Amritsar","Jammu"],
 	},{
 		"name": "Maori",
 		"leaderName": "King Tawhiao",
@@ -1357,12 +1421,12 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [174, 201, 245],
-		"innerColor": [161, 3, 0],
+		"outerColor": [144, 166, 245],
+		"innerColor": [25, 28, 38],
                 "favoredReligion": "Buddhism",
-		"uniqueName": "Golden Land",
+		"uniqueName": "British Influence",
 		"uniques": [
-		"[+10]% Production when constructing [Water] units [in all cities]","[+5]% of excess happiness converted to [Science]","[-30]% Gold cost of acquiring tiles [in all cities]"],
+		"[+10]% [Science] [in all cities]","Gain [35]-[50] [Science] <upon conquering a city>","Gain [15]-[20] [Science] <upon adopting [Colonialism]>"],
 		"cities": ["Yangon","Mandalay","Naypyidaw","Mawlamyine","Taunggi","Bago","Monywa","Myitkyna","Pathein","Sittwe"],
 	},
 {
@@ -1474,7 +1538,7 @@
 		"cities": ["Thang Long","Ho Chi Minh","Da Nang","Hue","Nha Trang","Ha Long","Can Tho","Da Lat","Hai Phong","Vinh"],
 	},
 {
-		"name": "Siam Kingdom",
+		"name": "Siam",
 		"leaderName": "King Chulalongkorn",
 		"adjective": ["Siamese"],
 		"startBias": ["Jungle"],
@@ -1492,13 +1556,17 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [181, 163, 171],
-		"innerColor": [84, 24, 51],
+		"outerColor": [224, 205, 175],
+		"innerColor": [227, 0, 0],
                 "favoredReligion": "Buddhism",
-		"uniqueName": "Father Governs Childreen",
+		"uniqueName": "Lao Rebellion",
 		"uniques": [
-		"[+50]% [Food] from City-States","[+50]% [Culture] from City-States","[+50]% [Faith] from City-States","Military Units gifted from City-States start with [+15] XP"],
-		"cities": ["Sukhothai","Si Satchanalai","Muang Saluang","Lampang","Phitsanulok","Kamphaeng Pet","Nakhom Chum","Vientiane",
+		"Provides a [Library] in your first [2] cities for free <upon adopting [Imperialism]>",
+		"[Elephant] units gain the [Equipment I] promotion <upon adopting [Revolution]>","[Elephant] units gain the [Equipment II] promotion <upon adopting [Revolution]>",
+	    "Empire enters a [2]-turn Golden Age <upon founding a city>",
+	    "[2] free [Vanguard Elephant] units appear <upon discovering [Military Science] technology>",
+	    "[1] free [Halberdier] units appear <upon discovering [Military Science] technology> <upon founding a city>"],
+		"cities": ["Bangkok","Sukhothai","Si Satchanalai","Muang Saluang","Lampang","Phitsanulok","Kamphaeng Pet","Nakhom Chum","Vientiane",
 			"Nakhon Si Thammarat","Martaban","Nakhon Sawan","Chainat","Luang Prabang","Uttaradit","Chiang Thong","Phrae",
 			"Nan","Tak","Suphanburi","Hongsawadee","Thawaii","Ayutthaya","Taphan Hin","Uthai Thani","Lap Buri","Ratchasima",
 			"Ban Phai","Loci","Khon Kaen","Surin"],
@@ -3307,7 +3375,7 @@ Nixon Bureaucratic Reforms
 		"innerColor": [94, 1, 27],
 		"uniqueName": "Kivuzu Faction Fracturation",
 		"uniques": [
-		"[+1 Culture] from every [Slave Labor Plantation]","[+2 Production] from every [Slave Labor Plantation]"],
+		"[+2 Gold] per [2] social policies adopted","[+10]% [Gold] [in all cities]","[Gold] cost of purchasing [Slave] units [-30]%"],
 		"cities": ["Mbanza Kongo", "Soyo" ,"Boma", "Matadi", "Bandundu", "Kinshasa", "Kisantu", "Kikwit","Kananga","Lubumbashi","Likasi"]
 	},
         {
@@ -3492,7 +3560,7 @@ Nixon Bureaucratic Reforms
 		"uniques": [
 		"[+2 Culture] [in all cities] <with [1] to [2] neighboring [{unimproved} {Forest}] tiles>","[+2 Faith] [in all cities] <with [1] to [2] neighboring [{unimproved} {Forest}] tiles>"],
 		"cities": ["Onondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River",
-			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
+			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
 			"Chondote","Canajoharie","Nedrow","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley",
 			"Schoharie","Bay of Quinte","Kanawale","Kanatsiokareke","Tyendinaga","Hahta"],
         "spyNames": ["Onatah", "Oneida", "Oshadagea", "Otetiani", "Genesee", "Dadgayadoh", "Otwtiani", "Kateri", "Onondakai", "Honanyawus"]

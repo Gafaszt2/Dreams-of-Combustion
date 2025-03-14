@@ -283,8 +283,6 @@
 		"name": "Renovated Kaaba",
 		"uniqueTo": "Nejd Sultanate",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"faith": 5,
-		"culture": 4,
 		"techRequired": "Settlement",
 		"uniques": ["Great Improvement","[+1 Faith] for each adjacent [House]","Unpillagable","Irremovable"],
 		"shortcutKey": "K"
@@ -411,17 +409,6 @@
 			"Gives a defensive bonus of [10]%",
 			"Adjacent enemy units ending their turn take [5] damage",
 			"Removes removable features when built","[+2 Food] for each adjacent [Mbanza]"]
-	},
-        {
-		"name": "Malecon",
-                "production": 1,
-                "turnsToBuild": 6,
-                "uniqueTo": "Cuba",
-		"terrainsCanBeBuiltOn": ["Coast"],
-		"uniques": ["Irremovable",
-                        "Can also be built on tiles adjacent to fresh water",
-			"Great Improvement",
-			"Removes removable features when built","[+1 Culture] for each adjacent [Coast]","[+1 Gold] for each adjacent [Coast]"]
 	},
         {
 		"name": "Hare Paenga",

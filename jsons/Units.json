@@ -85,7 +85,7 @@
                 "replaces": "Slave",
 		"unitType": "Civilian",
 		"movement": 4,
-		"uniques": ["Limited to [8] per Civilization","Cannot enter ocean tiles <before discovering [Industrialization]>","Can be purchased with [Faith] [in all cities]","Gain [120] [Gold] <(modified by game speed)> <by consuming this unit>","Can be purchased for [100] [Faith] [in all cities]","Unbuildable","Never appears as a Barbarian unit","Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Limited to [8] per Civilization","Can be purchased with [Faith] [in all cities]","Gain [120] [Gold] <(modified by game speed)> <by consuming this unit>","Can be purchased for [100] [Faith] [in all cities]","Unbuildable","Never appears as a Barbarian unit","Can build [Land] improvements on tiles", "Automation is a primary action"],
 	},
          {
 		"name": "Sharktooth Archer",
@@ -168,7 +168,7 @@
                 "uniqueTo": "Colony of New South Wales",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","Can be purchased with [Gold] [in capital]","Can be purchased for [34] [Gold] [in capital]","Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Can be purchased with [Gold] [in capital]","Can be purchased for [34] [Gold] [in capital]","Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 60
 	},
         {
@@ -178,7 +178,7 @@
                 "uniqueTo": "Tupi",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+350]% Strength <starting from the [Second World War]>","Can build [House] improvements on tiles","Can build [Slave Labor Plantation] improvements on tiles","Can build [Lodge Cabin] improvements on tiles","Can build [Ranch] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Oil well] improvements on tiles","Can build [Biodome] improvements on tiles","Can build [Solar Farm] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["[+350]% Strength <starting from the [Second World War]>","Can build [House] improvements on tiles","Can build [Slave Labor Plantation] improvements on tiles","Can build [Lodge Cabin] improvements on tiles","Can build [Ranch] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Oil well] improvements on tiles","Can build [Biodome] improvements on tiles","Can build [Solar Farm] improvements on tiles", "Automation is a primary action"],
 		"cost": 50
 	},
         {
@@ -188,7 +188,7 @@
                 "uniqueTo": "Tupi",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+350]% Strength <starting from the [Second World War]>","Can build [Mine] improvements on tiles","Can build [Quarry] improvements on tiles","Can build [Mill] improvements on tiles","Can build [Stable] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Hunter Lodge] improvements on tiles","Can build [Modern District] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["[+350]% Strength <starting from the [Second World War]>","Can build [Mine] improvements on tiles","Can build [Quarry] improvements on tiles","Can build [Mill] improvements on tiles","Can build [Stable] improvements on tiles","Can build [Fort] improvements on tiles","Can build [Hunter Lodge] improvements on tiles","Can build [Modern District] improvements on tiles", "Automation is a primary action"],
 		"cost": 50
 	},
         {
@@ -198,7 +198,7 @@
 		"unitType": "Civilian",
                 "strength": 3,
 		"movement": 2,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+100]% Strength <vs [Barbarian] units>","Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["[+100]% Strength <vs [Barbarian] units>","Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 50
 	},
         {
@@ -208,7 +208,7 @@
 		"unitType": "Civilian",
                 "strength": 3,
 		"movement": 2,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+100]% Strength <vs [Barbarian] units>","Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["[+100]% Strength <vs [Barbarian] units>","Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 50
 	},
         {
@@ -285,14 +285,14 @@
 		"unitType": "Civilian Water",
 		"movement": 4,
 		"cost": 10,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>", "Can build [Hare Paenga] improvements on tiles",
+		"uniques": [ "Can build [Hare Paenga] improvements on tiles",
             "Uncapturable", "Automation is a primary action"]
 	},
         {
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 70
 	},
 	{
@@ -300,16 +300,35 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
+	},
+	{
+		"name": "Colonial Governor",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Only available <after adopting [Imperialism]>","Only available <before adopting [Revolution]>","Only available <before adopting [Liberty]>","Founds a new puppet city <[2] times> <when above [5] Happiness> <after which this unit is consumed>","Can be purchased with [Gold] [in all cities]","Can be purchased for [400] [Gold] [in all cities]","Unbuildable","Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Innovator",
+		"unitType": "Civilian",
+		"movement": 1,
+		"uniques": ["Only available <after adopting [Revolution]>","Only available <before adopting [Imperialism]>","Only available <before adopting [Liberty]>","Limited to [2] per Civilization","Can be purchased with [Gold] [in all cities]","Gain [50] [Science] <(modified by game speed)> <by consuming this unit>","Can be purchased for [200] [Gold] [in all cities]","Unbuildable","Never appears as a Barbarian unit","Automation is a primary action"],
+	},
+	{
+		"name": "Conservationist",
+		"unitType": "Civilian",
+		"movement": 1,
+		"uniques": ["Only available <after adopting [Liberty]>","Only available <before adopting [Revolution]>","Only available <before adopting [Imperialism]>","Limited to [2] per Civilization","Can be purchased with [Gold] [in all cities]","Gain [50] [Culture] <(modified by game speed)> <by consuming this unit>","Can be purchased for [200] [Gold] [in all cities]","Unbuildable","Never appears as a Barbarian unit","Automation is a primary action"],
 	},
         {
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 4,
 		"cost": 30,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>", "May create improvements on water resources",
+		"uniques": [ "May create improvements on water resources",
             "Uncapturable", "Automation is a primary action"]
 	},
 	{
@@ -1654,7 +1673,7 @@
                 "replaces": "Worker",
 		"unitType": "Civilian",
 		"movement": 3,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 75
 	},
 	{
@@ -1663,7 +1682,7 @@
         "replaces": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["[70]% production cost <in cities with a [Temple]>","[This Unit] gains [1] movement <starting from the [First World War]>","Cannot enter ocean tiles <before discovering [Industrialization]>","Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["[70]% production cost <in cities with a [Temple]>","[This Unit] gains [1] movement <starting from the [First World War]>","Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 60
 	},
         {
@@ -1672,7 +1691,7 @@
                 "replaces": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 55
 	},
         {
@@ -1682,27 +1701,46 @@
 		"unitType": "Civilian",
 		"movement": 4,
                 "cost": 66
-		"uniques": ["Limited to [3] per Civilization","Cannot enter ocean tiles <before discovering [Industrialization]>","Never appears as a Barbarian unit","Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Limited to [3] per Civilization","Never appears as a Barbarian unit","Can build [Land] improvements on tiles", "Automation is a primary action"],
 	},
     {
 		"name": "Slave",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Limited to [4] per Civilization","Cannot enter ocean tiles <before discovering [Industrialization]>","Can be purchased with [Gold] [in all cities]","Can be purchased for [70] [Gold] [in all cities]","Unbuildable","Never appears as a Barbarian unit","Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Limited to [4] per Civilization","Can be purchased with [Gold] [in all cities]","Can be purchased for [70] [Gold] [in all cities]","Unbuildable","Never appears as a Barbarian unit","Can build [Land] improvements on tiles", "Automation is a primary action"],
+	},
+	{
+		"name": "Gardener",
+		"unitType": "Civilian",
+		"movement": 4,
+		"uniques": ["Uncapturable","Limited to [4] per Civilization","Can be purchased with [Gold] [in all cities]","Can be purchased for [100] [Gold] [in all cities]","Unbuildable","Never appears as a Barbarian unit","Turn this tile into a [Forest] tile <by consuming this unit>",
+			"Turn this tile into a [Jungle] tile <by consuming this unit>", "Automation is a primary action"]
+	},
+	{
+		"name": "Specialized Gardener",
+		"unitType": "Civilian",
+		"movement": 4,
+		"uniques": ["Uncapturable","Limited to [4] per Civilization","Can be purchased with [Gold] [in all cities]","Can be purchased for [250] [Gold] [in all cities]","Unbuildable","Never appears as a Barbarian unit",
+        "Turn this tile into a [Narra] tile <by consuming this unit>",
+        "Turn this tile into a [Serra Tree] tile <by consuming this unit>",
+        "Turn this tile into a [Cherry Blossom] tile <by consuming this unit>",
+		"Turn this tile into a [Baobab] tile <by consuming this unit>",
+		"Turn this tile into a [Acacia] tile <by consuming this unit>",
+		"Turn this tile into a [Mangroove] tile <by consuming this unit>", "Automation is a primary action"]
 	},
 	{
 		"name": "Courtesan",
 		"unitType": "Civilian",
 		"cost": 150,
 		"movement": 3,
-		"uniques": ["Limited to [2] per Civilization","Cannot enter ocean tiles <before discovering [Industrialization]>", "Can undertake a trade mission with City-State, giving a large sum of gold and [25] Influence", "Automation is a primary action"],
+		"uniques": ["Limited to [2] per Civilization", "Can undertake a trade mission with City-State, giving a large sum of gold and [25] Influence", "Automation is a primary action"],
 	},
 	{
 		"name": "Child Laborer",
 		"unitType": "Civilian",
 		"cost": 210,
 		"movement": 3,
-		"uniques": ["Limited to [2] per Civilization","Cannot enter ocean tiles <before discovering [Industrialization]>", "Can speed up construction of a building","Can speed up the construction of a wonder", "Automation is a primary action"],
+		"uniques": ["Limited to [2] per Civilization", "Can speed up construction of a building","Can speed up the construction of a wonder", "Automation is a primary action"],
 	},
         
         {
@@ -1711,7 +1749,7 @@
                 "replaces": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","Can build [Land] improvements on tiles", "Empire enters a [2]-turn Golden Age <by consuming this unit>", "Automation is a primary action"],
+		"uniques": ["Can build [Land] improvements on tiles", "Empire enters a [2]-turn Golden Age <by consuming this unit>", "Automation is a primary action"],
 		"cost": 90
 	},
         {
@@ -1857,6 +1895,21 @@
 		"cost": 260,
 		"attackSound": "shot"
         },
+		{
+			"name": "Jinete",
+			"uniqueTo": "Venezuela",
+                "replaces": "Cuirassier",
+					"upgradesTo": "Cavalry",
+					"obsoleteTech": "Replaceable Parts",
+					"requiredTech": "Novel",
+			"unitType": "Heavy Cavalry",
+			"movement": 4,
+			"strength": 25,
+			"rangedStrength": 30,
+			"cost": 110, 
+					"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+			"attackSound": "shot"
+			},
         
 
         {
@@ -2096,7 +2149,7 @@
                 "replaces": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","Double movement in [Hill]","Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Double movement in [Hill]","Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 70
 	},
         {
@@ -2245,7 +2298,7 @@
 		"movement": 2,
                 "strength": 8,
 		"cost": 146,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+100]% Strength <starting from the [New Imperial Era]>","[+100]% Strength <starting from the [Second World War]>","[+100]% Strength <starting from the [Post Cold War]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		"uniques": ["[+100]% Strength <starting from the [New Imperial Era]>","[+100]% Strength <starting from the [Second World War]>","[+100]% Strength <starting from the [Post Cold War]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
@@ -2257,7 +2310,7 @@
 		"movement": 3,
                 "strength": 20,
 		"cost": 126,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","[+10]% Strength <starting from the [New Imperial Era]>","[+30]% Strength <starting from the [Second World War]>","[+90]% Strength <starting from the [Post Cold War]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		"uniques": ["[+10]% Strength <starting from the [New Imperial Era]>","[+30]% Strength <starting from the [Second World War]>","[+90]% Strength <starting from the [Post Cold War]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [1] population"],
 		"hurryCostModifier": 20
 	},
@@ -2268,7 +2321,7 @@
 		"unitType": "Civilian",
                 "strength": 8,
 		"movement": 4,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>","Can build [Land] improvements on tiles","[+100]% Strength <starting from the [New Imperial Era]>","[+100]% Strength <starting from the [Second World War]>","[+100]% Strength <starting from the [Post Cold War]>", "Automation is a primary action"],
+		"uniques": ["Can build [Land] improvements on tiles","[+100]% Strength <starting from the [New Imperial Era]>","[+100]% Strength <starting from the [Second World War]>","[+100]% Strength <starting from the [Post Cold War]>", "Automation is a primary action"],
 		"cost": 89
 	},
 
@@ -2303,7 +2356,7 @@
 	},
         {
 		"name": "Gatling Elephant",
-                "uniqueTo": "Siam Kingdom",
+                "uniqueTo": "Siam",
                 "replaces": "Gatling Gun",
                 "requiredTech": "Combustion",
                 "obsoleteTech": "Combined Arms",
@@ -2311,9 +2364,23 @@
 		"movement": 4,
 		"strength": 25,
                 "rangedStrength": 45,
-		"cost": 250,
+		"cost": 295,
 		"attackSound": "machinegun"
         },
+		{
+			"name": "Vanguard Elephant",
+			"uniqueTo": "Siam",
+                "replaces": "Hussar",
+					"upgradesTo": "Cavalry",
+					"obsoleteTech": "Replaceable Parts",
+					"requiredTech": "Military Science",
+			"unitType": "Elephant",
+			"movement": 2,
+			"strength": 28,
+			"cost": 88, 
+					"uniques": ["[-30]% Strength <vs [Archaic Infantry] units>","[+10]% Strength <vs [Heavy Cavalry] units>","[+10]% Strength <vs [Light Cavalry] units>","[+10]% Strength <vs [Camel] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+			"attackSound": "horse"
+			},
         {
 		"name": "Bushranger",
                 "uniqueTo": "Colony of Victoria",
@@ -2354,7 +2421,7 @@
 		"movement": 3.5,
 		"strength": 25,
 		"cost": 90, 
-                "uniques": ["[+50]% Strength <vs [Heavy Cavalry] units>","[+50]% Strength <vs [Light Cavalry] units>","[+50]% Strength <vs [Camel] units>","Never appears as a Barbarian unit"],
+                "uniques": ["[+50]% Strength <vs [Heavy Cavalry] units>","[+50]% Strength <vs [Light Cavalry] units>","[+20]% Strength <vs [Camel] units>","Never appears as a Barbarian unit"],
 		"attackSound": "elephant"
         },
         {
@@ -2590,7 +2657,7 @@
 		"replaces": "Worker",
 			"unitType": "Civilian",
 			"movement": 2,
-			"uniques": ["Can be purchased for [55] [Faith] [in all cities]","Cannot enter ocean tiles <before discovering [Industrialization]>","Can build [Land] improvements on tiles", "Automation is a primary action"],
+			"uniques": ["Can be purchased for [55] [Faith] [in all cities]","Can build [Land] improvements on tiles", "Automation is a primary action"],
 			"cost": 70
 		},
         {
@@ -2667,7 +2734,7 @@
 		"replaces": "Slave",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles","Limited to [6] per Civilization","Cannot enter ocean tiles <before discovering [Industrialization]>","Can be purchased with [Gold] [in all cities]","Can be purchased with [Faith] [in all cities]","Can be purchased for [50] [Gold] [in all cities]","Can be purchased for [55] [Faith] [in all cities]","Unbuildable","Never appears as a Barbarian unit"],
+		"uniques": ["Can build [Land] improvements on tiles","Limited to [6] per Civilization","Can be purchased with [Gold] [in all cities]","Can be purchased with [Faith] [in all cities]","Can be purchased for [50] [Gold] [in all cities]","Can be purchased for [55] [Faith] [in all cities]","Unbuildable","Never appears as a Barbarian unit"],
 	},
         {
 		"name": "Patagonian Ranger",
@@ -3186,20 +3253,6 @@
 		"attackSound": "shot"
         },
 {
-		"name": "Guerrillero",
-                "uniqueTo": "Cuba",
-		"replaces": "Guerrilla Fighter",
-                "upgradesTo": "AK47",
-                "obsoleteTech": "Afganistan/Irak Wars",
-                "requiredTech": "Vietnam War",
-		"unitType": "Infantry",
-                "uniques": ["Invisible to non-adjacent units", "Can see invisible [Civilian] units","[+20]% Strength <vs [Barbarian] units>", "Never appears as a Barbarian unit"],
-		"movement": 2,
-		"strength": 70,
-		"cost": 260,
-		"attackSound": "shot"
-        },
-{
 		"name": "Lanceiro Negro",
                 "uniqueTo": "Brasilian Empire",
 		"replaces": "Lancer",
@@ -3247,7 +3300,7 @@
 		"unitType": "Civilian Water",
 		"movement": 4,
 		"cost": 30,
-		"uniques": ["Cannot enter ocean tiles <before discovering [Industrialization]>", "May create improvements on water resources","Gain [25] [Culture] <by consuming this unit>"
+		"uniques": [ "May create improvements on water resources","Gain [25] [Culture] <by consuming this unit>"
             "Uncapturable", "Automation is a primary action"]
 	},
         {
@@ -3340,6 +3393,20 @@
 						"uniques": ["[70]% production cost <in cities with a [Stable]>","[+8]% Strength <when defending>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 				"attackSound": "horse"
 				},
+				{
+					"name": "Mambi Cavalry",
+					"uniqueTo": "Cuba",
+		"replaces": "Hussar",
+							"upgradesTo": "Cavalry",
+							"obsoleteTech": "Replaceable Parts",
+							"requiredTech": "Military Science",
+					"unitType": "Light Cavalry",
+					"movement": 4,
+					"strength": 22,
+					"cost": 80, 
+							"uniques": ["[+30]% XP gained from combat","Excess Food converted to Production when under construction","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+					"attackSound": "horse"
+					},
 			{
 				"name": "Ottoman Sipahi",
 				"uniqueTo": "Bedouin Ottoman Domains",
@@ -3524,4 +3591,59 @@
 			"cost": 55,
 			"attackSound": "shot"
 },
+{
+	"name": "Ekor Lotong",
+	"uniqueTo": "Aceh",
+            "replaces": "Foot Artillery",
+			"obsoleteTech": "Combustion",
+	"unitType": "Siege",
+	"movement": 3,
+	"strength": 20,
+	"rangedStrength": 30,
+	"cost": 165,
+	"requiredTech": "Artillery",
+	"uniques": ["Limited to [4] per Civilization","[-15]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Never appears as a Barbarian unit"],
+	"attackSound": "cannon"
+},
+{
+	"name": "Inong Balee",
+	"uniqueTo": "Aceh",
+            "replaces": "Explorer",
+			"upgradesTo": "Mounted Explorer",
+			"obsoleteTech": "Railway",
+	"unitType": "Archaic Infantry",
+	"movement": 3,
+	"strength": 6,
+	"rangedStrength": 9,
+	"cost": 36,
+	"attackSound": "arrow"
+	},
+	{
+		"name": "Green Mountain Boy",
+		"uniqueTo": "Vermont",
+            "replaces": "Grenadier",
+                "upgradesTo": "Rifleman",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Dynamite",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 24,
+                "uniques": ["Double movement in [Hill]","Never appears as a Barbarian unit"],
+		"cost": 70,
+		"attackSound": "shot"
+        },
+		{
+			"name": "Ansar Rifleman",
+			"uniqueTo": "Mahdist Sudan",
+            "replaces": "Grenadier",
+					"upgradesTo": "Rifleman",
+					"obsoleteTech": "Replaceable Parts",
+					"requiredTech": "Dynamite",
+			"unitType": "Infantry",
+			"movement": 2,
+			"strength": 21,
+					"uniques": ["[+30]% Strength <vs [Heavy Cavalry] units>","[+30]% Strength <vs [Light Cavalry] units>","Double movement in [Desert]","Never appears as a Barbarian unit"],
+			"cost": 70,
+			"attackSound": "shot"
+			}
 ] 

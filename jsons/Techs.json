@@ -13,7 +13,7 @@
                                 When Dickens wrote his novels and Darwin studied nature
                                 The poets sang of beauty, love, and sorrow
                                 And the painters captured scenes of yesterday and tomorrow",
-				"uniques": ["Starting tech"]
+				"uniques": ["Starting tech","Enables [Embarked] units to enter ocean tiles","Enables embarkation for land units"]
 			}
 		]
 	},
@@ -71,7 +71,6 @@
 			{
 				"name": "Industrialization",
 				"row": 4,
-                                "uniques": ["Enables embarkation for land units"],
 				"prerequisites": ["Saw", "Mining"],
 			},
 			{
