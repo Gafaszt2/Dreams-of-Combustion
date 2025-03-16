@@ -8,6 +8,7 @@
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [18] tiles <in [Grassland] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"]
 	},
+	
 	{
 		"name": "Camel",
 		"resourceType": "Strategic",
@@ -16,6 +17,14 @@
 		"improvement": "Ranch",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [20] tiles <in [Desert] tiles>"]
+	},
+	{
+		"name": "Manpower",
+		"resourceType": "Strategic"
+	},
+	{
+		"name": "Armament",
+		"resourceType": "Strategic"
 	},
         {
 		"name": "Lobster",
@@ -638,4 +647,9 @@
 		"improvement": "Fishing Boats",
 		"improvementStats": {"gold": 2},
 	},
+	{
+		"name": "Nomad Manpower",
+		"resourceType": "Strategic",
+		"uniques":["Cannot be traded","Stockpiled"]
+	}
 ]

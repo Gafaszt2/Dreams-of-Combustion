@@ -6,6 +6,33 @@
 //		"innerColor": [255,255,255]
 },
 {
+	"name": "Kazakh Nomads",
+	"leaderName": "Kenesary Khan",
+	"adjective": ["Kazakh Nomads"],
+	"startBias": ["Hill","Mountain"],
+	"preferredVictoryType": "Supremacy",
+	
+	"startIntroPart1": "",
+	
+	"declaringWar": "For the good of my people i must declare war!",
+	"attacked": "You are making a big mistake.",
+	"defeated": "Will this be my last goodbye to you?.",
+	"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
+	
+	"neutralHello": "Greetings.",
+	"hateHello": "What do YOU want?!",
+	
+	"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+			
+	"outerColor": [1, 40, 66],
+	"innerColor": [179, 245, 229],
+	"uniqueName": "Steppe Pastoralists",
+	"uniques": [
+	"[-100]% maintenance cost for buildings [in all cities] <hidden from users>","[-100]% maintenance costs <hidden from users>","Nullifies [Culture] [in all cities] <hidden from users>","Nullifies [Science] [in all cities] <hidden from users>","Nullifies [Gold] [in all cities] <hidden from users>",
+	"[+30]% Strength <for [Heavy Cavalry] units>","Cannot build [Settler] units","May not annex cities","[+1] Sight"],
+	"cities": ["Astana","Almaty","Shymkent","Karaganda","Aktobe","Taraz","Pavlodar","Oskemen","Semey","Atyrau","Kostanay","Kyzylorda","Uralsk","Petropavl","Aktau"]
+},
+{
 	"name": "Nicaragua",
 	"leaderName": "José Santos Zelaya",
 	"adjective": ["Nicaragua"],
@@ -3492,32 +3519,6 @@ Nixon Bureaucratic Reforms
 		"uniques": [
 		"[+1 Food] from every [House]","[+1 Faith] from every [Bison]","[+1 Gold] from every [Bison]","[+1 Culture] from every [Forest]"],
 		"cities": ["Little Big Horn","Ochethi Ota","Lakhota Makoce", "Rapid City", "Wood Mountain", "Sichangu", "Oglála", "Hunkpapha", "Mnikhowozu", "Sihasapa", "Oohenunpa"]
-	},
-        {
-		"name": "Kazakhs",
-		"leaderName": "Kenesary Khan",
-		"adjective": ["Kazakhs"],
-		"startBias": ["Mountain Land"],
-		"preferredVictoryType": "Supremacy",
-		
-		"startIntroPart1": "",
-		
-		"declaringWar": "For the good of my people i must declare war!",
-		"attacked": "You are making a big mistake.",
-		"defeated": "Will this be my last goodbye to you?.",
-		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
-		
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-		
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-				
-		"outerColor": [1, 40, 66],
-		"innerColor": [179, 245, 229],
-		"uniqueName": "Steppe Sense",
-		"uniques": [
-		"[+1 Food] from every [Ranch] <during a Golden Age>","[+1 Food] from every [Horses]","[+1 Food] from every [Stable]","[+1] Sight"],
-		"cities": ["Astana","Almaty","Shymkent","Karaganda","Aktobe","Taraz","Pavlodar","Oskemen","Semey","Atyrau","Kostanay","Kyzylorda","Uralsk","Petropavl","Aktau"]
 	},
         {
 		"name": "Sultanate of Muscat and Oman",

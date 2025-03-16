@@ -457,7 +457,7 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
         {
-		"name": "Spices Shop",
+		"name": "Spice Shop",
                 "uniqueTo": "Guled Dynasty",
 		"maintenance": 3,
 		"requiredTech": "Enigma",
@@ -761,14 +761,14 @@
 		"cost": 400,
 		"hurryCostModifier": 20,
 		"uniques": ["Destroyed when the city is captured"]
-	}
+	},
 	{
 		"name": "Monument",
 		"culture": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"uniques": ["Destroyed when the city is captured"]
-	}
+	},
 {
 		"name": "Spomenik",
                 "uniqueTo": "Yugoslavia",
@@ -778,18 +778,7 @@
 		"cost": 35,
 		"hurryCostModifier": 40,
 		"uniques": ["Destroyed when the city is captured"]
-	}
-
-          {
-		"name": "Wharenui",
-                "uniqueTo": "Maori",
-                "replaces": "Monument",
-		"culture": 3,
-                "faith": 1,
-		"cost": 40,
-		"hurryCostModifier": 40,
-		"uniques": ["Destroyed when the city is captured"]
-	}
+	},
         {
 		"name": "Water Puppet Theater",
                "uniqueTo": "Vietnam",

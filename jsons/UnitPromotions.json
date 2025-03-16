@@ -97,7 +97,7 @@
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Sword","Gunpowder","Mounted"],
         "column": 4,
         "row": 1
 	},
@@ -107,7 +107,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Shock I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Sword","Gunpowder","Mounted"],
         "column": 4,
         "row": 2
 	},
@@ -117,7 +117,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Shock II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Sword","Gunpowder","Mounted"],
         "column": 4,
         "row": 3
 	},
@@ -127,7 +127,7 @@
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Sword","Gunpowder","Mounted"],
         "column": 5,
         "row": 1
 	},
@@ -137,7 +137,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Drill I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Sword","Gunpowder","Mounted"],
         "column": 5,
         "row": 2
 	},
@@ -147,7 +147,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Drill II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Sword","Gunpowder","Mounted"],
         "column": 5,
         "row": 3
 	},
@@ -157,7 +157,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Mounted","Armored"],
+		"unitTypes": ["Mounted"],
         "column": 6,
         "row": 2
 	},
@@ -169,7 +169,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Sword","Gunpowder","Mounted"],
         "column": 6,
         "row": 4
 	},
@@ -611,7 +611,7 @@
 		"prerequisites": ["Shock II","Drill II","Targeting I",
 			"Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine"],
+		"unitTypes": ["Mounted","Melee Water","Ranged Water","Submarine"],
         "column": 24,
         "row": 3
 	},
@@ -621,7 +621,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Melee Water"],
         "column": 24,
         "row": 4
 	},
@@ -874,7 +874,7 @@
 	"innerColor": [128, 154, 196],
 	"outerColor": [23, 27, 33],
 	"uniques": ["[+5]% Strength <vs cities>","[+1] Movement"],
-	"unitTypes": ["Archaic Infantry"],
+	"unitTypes": ["Archaic Infantry","Armored"],
 	"column": 50,
 	"row": 50
 },
@@ -884,7 +884,7 @@
 	"outerColor": [23, 27, 33],
 	"prerequisites": ["Equipment I"],
 	"uniques": ["[+1] Movement","[+2] HP when healing <in [Foreign Land] tiles>"],
-	"unitTypes": ["Archaic Infantry"],
+	"unitTypes": ["Archaic Infantry","Armored"],
 	"column": 51,
 	"row": 51
 },
@@ -894,7 +894,7 @@
 	"outerColor": [23, 27, 33],
 	"prerequisites": ["Equipment II"],
 	"uniques": ["[+1] Sight","[+6] HP when healing <in [Foreign Land] tiles>"],
-	"unitTypes": ["Archaic Infantry"],
+	"unitTypes": ["Archaic Infantry","Armored"],
 	"column": 52,
 	"row": 52
 },
@@ -986,9 +986,135 @@
 	"column": 61,
 	"row": 61
 },
-
-
-
+{
+	"name": "Breakthrough I",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"uniques": ["[+25]% Strength <vs [Infantry] units>","[+25]% Strength <vs [Wounded] units>"],
+	"unitTypes": ["Armored"],
+	"column": 62,
+	"row": 62
+},
+{
+	"name": "Breakthrough II",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Breakthrough I"],
+	"uniques": ["[+1] Movement","[+25]% Strength <vs [Wounded] units>"],
+	"unitTypes": ["Armored"],
+	"column": 63,
+	"row": 63
+},
+{
+	"name": "Breakthrough III",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Breakthrough II"],
+	"uniques": ["[+1] Movement","[+30]% Strength <vs [Wounded] units>"],
+	"unitTypes": ["Armored"],
+	"column": 65,
+	"row": 65
+},
+{
+	"name": "Blitzkrieg",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Breakthrough III"],
+	"uniques": ["[+1] Movement","[+30]% Strength <vs [Wounded] units>"],
+	"unitTypes": ["Armored"],
+	"column": 66,
+	"row": 66
+},
+{
+	"name": "Tundra Titan",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Breakthrough III"],
+	"uniques": ["[+1] Movement","[+60]% Strength <when fighting in [Tundra] tiles>","[+60]% Strength <when fighting in [Snow] tiles>"],
+	"unitTypes": ["Armored"],
+	"column": 67,
+	"row": 67
+},
+{
+	"name": "Desert Fox",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Breakthrough III"],
+	"uniques": ["[+1] Movement","[+60]% Strength <when fighting in [Desert] tiles>"],
+	"unitTypes": ["Armored"],
+	"column": 68,
+	"row": 68
+}, 
+{
+	"name": "Advanced Turrets",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Breakthrough I"],
+	"uniques": ["[+35]% Strength <vs [Ranged] units> <when defending>"],
+	"unitTypes": ["Armored"],
+	"column": 69,
+	"row": 69
+},
+{
+	"name": "Reinforced Armor Plating",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Equipment II"],
+	"uniques": ["[+25]% Strength <vs [Infantry] units>"],
+	"unitTypes": ["Armored"],
+	"column": 70,
+	"row": 70
+},
+{
+	"name": "Improved Suspension",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Breakthrough II"],
+	"uniques": ["Double movement in [Jungle]","Double movement in [Forest]","Double movement in [Marsh]"],
+	"unitTypes": ["Armored"],
+	"column": 71,
+	"row": 71
+},
+{
+	"name": "Reactive Armor",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Breakthrough II"],
+	"uniques": ["[+25]% Strength <vs [Artillery] units>"],
+	"unitTypes": ["Armored"],
+	"column": 72,
+	"row": 72
+},
+{
+	"name": "Infrared Optics",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Breakthrough II"],
+	"uniques": ["[+1] Sight"],
+	"unitTypes": ["Armored"],
+	"column": 73,
+	"row": 73
+},
+{
+	"name": "Rapid Reload Mechanism",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Breakthrough II"],
+	"uniques": ["[1] additional attacks per turn"],
+	"unitTypes": ["Armored"],
+	"column": 74,
+	"row": 74
+},
+{
+	"name": "Experimental Shells",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Breakthrough II"],
+	"uniques": ["[+15]% Strength <vs cities>"],
+	"unitTypes": ["Armored"],
+	"column": 75,
+	"row": 75
+},
 
 
 

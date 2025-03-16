@@ -48,6 +48,15 @@
 		"shortcutKey": "M"
 	},
 	{
+		"name": "Synthetic Oil Factory",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 1,
+		"turnsToBuild": 10,
+		"techRequired": "Composites",
+		"uniques": ["Provides [1] [Oil]","Costs [20] [Gold] per turn when in your territory","Pillaging this improvement yields approximately [+60 Gold]"],
+		"shortcutKey": "M"
+	},
+	{
 		"name": "Oil well",
 		"turnsToBuild": 9,
 		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
@@ -177,25 +186,26 @@
                 "food": 1,
                 "happiness": 2,
                 "techRequired": "Plastics",
-                "uniques": ["[+2 Production] for each adjacent [House]","Costs [30] [Gold] per turn"],
+                "uniques": ["Provides [5] [Manpower]","Costs [3] [Gold] per turn"],
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Savannah","Mountain Land","Mud","Cold Soil"],
-		"turnsToBuild": 21,
+		"turnsToBuild": 15
+	},
+	{
+		"name": "Military Factory",
+                "production": 1,
+                "techRequired": "Plastics",
+                "uniques": ["Provides [5] [Armament]","Costs [3] [Gold] per turn"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Savannah","Mountain Land","Mud","Cold Soil"],
+		"turnsToBuild": 15
 	},
         {
 		"name": "Geothermal Plant",
                 "techRequired": "Plastics",
                 "uniques": ["[+1 Production] for each adjacent [Mine]","[+4 Production] for each adjacent [Mountain]","Costs [10] [Gold] per turn"],
 		"terrainsCanBeBuiltOn": ["Hill"],
-		"turnsToBuild": 21,
+		"turnsToBuild": 15
 	},
-        {
-		"name": "Military Factory",
-                "production": 1,
-                "techRequired": "Plastics",
-                "uniques": ["[+2 Production] for each adjacent [Civil Factory]","Costs [30] [Gold] per turn"],
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Savannah","Mountain Land","Mud","Cold Soil"],
-		"turnsToBuild": 23,
-	},
+        
 
 	// Transportation
 	{

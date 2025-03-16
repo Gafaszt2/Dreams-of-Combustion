@@ -252,6 +252,55 @@
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
+	{
+		"name": "Mounted Pastoralist",
+		"uniqueTo": "Kazakh Nomads",
+		"replaces": "Settler",
+		"unitType": "Civilian",
+		"movement": 3,
+		"strength": 2,
+		"cost": 1,
+		"uniques": ["Uncapturable","Consumes [-20] [Nomad Manpower] <in [All] tiles> <hidden from users>",
+		            "[+2000]% Strength <vs [Barbarian] units> <hidden from users>",
+		            "[1] free [Mounted Pastoralist] units appear <for [3] movement> <costs [200] [Nomad Manpower]>",
+					"[1] free [Great General] units appear <for [3] movement> <costs [300] [Nomad Manpower]>",
+					"[1] free [Great Prophet] units appear <for [3] movement> <costs [300] [Nomad Manpower]>",
+					"[1] free [Explorer] units appear <for [3] movement> <costs [60] [Nomad Manpower]>",
+					"[1] free [Mounted Explorer] units appear <for [3] movement> <costs [90] [Nomad Manpower]>",
+					"[1] free [Batyr Champions] units appear <for [3] movement> <costs [600] [Nomad Manpower]>",
+	                "[1] free [Courtesan] units appear <for [3] movement> <costs [100] [Nomad Manpower]>",
+				    "[1] free [Frigate] units appear <for [3] movement> <costs [100] [Nomad Manpower]>",
+				    "[1] free [Windstrike Frigate] units appear <for [3] movement> <costs [600] [Nomad Manpower]>",
+					"Free Social Policy <for [3] movement> <costs [200] [Nomad Manpower]>",
+					"Free Technology <for [3] movement> <costs [200] [Nomad Manpower]>"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Batyr Champions",
+		"uniqueTo": "Kazakh Nomads",
+        "upgradesTo": "Grenadier",
+        "requiredTech": "Rifling",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Heavy Cavalry",
+		"movement": 2,
+		"strength": 12,
+		"uniques": ["[+70]% Strength <upon entering a new era>"],
+		"cost": 55,
+		"attackSound": "shot"
+        },
+	{
+		"name": "Windstrike Frigate",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Kazakh Nomads",
+        "obsoleteTech": "Steam Power",
+		"movement": 5,
+		"strength": 20,
+		"rangedStrength": 28,
+		"cost": 185,
+		"uniques": ["[+70]% Strength <upon entering a new era>"],
+		"hurryCostModifier": 20,
+		"attackSound": "cannon"
+	},
         {
 		"name": "Assegai",
                 "uniqueTo": "Zulu",
@@ -347,6 +396,7 @@
 		"unitType": "Light Cavalry",
 		"movement": 3.5,
 		"strength": 6,
+		"obsoleteTech": "Replaceable Parts",
 		"cost": 70, 
                 "uniques": ["[+10]% Strength <vs [Heavy Cavalry] units>","Never appears as a Barbarian unit"],
 		"attackSound": "shot"
@@ -855,7 +905,7 @@
 		"unitType": "Artillery",
 		"movement": 2,
 		"strength": 50,
-                "uniques": ["[+50]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
+                "uniques": ["[+60]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
 		"cost": 300,
 		"attackSound": "shot"
         },
@@ -1126,7 +1176,7 @@
 		"name": "Landship",
                 "upgradesTo": "Tank",
 		"unitType": "Armored",
-		"movement": 4,
+		"movement": 3,
 		"strength": 60,
 		"cost": 350,
                 "obsoleteTech": "Combined Arms",
@@ -1134,6 +1184,19 @@
 		"requiredResource": "Oil",
 		"uniques": ["Limited to [4] per Civilization","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
+	},
+	{
+		"name": "Armored Car",
+        "upgradesTo": "Tank",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 45,
+		"cost": 300,
+        "obsoleteTech": "Combined Arms",
+		"requiredTech": "Tanks",
+		"requiredResource": "Oil",
+		"uniques": ["[-20]% Strength <vs [Armored] units>","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
 	},
         {
 		"name": "Destroyer",
@@ -1357,7 +1420,7 @@
 			"strength": 58,
 			"rangedStrength": 58,
 			"cost": 300,
-			"uniques": ["[+30]% Strength <starting from the [Cold War]>","[+40]% Strength <starting from the [Post Cold War]>","Never appears as a Barbarian unit"],
+			"uniques": ["[-15]% Strength <vs cities> <when attacking>","[-20]% Strength <vs [Armored] units>","[+10]% Strength <starting from the [Cold War]>","[+10]% Strength <starting from the [Post Cold War]>","Never appears as a Barbarian unit"],
 			"attackSound": "machinegun"
 			},
         {
@@ -2251,7 +2314,6 @@
 		"name": "Opalchentsi",
                 "uniqueTo": "Bulgarian Empire",
                 "replaces": "Rifleman",
-                "upgradesTo": "Great War Infantry",
                 "upgradesTo": "Great War Infantry",
 		"obsoleteTech": "Ballistics",
                 "requiredTech": "Replaceable Parts",
