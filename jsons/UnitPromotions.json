@@ -5,7 +5,7 @@
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Machinegun","Artillery"],
+		"unitTypes": ["Siege","Archery","Artillery","Drone"],
         "column": 1,
         "row": 1
     },
@@ -15,7 +15,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Accuracy I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Machinegun","Artillery"],
+		"unitTypes": ["Siege","Archery","Artillery","Drone"],
         "column": 1,
         "row": 2
     },
@@ -25,7 +25,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Accuracy II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Machinegun","Artillery"],
+		"unitTypes": ["Siege","Archery","Artillery","Drone"],
         "column": 1,
         "row": 3
     },
@@ -35,7 +35,7 @@
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Machinegun","Artillery"],
+		"unitTypes": ["Siege","Archery","Artillery","Drone"],
         "column": 2,
         "row": 1
 	},
@@ -45,7 +45,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Barrage I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Machinegun","Artillery"],
+		"unitTypes": ["Siege","Archery","Artillery","Drone"],
         "column": 2,
         "row": 2
 	},
@@ -55,7 +55,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Barrage II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Machinegun","Artillery"],
+		"unitTypes": ["Siege","Archery","Artillery","Drone"],
         "column": 2,
         "row": 3
 	},
@@ -66,7 +66,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Accuracy I","Barrage I"],
 		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Siege","Artillery"],
+		"unitTypes": ["Siege","Artillery","Drone"],
         "column": 3,
         "row": 1
 	},
@@ -74,9 +74,9 @@
 		"name": "Extended Range",
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],
-		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II", "Wolfpack II"],
+		"prerequisites": ["Accuracy III"],
 		"uniques": ["[+1] Range"],
-		"unitTypes": ["Archery","Machinegun","Siege","Artillery","Ranged Water","Submarine"],
+		"unitTypes": ["Archery","Siege","Artillery","Ranged Water","Submarine","Drone"],
         "column": 3,
         "row": 3
 	},
@@ -84,9 +84,9 @@
 		"name": "Indirect Fire",
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],
-		"prerequisites": ["Accuracy III", "Barrage III", "Bombardment II", "Targeting II"],
+		"prerequisites": ["Accuracy III", "Barrage III"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
-		"unitTypes": ["Archery","Machinegun","Siege","Ranged Water","Artillery"],
+		"unitTypes": ["Archery","Siege","Ranged Water","Artillery"],
         "column": 3,
         "row": 4
 	},
@@ -579,7 +579,7 @@
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Machinegun","Siege","Drone"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Siege","Drone"],
         "column": 24,
         "row": 1
 	},
@@ -589,7 +589,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Cover I"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Machinegun","Siege","Drone"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Siege","Drone"],
         "column": 24,
         "row": 2
 	},
@@ -600,7 +600,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Machinegun","Siege","Mounted"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Siege","Mounted"],
         "column": 10,
         "row": 3
 	},
@@ -632,7 +632,7 @@
 		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
 			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III", "Mobility II", "Anti-Armor II"],
 		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
-		"unitTypes": ["Archery","Machinegun","Siege","Melee Water","Ranged Water","Submarine","Fighter","Bomber","Helicopter"],
+		"unitTypes": ["Archery","Siege","Melee Water","Ranged Water","Submarine","Fighter","Bomber","Helicopter"],
         "column": 24,
         "row": 5
 	},
@@ -706,7 +706,7 @@
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],
 		"uniques": ["[+15]% Strength <when defending>"],
-		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant"],
+		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Machinegun"],
         "column": 33,
         "row": 33
 	},
@@ -716,7 +716,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Entrenched I"],
 		"uniques": ["[+15]% Strength <when defending>"],
-		"unitTypes": ["Infantry"],
+		"unitTypes": ["Infantry","Machinegun"],
         "column": 34,
         "row": 34
 	},
@@ -786,7 +786,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Entrenched II"],
 		"uniques": ["[+20]% Strength <vs cities>","Earn [40]% of the damage done to [City] units as [Gold]"],
-		"unitTypes": ["Infantry"],
+		"unitTypes": ["Infantry","Machinegun"],
         "column": 41,
         "row": 41
 	},
@@ -916,7 +916,76 @@
 	"column": 54,
 	"row": 54
 },
-//////
+////// Machineguns
+
+{
+	"name": "Burst I",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"uniques": ["[+15]% XP gained from combat","[+15]% Strength"],
+	"unitTypes": ["Machinegun"],
+	"column": 55,
+	"row": 55
+},
+{
+	"name": "Burst II",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Burst I"],
+	"uniques": ["[+15]% XP gained from combat","[+15]% Strength"],
+	"unitTypes": ["Machinegun"],
+	"column": 56,
+	"row": 56
+},
+{
+	"name": "Burst III",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Burst II"],
+	"uniques": ["[+15]% XP gained from combat","[+20]% Strength"],
+	"unitTypes": ["Machinegun"],
+	"column": 57,
+	"row": 57
+},
+{
+	"name": "Partisan Warfare",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"uniques": ["[+35]% Strength <when fighting in [Jungle] tiles>","[+35]% Strength <when fighting in [Hill] tiles>"],
+	"unitTypes": ["Machinegun"],
+	"column": 58,
+	"row": 58
+},
+{
+	"name": "Suppressive Fire",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Partisan Warfare"],
+	"uniques": ["[+25]% Strength <vs [Artillery] units>","[+25]% Strength <vs [Infantry] units>","[+25]% Strength <vs [Archaic Infantry] units>"],
+	"unitTypes": ["Machinegun"],
+	"column": 59,
+	"row": 59
+},
+{
+	"name": "Field Maintenance",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Suppressive Fire"],
+	"uniques": ["[+1] Sight","[+10]% Strength","[+10] HP when healing <in [Foreign Land] tiles>"],
+	"unitTypes": ["Machinegun"],
+	"column": 60,
+	"row": 60
+},
+{
+	"name": "Heat Management",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Field Maintenance"],
+	"uniques": ["[+35]% Strength"],
+	"unitTypes": ["Machinegun"],
+	"column": 61,
+	"row": 61
+},
 
 
 
@@ -925,9 +994,7 @@
 
 
 
-
-
-
+/////////
 
 
 
@@ -961,26 +1028,38 @@
 	// Uniques that should be kept on upgrades
 	{
 		"name": "Morale", // Heroic Epic
+		"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
 		"uniques": ["[+15]% Strength"]
 	},
 	{
 		"name": "Great Generals I", // only for Companion Cavalry, Keshik and their subsequent upgrades
+		"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
 		"uniques": ["[Great General] is earned [50]% faster"]
 	},
 	{
 		"name": "Great Generals II", // only for Samurai and subsequent upgrades
+		"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
 		"uniques": ["[Great General] is earned [100]% faster"]
 	},
 	{
 		"name": "Quick Study", // only for Keshik and subsequent upgrades
+		"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
 		"uniques": ["[+50]% XP gained from combat"]
 	},
 	{
 		"name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
+		"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
 		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
 	},
 	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
+		"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
 		"uniques": ["All healing effects doubled"]
 	},
 	{
@@ -989,26 +1068,38 @@
 	},
 	{
 		"name": "Ignore terrain cost",
+		"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
 		"uniques": ["Ignores terrain cost"]
 	},
 	{
 		"name": "Pictish Courage", // only for Pictish Warrior and subsequent upgrades
+		"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
 		"uniques": ["No movement cost to pillage", "[+20]% Strength <when fighting in [Foreign Land] tiles>"]
 	},
 	{
 		"name": "Home Sweet Home", // only for Mehal Sefari and subsequent upgrades
+		"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
 		"uniques": ["[+30]% Strength decreasing with distance from the capital"]
 	},
         {
 		"name": "Bulgarian Blood",
+		"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
 		"uniques": ["[+15]% Strength when stacked with [Great General]"]
 	},
         {
 		"name": "Elite",
+		"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
 		"uniques": ["[+5]% Strength <vs cities>","[+5]% Strength when stacked with [Great General]", "[+5]% Strength <vs [Mounted] units>", "[+5]% Strength <vs [Gunpowder] units>"]
 	},
     {
         "name": "Devout",
+		"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
         "uniques": ["Can Spread Religion <[1] additional time(s)>"]
     }
 ]

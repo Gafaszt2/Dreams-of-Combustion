@@ -6,6 +6,45 @@
 //		"innerColor": [255,255,255]
 },
 {
+	"name": "Nicaragua",
+	"leaderName": "José Santos Zelaya",
+	"adjective": ["Nicaragua"],
+	"startBias":["Jungle"],
+	"preferredVictoryType": "Destruction",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [0, 149, 255],
+	"innerColor": [0, 20, 71],
+	"uniqueName": "Reformista Legacy",
+	"uniques": [
+	"[-10]% Culture cost of adopting new Policies","[Great Artist] is earned [+50]% faster","[+5]% [Culture] [in all cities]"],
+	"cities": ["Managua",
+"Leon",
+"Tipitapa",
+"Masaya",
+"Chinandega",
+"Ciudad Sandino",
+"Esteli",
+"Matagalpa",
+"Granada",
+"Puerto Cabezas",
+"Bluefields",
+"Jinotega",
+"Juigalpa",
+"El Viejo"],
+	"spyNames": ["Saki"]
+},
+{
 	"name": "Mahdist Sudan",
 	"leaderName": "Muhammad Ahmad al-Mahdi",
 	"adjective": ["Mahdist Sudan"],
@@ -1563,9 +1602,7 @@
 		"uniques": [
 		"Provides a [Library] in your first [2] cities for free <upon adopting [Imperialism]>",
 		"[Elephant] units gain the [Equipment I] promotion <upon adopting [Revolution]>","[Elephant] units gain the [Equipment II] promotion <upon adopting [Revolution]>",
-	    "Empire enters a [2]-turn Golden Age <upon founding a city>",
-	    "[2] free [Vanguard Elephant] units appear <upon discovering [Military Science] technology>",
-	    "[1] free [Halberdier] units appear <upon discovering [Military Science] technology> <upon founding a city>"],
+	    "Empire enters a [2]-turn Golden Age <upon founding a city>"],
 		"cities": ["Bangkok","Sukhothai","Si Satchanalai","Muang Saluang","Lampang","Phitsanulok","Kamphaeng Pet","Nakhom Chum","Vientiane",
 			"Nakhon Si Thammarat","Martaban","Nakhon Sawan","Chainat","Luang Prabang","Uttaradit","Chiang Thong","Phrae",
 			"Nan","Tak","Suphanburi","Hongsawadee","Thawaii","Ayutthaya","Taphan Hin","Uthai Thani","Lap Buri","Ratchasima",
@@ -3127,7 +3164,7 @@ Nixon Bureaucratic Reforms
 		"favoredReligion": "Orthodox",
 		"uniqueName": "Spirit of Adwa",
 		"uniques": [
-		"[+20]% Strength <when fighting units from a Civilization with more Cities than you>"],
+		"[+25]% [Culture] [in all cities] <during a Golden Age>","[+25]% [Faith] [in all cities] <during a Golden Age>","[+25]% [Gold] [in all cities] <during a Golden Age>"],
 		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
 			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
 			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",
@@ -3479,34 +3516,8 @@ Nixon Bureaucratic Reforms
 		"innerColor": [179, 245, 229],
 		"uniqueName": "Steppe Sense",
 		"uniques": [
-		"[+1 Culture] from every [Ranch]","[+2 Faith] from every [Stable]","[+1] Sight"],
+		"[+1 Food] from every [Ranch] <during a Golden Age>","[+1 Food] from every [Horses]","[+1 Food] from every [Stable]","[+1] Sight"],
 		"cities": ["Astana","Almaty","Shymkent","Karaganda","Aktobe","Taraz","Pavlodar","Oskemen","Semey","Atyrau","Kostanay","Kyzylorda","Uralsk","Petropavl","Aktau"]
-	},
-        {
-		"name": "Soviet Union",
-		"leaderName": "Joseph Stalin",
-		"adjective": ["Soviet"],
-		"startBias": ["Tundra"],
-		"preferredVictoryType": "Supremacy",
-		
-		"startIntroPart1": "",
-		
-		"declaringWar": "For the good of my people i must declare war!",
-		"attacked": "You are making a big mistake.",
-		"defeated": "Will this be my last goodbye to you?.",
-		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
-		
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-		
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-				
-		"outerColor": [212, 8, 28],
-		"innerColor": [250, 192, 85],
-		"uniqueName": "Warsaw Pact",
-		"uniques": [
-		"[+5]% Strength <when fighting in [Friendly Land] tiles>","Earn [10]% of the damage done to [City] units as [Culture]","Upon capturing a city, receive [2] times its [Gold] production as [Culture] immediately"],
-		"cities": ["Moscow", "Leningrad", "Kiev", "Minsk", "Kharkov", "Stalingrad", "Sverdlovsk", "Gorky", "Krasnodar", "Vladivostok", "Novosibirsk", "Krasnoyarsk", "Kuybyshev", "Baku", "Tbilisi", "Alma Ata", "Tashkent", "Omsk", "Ufa", "Chelyabinsk", "Sevastopol", "Molotov", "Kaliningrad", "Riga", "Tallinn", "Kazan", "Odessa", "Kirov", "Ulyanovsk"]
 	},
         {
 		"name": "Sultanate of Muscat and Oman",

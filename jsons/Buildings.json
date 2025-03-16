@@ -48,15 +48,6 @@
 		"uniques": ["New [Military] units start with [10] XP [in this city]","Destroyed when the city is captured"]
 	},
         {
-		"name": "Pentagon",
-		"isWonder": true,
-		"culture": 3,
-		"greatPersonPoints": {"Great Engineer": 2},
-		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>"],
-		"requiredTech": "Atomic Theory",
-		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
-	},
-        {
 		"name": "Manhattan Project",
 		"cost": 750,
 		"isNationalWonder": true,
@@ -1855,6 +1846,17 @@
 		"requiredBuilding": "Market",
 		"requiredTech": "Electricity"
 	},
+	{
+		"name": "Modernism Library",
+		"uniqueTo": "Nicaragua",
+        "replaces": "Novel Library",
+		"culture": 4,
+		"specialistSlots": {"Artist": 4},
+		"requiredBuilding": "Library",
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Novel"
+	},
 {
 		"name": "Workshop",
 		"maintenance": 2,
@@ -2153,15 +2155,6 @@
 		"requiredTech": "Cloud Computing"
 	},
         {
-		"name": "United Nations",
-		"isWonder": true,
-		"culture": 1,
-		"greatPersonPoints": {"Great Merchant": 2},
-		"requiredTech": "European Union",
-		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion"],
-		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
-	},
-        {
 		"name": "Apollo Program",
 		"cost": 750,
 		"isNationalWonder": true,
@@ -2169,4 +2162,142 @@
 			"Only available <when [Space Race] Victory is enabled>", "Cannot be hurried"],
 		"requiredTech": "Space Race"
 	},
+	///////////// WONDERS
+
+	//////// Industrial Era
+	{
+		"name": "Eiffel Tower",
+		"isWonder": true,
+		"culture": 3,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"requiredTech": "Industrialization",
+		"uniques": ["[+1 Happiness] per [2] population [in all cities]"]
+	},
+	{
+		"name": "Brooklyn Bridge",
+		"isWonder": true,
+		"happiness": 2,
+		"greatPersonPoints": {"Great Engineer": 4},
+		"requiredTech": "Industrialization",
+		"uniques": ["[+1 Gold] [in all cities]"]
+	},
+	{
+		"name": "Crystal Palace",
+		"isWonder": true,
+		"gold": 4,
+		"requiredTech": "Industrialization",
+		"uniques": ["[+1 Gold] per [2] population [in all cities]"]
+	},
+	{
+		"name": "Panama Canal",
+		"isWonder": true,
+		"food": 2,
+		"gold": 4,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"requiredTech": "Industrialization",
+		"uniques": ["[+1 Gold, +1 Production] from [Coast] tiles [in this city]"]
+	},
+	{
+		"name": "Statue of Liberty",
+		"isWonder": true,
+		"happiness": 5,
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Suez Canal",
+		"isWonder": true,
+		"gold": 7,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"requiredTech": "Industrialization",
+		"uniques": ["[+1 Gold] from [Ocean] tiles [in this city]"]
+	},
+
+	//////// NEW imperial era
+
+	{
+		"name": "Palace of Westminster",
+		"isWonder": true,
+		"culture": 4,
+		"requiredTech": "Photography",
+		"uniques": ["[+1 Culture] per [3] population [in all cities]"]
+	},
+	{
+		"name": "Victoria Terminus",
+		"isWonder": true,
+		"culture": 4,
+		"requiredTech": "Photography",
+		"uniques": ["[+1 Faith] per [2] population [in all cities]"]
+	},
+	{
+		"name": "Aswan Low Dam",
+		"isWonder": true,
+		"production": 4,
+		"requiredTech": "Photography",
+		"uniques": ["[+1 Production] per [2] population [in all cities]"]
+	},
+	{
+		"name": "Tokyo Station",
+		"isWonder": true,
+		"production": 1,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"requiredTech": "Photography",
+		"uniques": ["[+30]% [Production] [in all cities]"]
+	},
+	{
+		"name": "Sydney Harbour Bridge",
+		"isWonder": true,
+		"culture": 1,
+		"requiredTech": "Photography",
+		"uniques": ["[+2 Gold] from [Ocean] tiles [in all cities]"]
+	},
+	{
+		"name": "Victoria Memorial",
+		"isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"requiredTech": "Photography",
+		"uniques": ["[+1 Culture] from [House] tiles [in this city]"]
+	},
+	{
+		"name": "Federal Palace",
+		"isWonder": true,
+		"gold": 2,
+		"requiredTech": "Photography",
+		"uniques": ["[+2 Gold] per [2] population [in all cities]"]
+	},
+
+	/////////// WW1
+	
+	{
+		"name": "Liberty Memorial",
+		"isWonder": true,
+		"culture": 4,
+		"requiredTech": "Radio",
+		"uniques": ["[+1 Happiness] per [3] population [in all cities]"]
+	},
+	//////// WW2
+
+	{
+		"name": "United Nations",
+		"isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"requiredTech": "European Union",
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion"]
+	},
+	{
+		"name": "Hiroshima Peace Memorial",
+		"isWonder": true,
+		"faith": 10,
+		"uniques": ["[+1 Happiness] per [2] population [in all cities]"],
+		"requiredTech": "Atomic Theory"
+	}
+	{
+		"name": "Pentagon",
+		"isWonder": true,
+		"culture": 3,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>"],
+		"requiredTech": "Atomic Theory"
+	}
 ]

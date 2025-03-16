@@ -281,10 +281,11 @@
     // Great Person improvements
 	{
 		"name": "Renovated Kaaba",
+		"faith": 1,
 		"uniqueTo": "Nejd Sultanate",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"techRequired": "Settlement",
-		"uniques": ["Great Improvement","[+1 Faith] for each adjacent [House]","Unpillagable","Irremovable"],
+		"uniques": ["Great Improvement","Unpillagable","Irremovable"],
 		"shortcutKey": "K"
 	},
 	{
