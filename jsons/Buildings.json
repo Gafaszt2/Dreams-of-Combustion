@@ -1,5 +1,14 @@
 [
 	{
+		"name": "Benge",
+		"uniqueTo": "Azande",
+        "replaces": "Courthouse",
+		"maintenance": 3,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities","All newly-trained [Melee] units [in all cities] receive the [Abinza] promotion"],
+		"requiredTech": "Rifling"
+	},
+	{
 		"name": "Palace",
 		"isNationalWonder": true,
 		"production": 3,

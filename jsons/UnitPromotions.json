@@ -1,4 +1,10 @@
 [
+	{
+		"name": "Abinza",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["Heals [15] damage if it kills a unit"]
+	},
 	// Ranged+Siege
 	{
 		"name": "Accuracy I",

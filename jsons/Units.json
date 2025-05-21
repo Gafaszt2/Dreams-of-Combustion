@@ -1,4 +1,19 @@
 [
+	{
+		"name": "Kpinga",
+		"uniqueTo": "Azande",
+                "replaces": "Grenadier",
+                "upgradesTo": "Rifleman",
+                "obsoleteTech": "Replaceable Parts",
+                "requiredTech": "Dynamite",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 21,
+                "uniques": ["Double movement in [Forest]","Double movement in [Jungle]","Can move after attacking","Never appears as a Barbarian unit"],
+		"cost": 70,
+		"attackSound": "shot"
+        },
         	{
 		"name": "Great Artist",
 		"unitType": "Civilian",

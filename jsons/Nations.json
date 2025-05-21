@@ -6,6 +6,31 @@
 //		"innerColor": [255,255,255]
 },
 {
+	"name": "Azande",
+	"leaderName": "Gbudwe",
+	"adjective": ["Azande"],
+	"startBias":["Jungle"],
+	"preferredVictoryType": "Destruction",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [255, 144, 79],
+	"innerColor": [18, 16, 15],
+	"uniqueName": "Niam-Niam",
+	"uniques": ["Enables Open Borders agreements","[+20]% growth [in all cities]"],
+	"cities": ["Yambio", "Dungu", "Obo", "Tombura", "Zemio", "Isiro", "Duruma", "Momoi", "Yei", "Maridi", "Wau", "Rafai", "Uyujuku", "Saura", "Baguga"],
+	"spyNames": ["Saki"]
+},
+{
 	"name": "Kazakh Nomads",
 	"leaderName": "Kenesary Khan",
 	"adjective": ["Kazakh Nomads"],
