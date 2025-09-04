@@ -391,7 +391,7 @@
                     "[+15]% [Culture] [in all cities]"
                 ],
                 "row": 2,
-                "column": 5
+                "column": 3
             },
             {
                 "name": "Cultural Unity Complete",
@@ -445,7 +445,7 @@
                     "[+20]% Strength <when defending> <when adjacent to a [Medic] unit>","Free [Medic] appears"
                 ],
                 "row": 2,
-                "column": 5
+                "column": 3
             },
             {
                 "name": "War Preparation Complete",
@@ -474,7 +474,7 @@
             {
                 "name": "Fascism",
                 "uniques": [
-                     "Quantity of strategic resources produced by the empire +[50]%"
+                     "[50]% [Strategic] resource production"
                 ],
                 "row": 1,
                 "column": 1
@@ -502,7 +502,7 @@
                     "[+10]% Strength <for [Wounded] units>"
                 ],
                 "row": 2,
-                "column": 5
+                "column": 3
             },
             {
                 "name": "Axis Complete",
@@ -560,7 +560,7 @@
                     "[+2 Happiness] [in capital]"
                 ],
                 "row": 2,
-                "column": 5
+                "column": 3
             },
             {
                 "name": "Communism Complete",
@@ -614,7 +614,7 @@
                     "[-35]% unhappiness from the number of cities"
                 ],
                 "row": 2,
-                "column": 5
+                "column": 3
             },
             {
                 "name": "Not Aligned Complete",
@@ -625,60 +625,6 @@
         ]
     },
     {
-        "name": "Socialism",
-        "era": "Second World War",
-        "priorities": {
-            "Neutral": 10,
-            "Cultural": 10,
-            "Diplomatic": 0,
-            "Domination": 5,
-            "Scientific": 0
-        },
-        "uniques": ["Only available <before adopting [Allies]>","Only available <before adopting [Axis]>","Only available <before adopting [Communism]>","Only available <before adopting [Not Aligned]>",
-            "[+25]% [Happiness] [in all cities]","[+15]% [Culture] [in all cities]"
-        ],
-        "policies": [
-            {
-                "name": "State-Owned Industries",
-                "uniques": [
-                    "[+35]% [Production] [in all cities]"
-                ],
-                "row": 1,
-                "column": 1
-            },
-            {
-                "name": "Collective Farming",
-                "uniques": [
-                    "[+2 Gold, +2 Production] from every [Mill]"
-                ],
-                "row": 1,
-                "column": 3
-            },
-            {
-                "name": "Social Welfare",
-                "uniques": ["[+1 Gold] from every [Factory]",
-                    "New [Infantry] units start with [40] XP [in all cities]"
-                ],
-                "row": 1,
-                "column": 5
-            },
-            {
-                "name": "Free Healthcare",
-                "uniques": [
-                    "[+3 Happiness, +3 Food] from every [Hospital]"
-                ],
-                "row": 2,
-                "column": 5
-            },
-            {
-                "name": "Socialism Complete",
-                "uniques": [
-                    "[-15]% Science cost of researching new Technologies","[+15]% [Happiness] [in all cities]","[+15]% [Culture] [in all cities]"
-                ]
-            }
-        ]
-    },
-        {
         "name": "Allies",
         "era": "Second World War",
         "priorities": {
@@ -724,7 +670,7 @@
                     "[+1 Happiness] from every [Strategic resource]"
                 ],
                 "row": 2,
-                "column": 5
+                "column": 3
             },
             {
                 "name": "Allies Complete",
@@ -732,6 +678,222 @@
                    "[+4 Production] [in capital]",
                     "New [Military] units start with [15] XP [in all cities]"
              ]
+            }
+            
+        ]
+    },
+    {
+        "name": "Socialism",
+        "era": "Second World War",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 5,
+            "Scientific": 0
+        },
+        "uniques": ["Only available <before adopting [Allies]>","Only available <before adopting [Axis]>","Only available <before adopting [Communism]>","Only available <before adopting [Not Aligned]>",
+            "[+25]% [Production] [in all cities]","[+25]% [Science] [in all cities]","[+15]% [Gold] [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "State-Owned Industries",
+                "uniques": [
+                    "[+2 Gold, +2 Culture] from every specialist [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Collective Farming",
+                "uniques": [
+                    "[+2 Gold, +2 Production] from every [Mill]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Social Welfare",
+                "uniques": ["[+1 Gold] from every [Factory]",
+                    "New [Infantry] units start with [40] XP [in all cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Free Healthcare",
+                "uniques": [
+                    "[+3 Happiness, +3 Food] from every [Hospital]"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Socialism Complete",
+                "uniques": [
+                    "[+2 Gold, +2 Culture] from every specialist [in all cities]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Western Bloc",
+        "era": "Cold War",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 5,
+            "Scientific": 0
+        },
+        "uniques": ["Only available <before adopting [Eastern Bloc]>","Only available <before adopting [Non-Aligned Movement]>",
+            "[+33]% Great Person generation [in all cities]","New [Melee] units start with [45] XP [in all cities]","New [Ranged] units start with [45] XP [in all cities]","[+33]% City Strength from defensive buildings",
+            "[Gold] cost of purchasing items in cities [-33]%","[-33]% maintenance on road & railroads","Can build [All] improvements at a [+33]% rate","[-33]% Culture cost of natural border growth [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "Liberal democracy",
+                "uniques": [
+                    "[+2 Culture] from all [Science] buildings"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Multiparty elections",
+                "uniques": [
+                    "[+2 Happiness] from [House] tiles [in all cities]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Protected by law",
+                "uniques": ["[+22]% Strength <for [Wounded] units>"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Containment",
+                "uniques": [
+                    "[+4 Gold] from every [Hospital]"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Western Bloc Complete",
+                "uniques": [
+                    "[+3 Production] from every specialist [in all cities]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Non-Aligned Movement",
+        "era": "Cold War",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 5,
+            "Scientific": 0
+        },
+        "uniques": ["Only available <before adopting [Eastern Bloc]>","Only available <before adopting [Western Bloc]>",
+            "[+33]% Great Person generation [in all cities]","New [Melee] units start with [45] XP [in all cities]","New [Ranged] units start with [45] XP [in all cities]","[+33]% City Strength from defensive buildings",
+            "[Gold] cost of purchasing items in cities [-33]%","[-33]% maintenance on road & railroads","Can build [All] improvements at a [+33]% rate","[-33]% Culture cost of natural border growth [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "Advocated sovereignty",
+                "uniques": [
+                    "[+2 Culture] from all [Production] buildings"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Peaceful coexistence",
+                "uniques": [
+                    "[+10 Happiness] from every [Monument]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Resistance",
+                "uniques": ["[+22]% Strength <for [Wounded] units>"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Blended elements",
+                "uniques": [
+                    "[+4 Gold] from each Trade Route"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Non-Aligned Movement Complete",
+                "uniques": [
+                    "[+3 Science] from every specialist [in all cities]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Eastern Bloc",
+        "era": "Cold War",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 5,
+            "Scientific": 0
+        },
+        "uniques": ["Only available <before adopting [Western Bloc]>","Only available <before adopting [Non-Aligned Movement]>",
+            "[+33]% Great Person generation [in all cities]","New [Melee] units start with [45] XP [in all cities]","New [Ranged] units start with [45] XP [in all cities]","[+33]% City Strength from defensive buildings",
+            "[Gold] cost of purchasing items in cities [-33]%","[-33]% maintenance on road & railroads","Can build [All] improvements at a [+33]% rate","[-33]% Culture cost of natural border growth [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "Authoritarian socialism",
+                "uniques": [
+                    "[+2 Happiness] from all [Production] buildings"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "One-party rule",
+                "uniques": [
+                    "[+2 Production] from [House] tiles [in all cities]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "State-controlled economy",
+                "uniques": ["[+4 Gold] from every [Factory]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Revolutionary legitimacy",
+                "uniques": ["[+22]% Strength <for [Wounded] units>"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Eastern Bloc Complete",
+                "uniques": [
+                    "[+3 Culture] from every specialist [in all cities]"
+                ]
             }
         ]
     }

@@ -18,7 +18,7 @@
             "[+1 Culture]"
             
         ],
-        "allyBonusUniques": ["Free [Aboriginal Elder] appears <every [20] turns>","[+4 Faith]",
+        "allyBonusUniques": ["Free [Aboriginal Elder] appears","[+3 Faith]","[+1 Happiness]",
             "[+3 Culture]"
         ],
         "color": [252, 123, 3]

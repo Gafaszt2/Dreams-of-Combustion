@@ -128,36 +128,36 @@
 
         ////// Maluses when sadness
         
-        "[-2]% [Production] [in all cities] <when below [1] Happiness>",
-        "[-2]% [Gold] [in all cities] <when below [1] Happiness>",
+        "[-2]% [Production] [in all cities] <when below [1] [Happiness]>",
+        "[-2]% [Gold] [in all cities] <when below [1] [Happiness]>",
 
-        "[-4]% [Production] [in all cities] <when below [-4] Happiness>",
-        "[-4]% [Gold] [in all cities] <when below [-4] Happiness>",
+        "[-4]% [Production] [in all cities] <when below [-4] [Happiness]>",
+        "[-4]% [Gold] [in all cities] <when below [-4] [Happiness]>",
 
-        "[-6]% [Production] [in all cities] <when below [-8] Happiness>",
-        "[-6]% [Gold] [in all cities] <when below [-8] Happiness>",
-        "[-5]% [Science] [in all cities] <when below [-8] Happiness>",
+        "[-6]% [Production] [in all cities] <when below [-8] [Happiness]>",
+        "[-6]% [Gold] [in all cities] <when below [-8] [Happiness]>",
+        "[-5]% [Science] [in all cities] <when below [-8] [Happiness]>",
  
-        "[-12]% [Production] [in all cities] <when below [-12] Happiness>",
-        "[-12]% [Gold] [in all cities] <when below [-12] Happiness>",
-        "[-25]% growth [in all cities] <when below [-12] Happiness>",
+        "[-12]% [Production] [in all cities] <when below [-12] [Happiness]>",
+        "[-12]% [Gold] [in all cities] <when below [-12] [Happiness]>",
+        "[-25]% growth [in all cities] <when below [-12] [Happiness]>",
         
-        "[-20]% [Production] [in all cities] <when below [-20] Happiness>",
-        "[-20]% [Gold] [in all cities] <when below [-20] Happiness>",
+        "[-20]% [Production] [in all cities] <when below [-20] [Happiness]>",
+        "[-20]% [Gold] [in all cities] <when below [-20] [Happiness]>",
         
-        "[-30]% [Production] [in all cities] <when below [-25] Happiness>",
-        "[-30]% [Gold] [in all cities] <when below [-25] Happiness>",
-        "[-65]% growth [in all cities] <when below [-12] Happiness>",
-        "[-10]% [Happiness] [in all cities] <when below [-25] Happiness>",
-        "Rebel units may spawn <when below [-25] Happiness>",
+        "[-30]% [Production] [in all cities] <when below [-25] [Happiness]>",
+        "[-30]% [Gold] [in all cities] <when below [-25] [Happiness]>",
+        "[-65]% growth [in all cities] <when below [-12] [Happiness]>",
+        "[-10]% [Happiness] [in all cities] <when below [-25] [Happiness]>",
+        "Rebel units may spawn <when below [-25] [Happiness]>",
 
-        "[-60]% [Production] [in all cities] <when below [-35] Happiness>",
-        "[-60]% [Gold] [in all cities] <when below [-35] Happiness>",
-        "[-30]% [Happiness] [in all cities] <when below [-35] Happiness>",
+        "[-60]% [Production] [in all cities] <when below [-35] [Happiness]>",
+        "[-60]% [Gold] [in all cities] <when below [-35] [Happiness]>",
+        "[-30]% [Happiness] [in all cities] <when below [-35] [Happiness]>",
 
-        "[-90]% [Production] [in all cities] <when below [-65] Happiness>",
-        "[-90]% [Gold] [in all cities] <when below [-65] Happiness>",
-        "[-90]% [Happiness] [in all cities] <when below [-65] Happiness>",
+        "[-90]% [Production] [in all cities] <when below [-65] [Happiness]>",
+        "[-90]% [Gold] [in all cities] <when below [-65] [Happiness]>",
+        "[-90]% [Happiness] [in all cities] <when below [-65] [Happiness]>",
 
         ////// Embarked Stuff
 

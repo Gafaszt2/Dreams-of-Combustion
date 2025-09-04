@@ -43,7 +43,7 @@
     {
         "name": "Passion for Art",
         "type": "Pantheon",
-        "uniques": ["[+4 Faith] from every [Theater]"]
+        "uniques": ["[+4 Faith] from every [Monument]"]
     },
     {
         "name": "Expansive Faith",
@@ -188,5 +188,95 @@
         "name": "Reliquary",
         "type": "Enhancer",
         "uniques": ["[+1 Gold] from every [2] global followers [in all cities]"]
+    },
+    {
+        "name": "Cathedral",
+        "type": "Enhancer",
+        "uniques": ["May buy [Cathedral] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Daoguan",
+        "type": "Enhancer",
+        "uniques": ["May buy [Daoguan] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Dar-e Mehr",
+        "type": "Enhancer",
+        "uniques": ["May buy [Dar-e Mehr] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Derasar",
+        "type": "Enhancer",
+        "uniques": ["May buy [Derasar] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Gurdwara",
+        "type": "Enhancer",
+        "uniques": ["May buy [Gurdwara] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Hof",
+        "type": "Enhancer",
+        "uniques": ["May buy [Hof] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Jinja",
+        "type": "Enhancer",
+        "uniques": ["May buy [Jinja] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Mandi",
+        "type": "Enhancer",
+        "uniques": ["May buy [Mandi] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Mandir",
+        "type": "Enhancer",
+        "uniques": ["May buy [Mandir] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Mashriqu'l-Adhkár",
+        "type": "Enhancer",
+        "uniques": ["May buy [Mashriqu'l-Adhkár] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Meeting House",
+        "type": "Enhancer",
+        "uniques": ["May buy [Meeting House] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Mosque",
+        "type": "Enhancer",
+        "uniques": ["May buy [Mosque] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Naos",
+        "type": "Enhancer",
+        "uniques": ["May buy [Naos] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Nemeton",
+        "type": "Enhancer",
+        "uniques": ["May buy [Nemeton] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Pagoda",
+        "type": "Enhancer",
+        "uniques": ["May buy [Pagoda] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Synagogue",
+        "type": "Enhancer",
+        "uniques": ["May buy [Synagogue] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Teocalli",
+        "type": "Enhancer",
+        "uniques": ["May buy [Teocalli] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Wat",
+        "type": "Enhancer",
+        "uniques": ["May buy [Wat] buildings for [150] [Faith] [in cities following this religion]"]
     }
 ]

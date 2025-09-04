@@ -6,7 +6,7 @@
 		"food": 1,
 		"improvement": "Ranch",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [18] tiles <in [Grassland] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"]
+		"uniques": ["Generated on every [10] tiles <in [Grassland] tiles>"]
 	},
 	
 	{
@@ -17,6 +17,10 @@
 		"improvement": "Ranch",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [20] tiles <in [Desert] tiles>"]
+	},
+	{
+		"name": "National Choice",
+		"resourceType": "Strategic"
 	},
 	{
 		"name": "Manpower",
@@ -69,7 +73,7 @@
 		"food": 1,
 		"improvement": "Stable",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [39] tiles <in [Grassland] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"]
+		"uniques": ["Generated on every [20] tiles"]
 	},
 	{
 		"name": "Sheep",
@@ -78,7 +82,8 @@
 		"food": 1,
 		"improvement": "Ranch",
 		"improvementStats": {"food": 1},
-		"uniques": ["Generated on every [18] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"]
+		"uniques": [
+			"Generated on every [10] tiles <in [Hill] tiles>"]
 	},
 	{
 		"name": "Deer",
@@ -87,7 +92,7 @@
 		"food": 1,
 		"improvement": "Hunter Lodge",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [17] tiles <in [Tundra] tiles>"]
+		"uniques": ["Generated on every [10] tiles <in [Tundra] tiles>"]
 	},
 	{
 		"name": "Bananas",
@@ -147,13 +152,12 @@
 	{
 		"name": "Oil",
 		"resourceType": "Strategic",
-                "revealedBy": "Industrialization",
+        "revealedBy": "Industrialization",
 		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Jungle","Savannah","Mountain Land","Mud","Fresh Soil","Dry Soil"],
 		"production": 1,
 		"improvedBy": ["Oil well", "Offshore Platform"],
 		"improvementStats": {"production": 3},
-		"uniques": ["Deposits in [Coast] tiles always provide [4] resources",
-					"Generated on every [80] tiles <in [Desert] tiles>","Generated on every [80] tiles <in [Coast] tiles>","Generated on every [80] tiles <in [Jungle] tiles>"],
+		"uniques": ["Generated on every [50] tiles <in [Desert] tiles>","Generated on every [50] tiles <in [Coast] tiles>","Generated on every [80] tiles <in [Jungle] tiles>"],
 		"majorDepositAmount": {"sparse": 1, "default": 3, "abundant": 4},
 		"minorDepositAmount": {"sparse": 1, "default": 3, "abundant": 4}
 	},
@@ -306,6 +310,11 @@
 		"name": "Jewelry",
 		"resourceType": "Luxury",
 		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
+		"name": "Soap",
+		"resourceType": "Luxury",
 		"uniques": ["Can only be created by Mercantile City-States"]
 	},
         {
@@ -615,28 +624,28 @@
         {
 		"name": "Cactus",
 		"resourceType": "Bonus",
-                "uniques": ["Doesn't generate naturally"]
+        "uniques": ["Doesn't generate naturally"],
 		"terrainsCanBeFoundOn": ["Dry Soil"],
 		"food": 1,
 		"improvement": "Mine",
-		"improvementStats": {"food": 1},
+		"improvementStats": {"food": 1}
 	},
         {
 		"name": "Humpback Whale",
 		"resourceType": "Luxury",
-                "uniques": ["Doesn't generate naturally"]
-		"terrainsCanBeFoundOn": ["Coast","Ocean"],
+        "uniques": ["Doesn't generate naturally"],
+		"terrainsCanBeFoundOn": ["Ocean"],
 		"gold": 2,
 		"improvement": "Fishing Boats",
-		"improvementStats": {"faith": 3},
+		"improvementStats": {"faith": 3}
 	},
         {
 		"name": "Whale Shark",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast","Ocean"],
+		"terrainsCanBeFoundOn": ["Ocean"],
 		"faith": 2,
 		"improvement": "Fishing Boats",
-		"improvementStats": {"faith": 3},
+		"improvementStats": {"faith": 3}
 	},
         {
 		"name": "Shark",
@@ -650,6 +659,6 @@
 	{
 		"name": "Nomad Manpower",
 		"resourceType": "Strategic",
-		"uniques":["Cannot be traded","Stockpiled"]
+		"uniques":["Not shown on world screen <without [Nomad Manpower]>","Cannot be traded","Stockpiled"]
 	}
 ]

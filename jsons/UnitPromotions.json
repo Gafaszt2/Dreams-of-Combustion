@@ -1220,13 +1220,13 @@
 		"name": "Bulgarian Blood",
 		"innerColor": [128, 154, 196],
 	"outerColor": [23, 27, 33],
-		"uniques": ["[+15]% Strength when stacked with [Great General]"]
+		"uniques": ["[+15]% Strength <when stacked with a [Great General] unit>"]
 	},
         {
 		"name": "Elite",
 		"innerColor": [128, 154, 196],
 	"outerColor": [23, 27, 33],
-		"uniques": ["[+5]% Strength <vs cities>","[+5]% Strength when stacked with [Great General]", "[+5]% Strength <vs [Mounted] units>", "[+5]% Strength <vs [Gunpowder] units>"]
+		"uniques": ["[+5]% Strength <vs cities>","[+5]% Strength <when stacked with a [Great General] unit>", "[+5]% Strength <vs [Mounted] units>", "[+5]% Strength <vs [Gunpowder] units>"]
 	},
     {
         "name": "Devout",
