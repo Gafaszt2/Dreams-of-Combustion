@@ -6,6 +6,56 @@
 //		"innerColor": [255,255,255]
 },
 {
+	"name": "Formosa",
+	"leaderName": "Liu Yongfu",
+	"adjective": ["Formosa"],
+	"startBias":["Forest"],
+	"preferredVictoryType": "Supremacy",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [60, 181, 139],
+    "innerColor": [255, 252, 230],
+	"uniqueName": "Black Flag Army",
+	"uniques": ["Asian","Earn [60]% of killed [Military] unit's [Strength] as [Gold]","[+60]% Yield from pillaging tiles"],
+	"cities": ["Tainan","Taipei","Anping","Keelung","Tamsui","Hsinchu","Chiayi","Talibu","Takau","Changhua"],
+	"spyNames": ["Saki"]
+    },
+{
+	"name": "British Malaya",
+	"leaderName": "Frank Swettenham",
+	"adjective": ["British Malaya"],
+	"startBias":["Avoid [Tundra]"],
+	"preferredVictoryType": "Supremacy",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [10, 18, 79],
+    "innerColor": [168, 240, 127],
+	"uniqueName": "Pangkor Treaty",
+	"uniques": ["SEA","[+2 Production] from every [Mine]","[+1 Gold, +2 Production] from every [Mine] <after discovering [Economics]>"],
+	"cities": ["Kuala Lumpur", "George Town", "Singapore", "Malacca", "Dindings", "Butterworth", "Johor Bahru", "Ipoh", "Klang", "Seremban", "Kuala Kangsar"],
+	"spyNames": ["Saki"]
+    },
+{
 	"name": "Navajo",
 	"leaderName": "Hashkeh Naabaah",
 	"adjective": ["Navajo"],
@@ -889,9 +939,9 @@
         "spyNames": ["Saki"]
     },
 {
-		"name": "Miskito People",
+		"name": "The Miskito",
 		"leaderName": "Robert Charles Frederic",
-		"adjective": ["Miskito People"],
+		"adjective": ["The Miskito"],
 		"startBias":["Coast"],
 		"preferredVictoryType": "Destruction",
 
@@ -945,9 +995,9 @@
     },
 
 {
-		"name": "Seminole People",
+		"name": "The Seminole",
 		"leaderName": "Coacoochee",
-		"adjective": ["Seminole"],
+		"adjective": ["The Seminole"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Political",
 		
@@ -963,12 +1013,11 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [27, 54, 34],
-		"innerColor": [127, 130, 66],
-                "favoredReligion": "Baptist",
+		"outerColor": [107, 128, 93],
+		"innerColor": [243, 255, 235],
 		"uniqueName": "Runaway Slaves",
 		"uniques": ["Native American",
-		"Free [Captured American Child] appears <upon discovering [Rifling] technology>","[-2 Gold] from every [Slave Labor Plantation]","[+2 Production] from every [Heavy Labor Plantation]"],
+		"[+2 Food] from every [Jungle]","[+2 Food] from every [Marsh]","[+1 Culture] from every [Monument]"],
 		"cities": ["Everglades","Apalachee","Timucua","Creek","Muskogean"],
 	},
 {
@@ -1326,9 +1375,9 @@
 		"cities": ["Kampala","Entebbe","Jinja","Masaka","Mubende","Mukono","Kireka","Nansana","Kira","Lugazi","Mityana","Mpigi","Bombo","Wobulenzi","Buikwe"],
 	},
 {
-		"name": "Ashanti Empire",
+		"name": "Ashanti",
 		"leaderName": "Sumaila Ndewura Jakpa",
-		"adjective": ["Ashanti Empire"],
+		"adjective": ["Ashanti"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Political",
 		
@@ -1344,8 +1393,8 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [255, 255, 255],
-		"innerColor": [252, 28, 88],
+		"outerColor": [255, 247, 191],
+		"innerColor": [74, 23, 18],
                 "favoredReligion": "Catholic",
 		"uniqueName": "Dutch´s Slave Trade",
 		"uniques": ["African",
@@ -1594,7 +1643,7 @@
 		"cities": ["Fez","Marrakech","Mequinez","Rabat","Tanger","Sale","Uchda","Kenitra","Agadir","Tetuan"],
 	},
 {
-		"name": "Patagonian Confederation",
+		"name": "Patagonia",
 		"leaderName": "Orelie Antoine de Tounens",
 		"adjective": ["Patagonia"],
 		"startBias": ["Plains"],
@@ -1621,9 +1670,9 @@
 		"cities": ["Coyhaique","El Chalten","El Calafate","Ushuaia","Puyuhuapi","Frutillar","Puerto Montt","Castro","Puerto Natales","Punta Arenas"],
 	},
 {
-		"name": "Sikh Empire",
+		"name": "The Sikh",
 		"leaderName": "Maharaja Ranjit Singh",
-		"adjective": ["Sikh"],
+		"adjective": ["The Sikh"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Supremacy",
 		
@@ -1852,8 +1901,8 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [224, 205, 175],
-		"innerColor": [227, 0, 0],
+		"outerColor": [227, 225, 225],
+		"innerColor": [161, 14, 14],
                 "favoredReligion": "Buddhism",
 		"uniqueName": "Lao Rebellion",
 		"uniques": ["Asian",
@@ -1991,12 +2040,11 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [206, 57, 99],
-		"innerColor": [65, 29, 39],
-                "favoredReligion": "Orthodox",
-		"uniqueName": "Winged Hussars",
-		"uniques": ["Non Middle Eastern",
-		"[+20]% Production when constructing [Light Cavalry] units [in all cities]", "[+1 Faith] from every [Mill]","[+1 Gold] from every [House]"],
+		"outerColor": [255, 255, 255],
+		"innerColor": [158, 11, 11],
+		"uniqueName": "Eternal Commonwealth",
+		"uniques": ["Balkan",
+		"[+20]% Production when constructing [Light Cavalry] units [in all cities]","[+1 Gold] from every [Mill]","[+1 Gold] from every [Geese]"],
 		"cities": ["Warsaw","Cracovia","Breslavia","Poznan","Zakopane","Gdynia","Lodz","Szczecin","Torun","Lublin","Kolobrezeg","Sopot"]
 	},
 {
@@ -2018,12 +2066,12 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [45, 52, 117],
-		"innerColor": [197, 202, 252],
+		"outerColor": [57, 105, 237],
+		"innerColor": [255, 255, 255],
                 "favoredReligion": "Orthodox",
-		"uniqueName": "Greek Enlightenment",
-		"uniques": ["Non Middle Eastern",
-		"[+2 Science] from every [Natural Wonder]","[+20]% Production when constructing [Water] units [in all cities]"],
+		"uniqueName": "Evzone",
+		"uniques": ["Balkan",
+		"[+41]% Production when constructing [Culture] buildings [in all cities]","[+1 Gold] from every [Olive]","[+15]% Strength <when fighting in [Coast] tiles>"],
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
 			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
 			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos",
@@ -2081,9 +2129,9 @@
 		"outerColor": [29, 28, 54],
 		"innerColor": [252, 115, 3],
                 "favoredReligion": "Orthodox",
-		"uniqueName": "Cultural Renaissance",
-		"uniques": ["Non Middle Eastern",
-		"[+1 Culture] from every [Mine]","[+1 Faith] from every [Hill]","[-1 Food] from every [Mill]","[-1 Food] from every [House]"],
+		"uniqueName": "United Principalities",
+		"uniques": ["Balkan",
+		"[+1 Food] from every [Hunter Lodge]","[+1 Food] from every [Geese]","[+22]% Production when constructing [Melee] units [in all cities]"],
 		"cities": ["Bucharest", "Cluj-Napoca","Timișoara","Lași","Constanța","Craiova","Brașov","Galați","Ploiești","Oradea",
                        "Brăila","Arad","Pitești","Sibiu","Băcau","Târgu Mureș","Baia Mare","Buzău","Botoșani","Satu Mare"]
 	},
@@ -2143,7 +2191,7 @@
                 "favoredReligion": "Orthodox",
 		"uniqueName": "Land of the Eagles",
 		"uniques": ["Non Middle Eastern",
-		"[+2 Production] from every [Mountain]","[+10]% Strength <when fighting in [Hill] tiles>"],
+		"[+2 Production] from every [Mountain]","[+25]% Strength <when fighting in [Hill] tiles>"],
 		"cities": ["Tirana", "Durres","Vlore","Elbasan","Shkoder","Sarande","Berat","Fier","Korce","Pogradec","Kruje","Gijokaster","Kamez","Lushnje","Kavaje"]
 	},
         {
@@ -2174,9 +2222,9 @@
 		"cities": ["Mogadishu", "Hargeysa", "Berbera", "Kismayo", "Baidoa", "Bosaso", "Galkacyo", "Garowe", "Burco", "Jowhar"]
 	},
 {
-		"name": "Bulgarian Empire",
-		"leaderName": "Stefan Stambolov",
-		"adjective": ["Bulgarians"],
+		"name": "Bulgaria",
+		"leaderName": "Georgi Sava Rakovski",
+		"adjective": ["Bulgaria"],
 		"startBias": ["River"],
 		"preferredVictoryType": "Supremacy",
 		
@@ -2192,11 +2240,17 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [60, 74, 15],
-		"innerColor": [210, 255, 61],
+		"outerColor": [26, 26, 26],
+		"innerColor": [181, 167, 167],
 		"uniqueName": "Lion’s Roar",
-		"uniques": ["Non Middle Eastern",
-		"[-50]% maintenance on road & railroads","[Land] units gain the [Bulgarian Blood] promotion"],
+		"uniques": ["Balkan",
+		"May buy [Culture] buildings with [Faith] [in all cities]",
+		"May buy [Food] buildings with [Faith] [in all cities]",
+		"May buy [Gold] buildings with [Faith] [in all cities]",
+	    "New [Melee] units start with [5] XP [in all cities] <with [50]% chance>",
+	    "New [Melee] units start with [7] XP [in all cities] <with [40]% chance>",
+	    "New [Melee] units start with [11] XP [in all cities] <with [30]% chance>",
+	    "New [Melee] units start with [25] XP [in all cities] <with [10]% chance>"],
 		"cities": ["Sofia", "Plovdiv" ,"Varna", "Burgas", "Ruse", "Stara Zagora", "Pleven", "Sliven", "Dobrich",
 			"Shumen",
 			"Pernik", "Haskovo"]
@@ -2244,8 +2298,8 @@
 		"neutralHello": "Hello, you.",
 		"hateHello": "What YOU want?!",
 		"tradeRequest": "Better hurry, I may change my mind.",
-		"outerColor": [66, 30, 44],
-		"innerColor": [252, 23, 107],
+		"outerColor": [255, 255, 255],
+		"innerColor": [161, 14, 14],
 		"favoredReligion": "Catholic",
 		"uniqueName": "Armed Neutrality",
 		"uniques": ["Non Middle Eastern",
@@ -2547,9 +2601,9 @@
 		"cities": ["Ulundi", "KwaDukuza" ,"Bulawayo", "Isandlwana", "Rorke´s Drift", "Eshowe", "Ondini", "Gingindlovu"]
 	},
 {
-		"name": "Ukraine",
-		"leaderName": "Mykhailo Hrushevsky",
-		"adjective": ["Ukranian"],
+		"name": "Russian Ukraine",
+		"leaderName": "Mikhail Vorontsov",
+		"adjective": ["Russian Ukraine"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Supremacy",
 		
@@ -2565,12 +2619,12 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [50, 78, 168],
-		"innerColor": [250, 247, 82],
-                "favoredReligion": "Orthodox",
-		"uniqueName": "Breadbasket of Europe",
+		"outerColor": [207, 209, 232],
+		"innerColor": [32, 57, 87],
+        "favoredReligion": "Orthodox",
+		"uniqueName": "Frontier of Empire",
 		"uniques": ["Non Middle Eastern",
-		"[+1 Food] from every [Hill]", "[+5 Gold] from every [Wheat]"],
+		"[+1 Gold] from every [Strategic resource]","[+44]% Production when constructing [Walls] buildings [in all cities]","[+44]% Production when constructing [Castle] buildings [in all cities]"],
 		"cities": ["Kyiv", "Kharkiv" ,"Odesa", "Dnipro", "Donetsk", "Lviv", "Zaporizhizhia", "Kryvyi Rih", "Mykolaiv", "Sevastopol", "Mariupol", "Luhansk", "Vinnytsia", "Makiivka"],
 	},
 {
@@ -2687,9 +2741,9 @@
 			"Ciudad del Plata","San Carlos",]
 	},
 {
-		"name": "Serbian Empire",
-		"leaderName": "Nikola Pašić",
-		"adjective": ["Serbian"],
+		"name": "Serbia",
+		"leaderName": "Miloš Obrenović",
+		"adjective": ["Serbia"],
 		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
@@ -2703,12 +2757,11 @@
 		"hateHello": "What do YOU want?!",
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-		"outerColor": [252, 220, 146],
-		"innerColor": [130, 95, 5],
-	        "favoredReligion": "Catholic",
-		"uniqueName": "Assassination of Archduke Franz Ferdinand",
-		"uniques": ["Non Middle Eastern",
-		"[+1 Gold] from every [Hill]","[+1 Faith] from every [Mountain]","[+1 Food] from every [Forest]"],
+		"outerColor": [235, 64, 52],
+		"innerColor": [255, 243, 207],
+		"uniqueName": "Principality of Serbia",
+		"uniques": ["Balkan",
+		"[+3 Culture] from every [Great Improvement]","[+2 Culture] from every [Campus]"],
 		"cities": ["Stari Ras","Bor","Negotin","Pozarevac","Zajecar","Uzice","Leskovac","Valjevo","Pristina","Djakovica",
 			"Pec","Prizren","Mitrovica","Morava","Sabac","Cacak","Nis","Pirot","Smederevo","Jagodna",
 			"Vranje","Krusevac","Beograd","Rudo Polje","Dmitrovica","Prokuplje","Vucitrn","Debrc","Skopje",
@@ -2733,18 +2786,17 @@
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 		"outerColor": [66, 135, 245],
 		"innerColor": [28, 32, 38],
-	        "favoredReligion": "Catholic",
 		"uniqueName": "Vladika",
-		"uniques": ["Non Middle Eastern",
-		"[+1 Culture] from every [Mountain]","[+1 Culture] from every [Hill]","[+1 Faith] from every [Mountain]"],
+		"uniques": ["Balkan",
+		"[+2 Production] from every [Mountain]","[+1 Faith] from every [Mountain]","[+10]% Production when constructing [Infantry] units [in capital]"],
 		"cities": ["Cetinje","Pljevlja","Pluzhine","Zhabljak","Mojkovac","Bijelo Polje","Berane","Petnjica","Rozhaje","Shavnik",
 			"Nikshitch","Kolashin","Andrijevica","Plav","Gusinje","Kotor","Gradina","Podgorica","Tuzi","Herceg Novi",
 			"Tivat","Budva","Bar","Ulcinj","Vranjina",]
 	},
 {
-		"name": "Brasilian Empire",
+		"name": "Brazil",
 		"leaderName": "Dom Pedro II",
-		"adjective": ["Brasilian"],
+		"adjective": ["Brazil"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Supremacy",
 		
@@ -2803,7 +2855,7 @@
         "spyNames": ["Ferdinand", "Johanna", "Franz-Josef", "Astrid", "Anna", "Hubert", "Alois", "Natter", "Georg", "Arnold"]
     },
 {
-		"name": "Imperial China",
+		"name": "China",
 		"leaderName": "Empress Dowager Cixi",
 		"adjective": ["Chinese"],
 		"preferredVictoryType": "Supremacy",
@@ -3072,9 +3124,9 @@ Nixon Bureaucratic Reforms
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
         {
-		"name": "Republic of Texas",
+		"name": "Texas",
 		"leaderName": "Sam Houston",
-		"adjective": ["Texan"],
+		"adjective": ["Texas"],
                 "startBias": ["Plains"],
 		"preferredVictoryType": "Supremacy",
 
@@ -3102,9 +3154,9 @@ Nixon Bureaucratic Reforms
 
 	
 {
-		"name": "Japanese Empire",
+		"name": "Japan",
 		"leaderName": "Emperor Meiji",
-		"adjective": ["Japanese"],
+		"adjective": ["Japan"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Supremacy",
 
@@ -3131,9 +3183,9 @@ Nixon Bureaucratic Reforms
         "spyNames": ["Akaishi", "Oki", "Hattori", "Morozumi", "Momochi", "Kawashima", "Orin", "Sakanishi", "Kaede", "Mochizuki"]
     },
 {
-		"name": "British Empire",
+		"name": "Great Britain",
 		"leaderName": "Victoria",
-		"adjective": ["British"],
+		"adjective": ["Great Britain"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Supremacy",
 
@@ -3214,9 +3266,9 @@ Nixon Bureaucratic Reforms
 		"cities": ["Pretoria","Johannesburg","Vereeniging","Heidelberg","Messina","Nelspruit","Witwatersrand","Vaal Triangle","Zoutpansberg"]
 	},
         {
-		"name": "German Empire",
+		"name": "Germany",
 		"leaderName": "Otto von Bismarck",
-		"adjective": ["German"],
+		"adjective": ["Germany"],
 		"preferredVictoryType": "Supremacy",
 
         "startIntroPart1": "",
@@ -3244,9 +3296,9 @@ Nixon Bureaucratic Reforms
         "spyNames": ["Johann", "Marlene", "Wilhelm", "Eva", "Heinz", "Horst", "Carl", "Viper", "Albrecht", "Anton"]
     },
         {
-		"name": "Spanish Empire",
+		"name": "Spain",
 		"leaderName": "Isabel II",
-		"adjective": ["Spanish"],
+		"adjective": ["Spain"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Supremacy",
 
@@ -3273,9 +3325,9 @@ Nixon Bureaucratic Reforms
         "spyNames": ["Rodrigo", "Esmeralda", "Leon", "Mathilda", "Ramona", "Señor X", "Topolino", "Serpiente", "Garcia", "El Lobo"]
     },
     {
-		"name": "French Empire",
+		"name": "France",
 		"leaderName": "Napoleon III",
-		"adjective": ["French"],
+		"adjective": ["France"],
 		"preferredVictoryType": "Supremacy",
 
         "startIntroPart1": "",
@@ -3303,9 +3355,9 @@ Nixon Bureaucratic Reforms
         "spyNames": ["Jean-Paul", "Martine", "Lucien", "François", "Augustine", "Monsieur X", "Dr. Dupont", "Vipère", "Yvette", "Renard"]
     },
 	{
-		"name": "Russian Empire",
-		"leaderName": "Zar Nicholas II",
-		"adjective": ["Russian"],
+		"name": "Russia",
+		"leaderName": "Nicholas II",
+		"adjective": ["Russia"],
 		"startBias": ["Tundra"],
 		"preferredVictoryType": "Supremacy",
 
@@ -3323,9 +3375,10 @@ Nixon Bureaucratic Reforms
 		"outerColor": [207, 209, 232],
 		"innerColor": [32, 57, 87],
 		"favoredReligion": "Orthodox",
-		"uniqueName": "Siberian Riches",
+		"uniqueName": "Military Horde",
 		"uniques": ["Non Middle Eastern",
-		"[+1 Production] from every [Strategic resource]","[+50]% Yield from every [Tundra]"],
+		"[+30]% Production when constructing [All] units [in all cities]",
+	    "[1] free [Cossack] units appear <upon discovering [Military Science] technology>"],
 		"cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
 			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
 			"Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
@@ -3333,9 +3386,9 @@ Nixon Bureaucratic Reforms
         "spyNames": ["Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Zmeya"]
     },
 	{
-		"name": "Italian Empire",
+		"name": "Italy",
 		"leaderName": "Victor Emmanuel II",
-		"adjective": ["Italian"],
+		"adjective": ["Italy"],
 		"startBias":["Avoid [Tundra]","Avoid [Desert]"],
 		"preferredVictoryType": "Supremacy",
 
@@ -3590,9 +3643,9 @@ Nixon Bureaucratic Reforms
 		"cities": ["San Miguel", "Conchagua" ,"Tegucigalpa", "Leon", "Granada", "San Salvador", "Managua", "San Jose", "Belmopán"]
 	},
         {
-		"name": "Merina Kingdom",
+		"name": "Madagascar",
 		"leaderName": "Queen Ranavalona I",
-		"adjective": ["Merina"],
+		"adjective": ["Madagascar"],
 		"startBias": ["Baobab"],
 		"preferredVictoryType": "Supremacy",
 		
@@ -3616,7 +3669,7 @@ Nixon Bureaucratic Reforms
 		"cities": ["Antananarivo Renivohitra", "Toamasina" ,"Fianarantsoa", "Mahajanga", "Toliara", "Antsirabe", "Antsiranana", "Ambovombe", "Ambositra","Ambanja","Ambatolampy","Ambatondrazaka","Ambilobe"]
 	},
         {
-		"name": "Benin Kingdom",
+		"name": "Benin",
 		"leaderName": "Oba Ovonramwen",
 		"adjective": ["Benin"],
 		"startBias": ["Jungle"],
@@ -3634,15 +3687,15 @@ Nixon Bureaucratic Reforms
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [197, 226, 237],
-		"innerColor": [16, 71, 92],
+		"outerColor": [181, 146, 96],
+		"innerColor": [36, 29, 19],
 		"uniqueName": "The Rising Sun which spreads over all",
 		"uniques": ["African",
 		"[+1 Production] from every [Oil]","[+1 Production] from every [Ocean]","[+1 Production] from every [Jungle]"],
 		"cities": ["Benin City", "Udo" ,"Ekpoma", "Auchi", "Akure", "Warri", "Ondo", "Ife","Ijebu Ode","Abeokuta"]
 	},
         {
-		"name": "Kongo Kingdom",
+		"name": "Kongo",
 		"leaderName": "Henrique III",
 		"adjective": ["Kongo"],
 		"startBias": ["Jungle"],
@@ -3668,7 +3721,7 @@ Nixon Bureaucratic Reforms
 		"cities": ["Mbanza Kongo", "Soyo" ,"Boma", "Matadi", "Bandundu", "Kinshasa", "Kisantu", "Kikwit","Kananga","Lubumbashi","Likasi"]
 	},
         {
-		"name": "Dahomey Kingdom",
+		"name": "Dahomey",
 		"leaderName": "King Béhanzin",
 		"adjective": ["Dahomey"],
 		"startBias": ["Jungle"],
@@ -3686,8 +3739,8 @@ Nixon Bureaucratic Reforms
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [245, 215, 118],
-		"innerColor": [70, 115, 104],
+		"outerColor": [40, 50, 66],
+		"innerColor": [163, 180, 207],
 		"uniqueName": "King Wives",
 		"uniques": ["African",
 		"[+10]% [Production] [in capital] <when at war>","[+50]% [Gold] [in capital] <when at war>","[+50]% [Happiness] [in capital] <when at war>"],
@@ -3720,9 +3773,9 @@ Nixon Bureaucratic Reforms
 		"cities": ["Tierra del Fuego","Parik","Hersk","Cerro Benitez","Cerro Toro","Strait of Magellan"]
 	},
         {
-		"name": "Lakota People",
+		"name": "The Lakota",
 		"leaderName": "Sitting Bull",
-		"adjective": ["Lakota"],
+		"adjective": ["The Lakota"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Supremacy",
 		
@@ -4145,18 +4198,6 @@ Nixon Bureaucratic Reforms
 		"outerColor": [0, 0, 0],
 		"innerColor": [73, 94, 130],
 		"cities": ["Papeete"]
-	},
-	{
-		"name": "Formosa",
-		"adjective": ["Formosa"],
-		"cityStateType": "Asian",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Perhaps, in another world, we could have been friends...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [3, 169, 252],
-		"cities": ["Formosa"]
 	},
 	{
 		"name": "Manchukuo",

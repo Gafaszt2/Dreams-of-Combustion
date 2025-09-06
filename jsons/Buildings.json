@@ -240,6 +240,13 @@
 			"Only available <for [Non Middle Eastern] Civilizations>"]
 	},
 	{
+		"name": "Domnița Court",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
+			"Only available <for [Balkan] Civilizations>"]
+	},
+	{
 		"name": "Masjid Raya",
 		"isNationalWonder": true,
 		"cost": 100,
@@ -909,7 +916,7 @@
 		"name": "Havn",
                 "requiredTech": "Settlement"
                 "uniqueTo": "Denmark",
-                "uniques": ["[+10]% Production when constructing [Water] units [in this city]","[1] free [Worker] units appear <with [100]% chance>"],
+                "uniques": ["[+10]% Production when constructing [Water] units [in this city]","[1] free [Worker] units appear <with [100]% chance>"]
 	},
         {
 		"name": "Slave Market",
@@ -919,12 +926,12 @@
         {
 		"name": "Pillaged Town",
                 "requiredTech": "Settlement"
-                "uniques": ["Unbuildable","Unsellable","[1] free [Worker] units appear <with [100]% chance>"],
+                "uniques": ["Unbuildable","Unsellable","[1] free [Worker] units appear <with [100]% chance>"]
 	},
         {
 		"name": "Central Industry",
                 "requiredTech": "Settlement"
-                "uniques": ["Unbuildable","Unsellable","[1] free [Line Infantry] units appear <with [100]% chance>"],
+                "uniques": ["Unbuildable","Unsellable","[1] free [Line Infantry] units appear <with [100]% chance>"]
 	},
         
         {
@@ -1063,6 +1070,16 @@
 		"requiredTech": "Replaceable Parts",
 		"uniques": ["Destroyed when the city is captured"]
 	},
+	{
+		"name": "Orthodox Manastir",
+		"uniqueTo": "Serbia",
+        "replaces": "Monastery",
+		"cost": 110,
+		"faith": 2,
+		"culture": 2,
+		"requiredTech": "Gas Lighting",
+		"uniques": ["Comment [Can be built even if you don't improve an religion.]"]
+	},
         {
 		"name": "Rubber Plantation",
                 "uniqueTo": "French Indochina",
@@ -1161,19 +1178,6 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
         {
-		"name": "Old Royal Palace",
-                "uniqueTo": "Greece",
-                "replaces": "Hermitage",
-		"cost": 125,
-		"percentStatBonus": {"culture": 50},
-		"culture": 3,
-                "science": 2,
-                "faith": 2,
-		"isNationalWonder": true,
-		"uniques": ["Cost increases by [25] per owned city"],
-		"requiredTech": "Electricity"
-	},
-        {
 		"name": "Kulla",
                 "culture": 2,
                 "happiness": 1,
@@ -1188,7 +1192,7 @@
 	},
         {
 		"name": "Chitalishte",
-                "uniqueTo": "Bulgarian Empire",
+                "uniqueTo": "Bulgaria",
                 "replaces": "Opera House",
 		"culture": 5,
                 "happiness": 1,
@@ -1249,7 +1253,7 @@
 	},
         {
 		"name": "Consulate",
-                "uniqueTo": "Imperial China",
+                "uniqueTo": "China",
                 "replaces": "Courthouse",
                 "culture": 4,
 		"hurryCostModifier": 50,
@@ -1266,7 +1270,7 @@
 	},
         {
 		"name": "Rova",
-                "uniqueTo": "Merina Kingdom",
+                "uniqueTo": "Madagascar",
                 "replaces": "Monument",
 		"culture": 2,
                 "happiness": 1,
@@ -1389,20 +1393,8 @@
 		"requiredTech": "Electricity"
 	},
         {
-		"name": "Floating Market",
-                "uniqueTo": "Siam Kingdom",
-                "replaces": "Market",
-		"gold": 2,
-                "food": 1,
-		"specialistSlots": {"Merchant": 1},
-		"hurryCostModifier": 25,
-                "uniques": ["[+1 Food] from every [Lakes]"],
-		"percentStatBonus": {"gold": 25},
-		"requiredTech": "Vaccine"
-	},
-        {
 		"name": "Gurdwara",
-                "uniqueTo": "Sikh Empire",
+                "uniqueTo": "The Sikh",
                 "replaces": "Temple",
 		"faith": 3,
                 "culture": 1,
@@ -1518,7 +1510,7 @@
         {
 		"name": "Pillaged Estancia",
 		"replaces": "Granary",
-		"uniqueTo": "Patagonian Confederation",
+		"uniqueTo": "Patagonia",
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"uniques": ["Free [Worker] appears","Provides [1] [Wheat] <with [100]% chance>","Provides [1] [Horses] <with [100]% chance>","Unsellable","[+1 Food] from [Mill] tiles [in this city]"],
@@ -1550,7 +1542,7 @@
         {
 		"name": "Kumasi Market",
                 "replaces": "Market",
-		"uniqueTo": "Ashanti Empire",
+		"uniqueTo": "Ashanti",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
@@ -1583,7 +1575,7 @@
         {
 		"name": "Guild",
                 "replaces": "Mint",
-		"uniqueTo": "Benin Kingdom",
+		"uniqueTo": "Benin",
                 "greatPersonPoints": {"Great Prophet": 1},
 		"maintenance": 0,
 		"hurryCostModifier": 25,
@@ -1911,6 +1903,15 @@
 		"uniques": ["Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>"],
 		"requiredTech": "Rifling"
+	},
+	{
+		"name": "Sanheyuan",
+		"uniqueTo": "Formosa",
+        "replaces": "Barracks",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+10]% [Food] [in this city]","[+15]% Production when constructing [Infantry] units [in this city]"],
+		"requiredTech": "Hunting Pets"
 	},
         {
 		"name": "Space Ship Design Center",
@@ -2377,6 +2378,15 @@
 		"isNationalWonder": true,
 		"uniques": ["Cost increases by [30] per owned city"],
 		"requiredTech": "Railway"
+	},
+	{
+		"name": "Malaya Majlis",
+		"uniqueTo": "British Malaya",
+        "replaces": "Courthouse",
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": ["[+1 Happiness] <in cities connected to the capital>","Removes extra unhappiness from annexed cities"],
+		"requiredTech": "Rifling"
 	},
 	{
 		"name": "Pacific Formation Campus",

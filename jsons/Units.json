@@ -1,5 +1,144 @@
 [
 	{
+		"name": "Ai-Ding",
+		"uniqueTo":"Formosa",
+		"replaces":"Rifleman",
+        "upgradesTo": "Great War Infantry",
+		"obsoleteTech": "Ballistics",
+        "requiredTech": "Replaceable Parts",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 41,
+		"cost": 130,
+		"promotions":["Drill I"],
+        "uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+    },
+	{
+		"name": "1st Malaya Infantry Brigade",
+		"uniqueTo":"British Malaya",
+		"replaces":"Great War Infantry",
+        "upgradesTo": "Infantry",
+        "obsoleteTech": "Plastics",
+        "requiredTech": "Ballistics",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 45,
+		"cost": 160,
+        "uniques": ["[+45]% Strength <when fighting in [Jungle] tiles>","[+45]% Strength <when fighting in [Hill] tiles>","Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+        },
+	{
+		"name": "Alligator",
+		"uniqueTo":"The Seminole",
+		"replaces":"Hussar",
+        "upgradesTo": "Cavalry",
+        "obsoleteTech": "Replaceable Parts",
+        "requiredTech": "Military Science",
+		"unitType": "Light Cavalry",
+		"movement": 4,
+		"strength": 20,
+		"cost": 70, 
+        "uniques": ["[+50]% Strength <when fighting in [Marsh] tiles>","[+50]% Strength <when fighting in [Flood plains] tiles>",
+			"Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "croc"
+        },
+	{
+		"name": "Popovka",
+		"uniqueTo":"Russia",
+		"replaces":"Ironclad",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 46,
+		"cost": 250,
+		"requiredResource": "Coal",
+		"uniques": ["Unbuildable","[+44]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Pyrpolikon",
+		"uniqueTo": "Greece",
+        "replaces": "Torpedo Boat",
+		"unitType": "Melee Water",
+        "obsoleteTech": "Radio",
+		"movement": 4,
+		"strength": 32,
+		"cost": 195,
+		"uniques": ["Self-destructs when attacking","Blast radius [2]", "Never appears as a Barbarian unit"],
+		"requiredTech": "Steam Power",
+		"hurryCostModifier": 20,
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Opryshok",
+		"uniqueTo": "Russian Ukraine",
+        "replaces": "Halberdier",
+        "requiredTech": "Dynamite",
+        "obsoleteTech": "Replaceable Parts",
+		"unitType": "Archaic Infantry",
+		"movement": 2,
+		"strength": 16,
+		"cost": 78, 
+        "uniques": ["Comment [Angry ukrainian peasant armed with a axe.]","[+33]% Strength <vs [Wounded] units>","[+22]% Strength <vs cities>"],
+		"attackSound": "metalhit"
+        },
+		{
+		"name": "Serduk",
+		"uniqueTo": "Russian Ukraine",
+        "replaces": "Explorer",
+        "upgradesTo": "Mounted Explorer",
+        "obsoleteTech": "Railway",
+		"unitType": "Infantry",
+		"movement": 3,
+		"strength": 6,
+		"cost": 40,
+		"uniques": ["Comment [Ukranian hunter.]","[+22]% Strength <vs [Wounded] units> <after discovering [Hunting Pets]>","[+11]% Strength <when fighting in [Acacia] tiles> <when attacking>","[+11]% Strength <when fighting in [Forest] tiles> <when attacking>","[+33]% Strength <when fighting in [Snow] tiles> <when attacking>","[+33]% Strength <when fighting in [Tundra] tiles> <when attacking>"],
+		"attackSound": "shot"
+        },
+	{
+		"name": "Carbineer",
+		"uniqueTo": "Montenegro",
+        "replaces": "Grenadier",
+        "upgradesTo": "Rifleman",
+        "obsoleteTech": "Replaceable Parts",
+        "requiredTech": "Dynamite",
+		"unitType": "Infantry",
+		"movement": 3,
+		"strength": 20,
+        "uniques": ["[+11]% Strength <when defending>","[+11]% Strength <when fighting in [Hill] tiles>","Never appears as a Barbarian unit"],
+		"cost": 70,
+		"attackSound": "shot"
+        },
+    {
+		"name": "Opalchentsi",
+		"uniqueTo": "Bulgaria",
+        "replaces": "Explorer",
+		"unitType": "Infantry",
+		"movement": 3,
+		"strength": 10,
+		"cost": 60,
+		"uniques":["Limited to [4] per Civilization","[+44]% Strength <vs [Barbarian] units>","[+100]% Strength <starting from the [New Imperial Era]>",
+	    "[+60]% Strength <starting from the [First World War]>","[+60]% Strength <starting from the [Second World War]>","[+70]% Strength <starting from the [Cold War]>",
+	    "[+200]% Strength <starting from the [Post Cold War]>"],
+		"attackSound": "shot"
+    },
+	{
+		"name": "Hajduk",
+		"uniqueTo": "Serbia",
+		"replaces": "Skirmisher",
+        "upgradesTo": "Grenadier",
+        "requiredTech": "Industrialization",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Infantry",
+        "range": 2,
+		"movement": 3,
+		"strength": 9,
+        "rangedStrength": 9,
+        "uniques": ["Withdraws before melee combat <with [10]% chance>","[+33]% Strength <when defending>"],           
+		"cost": 55,
+		"attackSound": "shot"
+        },
+	{
 		"name": "Medicine Man",
 		"uniqueTo": "Navajo",
 		"replaces": "Medic",
@@ -37,7 +176,6 @@
 	},
 	{
 		"name": "Janbaz",
-        "requiredTech": "Dynamite",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 20,
@@ -48,8 +186,6 @@
 	{
 "name": "Sepoy",
 "upgradesTo": "Rifleman",
-"obsoleteTech": "Replaceable Parts",
-"requiredTech": "Dynamite",
 "unitType": "Infantry",
 "movement": 2,
 "strength": 23,
@@ -154,13 +290,12 @@
 		"movement": 4,
 		"strength": 27,
 		"cost": 140, 
-                "uniques": ["[-10]% Strength <vs [Light Cavalry] units>","[-10]% Strength <vs [Camel] units>","Blast radius [2]","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+                "uniques": ["[-22]% Strength <vs [Light Cavalry] units>","[-22]% Strength <vs [Camel] units>","Blast radius [2]","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
         },
 		{
 		"name": "Picador Infernal",
 		"unitType": "Heavy Cavalry",
-		"requiredTech": "Dynamite",
 		"movement": 4,
 		"strength": 26,
 		"cost": 90,
@@ -171,7 +306,6 @@
 		"name": "Legione Agricola",
 		"unitType": "Infantry",
 		"movement": 2,
-		"requiredTech": "Dynamite",
 		"strength": 25,
         "uniques": ["Immigrant","Only available <if [Immigrant Colony - Italian] is constructed>","Never appears as a Barbarian unit"],
 		"cost": 70,
@@ -179,7 +313,6 @@
         },
 		{
 		"name": "Paisano",
-        "obsoleteTech": "Railway",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 9,
@@ -189,8 +322,6 @@
         },
 		{
 		"name": "Galego",
-        "requiredTech": "Rifling",
-		"obsoleteTech": "Dynamite",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 10,
@@ -200,8 +331,6 @@
         },
 		{
 		"name": "Kansu Brave",
-		"obsoleteTech": "Ballistics",
-        "requiredTech": "Replaceable Parts",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 35,
@@ -211,8 +340,6 @@
         },
 		{
 		"name": "Maronite Rifleman",
-		"obsoleteTech": "Ballistics",
-        "requiredTech": "Replaceable Parts",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 43,
@@ -222,8 +349,6 @@
         },
 	{
 		"name": "Frontovik",
-        "requiredTech": "Rifling",
-		"obsoleteTech": "Dynamite",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 12,
@@ -340,17 +465,9 @@
 		"cost": 70,
 		"attackSound": "shot"
         },
-{
-		"name": "Captured American Child",
-                "uniqueTo": "Seminole People",
-                "replaces": "Slave",
-		"unitType": "Civilian",
-		"movement": 4,
-		"uniques": ["Limited to [8] per Civilization","Can be purchased with [Faith] [in all cities]","Gain [120] [Gold] <(modified by game speed)> <by consuming this unit>","Can be purchased for [100] [Faith] [in all cities]","Unbuildable","Never appears as a Barbarian unit","Can build [Land] improvements on tiles", "Automation is a primary action"],
-	},
          {
 		"name": "Sharktooth Archer",
-                "uniqueTo": "Seminole People",
+                "uniqueTo": "The Seminole",
                 "replaces": "Grenadier",
                 "upgradesTo": "Rifleman",
                 "obsoleteTech": "Replaceable Parts",
@@ -549,9 +666,9 @@
 		"cost": 30,
 		"requiredTech": "Settlement",
                 "upgradesTo": "Rifleman",
-                "uniques": ["[-20]% Strength <vs [Infantry] units>","[-10]% Strength for enemy [Military] units in adjacent [All] tiles","No movement cost to pillage","[+10]% to Flank Attack bonuses"],
+                "uniques": ["[-20]% Strength <vs [Infantry] units>","[-22]% Strength for enemy [Military] units in adjacent [All] tiles","No movement cost to pillage","[+30]% to Flank Attack bonuses"],
 		"obsoleteTech": "Replaceable Parts",
-		"attackSound": "metalhit",
+		"attackSound": "metalhit"
 	},
         {
 		"name": "Hare Paenga Builder",
@@ -604,7 +721,7 @@
 		"strength": 6,
 		"obsoleteTech": "Replaceable Parts",
 		"cost": 70, 
-                "uniques": ["[+10]% Strength <vs [Heavy Cavalry] units>","Never appears as a Barbarian unit"],
+                "uniques": ["[+22]% Strength <vs [Heavy Cavalry] units>","Never appears as a Barbarian unit"],
 		"attackSound": "shot"
         },
 		{
@@ -667,16 +784,15 @@
 		"attackSound": "shot"
         },
         {
-		"name": "Skrimisher",
-                "upgradesTo": "Grenadier",
-                "requiredTech": "Industrialization",
+		"name": "Skirmisher",
+        "upgradesTo": "Grenadier",
+        "requiredTech": "Industrialization",
 		"obsoleteTech": "Dynamite",
 		"unitType": "Infantry",
-                "range": 2,
+        "range": 2,
 		"movement": 3,
 		"strength": 9,
-                "rangedStrength": 9,
-                "uniques": ["[+5]% Strength <when defending>"],           
+        "rangedStrength": 9,           
 		"cost": 55,
 		"attackSound": "shot"
         },
@@ -689,18 +805,18 @@
 		"movement": 2,
 		"strength": 10,
 		"cost": 66, 
-                "uniques": ["[+30]% Strength <vs [Heavy Cavalry] units>","[+30]% Strength <vs [Light Cavalry] units>","[+30]% Strength <vs [Camel] units>"],
+                "uniques": ["[+30]% Strength <vs [Heavy Cavalry] units>","[+40]% Strength <vs [Light Cavalry] units>","[+40]% Strength <vs [Camel] units>"],
 		"attackSound": "metalhit"
         },
         {
 		"name": "Halberdier",
-                "requiredTech": "Dynamite",
-                "obsoleteTech": "Replaceable Parts",
+        "requiredTech": "Dynamite",
+        "obsoleteTech": "Replaceable Parts",
 		"unitType": "Archaic Infantry",
 		"movement": 2,
-		"strength": 20,
+		"strength": 14,
 		"cost": 80, 
-                "uniques": ["[+30]% Strength <vs [Heavy Cavalry] units>","[+30]% Strength <vs [Light Cavalry] units>","[+30]% Strength <vs [Camel] units>"],
+        "uniques": ["[+30]% Strength <vs [Heavy Cavalry] units>","[+40]% Strength <vs [Light Cavalry] units>","[+40]% Strength <vs [Camel] units>"],
 		"attackSound": "metalhit"
         },
         {
@@ -711,7 +827,7 @@
 		"movement": 4,
 		"strength": 18,
 		"cost": 75, 
-                "uniques": ["[+20]% Strength bonus for [Archaic Infantry] units within [2] tiles","[+10]% Strength <vs [Heavy Cavalry] units>","[-10]% Strength <vs [Archaic Infantry] units>"],
+                "uniques": ["[+20]% Strength bonus for [Archaic Infantry] units within [2] tiles","[+22]% Strength <vs [Heavy Cavalry] units>","[-22]% Strength <vs [Archaic Infantry] units>"],
 		"attackSound": "metalhit"
         },
         {
@@ -809,14 +925,14 @@
         },
         {
 		"name": "Great War Infantry",
-                "upgradesTo": "Infantry",
-                "obsoleteTech": "Plastics",
-                "requiredTech": "Ballistics",
+        "upgradesTo": "Infantry",
+        "obsoleteTech": "Plastics",
+        "requiredTech": "Ballistics",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 45,
 		"cost": 160,
-                 "uniques": ["Never appears as a Barbarian unit"],
+        "uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "shot"
         },
         {
@@ -830,7 +946,7 @@
 		"strength": 35,
                 "rangedStrength": 35,
 		"cost": 165,
-                "uniques": ["[+5]% Strength <when defending>","Never appears as a Barbarian unit"],
+                "uniques": ["[+11]% Strength <when defending>","Never appears as a Barbarian unit"],
 		"attackSound": "shot"
         },
         {
@@ -1198,8 +1314,8 @@
 		"unitType": "Drone",
 		"movement": 5,
 		"strength": 50,
-                "uniques": ["[+10]% Strength <vs [Infantry] units>",
-                            "[+10]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
+                "uniques": ["[+22]% Strength <vs [Infantry] units>",
+                            "[+22]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
 		"cost": 300,
 		"attackSound": "shot"
         },
@@ -1607,7 +1723,7 @@
 			"strength": 58,
 			"rangedStrength": 58,
 			"cost": 300,
-			"uniques": ["[-15]% Strength <vs cities> <when attacking>","[-20]% Strength <vs [Armored] units>","[+10]% Strength <starting from the [Cold War]>","[+10]% Strength <starting from the [Post Cold War]>","Never appears as a Barbarian unit"],
+			"uniques": ["[-15]% Strength <vs cities> <when attacking>","[-20]% Strength <vs [Armored] units>","[+22]% Strength <starting from the [Cold War]>","[+22]% Strength <starting from the [Post Cold War]>","Never appears as a Barbarian unit"],
 			"attackSound": "machinegun"
 			},
         {
@@ -1658,7 +1774,7 @@
 		"rangedStrength": 34,
 		"cost": 250,
 		"requiredTech": "Artillery",
-		"uniques": ["Limited to [4] per Civilization","[-10]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[+1] Sight","Never appears as a Barbarian unit"],
+		"uniques": ["Limited to [4] per Civilization","[-22]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[+1] Sight","Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
         {
@@ -1717,7 +1833,7 @@
 		"cost": 250,
 		"requiredTech": "Steam Power",
 		"requiredResource": "Coal",
-		"uniques": ["[-10]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
+		"uniques": ["[-22]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
 	},
         {
@@ -1788,34 +1904,6 @@
 		"attackSound": "camel"
         },
         {
-		"name": "Guard of Crimea",
-                "uniqueTo": "Ukraine",
-                "replaces": "AK47",
-                "requiredTech": "Afganistan/Irak Wars",
-		"unitType": "Infantry",
-                "range": 2,
-		"movement": 3,
-		"strength": 65,
-                "uniques": ["[+15]% Strength <when fighting in [Foreign Land] tiles> <when attacking>","Never appears as a Barbarian unit"],
-                "rangedStrength": 65,
-		"cost": 295,
-		"attackSound": "shot"
-        },
-        {
-		"name": "Hetman Guard",
-                "uniqueTo": "Ukraine",
-                "replaces": "Rifleman",
-                "upgradesTo": "Great War Infantry",
-		"obsoleteTech": "Ballistics",
-                "requiredTech": "Replaceable Parts",
-		"unitType": "Infantry",
-		"movement": 2,
-		"strength": 40,
-                "uniques": ["[+15]% Strength <when fighting in [Tundra] tiles> <when attacking>","Never appears as a Barbarian unit"],
-		"cost": 150,
-		"attackSound": "shot"
-        },
-        {
 		"name": "Perico",
                 "uniqueTo": "Central Americans",
                 "upgradesTo": "Grenadier",
@@ -1825,7 +1913,7 @@
                 "range": 2,
 		"movement": 3,
 		"strength": 12,
-                "uniques": ["Can build [Slave Labor Plantation] improvements on tiles","[+5]% Strength <when defending>"],           
+                "uniques": ["Can build [Slave Labor Plantation] improvements on tiles","[+11]% Strength <when defending>"],           
 		"cost": 55,
 		"attackSound": "shot"
         },
@@ -1839,7 +1927,7 @@
                 "range": 2,
 		"movement": 2,
 		"strength": 15,
-                "uniques": ["Can build [Fort] improvements on tiles","[+5]% Strength <when defending>"],           
+                "uniques": ["Can build [Fort] improvements on tiles","[+11]% Strength <when defending>"],           
 		"cost": 95,
 		"attackSound": "shot"
         },
@@ -1852,7 +1940,7 @@
 		"unitType": "Artillery",
 		"movement": 2,
 		"strength": 10,
-		"rangedStrength": 50,
+		"rangedStrength": 34,
 		"cost": 190,
 		"requiredTech": "Artillery",
 		"uniques": ["Limited to [4] per Civilization","[-15]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[+1] Sight","Never appears as a Barbarian unit"],
@@ -1906,46 +1994,6 @@
 		"attackSound": "shot"
         },
         {
-		"name": "Montenegrin Carabineer",
-                "uniqueTo": "Montenegro",
-                "replaces": "Grenadier",
-                "obsoleteTech": "Replaceable Parts",
-                "requiredTech": "Dynamite",
-		"unitType": "Infantry",
-		"movement": 3,
-		"strength": 17,
-                "uniques": ["[This Unit] heals [+5] HP <upon ending a turn in a [Hill] tile>"],
-		"cost": 65,
-		"attackSound": "shot"
-        },
-        {
-		"name": "Serbian Carabineer",
-                "uniqueTo": "Serbian Empire",
-                "replaces": "Grenadier",
-                "obsoleteTech": "Replaceable Parts",
-                "requiredTech": "Dynamite",
-		"unitType": "Infantry",
-		"movement": 3,
-		"strength": 17,
-                "uniques": ["[This Unit] heals [+1] HP <upon ending a turn in a [All] tile>"],
-		"cost": 65,
-		"attackSound": "shot"
-        },
-        {
-		"name": "Schneider Cannon",
-                "uniqueTo": "Serbian Empire",
-                "replaces": "Foot Artillery",
-                "obsoleteTech": "Combustion",
-		"unitType": "Artillery",
-		"movement": 2,
-		"strength": 20,
-		"rangedStrength": 30,
-		"cost": 185,
-		"requiredTech": "Artillery",
-		"uniques": ["Limited to [4] per Civilization","[-15]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit","[This Unit] heals [+2] HP <upon ending a turn in a [All] tile>","[+10]% Strength <when defending>"],
-		"attackSound": "cannon"
-	},
-        {
 		"name": "Gaucho",
                 "uniqueTo": "Argentinian Confederation",
                 "replaces": "Worker",
@@ -1965,7 +2013,7 @@
 	},
         {
 		"name": "African Slave",
-                "uniqueTo": "Brasilian Empire",
+                "uniqueTo": "Brazil",
                 "replaces": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -2154,7 +2202,7 @@
                 "requiredTech": "Dynamite",
 		"unitType": "Infantry",
 		"movement": 2,
-                "uniques": ["[+15]% Strength <when fighting in [Desert] tiles> <when attacking>", "[+5]% Strength <when fighting in [Hill] tiles> <when attacking>", "Never appears as a Barbarian unit"],
+                "uniques": ["[+15]% Strength <when fighting in [Desert] tiles> <when attacking>", "[+11]% Strength <when fighting in [Hill] tiles> <when attacking>", "Never appears as a Barbarian unit"],
 		"strength": 22,
 		"cost": 90,
 		"attackSound": "shot"
@@ -2204,8 +2252,8 @@
         },
         {
 		"name": "Zouave",
-                "uniqueTo": "French Empire",
-                "replaces": "Skrimisher",
+                "uniqueTo": "France",
+                "replaces": "Skirmisher",
                 "requiredTech": "Industrialization",
 		"obsoleteTech": "Dynamite",
 		"unitType": "Infantry",
@@ -2219,13 +2267,13 @@
         },
         {
 		"name": "Foreign Legion",
-                "uniqueTo": "French Empire",
+                "uniqueTo": "France",
                 "replaces": "Great War Infantry",
                 "requiredTech": "Ballistics",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 47,
-                "uniques": ["[+20]% to Flank Attack bonuses", "Never appears as a Barbarian unit"],
+                "uniques": ["[+30]% to Flank Attack bonuses", "Never appears as a Barbarian unit"],
 		"cost": 165,
 		"attackSound": "shot"
         },
@@ -2260,45 +2308,41 @@
 	},
         {
 		"name": "Fasci di Combattimento",
-                "uniqueTo": "Italian Empire",
+                "uniqueTo": "Italy",
                 "replaces": "Anti-Tank Gun",
                 "requiredTech": "Plastics",
 		"unitType": "Artillery",
 		"movement": 4,
 		"strength": 50,
-                "uniques": ["[+50]% Strength <vs [Armored] units>", "[+10]% Strength <when fighting in [Tundra] tiles> <when attacking>", "Never appears as a Barbarian unit"],
+                "uniques": ["[+50]% Strength <vs [Armored] units>", "[+22]% Strength <when fighting in [Tundra] tiles> <when attacking>", "Never appears as a Barbarian unit"],
 		"cost": 300,
 		"attackSound": "horse"
         },
         {
 		"name": "Cantonist",
-                "uniqueTo": "Russian Empire",
-                "replaces": "Line Infantry",
-                "requiredTech": "Rifling",
-		"obsoleteTech": "Military Science",
 		"unitType": "Infantry",
 		"movement": 2.5,
 		"strength": 11,
 		"cost": 44,
-                "uniques": ["[+10]% Strength <when fighting in [Tundra] tiles> <when attacking>", "Never appears as a Barbarian unit"],
+        "uniques": ["Unbuildable","[+22]% Strength <when fighting in [Tundra] tiles> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
         },
         {
 		"name": "Cossack",
-                "uniqueTo": "Russian Empire",
-                "replaces": "Hussar",
-                "obsoleteTech": "Replaceable Parts",
-                "requiredTech": "Military Science",
+        "uniqueTo": "Russia",
+        "replaces": "Hussar",
+        "obsoleteTech": "Replaceable Parts",
+        "requiredTech": "Military Science",
 		"unitType": "Heavy Cavalry",
 		"movement": 4,
 		"strength": 19,
 		"cost": 60, 
-                "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+        "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
         },
         {
 		"name": "Panzer",
-                "uniqueTo": "German Empire",
+                "uniqueTo": "Germany",
                 "replaces": "Tank",
 		"unitType": "Armored",
 		"movement": 6,
@@ -2312,8 +2356,8 @@
 	},
         {
 		"name": "Aduanero",
-                "uniqueTo": "Spanish Empire",
-                "replaces": "Skrimisher",
+                "uniqueTo": "Spain",
+                "replaces": "Skirmisher",
                 "requiredTech": "Industrialization",
 		"obsoleteTech": "Dynamite",
 		"unitType": "Infantry",
@@ -2327,7 +2371,7 @@
         },
         {
 		"name": "Chapelgorris",
-                "uniqueTo": "Spanish Empire",
+                "uniqueTo": "Spain",
                 "replaces": "Grenadier",
                 "obsoleteTech": "Replaceable Parts",
                 "requiredTech": "Dynamite",
@@ -2341,20 +2385,20 @@
         },
         {
 		"name": "Redcoat",
-                "uniqueTo": "British Empire",
+                "uniqueTo": "Great Britain",
                 "replaces": "Line Infantry",
                 "requiredTech": "Rifling",
 		"obsoleteTech": "Military Science",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 17,
-                "uniques": ["[+10]% Strength <vs [Light Cavalry] units>","[-10]% Strength <vs [Heavy Cavalry] units>","Never appears as a Barbarian unit"],
+                "uniques": ["[+22]% Strength <vs [Light Cavalry] units>","[-22]% Strength <vs [Heavy Cavalry] units>","Never appears as a Barbarian unit"],
 		"cost": 83,
 		"attackSound": "shot"
         },
         {
 		"name": "Cherrybum",
-                "uniqueTo": "British Empire",
+                "uniqueTo": "Great Britain",
                 "replaces": "Hussar",
                 "obsoleteTech": "Replaceable Parts",
                 "requiredTech": "Military Science",
@@ -2375,7 +2419,7 @@
 		"unitType": "Heavy Cavalry",
 		"movement": 3,
 		"strength": 25,
-                "uniques": ["Can build [Mill] improvements on tiles","[+5]% Strength <when fighting in [Plains] tiles> <when attacking>","Never appears as a Barbarian unit"],
+                "uniques": ["Can build [Mill] improvements on tiles","[+11]% Strength <when fighting in [Plains] tiles> <when attacking>","Never appears as a Barbarian unit"],
 		"cost": 85,
 		"attackSound": "metalhit"
         },
@@ -2387,7 +2431,7 @@
                 "requiredTech": "Afganistan/Irak Wars",
                 "obsoleteTech": "Modern Burned Earth",
 		"unitType": "Infantry",
-                "uniques": ["[+5]% Strength <when fighting in [Plains] tiles> <when attacking>","[+10]% Strength <when fighting in [Jungle] tiles> <when attacking>", "Never appears as a Barbarian unit"],
+                "uniques": ["[+11]% Strength <when fighting in [Plains] tiles> <when attacking>","[+22]% Strength <when fighting in [Jungle] tiles> <when attacking>", "Never appears as a Barbarian unit"],
 		"movement": 2,
 		"strength": 75,
 		"cost": 300,
@@ -2403,7 +2447,7 @@
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 20,
-                "uniques": ["[+10]% Strength <vs [Heavy Cavalry] units>","Never appears as a Barbarian unit"],
+                "uniques": ["[+22]% Strength <vs [Heavy Cavalry] units>","Never appears as a Barbarian unit"],
 		"cost": 80,
 		"attackSound": "shot"
         },
@@ -2440,14 +2484,14 @@
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 20,
-                "uniques": ["[+10]% Strength <vs [Rifleman] units>","Double movement in [Hill]","Never appears as a Barbarian unit"],
+                "uniques": ["[+22]% Strength <vs [Rifleman] units>","Double movement in [Hill]","Never appears as a Barbarian unit"],
 		"cost": 70,
 		"attackSound": "shot"
         },
         {
 		"name": "Picket",
                 "uniqueTo": "Haiti",
-                "replaces": "Skrimisher",
+                "replaces": "Skirmisher",
                 "upgradesTo": "Grenadier",
                 "requiredTech": "Industrialization",
 		"obsoleteTech": "Dynamite",
@@ -2482,7 +2526,7 @@
 		"cost": 520,
 "requiredTech": "NAFTA",
 		"requiredResource": "Oil",
-		"uniques": ["Limited to [4] per Civilization","[+10]% Strength <vs [Armored] units>","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["Limited to [4] per Civilization","[+22]% Strength <vs [Armored] units>","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
         {
@@ -2496,21 +2540,6 @@
 		"movement": 2.5,
 		"strength": 60,
 		"cost": 270,
-		"attackSound": "shot"
-        },
-        {
-		"name": "Opalchentsi",
-                "uniqueTo": "Bulgarian Empire",
-                "replaces": "Rifleman",
-                "upgradesTo": "Great War Infantry",
-		"obsoleteTech": "Ballistics",
-                "requiredTech": "Replaceable Parts",
-		"unitType": "Infantry",
-		"movement": 2,
-		"strength": 40,
-		"cost": 130,
-                "promotions":  ["Drill I"],
-                 "uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "shot"
         },
         {
@@ -2556,16 +2585,16 @@
         },
         {
 		"name": "Officer",
-                "uniqueTo": "Dutch East India Company",
-                "replaces": "Settler",
+        "uniqueTo": "Dutch East India Company",
+        "replaces": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
-                "strength": 8,
+        "strength": 8,
 		"cost": 146,
 		"uniques": ["[+100]% Strength <starting from the [New Imperial Era]>","[+100]% Strength <starting from the [Second World War]>","[+100]% Strength <starting from the [Post Cold War]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
-	},
+	    },
         {
 		"name": "Tengrich",
                 "uniqueTo": "The Kazakhs",
@@ -2574,7 +2603,7 @@
 		"movement": 3,
                 "strength": 10,
 		"cost": 126,
-		"uniques": ["[+10]% Strength <starting from the [New Imperial Era]>","[+30]% Strength <starting from the [Second World War]>","[+90]% Strength <starting from the [Post Cold War]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		"uniques": ["[+22]% Strength <starting from the [New Imperial Era]>","[+30]% Strength <starting from the [Second World War]>","[+90]% Strength <starting from the [Post Cold War]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
@@ -2632,7 +2661,7 @@
 			"movement": 2,
 			"strength": 28,
 			"cost": 88, 
-					"uniques": ["[-30]% Strength <vs [Archaic Infantry] units>","[+10]% Strength <vs [Heavy Cavalry] units>","[+10]% Strength <vs [Light Cavalry] units>","[+10]% Strength <vs [Camel] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+					"uniques": ["[-30]% Strength <vs [Archaic Infantry] units>","[+22]% Strength <vs [Heavy Cavalry] units>","[+22]% Strength <vs [Light Cavalry] units>","[+22]% Strength <vs [Camel] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 			"attackSound": "horse"
 			},
         {
@@ -2671,14 +2700,14 @@
                 "obsoleteTech": "Replaceable Parts",
 		"unitType": "Elephant",
 		"movement": 3.5,
-		"strength": 25,
+		"strength": 16,
 		"cost": 90, 
                 "uniques": ["[+50]% Strength <vs [Heavy Cavalry] units>","[+50]% Strength <vs [Light Cavalry] units>","[+20]% Strength <vs [Camel] units>","Never appears as a Barbarian unit"],
 		"attackSound": "elephant"
         },
         {
 		"name": "Akali Nihang",
-                "uniqueTo": "Sikh Empire",
+                "uniqueTo": "The Sikh",
                 "replaces": "Line Infantry",
                 "upgradesTo": "Grenadier",
                 "requiredTech": "Rifling",
@@ -2720,7 +2749,7 @@
         },
         {
 		"name": "Malon Raider",
-                "uniqueTo": "Patagonian Confederation",
+                "uniqueTo": "Patagonia",
                 "replaces": "Hussar",
                 "upgradesTo": "Cavalry",
                 "obsoleteTech": "Replaceable Parts",
@@ -2755,7 +2784,7 @@
 		},
         {
 		"name": "Exportation Slave",
-                "uniqueTo": "Ashanti Empire",
+                "uniqueTo": "Ashanti",
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": ["Gain [60] [Gold] <(modified by game speed)> <by consuming this unit>"],
@@ -2813,13 +2842,13 @@
 		"movement": 2,
 		"strength": 25,
 		"cost": 66, 
-                "uniques": ["[+5]% Strength <when fighting in [Coast] tiles>","Never appears as a Barbarian unit"],
+                "uniques": ["[+11]% Strength <when fighting in [Coast] tiles>","Never appears as a Barbarian unit"],
                 "promotions":  ["Conqueror"],
 		"attackSound": "metalhit"
         },
         {
 		"name": "Yung",
-                "uniqueTo": "Imperial China",
+                "uniqueTo": "China",
 		"replaces": "Line Infantry",
                 "upgradesTo": "Grenadier",
                 "requiredTech": "Rifling",
@@ -2863,7 +2892,7 @@
         },
         {
 		"name": "Hova",
-                "uniqueTo": "Merina Kingdom",
+                "uniqueTo": "Madagascar",
                 "obsoleteTech": "Replaceable Parts",
                 "requiredTech": "Military Science",
 		"unitType": "Infantry",
@@ -2876,7 +2905,7 @@
         },
         {
 		"name": "Leopard Guard",
-                "uniqueTo": "Benin Kingdom",
+                "uniqueTo": "Benin",
 		"replaces": "Grenadier",
                 "upgradesTo": "Rifleman",
                 "obsoleteTech": "Replaceable Parts",
@@ -2890,7 +2919,7 @@
         },
         {
 		"name": "Amazon Guard",
-                "uniqueTo": "Dahomey Kingdom",
+                "uniqueTo": "Dahomey",
 		"replaces": "Grenadier",
                 "upgradesTo": "Rifleman",
                 "obsoleteTech": "Replaceable Parts",
@@ -2913,22 +2942,22 @@
 		},
         {
 		"name": "Amazon Mino",
-                "uniqueTo": "Dahomey Kingdom",
+                "uniqueTo": "Dahomey",
                 "upgradesTo": "Rifleman",
                 "obsoleteTech": "Replaceable Parts",
                 "requiredTech": "Dynamite",
 		"unitType": "Infantry",
 		"movement": 3,
 		"strength": 18,
-                "uniques": ["[+5]% Strength bonus for [New Imperial Era] units within [2] tiles","Never appears as a Barbarian unit"],
+                "uniques": ["[+11]% Strength bonus for [New Imperial Era] units within [2] tiles","Never appears as a Barbarian unit"],
 		"cost": 55,
 		"attackSound": "shot"
         },
         {
 		"name": "Pombo Governor",
-                "uniqueTo": "Kongo Kingdom",
+                "uniqueTo": "Kongo",
 		"unitType": "Civilian",
-		"uniques": ["[+5]% Strength bonus for [Military] units within [2] tiles",
+		"uniques": ["[+11]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Mbanza] improvement <by consuming this unit>",
 			"Great Person - [War]","Uncapturable"],
                 "cost": 190,
@@ -2946,7 +2975,7 @@
 		"strength": 55,
                 "promotions": ["Elite"],
 		"cost": 210, 
-                "uniques": ["Can move after attacking","No defensive terrain bonus","[-10]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+                "uniques": ["Can move after attacking","No defensive terrain bonus","[-22]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
         },
         {
@@ -2962,7 +2991,7 @@
                 "rangedStrength": 39,
 		"cost": 270, 
                 "promotions": ["Elite"],
-                "uniques": ["Can move after attacking","No defensive terrain bonus","[-10]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+                "uniques": ["Can move after attacking","No defensive terrain bonus","[-22]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
         },
         {
@@ -2990,7 +3019,7 @@
         {
 		"name": "Patagonian Ranger",
                 "uniqueTo": "Selk Nam",
-		"replaces": "Skrimisher",
+		"replaces": "Skirmisher",
                 "upgradesTo": "Grenadier",
                 "requiredTech": "Industrialization",
 		"obsoleteTech": "Dynamite",
@@ -3019,7 +3048,7 @@
         },
         {
 		"name": "Cheyenne Dog Soldier",
-                "uniqueTo": "Lakota People",
+                "uniqueTo": "The Lakota",
 		"replaces": "Explorer",
 		"unitType": "Light Cavalry",
 		"movement": 4,
@@ -3030,7 +3059,7 @@
         },
         {
 		"name": "Comanche Tokala Chief",
-                "uniqueTo": "Lakota People",
+                "uniqueTo": "The Lakota",
 		"replaces": "Cavalry",
                 "requiredTech": "Railway",
 		"unitType": "Heavy Cavalry",
@@ -3109,7 +3138,7 @@
         },
         {
 		"name": "Bounty Hunter",
-                "uniqueTo": "Republic of Texas",
+                "uniqueTo": "Texas",
 		"replaces": "Dragoon",
                 "upgradesTo": "Alamo Defender Corps",
                 "obsoleteTech": "Replaceable Parts",
@@ -3124,7 +3153,7 @@
         },
         {
 		"name": "Alamo Defender Corps",
-                "uniqueTo": "Republic of Texas",
+                "uniqueTo": "Texas",
 		"replaces": "Cavalry",
                 "obsoleteTech": "Combined Arms",
                 "requiredTech": "Replaceable Parts",
@@ -3138,7 +3167,7 @@
         {
 		"name": "Patricio",
                 "uniqueTo": "Argentina",
-		"replaces": "Skrimisher",
+		"replaces": "Skirmisher",
                 "upgradesTo": "Grenadier",
                 "requiredTech": "Industrialization",
 		"obsoleteTech": "Dynamite",
@@ -3165,7 +3194,7 @@
         {
 		"name": "Dorobant",
                 "uniqueTo": "Romania",
-		"replaces": "Skrimisher",
+		"replaces": "Skirmisher",
                 "upgradesTo": "Grenadier",
                 "requiredTech": "Industrialization",
 		"obsoleteTech": "Dynamite",
@@ -3174,7 +3203,7 @@
 		"movement": 3,
 		"strength": 6,
                 "rangedStrength": 8,
-                "uniques": ["[+5]% Strength <when defending>"],           
+                "uniques": ["[+11]% Strength <when defending>"],           
 		"cost": 30,
 		"attackSound": "shot"
         },
@@ -3201,7 +3230,7 @@
 		"movement": 4,
 		"strength": 25,
 		"cost": 100, 
-                "uniques": ["[-10]% Strength <vs [Light Cavalry] units>","[-10]% Strength <vs [Heavy Cavalry] units>"],
+                "uniques": ["[-22]% Strength <vs [Light Cavalry] units>","[-22]% Strength <vs [Heavy Cavalry] units>"],
 		"attackSound": "metalhit"
         },
         {
@@ -3221,20 +3250,20 @@
         {
 		"name": "Rebel Raider",
                 "uniqueTo": "Greece",
-		"replaces": "Skrimisher",
+		"replaces": "Skirmisher",
                 "upgradesTo": "Grenadier",
                 "requiredTech": "Industrialization",
 		"obsoleteTech": "Dynamite",
 		"unitType": "Light Cavalry",
 		"movement": 3,
 		"strength": 15,
-                "uniques": ["[+25]% Strength <vs [Heavy Cavalry] units>","[-15]% Strength <vs [Archaic Infantry] units>","[+5]% Strength <when defending>"],           
+                "uniques": ["[+25]% Strength <vs [Heavy Cavalry] units>","[-15]% Strength <vs [Archaic Infantry] units>","[+11]% Strength <when defending>"],           
 		"cost": 55,
 		"attackSound": "shot"
         },
         {
 		"name": "Kihei", 
-                "uniqueTo": "Japanese Empire",
+                "uniqueTo": "Japan",
 		"replaces": "Grenadier",
                 "upgradesTo": "Rifleman",
                 "obsoleteTech": "Replaceable Parts",
@@ -3248,7 +3277,7 @@
         },
         {
 		"name": "Gunto Rider",
-                "uniqueTo": "Japanese Empire",
+                "uniqueTo": "Japan",
 		"replaces": "Hussar",
                 "upgradesTo": "Cavalry",
                 "obsoleteTech": "Replaceable Parts",
@@ -3262,8 +3291,8 @@
         },
         {
 		"name": "Alpino",
-                "uniqueTo": "Italian Empire",
-		"replaces": "Skrimisher",
+                "uniqueTo": "Italy",
+		"replaces": "Skirmisher",
                 "upgradesTo": "Grenadier",
                 "requiredTech": "Industrialization",
 		"obsoleteTech": "Dynamite",
@@ -3276,7 +3305,7 @@
         },
         {
 		"name": "Prussian Landwehr",
-                "uniqueTo": "German Empire",
+                "uniqueTo": "Germany",
                 "requiredTech": "Industrialization",
 		"obsoleteTech": "Dynamite",
 		"unitType": "Infantry",
@@ -3343,7 +3372,7 @@
                 "uniqueTo": "The Bunuba",
 		"replaces": "Great Prophet",
 		"unitType": "Civilian",
-		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+		"uniques": ["[-22]% Strength for enemy [Military] units in adjacent [All] tiles",
             "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
             "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
@@ -3372,7 +3401,7 @@
         {
 		"name": "Veioimaour",
                 "uniqueTo": "Iceland",
-		"replaces": "Skrimisher",
+		"replaces": "Skirmisher",
                 "upgradesTo": "Grenadier",
                 "requiredTech": "Industrialization",
 		"obsoleteTech": "Dynamite",
@@ -3407,7 +3436,7 @@
 		"movement": 2,
 		"strength": 15,
 		"cost": 75, 
-                "uniques": ["Can build [Slave Labor Plantation] improvements on tiles","[+10]% Strength <vs [Wounded] units>"],
+                "uniques": ["Can build [Slave Labor Plantation] improvements on tiles","[+22]% Strength <vs [Wounded] units>"],
 		"attackSound": "metalhit"
         },
 
@@ -3480,7 +3509,7 @@
 		"cost": 500,
 		"requiredTech": "Arms Race",
 		"requiredResource": "Oil",
-		"uniques": ["[+15]% to Flank Attack bonuses","Limited to [4] per Civilization","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["[+30]% to Flank Attack bonuses","Limited to [4] per Civilization","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
 {
@@ -3499,14 +3528,14 @@
         },
 {
 		"name": "Lanceiro Negro",
-                "uniqueTo": "Brasilian Empire",
+                "uniqueTo": "Brazil",
 		"replaces": "Lancer",
                 "requiredTech": "Dynamite",
                 "obsoleteTech": "Replaceable Parts",
 		"unitType": "Light Cavalry",
 		"movement": 3,
 		"strength": 30,
-                "uniques": ["Limited to [3] per Civilization","Can be purchased with [Gold] [in all cities]","Can be purchased for [200] [Gold] [in all cities]","Unbuildable","[+20]% Strength bonus for [Archaic Infantry] units within [2] tiles","[+10]% Strength <vs [Heavy Cavalry] units>","[-10]% Strength <vs [Archaic Infantry] units>"],
+                "uniques": ["Limited to [3] per Civilization","Can be purchased with [Gold] [in all cities]","Can be purchased for [200] [Gold] [in all cities]","Unbuildable","[+20]% Strength bonus for [Archaic Infantry] units within [2] tiles","[+22]% Strength <vs [Heavy Cavalry] units>","[-22]% Strength <vs [Archaic Infantry] units>"],
 		"attackSound": "metalhit"
         },
         {
@@ -3535,22 +3564,22 @@
 		"strength": 16,
                 "rangedStrength": 13,
 		"cost": 150, 
-                "uniques": ["Ignores Zone of Control","[+20]% to Flank Attack bonuses","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+                "uniques": ["Ignores Zone of Control","[+30]% to Flank Attack bonuses","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
         },
         {
 		"name": "Sacabuzos",
-                "uniqueTo": "Miskito People",
+                "uniqueTo": "The Miskito",
 		"replaces": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 4,
 		"cost": 30,
-		"uniques": [ "May create improvements on water resources","Gain [25] [Culture] <by consuming this unit>"
+		"uniques": [ "May create improvements on water resources","Gain [25] [Culture] <by consuming this unit>",
             "Uncapturable", "Automation is a primary action"]
 	},
         {
 		"name": "Sambu",
-                "uniqueTo": "Miskito People",
+                "uniqueTo": "The Miskito",
 		"replaces": "Line Infantry",
                 "upgradesTo": "Grenadier",
                 "requiredTech": "Rifling",
@@ -3558,7 +3587,7 @@
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 12,
-                "uniques": ["[+15]% to Flank Attack bonuses"]
+                "uniques": ["[+30]% to Flank Attack bonuses"]
 
 		"cost": 52,
 		"attackSound": "shot"
@@ -3598,7 +3627,7 @@
 	{
 		"name": "Red Band",
 		"uniqueTo": "Murrinh Patha",
-		"replaces": "Skrimisher",
+		"replaces": "Skirmisher",
                 "upgradesTo": "Grenadier",
                 "requiredTech": "Industrialization",
 		"obsoleteTech": "Dynamite",
@@ -3607,7 +3636,7 @@
 		"movement": 3,
 		"strength": 10,
                 "rangedStrength": 10,
-                "uniques": ["[+5]% Strength <when defending>","[-35]% Strength for enemy [Wounded] units in adjacent [Plains] tiles","[-35]% Strength for enemy [Wounded] units in adjacent [Forest] tiles"],           
+                "uniques": ["[+11]% Strength <when defending>","[-35]% Strength for enemy [Wounded] units in adjacent [Plains] tiles","[-35]% Strength for enemy [Wounded] units in adjacent [Forest] tiles"],           
 		"cost": 55,
 		"attackSound": "shot"
         },
@@ -3663,7 +3692,7 @@
 				"movement": 4,
 				"strength": 25,
 				"cost": 80, 
-						"uniques": ["[+5]% Strength <when defending>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+						"uniques": ["[+11]% Strength <when defending>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 				"attackSound": "horse"
 				},
 				{
@@ -3736,7 +3765,7 @@
 		"movement": 2,
 		"strength": 14,
 		"cost": 51,
-		"uniques": ["Double movement in [Jungle]","[+35]% Strength <vs [Barbarian] units>","[+10]% Strength <vs [Heavy Cavalry] units>"],
+		"uniques": ["Double movement in [Jungle]","[+35]% Strength <vs [Barbarian] units>","[+22]% Strength <vs [Heavy Cavalry] units>"],
 		"attackSound": "shot"
         },
 	{
@@ -3747,7 +3776,7 @@
                 "obsoleteTech": "Replaceable Parts",
 		"unitType": "Archaic Infantry",
 		"movement": 2,
-		"strength": 20,
+		"strength": 15,
 		"cost": 80, 
                 "uniques": ["Double movement in [Desert]","[+50]% Strength <vs [Barbarian] units>","[+33]% Strength <vs [Infantry] units> <when below [5] HP>","[+30]% Strength <vs [Heavy Cavalry] units>","[+30]% Strength <vs [Light Cavalry] units>","[+30]% Strength <vs [Camel] units>"],
 		"attackSound": "metalhit"
@@ -3803,7 +3832,7 @@
 						"movement": 5,
 						"strength": 21,
 						"cost": 75, 
-								"uniques": ["[+20]% Strength bonus for [Archaic Infantry] units within [2] tiles","[+10]% Strength <vs [Heavy Cavalry] units>"],
+								"uniques": ["[+20]% Strength bonus for [Archaic Infantry] units within [2] tiles","[+22]% Strength <vs [Heavy Cavalry] units>"],
 						"attackSound": "metalhit"
 						},
 	{

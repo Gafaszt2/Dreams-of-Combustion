@@ -414,7 +414,7 @@
         {
 		"name": "Mbanza",
                 "production": 1,
-                "uniqueTo": "Kongo Kingdom",
+                "uniqueTo": "Kongo",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Gives a defensive bonus of [10]%",

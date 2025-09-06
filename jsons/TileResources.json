@@ -109,7 +109,23 @@
 		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert","Savannah","Mountain Land","Mud","Cold Soil"], // Desert only if fresh water
 		"food": 1,
 		"improvement": "Mill",
-		"uniques": ["Generated on every [27] tiles <in [Plains] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"]
+		"uniques": ["Generated on every [44] tiles <in [Plains] tiles>"]
+	},
+	{
+		"name": "Olive",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains"],
+		"food": 1,
+		"improvement": "Mill",
+		"uniques": ["Generated on every [44] tiles <in [Plains] tiles>"]
+	},
+	{
+		"name": "Geese",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"food": 1,
+		"improvement": "Hunter Lodge",
+		"uniques": ["Generated on every [44] tiles <in [Plains] tiles>"]
 	},
 	{
 		"name": "Stone",
@@ -118,7 +134,7 @@
 		"production": 1,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [20] tiles <in [Grassland] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"]
+		"uniques": ["Generated on every [20] tiles <in [Grassland] tiles>"]
 	},
 	{
 		"name": "Fish",
