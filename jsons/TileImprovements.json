@@ -20,7 +20,7 @@
 	},
         {
 		"name": "Hunter Lodge",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Tundra","Desert","Hill","Forest","Jungle","Savannah","Mountain Land","Mud","Cold Soil","Dry Soil","Fresh Soil","Beach"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Tundra","Desert","Hill","Forest","Jungle","Savannah","Mountain Land","Mud","Cold Soil","Dry Soil","Fresh Soil","Beach","Lakes"],
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Hunting Pets",
@@ -31,7 +31,7 @@
         
 	{
 		"name": "Log Cabin",
-		"terrainsCanBeBuiltOn": ["Forest","Jungle","Acacia","Mangroove","Baobab","Cherry Blossom","Pine Tree","Plains Pine Tree","Serra Tree","Dry Tree","Amazon Tall Tree","Narra"],
+		"terrainsCanBeBuiltOn": ["Forest","Jungle","Acacia","Pines","Mangroove","Baobab","Cherry Blossom","Pine Tree","Plains Pine Tree","Serra Tree","Dry Tree","Amazon Tall Tree","Narra"],
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Saw",
@@ -231,8 +231,6 @@
 	},
 
 	// Removals
-	// Any improvement that starts with 'Remove ' is automatically changed into
-	// the improvement that removes the terrainfeature after it.
 	{
 		"name": "Remove Fallout",
 		"turnsToBuild": 2,
@@ -242,6 +240,16 @@
 	},
 	{
 		"name": "Remove Forest",
+		"turnsToBuild": 6,
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Acacia",
+		"turnsToBuild": 6,
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Pines",
 		"turnsToBuild": 6,
 		"shortcutKey": "X"
 	},
@@ -389,13 +397,12 @@
 		]
 	},
         {
-		"name": "Pa",
+		"name": "Pā",
                 "uniqueTo": "Maori",
                 "turnsToBuild": 7,
 				"food": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": [
-			"Gives a defensive bonus of [10]%",
+		"uniques": ["Gives a defensive bonus of [10]%",
 			"Adjacent enemy units ending their turn take [5] damage",
 			"Removes removable features when built","[+1 Production] for each adjacent [Pa]"]
 	},
@@ -440,6 +447,17 @@
 		"turnsToBuild": 7,
 		"techRequired": "Gas Lighting",
 		"uniques": ["[+1 Production] for each adjacent [Mountain]","[+1 Gold] for each adjacent [Mountain]","Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Gaani Festival Grounds",
+        "happiness": 1,
+		"culture": 1,
+        "uniqueTo": "The Borgu",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 7,
+		"techRequired": "Gas Lighting",
+		"uniques": ["Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "F"
 	},
 	{

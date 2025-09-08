@@ -173,7 +173,55 @@
 		"name": "Tribal Monument",
 		"isNationalWonder": true,
 		"cost": 100,
-		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from [Hunter Lodge] tiles [in this city]","[+1 Production] per [6] population [in all cities]","[+4]% Production when constructing [All] units [in this city]","Only available <for [African] Civilizations>"]
+		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from [Hunter Lodge] tiles [in this city]","[+1 Production] per [6] population [in all cities]","[+4]% Production when constructing [All] units [in this city]","Only available <for [Tribal East African] Civilizations>"]
+	},
+	{
+		"name": "Ivory Artistry",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from [Hunter Lodge] tiles [in this city]","[+1 Production] per [6] population [in all cities]","[+4]% Production when constructing [All] units [in this city]","Only available <for [Central African] Civilizations>"]
+	},
+	{
+		"name": "Great Mapungubwe",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from [Hunter Lodge] tiles [in this city]","[+1 Production] per [6] population [in all cities]","[+4]% Production when constructing [All] units [in this city]","Only available <for [Southern African] Civilizations>"]
+	},
+	{
+		"name": "Royal Court",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from [Hunter Lodge] tiles [in this city]","[+1 Production] per [6] population [in all cities]","[+4]% Production when constructing [All] units [in this city]","Only available <for [West African] Civilizations>"]
+	},
+	{
+		"name": "Swahili Mosque",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from [Hunter Lodge] tiles [in this city]","[+1 Production] per [6] population [in all cities]","[+4]% Production when constructing [All] units [in this city]","Only available <for [East African] Civilizations>"]
+	},
+	{
+		"name": "Stele",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from [Hunter Lodge] tiles [in this city]","[+1 Production] per [6] population [in all cities]","[+4]% Production when constructing [All] units [in this city]","Only available <for [Ethiopia] Civilizations>"]
+	},
+	{
+		"name": "Council Circle - Merina",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from [Hunter Lodge] tiles [in this city]","[+1 Production] per [6] population [in all cities]","[+4]% Production when constructing [All] units [in this city]","Only available <for [Madagascar] Civilizations>"]
+	},
+	{
+		"name": "Council Circle - Sakalava",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Faith] from [Hunter Lodge] tiles [in this city]","[+1 Production] per [6] population [in all cities]","[+4]% Production when constructing [All] units [in this city]","Only available <for [Madagascar] Civilizations>"]
+	},
+	{
+		"name": "Council Circle - Betsimisaraka",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] from [Hunter Lodge] tiles [in this city]","[+1 Production] per [6] population [in all cities]","[+4]% Production when constructing [All] units [in this city]","Only available <for [Madagascar] Civilizations>"]
 	},
 	{
 		"name": "Regional Consulate",
@@ -841,6 +889,17 @@
 		"percentStatBonus": {"production": 10},
 		"requiredTech": "Rifling"
 	},
+	{
+		"name": "Mbudye Lodge",
+		"uniqueTo": "Luba",
+        "replaces": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 28,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Scientific Theory",
+		"uniques": ["[+1 Culture] from [Cattle] tiles [in this city]","Destroyed when the city is captured"]
+	},
         {
 		"name": "Manhattan Project",
 		"cost": 750,
@@ -1429,14 +1488,15 @@
 	},
         {
 		"name": "Desert Mosque",
-                "uniqueTo": "Gonja",
-                "replaces": "Temple",
+        "uniqueTo": "Gonja",
+        "replaces": "Temple",
 		"faith": 4,
-                "greatPersonPoints": {"Great Prophet": 1},
+		"culture": 2,
+        "greatPersonPoints": {"Great Prophet": 1},
 		"cost": 100,
 		"hurryCostModifier": 40,
-		"maintenance": 1,
-		"uniques": ["[+1 Faith] from every [Desert]","Destroyed when the city is captured"]
+		"maintenance": 0,
+		"uniques": ["Must be on [Desert]","Destroyed when the city is captured"]
 	}
         {
 		"name": "Heiau",
@@ -1472,7 +1532,7 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"]
-	}
+	},
 {
 		"name": "Spiritual Shrine",
                 "uniqueTo": "Mongolia",
@@ -1488,7 +1548,20 @@
         {
 		"name": "Temple",
 		"faith": 4,
-                "greatPersonPoints": {"Great Prophet": 1},
+        "greatPersonPoints": {"Great Prophet": 1},
+		"cost": 100,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Kubandwa Shrine",
+		"replaces": "Temple",
+		"uniqueTo": "Burundi",
+		"faith": 4,
+		"happiness":1,
+		"culture":1,
+        "greatPersonPoints": {"Great Prophet": 1},
 		"cost": 100,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
@@ -1506,7 +1579,7 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"]
-	}
+	},
         {
 		"name": "Pillaged Estancia",
 		"replaces": "Granary",
@@ -1574,21 +1647,45 @@
 	},
         {
 		"name": "Guild",
-                "replaces": "Mint",
+        "replaces": "Mint",
 		"uniqueTo": "Benin",
                 "greatPersonPoints": {"Great Prophet": 1},
 		"maintenance": 0,
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Gold] from [Jungle] tiles [in this city]","[+2 Gold] from [Luxury resource] tiles [in this city]"],
+		"uniques": ["[+1 Gold] from [Jungle] tiles [in this city]","[+1 Gold] from [Luxury resource] tiles [in this city]"],
+		"requiredTech": "Mining"
+	},
+	{
+		"name": "Gadaye",
+		"replaces": "Bank",
+		"uniqueTo": "Sokoto",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"uniques":["[+2 Gold] from [Cotton] tiles [in this city]"],
+		"requiredBuilding": "Market",
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Salt Pit",
+		"replaces": "Mint",
+		"uniqueTo": "Kazembe",
+        "greatPersonPoints": {"Great Prophet": 1},
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Gold Ore", "Silver", "Salt"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Gold] from [Salt] tiles [in this city]", "[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]"],
 		"requiredTech": "Mining"
 	},
         {
 		"name": "Gold Mine",
-                "replaces": "Bank",
-		"uniqueTo": "Transvaal",
-		"gold": 4,
+        "replaces": "Bank",
+		"uniqueTo": "The Boers",
+		"gold": 3,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
+		"uniques":["[+15]% [Culture] [in this city]","[+15]% [Gold] [in this city]"],
 		"percentStatBonus": {"gold": 25},
 		"requiredBuilding": "Market",
 		"requiredTech": "Electricity"
@@ -1673,6 +1770,18 @@
 			"[+1 Food] from [Wheat] tiles [in this city]"]
 	},
 	{
+		"name": "Enkang",
+		"replaces": "Granary",
+		"uniqueTo": "The Maasai",
+		"food": 2,
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+                "requiredTech": "Hunting Pets",
+		"uniques": ["[Wounded] Units adjacent to this city heal [5] HP per turn when healing","[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"]
+	},
+	{
 		"name": "Apple Tree Plot",
 		"replaces": "Granary",
 		"uniqueTo": "Vermont",
@@ -1752,6 +1861,16 @@
 		"requiredTech": "Gas Lighting"
 	},
 	{
+		"name": "Naaba Court",
+		"replaces": "Circus",
+		"uniqueTo": "The Mossi",
+		"requiredNearbyImprovedResources": ["Ivory","Zebra","Horses","Camel"],
+		"happiness": 2,
+		"uniques":["[+1 Happiness] from [Horses] tiles [in this city]","[+10]% Production when constructing [Light Cavalry] units [in this city]"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Gas Lighting"
+	},
+	{
 		"name": "Wahhabi Madrasa",
 		"replaces": "Library",
 		"uniqueTo": "Nejd",
@@ -1759,6 +1878,15 @@
 		"science": 1,
 		"faith": 1,
 		"maintenance": 2,
+		"uniques": ["[+1 Science] from [House] tiles [in this city]"],
+		"requiredTech": "Gas Lighting"
+	},
+	{
+		"name": "Basotho Village",
+		"replaces": "Library",
+		"uniqueTo": "Basotho",
+		"hurryCostModifier": 25,
+		"food": 2,
 		"uniques": ["[+1 Science] from [House] tiles [in this city]"],
 		"requiredTech": "Gas Lighting"
 	},
@@ -1807,7 +1935,7 @@
 	},
         {
 		"name": "Circus",
-		"requiredNearbyImprovedResources": ["Ivory"],
+		"requiredNearbyImprovedResources": ["Ivory","Zebra","Horses","Camel"],
 		"happiness": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Gas Lighting"
@@ -1912,6 +2040,18 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+10]% [Food] [in this city]","[+15]% Production when constructing [Infantry] units [in this city]"],
 		"requiredTech": "Hunting Pets"
+	},
+	{
+		"name": "Council of Balopwe",
+		"uniqueTo": "Lunda",
+        "replaces": "Courthouse",
+		"maintenance": 3,
+		"culture": 2,
+		"faith": 1,
+		"hurryCostModifier": 50,
+		"uniques": ["Removes extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>"],
+		"requiredTech": "Rifling"
 	},
         {
 		"name": "Space Ship Design Center",
@@ -2357,6 +2497,28 @@
 		"requiredTech": "Railway"
 	},
 	{
+		"name": "Musika",
+		"uniqueTo": "The Rozvi",
+        "replaces": "Market",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"uniques":["[+1 Food] from [Cattle] tiles [in this city]"],
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Vaccine"
+	},
+	{
+		"name": "Oja Oba",
+		"uniqueTo": "Oyo",
+        "replaces": "Market",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"uniques":["[+1 Gold] from [Horse] tiles [in this city]","New [Heavy Cavalry] units start with [5] XP [in this city]"],
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Vaccine"
+	},
+	{
 		"name": "Governor Office",
 		"uniqueTo": "Colony of Malaysia",
         "replaces": "National Treasury",
@@ -2479,6 +2641,19 @@
 		"uniques":["Provides [1] [Soap]"],
 		"percentStatBonus": {"production": 10},
 		"requiredTech": "Rifling"
+	},
+	{
+		"name": "Brass Foundry",
+		"uniqueTo": "The Nupe",
+        "replaces": "Forge",
+		"culture": 1,
+		"gold": 1,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Coal"],
+		"requiredTech": "Industrialization",
+		"uniques": [
+			"[+15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] from [Coal] tiles [in this city]"]
 	},
 {
 		"name": "Workshop",

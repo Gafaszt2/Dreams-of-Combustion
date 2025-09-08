@@ -6,6 +6,334 @@
 //		"innerColor": [255,255,255]
 },
 {
+		"name": "Sokoto",
+		"leaderName": "Usman dan Fodio",
+		"adjective": ["Sokoto"],
+		"startBias":["Avoid [Tundra]"],
+		"preferredVictoryType": "Supremacy",
+	
+	
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+	
+				"declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [104, 217, 147],
+		"innerColor": [6, 8, 7],
+		"uniqueName": "Mujaddid",
+		"uniques": ["West African","[+15]% [Gold] [in all cities]","[+2 Culture] from every [Citadel]","[+2 Faith] from every [Citadel]","[+1 Gold] from every [Citadel]"],
+		"cities": ["Sokoto", "Gwandu", "Kano", "Gudu", "Degel", "Zazzau", "Katsina", "Alkalawa", "Birni N'Konni", "Gombe Aba", "Bauchi", "Yola", "Daura", "Biram"],
+		"spyNames": ["Saki"]
+	},
+{
+		"name": "The Mossi",
+		"leaderName": "Yennenga",
+		"adjective": ["The Mossi"],
+		"startBias":["Plains"],
+		"preferredVictoryType": "Supremacy",
+	
+	
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+	
+				"declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [252, 202, 63],
+		"innerColor": [69, 55, 18],
+		"uniqueName": "Naam",
+		"uniques": ["West African","All newly-trained [Heavy Cavalry] units [in all cities] receive the [Experience I] promotion","All newly-trained [Light Cavalry] units [in all cities] receive the [Road Builder] promotion","[-50]% maintenance on road & railroads","[-50]% maintenance costs <for [Light Cavalry] units>"],
+		"cities": ["Ouagadougou","Tenkodogo","Yatenga","Fada N'gourma","Nanumba","Dagomba","Mamprusi","Oula","Larle","Gounghin"],
+		"spyNames": ["Saki"]
+	},
+{
+		"name": "The Maasai",
+		"leaderName": "Mbatiany",
+		"adjective": ["The Maasai"],
+		"startBias":["Plains","Hill"],
+		"preferredVictoryType": "Supremacy",
+	
+	
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+	
+				"declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [54, 49, 49],
+		"innerColor": [255, 54, 54],
+		"uniqueName": "May God Give Us Cattle",
+		"uniques": ["Tribal East African","[+1 Food] in cities on [Plains] tiles","[+1 Food] in cities on [Hill] tiles","[+1 Food, +1 Culture] from [Cattle] tiles [in all cities]"],
+		"cities": ["Nairobi", "Serengit", "Ngorongoro", "Oldoinyo Lengai", "Loliondo", "Mara", "Oldupai", "Manyara", "Nai'posha", "Grumeti", "Menengai", "Nakuru", "Ilkinangop", "Elmenteita"],
+		"spyNames": ["Saki"]
+	},
+{
+	"name": "The Ndebele",
+	"leaderName": "Lobengula",
+	"adjective": ["The Ndebele"],
+	"startBias":["Hill"],
+	"preferredVictoryType": "Supremacy",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [61, 46, 41],
+	"innerColor": [255, 255, 255],
+	"uniqueName": "Chameleon And The Fly",
+	"uniques": ["Southern African","Enemy [Wounded] units must spend [1] extra movement points when inside your territory","[+1 Happiness] from every [Luxury resource]","[+1 Gold] from every [Hunter Lodge]"],
+	"cities": ["Danangombe","Khami","Manyanga","Bulawayo","Bindura","Masekesa","Mahungwe","Dambarare","Murewa","Naletale"],
+	"spyNames": ["Saki"]
+    },
+{
+	"name": "The Rozvi",
+	"leaderName": "Changamire Dombo",
+	"adjective": ["The Rozvi"],
+	"startBias":["Avoid [Tundra]","Avoid [Forest]"],
+	"preferredVictoryType": "Supremacy",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [46, 18, 33],
+	"innerColor": [255, 252, 254],
+	"uniqueName": "Chisadza Mhomwe",
+	"uniques": ["Southern African","Earn [85]% of killed [All] unit's [Cost] as [Culture]","[+1 Culture, +1 Food] from [Cattle] tiles [in all cities]"],
+	"cities": ["Danangombe","Khami","Manyanga","Bulawayo","Bindura","Masekesa","Mahungwe","Dambarare","Murewa","Naletale"],
+	"spyNames": ["Saki"]
+    },
+{
+	"name": "Basotho",
+	"leaderName": "Moshoeshoe I",
+	"adjective": ["Basotho"],
+	"startBias":["Forest"],
+	"preferredVictoryType": "Supremacy",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [28, 27, 112],
+	"innerColor": [92, 237, 129],
+	"uniqueName": "Mountain Refuge",
+	"uniques": ["Southern African","[+30]% Strength <for [Heavy Cavalry] units> <during a Golden Age>","[Gold] cost of purchasing [Heavy Cavalry] units [-80]%"],
+	"cities": ["Thaba Bosiu", "Maseru", "Quthing", "Mohale’s Hoek", "Teyateyaneng", "Mafeteng", "Butha-Buthe", "Leribe", "Mokhotlong", "Qacha’s Nek"],
+	"spyNames": ["Saki"]
+    },
+
+{
+	"name": "Burundi",
+	"leaderName": "Ntare IV",
+	"adjective": ["Burundi"],
+	"startBias":["Forest"],
+	"preferredVictoryType": "Supremacy",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [235, 188, 59],
+    "innerColor": [5, 5, 3],
+	"uniqueName": "Ganwa Aristocracy",
+	"uniques": ["Central African","[+1 Gold, +1 Culture] from [Slave Labor Plantation] tiles [in all cities]","[+1 Gold, +1 Culture] from [Ranch] tiles [in all cities]"],
+	"cities": ["Bujumbura", "Gitega", "Ngozi", "Muyinga", "Rumonge", "Kirundo", "Cankuzo", "Makamba", "Bururi", "Ruyigi"],
+	"spyNames": ["Saki"]
+    },
+
+{
+	"name": "Kazembe",
+	"leaderName": "Mwata Kazembe II",
+	"adjective": ["Kazembe"],
+	"startBias":["River"],
+	"preferredVictoryType": "Supremacy",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [168, 170, 189],
+    "innerColor": [21, 21, 23],
+	"uniqueName": "River Lords",
+	"uniques": ["Central African","[+1 Food] from every [River]","[+10]% [Culture] [in all cities]","[+15]% [Food] [in all cities]","[+10]% [Faith] [in all cities]","[+10]% [Gold] [in all cities]"],
+	"cities": ["Mwansabombwe", "Lubemba", "Mambilima", "Chiengi", "Nchelenge", "Kashikishi", "Kaputa", "Kawambwa", "Samfya", "Luapula"],
+	"spyNames": ["Saki"]
+    },
+	{
+	"name": "Lunda",
+	"leaderName": "Nawej",
+	"adjective": ["Lunda"],
+	"startBias":["Forest"],
+	"preferredVictoryType": "Supremacy",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [43, 26, 20],
+    "innerColor": [255, 255, 255],
+	"uniqueName": "Confederation of Kings",
+	"uniques": ["Central African","Starts with [Imperialism] adopted","[+2 Happiness, +3 Culture] [in all cities with a garrison]"],
+	"cities": ["Musumba", "Katanga", "Dilolo", "Sandoa", "Kolwezi", "Kamina", "Lubudi", "Kabalo", "Kalemie"],
+	"spyNames": ["Saki"]
+    },
+	{
+	"name": "Luba",
+	"leaderName": "Ilunga Sungu",
+	"adjective": ["Luba"],
+	"startBias":["Forest"],
+	"preferredVictoryType": "Supremacy",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [247, 242, 195],
+    "innerColor": [28, 28, 26],
+	"uniqueName": "Memory of the Mbudye",
+	"uniques": ["Central African","[+5]% [Faith] [in all cities]","[+1] Movement <for [Land] units>","[Faith] cost of purchasing [Great Engineer] units [-50]%","[Faith] cost of purchasing [Great Scientist] units [-75]%"],
+	"cities": ["Katende", "Kabongo", "Kamina", "Kaniama", "Lubao", "Luena", "Bukama", "Malemba"],
+	"spyNames": ["Saki"]
+    },
+
+{
+	"name": "The Nupe",
+	"leaderName": "Etsu Ma’azu",
+	"adjective": ["The Nupe"],
+	"startBias":["Forest"],
+	"preferredVictoryType": "Supremacy",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [120, 44, 56],
+    "innerColor": [255, 181, 193],
+	"uniqueName": "Craftsmen of Bida",
+	"uniques": ["West African","[+5]% [Production] [in all cities]","[-50]% XP required for promotions","[Great Engineer] is earned [+50]% faster"],
+	"cities": ["Bida", "Lapai", "Mokwa", "Agaie", "Kutigi", "Patigi", "Lafiagi", "Katcha", "Gulu", "Doko"],
+	"spyNames": ["Saki"]
+    },
+	{
+	"name": "The Borgu",
+	"leaderName": "Kora of Bussa",
+	"adjective": ["The Borgu"],
+	"startBias":["Plains"],
+	"preferredVictoryType": "Supremacy",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [228, 234, 240],
+    "innerColor": [59, 152, 245],
+	"uniqueName": "Bariba Traders",
+	"uniques": ["West African","[+10]% [Gold] [in all cities]","[+2 Gold] from each Trade Route","Gifts of Gold to City-States generate [+50]% more Influence"],
+	"cities": ["Bussa", "Illo", "Wawa", "Nikki", "Kandi", "Parakou", "Gaya", "Sinende", "Malanville", "Banikoara"],
+	"spyNames": ["Saki"]
+    },
+{
+	"name": "Oyo",
+	"leaderName": "Alaafin Abiodun",
+	"adjective": ["Oyo"],
+	"startBias":["Forest"],
+	"preferredVictoryType": "Supremacy",
+
+
+	"startIntroPart1": "",
+	"startIntroPart2": "",
+
+			"declaringWar": "We cannot tolerate you anymore",
+	"attacked": "The war has hardened us, but it has not broken us",
+	"defeated": "This cannot happen!",
+	"introduction": "Welcome to our land",
+	"neutralHello": "Hello.",
+	"hateHello": "We do not fear war",
+	"tradeRequest": "Check out this",
+	"outerColor": [72, 108, 240],
+    "innerColor": [10, 12, 18],
+	"uniqueName": "Cavalry of the Savannah",
+	"uniques": ["West African","[+10]% [Culture] [in all cities]","[+1 Production] from [Horses] tiles [in all cities]","[+1 Gold] from [Horses] tiles [in all cities]","[+1 Faith] from all [Palace] buildings <upon entering a new era>"],
+	"cities": ["Oyo-Ile", "Ibadan", "Ilorin", "Iseyin", "Ogbomoso", "Ede", "Osogbo", "Ikirun", "Iwo", "Egba"],
+	"spyNames": ["Saki"]
+    },
+{
 	"name": "Formosa",
 	"leaderName": "Liu Yongfu",
 	"adjective": ["Formosa"],
@@ -284,7 +612,7 @@
 	"outerColor": [255, 144, 79],
 	"innerColor": [18, 16, 15],
 	"uniqueName": "Niam-Niam",
-	"uniques": ["African",
+	"uniques": ["Central African",
 	"Enables Open Borders agreements","[+20]% growth [in all cities]"],
 	"cities": ["Yambio", "Dungu", "Obo", "Tombura", "Zemio", "Isiro", "Duruma", "Momoi", "Yei", "Maridi", "Wau", "Rafai", "Uyujuku", "Saura", "Baguga"],
 	"spyNames": ["Saki"]
@@ -652,7 +980,7 @@
 	"outerColor": [250, 250, 250],
 	"innerColor": [33, 33, 33],
 	"uniqueName": "Efficient Colonization",
-	"uniques": ["African",
+	"uniques": ["East African",
 	"May buy [Great General] units for [350] [Faith] [in all cities]","[+25]% [Faith]"],
 	"cities": ["Dar es Salaam",
 "Moshi",
@@ -688,7 +1016,7 @@
 	"outerColor": [250, 250, 250],
 	"innerColor": [33, 33, 33],
 	"uniqueName": "Colonial Pioneers",
-	"uniques": ["African",
+	"uniques": ["West African",
 	"[+2 Gold, +2 Science] in cities on [Desert] tiles","[+1 Production] from [Camel] tiles [in all cities]","[+1 Food] from [Mill] tiles [in all cities]"],
 	"cities": ["Windhoek",
 "Swakopmund",
@@ -723,7 +1051,7 @@
 	"outerColor": [250, 250, 250],
 	"innerColor": [33, 33, 33],
 	"uniqueName": "Tropical Development",
-	"uniques": ["African",
+	"uniques": ["West African",
 	"[+1 Food] from [Jungle] tiles [in capital]","[+2 Gold, +1 Production] from [Slave Labor Plantation] tiles [in all cities]","[+2 Production] from [Jungle] tiles [in all cities]"],
 	"cities": ["Douala",
 "Yaoundé",
@@ -1370,7 +1698,7 @@
 		"innerColor": [235, 247, 124],
                 "favoredReligion": "Catholic",
 		"uniqueName": "Empire of the Great Lakes",
-		"uniques": ["African",
+		"uniques": ["West African",
 		"[+2 Gold] from every [Lakes]","[+2 Culture] from every [Great Improvement]"],
 		"cities": ["Kampala","Entebbe","Jinja","Masaka","Mubende","Mukono","Kireka","Nansana","Kira","Lugazi","Mityana","Mpigi","Bombo","Wobulenzi","Buikwe"],
 	},
@@ -1397,7 +1725,7 @@
 		"innerColor": [74, 23, 18],
                 "favoredReligion": "Catholic",
 		"uniqueName": "Dutch´s Slave Trade",
-		"uniques": ["African",
+		"uniques": ["West African",
 		"[+1 Gold] from every [Bonus resource]","[+1 Food] from every [Bonus resource]"],
 		"cities": ["Kumasi","Denkyira","Bonoman","Akan","Togo","Ivory Coast"],
 	},
@@ -2596,7 +2924,7 @@
 		"innerColor": [59, 21, 5],
                 "favoredReligion": "Shamanism",
 		"uniqueName": "Impi Iyehlisa",
-		"uniques": ["African",
+		"uniques": ["Southern African",
 		"[+1 Food] from every [Plains]","[+1 Food] from every [Hunter Lodge]"],
 		"cities": ["Ulundi", "KwaDukuza" ,"Bulawayo", "Isandlwana", "Rorke´s Drift", "Eshowe", "Ondini", "Gingindlovu"]
 	},
@@ -3239,10 +3567,10 @@ Nixon Bureaucratic Reforms
 		"cities": ["Cape Town","Clanwilliam","Stellenbosch","Zwellendam","Tullbagh","Beufort","George","Uitenhangue"]
 	},
 {
-		"name": "Transvaal",
-		"leaderName": "Sir Walter Francis Hely Hutchinson",
-		"adjective": ["Transvaal"],
-		"startBias": ["Grassland"],
+		"name": "The Boers",
+		"leaderName": "Paul Kruger",
+		"adjective": ["The Boers"],
+		"startBias": ["Plains"],
 		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
@@ -3257,12 +3585,11 @@ Nixon Bureaucratic Reforms
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [38, 38, 37],
+		"outerColor": [30, 30, 31],
 		"innerColor": [250, 98, 10],
-		"uniqueName": "Treaty of Vereeniging",
-                "favoredReligion": "Calvinism",
+		"uniqueName": "The Great Trek",
 		"uniques": ["Non Middle Eastern",
-		"[+2 Gold] from every [Mine]", "[+1 Gold] from every [Grassland]","[+25]% Strength <vs [Barbarian] units>"],
+		"[+1] Movement <for [Civilian] units>","[+1 Gold] from every [Ranch]","[+25]% Strength <vs [Barbarian] units>"],
 		"cities": ["Pretoria","Johannesburg","Vereeniging","Heidelberg","Messina","Nelspruit","Witwatersrand","Vaal Triangle","Zoutpansberg"]
 	},
         {
@@ -3468,7 +3795,7 @@ Nixon Bureaucratic Reforms
 
 		"favoredReligion": "Orthodox",
 		"uniqueName": "Spirit of Adwa",
-		"uniques": ["African",
+		"uniques": ["Ethiopia",
 		"[+25]% [Culture] [in all cities] <during a Golden Age>","[+25]% [Faith] [in all cities] <during a Golden Age>","[+25]% [Gold] [in all cities] <during a Golden Age>"],
 		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
 			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
@@ -3664,7 +3991,7 @@ Nixon Bureaucratic Reforms
 		"outerColor": [16, 36, 18],
 		"innerColor": [240, 93, 77],
 		"uniqueName": "Christian Killer",
-		"uniques": ["African",
+		"uniques": ["Madagascar",
 		"[+1 Faith] from every [House]","[+1 Faith] from every [Forest]","[+1 Production] from every [Hunter Lodge]"],
 		"cities": ["Antananarivo Renivohitra", "Toamasina" ,"Fianarantsoa", "Mahajanga", "Toliara", "Antsirabe", "Antsiranana", "Ambovombe", "Ambositra","Ambanja","Ambatolampy","Ambatondrazaka","Ambilobe"]
 	},
@@ -3690,7 +4017,7 @@ Nixon Bureaucratic Reforms
 		"outerColor": [181, 146, 96],
 		"innerColor": [36, 29, 19],
 		"uniqueName": "The Rising Sun which spreads over all",
-		"uniques": ["African",
+		"uniques": ["West African",
 		"[+1 Production] from every [Oil]","[+1 Production] from every [Ocean]","[+1 Production] from every [Jungle]"],
 		"cities": ["Benin City", "Udo" ,"Ekpoma", "Auchi", "Akure", "Warri", "Ondo", "Ife","Ijebu Ode","Abeokuta"]
 	},
@@ -3716,7 +4043,7 @@ Nixon Bureaucratic Reforms
 		"outerColor": [204, 198, 200],
 		"innerColor": [94, 1, 27],
 		"uniqueName": "Kivuzu Faction Fracturation",
-		"uniques": ["African",
+		"uniques": ["West African",
 		"[+2 Gold] per [2] social policies adopted","[+10]% [Gold] [in all cities]","[Gold] cost of purchasing [Slave] units [-30]%"],
 		"cities": ["Mbanza Kongo", "Soyo" ,"Boma", "Matadi", "Bandundu", "Kinshasa", "Kisantu", "Kikwit","Kananga","Lubumbashi","Likasi"]
 	},
@@ -3742,7 +4069,7 @@ Nixon Bureaucratic Reforms
 		"outerColor": [40, 50, 66],
 		"innerColor": [163, 180, 207],
 		"uniqueName": "King Wives",
-		"uniques": ["African",
+		"uniques": ["West African",
 		"[+10]% [Production] [in capital] <when at war>","[+50]% [Gold] [in capital] <when at war>","[+50]% [Happiness] [in capital] <when at war>"],
 		"cities": ["Abomey", "Allada" ,"Porto-Novo", "Cotonou", "Ouidah", "Parakou", "Djougou", "Bohicon","Kandi","Lokossa"]
 	},
@@ -4334,6 +4661,31 @@ Nixon Bureaucratic Reforms
 		"outerColor": [0, 0, 0],
 		"innerColor": [59, 74, 237],
 		"cities": ["Río Negro"]
+	},
+
+	{
+		"name": "Bunkeya",
+		"adjective": ["Bunkeya"],
+		"cityStateType": "African",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [242, 195, 114],
+		"cities": ["Bunkeya"]
+	},
+	{
+		"name": "Ségou",
+		"adjective": ["Ségou"],
+		"cityStateType": "African",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps, in another world, we could have been friends...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [114, 81, 166],
+		"cities": ["Ségou"]
 	},
 
 

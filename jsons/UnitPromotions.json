@@ -5,6 +5,12 @@
 		"outerColor": [23, 27, 33],
 		"uniques": ["Heals [15] damage if it kills a unit"]
 	},
+	{
+		"name": "Road Builder",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["Can build [Road] improvements on tiles"]
+	},
 	// Ranged+Siege
 	{
 		"name": "Accuracy I",
@@ -682,8 +688,8 @@
 		"name": "Instruction I",
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],
-		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>","[+10]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant"],
+		"uniques": ["[+20]% Strength <when attacking>"],
+		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Civilian"],
         "column": 30,
         "row": 30
 	},
@@ -692,8 +698,8 @@
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Instruction I"],
-		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>","[+10]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant"],
+		"uniques": ["[+20]% Strength <when attacking>"],
+		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Civilian"],
         "column": 31,
         "row": 31
 	},
@@ -702,8 +708,8 @@
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Instruction II"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>","[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant"],
+		"uniques": ["[+20]% Strength <when attacking>"],
+		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Civilian"],
         "column": 32,
         "row": 32
 	},
@@ -711,8 +717,8 @@
 		"name": "Entrenched I",
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],
-		"uniques": ["[+15]% Strength <when defending>"],
-		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Machinegun"],
+		"uniques": ["[+20]% Strength <when defending>"],
+		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Machinegun","Artillery","Civilian"],
         "column": 33,
         "row": 33
 	},
@@ -721,7 +727,7 @@
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Entrenched I"],
-		"uniques": ["[+15]% Strength <when defending>"],
+		"uniques": ["[+20]% Strength <when defending>"],
 		"unitTypes": ["Infantry","Machinegun"],
         "column": 34,
         "row": 34
@@ -741,7 +747,7 @@
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Entrenched II"],
-		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>","[+15] HP when healing <in [Desert] tiles>"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>","[+15] HP when healing <in [Desert] tiles>","Civilian"],
 		"unitTypes": ["Infantry"],
         "column": 36,
         "row": 36
@@ -752,7 +758,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Instruction II"],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>","[+15] HP when healing <in [Tundra] tiles>"],
-		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant"],
+		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Civilian"],
         "column": 37,
         "row": 37
 	},
@@ -762,7 +768,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Instruction I","Entrenched I"],
 		"uniques": ["[1] additional attacks per turn","[+5]% Strength bonus for [Wounded] units within [2] tiles"],
-		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant"],
+		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Artillery","Civilian"],
         "column": 38,
         "row": 38
 	},
@@ -772,7 +778,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Veterany I"],
 		"uniques": ["[+10]% Strength bonus for [Wounded] units within [2] tiles"],
-		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant"],
+		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Civilian"],
         "column": 39,
         "row": 39
 	},
@@ -782,7 +788,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Instruction II"],
 		"uniques": ["[+30]% Strength <vs [Water] units>"],
-		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant"],
+		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Civilian"],
         "column": 40,
         "row": 40
 	},
@@ -792,29 +798,9 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Entrenched II"],
 		"uniques": ["[+20]% Strength <vs cities>","Earn [40]% of the damage done to [City] units as [Gold]"],
-		"unitTypes": ["Infantry","Machinegun"],
+		"unitTypes": ["Infantry","Machinegun","Artillery"],
         "column": 41,
         "row": 41
-	},
-	{
-		"name": "Flamethrower",
-		"innerColor": [128, 154, 196],
-		"outerColor": [23, 27, 33],
-		"prerequisites": ["Instruction III"],
-		"uniques": ["[+20]% Strength","Only available <starting from the [First World War]>"],
-		"unitTypes": ["Infantry","Camel","Elephant"],
-        "column": 42,
-        "row": 42
-	},
-	{
-		"name": "Cannibalism",
-		"innerColor": [128, 154, 196],
-		"outerColor": [23, 27, 33],
-		"prerequisites": ["Entrenched III"],
-		"uniques": ["Heals [35] damage if it kills a unit","Only available <starting from the [First World War]>"],
-		"unitTypes": ["Infantry"],
-        "column": 43,
-        "row": 43
 	},
 	{
 		"name": "Camel Odor",
@@ -829,7 +815,7 @@
 		"name": "Gallop I",
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],
-		"uniques": ["[+30]% XP gained from combat"],
+		"uniques": ["[+1] Movement"],
 		"unitTypes": ["Light Cavalry","Heavy Cavalry"],
         "column": 45,
         "row": 45
@@ -844,13 +830,106 @@
         "column": 46,
         "row": 46
 	},
+////// SHARED
+{
+	"name": "Experience I",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"uniques": ["[+35]% XP gained from combat"],
+	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery","Civilian"]
+},
+{
+	"name": "Experience II",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Experience I"],
+	"uniques": ["[+35]% XP gained from combat"],
+	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery"]
+},
+{
+	"name": "Experience III",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Experience II"],
+	"uniques": ["[+35]% XP gained from combat"],
+	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery"]
+},
+{
+	"name": "Anti-Barbarian I",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"uniques": ["Earn [65]% of killed [Barbarians] unit's [Cost] as [Gold]","[+14]% Strength <vs [Barbarians] units>"],
+	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery","Civilian"]
+},
+{
+	"name": "Anti-Barbarian II",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Anti-Barbarian I"],
+	"uniques": ["Earn [65]% of killed [Barbarians] unit's [Cost] as [Gold]","[+14]% Strength <vs [Barbarians] units>"],
+	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery","Civilian"]
+},
+{
+	"name": "Anti-Barbarian III",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Anti-Barbarian II"],
+	"uniques": ["Earn [65]% of killed [Barbarians] unit's [Cost] as [Gold]","[+34]% Strength <vs [Barbarians] units>"],
+	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery"]
+},
+{
+	"name": "Scout I",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"uniques": ["[+1] Sight"],
+	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Civilian"]
+},
+{
+	"name": "Scout II",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Scout I"],
+	"uniques": ["[+1] Sight","Can enter ice tiles"],
+	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Civilian"]
+},
+{
+	"name": "Scout III",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Scout II"],
+	"uniques": ["[+1] Sight","All tiles cost 1 movement","Can pass through impassable tiles"],
+	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone"]
+},
+{
+	"name": "Healing I",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"uniques": ["[5] HP when healing"],
+	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Civilian"]
+},
+{
+	"name": "Healing II",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Healing I"],
+	"uniques": ["[7] HP when healing"],
+	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Civilian"]
+},
+{
+	"name": "Healing III",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Healing II"],
+	"uniques": ["[10] HP when healing"],
+	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone"]
+},
 ////// Archaic Units
 
 {
 	"name": "Modernization I",
 	"innerColor": [128, 154, 196],
 	"outerColor": [23, 27, 33],
-	"uniques": ["[+25]% XP gained from combat","[+5]% Strength","[+5]% Strength <vs [Light Cavalry] units>","[+5]% Strength <vs [Heavy Cavalry] units>"],
+	"uniques": ["[+15]% XP gained from combat","[+15]% Strength"],
 	"unitTypes": ["Archaic Infantry"],
 	"column": 47,
 	"row": 47
@@ -860,7 +939,7 @@
 	"innerColor": [128, 154, 196],
 	"outerColor": [23, 27, 33],
 	"prerequisites": ["Modernization I"],
-	"uniques": ["[+25]% XP gained from combat","[+5]% Strength","[+5]% Strength <vs [Light Cavalry] units>","[+5]% Strength <vs [Heavy Cavalry] units>"],
+	"uniques": ["[+15]% XP gained from combat","[+15]% Strength"],
 	"unitTypes": ["Archaic Infantry"],
 	"column": 48,
 	"row": 48
@@ -870,7 +949,7 @@
 	"innerColor": [128, 154, 196],
 	"outerColor": [23, 27, 33],
 	"prerequisites": ["Modernization II"],
-	"uniques": ["[+25]% XP gained from combat","[+5]% Strength","[+5]% Strength <vs [Light Cavalry] units>","[+5]% Strength <vs [Heavy Cavalry] units>","[+15]% Strength <vs [Infantry] units>"],
+	"uniques": ["[+15]% XP gained from combat","[+15]% Strength"],
 	"unitTypes": ["Archaic Infantry"],
 	"column": 49,
 	"row": 49
@@ -879,7 +958,7 @@
 	"name": "Equipment I",
 	"innerColor": [128, 154, 196],
 	"outerColor": [23, 27, 33],
-	"uniques": ["[+5]% Strength <vs cities>","[+1] Movement"],
+	"uniques": ["[+15]% Strength <vs cities>","[+1] Movement"],
 	"unitTypes": ["Archaic Infantry","Armored"],
 	"column": 50,
 	"row": 50
@@ -1137,6 +1216,8 @@
 		"name": "Bombardment I",
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
 		"unitTypes": ["Ranged Water","Fighter","Bomber"],
+		"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
         "column": 26,
         "row": 1
 	},
@@ -1145,6 +1226,8 @@
 		"prerequisites": ["Bombardment I"],
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
 		"unitTypes": ["Ranged Water","Fighter","Bomber"],
+		"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
         "column": 26,
         "row": 2
 	},
@@ -1152,6 +1235,8 @@
 		"name": "Bombardment III",
 		"prerequisites": ["Bombardment II"],
 		"uniques": ["[+34]% Strength <vs [Land] units>"],
+		"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
 		"unitTypes": ["Ranged Water","Fighter","Bomber"],
         "column": 26,
         "row": 3
@@ -1193,10 +1278,6 @@
 		"innerColor": [128, 154, 196],
 	"outerColor": [23, 27, 33],
 		"uniques": ["All healing effects doubled"]
-	},
-	{
-		"name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
-		"uniques": ["Withdraws before melee combat <with [80]% chance>"]
 	},
 	{
 		"name": "Ignore terrain cost",

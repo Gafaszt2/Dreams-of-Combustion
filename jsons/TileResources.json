@@ -1,5 +1,5 @@
 [	
-        {
+    {
 		"name": "Cattle",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland","Savannah","Mountain Land","Mud"],
@@ -8,7 +8,69 @@
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [10] tiles <in [Grassland] tiles>"]
 	},
-	
+	{
+		"name": "Somali Wild Ass",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Desert"],
+		"food": 1,
+		"improvement": "Ranch",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [40] tiles <in [Desert] tiles>"]
+	},
+	{
+		"name": "Zebra",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains"],
+		"food": 1,
+		"improvement": "Ranch",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [80] tiles <in [Plains] tiles>"]
+	},
+	{
+		"name": "Ivory",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains"],
+		"food": 1,
+		"improvement": "Ranch",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [90] tiles <in [Plains] tiles>"]
+	},
+	{
+		"name": "Opium",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"food": 1,
+		"improvedBy": ["Slave Labor Plantation", "Heavy Labor Plantation"],
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [90] tiles <in [Grassland] tiles>"]
+	},
+	{
+		"name": "Hippopotamus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Lakes"],
+		"food": 1,
+		"improvement": "Hunter Lodge",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [40] tiles <in [Lakes] tiles>"]
+	},
+	{
+		"name": "Goanna",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Marsh"],
+		"food": 1,
+		"improvement": "Hunter Lodge",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [40] tiles <in [Marsh] tiles>"]
+	},
+	{
+		"name": "Seals",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"food": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [40] tiles <in [Coast] tiles>"]
+	},
 	{
 		"name": "Camel",
 		"resourceType": "Strategic",
@@ -18,6 +80,7 @@
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [20] tiles <in [Desert] tiles>"]
 	},
+
 	{
 		"name": "National Choice",
 		"resourceType": "Strategic"
@@ -108,7 +171,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert","Savannah","Mountain Land","Mud","Cold Soil"], // Desert only if fresh water
 		"food": 1,
-		"improvement": "Mill",
+		"improvedBy": ["Slave Labor Plantation", "Heavy Labor Plantation"],
 		"uniques": ["Generated on every [44] tiles <in [Plains] tiles>"]
 	},
 	{
@@ -116,7 +179,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains"],
 		"food": 1,
-		"improvement": "Mill",
+		"improvedBy": ["Slave Labor Plantation", "Heavy Labor Plantation"],
 		"uniques": ["Generated on every [44] tiles <in [Plains] tiles>"]
 	},
 	{
