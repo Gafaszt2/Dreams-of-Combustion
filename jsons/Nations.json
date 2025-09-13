@@ -6,6 +6,81 @@
 //		"innerColor": [255,255,255]
 },
 {
+		"name": "Tui Manu'a",
+		"leaderName": "Matelita",
+		"adjective": ["Tui Manu'a"],
+		"startBias":["Coast"],
+		"preferredVictoryType": "Supremacy",
+	
+	
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+	
+				"declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [31, 43, 30],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "First Drawn from the Sea",
+		"uniques": ["Polynesian","[+15]% [Faith] [in all cities]","[+1 Faith] from [Coast] tiles [in all cities]","[+1 Faith] from [Fishing Boats] tiles [in all cities]","[+2 Faith] from each Trade Route"],
+		"cities": ["Ta'u","Luma","Si'ufaga","Olosega","Faleasao","Amouli","Saua","Ofu","Sili","Maia"],
+		"spyNames": ["Saki"]
+	},
+{
+		"name": "Fiji",
+		"leaderName": "Cakobau",
+		"adjective": ["Fiji"],
+		"startBias":["Coast"],
+		"preferredVictoryType": "Supremacy",
+	
+	
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+	
+				"declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [53, 132, 222],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "Destroyer of Bau",
+		"uniques": ["Oceanian","Military Units gifted from City-States start with [15] XP","Receive triple Gold from Barbarian encampments and pillaging Cities","Militaristic City-States grant units [2] times as fast when you are at war with a common nation"],
+		"cities": ["Levuka", "Suva", "Bau", "Nausori", "Viseisei", "Lasakau", "Soso", "Naitasiri", "Tailevu", "Ra", "Savusavu"],
+		"spyNames": ["Saki"]
+	},
+{
+		"name": "Abemama",
+		"leaderName": "Binoka",
+		"adjective": ["Abemama"],
+		"startBias":["Coast","Atoll"],
+		"preferredVictoryType": "Supremacy",
+	
+	
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+	
+				"declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [252, 78, 3],
+		"innerColor": [28, 9, 0],
+		"uniqueName": "The Last Tyrant",
+		"uniques": ["Oceanian","Provides [1] [Copra] <upon founding a city>","[+15]% [Culture] [in all cities]","[+33]% [Culture] [in all cities] <upon declaring friendship> <for [5] turns>"],
+		"cities": ["Kariatebike", "Buariki", "Tabiang", "Kabangaki", "Baretoa", "Tabontebike", "Takaeang", "Tekatirirake", "Norauea", "Baurua", "Manenaua"],
+		"spyNames": ["Saki"]
+	},
+{
 		"name": "Sokoto",
 		"leaderName": "Usman dan Fodio",
 		"adjective": ["Sokoto"],
@@ -1628,8 +1703,7 @@
                 "favoredReligion": "Manaism",
 		"uniqueName": "Aloha Spirit",
 		"uniques": ["Polynesian",
-		"[+1] Movement <for [Water] units>","[+1] Movement <for [Land] units>",
- "[+1] Sight <for [Embarked] units>"],
+		"[+1] Movement <for [Embarked] units>","[+1] Movement <for [Water] units>","[Great Admiral] is earned [+25]% faster","[+22]% Strength <for [Water] units>","[+22]% Strength <for [Embarked] units>"],
 		"cities": ["Honolulu",
 "Hilo",
 "Kailua",
@@ -2045,7 +2119,9 @@
 		"favoredReligion": "Manaism",
 		"uniqueName": "Mana Whenua",
 		"uniques": ["Polynesian",
-		"[+25]% Strength <within [1] tiles of a [Pa]>", "Reveal up to [10] [Coast] within a [20] tile radius","Reveal up to [10] [Ocean] within a [20] tile radius"],
+		"[+1] Sight <for [Embarked] units>",
+		"[+1 Culture] from every [Fishing Boats]","[+1 Gold] from every [Fishing Boats]",
+		"Reveal up to [3] [Coast] within a [4] tile radius","Reveal up to [3] [Ocean] within a [4] tile radius"],
 		"cities": ["Whangarei","Rotorua","Taupo","Napier","Whanganui","Manukau","Waitakere","Porirua","Tauranga","Hamilton"]
     }, {
 		"name": "Tupi",
@@ -2584,7 +2660,7 @@
 			"Pernik", "Haskovo"]
 	},
 {
-		"name": "Colonial Empire of Belgium",
+		"name": "Belgium",
 		"leaderName": "Leopold II",
 		"adjective": ["Belgium"],
 		"startBias": ["Forest"],
@@ -3202,7 +3278,7 @@
         "outerColor": [245, 213, 124],
         "innerColor": [44, 121, 203],
 
-		"favoredReligion": "Taoism",
+		"favoredReligion": "Judaism",
 		"uniqueName": "Sky Mandate",
 		"uniques": ["Asian",
 		"[+1 Culture] from every [Mountain]","[+2 Faith] from every [Jungle]"],

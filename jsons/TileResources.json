@@ -709,6 +709,10 @@
 		"improvement": "Mine",
 		"improvementStats": {"food": 1}
 	},
+	{
+		"name": "Copra",
+		"resourceType": "Luxury"
+	},
         {
 		"name": "Humpback Whale",
 		"resourceType": "Luxury",

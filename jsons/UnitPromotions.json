@@ -858,7 +858,7 @@
 	"name": "Anti-Barbarian I",
 	"innerColor": [128, 154, 196],
 	"outerColor": [23, 27, 33],
-	"uniques": ["Earn [65]% of killed [Barbarians] unit's [Cost] as [Gold]","[+14]% Strength <vs [Barbarians] units>"],
+	"uniques": ["Earn [65]% of killed [Barbarians] unit's [Cost] as [Gold]","[+66]% Strength <vs [Barbarians] units>"],
 	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery","Civilian"]
 },
 {
@@ -874,7 +874,7 @@
 	"innerColor": [128, 154, 196],
 	"outerColor": [23, 27, 33],
 	"prerequisites": ["Anti-Barbarian II"],
-	"uniques": ["Earn [65]% of killed [Barbarians] unit's [Cost] as [Gold]","[+34]% Strength <vs [Barbarians] units>"],
+	"uniques": ["Earn [85]% of killed [Barbarians] unit's [Cost] as [Gold]","[+34]% Strength <vs [Barbarians] units>"],
 	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery"]
 },
 {

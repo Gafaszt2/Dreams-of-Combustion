@@ -233,7 +233,17 @@
 		"name": "Songline",
 		"isNationalWonder": true,
 		"cost": 100,
-		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from every [Monument]","[+6]% Production when constructing [Archaic Infantry] units [in this city]","Only available <for [Australian] Civilizations>"]
+		"uniques": ["Consumes [1] [National Choice]","[+15]% [Food] [in this city]","[+10]% Production when constructing [Archaic Infantry] units [in this city]","Only available <for [Australian] Civilizations>"]
+	},
+	{
+		"name": "Gilbertese",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]",
+		            "[+10]% [Happiness] [in this city] <upon entering a new era>",
+		            "[+15]% [Gold] [in this city] <upon entering a new era>",
+					"[+15]% [Culture] [in this city] <upon entering a new era>",
+					"Only available <for [Oceanian] Civilizations>"]
 	},
 	{
 		"name": "Voyage to Tonga",
@@ -828,6 +838,19 @@
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Vale Levu",
+		"uniqueTo": "Fiji",
+        "replaces": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 0,
+		"uniques": ["[+1 Culture] per [6] population [in all cities]","[+15]% [Culture] [in this city] <upon constructing [Food]> <for [4] turns>","Provides [1] [National Choice]","Indicates the capital city"]
 	},
 	{
 		"name": "Palace",
@@ -2023,7 +2046,7 @@
 	},
         {
 		"name": "Colonial Outpost",
-                "uniqueTo": "Colonial Empire of Belgium",
+                "uniqueTo": "Belgium",
                 "replaces": "Courthouse",
 		"gold": 2,
                 "production": 1,
@@ -2040,6 +2063,18 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+10]% [Food] [in this city]","[+15]% Production when constructing [Infantry] units [in this city]"],
 		"requiredTech": "Hunting Pets"
+	},
+	{
+		"name": "Maneaba",
+		"uniqueTo": "Abemama",
+        "replaces": "Amphitheater",
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% [Faith] <in cities connected to the capital>","Destroyed when the city is captured"],
+		"requiredTech": "Opera"
 	},
 	{
 		"name": "Council of Balopwe",

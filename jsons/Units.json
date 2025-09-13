@@ -1,5 +1,79 @@
 [
 	{
+		"name": "'Alia",
+		"uniqueTo":"Tui Manu'a",
+		"replaces":"Privateer",
+		"unitType": "Melee Water",
+        "obsoleteTech": "Steam Power",
+		"movement": 5,
+		"strength": 16,
+		"cost": 150,
+		"promotions": ["Coastal Raider I"],
+		"uniques": ["[+100]% XP gained from combat","May capture killed [Water] units"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Toa Ma'a To'i",
+		"uniqueTo":"Tui Manu'a",
+		"replaces":"Explorer",
+        "upgradesTo": "Mounted Explorer",
+        "obsoleteTech": "Railway",
+		"unitType": "Infantry",
+		"movement": 3,
+		"strength": 6,
+		"promotions":["Conqueror"],
+		"cost": 40,
+		"attackSound": "shot"
+        },
+	{
+		"name": "Tupara Gunner",
+		"uniqueTo":"Maori",
+		"replaces":"Line Infantry",
+        "upgradesTo": "Grenadier",
+        "requiredTech": "Rifling",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 12,
+		"uniques":["Comment [Gains an different ability depending on the voyage you picked.]",
+	    "[+16]% Strength <vs cities> <if [Voyage to Tonga] is constructed>",
+	    "[+13]% Strength <when defending> <if [Voyage to Samoa] is constructed>",
+		"[+22]% Strength <vs [Light Cavalry] units> <if [Voyage to Taputapuātea] is constructed>",
+		"[+22]% Strength <vs [Water] units> <if [Voyage to Hawaiki] is constructed>",
+	    "Can build [House] improvements on tiles <if [Voyage to Aotearoa] is constructed>"],
+		"cost": 55,
+		"attackSound": "shot"
+        },
+	{
+		"name": "Bati",
+		"uniqueTo":"Fiji",
+		"replaces":"Partisan",
+        "upgradesTo": "Halberdier",
+        "requiredTech": "Railway",
+        "obsoleteTech": "Dynamite",
+		"unitType": "Archaic Infantry",
+		"movement": 2,
+		"strength": 10,
+		"cost": 66, 
+        "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>","[+20]% Strength <when fighting in [Friendly Land] tiles>",
+			"[This Unit] heals [+5] HP <upon defeating a [All] unit>","[+30]% Strength <vs [Heavy Cavalry] units>","[+40]% Strength <vs [Light Cavalry] units>","[+40]% Strength <vs [Camel] units>"],
+		"attackSound": "metalhit"
+        },
+	{
+		"name": "Tetoanea Swordsman",
+		"uniqueTo":"Abemama",
+		"replaces":"Partisan",
+        "upgradesTo": "Halberdier",
+        "requiredTech": "Railway",
+        "obsoleteTech": "Dynamite",
+		"unitType": "Archaic Infantry",
+		"movement": 2,
+		"strength": 10,
+		"cost": 66, 
+        "uniques": ["[-10]% Strength for enemy [All] units in adjacent [All] tiles","[+30]% Strength <vs [Heavy Cavalry] units>","[+40]% Strength <vs [Light Cavalry] units>","[+40]% Strength <vs [Camel] units>"],
+		"attackSound": "metalhit"
+        },
+	{
 		"name": "Yan Lifida",
 		"uniqueTo":"Sokoto",
 		"replaces":"Lancer",
@@ -46,9 +120,9 @@
 		"uniqueTo":"The Ndebele",
 		"replaces":"Great General",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Can be earned through combat",
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "[+20]% Strength bonus for [Military] units within [2] tiles",
+            "[+20]% Strength bonus for [Land] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 3
@@ -637,10 +711,19 @@
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Can be earned through combat",
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "[+15]% Strength bonus for [Land] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Admiral",
+		"unitType": "Civilian Water",
+		"uniques": ["Can be earned through combat",
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Water] units within [2] tiles","[+15]% Strength bonus for [Embarked] units within [2] tiles",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
@@ -763,16 +846,6 @@
 		"cost": 50
 	},
         {
-		"name": "Marksman",
-                "uniqueTo": "Maori",
-                "replaces": "Worker",
-		"unitType": "Civilian",
-                "strength": 3,
-		"movement": 2,
-		"uniques": ["[+100]% Strength <vs [Barbarian] units>","Can build [Land] improvements on tiles", "Automation is a primary action"],
-		"cost": 50
-	},
-        {
 		"name": "Toa",
                 "uniqueTo": "Tui Tonga",
                 "replaces": "Worker",
@@ -804,7 +877,7 @@
         "obsoleteTech": "Steam Power",
 		"unitType": "Infantry",
 		"movement": 2,
-		"strength": 10,
+		"strength": 5,
 		"cost": 40,
 		"attackSound": "shot"
         },
@@ -908,10 +981,10 @@
         },
         {
 		"name": "Mounted Explorer",
-                "requiredTech": "Railway",
+        "requiredTech": "Railway",
 		"unitType": "Light Cavalry",
-		"movement": 3.5,
-		"strength": 6,
+		"movement": 4,
+		"strength": 8,
 		"obsoleteTech": "Replaceable Parts",
 		"cost": 70, 
                 "uniques": ["[+22]% Strength <vs [Heavy Cavalry] units>","Never appears as a Barbarian unit"],
@@ -2738,7 +2811,7 @@
         },
         {
 		"name": "Bicycle Troop",
-                "uniqueTo": "Colonial Empire of Belgium",
+                "uniqueTo": "Belgium",
                 "replaces": "Cavalry",
                 "obsoleteTech": "Combined Arms",
                 "requiredTech": "Replaceable Parts",
@@ -2746,7 +2819,7 @@
 		"movement": 4,
 		"strength": 30,
 		"cost": 210, 
-                "uniques": ["Can move after attacking","No defensive terrain bonus","[+15]% Strength <vs [Armored] units>","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+                "uniques": ["Can move after attacking","No defensive terrain bonus","[+33]% Strength <vs [Armored] units>","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
         },
         {
@@ -3406,9 +3479,9 @@
                 "uniqueTo": "Romania",
 		"replaces": "Great General",
 		"unitType": "Civilian",
-		"uniques": [
+		"uniques": ["Can be earned through combat",
             "Empire enters a [10]-turn Golden Age <by consuming this unit>",
-            "[+20]% Strength bonus for [Military] units within [2] tiles",
+            "[+20]% Strength bonus for [Land] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
