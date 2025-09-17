@@ -3,7 +3,52 @@
     {
         "name": "Desert Folklore",
         "type": "Pantheon",
-        "uniques": ["[+2 Faith] from every [Desert]"]
+        "uniques": ["[+1 Faith] from every [Desert]"]
+    },
+    {
+        "name": "Coastal Parade",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from every [Coastal]"]
+    },
+    {
+        "name": "Arid Religion",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Semi-Arid]","[+1 Faith] from every [Semi-Arid + Desert Plants]"]
+    },
+    {
+        "name": "Arid Market",
+        "type": "Pantheon",
+        "uniques": ["[+1 Gold] from every [Semi-Arid]","[+1 Gold] from every [Semi-Arid + Desert Plants]"]
+    },
+    {
+        "name": "Global Religion",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Luxury resource]"]
+    },
+    {
+        "name": "Strategical Religion",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Strategic resource]"]
+    },
+    {
+        "name": "Dry Tree Fire",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Dry Tree]"]
+    },
+    {
+        "name": "Forest Dance",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Forest]","[+1 Gold] from every [Forest]"]
+    },
+    {
+        "name": "Acacia Totem",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Acacia]","[+1 Gold] from every [Acacia]"]
+    },
+    {
+        "name": "Pine Faith",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from every [Pines]","[+1 Gold] from every [Pines]"]
     },
     {
         "name": "Halal Food",

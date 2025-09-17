@@ -24,7 +24,7 @@
 		"food": 2,
 		"movementCost": 1,
         "RGB": [148, 240, 127],
-        "uniques": ["Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
+        "uniques": ["Becomes [Coastal] when adjacent to [Coast] <with [30]% chance>","Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
             "Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
             "Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
             "Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
@@ -48,7 +48,8 @@
 		"production": 1,
 		"movementCost": 1,
 		"RGB": [224, 152, 103],
-		"uniques": ["Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
+		"uniques": ["Becomes [Coastal] when adjacent to [Coast] <with [30]% chance>","Becomes [Semi-Arid] when adjacent to [Desert] <with [50]% chance>","Becomes [Semi-Arid + Desert Plants] when adjacent to [Desert] <with [50]% chance>",
+			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
             "Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
             "Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
             "Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [0.9]",
@@ -92,7 +93,7 @@
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [240, 209, 144],
-		"uniques": ["Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
+		"uniques": ["Becomes [Coastal] when adjacent to [Coast] <with [30]% chance>","Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
             "Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
             "Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
             "Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
@@ -152,7 +153,7 @@
 		"movementCost": 2,
 		"overrideStats": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow","Beach","Mud","Mountain Land","Savannah","Cold Soil","Dry Soil","Fresh Soil"],
+		"occursOn": ["Tundra","Semi-Arid","Plains","Coastal","Grassland","Desert","Snow","Beach","Mud","Mountain Land","Savannah","Cold Soil","Dry Soil","Fresh Soil"],
 		"uniques": ["Rough terrain",
 					"[+5] Strength for cities built on this terrain",
 					"Has an elevation of [1] for visibility calculations",
@@ -532,6 +533,34 @@
 					"Provides a one-time bonus of [+1 Gold, +2 Production] to the closest city when cut down <(modified by game speed)>",
 					"Blocks line-of-sight from tiles at same elevation",
 					"[25]% Chance to be destroyed by nukes"]
+	},
+	{
+		"name": "Semi-Arid",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [135, 116, 101],
+		"uniques": [
+			"Considered [Desirable] when determining start locations"]
+	},
+	{
+		"name": "Coastal",
+		"type": "Land",
+		"food": 1,
+		"movementCost": 1,
+		"RGB": [247, 239, 233],
+		"uniques": [
+			"Considered [Desirable] when determining start locations"]
+	},
+	{
+		"name": "Semi-Arid + Desert Plants",
+		"type": "Land",
+		"food": 1,
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [135, 116, 101],
+		"defenceBonus": 0.25,
+		"uniques": ["Semi-Aird","Considered [Desirable] when determining start locations"]
 	},
 	{
 		"name": "Pines",

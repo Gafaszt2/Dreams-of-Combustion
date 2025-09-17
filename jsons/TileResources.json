@@ -69,7 +69,25 @@
 		"food": 1,
 		"improvement": "Fishing Boats",
 		"improvementStats": {"gold": 1},
-		"uniques": ["Generated on every [40] tiles <in [Coast] tiles>"]
+		"uniques": ["Generated on every [100] tiles <in [Coast] tiles>"]
+	},
+	{
+		"name": "Sea Lion",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"food": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [100] tiles <in [Coast] tiles>"]
+	},
+	{
+		"name": "Walrus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"gold": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [200] tiles <in [Coast] tiles>"]
 	},
 	{
 		"name": "Camel",
@@ -132,7 +150,7 @@
         {
 		"name": "Horses",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland","Savannah","Mountain Land","Mud","Cold Soil","Tundra"],
+		"terrainsCanBeFoundOn": ["Grassland","Savannah","Mountain Land","Mud","Cold Soil","Tundra","Semi-Arid","Semi-Arid + Desert Plants"],
 		"food": 1,
 		"improvement": "Stable",
 		"improvementStats": {"production": 1},
@@ -141,7 +159,7 @@
 	{
 		"name": "Sheep",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Hill"],
+		"terrainsCanBeFoundOn": ["Hill","Semi-Arid","Semi-Arid + Desert Plants"],
 		"food": 1,
 		"improvement": "Ranch",
 		"improvementStats": {"food": 1},
@@ -177,7 +195,7 @@
 	{
 		"name": "Olive",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains"],
+		"terrainsCanBeFoundOn": ["Plains","Semi-Arid","Semi-Arid + Desert Plants"],
 		"food": 1,
 		"improvedBy": ["Slave Labor Plantation", "Heavy Labor Plantation"],
 		"uniques": ["Generated on every [44] tiles <in [Plains] tiles>"]
@@ -210,7 +228,7 @@
 	{
 		"name": "Bison",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Grassland","Savannah","Mountain Land","Mud"],
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Savannah","Mountain Land","Mud","Semi-Arid","Semi-Arid + Desert Plants"],
 		"food": 1,
 		"improvement": "Hunter Lodge",
                 "uniques": ["Generated on every [39] tiles <in [Plains] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"]
@@ -220,7 +238,7 @@
 		"name": "Coal",
 		"resourceType": "Strategic",
 		"revealedBy": "Industrialization",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Jungle","Forest","Marsh","Savannah","Mountain Land","Mud"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Jungle","Forest","Marsh","Savannah","Mountain Land","Mud","Semi-Arid","Semi-Arid + Desert Plants"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
@@ -232,7 +250,7 @@
 		"name": "Oil",
 		"resourceType": "Strategic",
         "revealedBy": "Industrialization",
-		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Jungle","Savannah","Mountain Land","Mud","Fresh Soil","Dry Soil"],
+		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Jungle","Savannah","Mountain Land","Mud","Fresh Soil","Dry Soil","Semi-Arid","Semi-Arid + Desert Plants"],
 		"production": 1,
 		"improvedBy": ["Oil well", "Offshore Platform"],
 		"improvementStats": {"production": 3},
@@ -244,7 +262,7 @@
 		"name": "Aluminum",
                 "revealedBy": "Industrialization",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Jungle","Savannah","Mountain Land","Mud","Fresh Soil","Dry Soil"],
+		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Jungle","Savannah","Mountain Land","Mud","Fresh Soil","Dry Soil","Semi-Arid","Semi-Arid + Desert Plants"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
@@ -256,7 +274,7 @@
 		"name": "Nitter",
                 "revealedBy": "Industrialization",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Forest","Jungle","Savannah","Mountain Land","Mud","Fresh Soil","Dry Soil"],
+		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Forest","Jungle","Savannah","Mountain Land","Mud","Fresh Soil","Dry Soil","Semi-Arid","Semi-Arid + Desert Plants"],
 		"production": 1,
                 "gold": 1,
 		"improvement": "Mine",
@@ -269,7 +287,7 @@
 		"name": "Uranium",
                 "revealedBy": "Atomic Bomb",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Marsh","Jungle","Forest","Tundra","Snow","Savannah","Mountain Land","Mud","Dry Soil"],
+		"terrainsCanBeFoundOn": ["Marsh","Jungle","Forest","Tundra","Snow","Savannah","Mountain Land","Mud","Dry Soil","Semi-Arid","Semi-Arid + Desert Plants"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
@@ -280,7 +298,7 @@
         {
 		"name": "Furs",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Tundra","Dry Soil","Cold Soil"],
+		"terrainsCanBeFoundOn": ["Forest","Tundra","Dry Soil","Cold Soil","Semi-Arid","Semi-Arid + Desert Plants"],
 		"gold": 2,
 		"improvement": "Hunter Lodge",
 		"improvementStats": {"gold": 1},
@@ -289,7 +307,7 @@
 	{
 		"name": "Cotton",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Flood plains"],
+		"terrainsCanBeFoundOn": ["Grassland","Flood plains","Semi-Arid","Semi-Arid + Desert Plants"],
 		"gold": 2,
 		"improvedBy": ["Slave Labor Plantation", "Heavy Labor Plantation"],
 		"uniques": ["Generated on every [100] tiles <in [Grassland] tiles>"]
@@ -305,7 +323,7 @@
 	{
 		"name": "Gems",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Hill"],
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Hill","Semi-Arid","Semi-Arid + Desert Plants"],
 		"gold": 3,
 		"improvement": "Mine",
 		"uniques": ["Generated on every [100] tiles <in [Hill] tiles>"]
@@ -313,7 +331,7 @@
 	{
 		"name": "Gold Ore", // Not called "Gold" in order to not conflict with siege type units for translations
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert","Hill","Forest","Jungle"],
+		"terrainsCanBeFoundOn": ["Desert","Hill","Forest","Jungle","Semi-Arid","Semi-Arid + Desert Plants"],
 		"gold": 2,
 		"improvement": "Mine",
 		"uniques": ["Generated on every [100] tiles <in [Hill] tiles>"]
@@ -321,7 +339,7 @@
 	{
 		"name": "Silver",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Tundra","Grassland","Dry Soil"],
+		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Tundra","Grassland","Dry Soil","Semi-Arid","Semi-Arid + Desert Plants"],
 		"gold": 2,
 		"improvement": "Mine",
 		"uniques": ["Generated on every [100] tiles <in [Hill] tiles>"
@@ -330,7 +348,7 @@
 	{
 		"name": "Incense",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains","Dry Soil"],
+		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains","Dry Soil","Semi-Arid","Semi-Arid + Desert Plants"],
 		"gold": 2,
 		"improvedBy": ["Slave Labor Plantation", "Heavy Labor Plantation"],
 		"uniques": ["Generated on every [100] tiles <in [Desert] tiles>"]
@@ -338,7 +356,7 @@
 	{
 		"name": "Silk",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Jungle"],
+		"terrainsCanBeFoundOn": ["Forest","Jungle","Semi-Arid","Semi-Arid + Desert Plants"],
 		"gold": 2,
 		"improvedBy": ["Slave Labor Plantation", "Heavy Labor Plantation"],
 		"uniques": ["Generated on every [100] tiles <in [Forest] tiles>"]
@@ -371,7 +389,7 @@
 	{
 		"name": "Marble",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert","Plains","Hill","Grassland"],
+		"terrainsCanBeFoundOn": ["Desert","Plains","Hill","Grassland","Semi-Arid","Semi-Arid + Desert Plants"],
 		"gold": 2,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
@@ -738,6 +756,21 @@
                 "production": 1,
 		"improvement": "Fishing Boats",
 		"improvementStats": {"gold": 2},
+	},
+	{
+		"name": "Food",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [Food]>","Cannot be traded","Stockpiled"]
+	},
+	{
+		"name": "Wood",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [Wood]>","Cannot be traded","Stockpiled"]
+	},
+	{
+		"name": "Coin",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [Coin]>","Cannot be traded","Stockpiled"]
 	},
 	{
 		"name": "Nomad Manpower",

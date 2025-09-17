@@ -1,25 +1,63 @@
 [
     {
+        "name": "Blitzkrieg",
+        "modifier": 0.17,
+        "productionCostModifier": 0.17,
+        "goldCostModifier": 0.17,
+        "scienceCostModifier": 0.17,
+        "cultureCostModifier": 0.17,
+        "faithCostModifier": 0.17,
+        "improvementBuildLengthModifier": 0.17,
+        "barbarianModifier": 0.17,
+        "goldGiftModifier": 0.15,
+        "cityStateTributeScalingInterval": 1.5,
+        "goldenAgeLengthModifier": 0.10,
+        "religiousPressureAdjacentCity": 1,
+        "peaceDealDuration": 1,
+        "dealDuration": 4,
+        "startYear": -4000,
+        "turns": [
+            {"yearsPerTurn": 60, "untilTurn":  50},
+            {"yearsPerTurn": 40, "untilTurn":  80},
+            {"yearsPerTurn": 30, "untilTurn": 100},
+            {"yearsPerTurn": 20, "untilTurn": 130},
+            {"yearsPerTurn": 10, "untilTurn": 155},
+            {"yearsPerTurn":  5, "untilTurn": 195},
+            {"yearsPerTurn":  2, "untilTurn": 260},
+            {"yearsPerTurn":  1, "untilTurn": 330}
+        ]
+    },
+    {
+        "name": "Very Quick",
+        "modifier": 0.37,
+        "productionCostModifier": 0.37,
+        "goldCostModifier": 0.37,
+        "scienceCostModifier": 0.37,
+        "cultureCostModifier": 0.37,
+        "faithCostModifier": 0.37,
+        "improvementBuildLengthModifier": 0.37,
+        "barbarianModifier": 0.37,
+        "goldGiftModifier": 0.35,
+        "cityStateTributeScalingInterval": 2.5,
+        "goldenAgeLengthModifier": 0.40,
+        "religiousPressureAdjacentCity": 3,
+        "peaceDealDuration": 5,
+        "dealDuration": 10,
+        "startYear": -4000,
+        "turns": [
+            {"yearsPerTurn": 60, "untilTurn":  50},
+            {"yearsPerTurn": 40, "untilTurn":  80},
+            {"yearsPerTurn": 30, "untilTurn": 100},
+            {"yearsPerTurn": 20, "untilTurn": 130},
+            {"yearsPerTurn": 10, "untilTurn": 155},
+            {"yearsPerTurn":  5, "untilTurn": 195},
+            {"yearsPerTurn":  2, "untilTurn": 260},
+            {"yearsPerTurn":  1, "untilTurn": 330}
+        ]
+    },
+    {
         "name": "Quick",
         "modifier": 0.67,
-        /*
-        Why are all of these raw values and not uniques? This is like EXACTLY what uniques are for,
-        and speeds even support uniques?
-        E.g.: [
-            "[-67]% Production cost of [All] buildings",
-            "[-67]% Produciton cost of [All] units",
-            "Gold cost of purchasing [All] units [-67]%"
-            "Gold cost of purchasing [All] buildings [-67]%"
-            "[-67]% Science cost of reseaching new Techs" // Needs to be added
-            "[-67]% Culture cost of adopting new policies"
-            etc.
-        I suppose this is how it is done in civ V, but uniques are one of the major features we have
-        that Civ V doesn't, so why are we not using them?
-        This approach requires adding these modifies for specific things that need to be added, while
-        uniques can just be added anywhere. Only need to change CivilizationInfo.getMatchingUniques()
-        to get the uniques of the current game speed and everything works out of the box.
-        -xlenstra
-        */
         "productionCostModifier": 0.67,
         "goldCostModifier": 0.67,
         "scienceCostModifier": 0.67,

@@ -5,6 +5,168 @@
 		"outerColor": [255,255,255],
 //		"innerColor": [255,255,255]
 },
+// Italian republics
+{
+		"name": "Italia Libera",
+		"leaderName": "Giuseppe Garibaldi",
+		"adjective": ["Italia Libera"],
+		"startBias":["Coast","Hill","Forest"],
+		"preferredVictoryType": "Supremacy",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [122, 245, 159],
+		"innerColor": [28, 43, 33],
+		"uniqueName": "Spirit of 1848",
+		"uniques": ["Italian","Gain [20]-[25] [Culture] <upon entering a Golden Age>","Earn [100]% of killed [All] unit's [Strength] as [Culture]","[+50]% Production when constructing [Barricade] buildings [in all cities] <hidden from users>"],
+		"cities": ["Milan", "Venice", "Palermo", "Florence"],
+		"spyNames": ["Medici","Corsaro","Mitre","Falco","Alpestri"]
+	},
+{
+		"name": "Lombardy-Venetia",
+		"leaderName": "Field Marshal Radetzky",
+		"adjective": ["Lombardy-Venetia"],
+		"startBias":["Flood plains","Marsh"],
+		"preferredVictoryType": "Supremacy",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [171, 193, 214],
+		"innerColor": [32, 66, 69],
+		"uniqueName": "Imperial Discipline",
+		"uniques": ["Italian","[+44]% [Production] [in puppeted cities]"],
+		"cities": ["Florence", "Pisa", "Siena", "Livorno", "Arezzo"],
+		"spyNames": ["Medici","Corsaro","Mitre","Falco","Alpestri"]
+	},
+{
+		"name": "Tuscany",
+		"leaderName": "Leopold II",
+		"adjective": ["Tuscany"],
+		"startBias":["Hill","River"],
+		"preferredVictoryType": "Supremacy",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [93, 217, 124],
+		"innerColor": [17, 28, 19],
+		"uniqueName": "Florentine Enlightenment",
+		"uniques": ["Italian","[+1 Science, +1 Culture] from every [House] <after discovering [Novel]>","[+25]% [Culture] [in all cities]"],
+		"cities": ["Florence", "Pisa", "Siena", "Livorno", "Arezzo"],
+		"spyNames": ["Medici","Corsaro","Mitre","Falco","Alpestri"]
+	},
+{
+		"name": "Two Sicilies",
+		"leaderName": "Ferdinand II of Bourbon",
+		"adjective": ["Two Sicilies"],
+		"startBias":["Coast"],
+		"preferredVictoryType": "Supremacy",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [112, 42, 42],
+		"innerColor": [255, 187, 41],
+		"uniqueName": "Bourbon Rule",
+		"uniques": ["Italian","[+2 Gold, +1 Culture] from every [Slave Labor Plantation]","[+2 Gold, +1 Culture] from every [Heavy Labor Plantation]","[+25]% [Gold] [in all cities]"],
+		"cities": ["Naples", "Palermo", "Bari", "Messina", "Catania", "Reggio Calabria"],
+		"spyNames": ["Medici","Corsaro","Mitre","Falco","Alpestri"]
+	},
+{
+		"name": "Papal States",
+		"leaderName": "Pope Gregory XVI",
+		"adjective": ["Papal States"],
+		"startBias":["Plains"],
+		"preferredVictoryType": "Supremacy",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [138, 19, 19],
+		"innerColor": [255, 244, 186],
+		"uniqueName": "Temporal Power",
+		"uniques": ["Italian","[+2 Culture] from all [Faith] buildings","[+15]% [Gold] [in all cities]","[+15]% [Faith] [in all cities]"],
+		"cities": ["Rome", "Bologna", "Ancona", "Perugia", "Viterbo", "Ferrara"],
+		"spyNames": ["Medici","Corsaro","Mitre","Falco","Alpestri"]
+	},
+{
+		"name": "Sardinia",
+		"leaderName": "King Charles Albert",
+		"adjective": ["Sardinia"],
+		"startBias":["Hill","Mountain"],
+		"preferredVictoryType": "Supremacy",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [255, 255, 255],
+		"innerColor": [87, 120, 230],
+		"uniqueName": "Statuto Albertino",
+		"uniques": ["Italian","[+2 Happiness, +2 Culture] from every [Courthouse]",
+		"[+25]% Production when constructing [Line Infantry] units [in all cities]",
+	    "[+25]% Production when constructing [Explorer] units [in all cities]",
+	    "[+25]% Production when constructing [Artillery] units [in all cities]"],
+		"cities": ["Turin", "Genoa", "Nice", "Savona", "Alessandria", "Cuneo"],
+		"spyNames": ["Medici","Corsaro","Mitre","Falco","Alpestri"]
+	},
+//
+{
+		"name": "Sarawak",
+		"leaderName": "James Brooke",
+		"adjective": ["Sarawak"],
+		"startBias":["Coast"],
+		"preferredVictoryType": "Supremacy",
+	
+	
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+	
+				"declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [245, 66, 66],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "The White Rajahs",
+		"uniques": ["Asian","[+100]% [Culture] from City-States","Starts with [Imperialism] adopted","[1] free [Explorer] units appear","[1] free [Slave] units appear"],
+		"cities": ["Kuching","Lundu","Bauh","Simanggang","Limbang","Lingga","Rembas","Semunjuan","Serikei","Paku"],
+		"spyNames": ["Saki"]
+	},
 {
 		"name": "Tui Manu'a",
 		"leaderName": "Matelita",
@@ -530,7 +692,7 @@
         "innerColor": [18,84,30],
 		"uniqueName": "The Holy Land",
 		"favoredReligion":"Islam",
-		"uniques": ["Comment [Gain an ability based on religion.]","[+3 Faith] from every [Holy site]","When declaring friendship, both parties gain a [10]% boost to great person generation"],
+		"uniques": ["ME","Comment [Gain an ability based on religion.]","[+3 Faith] from every [Holy site]","When declaring friendship, both parties gain a [10]% boost to great person generation"],
 		"cities": ["Damascus","Jerusalem","Aleppo","Acre","Nablus","Jaffa","Hebron","Sidon","Tyre","Homs","Hama","Beirut","Gaza","Safed"],
 		"spyNames": ["Saki"]
 	},
@@ -556,7 +718,7 @@
         "innerColor": [18,84,30],
 		"uniqueName": "Vilayet of Syria - Tanzimat Reforms",
 		"favoredReligion":"Islam",
-		"uniques": ["[+5]% [Gold] [in all cities]","[+5]% Production towards any buildings that already exist in the Capital","[+1 Faith] from each Trade Route","[+1 Culture] from each Trade Route","[+1 Science] from each Trade Route"],
+		"uniques": ["ME","[+5]% [Gold] [in all cities]","[+5]% Production towards any buildings that already exist in the Capital","[+1 Faith] from each Trade Route","[+1 Culture] from each Trade Route","[+1 Science] from each Trade Route"],
 		"cities": ["Damascus","Daraa","Bosra","Karak","Palmyra","Suwayda","Ma’an"],
 		"spyNames": ["Saki"]
 	},
@@ -582,7 +744,7 @@
         "innerColor": [18,84,30],
 		"uniqueName": "Sectarian Mosaic",
 		"favoredReligion":"Islam",
-		"uniques": ["[+1 Culture] from every [Mountain]","[+6]% Strength <when fighting in [Hill] tiles>","[Faith] cost of purchasing [Missionary] units [-25]%","[Faith] cost of purchasing [Great Prophet] units [-25]%"],
+		"uniques": ["ME","[+1 Culture] from every [Mountain]","[+6]% Strength <when fighting in [Hill] tiles>","[Faith] cost of purchasing [Missionary] units [-25]%","[Faith] cost of purchasing [Great Prophet] units [-25]%"],
 		"cities": ["Beirut","Hama","Tripoli","Sidon","Zahle","Deir al-Qamar","Baalbek","Jezzine","Tartus","Latakia","Hasbaya","Rashaya","Mount Hermon","Bikfaya","Douma"],
 		"spyNames": ["Saki"]
 	},
@@ -608,7 +770,7 @@
         "innerColor": [18,84,30],
 		"uniqueName": "Surra Tribute",
 		"favoredReligion":"Islam",
-		"uniques": ["[+15]% Strength <for [Light Cavalry] units>","[+15]% Strength <for [Heavy Cavalry] units>","[+15]% Strength <for [Camel] units>",
+		"uniques": ["ME","[+15]% Strength <for [Light Cavalry] units>","[+15]% Strength <for [Heavy Cavalry] units>","[+15]% Strength <for [Camel] units>",
 			"[+5]% Strength <when fighting in [Desert] tiles>",
 			"[-100]% maintenance costs <for [Light Cavalry] units>","[-100]% maintenance costs <for [Heavy Cavalry] units>","[-100]% maintenance costs <for [Camel] units>"],
 		"cities": ["Salt","Karak","Madaba","Ma'an","Tafileh","Ajloun","Irbid","Amman","Shoubak","Azraq","Jerash"],
@@ -661,7 +823,7 @@
 		"outerColor": [18, 18, 18],
 		"innerColor": [255, 191, 71],
 		"uniqueName": "Custody of the Two Holy Mosques",
-		"uniques": ["Free [Kaaba Reconstructor] appears <upon entering the [Industrial Era]>","[1] Free Social Policies <upon building a [Renovated Kaaba] improvement>","Gain [150] [Faith] <upon gaining a [Mu'min] unit>",
+		"uniques": ["ME","Free [Kaaba Reconstructor] appears <upon entering the [Industrial Era]>","[1] Free Social Policies <upon building a [Renovated Kaaba] improvement>","Gain [150] [Faith] <upon gaining a [Mu'min] unit>",
 		"Free [Mu'min] appears <upon discovering [Anesthesia] technology>","Free [Mu'min] appears <upon discovering [Vaccine] technology>","Free [Great General] appears <upon discovering [Sanitation] technology>","Free [Mu'min] appears <upon discovering [Sanitation] technology>"],
 		"cities": ["Mecca", "Medina", "Jeddah", "Ta'if", "Yanbu", "Tabuk", "Rabigh", "Badr", "Al Bahah", "Al Qunfidhah", "Al Jumum", "Khaybar", "Tayma", "Duba"],
 		"spyNames": ["Saki"]
@@ -714,7 +876,7 @@
 	"outerColor": [1, 40, 66],
 	"innerColor": [179, 245, 229],
 	"uniqueName": "Steppe Pastoralists",
-	"uniques": ["Free [Naiza Rider] appears <upon discovering [Military Science] technology>","[+10]% Strength <when fighting in [Hill] tiles>","[+20]% Production when constructing [Heavy Cavalry] units [in capital]","[+10]% Production when constructing [Archaic Infantry] units [in capital]","[+1] Sight"],
+	"uniques": ["ME","Free [Naiza Rider] appears <upon discovering [Military Science] technology>","[+10]% Strength <when fighting in [Hill] tiles>","[+20]% Production when constructing [Heavy Cavalry] units [in capital]","[+10]% Production when constructing [Archaic Infantry] units [in capital]","[+1] Sight"],
 	"cities": ["Astana","Almaty","Shymkent","Karaganda","Aktobe","Taraz","Pavlodar","Oskemen","Semey","Atyrau","Kostanay","Kyzylorda","Uralsk","Petropavl","Aktau"]
 },
 {
@@ -1200,7 +1362,7 @@
 	"innerColor": [0, 117, 37],
 	"uniqueName": "Tripolitania",
 	"uniques": [
-	"[+1 Gold] from every [Mill]","[+1 Gold] from every [Desert]","[+1 Gold] from every [Oasis]","[+5]% of excess happiness converted to [Gold]","[+1 Happiness] per [4] population [in all cities]"],
+	"ME","[+1 Gold] from every [Mill]","[+1 Gold] from every [Desert]","[+1 Gold] from every [Oasis]","[+5]% of excess happiness converted to [Gold]","[+1 Happiness] per [4] population [in all cities]"],
 	"cities": ["Murzuq",
 "Ghat",
 "Sebha",
@@ -1237,7 +1399,7 @@
 	"outerColor": [5, 153, 0],
 	"innerColor": [255, 249, 207],
 	"uniqueName": "Russian Expansion Resistance",
-	"uniques": ["Non Middle Eastern",
+	"uniques": ["ME",
 	"Gain [12]-[30] [Culture] <upon entering a Golden Age>","Gain [20]-[35] [Culture] <upon entering a Golden Age> <upon constructing [Culture]>","[+1] Movement <for [Ranger] units>","[+1] Movement <for [Worker] units>"],
 	"cities": ["Nalchik",
 "Maikop",
@@ -1423,33 +1585,6 @@
 		"[+2 Food] from every [Jungle]","[+2 Food] from every [Marsh]","[+1 Culture] from every [Monument]"],
 		"cities": ["Everglades","Apalachee","Timucua","Creek","Muskogean"],
 	},
-{
-		"name": "Yugoslavia",
-		"leaderName": "Josip Broz Tito",
-		"adjective": ["Yugoslav"],
-		"startBias": ["River"],
-		"preferredVictoryType": "Political",
-		
-		"startIntroPart1": "",
-		
-		"declaringWar": "For the good of The Empire i must declare war!",
-		"attacked": "You are making a big mistake.",
-		"defeated": "Will this be my last goodbye to you?.",
-		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
-		
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-		
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-				
-		"outerColor": [69, 10, 3],
-		"innerColor": [169, 171, 212],
-                "favoredReligion": "Orthodox",
-		"uniqueName": "Hej Slaveni",
-		"uniques": ["Non Middle Eastern",
-		"[+1 Gold, +2 Production] per every [5] [Culture]","New [Military] units start with [15] XP [in all cities] <upon declaring war on [Major] Civilizations>"],
-		"cities": ["Belgrade", "Zagreb", "Sarajevo", "Skopje", "Ljubljana", "Titograd", "Split", "Pristina", "Novi Sad", "Nis", "Banja Luka", "Rijeka", "Maribor", "Mostar", "Osijek", "Zadar", "Kragujevac", "Tuzla", "Subotica", "Pula", "Zenica", "Prizren", "Mitrovica", "Niksic", "Cacak", "Bitola", "Kraljevo", "Kumanovo", "Novi Pazar"],
-	},
         {
 		"name": "The Mughals",
 		"leaderName": "Akbar",
@@ -1473,7 +1608,7 @@
 		"innerColor": [236, 255, 187],
                 "favoredReligion": "Hinduism",
 		"uniqueName": "Conquest of Rajputana",
-		"uniques": [
+		"uniques": ["ME",
 		"[-50]% maintenance costs <for [Siege] units>","[+33]% Strength <when fighting in [Hill] tiles>"],
 		"cities": ["Agra","Delhi","Lahore","Fatehpur Sikri","Dhaka","Srinagar","Multan","Allahabad","Kabul"],
 	},
@@ -1500,7 +1635,7 @@
 		"innerColor": [247, 246, 181],
                 "favoredReligion": "Islam",
 		"uniqueName": "The Sinless Emir",
-		"uniques": [
+		"uniques": ["ME",
 		"May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <upon founding a Pantheon>","Gain a free [Namazgah] [in all cities] <upon conquering a city>"],
 		"cities": ["Bukhara", "Samarkand", "Qarshi", "Balkh", "Shakhrisabz", "Chardjuy", "Hisor", "G'uzor", "Kattakurgan", "Sheberghan", "Khujand", "Jizzakh", "Maimana", "Chirakchi", "Denau", "Kulab", "Nurota", "Termez", "Kurganteppa", "Karakul", "Kermine", "Vobkent", "Uroteppa"],
 	},
@@ -1741,13 +1876,13 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [166, 5, 5],
-		"innerColor": [173, 234, 237],
-                "favoredReligion": "Manaism",
+		"outerColor": [153, 47, 43],
+		"innerColor": [255, 255, 255],
+        "favoredReligion": "Manaism",
 		"uniqueName": "Sea Warriors",
 		"uniques": ["Polynesian",
 		"[+2] Sight <for [Embarked] units>","[+35]% Production when constructing [Water] units [in all cities]"],
-		"cities": ["Nuku´alofa","Mu´a","Neiafu","Vaini","Nukunuku"],
+		"cities": ["Nuku´alofa","Mu´a","Neiafu","Vaini","Nukunuku"]
 	},
 {
 		"name": "Buganda",
@@ -1982,7 +2117,7 @@
 		"outerColor": [61, 33, 36],
 		"innerColor": [252, 159, 88],
 		"uniqueName": "Ata el-Mawla",
-		"uniques": [
+		"uniques": ["ME",
 		"Provides the cheapest [Faith] building in your first [4] cities for free","[+3 Gold] from every [Holy site]"],
 		"cities": ["Sanaa", "Taiz", "Amr ?n", "Raydah", "Huth", "Sa’dah", "Al Hazm", "Jihanah", "Ma’rib", "Harib", "Al Bayda’", "Rida’", "Ma’bar", "Dhamar", "Yarim", "An Nadirah", "Qa’tabah", "Ibb", "At Turbah", "Hays", "Zabid", "Manakhah", "Al Mansuriyah", "Bajil", "Al Hudaydah", "Hajja", "Ad Dabi", "Ad Zaydiyah", "Salif", "Al Qanawis", "Az Zubrah", "Al Luhayyah Suq ‘Abs", "Harad", "Maydi"],
 	},
@@ -2319,9 +2454,9 @@
 			"Ban Phai","Loci","Khon Kaen","Surin"],
 	},
 {
-		"name": "Dutch East India Company",
+		"name": "V.O.C",
 		"leaderName": "Jan Pieterszoon Coen",
-		"adjective": ["Dutch"],
+		"adjective": ["V.O.C"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Supremacy",
 		
@@ -2340,9 +2475,9 @@
 		"outerColor": [38, 38, 37],
 		"innerColor": [250, 250, 107],
                 "favoredReligion": "Catholic",
-		"uniqueName": "Slave Trade Monopoly",
+		"uniqueName": "Batavian Traders",
 		"uniques": ["SEA",
-		"[+1 Production] per every [4] [Gold]"],
+		"[Gold] cost of purchasing [Infantry] units [-10]%","[Gold] cost of purchasing [Slave] units [-10]%","Gifts of Gold to City-States generate [+50]% more Influence","[+100]% [Gold] from City-States","[+2 Culture] from each Trade Route"],
 		"cities": ["Surat","Madras","Banten","West Java","Jayakarta","Jepara","Aceh","Pariaman","Jambi","Ambon","Banda Neira","Bengkulu","Cirebon","Makassar","Malacca","Patani","Ternate"]
 	},
 {
@@ -2395,7 +2530,7 @@
 		"innerColor": [64, 62, 43],
                 "favoredReligion": "Islam",
 		"uniqueName": "Desert Nomads",
-		"uniques": [
+		"uniques": ["ME",
 		"[+10]% Strength <for [Camel] units>","[+25]% Strength <for [Heavy Cavalry] units>","Cannot build [Settler] units","May not annex cities"],
 		"cities": ["Al Ramlah","Ibexia","Badiyatun","Oasisend","Al Khaimah","Al Jamalah","Rihlatun","Al Ma anah", "Al Hurriyah"]
 	},
@@ -2422,7 +2557,7 @@
 		"innerColor": [118, 245, 164],
                 "favoredReligion": "Islam",
 		"uniqueName": "Emirate of Bukhara Silk Road Merchants",
-		"uniques": ["[+15]% [Culture] [in all cities] <upon entering a new era>","[+20]% Production when constructing [Culture] buildings [in all cities]","[+20]% Production when constructing [Gold] buildings [in all cities]"],
+		"uniques": ["ME","[+15]% [Culture] [in all cities] <upon entering a new era>","[+20]% Production when constructing [Culture] buildings [in all cities]","[+20]% Production when constructing [Gold] buildings [in all cities]"],
 		"cities": ["Tashkent","Samarkand","Bukhara","Nukus","Fergana","Qarshi","Kokand","Margilan","Termez","Jizzakh","Angren","Chirchiq","Navoiy","Urgench","Shahrisabz"]
 	},
 {
@@ -2562,7 +2697,7 @@
 		"innerColor": [82, 33, 47],
 		"uniqueName": "Qajar Dynasty",
                 "favoredReligion": "Islam",
-		"uniques": ["[+1 Gold] from every [Slave Labor Plantation]","[+2 Faith] from [Dry Tree] tiles [in capital]","[+1 Faith] from [Acacia] tiles [in capital]"],
+		"uniques": ["ME","[+1 Gold] from every [Slave Labor Plantation]","[+2 Faith] from [Dry Tree] tiles [in capital]","[+1 Faith] from [Acacia] tiles [in capital]"],
 		"cities": ["Teheran","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
 			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
 			"Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube",
@@ -2763,7 +2898,7 @@
 		"outerColor": [30, 30, 31],
 		"innerColor": [252, 198, 3],
 		"favoredReligion": "Catholic",
-		"uniqueName": "Dutch East India Company",
+		"uniqueName": "Republic of Merchants",
 		"uniques": ["Non Middle Eastern","[+1 Happiness] per [10] population [in all cities]","[+3 Gold] from every [Luxury resource]","[+1 Happiness] from every [Luxury resource]"],
 		"cities": ["Amsterdam", "Rotterdam", "Utrecht", "Groningen", "Breda", "Nijmegen", "Den Haag", "Haarlem", "Arnhem", "Zutphen", "Maastricht", "Tilburg", "Eindhoven", "Dordrecht", "Leiden", "'s Hertogenbosch", "Almere", "Alkmaar", "Brielle", "Vlissingen", "Apeldoorn", "Enschede", "Amersfoort", "Zwolle", "Venlo", "Uden", "Grave", "Delft", "Gouda", "Nieuwstadt", "Weesp", "Coevorden", "Kerkrade"],
         "spyNames": ["Joost", "Hendrika", "Marten", "Anke", "Guus", "Mr. X", "Dr. Grijs", "Willem", "Thijs", "Neef"]
@@ -2789,7 +2924,7 @@
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Islam",
 		"uniqueName": "Hajj and Umrah Pilgrimages",
-		"uniques": ["[+20]% of excess happiness converted to [Faith]","[Faith] cost of purchasing [Great Scientist] units [-20]%","[Faith] cost of purchasing [Great Merchant] units [-20]%","[Faith] cost of purchasing [Great General] units [-20]%","May buy [Worker] units with [Faith] [in all cities]","[Faith] cost of purchasing [Worker] units [-30]%"],
+		"uniques": ["ME","[+20]% of excess happiness converted to [Faith]","[Faith] cost of purchasing [Great Scientist] units [-20]%","[Faith] cost of purchasing [Great Merchant] units [-20]%","[Faith] cost of purchasing [Great General] units [-20]%","May buy [Worker] units with [Faith] [in all cities]","[Faith] cost of purchasing [Worker] units [-30]%"],
 		"cities": ["Riyadh","Medina","Damascus","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
 			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
 			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr"],
@@ -2820,7 +2955,7 @@
 		"innerColor": [53, 35, 94],
 		"favoredReligion": "Islam",
 		"uniqueName": "Modernization Era",
-		"uniques": [
+		"uniques": ["ME",
 		"No Maintenance costs for improvements in [Desert] tiles","[+15]% Production when constructing [Settler] units [in all cities]"],
 		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
 			   "Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
@@ -3054,7 +3189,7 @@
 		"innerColor": [255, 255, 255],
                 "favoredReligion": "Islam",
 		"uniqueName": "Graveyard of Empires",
-		"uniques": [
+		"uniques": ["ME",
 		"[+25]% Strength <for [Camel] units>", "[+1 Culture] from every [Hill]","[+1 Faith] from every [Mountain]"],
 		"cities": ["Kabul","Kandahar","Herat","Mazar I Shariff", "Jalalabad", "Kunduz", "Ghazni", "Balkh", "Baghlan", "Gardez", "Khost", "Maymana", "Khanabad", "Taloqan", "Pul e Khumri", "Sari Pul", "Paghman"],
 	},
@@ -3379,7 +3514,7 @@
 
 		"favoredReligion": "Islam",
 		"uniqueName": "Pearl of the Gulf",
-		"uniques": [
+		"uniques": ["ME",
 		"[+2 Gold] from every [Coast]","[+1 Science] from every [Strategic resource]","[+1 Gold] from every [Camel]"],
 		"cities": ["Abu Dhabi",
 "Dubai",
@@ -3748,9 +3883,9 @@ Nixon Bureaucratic Reforms
         "innerColor": [239,236,148],
 
 		"favoredReligion": "Judaism",
-		"uniqueName": "Ancien Régime",
+		"uniqueName": "Haussmann's Renovation",
 		"uniques": ["Non Middle Eastern",
-		"[+2 Culture] [in all cities] <before discovering [Steam Power]>"],
+		"[+1 Culture] from every [Monument]","[+15]% [Gold] [in all cities]","[+15]% [Production] [in all cities]","[+15]% [Food] [in all cities]","[+15]% [Faith] [in all cities]","[+15]% [Culture] [in all cities]","[+15]% [Happiness] [in all cities]"],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
@@ -3787,36 +3922,6 @@ Nixon Bureaucratic Reforms
 			"Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
 			"Voronezh","Pskov","Starayarussa","Kostoma","Nizhniy Novgorod","Suzdal","Magnitogorsk"],
         "spyNames": ["Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Zmeya"]
-    },
-	{
-		"name": "Italy",
-		"leaderName": "Victor Emmanuel II",
-		"adjective": ["Italy"],
-		"startBias":["Avoid [Tundra]","Avoid [Desert]"],
-		"preferredVictoryType": "Supremacy",
-
-
-        "startIntroPart1": "",
-        "startIntroPart2": "",
-
-        "declaringWar": "My treasury contains little and my soldiers are getting impatient... (sigh) ...therefore you must die.",
-		"attacked": "So brave, yet so stupid! If only you had a brain similar to your courage.",
-		"defeated": "The gods have deprived Italy of their favour. We have been defeated.",
-		"introduction": "I greet you. I am Victor, Imperator and Maximus of Italy. If you are a friend of Rome, you are welcome.",
-		"neutralHello": "Hail.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "I offer this, for your consideration.",
-		"outerColor": [65, 41, 82],
-		"innerColor": [240, 171, 10],
-		"favoredReligion": "Catholic",
-		"uniqueName": "Mediterranean Glory",
-		"uniques": ["Non Middle Eastern",
-		"[+30]% Production towards any buildings that already exist in the Capital", "[+1 Food] from every [Bonus resource]"],
-		"cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
-			"Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
-			"Signia","Aquileia","Clusium","Sutrium","Cremona","Placentia","Hispalis","Artaxata","Aurelianorum","Nicopolis",
-			  "Agrippina","Verona","Corfinium","Treverii","Sirmium","Augustadorum","Curia","Interrama","Adria"],
-        "spyNames": ["Flavius", "Regula", "Servius", "Lucia", "Cornelius", "Licina", "Canus", "Serpens", "Agrippa", "Brutus"]
     },
     {
 		"name": "Finland",
@@ -4194,9 +4299,9 @@ Nixon Bureaucratic Reforms
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [59, 50, 46],
-		"innerColor": [230, 133, 90],
-		"uniqueName": "Great Plains Tipis",
+		"outerColor": [189, 179, 179],
+		"innerColor": [56, 19, 19],
+		"uniqueName": "Great Plains",
 		"uniques": ["Native American",
 		"[+1 Food] from every [House]","[+1 Faith] from every [Bison]","[+1 Gold] from every [Bison]","[+1 Culture] from every [Forest]"],
 		"cities": ["Little Big Horn","Ochethi Ota","Lakhota Makoce", "Rapid City", "Wood Mountain", "Sichangu", "Oglála", "Hunkpapha", "Mnikhowozu", "Sihasapa", "Oohenunpa"]
@@ -4230,9 +4335,9 @@ Nixon Bureaucratic Reforms
 	},
 
         {
-		"name": "Iroquois",
+		"name": "The Haudenosaunee",
 		"leaderName": "John Norton",
-		"adjective": ["Iroquoise"],
+		"adjective": ["The Haudenosaunee"],
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Supremacy",
 
@@ -4246,8 +4351,8 @@ Nixon Bureaucratic Reforms
 		"hateHello": "Oh, it's you.",
 		"tradeRequest": "Does this trade work for you, my friend?",
 
-        "outerColor": [54,72,72],
-        "innerColor": [246,205,137],
+        "outerColor": [116, 97, 207],
+        "innerColor": [255, 255, 255],
 
         "favoredReligion": "Shamanism",
 		"uniqueName": "The Great Warpath",

@@ -6,6 +6,18 @@
 		"uniques": ["Heals [15] damage if it kills a unit"]
 	},
 	{
+		"name": "Rationed",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+15]% Strength"]
+	},
+	{
+		"name": "Happy",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+15]% Strength"]
+	},
+	{
 		"name": "Road Builder",
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],
@@ -875,6 +887,29 @@
 	"outerColor": [23, 27, 33],
 	"prerequisites": ["Anti-Barbarian II"],
 	"uniques": ["Earn [85]% of killed [Barbarians] unit's [Cost] as [Gold]","[+34]% Strength <vs [Barbarians] units>"],
+	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery"]
+},
+{
+	"name": "Anti-Tank I",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"uniques": ["Only available <after discovering [Tanks]>","[+66]% Strength <vs [Armored] units>"],
+	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery","Civilian"]
+},
+{
+	"name": "Anti-Tank II",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Anti-Tank I"],
+	"uniques": ["Only available <after discovering [Tanks]>","[+34]% Strength <vs [Armored] units>"],
+	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery","Civilian"]
+},
+{
+	"name": "Anti-Tank III",
+	"innerColor": [128, 154, 196],
+	"outerColor": [23, 27, 33],
+	"prerequisites": ["Anti-Tank II"],
+	"uniques": ["Only available <after discovering [Tanks]>","[+34]% Strength <vs [BarbarArmoredians] units>"],
 	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery"]
 },
 {

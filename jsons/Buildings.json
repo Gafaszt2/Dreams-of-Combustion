@@ -1,5 +1,12 @@
 [
 	{
+		"name": "Court - Bosniak",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Comment [Enables the Bosniak Lancer unit]","[+1 Culture] per [3] population [in all cities]",
+			"Only available <for [ME] Civilizations>"]
+	},
+	{
 		"name": "Religion - Islam",
 		"isNationalWonder": true,
 		"cost": 100,
@@ -296,6 +303,178 @@
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
 			"Only available <for [Non Middle Eastern] Civilizations>"]
+	},
+	{
+		"name": "Lombards of Austria",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]",
+		"Instantly provides [10] [Food] <upon entering a new era>",
+		"Instantly provides [10] [Wood] <upon entering a new era>",
+		"Instantly provides [10] [Coin] <upon entering a new era>",
+		"[+15]% [Gold] [in this city]","[+15]% [Production] [in this city]",
+		"Only available <for [Italian] Civilizations>"]
+	},
+	{
+		"name": "Lombards of France",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]",
+		"Instantly provides [10] [Food] <upon entering a new era>",
+		"Instantly provides [10] [Wood] <upon entering a new era>",
+		"Instantly provides [10] [Coin] <upon entering a new era>",
+		"[+1 Culture] per [3] population [in all cities]","[+15]% [Culture] [in this city]",
+		"Only available <for [Italian] Civilizations>"]
+	},
+	{
+		"name": "Lombards of Germany",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]",
+		"Instantly provides [10] [Food] <upon entering a new era>",
+		"Instantly provides [10] [Wood] <upon entering a new era>",
+		"Instantly provides [10] [Coin] <upon entering a new era>",
+		"[+1 Production] from [Resource] tiles [in this city]",
+		"Only available <for [Italian] Civilizations>"]
+	},
+	{
+		"name": "Lombards of Switzerland",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]",
+		"Instantly provides [10] [Food] <upon entering a new era>",
+		"Instantly provides [10] [Wood] <upon entering a new era>",
+		"Instantly provides [10] [Coin] <upon entering a new era>",
+		"[Gold] cost of purchasing items in cities [-55]%", "[-5]% Strength <when attacking>",
+		"Only available <for [Italian] Civilizations>"]
+	},
+	{
+		"name": "Lombards of Hungary",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]",
+		"Instantly provides [10] [Food] <upon entering a new era>",
+		"Instantly provides [10] [Wood] <upon entering a new era>",
+		"Instantly provides [10] [Coin] <upon entering a new era>",
+		"[+22]% Production when constructing [Light Cavalry] units [in this city]",
+		"Only available <for [Italian] Civilizations>"]
+	},
+	{
+		"name": "Export Food I",
+		"isNationalWonder": false,
+		"cost": 100,
+		"uniques": ["Instantly consumes [10] [Food]","[+2 Food] per [10] population [in this city]",
+		"Only available <when above [9] [Food]>",
+		"Only available <in cities without a [Export Gold I]>","Only available <in cities without a [Export Wood I]>",
+		"Only available <for [Italian] Civilizations>"]
+	},
+	{
+		"name": "Export Food II",
+		"isNationalWonder": false,
+		"cost": 100,
+		"requiredBuilding": "Export Food I",
+		"uniques": ["Instantly consumes [10] [Food]","[+2 Food] per [10] population [in this city]",
+		"Only available <when above [9] [Food]>",
+		"Only available <in cities without a [Export Gold II]>","Only available <in cities without a [Export Wood II]>",
+		"Only available <for [Italian] Civilizations>"]
+	},
+	{
+		"name": "Export Food III",
+		"isNationalWonder": false,
+		"cost": 100,
+		"requiredBuilding": "Export Food II",
+		"uniques": ["Instantly consumes [10] [Food]","[+2 Food] per [10] population [in this city]",
+		"Only available <when above [9] [Food]>",
+		"Only available <in cities without a [Export Gold III]>","Only available <in cities without a [Export Wood III]>",
+		"Only available <for [Italian] Civilizations>"]
+	},
+	{
+		"name": "Export Food IV",
+		"isNationalWonder": false,
+		"cost": 100,
+		"requiredBuilding": "Export Food III",
+		"uniques": ["Instantly consumes [10] [Food]","[+2 Food] per [10] population [in this city]",
+		"Only available <when above [9] [Food]>",
+		"Only available <in cities without a [Export Gold IV]>","Only available <in cities without a [Export Wood IV]>",
+		"Only available <for [Italian] Civilizations>"]
+	},
+	{
+		"name": "Export Wood I",
+		"isNationalWonder": false,
+		"cost": 100,
+		"uniques": ["Instantly consumes [10] [Wood]","[+2 Production] per [10] population [in this city]",
+		"Only available <when above [9] [Wood]>",
+		"Only available <in cities without a [Export Gold I]>","Only available <in cities without a [Export Food I]>",
+		"Only available <for [Italian] Civilizations>"]
+	},
+	{
+		"name": "Export Wood II",
+		"isNationalWonder": false,
+		"cost": 100,
+		"requiredBuilding": "Export Wood I",
+		"uniques": ["Instantly consumes [10] [Wood]","[+2 Production] per [10] population [in this city]",
+		"Only available <when above [9] [Wood]>",
+		"Only available <in cities without a [Export Gold II]>","Only available <in cities without a [Export Food II]>",
+		"Only available <for [Italian] Civilizations>"]
+	},
+	{
+		"name": "Export Wood III",
+		"isNationalWonder": false,
+		"cost": 100,
+		"requiredBuilding": "Export Wood II",
+		"uniques": ["Instantly consumes [10] [Wood]","[+2 Production] per [10] population [in this city]",
+		"Only available <when above [9] [Wood]>",
+		"Only available <in cities without a [Export Gold III]>","Only available <in cities without a [Export Food III]>",
+		"Only available <for [Italian] Civilizations>"]
+	},
+	{
+		"name": "Export Wood IV",
+		"isNationalWonder": false,
+		"cost": 100,
+		"requiredBuilding": "Export Wood III",
+		"uniques": ["Instantly consumes [10] [Wood]","[+2 Production] per [10] population [in this city]",
+		"Only available <when above [9] [Wood]>",
+		"Only available <in cities without a [Export Gold IV]>","Only available <in cities without a [Export Food IV]>",
+		"Only available <for [Italian] Civilizations>"]
+	},
+	{
+		"name": "Export Gold I",
+		"isNationalWonder": false,
+		"cost": 100,
+		"uniques": ["Instantly consumes [10] [Coin]","[+2 Gold] per [10] population [in this city]",
+		"Only available <when above [9] [Coin]>",
+		"Only available <in cities without a [Export Wood I]>","Only available <in cities without a [Export Food I]>",
+		"Only available <for [Italian] Civilizations>"]
+	},
+	{
+		"name": "Export Gold II",
+		"isNationalWonder": false,
+		"cost": 100,
+		"requiredBuilding": "Export Gold I",
+		"uniques": ["Instantly consumes [10] [Coin]","[+2 Gold] per [10] population [in this city]",
+		"Only available <when above [9] [Coin]>",
+		"Only available <in cities without a [Export Wood II]>","Only available <in cities without a [Export Food II]>",
+		"Only available <for [Italian] Civilizations>"]
+	},
+	{
+		"name": "Export Gold III",
+		"isNationalWonder": false,
+		"cost": 100,
+		"requiredBuilding": "Export Gold II",
+		"uniques": ["Instantly consumes [10] [Coin]","[+2 Gold] per [10] population [in this city]",
+		"Only available <when above [9] [Coin]>",
+		"Only available <in cities without a [Export Wood III]>","Only available <in cities without a [Export Food III]>",
+		"Only available <for [Italian] Civilizations>"]
+	},
+	{
+		"name": "Export Gold IV",
+		"isNationalWonder": false,
+		"cost": 100,
+		"requiredBuilding": "Export Gold III",
+		"uniques": ["Instantly consumes [10] [Coin]","[+2 Gold] per [10] population [in this city]",
+		"Only available <when above [9] [Coin]>",
+		"Only available <in cities without a [Export Wood IV]>","Only available <in cities without a [Export Food IV]>",
+		"Only available <for [Italian] Civilizations>"]
 	},
 	{
 		"name": "Domnița Court",
@@ -834,7 +1013,7 @@
 		"uniqueTo": "Syria al-Sham",
         "replaces": "Monument",
 		"culture": 2,
-		"prodcution": 2,
+		"production": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"uniques": ["Destroyed when the city is captured"]
@@ -842,15 +1021,12 @@
 	{
 		"name": "Vale Levu",
 		"uniqueTo": "Fiji",
-        "replaces": "Palace",
-		"isNationalWonder": true,
-		"production": 3,
-		"science": 3,
-		"gold": 3,
-		"culture": 1,
-		"cityStrength": 2,
-		"cost": 0,
-		"uniques": ["[+1 Culture] per [6] population [in all cities]","[+15]% [Culture] [in this city] <upon constructing [Food]> <for [4] turns>","Provides [1] [National Choice]","Indicates the capital city"]
+        "replaces": "Monument",
+		"culture": 2,
+		"production": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"uniques": ["[+1 Culture] per [6] population [in all cities]","[+15]% [Culture] [in this city] <upon constructing [Food]> <for [4] turns>","Destroyed when the city is captured"]
 	},
 	{
 		"name": "Palace",
@@ -1151,6 +1327,27 @@
 		"requiredBuilding": "Arsenal",
 		"requiredTech": "Replaceable Parts",
 		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Barricade",
+		"uniqueTo": "Italia Libera",
+        "replaces": "Walls",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Anesthesia",
+		"uniques": ["Comment [It builds 50% faster.]","Destroyed when the city is captured"]
+	},
+	{
+		"name": "Alpine Fort",
+		"uniqueTo": "Sardinia",
+        "replaces": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Scientific Theory",
+		"uniques": ["[+1 Production] from [Fort] tiles [in this city]","[+1 Production] from [Citadel] tiles [in this city]","Destroyed when the city is captured"]
 	},
 	{
 		"name": "Orthodox Manastir",
@@ -1578,6 +1775,17 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
+		"name": "Diocese",
+		"replaces": "Temple",
+		"uniqueTo": "Papal States",
+		"faith": 4,
+        "greatPersonPoints": {"Great Prophet": 1},
+		"cost": 100,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["[+1 Faith] per [3] population [in this city]","Destroyed when the city is captured"]
+	},
+	{
 		"name": "Kubandwa Shrine",
 		"replaces": "Temple",
 		"uniqueTo": "Burundi",
@@ -1782,6 +1990,31 @@
 "[+35]% Great Person generation [in this city]", "Cost increases by [50] per owned city"],
 		"requiredTech": "Paris Agreements"
 	},
+	{
+		"name": "Olive Terrace",
+		"replaces": "Granary",
+		"uniqueTo": "Tuscany",
+		"food": 2,
+		"culture":1,
+		"hurryCostModifier": 25,
+        "requiredTech": "Hunting Pets",
+		"uniques": ["[+2 Food, +1 Gold] from [Olive] tiles [in this city]",
+			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"]
+	},
+	{
+		"name": "Lemon Grove",
+		"replaces": "Granary",
+		"uniqueTo": "Two Sicilies",
+		"food": 2,
+		"gold":2,
+		"hurryCostModifier": 25,
+                "requiredTech": "Hunting Pets",
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"]
+	},
 {
 		"name": "Granary",
 		"food": 2,
@@ -1791,6 +2024,56 @@
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]"]
+	},
+	{
+		"name": "Trade Depot",
+		"hurryCostModifier": 25,
+        "requiredTech": "Saw",
+		"uniques": ["Must be next to [Semi-Arid]",
+		"[+1 Culture] per [3] population [in this city]",
+		"[+1 Faith] per [3] population [in this city]"
+			]
+	},
+	{
+		"name": "Improved Trade Depot",
+		"hurryCostModifier": 25,
+        "requiredTech": "Fridge",
+		"maintenance": 2,
+		"requiredBuilding": "Trade Depot",
+		"uniques": [
+		"[+1 Culture] per [3] population [in this city]",
+		"[+1 Faith] per [3] population [in this city]"
+			]
+	},
+	{
+		"name": "Simple Rations",
+		"hurryCostModifier": 25,
+        "requiredTech": "Anesthesia",
+		"requiredNearbyImprovedResources":["Cattle","Camel","Sheep","Horses","Zebra","Seals","Cod","Fish","Shark","Crab","Sardine","Tuna","Lobster"],
+		"maintenance": 1,
+		"uniques": [
+		"All newly-trained [Melee] units [in this city] receive the [Rationed] promotion"
+			]
+	},
+	{
+		"name": "Tropical Resort",
+		"hurryCostModifier": 25,
+        "requiredTech": "Saw",
+		"happiness": 1,
+		"uniques": ["Must be next to [Coastal]",
+		"All newly-trained [Melee] units [in this city] receive the [Happy] promotion"
+			]
+	},
+	{
+		"name": "Improved Tropical Resort",
+		"hurryCostModifier": 25,
+        "requiredTech": "Fridge",
+		"maintenance": 2,
+		"happiness":1,
+		"requiredBuilding": "Trade Depot",
+		"uniques": [
+		"New [Military] units start with [15] XP [in this city]"
+			]
 	},
 	{
 		"name": "Enkang",
@@ -2400,15 +2683,6 @@
 		"requiredTech": "Personal Computing"
 	},
         {
-		"name": "Organ Market",
-		"gold": 6,
-                "food": -3,
-		"requiredBuilding": "Market",
-		"hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured", "Cost increases by [5] per owned city"],
-		"requiredTech": "International Trade Agreements"
-	},
-        {
 		"name": "Technology Factory",
                 "requiredNearbyImprovedResources": ["Aluminum"],
 		"science": 2,
@@ -2541,6 +2815,17 @@
 		"uniques":["[+1 Food] from [Cattle] tiles [in this city]"],
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Vaccine"
+	},
+	{
+		"name": "Imperial Barracks",
+		"uniqueTo": "Lombardy-Venetia",
+        "replaces": "Barracks",
+		"maintenance": 2,
+		"culture":2,
+		"production":2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Infantry] units [in this city]"],
+		"requiredTech": "Hunting Pets"
 	},
 	{
 		"name": "Oja Oba",
@@ -2678,6 +2963,16 @@
 		"requiredTech": "Rifling"
 	},
 	{
+		"name": "Royal Arsenal",
+		"uniqueTo": "Sardinia",
+        "replaces": "Armory",
+		"cost": 150,
+		"production": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["New [Infantry] units start with [15] XP [in this city]","New [Artillery] units start with [10] XP [in this city]","[+15]% Production when constructing [Artillery] units [in this city]"],
+		"requiredTech": "Industrialization"
+	},
+	{
 		"name": "Brass Foundry",
 		"uniqueTo": "The Nupe",
         "replaces": "Forge",
@@ -2716,6 +3011,14 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
 			"Connects trade routes over water","Must be next to [Coast]"],
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Armory",
+		"cost": 220,
+		"production": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["New [Artillery] units start with [10] XP [in this city]","[+15]% Production when constructing [Artillery] units [in this city]"],
 		"requiredTech": "Industrialization"
 	},
 	{
