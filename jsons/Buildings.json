@@ -305,6 +305,121 @@
 			"Only available <for [Non Middle Eastern] Civilizations>"]
 	},
 	{
+		"name": "Parlament House",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["[+1 Production] per [2] population [in all cities]","[+5]% [Happiness] [in capital]",
+			"Only available <for [Anglo] Civilizations>"]
+	},
+	{
+		"name": "Vote for Imperial Loyalty",
+		"isNationalWonder": true,
+		"requiredBuilding":"Parlament House",
+		"cost": 100,
+		"uniques": ["[Gold] cost of purchasing [Infantry] units [-20]%","[Gold] cost of purchasing [Slave] units [-20]%",
+			"Consumes [1] [National Choice]",
+			"Only available <for [Anglo] Civilizations>"]
+	},
+	{
+		"name": "Vote for Abolition of Slavery",
+		"isNationalWonder": true,
+		"requiredBuilding":"Parlament House",
+		"cost": 100,
+		"uniques": ["[+33]% [Happiness] [in all cities]","[Gold] cost of purchasing [Slave] units [+450]%",
+			"Consumes [1] [National Choice]",
+			"Only available <for [Anglo] Civilizations>"]
+	},
+	{
+		"name": "Vote for Ban on Child Labor",
+		"isNationalWonder": true,
+		"requiredBuilding":"Parlament House",
+		"cost": 100,
+		"uniques": ["[+5]% [Happiness] [in all cities] <upon entering a new era>",
+			"Consumes [1] [National Choice]",
+			"Only available <for [Anglo] Civilizations>"]
+	},
+	{
+		"name": "Vote for Universal Male Suffrage",
+		"isNationalWonder": true,
+		"requiredBuilding":"Parlament House",
+		"cost": 100,
+		"uniques": ["[+2 Happiness] <in cities connected to the capital>",
+			"Consumes [1] [National Choice]",
+			"Only available <for [Anglo] Civilizations>"]
+	},
+	{
+		"name": "Vote for Land Reform for Settlers",
+		"isNationalWonder": true,
+		"requiredBuilding":"Parlament House",
+		"cost": 100,
+		"uniques": ["[-50]% Gold cost of acquiring tiles [in all cities]",
+			"Consumes [1] [National Choice]",
+			"Only available <for [Anglo] Civilizations>"]
+	},
+	{
+		"name": "Vote for Pro-Slavery Conservatism",
+		"isNationalWonder": true,
+		"requiredBuilding":"Parlament House",
+		"cost": 100,
+		"uniques": ["[Gold] cost of purchasing [Slave] units [-50]%",
+			"Consumes [1] [National Choice]",
+			"Only available <for [Anglo] Civilizations>"]
+	},
+	{
+		"name": "Vote for Religious Supremacy",
+		"isNationalWonder": true,
+		"requiredBuilding":"Parlament House",
+		"cost": 100,
+		"uniques": ["[+22]% [Faith] <in cities connected to the capital>",
+			"Consumes [1] [National Choice]",
+			"Only available <for [Anglo] Civilizations>"]
+	},
+	{
+		"name": "Vote for Indigenous Relations",
+		"isNationalWonder": true,
+		"requiredBuilding":"Parlament House",
+		"cost": 100,
+		"uniques": ["[+1 Food] from every [Mill]","[-10]% Strength <vs [Barbarian] units>",
+			"Consumes [1] [National Choice]",
+			"Only available <for [Anglo] Civilizations>"]
+	},
+	{
+		"name": "Vote for Free Trade",
+		"isNationalWonder": true,
+		"requiredBuilding":"Parlament House",
+		"cost": 100,
+		"uniques": ["[+4 Gold] [in all cities]","[+15]% [Gold] [in this city]",
+			"Consumes [1] [National Choice]",
+			"Only available <for [Anglo] Civilizations>"]
+	},
+	{
+		"name": "Vote for Protectionism",
+		"isNationalWonder": true,
+		"requiredBuilding":"Parlament House",
+		"cost": 100,
+		"uniques": ["[+2 Gold] [in all cities]","[+1 Production] [in all cities]","[+10]% [Food] [in this city]",
+			"Consumes [1] [National Choice]",
+			"Only available <for [Anglo] Civilizations>"]
+	},
+	{
+		"name": "Vote for Public Education",
+		"isNationalWonder": true,
+		"requiredBuilding":"Parlament House",
+		"cost": 100,
+		"uniques": ["[+2 Science] [in all cities]",
+			"Consumes [1] [National Choice]",
+			"Only available <for [Anglo] Civilizations>"]
+	},
+	{
+		"name": "Vote for Laboral Rights",
+		"isNationalWonder": true,
+		"requiredBuilding":"Parlament House",
+		"cost": 100,
+		"uniques": ["[+25]% [Happiness] [in all cities]","[+60]% maintenance costs <for [Civilian] units>",
+			"Consumes [1] [National Choice]",
+			"Only available <for [Anglo] Civilizations>"]
+	},
+	{
 		"name": "Lombards of Austria",
 		"isNationalWonder": true,
 		"cost": 100,
@@ -1505,19 +1620,6 @@
 		"uniques": ["Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>"],
 		"requiredTech": "Rifling"
-	},
-
-        {
-		"name": "Madrasah",
-                "uniqueTo": "Egypt",
-                "replaces": "Public School",
-		"faith": 3,
-                "science": 4,
-		"specialistSlots": {"Scientist": 1},
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"uniques": ["[+1 Faith] from [House] tiles [in this city]", "Only available <in cities without a [Private School]>"],
-		"requiredTech": "Sanitation"
 	},
         {
 		"name": "Penal Colony",

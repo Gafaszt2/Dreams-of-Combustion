@@ -1,6 +1,25 @@
 {
     "name": "Global uniques",
     "uniques": [
+        ///// Cultural stuff
+        "[+5]% [Culture] [in all cities] <when above [1] [Literary Work]>",
+        "[+5]% [Culture] [in all cities] <when above [1] [Composition]>",
+
+        "[+9]% [Culture] [in all cities] <when above [4] [Literary Work]>",
+        "[+9]% [Culture] [in all cities] <when above [4] [Composition]>",
+
+        "[+15]% [Culture] [in all cities] <when above [6] [Literary Work]>",
+        "[+15]% [Culture] [in all cities] <when above [6] [Composition]>",
+
+        "[+25]% [Culture] [in all cities] <when above [10] [Literary Work]>",
+        "[+25]% [Culture] [in all cities] <when above [10] [Composition]>",
+
+        "[+35]% [Culture] [in all cities] <when above [14] [Literary Work]>",
+        "[+35]% [Culture] [in all cities] <when above [14] [Composition]>",
+
+        "[+45]% [Culture] [in all cities] <when above [18] [Literary Work]>",
+        "[+45]% [Culture] [in all cities] <when above [18] [Composition]>",
+
         ///// Manpower and Factories
 
         "[+10]% Production when constructing [Production] buildings [in all cities] <when above [1] [Manpower]>",
@@ -107,24 +126,19 @@
         "[Gold] cost of purchasing [Water] units [-3]% <upon entering a new era>",
         "[Gold] cost of purchasing [Air] units [-3]% <upon entering a new era>",
 
-        "[Faith] cost of purchasing [Great General] units [-10]% <during a Golden Age>",
-        "[Faith] cost of purchasing [Great Engineer] units [-10]% <during a Golden Age>",
-        "[Faith] cost of purchasing [Great Artist] units [-10]% <during a Golden Age>",
-        "[Faith] cost of purchasing [Great Merchant] units [-10]% <during a Golden Age>",
-        "[Faith] cost of purchasing [Great Scientist] units [-10]% <during a Golden Age>",
+        "[Faith] cost of purchasing [Great Person] units [-10]% <during a Golden Age>",
 
-        "[Faith] cost of purchasing [Great General] units [-10]% <upon entering a new era>",
-        "[Faith] cost of purchasing [Great Engineer] units [-10]% <upon entering a new era>",
-        "[Faith] cost of purchasing [Great Artist] units [-10]% <upon entering a new era>",
-        "[Faith] cost of purchasing [Great Merchant] units [-10]% <upon entering a new era>",
-        "[Faith] cost of purchasing [Great Scientist] units [-10]% <upon entering a new era>",
+        "[Faith] cost of purchasing [Great Person] units [-10]% <upon entering a new era>",
         
-        "May buy [Great Artist] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
-        "May buy [Great Engineer] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
-        "May buy [Great General] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
-        "May buy [Great Merchant] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
-        "May buy [Great Scientist] units for [1000] [Faith] [in all cities] at an increasing price ([500])",
-        "May buy [Great Prophet] units for [500] [Faith] [in all cities] at an increasing price ([100])",
+        "May buy [Great Artist] units for [500] [Faith] [in all cities] at an increasing price ([500])",
+        "May buy [Great Engineer] units for [500] [Faith] [in all cities] at an increasing price ([500])",
+        "May buy [Great General] units for [500] [Faith] [in all cities] at an increasing price ([500])",
+        "May buy [Great Admiral] units for [500] [Faith] [in all cities] at an increasing price ([500])",
+        "May buy [Great Merchant] units for [500] [Faith] [in all cities] at an increasing price ([500])",
+        "May buy [Great Scientist] units for [500] [Faith] [in all cities] at an increasing price ([500])",
+        "May buy [Great Writer] units for [500] [Faith] [in all cities] at an increasing price ([500])",
+        "May buy [Great Musician] units for [500] [Faith] [in all cities] at an increasing price ([500])",
+        "May buy [Great Prophet] units for [700] [Faith] [in all cities] at an increasing price ([100])",
 
         ////// Maluses when sadness
         

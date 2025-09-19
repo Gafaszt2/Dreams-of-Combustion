@@ -773,6 +773,16 @@
 		"uniques":["Not shown on world screen <without [Coin]>","Cannot be traded","Stockpiled"]
 	},
 	{
+		"name": "Literary Work",
+		"resourceType": "Strategic",
+		"uniques":["Stockpiled","Not shown on world screen <without [Literary Work]>"]
+	},
+	{
+		"name": "Composition",
+		"resourceType": "Strategic",
+		"uniques":["Stockpiled","Not shown on world screen <without [Composition]>"]
+	},
+	{
 		"name": "Nomad Manpower",
 		"resourceType": "Strategic",
 		"uniques":["Not shown on world screen <without [Nomad Manpower]>","Cannot be traded","Stockpiled"]

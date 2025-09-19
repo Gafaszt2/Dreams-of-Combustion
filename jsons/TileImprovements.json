@@ -401,8 +401,8 @@
         "uniqueTo": "Maori",
         "turnsToBuild": 10,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Costs [1] [Gold] per turn when in your territory","Improves [Bonus] resource in this tile",
-		    "[+1 Food] from [Bonus resource] tiles","[+1 Food] from [Bonus resource] tiles <upon entering a new era>","[+2 Culture] <starting from the [Second World War]>",
+		"uniques": ["Costs [1] [Gold] per turn when in your territory","Improves [Land] resource in this tile",
+		    "[+1 Food] from [Land] tiles","[+1 Food] from [Land] tiles <upon entering a new era>","[+2 Culture] <starting from the [Second World War]>",
 			"Gives a defensive bonus of [10]%",
 			"Adjacent enemy units ending their turn take [5] damage",
 			"Removes removable features when built"]

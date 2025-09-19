@@ -1587,7 +1587,7 @@
 	},
         {
 		"name": "The Mughals",
-		"leaderName": "Akbar",
+		"leaderName": "Bahadur Shah II",
 		"adjective": ["The Mughals"],
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Political",
@@ -1607,9 +1607,11 @@
 		"outerColor": [57, 152, 108],
 		"innerColor": [236, 255, 187],
                 "favoredReligion": "Hinduism",
-		"uniqueName": "Conquest of Rajputana",
+		"uniqueName": "Indian Rebellion of 1857",
 		"uniques": ["ME",
-		"[-50]% maintenance costs <for [Siege] units>","[+33]% Strength <when fighting in [Hill] tiles>"],
+		"[-44]% maintenance costs <for [Artillery] units>","[-44]% maintenance costs <for [Civilian] units>",
+		"Earn [30]% of killed [Military] unit's [Strength] as [Gold]",
+		"[+25]% Strength <when fighting in [Hill] tiles>","[+15]% Strength <when fighting in [Friendly Land] tiles>"],
 		"cities": ["Agra","Delhi","Lahore","Fatehpur Sikri","Dhaka","Srinagar","Multan","Allahabad","Kabul"],
 	},
 {
@@ -2954,9 +2956,10 @@
 		"outerColor": [245,248,185],
 		"innerColor": [53, 35, 94],
 		"favoredReligion": "Islam",
-		"uniqueName": "Modernization Era",
+		"uniqueName": "Invasion of Libya and Sudan",
 		"uniques": ["ME",
-		"No Maintenance costs for improvements in [Desert] tiles","[+15]% Production when constructing [Settler] units [in all cities]"],
+		"[1] free [Camel Explorer] units appear","[+20]% Strength <for [Archaic Infantry] units>",
+		"[+1 Faith, +1 Science] from every specialist [in all cities]"],
 		"cities": ["Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten",
 			   "Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
 			   "Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant",
@@ -2964,30 +2967,6 @@
 			   "Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"],
         "spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
     },
-{
-		"name": "British Canada",
-		"leaderName": "John A. MacDonald",
-		"adjective": ["Canadian"],
-		"startBias": ["Tundra"],
-		"preferredVictoryType": "Supremacy",
-                "startIntroPart1": " ",
-		"startIntroPart2": " ",
-		"declaringWar": "For the good of my people i must declare war!",
-		"attacked": "You are making a big mistake.",
-		"defeated": "Will this be my last goodbye to you?.",
-		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
-		
-		"neutralHello": "Hello, you.",
-		"hateHello": "What YOU want?!",
-		"tradeRequest": "Better hurry, I may change my mind.",
-		"outerColor": [255, 255, 255],
-		"innerColor": [255, 0, 0],
-                "favoredReligion": "Calvinism",
-		"uniqueName": "Ethnocide",
-		"uniques": ["Non Middle Eastern",
-		"[+30]% Strength <vs [Barbarian] units>","[+1 Science] from every [Lakes]"],
-		"cities": ["Ottawa","Toronto","Montreal","Vancouver","Calgary","Edmonton","Winnipeg","Quebec City","Hamilton","Kitchener","Laval","London","Victoria","Halifax","Oshawa","Windsor","Saskatoon","St. Catharines","Regina","St. John's","Kelowna"]
-	},
 {
 		"name": "Colombia",
 		"leaderName": "Simon Bolivar",
@@ -3600,6 +3579,7 @@
 {
 		"name": "United States of America",
 		"leaderName": "Abraham Lincoln",
+		"startBias": ["Coast"],
 		"adjective": ["United States of America"],
 		"preferredVictoryType": "Supremacy",
 
@@ -3624,7 +3604,7 @@
 
 Nixon Bureaucratic Reforms
 [+20]% [Science] [in all cities] starting from the [Cold War], [+20]% [Gold] [in all cities] starting from the [Cold War]",
-		"uniques": ["Non Middle Eastern",
+		"uniques": ["Anglo",
 		"[+30]% [Production] from every [House]","[+20]% [Production] from every [Mill]","[-3]% [Happiness] from every [Slave Labor Plantation]", "[Gold] cost of purchasing [Slave] units [+200]%",
 	"[+20]% [Science] [in all cities] <starting from the [Cold War]>","[+20]% [Gold] [in all cities] <starting from the [Cold War]>"], 
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
@@ -3635,10 +3615,66 @@ Nixon Bureaucratic Reforms
 			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
+	
         {
-		"name": "Confederate States of America",
+		"name": "New England",
+		"startBias": ["Coast","Tundra","Snow","Avoid [Plains]"],
+		"leaderName": "Lord Durham",
+		"adjective": ["New England"],
+		"preferredVictoryType": "Supremacy",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "I hereby inform you of our intention to wipe out your civilization from this world.",
+		"attacked": "Pitiful fool! Now we shall destroy you!",
+		"defeated": "You were much wiser than I thought.",
+		"introduction": "We hope for a fair and just relationship with you, who are renowned for military bravery.",
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you...",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+
+        "outerColor": [255, 69, 36],
+        "innerColor": [255, 255, 255],
+
+		"uniqueName": "Colonial Reform",
+		"uniques": ["Anglo",
+		"[+35]% [Gold] [in all cities]","[+100]% Production when constructing [Courthouse] buildings [in all cities]","[+25]% [Happiness] from every [Courthouse]","[+25]% [Gold] from every [Courthouse]"], 
+		"cities": ["York","Kingston","Hamilton","London","Ottawa","Niagara","Windsor","Halifax","Saint John","Charlottetown"],
+        "spyNames": ["Cousin"]
+	},
+	 {
+		"name": "New France",
+		"startBias": ["Coast","Tundra","Snow","Avoid [Plains]"],
+		"leaderName": "Louis-Joseph Papineau",
+		"adjective": ["New France"],
+		"preferredVictoryType": "Supremacy",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "I hereby inform you of our intention to wipe out your civilization from this world.",
+		"attacked": "Pitiful fool! Now we shall destroy you!",
+		"defeated": "You were much wiser than I thought.",
+		"introduction": "We hope for a fair and just relationship with you, who are renowned for military bravery.",
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you...",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+
+        "outerColor": [152, 185, 214],
+        "innerColor": [4, 18, 31],
+
+		"uniqueName": "Patriotes' Spirit",
+		"uniques": ["Anglo",
+		"[+2 Gold] from every [Pines]","[+25]% of excess happiness converted to [Culture] <after discovering [Novel]>","Free [Great Writer] appears <upon discovering [Novel] technology>"], 
+		"cities": ["Montréal","Québec City","Trois-Rivières","Sherbrooke","Saguenay","Rimouski","Lévis","Saint-Hyacinthe","Drummondville","Joliette"],
+        "spyNames": ["Cousin"]
+	},
+        {
+		"name": "Confederate America",
 		"leaderName": "Jefferson Davis",
 		"adjective": ["Confederate"],
+		"startBias": ["Coast"],
 		"preferredVictoryType": "Supremacy",
 
         "startIntroPart1": "",
@@ -3657,8 +3693,8 @@ Nixon Bureaucratic Reforms
 
         "favoredReligion": "Baptist",
 		"uniqueName": "Deo Vindice",
-		"uniques": ["Non Middle Eastern",
-		"Free [Texas Ranger] appears <upon discovering [Railway] technology>","Free [Texas Ranger] appears <upon discovering [Rifling] technology>","[+1 Faith] from every [Slave Labor Plantation]"], 
+		"uniques": ["Anglo",
+		"[+3 Gold] from every [Slave Labor Plantation]","[1] free [Slave] units appear","[Gold] cost of purchasing [Slave] units [-20]%"], 
 		"cities": ["Montgomery","Richmond","Danville","New Orleans","Charleston","Atlanta"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
@@ -3685,7 +3721,7 @@ Nixon Bureaucratic Reforms
 
         "favoredReligion": "Baptist",
 		"uniqueName": "Lone Star State",
-		"uniques": ["Non Middle Eastern",
+		"uniques": ["Anglo",
 		"[+1 Food] from every [Cattle]","[+1 Production] from every [Plains]"], 
 		"cities": ["Austin","Houston","San Antonio","Dallas","Galveston","Corpus Christi","Fort Worth","El Paso","Amarillo","Lubbock"],
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
@@ -3772,8 +3808,8 @@ Nixon Bureaucratic Reforms
 		"outerColor": [10, 18, 79],
 		"innerColor": [206, 255, 122],
 		"uniqueName": "Cape Richness",
-                "favoredReligion": "Calvinism",
-		"uniques": ["Non Middle Eastern",
+        "favoredReligion": "Calvinism",
+		"uniques": ["Anglo",
 		"[+2 Gold] from every [Coast]", "[+20]% Production when constructing [Production] buildings [in all cities]"],
 		"cities": ["Cape Town","Clanwilliam","Stellenbosch","Zwellendam","Tullbagh","Beufort","George","Uitenhangue"]
 	},
@@ -3799,7 +3835,7 @@ Nixon Bureaucratic Reforms
 		"outerColor": [30, 30, 31],
 		"innerColor": [250, 98, 10],
 		"uniqueName": "The Great Trek",
-		"uniques": ["Non Middle Eastern",
+		"uniques": ["Anglo",
 		"[+1] Movement <for [Civilian] units>","[+1 Gold] from every [Ranch]","[+25]% Strength <vs [Barbarian] units>"],
 		"cities": ["Pretoria","Johannesburg","Vereeniging","Heidelberg","Messina","Nelspruit","Witwatersrand","Vaal Triangle","Zoutpansberg"]
 	},
