@@ -2142,6 +2142,17 @@
 		"uniques": ["[+2 Gold] from [Salt] tiles [in this city]", "[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]"],
 		"requiredTech": "Mining"
 	},
+	{
+		"name": "Salinas",
+		"replaces": "Mint",
+		"uniqueTo": "Llamaiché",
+        "greatPersonPoints": {"Great Prophet": 1},
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Gold Ore", "Silver", "Salt"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Gold] from [Salt] tiles [in this city]", "[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]"],
+		"requiredTech": "Mining"
+	},
         {
 		"name": "Gold Mine",
         "replaces": "Bank",

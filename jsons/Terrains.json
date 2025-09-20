@@ -153,7 +153,7 @@
 		"movementCost": 2,
 		"overrideStats": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Tundra","Semi-Arid","Plains","Coastal","Grassland","Desert","Snow","Beach","Mud","Mountain Land","Savannah","Cold Soil","Dry Soil","Fresh Soil"],
+		"occursOn": ["Tundra","Semi-Arid","Plains","Coastal","Grassland","Desert","Snow","Beach","Mud","Mountain Land","Savannah","Cold Soil","Dry Soil","Fresh Soil","Pampas Grassland"],
 		"uniques": ["Rough terrain",
 					"[+5] Strength for cities built on this terrain",
 					"Has an elevation of [1] for visibility calculations",
@@ -528,7 +528,7 @@
 		"overrideStats": false,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Savannah","Plains","Mountain Land"],
+		"occursOn": ["Savannah","Plains","Mountain Land","Pampas Grassland"],
 		"uniques": ["Vegetation","A Region is formed with at least [30]% [Acacia] tiles, with priority [3]",
 					"Provides a one-time bonus of [+1 Gold, +2 Production] to the closest city when cut down <(modified by game speed)>",
 					"Blocks line-of-sight from tiles at same elevation",
@@ -776,6 +776,14 @@
 		"faith": 1,
 		"movementCost": 1,
 		"RGB": [194, 175, 153],
+	},
+	{
+		"name": "Pampas Grassland",
+		"type": "Land",
+		"food": 2,
+		"uniques":["Grassland"],
+		"movementCost": 1,
+		"RGB": [147, 194, 126]
 	},
         {
 		"name": "Cold Soil",

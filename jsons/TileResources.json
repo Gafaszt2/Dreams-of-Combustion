@@ -2,7 +2,7 @@
     {
 		"name": "Cattle",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland","Savannah","Mountain Land","Mud"],
+		"terrainsCanBeFoundOn": ["Grassland","Savannah","Mountain Land","Mud","Pampas Grassland"],
 		"food": 1,
 		"improvement": "Ranch",
 		"improvementStats": {"production": 1},
@@ -150,7 +150,7 @@
         {
 		"name": "Horses",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland","Savannah","Mountain Land","Mud","Cold Soil","Tundra","Semi-Arid","Semi-Arid + Desert Plants"],
+		"terrainsCanBeFoundOn": ["Grassland","Savannah","Mountain Land","Mud","Cold Soil","Tundra","Semi-Arid","Semi-Arid + Desert Plants","Pampas Grassland"],
 		"food": 1,
 		"improvement": "Stable",
 		"improvementStats": {"production": 1},
@@ -169,7 +169,7 @@
 	{
 		"name": "Deer",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Forest","Tundra","Cold Soil"], // Tundra only if lowland
+		"terrainsCanBeFoundOn": ["Forest","Tundra","Cold Soil","Pampas Grassland"], // Tundra only if lowland
 		"food": 1,
 		"improvement": "Hunter Lodge",
 		"improvementStats": {"production": 1},
@@ -471,11 +471,10 @@
 	{
 		"name": "Salt",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Desert","Tundra","Plains","Forest"],
-		"gold": 1,
-		"food": 1,
+		"terrainsCanBeFoundOn": ["Desert","Tundra","Plains","Forest","Pampas Grassland"],
+		"gold": 2,
 		"improvement": "Mine",
-		"improvementStats": {"food": 1},
+		"improvementStats": {"gold": 1},
 		"uniques": ["Generated on every [100] tiles <in [Desert] tiles>"]
 	},
 	{
@@ -489,7 +488,7 @@
 	},
         {
 		"name": "Yerba Mate",
-                "terrainsCanBeFoundOn": ["Mud","Fresh Soil"],
+                "terrainsCanBeFoundOn": ["Mud","Fresh Soil","Pampas Grassland"],
 		"resourceType": "Luxury",
 		"culture": 1,
                 "uniques": ["Doesn't generate naturally"]
@@ -563,7 +562,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Tundra","Cold Soil","Hill"],
 		"food": 1,
 		"improvement": "Hunter Lodge",
-		"improvementStats": {"faith": 1},
+		"improvementStats": {"faith": 1}
 	},
         {
 		"name": "Dromedary Camel",
@@ -572,7 +571,7 @@
 		"terrainsCanBeFoundOn": ["Desert","Plains","Dry Soil","Fresh Soil"],
 		"food": 1,
 		"improvement": "Hunter Lodge",
-		"improvementStats": {"faith": 1},
+		"improvementStats": {"faith": 1}
 	},
         {
 		"name": "Syrian Onager",
@@ -581,7 +580,7 @@
 		"terrainsCanBeFoundOn": ["Desert","Plains","Dry Soil","Fresh Soil"],
 		"food": 1,
 		"improvement": "Hunter Lodge",
-		"improvementStats": {"faith": 1},
+		"improvementStats": {"faith": 1}
 	},
         {
 		"name": "Mountain Gazelle",
@@ -590,16 +589,16 @@
 		"terrainsCanBeFoundOn": ["Desert","Plains","Dry Soil","Fresh Soil"],
 		"food": 1,
 		"improvement": "Hunter Lodge",
-		"improvementStats": {"faith": 1},
+		"improvementStats": {"faith": 1}
 	},
         {
 		"name": "Aguara Guazu",
                 "uniques": ["Doesn't generate naturally"]
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Dry Soil"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Dry Soil","Pampas Grassland"],
 		"food": 1,
 		"improvement": "Hunter Lodge",
-		"improvementStats": {"faith": 1},
+		"improvementStats": {"production": 1}
 	},
         {
 		"name": "Tapir",
@@ -608,7 +607,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Fresh Soil","Dry Soil"],
 		"food": 1,
 		"improvement": "Hunter Lodge",
-		"improvementStats": {"faith": 1},
+		"improvementStats": {"faith": 1}
 	},
         {
 		"name": "Snake",

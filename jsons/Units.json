@@ -1,5 +1,19 @@
 [
 	{
+		"name": "Trangolaf",
+		"uniqueTo":"Llamaiché",
+		"replaces":"Hussar",
+        "upgradesTo": "Cavalry",
+        "obsoleteTech": "Replaceable Parts",
+        "requiredTech": "Military Science",
+		"unitType": "Light Cavalry",
+		"movement": 4,
+		"strength": 19,
+		"cost": 85, 
+        "uniques": ["[+40]% Strength <vs [Infantry] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+        },
+	{
 		"name": "Akali",
 		"uniqueTo":"The Sikh",
 		"replaces":"Halberdier",
