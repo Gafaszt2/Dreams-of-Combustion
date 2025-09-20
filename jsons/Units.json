@@ -1,5 +1,218 @@
 [
 	{
+		"name": "Akali",
+		"uniqueTo":"The Sikh",
+		"replaces":"Halberdier",
+        "requiredTech": "Dynamite",
+        "obsoleteTech": "Replaceable Parts",
+		"unitType": "Archaic Infantry",
+		"movement": 2,
+		"strength": 14,
+		"rangedStrength": 16,
+		"cost": 80, 
+        "uniques": ["[+18]% Strength <when defending>","[+30]% Strength <vs [Heavy Cavalry] units>","[+40]% Strength <vs [Light Cavalry] units>","[+40]% Strength <vs [Camel] units>"],
+		"attackSound": "metalhit"
+        },
+		// ca
+	{
+		"name": "Altos Escopetero",
+        "upgradesTo": "Grenadier",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 9,
+		"uniques":["Only available <if [Pact of Los Altos] is constructed>",
+			"Only available <for [Central American] Civilizations>","Only available <after discovering [Rifling]>","[+50]% Strength <with [40]% chance>","[+1] Range <upon defeating a [All] unit> <for [5] turns>"],
+		"cost": 55,
+		"attackSound": "shot"
+        },
+		{
+		"name": "Federal Conscript",
+        "upgradesTo": "Halberdier",
+        "obsoleteTech": "Dynamite",
+		"unitType": "Archaic Infantry",
+		"movement": 3,
+		"strength": 17,
+		"cost": 65, 
+        "uniques": ["Only available <if [Pact of Los Altos] is constructed>",
+			"Only available <for [Central American] Civilizations>","Only available <after discovering [Railway]>","[+50]% Strength <with [40]% chance>"],
+		"attackSound": "shot"
+        },
+	{
+		"name": "Catracho",
+        "upgradesTo": "Grenadier",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 14,
+		"uniques":["Only available <if [Pact of Nicaragua] is constructed>",
+			"Only available <for [Central American] Civilizations>","Only available <after discovering [Rifling]>"],
+		"cost": 55,
+		"attackSound": "shot"
+        },
+	{
+		"name": "Federal Jinete",
+        "upgradesTo": "Cavalry",
+        "obsoleteTech": "Replaceable Parts",
+		"unitType": "Heavy Cavalry",
+		"movement": 3,
+		"strength": 17,
+        "rangedStrength": 14,
+		"cost": 130, 
+        "uniques": ["Only available <if [Pact of Nicaragua] is constructed>",
+			"Only available <for [Central American] Civilizations>","Only available <after discovering [Military Science]>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+        },
+	{
+		"name": "Escopetero",
+        "upgradesTo": "Grenadier",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 12,
+		"uniques":["Only available <if [Pact of Guatemala] is constructed>",
+			"Only available <for [Central American] Civilizations>","Only available <after discovering [Rifling]>","[+1] Range <upon defeating a [All] unit> <for [5] turns>"],
+		"cost": 55,
+		"attackSound": "shot"
+        },
+	{
+		"name": "Guardia",
+        "upgradesTo": "Halberdier",
+        "obsoleteTech": "Dynamite",
+		"unitType": "Archaic Infantry",
+		"movement": 3,
+		"strength": 19,
+		"cost": 65, 
+        "uniques": ["Only available <if [Pact of Guatemala] is constructed>",
+			"Only available <for [Central American] Civilizations>","Only available <after discovering [Railway]>"],
+		"attackSound": "metalhit"
+        },
+	{
+		"name": "Dragón Rojo",
+        "upgradesTo": "Cavalry",
+        "obsoleteTech": "Replaceable Parts",
+		"unitType": "Heavy Cavalry",
+		"movement": 4,
+		"strength": 17,
+        "rangedStrength": 14,
+		"cost": 150, 
+        "uniques": ["Only available <if [Pact of Honduras] is constructed>",
+			"Only available <for [Central American] Civilizations>","Only available <after discovering [Military Science]>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+        },
+	{
+		"name": "Perico",
+        "upgradesTo": "Rifleman",
+        "obsoleteTech": "Replaceable Parts",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 20,
+        "uniques": ["Only available <if [Pact of Honduras] is constructed>",
+			"Only available <for [Central American] Civilizations>","Only available <after discovering [Dynamite]>","Never appears as a Barbarian unit"],
+		"cost": 70,
+		"attackSound": "shot"
+        },
+	{
+		"name": "Escolta",
+        "upgradesTo": "Cavalry",
+        "obsoleteTech": "Replaceable Parts",
+		"unitType": "Heavy Cavalry",
+		"movement": 4,
+		"strength": 25,
+		"cost": 120, 
+        "uniques": ["Only available <if [Pact of El Salvador] is constructed>",
+			"Only available <for [Central American] Civilizations>","Only available <after discovering [Novel]>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+        },
+	{
+		"name": "Machetero",
+        "upgradesTo": "Halberdier",
+        "obsoleteTech": "Dynamite",
+		"unitType": "Archaic Infantry",
+		"movement": 3,
+		"strength": 19,
+		"cost": 65, 
+        "uniques": ["Only available <if [Pact of El Salvador] is constructed>",
+			"Only available <for [Central American] Civilizations>","Only available <after discovering [Railway]>"],
+		"attackSound": "metalhit"
+        },
+	{
+		"name": "Volante",
+        "obsoleteTech": "Combustion",
+		"unitType": "Culverin",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 20,
+		"cost": 135,
+		"uniques": ["[+60]% Strength <vs [Artillery] units>","Only available <if [Pact of Costa Rica] is constructed>",
+			"Only available <for [Central American] Civilizations>","Only available <after discovering [Artillery]>",
+		"Limited to [4] per Civilization","[-15]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Federal Pardo",
+        "upgradesTo": "Halberdier",
+        "obsoleteTech": "Dynamite",
+		"unitType": "Archaic Infantry",
+		"movement": 2,
+		"strength": 15,
+		"cost": 86, 
+        "uniques": ["Only available <if [Pact of Costa Rica] is constructed>",
+			"Only available <after discovering [Railway]>","[+50]% Strength <vs [Heavy Cavalry] units>","[+50]% Strength <vs [Light Cavalry] units>"],
+		"attackSound": "metalhit"
+        },
+	// CA
+	{
+		"name": "Jornalero",
+		"uniqueTo":"Central Americans",
+		"replaces":"Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["All tiles cost 1 movement","[-25]% construction time for [All] improvements","Can build [Land] improvements on tiles","Automation is a primary action"],
+		"cost": 70
+	},
+	{
+		"name": "Indio",
+		"uniqueTo":"Spanish Philipines",
+		"replaces":"Partisan",
+        "upgradesTo": "Halberdier",
+        "requiredTech": "Railway",
+        "obsoleteTech": "Dynamite",
+		"unitType": "Archaic Infantry",
+		"movement": 3,
+		"strength": 12,
+		"cost": 60, 
+        "uniques": ["[+15]% Strength <upon defeating a [All] unit> <for [5] turns>","[+30]% Strength <vs [Heavy Cavalry] units>","[+40]% Strength <vs [Light Cavalry] units>","[+40]% Strength <vs [Camel] units>"],
+		"attackSound": "metalhit"
+        },
+	{
+		"name": "Changmao",
+	    "uniqueTo":"Taiping",
+		"replaces":"Grenadier",
+        "upgradesTo": "Rifleman",
+        "obsoleteTech": "Replaceable Parts",
+        "requiredTech": "Dynamite",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 20,
+        "uniques": ["No movement cost to pillage","[+35]% Strength <when fighting in [Pillaged] tiles>","Never appears as a Barbarian unit"],
+		"cost": 70,
+		"attackSound": "shot"
+        },
+	{
+		"name": "Native Police",
+		"uniqueTo":"New South Wales",
+		"replaces":"Mounted Explorer",
+        "requiredTech": "Railway",
+		"unitType": "Light Cavalry",
+		"movement": 4,
+		"strength": 8,
+		"obsoleteTech": "Replaceable Parts",
+		"cost": 70, 
+        "uniques": ["[+65]% Strength <when fighting in [Friendly Land] tiles>","[+35]% Strength <vs [Heavy Cavalry] units>","Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+        },
+	{
 		"name": "Troupe de la Marine",
 		"uniqueTo":"New France",
 		"replaces":"Grenadier",
@@ -1064,11 +1277,9 @@
 	/* Ancient Era */
         {
 		"name": "Convict",
-                "replaces": "Worker",
-                "uniqueTo": "Colony of New South Wales",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can be purchased with [Gold] [in capital]","Can be purchased for [34] [Gold] [in capital]","Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Only available <for [Australian British] Civilizations>","Can be purchased with [Gold] [in capital]","Can be purchased for [34] [Gold] [in capital]","Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 60
 	},
         {
@@ -1195,7 +1406,7 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Unavailable <for [Australian British] Civilizations> <hidden from users>","Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 70
 	},
 	{
@@ -1233,7 +1444,7 @@
 		"strength": 8,
 		"obsoleteTech": "Replaceable Parts",
 		"cost": 70, 
-                "uniques": ["[+22]% Strength <vs [Heavy Cavalry] units>","Never appears as a Barbarian unit"],
+                "uniques": ["[+35]% Strength <vs [Heavy Cavalry] units>","Never appears as a Barbarian unit"],
 		"attackSound": "shot"
         },
 		{
@@ -1356,14 +1567,14 @@
         },
         {
 		"name": "Cuirassier",
-                "upgradesTo": "Cavalry",
-                "obsoleteTech": "Replaceable Parts",
-                "requiredTech": "Novel",
+        "upgradesTo": "Cavalry",
+        "obsoleteTech": "Replaceable Parts",
+        "requiredTech": "Novel",
 		"unitType": "Heavy Cavalry",
 		"movement": 4,
 		"strength": 25,
 		"cost": 120, 
-                "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+        "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
         },
         {
@@ -2403,34 +2614,6 @@
 		"attackSound": "camel"
         },
         {
-		"name": "Perico",
-                "uniqueTo": "Central Americans",
-                "upgradesTo": "Grenadier",
-                "requiredTech": "Industrialization",
-		"obsoleteTech": "Dynamite",
-		"unitType": "Infantry",
-                "range": 2,
-		"movement": 3,
-		"strength": 12,
-                "uniques": ["Can build [Slave Labor Plantation] improvements on tiles","[+11]% Strength <when defending>"],           
-		"cost": 55,
-		"attackSound": "shot"
-        },
-         {
-		"name": "American Fillibuster",
-                "uniqueTo": "Central Americans",
-                "upgradesTo": "Grenadier",
-                "requiredTech": "Industrialization",
-		"obsoleteTech": "Dynamite",
-		"unitType": "Infantry",
-                "range": 2,
-		"movement": 2,
-		"strength": 15,
-                "uniques": ["Can build [Fort] improvements on tiles","[+11]% Strength <when defending>"],           
-		"cost": 95,
-		"attackSound": "shot"
-        },
-        {
 		"name": "Skoda Mortar",
                 "uniqueTo": "Montenegro",
                 "replaces": "Mortar",
@@ -2953,16 +3136,16 @@
         },
         {
 		"name": "Pardo",
-                "uniqueTo": "Haiti",
-                "replaces": "Partisan",
-                "upgradesTo": "Halberdier",
-                "requiredTech": "Railway",
-                "obsoleteTech": "Dynamite",
+        "uniqueTo": "Haiti",
+        "replaces": "Partisan",
+        "upgradesTo": "Halberdier",
+        "requiredTech": "Railway",
+        "obsoleteTech": "Dynamite",
 		"unitType": "Archaic Infantry",
 		"movement": 2,
 		"strength": 15,
 		"cost": 86, 
-                "uniques": ["[+50]% Strength <vs [Heavy Cavalry] units>","[+50]% Strength <vs [Light Cavalry] units>"],
+        "uniques": ["[+50]% Strength <vs [Heavy Cavalry] units>","[+50]% Strength <vs [Light Cavalry] units>"],
 		"attackSound": "metalhit"
         },
         {
@@ -3153,16 +3336,17 @@
 			},
         {
 		"name": "Bushranger",
-                "uniqueTo": "Colony of Victoria",
+                "uniqueTo": "Victoria",
                 "replaces": "Rifleman",
                 "upgradesTo": "Great War Infantry",
 		"obsoleteTech": "Ballistics",
                 "requiredTech": "Replaceable Parts",
 		"unitType": "Infantry",
-		"movement": 3.5,
-		"strength": 40,
+		"movement": 3,
+		"strength": 44,
 		"cost": 150,
-                 "uniques": ["Can move after attacking","Never appears as a Barbarian unit"],
+                 "uniques": ["[+33]% Strength <when fighting in [Acacia] tiles>","[+33]% Strength <when fighting in [Dry Tree] tiles>",
+				 "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
         },
         {
@@ -3191,20 +3375,6 @@
 		"cost": 90, 
                 "uniques": ["[+50]% Strength <vs [Heavy Cavalry] units>","[+50]% Strength <vs [Light Cavalry] units>","[+20]% Strength <vs [Camel] units>","Never appears as a Barbarian unit"],
 		"attackSound": "elephant"
-        },
-        {
-		"name": "Akali Nihang",
-                "uniqueTo": "The Sikh",
-                "replaces": "Line Infantry",
-                "upgradesTo": "Grenadier",
-                "requiredTech": "Rifling",
-		"obsoleteTech": "Dynamite",
-		"unitType": "Archaic Infantry",
-		"movement": 3,
-                "uniques": ["Earn [2]% of killed [Military] unit's [Strength] as [Science]","Never appears as a Barbarian unit"],
-		"strength": 13,
-		"cost": 59,
-		"attackSound": "metalhit"
         },
         {
 		"name": "Horse Grenadier",
@@ -3266,8 +3436,13 @@
 			"name": "Aboriginal Elder",
 			"unitType": "Civilian",
 			"movement": 3,
-			"uniques": ["Unbuildable","Cannot be purchased","Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence","Gain [30] [Culture] <(modified by game speed)> <by consuming this unit>","Gain [40] [Faith] <(modified by game speed)> <by consuming this unit>"],
-			"cost": 50
+			"uniques": ["Limited to [2] per Civilization","Unbuildable",
+			"Consumes [1] [Aboriginal Rights]",
+			"Can be purchased for [450] [Faith] <(modified by game speed)> [in all cities]",
+			"Only available <for [Australian British] Civilizations>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
+			"Gain [300] [Culture] <(modified by game speed)> <by consuming this unit>"],
+			"cost": 100
 		},
         {
 		"name": "Exportation Slave",

@@ -29,7 +29,7 @@
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Artillery","Drone"],
+		"unitTypes": ["Siege","Archery","Artillery","Culverin","Drone"],
         "column": 1,
         "row": 1
     },
@@ -39,7 +39,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Accuracy I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Artillery","Drone"],
+		"unitTypes": ["Siege","Archery","Artillery","Culverin","Drone"],
         "column": 1,
         "row": 2
     },
@@ -49,7 +49,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Accuracy II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Artillery","Drone"],
+		"unitTypes": ["Siege","Archery","Artillery","Culverin","Drone"],
         "column": 1,
         "row": 3
     },
@@ -59,7 +59,7 @@
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Artillery","Drone"],
+		"unitTypes": ["Siege","Archery","Artillery","Culverin","Drone"],
         "column": 2,
         "row": 1
 	},
@@ -69,7 +69,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Barrage I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Artillery","Drone"],
+		"unitTypes": ["Siege","Archery","Artillery","Culverin","Drone"],
         "column": 2,
         "row": 2
 	},
@@ -79,7 +79,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Barrage II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Artillery","Drone"],
+		"unitTypes": ["Siege","Archery","Artillery","Culverin","Drone"],
         "column": 2,
         "row": 3
 	},
@@ -90,7 +90,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Accuracy I","Barrage I"],
 		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Siege","Artillery","Drone"],
+		"unitTypes": ["Siege","Artillery","Culverin","Drone"],
         "column": 3,
         "row": 1
 	},
@@ -100,7 +100,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Accuracy III"],
 		"uniques": ["[+1] Range"],
-		"unitTypes": ["Archery","Siege","Artillery","Ranged Water","Submarine","Drone"],
+		"unitTypes": ["Archery","Siege","Artillery","Culverin","Ranged Water","Submarine","Drone"],
         "column": 3,
         "row": 3
 	},
@@ -110,7 +110,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Accuracy III", "Barrage III"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
-		"unitTypes": ["Archery","Siege","Ranged Water","Artillery"],
+		"unitTypes": ["Archery","Siege","Ranged Water","Culverin","Artillery"],
         "column": 3,
         "row": 4
 	},
@@ -563,7 +563,7 @@
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Helicopter","Drone"],
+		"unitTypes": ["Helicopter","Culverin","Drone"],
         "column": 22,
         "row": 1
 	},
@@ -573,7 +573,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Mobility I"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Helicopter","Drone"],
+		"unitTypes": ["Helicopter","Culverin","Drone"],
         "column": 22,
         "row": 2
 	},
@@ -582,7 +582,7 @@
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],
 		"uniques": ["[+25]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Helicopter","Drone"],
+		"unitTypes": ["Helicopter","Culverin","Drone"],
         "column": 23,
         "row": 1
 	},
@@ -592,7 +592,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Anti-Armor I"],
 		"uniques": ["[+25]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Helicopter","Drone"],
+		"unitTypes": ["Helicopter","Culverin","Drone"],
         "column": 23,
         "row": 2
 	},
@@ -701,7 +701,7 @@
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],
 		"uniques": ["[+20]% Strength <when attacking>"],
-		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Civilian"],
+		"unitTypes": ["Infantry","Culverin","Light Cavalry","Heavy Cavalry","Camel","Elephant","Civilian"],
         "column": 30,
         "row": 30
 	},
@@ -711,7 +711,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Instruction I"],
 		"uniques": ["[+20]% Strength <when attacking>"],
-		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Civilian"],
+		"unitTypes": ["Infantry","Culverin","Light Cavalry","Heavy Cavalry","Camel","Elephant","Civilian"],
         "column": 31,
         "row": 31
 	},
@@ -721,7 +721,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Instruction II"],
 		"uniques": ["[+20]% Strength <when attacking>"],
-		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Civilian"],
+		"unitTypes": ["Infantry","Culverin","Light Cavalry","Heavy Cavalry","Camel","Elephant","Civilian"],
         "column": 32,
         "row": 32
 	},
@@ -780,7 +780,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Instruction I","Entrenched I"],
 		"uniques": ["[1] additional attacks per turn","[+5]% Strength bonus for [Wounded] units within [2] tiles"],
-		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Artillery","Civilian"],
+		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Culverin","Artillery","Civilian"],
         "column": 38,
         "row": 38
 	},
@@ -790,7 +790,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Veterany I"],
 		"uniques": ["[+10]% Strength bonus for [Wounded] units within [2] tiles"],
-		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Civilian"],
+		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Culverin","Camel","Elephant","Civilian"],
         "column": 39,
         "row": 39
 	},
@@ -800,7 +800,7 @@
 		"outerColor": [23, 27, 33],
 		"prerequisites": ["Instruction II"],
 		"uniques": ["[+30]% Strength <vs [Water] units>"],
-		"unitTypes": ["Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Civilian"],
+		"unitTypes": ["Infantry","Light Cavalry","Culverin","Heavy Cavalry","Camel","Elephant","Civilian"],
         "column": 40,
         "row": 40
 	},
@@ -848,7 +848,7 @@
 	"innerColor": [128, 154, 196],
 	"outerColor": [23, 27, 33],
 	"uniques": ["[+35]% XP gained from combat"],
-	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery","Civilian"]
+	"unitTypes": ["Archaic Infantry","Culverin","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery","Civilian"]
 },
 {
 	"name": "Experience II",
@@ -856,7 +856,7 @@
 	"outerColor": [23, 27, 33],
 	"prerequisites": ["Experience I"],
 	"uniques": ["[+35]% XP gained from combat"],
-	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery"]
+	"unitTypes": ["Archaic Infantry","Culverin","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery"]
 },
 {
 	"name": "Experience III",
@@ -871,7 +871,7 @@
 	"innerColor": [128, 154, 196],
 	"outerColor": [23, 27, 33],
 	"uniques": ["Earn [65]% of killed [Barbarians] unit's [Cost] as [Gold]","[+66]% Strength <vs [Barbarians] units>"],
-	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery","Civilian"]
+	"unitTypes": ["Archaic Infantry","Culverin","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery","Civilian"]
 },
 {
 	"name": "Anti-Barbarian II",
@@ -879,7 +879,7 @@
 	"outerColor": [23, 27, 33],
 	"prerequisites": ["Anti-Barbarian I"],
 	"uniques": ["Earn [65]% of killed [Barbarians] unit's [Cost] as [Gold]","[+14]% Strength <vs [Barbarians] units>"],
-	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery","Civilian"]
+	"unitTypes": ["Archaic Infantry","Culverin","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery","Civilian"]
 },
 {
 	"name": "Anti-Barbarian III",
@@ -887,14 +887,14 @@
 	"outerColor": [23, 27, 33],
 	"prerequisites": ["Anti-Barbarian II"],
 	"uniques": ["Earn [85]% of killed [Barbarians] unit's [Cost] as [Gold]","[+34]% Strength <vs [Barbarians] units>"],
-	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery"]
+	"unitTypes": ["Archaic Infantry","Culverin","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery"]
 },
 {
 	"name": "Anti-Tank I",
 	"innerColor": [128, 154, 196],
 	"outerColor": [23, 27, 33],
 	"uniques": ["Only available <after discovering [Tanks]>","[+66]% Strength <vs [Armored] units>"],
-	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery","Civilian"]
+	"unitTypes": ["Archaic Infantry","Culverin","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery","Civilian"]
 },
 {
 	"name": "Anti-Tank II",
@@ -902,7 +902,7 @@
 	"outerColor": [23, 27, 33],
 	"prerequisites": ["Anti-Tank I"],
 	"uniques": ["Only available <after discovering [Tanks]>","[+34]% Strength <vs [Armored] units>"],
-	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery","Civilian"]
+	"unitTypes": ["Archaic Infantry","Culverin","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery","Civilian"]
 },
 {
 	"name": "Anti-Tank III",
@@ -910,14 +910,14 @@
 	"outerColor": [23, 27, 33],
 	"prerequisites": ["Anti-Tank II"],
 	"uniques": ["Only available <after discovering [Tanks]>","[+34]% Strength <vs [BarbarArmoredians] units>"],
-	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery"]
+	"unitTypes": ["Archaic Infantry","Culverin","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery"]
 },
 {
 	"name": "Scout I",
 	"innerColor": [128, 154, 196],
 	"outerColor": [23, 27, 33],
 	"uniques": ["[+1] Sight"],
-	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Civilian"]
+	"unitTypes": ["Archaic Infantry","Infantry","Culverin","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Civilian"]
 },
 {
 	"name": "Scout II",
@@ -925,7 +925,7 @@
 	"outerColor": [23, 27, 33],
 	"prerequisites": ["Scout I"],
 	"uniques": ["[+1] Sight","Can enter ice tiles"],
-	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Civilian"]
+	"unitTypes": ["Archaic Infantry","Infantry","Culverin","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Civilian"]
 },
 {
 	"name": "Scout III",
@@ -940,7 +940,7 @@
 	"innerColor": [128, 154, 196],
 	"outerColor": [23, 27, 33],
 	"uniques": ["[5] HP when healing"],
-	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Civilian"]
+	"unitTypes": ["Archaic Infantry","Infantry","Culverin","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Civilian"]
 },
 {
 	"name": "Healing II",
@@ -948,7 +948,7 @@
 	"outerColor": [23, 27, 33],
 	"prerequisites": ["Healing I"],
 	"uniques": ["[7] HP when healing"],
-	"unitTypes": ["Archaic Infantry","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Civilian"]
+	"unitTypes": ["Archaic Infantry","Infantry","Culverin","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Civilian"]
 },
 {
 	"name": "Healing III",
@@ -965,7 +965,7 @@
 	"innerColor": [128, 154, 196],
 	"outerColor": [23, 27, 33],
 	"uniques": ["[+15]% XP gained from combat","[+15]% Strength"],
-	"unitTypes": ["Archaic Infantry"],
+	"unitTypes": ["Culverin","Archaic Infantry"],
 	"column": 47,
 	"row": 47
 },
@@ -975,7 +975,7 @@
 	"outerColor": [23, 27, 33],
 	"prerequisites": ["Modernization I"],
 	"uniques": ["[+15]% XP gained from combat","[+15]% Strength"],
-	"unitTypes": ["Archaic Infantry"],
+	"unitTypes": ["Culverin","Archaic Infantry"],
 	"column": 48,
 	"row": 48
 },

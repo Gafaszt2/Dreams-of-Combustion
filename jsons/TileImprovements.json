@@ -113,6 +113,17 @@
 		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "F"
 	},
+	/// Central American
+	{
+		"name": "Politecnica",
+        "uniqueTo": "Central Americans",
+		"science": 2,
+        "turnsToBuild": 10,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["[+2 Science] <starting from the [Second World War]>",
+			"Gives a defensive bonus of [10]%",
+			"Removes removable features when built"]
+	},
 	/// advanced
 	{
 		"name": "Solar Panels",

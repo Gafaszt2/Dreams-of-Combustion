@@ -5,6 +5,29 @@
 		"outerColor": [255,255,255],
 //		"innerColor": [255,255,255]
 },
+{
+		"name": "Taiping",
+		"leaderName": "Hong Xiuquan",
+		"adjective": ["Taiping"],
+		"startBias":["River"],
+		"preferredVictoryType": "Supremacy",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [201, 245, 220],
+		"innerColor": [14, 33, 22],
+		"favoredReligion":"Bai Shangdi",
+		"uniqueName": "'Brother' of Christ",
+		"uniques": ["Asian","[-20]% Culture cost of adopting new Policies <when number of [Cities] is between [1] and [3]>","Free Social Policy <upon conquering a city> <when number of [Cities] is between [1] and [4]>","Empire enters golden age <upon conquering a city>"],
+		"cities": ["Taiping","Anqing","Wuchang","Suzhou","Hangzhou","Nanchang","Ningbo","Jiujiang","Wusong","Qingpu"],
+		"spyNames": ["Yuan"]
+	},
 // Italian republics
 {
 		"name": "Italia Libera",
@@ -2227,9 +2250,9 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [161, 237, 222],
-		"innerColor": [0, 49, 133],
-                "favoredReligion": "Buddhism",
+		"outerColor": [224, 171, 90],
+		"innerColor": [21, 32, 61],
+        "favoredReligion": "Sikhism",
 		"uniqueName": "Akal Sahai",
 		"uniques": ["Asian",
 		"Enemy [Wounded] units must spend [1] extra movement points when inside your territory",  "[-20]% Gold cost of upgrading", "Earn [50]% of killed [Wounded] unit's [Cost] as [Faith]"],
@@ -2316,7 +2339,7 @@
 		"cities": ["Yangon","Mandalay","Naypyidaw","Mawlamyine","Taunggi","Bago","Monywa","Myitkyna","Pathein","Sittwe"],
 	},
 {
-		"name": "Colony of New South Wales",
+		"name": "New South Wales",
 		"leaderName": "Arthur Phillip",
 		"adjective": ["Australian"],
 		"startBias": ["Coast"],
@@ -2338,12 +2361,12 @@
 		"innerColor": [106, 230, 139],
                 "favoredReligion": "Anglican",
 		"uniqueName": "Convict Settlement",
-		"uniques": ["Non Middle Eastern",
+		"uniques": ["Australian British",
 		"[+10]% Production when constructing [Settler] units [in capital]","[+15]% Production when constructing [Civilian] units [in capital]","Production to [Gold] conversion in cities changed by [+20]%"],
 		"cities": ["Sidney","Parramatta","South Wales","Tasmania","South Australia","New Zeland","Northern Territory"],
 	},
 {
-		"name": "Colony of Victoria",
+		"name": "Victoria",
 		"leaderName": "Governor Charles Hotham",
 		"adjective": ["Australian"],
 		"startBias": ["Coast"],
@@ -2365,7 +2388,7 @@
 		"innerColor": [114, 212, 247],
                 "favoredReligion": "Anglican",
 		"uniqueName": "Gold Rush",
-		"uniques": ["Non Middle Eastern",
+		"uniques": ["Australian British",
 		"[+2 Gold] from every [Hill]","[-10]% Gold cost of acquiring tiles [in all cities]", "Reveal up to [10] [Luxury resource] within a [20] tile radius"],
 		"cities": ["Melbourne","Geelong","Portland","Djab Wurrung","Gunditjmara","Jardwadjali","Wergaia","Wembawemba","Yorta Yorta"],
 	},
@@ -2483,9 +2506,9 @@
 		"cities": ["Surat","Madras","Banten","West Java","Jayakarta","Jepara","Aceh","Pariaman","Jambi","Ambon","Banda Neira","Bengkulu","Cirebon","Makassar","Malacca","Patani","Ternate"]
 	},
 {
-		"name": "Philipines",
-		"leaderName": "Emilio Aguinaldo",
-		"adjective": ["Philipines"],
+		"name": "Spanish Philipines",
+		"leaderName": "Pascual Enrile y Alcedo",
+		"adjective": ["Spanish Philipines"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Supremacy",
 		
@@ -2501,12 +2524,13 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [138, 255, 214],
-		"innerColor": [0, 60, 97],
-                "favoredReligion": "Catholic",
-		"uniqueName": "Pear of the Orient Seas",
+		"outerColor": [245, 216, 211],
+		"innerColor": [38, 20, 17],
+        "favoredReligion": "Catholic",
+		"uniqueName": "Islas del Gobierno",
 		"uniques": ["Asian",
-		"[+1 Culture] from every [Coast]","[+2 Faith] [in all cities] <with [1] to [2] neighboring [Coast] tiles>","[+3 Faith] [in all cities] <with [3] to [4] neighboring [Coast] tiles>"],
+		"Gain a free [Library] [in capital] <upon constructing [Monument]>","[+1 Gold] from [Fish] tiles [in all cities]",
+		"[+16]% Strength <when fighting in [Coast] tiles>","[+16]% Strength <when fighting in [Ocean] tiles>","[+16]% Strength <when fighting in [Atoll] tiles>"],
 		"cities": ["Manila","Quezon City","Boracay","Cebú","Puerto Princesa","El Nido","Bohol","Davao","Baguio","Siargao","Corón","Tagaytay","Makati","Taguig","Dumaguete","Bacólod","Puerto Galera","Sagada","Laoag","Zamboanga"]
 	},
 {
@@ -4164,7 +4188,7 @@ Nixon Bureaucratic Reforms
 		"name": "Central Americans",
 		"leaderName": "Francisco Morazán",
 		"adjective": ["Central Americans"],
-		"startBias": ["Jungle"],
+		"startBias": ["Jungle","Coast","Atoll","Avoid [Tundra]"],
 		"preferredVictoryType": "Supremacy",
 		
 		"startIntroPart1": "",
@@ -4179,11 +4203,11 @@ Nixon Bureaucratic Reforms
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [199, 248, 255],
-		"innerColor": [3, 135, 89],
-		"uniqueName": "War Against American Insurrection",
-		"uniques": ["LA",
-		"[+1 Food] from every [Bananas]","[+1 Gold] from every [Bananas]","[+1 Gold] from every [Slave Labor Plantation]","[+1 Food] from every [Jungle]","[+1 Food] from every [Atoll]", "[+1 Science] per [3] social policies adopted"],
+		"outerColor": [189, 242, 216],
+		"innerColor": [16, 18, 17],
+		"uniqueName": "Fragmented Federation",
+		"uniques": ["LA","Provides [1] [CA Federal Points] <hidden from users>",
+		"Comment [Central America may 'fragment' into a minor state, gaining tailored bonuses based on the chosen republic. Each path offers distinct military, economic, or cultural advantages, reflecting the historical dissolution of the federation.]"],
 		"cities": ["San Miguel", "Conchagua" ,"Tegucigalpa", "Leon", "Granada", "San Salvador", "Managua", "San Jose", "Belmopán"]
 	},
         {

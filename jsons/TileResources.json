@@ -127,7 +127,7 @@
 		"gold": 1,
 		"improvement": "Fishing Boats",
 		"improvementStats": {"gold": 1},
-		"uniques": ["Generated on every [30] tiles <in [Coast] tiles>","Generated on every [80] tiles <in [Ocean] tiles>"]
+		"uniques": ["Fish","Generated on every [30] tiles <in [Coast] tiles>","Generated on every [80] tiles <in [Ocean] tiles>"]
 	},
         {
 		"name": "Tuna",
@@ -136,7 +136,7 @@
 		"gold": 1,
 		"improvement": "Fishing Boats",
 		"improvementStats": {"gold": 1},
-		"uniques": ["Generated on every [30] tiles <in [Ocean] tiles>"]
+		"uniques": ["Fish","Generated on every [30] tiles <in [Ocean] tiles>"]
 	},
         {
 		"name": "Sardine",
@@ -145,7 +145,7 @@
 		"gold": 1,
 		"improvement": "Fishing Boats",
 		"improvementStats": {"gold": 1},
-		"uniques": ["Generated on every [30] tiles <in [Coast] tiles>","Generated on every [80] tiles <in [Ocean] tiles>"]
+		"uniques": ["Fish","Generated on every [30] tiles <in [Coast] tiles>","Generated on every [80] tiles <in [Ocean] tiles>"]
 	},
         {
 		"name": "Horses",
@@ -754,6 +754,7 @@
 		"terrainsCanBeFoundOn": ["Coast","Ocean"],
 		"food": 1,
                 "production": 1,
+				"uniques":["Fish"],
 		"improvement": "Fishing Boats",
 		"improvementStats": {"gold": 2},
 	},
@@ -771,6 +772,16 @@
 		"name": "Coin",
 		"resourceType": "Strategic",
 		"uniques":["Not shown on world screen <without [Coin]>","Cannot be traded","Stockpiled"]
+	},
+	{
+		"name": "Aboriginal Rights",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [Aboriginal Rights]>","Cannot be traded"]
+	},
+	{
+		"name": "CA Federal Points",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [CA Federal Points]>","Cannot be traded"]
 	},
 	{
 		"name": "Literary Work",

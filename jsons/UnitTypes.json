@@ -47,6 +47,10 @@
         "movementType": "Land"
     },
     {
+        "name": "Culverin",
+        "movementType": "Land"
+    },
+    {
         "name": "Drone",
         "movementType": "Land"
     },

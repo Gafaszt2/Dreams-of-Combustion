@@ -1,4 +1,66 @@
 [
+	// CA
+	{
+		"name": "Pact of Costa Rica",
+		"isNationalWonder": true,
+		"cost": 20,
+		"uniques": ["[+2 Culture] from every specialist [in all cities]","[+2 Culture] per [3] social policies adopted",
+			"Comment [Enables the Federal Pardo and Volante units]",
+			"Consumes [1] [CA Federal Points] <hidden from users>",
+		    "Moves to new capital when capital changes <hidden from users>",
+			"Only available <for [Central Americans] Civilizations>"]
+	},
+	{
+		"name": "Pact of El Salvador",
+		"isNationalWonder": true,
+		"cost": 20,
+		"uniques": ["[+2 Science] in cities on [Fresh Water] tiles","[+2 Science] in cities on [Jungle] tiles","[+20]% [Science] [in capital]",
+			"Comment [Enables the Machetero and Escolta units]",
+			"Consumes [1] [CA Federal Points] <hidden from users>",
+		    "Moves to new capital when capital changes <hidden from users>",
+			"Only available <for [Central Americans] Civilizations>"]
+	},
+	{
+		"name": "Pact of Honduras",
+		"isNationalWonder": true,
+		"cost": 20,
+		"uniques": ["[+5]% [Faith] from every [House]","[+5]% [Gold] from every [House]","[+5]% [Culture] from every [House]",
+			"Comment [Enables the Perico and Dragón Rojo units]",
+			"Consumes [1] [CA Federal Points] <hidden from users>",
+		    "Moves to new capital when capital changes <hidden from users>",
+			"Only available <for [Central Americans] Civilizations>"]
+	},
+	{
+		"name": "Pact of Guatemala",
+		"isNationalWonder": true,
+		"cost": 20,
+		"uniques": ["[+25]% growth [in capital]","[+2 Happiness] from every [Temple]","[-30]% unhappiness from the number of cities","[+1 Culture] per [6] population [in this city]",
+			"Comment [Enables the Escopetero and Guardia units]",
+			"Consumes [1] [CA Federal Points] <hidden from users>",
+		    "Moves to new capital when capital changes <hidden from users>",
+			"Only available <for [Central Americans] Civilizations>"]
+	},
+	{
+		"name": "Pact of Nicaragua",
+		"isNationalWonder": true,
+		"cost": 20,
+		"uniques": ["[+5]% Strength <vs [Light Cavalry] units>","[+5]% Strength <vs [Heavy Cavalry] units>","[+30]% Production when constructing [Light Cavalry] units [in this city]","[+30]% Production when constructing [Heavy Cavalry] units [in this city]",
+			"Comment [Enables the Federal Jinete and Catracho units]",
+			"Consumes [1] [CA Federal Points] <hidden from users>",
+		    "Moves to new capital when capital changes <hidden from users>",
+			"Only available <for [Central Americans] Civilizations>"]
+	},
+	{
+		"name": "Pact of Los Altos",
+		"isNationalWonder": true,
+		"cost": 20,
+		"uniques": ["[+5]% Strength <vs [Archaic Infantry] units>","[+5]% Strength <vs [Infantry] units>","[+30]% Production when constructing [Infantry] units [in this city]","[+30]% Production when constructing [Archaic Infantry] units [in this city]",
+			"Comment [Enables the Federal Conscript and Altos Escopetero units]",
+			"Consumes [1] [CA Federal Points] <hidden from users>",
+		    "Moves to new capital when capital changes <hidden from users>",
+			"Only available <for [Central Americans] Civilizations>"]
+	},
+	//
 	{
 		"name": "Court - Bosniak",
 		"isNationalWonder": true,
@@ -303,6 +365,40 @@
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
 			"Only available <for [Non Middle Eastern] Civilizations>"]
+	},
+	{
+		"name": "Federation Hall",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["[+1 Gold] per [5] population [in all cities]","[+10]% Production when constructing [Infantry] units [in this city]",
+			"Only available <for [Australian British] Civilizations>"]
+	},
+	{
+		"name": "First Nations Assembly",
+		"isNationalWonder": true,
+		"requiredBuilding":"Federation Hall",
+		"cost": 100,
+		"uniques": ["[Gold] cost of purchasing [Archaic Infantry] units [-25]%","[Gold] cost of purchasing [Slave] units [+15]%","Provides [1] [Aboriginal Rights]",
+			"Consumes [1] [National Choice]",
+			"Only available <for [Australian British] Civilizations>"]
+	},
+	{
+		"name": "Penal Colony Command",
+		"isNationalWonder": true,
+		"requiredBuilding":"Federation Hall",
+		"cost": 100,
+		"uniques": ["[1] free [Convict] units appear","[+1 Gold] from every [Mine]",
+			"Consumes [1] [National Choice]",
+			"Only available <for [Australian British] Civilizations>"]
+	},
+	{
+		"name": "White Supremacy Doctrine",
+		"isNationalWonder": true,
+		"requiredBuilding":"Federation Hall",
+		"cost": 100,
+		"uniques": ["[+50]% Strength <vs [Barbarian] units>",
+			"Consumes [1] [National Choice]",
+			"Only available <for [Australian British] Civilizations>"]
 	},
 	{
 		"name": "Parlament House",
@@ -1444,6 +1540,18 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
+		"name": "Phaundari",
+		"uniqueTo": "The Sikh",
+        "replaces": "Arsenal",
+		"cost": 300,
+		"cityStrength": 9,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Castle",
+		"requiredTech": "Artillery",
+		"uniques": ["[+25]% Production when constructing [Artillery] units [in this city]","Destroyed when the city is captured"]
+	},
+	{
 		"name": "Barricade",
 		"uniqueTo": "Italia Libera",
         "replaces": "Walls",
@@ -1514,10 +1622,10 @@
         {
 		"name": "Stockade",
                 "gold": 2,
-                "uniqueTo": "Colony of Victoria",
+                "uniqueTo": "Victoria",
                 "replaces": "Military Academy",
 		"hurryCostModifier": 0,
-		"uniques": ["New [Military] units start with [35] XP [in this city]", "Destroyed when the city is captured"],
+		"uniques": ["[+10]% Production when constructing [All] units [in this city]","New [Military] units start with [35] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Synthetic Rubber"
 	},
 	{
@@ -1623,7 +1731,7 @@
 	},
         {
 		"name": "Penal Colony",
-                "uniqueTo": "Colony of New South Wales",
+                "uniqueTo": "New South Wales",
                 "replaces": "Courthouse",
                 "production": 2,
                 "gold": 2,
@@ -1714,6 +1822,17 @@
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Real Audiencia",
+		"uniqueTo": "Spanish Philipines",
+        "replaces": "Monument",
+		"culture": 2,
+		"happiness": 1,
+		"gold": 1,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"uniques": ["[+1 Culture] per [6] population [in this city]","Destroyed when the city is captured"]
 	},
 {
 		"name": "Spomenik",
@@ -1875,6 +1994,18 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Heavenly Hall",
+		"replaces": "Temple",
+		"uniqueTo": "Taiping",
+		"faith": 4,
+		"cityStrength": 5,
+        "greatPersonPoints": {"Great Prophet": 1},
+		"cost": 100,
+		"hurryCostModifier": 40,
+		"maintenance": 0,
+		"uniques": ["[+1 Culture] per [3] population [in this city]","Destroyed when the city is captured"]
 	},
 	{
 		"name": "Diocese",
