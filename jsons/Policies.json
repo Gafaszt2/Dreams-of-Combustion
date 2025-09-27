@@ -10,7 +10,7 @@
             "Scientific": 0
         },
         "uniques": ["Only available <before adopting [Imperialism]>","Only available <before adopting [Revolution]>",
-            "[+5]% growth [in all cities]","[+2 Gold] [in all cities]", "[+1 Production] [in all cities]"
+            "[+2 Gold, +2 Food] [in all cities]","[+15]% [Culture] [in all cities]"
         ],
         "policies": [
             {
@@ -57,7 +57,7 @@
             {
                 "name": "Liberty Complete",
                 "uniques": [
-                    "[+3 Culture] [in capital]","[+2 Production] [in capital]","[+1 Science] [in capital]"
+                    "[-25]% Culture cost of adopting new Policies","Free [Great Merchant] appears"
                 ]
             }
         ]
@@ -73,8 +73,7 @@
             "Scientific": 0
         },
         "uniques": ["Only available <before adopting [Liberty]>","Only available <before adopting [Revolution]>",
-            "[+5]% growth [in all cities]",
-            "[-15]% Culture cost of natural border growth [in all cities]"
+            "[+2 Gold, +2 Production] [in all cities]","[+25]% [Gold] [in all cities]"
         ],
         "policies": [
             {
@@ -88,7 +87,7 @@
             {
                 "name": "Royal Mines",
                 "uniques": [
-                    "[+30]% Yield from every [Strategic resource]"
+                    "[+1 Gold] from every [Mine]"
                 ],
                 "row": 1,
                 "column": 3
@@ -96,7 +95,6 @@
             {
                 "name": "Global Diplomacy",
                 "uniques": [
-                    "[+1 Gold] from every [Luxury resource]",
                     "[+1 Gold] per [3] population [in all cities]"
                 ],
                 "row": 1,
@@ -105,8 +103,7 @@
             {
                 "name": "Monarchy Reform",
                 "uniques": [
-                    "[+10]% growth [in capital]",
-                    "[+2 Happiness] [in capital]"
+                    "[+10]% growth [in capital]"
                 ],
                 "row": 2,
                 "column": 5
@@ -114,7 +111,7 @@
             {
                 "name": "Slavery",
                 "uniques": [
-                    "[+30]% Yield from every [Strategic resource]"
+                    "[+1 Production] from every [Strategic resource]"
                 ],
                 "row": 2,
                 "column": 3
@@ -122,7 +119,7 @@
             {
                 "name": "Imperialism Complete",
                 "uniques": [
-                    "[+35]% growth [in all cities]"
+                    "[-25]% Culture cost of adopting new Policies","Free [Great Engineer] appears"
                 ]
             }
         ]
@@ -138,14 +135,13 @@
             "Scientific": 10
         },
         "uniques": ["Only available <before adopting [Liberty]>","Only available <before adopting [Imperialism]>",
-            "[+1 Culture] per [2] population [in all cities]",
-            "[-5]% Culture cost of natural border growth [in all cities]"
+            "[+1 Science, +1 Faith] [in all cities]","[+10]% [Science] [in all cities]","[+10]% [Faith] [in all cities]"
         ],
         "policies": [
             {
                 "name": "Capitalism",
                 "uniques": [
-                    "[+30]% Yield from every [Luxury resource]"
+                    "[+1 Gold] from every [Luxury resource]"
                 ],
                 "row": 1,
                 "column": 1
@@ -177,7 +173,7 @@
             {
                 "name": "Democracy",
                 "uniques": [
-                    "[+30]% Yield from every [Bonus resource]"
+                    "[-25]% unhappiness from the number of cities"
                 ],
                 "row": 2,
                 "column": 3
@@ -185,7 +181,7 @@
             {
                 "name": "Revolution Complete",
                 "uniques": [
-                    "[+2 Culture] [in all cities]","[+2 Happiness] [in all cities]"]
+                    "[-25]% Culture cost of adopting new Policies","Free [Great General] appears"]
             }
         ]
     },
@@ -221,7 +217,7 @@
             {
                 "name": "Ethnocide",
                 "uniques": [
-                    "[+20]% Strength <vs [Archaic Infantry] units>","[+35]% Strength <vs [Barbarian] units>"
+                    "[+40]% Strength <vs [Barbarian] units>","Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]"
                 ],
                 "row": 1,
                 "column": 3
@@ -273,7 +269,7 @@
             {
                 "name": "Liberation",
                 "uniques": [
-                    "[+20]% Strength <vs [Heavy Cavalry] units>","[+10]% Strength <vs [Light Cavalry] units>","[+5]% Strength <vs [Camel] units>","[+5]% Strength <vs [Barbarian] units>"
+                    "[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"
                 ],
                 "row": 1,
                 "column": 3
@@ -304,7 +300,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "[Gold] cost of purchasing [All] buildings [-55]%"
+            "[Gold] cost of purchasing [All] buildings [-33]%"
         ],
         "policies": [
             {
@@ -334,7 +330,7 @@
             {
                 "name": "No Agression Threaties",
                 "uniques": [
-                    "[+15]% to Flank Attack bonuses <vs [Land] units>"
+                    "[+40]% to Flank Attack bonuses <vs [Land] units>"
                 ],
                 "row": 2,
                 "column": 5
@@ -364,7 +360,7 @@
             {
                 "name": "National Pride",
                 "uniques": [
-                     "[+2 Culture] from every [Walls]","[+3 Culture] from every [Castle]",
+                     "[+2 Culture] from every [Walls]","[+3 Culture] from every [Castle]"
                 ],
                 "row": 1,
                 "column": 1
@@ -372,7 +368,7 @@
             {
                 "name": "Patriotic Celebrations",
                 "uniques": [
-                    "[+3 Culture] from every [Museum]","[+1 Happiness] from every [Museum]"
+                    "[+3 Culture] from every [Museum]"
                 ],
                 "row": 1,
                 "column": 3
@@ -380,7 +376,7 @@
             {
                 "name": "Cultural Exchange",
                 "uniques": [
-                    "[+3 Happiness] from every [Theatre]"
+                    "[+2 Culture] from every [Theatre]"
                 ],
                 "row": 1,
                 "column": 5
@@ -412,13 +408,13 @@
             "Scientific": 0
         },
         "uniques": [
-            "[Gold] cost of purchasing [All] units [-10]%", "[+1 Production] from every [Strategic resource]"
+            "[Gold] cost of purchasing [All] units [-33]%"
         ],
         "policies": [
             {
                 "name": "Recluitment",
                 "uniques": [
-                     "[Gold] cost of purchasing [All] units [-20]%", "[+1 Gold] from every [Strategic resource]"
+                     "[Gold] cost of purchasing [All] units [-33]%"
                 ],
                 "row": 1,
                 "column": 1

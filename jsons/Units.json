@@ -1,5 +1,84 @@
 [
 	{
+		"name": "Pombo Governor",
+		"uniqueTo":"Kongo",
+		"replaces":"Great General",
+		"unitType": "Civilian",
+		"uniques": ["Can be earned through combat",
+		"Can build [Land] improvements on tiles","Comment [Can be produced.]",
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Land] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]", "Uncapturable"],
+		"cost":500,
+		"movement": 3
+	},
+	{
+		"name": "Exportation Slave",
+		"uniqueTo":"Ashanti",
+		"replaces":"Courtesan",
+		"unitType": "Civilian",
+		"cost": 150,
+		"movement": 3,
+		"uniques": ["Limited to [2] per Civilization","Cannot be purchased","Can undertake a trade mission with City-State, giving a large sum of gold and [35] Influence", "Automation is a primary action"],
+	},
+	{
+		"name": "Yak Cavalry",
+		"uniqueTo":"Tibetan Protectorate",
+		"replaces":"Dragoon",
+        "upgradesTo": "Cavalry",
+        "obsoleteTech": "Replaceable Parts",
+        "requiredTech": "Military Science",
+		"unitType": "Heavy Cavalry",
+		"movement": 3,
+        "strength": 22,
+        "cost": 160,
+        "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+        },
+	{
+		"name": "Tamed Tiger",
+		"uniqueTo":"Tibetan Protectorate",
+		"replaces":"Hussar",
+        "upgradesTo": "Cavalry",
+        "obsoleteTech": "Replaceable Parts",
+        "requiredTech": "Military Science",
+		"unitType": "Light Cavalry",
+		"movement": 4,
+		"strength": 20,
+		"cost": 70, 
+        "uniques": ["[+20]% Strength <when stacked with a [Missionary] unit>","[+40]% Strength <when stacked with a [Great Prophet] unit>",
+			"[+10]% Strength <when fighting in [Hill] tiles>","[+30]% Strength <when fighting in [Jungle] tiles>","[+50]% Strength <when fighting in [Holy site] tiles>",
+			"Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "croc"
+        },
+	{
+		"name": "Boxer",
+        "upgradesTo": "Halberdier",
+        "requiredTech": "Railway",
+        "obsoleteTech": "Dynamite",
+		"unitType": "Archaic Infantry",
+		"movement": 2,
+		"strength": 10,
+		"cost": 66, 
+        "uniques": ["[+100]% Strength <when defending>","Only available <if [Revolutionary Uprising] is constructed>"],
+		"attackSound": "metalhit"
+        },
+	{
+		"name": "Zhenyuan",
+		"uniqueTo":"China",
+		"replaces":"Ironclad",
+        "obsoleteTech": "Radio",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 49,
+		"cost": 240,
+		"requiredTech": "Steam Power",
+		"requiredResource": "Coal",
+		"uniques": ["[-22]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
+		"attackSound": "shipguns"
+	},
+	{
 		"name": "Trangolaf",
 		"uniqueTo":"Llamaiché",
 		"replaces":"Hussar",
@@ -1222,10 +1301,11 @@
                 "obsoleteTech": "Replaceable Parts",
                 "requiredTech": "Dynamite",
 		"unitType": "Archaic Infantry",
-		"movement": 4,
-		"strength": 10,
-                "uniques": ["Never appears as a Barbarian unit"],
-		"cost": 50,
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 20,
+                "uniques": ["Double movement in [Jungle]","Double movement in [Marsh]","Never appears as a Barbarian unit"],
+		"cost": 60,
 		"attackSound": "nonmetalhit"
         },
         {
@@ -2563,7 +2643,7 @@
 	},
         {
 		"name": "Ironclad",
-                "obsoleteTech": "Radio",
+        "obsoleteTech": "Radio",
 		"unitType": "Melee Water",
 		"movement": 3,
 		"strength": 46,
@@ -3459,14 +3539,6 @@
 			"cost": 100
 		},
         {
-		"name": "Exportation Slave",
-                "uniqueTo": "Ashanti",
-		"unitType": "Civilian",
-		"movement": 2,
-		"uniques": ["Gain [60] [Gold] <(modified by game speed)> <by consuming this unit>"],
-		"cost": 50
-	},
-        {
 		"name": "Nte",
                 "uniqueTo": "Buganda",
 		"replaces": "Rifleman",
@@ -3524,16 +3596,16 @@
         },
         {
 		"name": "Yung",
-                "uniqueTo": "China",
+        "uniqueTo": "China",
 		"replaces": "Line Infantry",
-                "upgradesTo": "Grenadier",
-                "requiredTech": "Rifling",
+        "upgradesTo": "Grenadier",
+        "requiredTech": "Rifling",
 		"obsoleteTech": "Dynamite",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 12,
 		"cost": 55, 
-                "uniques": ["Never appears as a Barbarian unit","[+15]% Strength bonus for [Artillery] units within [2] tiles"],
+        "uniques": ["Never appears as a Barbarian unit","[+15]% Strength bonus for [Artillery] units within [2] tiles"],
 		"attackSound": "shot"
         },
         {
@@ -3629,16 +3701,6 @@
 		"cost": 55,
 		"attackSound": "shot"
         },
-        {
-		"name": "Pombo Governor",
-                "uniqueTo": "Kongo",
-		"unitType": "Civilian",
-		"uniques": ["[+11]% Strength bonus for [Military] units within [2] tiles",
-            "Can instantly construct a [Mbanza] improvement <by consuming this unit>",
-			"Great Person - [War]","Uncapturable"],
-                "cost": 190,
-		"movement": 3
-	},
         {
 		"name": "Cavalry Corps",
                 "uniqueTo": "Confederate America",

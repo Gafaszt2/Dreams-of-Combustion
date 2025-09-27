@@ -1,4 +1,80 @@
 [
+	{
+		"name": "Self-Strengthening Movement",
+		"isNationalWonder": true,
+		"cost": 20,
+		"uniques": [
+			"[+2 Production] per [2] social policies adopted",
+			"[+2 Science] per [2] social policies adopted",
+			"[+4 Production] per [4] social policies adopted",
+			"[+4 Science] per [4] social policies adopted",
+			"[+10]% [Science] [in all cities] <hidden from users>",
+	        "[+10]% [Culture] [in all cities] <hidden from users>",
+			"Comment [Enables the [Confucian Academy] building]",
+			"Consumes [1] [Chinese Choice Points]",
+		    "Moves to new capital when capital changes <hidden from users>",
+			"Only available <after adopting [Imperialism]>",
+			"Only available <for [Chinese] Civilizations>"]
+	},
+	{
+		"name": "Confucian Academy",
+		"hurryCostModifier": 25,
+		"science":2,
+		"maintenance": 1,
+		"uniques": ["Only available <in cities with a [Self-Strengthening Movement]>"],
+		"requiredTech": "Gas Lighting"
+	},
+	{
+		"name": "Imperial Submission",
+		"isNationalWonder": true,
+		"cost": 20,
+		"uniques": [
+			"[+33]% [Gold] from Trade Routes","[Gold] cost of purchasing [Infantry] units [-25]%","[+3 Gold] per [4] population [in all cities]",
+			"Comment [Enables the [Treaty Port] building]",
+			"Comment [Weakens unique Chinese units]",
+			"[+10]% [Science] [in all cities] <hidden from users>",
+	        "[+10]% [Culture] [in all cities] <hidden from users>",
+			"Consumes [1] [Chinese Choice Points]",
+			"Only available <after adopting [Liberty]>",
+		    "Moves to new capital when capital changes <hidden from users>",
+			"Only available <for [Chinese] Civilizations>"]
+	},
+	{
+		"name": "Treaty Port",
+		"hurryCostModifier": 25,
+		"food":2,
+		"gold": 2,
+		"uniques": ["Must be next to [Coast]","Only available <in cities with a [Imperial Submission]>"],
+		"requiredTech": "Gas Lighting"
+	},
+	{
+		"name": "Revolutionary Uprising",
+		"isNationalWonder": true,
+		"cost": 20,
+		"uniques": ["[+10]% Strength <when attacking>",
+			"[Gold] cost of purchasing [Great General] units [-50]%","[Gold] cost of purchasing [Great Admiral] units [-50]%",
+			"Comment [Enables the [Boxer] unit]",
+			"Consumes [1] [Chinese Choice Points]",
+			"[+10]% [Science] [in all cities] <hidden from users>",
+	        "[+10]% [Culture] [in all cities] <hidden from users>",
+		    "Moves to new capital when capital changes <hidden from users>",
+			"Only available <after adopting [Revolution]>",
+			"Only available <for [Chinese] Civilizations>"]
+	},
+	{
+		"name": "Diplomatic Balancing",
+		"isNationalWonder": true,
+		"cost": 20,
+		"uniques": ["[Faith] cost of purchasing [Great Merchant] units [-33]%","[Faith] cost of purchasing [Great Engineer] units [-33]%","[+5]% [Culture] [in this city]",
+			"[+5 Faith] per [4] population [in all cities]","[+5 Culture] per [4] population [in all cities]",
+			"Comment [Negates the Century of Humiliation]",
+			"[+15]% [Science] [in all cities] <hidden from users>",
+	        "[+15]% [Culture] [in all cities] <hidden from users>",
+			"Consumes [1] [Chinese Choice Points]",
+		    "Moves to new capital when capital changes <hidden from users>",
+			"Only available <after adopting [Liberty]>",
+			"Only available <for [Chinese] Civilizations>"]
+	},
 	// CA
 	{
 		"name": "Pact of Costa Rica",
@@ -1741,16 +1817,6 @@
 		"requiredTech": "Rifling"
 	},
         {
-		"name": "Consulate",
-                "uniqueTo": "China",
-                "replaces": "Courthouse",
-                "culture": 4,
-		"hurryCostModifier": 50,
-		"uniques": ["Removes extra unhappiness from annexed cities",
-			"Can only be built <in [Annexed] cities>"],
-		"requiredTech": "Rifling"
-	},
-        {
 		"name": "Mining Camp",
                 "uniqueTo": "Bolivia",
                 "gold": 3,
@@ -2080,10 +2146,11 @@
 		"name": "Kumasi Market",
                 "replaces": "Market",
 		"uniqueTo": "Ashanti",
-		"gold": 2,
+		"gold": 4,
+		"culture":1,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
-                "uniques": ["Free [Exportation Slave] appears"],
+                "uniques": ["[+20]% Production when constructing [Exportation Slave] units [in this city]"],
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Vaccine"
 	},
@@ -2113,10 +2180,10 @@
 		"name": "Guild",
         "replaces": "Mint",
 		"uniqueTo": "Benin",
-                "greatPersonPoints": {"Great Prophet": 1},
+        "greatPersonPoints": {"Great Prophet": 1},
 		"maintenance": 0,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Gold] from [Jungle] tiles [in this city]","[+1 Gold] from [Luxury resource] tiles [in this city]"],
+		"uniques": ["[+2 Gold] from [Luxury resource] tiles [in this city]"],
 		"requiredTech": "Mining"
 	},
 	{
@@ -2167,13 +2234,12 @@
 	},
         {
 		"name": "Criadero de Llamas",
-                "replaces": "Granary",
+        "replaces": "Granary",
 		"uniqueTo": "Peru",
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-                "requiredTech": "Hunting Pets"
-		"uniques": ["[+1 Food] from [Hill] tiles [in this city]",
-			"[+1 Food] from [Desert] tiles [in this city]"],
+        "requiredTech": "Hunting Pets",
+		"uniques": ["[+2 Food] from [Mountain] tiles [in this city]","[+1 Food] from [Camel] tiles [in this city]"]
 	},
         {
 		"name": "Bahay Kubo",

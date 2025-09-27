@@ -783,6 +783,11 @@
 		"uniques":["Not shown on world screen <without [CA Federal Points]>","Cannot be traded"]
 	},
 	{
+		"name": "Chinese Choice Points",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [CA Federal Points]>","Cannot be traded"]
+	},
+	{
 		"name": "Literary Work",
 		"resourceType": "Strategic",
 		"uniques":["Stockpiled","Not shown on world screen <without [Literary Work]>"]

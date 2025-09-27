@@ -432,13 +432,12 @@
 	},
         {
 		"name": "Mbanza",
-                "production": 1,
-                "uniqueTo": "Kongo",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": [
-			"Gives a defensive bonus of [10]%",
-			"Adjacent enemy units ending their turn take [5] damage",
-			"Removes removable features when built","[+2 Food] for each adjacent [Mbanza]"]
+        "food": 2,
+        "uniqueTo": "Kongo",
+		"terrainsCanBeBuiltOn": ["Jungle"],
+		"uniques": ["Gives a defensive bonus of [30]%",
+"[+2 Culture] <after discovering [Flight]>","[+4 Gold, +1 Culture] <after discovering [Economics]>","[+2 Gold, +3 Culture] <after discovering [Penicillin]>",
+			"[+1 Food, +1 Gold] <after discovering [Antibiotic]>"]
 	},
         {
 		"name": "Hare Paenga",

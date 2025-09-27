@@ -6,6 +6,30 @@
 //		"innerColor": [255,255,255]
 },
 {
+		"name": "Tibetan Protectorate",
+		"leaderName": "Tsultrim Gyatso",
+		"adjective": ["Tibetan Protectorate"],
+		"startBias":["Mountain","Hill"],
+		"preferredVictoryType": "Supremacy",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "We cannot tolerate you anymore",
+		"attacked": "The war has hardened us, but it has not broken us",
+		"defeated": "This cannot happen!",
+		"introduction": "Welcome to our land",
+		"neutralHello": "Hello.",
+		"hateHello": "We do not fear war",
+		"tradeRequest": "Check out this",
+		"outerColor": [245, 214, 61],
+		"innerColor": [5, 4, 1],
+		"favoredReligion":"Buddhism",
+		"uniqueName": "Mandate of the Mountains",
+		"uniques": ["Asian","Comment [Starts with a Great General, rumored to be 'on loan' from the Qing... And not entirely sure why he's here.]","[+2 Faith] in cities on [Hill] tiles","Land units may cross [Mountain] tiles after the first [Great General] is earned","Free [Great General] appears <hidden from users>",
+		"[+2 Faith] from every [Mountain]"],
+		"cities": ["Shigatse","Gyantse","Chamdo","Tsedang","Ngari","Nyingchi","Amdo","Kham"],
+		"spyNames": ["Yuan"]
+	},
+{
 		"name": "Llamaiché",
 		"leaderName": "Juan Kallfükura",
 		"adjective": ["Llamaiché"],
@@ -1628,8 +1652,8 @@
 		"outerColor": [107, 128, 93],
 		"innerColor": [243, 255, 235],
 		"uniqueName": "Runaway Slaves",
-		"uniques": ["Native American",
-		"[+2 Food] from every [Jungle]","[+2 Food] from every [Marsh]","[+1 Culture] from every [Monument]"],
+		"uniques": ["Native American","[+15]% Production when constructing [Archaic Infantry] units [in capital]",
+		"[+100]% Yield from every [Marsh]","[+100]% Yield from every [Jungle]","[+1 Food] from all [Tropical Resort] buildings"],
 		"cities": ["Everglades","Apalachee","Timucua","Creek","Muskogean"],
 	},
         {
@@ -1767,7 +1791,7 @@
 		"innerColor": [204, 216, 252],
                 "favoredReligion": "Manaism",
 		"uniqueName": "Celestial Navigation",
-		"uniques": ["Polynesian",
+		"uniques": ["Polynesian","[+2 Food] from every [Fish]",
 		"[+30]% Production when constructing [Water] units [in capital]","[+15]% Production when constructing [Water] units [in all cities]"],
 		"cities": ["Afaahiti",
 "Afatauri",
@@ -1981,11 +2005,11 @@
 				
 		"outerColor": [255, 247, 191],
 		"innerColor": [74, 23, 18],
-                "favoredReligion": "Catholic",
+        "favoredReligion": "Catholic",
 		"uniqueName": "Dutch´s Slave Trade",
 		"uniques": ["West African",
-		"[+1 Gold] from every [Bonus resource]","[+1 Food] from every [Bonus resource]"],
-		"cities": ["Kumasi","Denkyira","Bonoman","Akan","Togo","Ivory Coast"],
+		"[+1 Gold] from every [Luxury resource] <upon entering a new era>","[+30]% Yield from every [Monument] <upon entering a new era>"],
+		"cities": ["Kumasi","Denkyira","Bonoman","Akan","Togo","Ivory Coast"]
 	},
 {
 		"name": "Gonja",
@@ -2224,8 +2248,7 @@
 		"innerColor": [110, 36, 2],
                 "favoredReligion": "Islam",
 		"uniqueName": "Gateway to Africa",
-		"uniques": [
-		"[+20]% Strength <for [Camel] units>","Gifts of Gold to City-States generate [+50]% more Influence","[+50]% resources gifted by City-States"],
+		"uniques": ["[+20]% Strength <for [Camel] units>","[+15]% [Culture] [in all cities] <upon entering a new era>","[-30]% XP required for promotions <upon entering a new era>","[+20]% City Strength from defensive buildings <upon entering a new era>"],
 		"cities": ["Fez","Marrakech","Mequinez","Rabat","Tanger","Sale","Uchda","Kenitra","Agadir","Tetuan"],
 	},
 {
@@ -2247,12 +2270,13 @@
 		
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 				
-		"outerColor": [138, 135, 135],
-		"innerColor": [46, 30, 6],
+		"outerColor": [62, 100, 250],
+		"innerColor": [28, 20, 36],
                 "favoredReligion": "Shamanism",
 		"uniqueName": "Land of Giants",
 		"uniques": ["Native American",
-		"Gain a free [Pillaged Town] [in all cities]","[+2 Food] from every [Great Improvement]"],
+		"Starts with [Revolution] adopted","[+25]% Strength <for [Archaic Infantry] units>",
+		"[+30]% Strength <when fighting in [Tundra] tiles>","[+30]% Strength <when fighting in [Pines] tiles>","[+30]% Strength <when fighting in [Snow] tiles>"],
 		"cities": ["Coyhaique","El Chalten","El Calafate","Ushuaia","Puyuhuapi","Frutillar","Puerto Montt","Castro","Puerto Natales","Punta Arenas"],
 	},
 {
@@ -2466,8 +2490,8 @@
 		"innerColor": [23, 39, 77],
                 "favoredReligion": "Taoism",
 		"uniqueName": "Water Puppetry",
-		"uniques": ["Asian",
-		"[+2 Food] from every [Lakes]","[+1 Faith] from every [Lakes]"],
+		"uniques": ["Asian","[+50]% Yield from every [Jungle]",
+		"[+2 Faith] from every [Lakes]","[+100]% Yield from every [Lakes]"],
 		"cities": ["Thang Long","Ho Chi Minh","Da Nang","Hue","Nha Trang","Ha Long","Can Tho","Da Lat","Hai Phong","Vinh"],
 	},
 {
@@ -3088,7 +3112,7 @@
                 "favoredReligion": "Catholic",
 		"uniqueName": "El Condor Pasa",
 		"uniques": ["LA",
-		"[+1 Faith] from every [Hill]","[+1 Gold] from every [Hill]"],
+		"[+2 Gold] from all [Faith] buildings"],
 		"cities": ["Lima","Cusco","Arequipa","Trujillo","Iquitos","Chiclayo","Puno","Tacna","Huancayo","Chimbote", "Juliaca","Ayacucho","Ica","Pucallpa","Huaraz","Cajamarca","Tarapoto","Piura","Sullana","Callao", "Maldonado Port","Chincha Alta","Tumbes","Abancay","Talara","Pasco Hill","Jaen","Moyobamba","Catacaos","Moquegua"],
 	},
 {
@@ -3111,7 +3135,7 @@
 		"innerColor": [223, 235, 206],
                 "favoredReligion": "Catholic",
 		"uniqueName": "Nevando Esta",
-		"uniques": ["LA",
+		"uniques": ["LA","Starts with [Mining]",
 		"Land units may cross [Mountain] tiles after the first [Great General] is earned","[+2 Faith] [in all cities] <with [1] to [2] neighboring [{unimproved} {Hill}] tiles>"],
 		"cities": ["Sucre","La Paz","El Alto","Cochabamba","Santa Cruz de la Sierra","Tarija","Potosi","Oruro","Cobija","Riberalta","Yacuiba","Sacaba","Viacha","Tiquipaya","Quillacollo","Robore","Guayaramerin","Tupiza","Villa Montes","Villazon","Camiri","Warnes","Trinidad","Bermejo","Montero","Colcapirhua","Villa Yapacani"],
 	},
@@ -3163,7 +3187,7 @@
                 "favoredReligion": "Shamanism",
 		"uniqueName": "Impi Iyehlisa",
 		"uniques": ["Southern African",
-		"[+1 Food] from every [Plains]","[+1 Food] from every [Hunter Lodge]"],
+		"[-100]% maintenance costs <for [All] units>","[+1] Movement <for [Melee] units>","[+30]% Strength <for [Archaic Infantry] units> <during a Golden Age>","[+1] Movement <for [Infantry] units> <during a Golden Age>"],
 		"cities": ["Ulundi", "KwaDukuza" ,"Bulawayo", "Isandlwana", "Rorke´s Drift", "Eshowe", "Ondini", "Gingindlovu"]
 	},
 {
@@ -3271,7 +3295,7 @@
 	        "favoredReligion": "Baptist",
 		"uniqueName": "God's help, the love of the people, Denmark's strength",
 		"uniques": ["Non Middle Eastern",
-		"Gain a free [Havn] [in all coastal cities]","[+10]% Strength <when fighting in [Coast] tiles>"],
+		"[Faith] cost of purchasing [Great Musician] units [-35]%","[Faith] cost of purchasing [Great Writer] units [-35]%","[+50]% Strength <for [Skirmisher] units>","[+25]% Strength <for [Water] units>"],
 		"cities": ["Copenhagen","Aarhus","Kaupang","Ribe","Viborg","Tunsberg","Roskilde","Hedeby","Oslo","Jelling","Truso",
 			"Bergen","Faeroerne","Reykjavik","Trondheim","Godthab","Helluland","Lillehammer","Markland","Elsinore",
 			"Sarpsborg","Odense","Aalborg","Stavanger","Vorbasse","Schleswig","Kristiansand","Halogaland","Randers",
@@ -3422,7 +3446,7 @@
     },
 {
 		"name": "China",
-		"leaderName": "Empress Dowager Cixi",
+		"leaderName": "Yixin",
 		"adjective": ["Chinese"],
 		"preferredVictoryType": "Supremacy",
 
@@ -3441,9 +3465,10 @@
         "innerColor": [44, 121, 203],
 
 		"favoredReligion": "Judaism",
-		"uniqueName": "Sky Mandate",
-		"uniques": ["Asian",
-		"[+1 Culture] from every [Mountain]","[+2 Faith] from every [Jungle]"],
+		"uniqueName": "Century of Humiliation",
+		"uniques": ["Chinese","Comment [Start weakened by foreign influence and internal unrest. Choose [Liberty], [Imperialism], or [Revolution] to reclaim China's sovereignty, each path unlocks unique buildings, units, and a route to national rejuvenation. Overcome debuffs, rewrite history, and awaken the sleeping dragon.]",
+		"[-10]% [Science] [in all cities]","Provides [1] [Chinese Choice Points] <hidden from users>",
+	    "[-10]% [Culture] [in all cities]"],
 		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
 			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
 			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
@@ -3616,8 +3641,7 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Barbary Corsairs",
 		"uniques": ["Non Middle Eastern",
-		"[+1 Faith] [in all cities] <before discovering [Steam Power]>",
-			"When defeating a [{Barbarian} {Land}] unit, earn [25] Gold and recruit it <with [50]% chance>", "[+50]% Yield from every [Desert]"],
+		"[+45]% Strength <for [Artillery] units>","When defeating a [Barbarian] unit, earn [33] Gold and recruit it <with [40]% chance>"],
 		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya",
 			"Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin",
 			"Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarahisar",
@@ -4282,8 +4306,8 @@ Nixon Bureaucratic Reforms
 		"outerColor": [181, 146, 96],
 		"innerColor": [36, 29, 19],
 		"uniqueName": "The Rising Sun which spreads over all",
-		"uniques": ["West African",
-		"[+1 Production] from every [Oil]","[+1 Production] from every [Ocean]","[+1 Production] from every [Jungle]"],
+		"uniques": ["West African","[+1 Culture] from every [Jungle]","[+40]% Yield from every [Jungle]",
+		"[+15]% Strength <for [Melee] units>","[+33]% Strength <when fighting in [Jungle] tiles>"],
 		"cities": ["Benin City", "Udo" ,"Ekpoma", "Auchi", "Akure", "Warri", "Ondo", "Ife","Ijebu Ode","Abeokuta"]
 	},
         {
@@ -4335,7 +4359,8 @@ Nixon Bureaucratic Reforms
 		"innerColor": [163, 180, 207],
 		"uniqueName": "King Wives",
 		"uniques": ["West African",
-		"[+10]% [Production] [in capital] <when at war>","[+50]% [Gold] [in capital] <when at war>","[+50]% [Happiness] [in capital] <when at war>"],
+		"[+25]% Production when constructing [Archaic Infantry] units [in all cities]","[-100]% maintenance costs <for [Archaic Infantry] units>",
+		"[+20]% Production when constructing [Production] buildings [in all cities]","[+20]% Production when constructing [Food] buildings [in all cities]"],
 		"cities": ["Abomey", "Allada" ,"Porto-Novo", "Cotonou", "Ouidah", "Parakou", "Djougou", "Bohicon","Kandi","Lokossa"]
 	},
         {
