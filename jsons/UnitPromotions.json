@@ -1,5 +1,101 @@
 [
 	{
+		"name": "[Ingeniør] Ability",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+50]% Strength bonus for [Artillery] units within [1] tiles","[+50]% Strength bonus for [Machinegun] units within [1] tiles"]
+	},
+	{
+		"name": "[Mujahid Militia] Ability",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+100]% to Flank Attack bonuses","[+50]% XP gained from combat"]
+	},
+	{
+		"name": "[Chapelgorris] Ability",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Gold]"]
+	},
+	{
+		"name": "[Bicycle Troop] Ability",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+40]% Strength <vs [Armored] units>"]
+	},
+	{
+		"name": "[Bushranger] Ability",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+33]% Strength <when fighting in [Acacia] tiles>","[+33]% Strength <when fighting in [Dry Tree] tiles>"]
+	},
+	{
+		"name": "[Yung] Ability",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+45]% Strength bonus for [Artillery] units within [1] tiles"]
+	},
+	{
+		"name": "[Sandinista] Ability",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+30]% Strength <vs [Machinegun] units>"]
+	},
+	{
+		"name": "[Merchant Guard] Ability",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["Double movement in [Desert]","[+50]% Strength <vs [Barbarian] units>","[+33]% Strength <vs [Infantry] units> <when below [5] HP>"]
+	},
+	{
+		"name": "[Bedouin Raider] Ability",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+44]% Strength <vs cities>"]
+	},
+	{
+		"name": "[Mambi Cavalry] Ability",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+40]% XP gained from combat","Excess Food converted to Production when under construction"]
+	},
+	{
+		"name": "[Red Band] Ability",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+11]% Strength <when defending>","[-35]% Strength for enemy [Wounded] units in adjacent [Plains] tiles","[-35]% Strength for enemy [Wounded] units in adjacent [Forest] tiles"]
+	},
+	{
+		"name": "[Troupe de la Marine] Ability",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+25]% Strength <when defending>"]
+	},
+	{
+		"name": "[Changmao] Ability",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["No movement cost to pillage","[+35]% Strength <when fighting in [Pillaged] tiles>"]
+	},
+    {
+		"name": "[Indio] Ability",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+15]% Strength <upon defeating a [All] unit> <for [5] turns>"]
+	},
+	{
+		"name": "[Trangolaf] Ability",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+40]% Strength <vs [Infantry] units>"]
+	},
+	{
+		"name": "[Boxer] Ability",
+		"innerColor": [128, 154, 196],
+		"outerColor": [23, 27, 33],
+		"uniques": ["[+100]% Strength <when defending>"]
+	},
+	{
 		"name": "Abinza",
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],

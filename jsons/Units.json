@@ -1,5 +1,103 @@
 [
 	{
+		"name": "Warga",
+		"uniqueTo":"Java",
+		"replaces":"Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Uncapturable",
+		"[+35]% maintenance costs",
+		"Can transform to [Skirmisher] <during the [New Imperial Era]> <during a Golden Age>",
+		"Can transform to [Great War Infantry] <during the [First World War]> <during a Golden Age>",
+		"Can build [Land] improvements on tiles","Automation is a primary action"],
+		"cost": 70
+	},
+	{
+		"name": "Bupati",
+		"uniqueTo":"Java",
+		"replaces":"Explorer",
+		"unitType": "Infantry",
+		"movement": 3,
+		"strength": 6,
+		"cost": 40,
+		"uniques":["Limited to [2] per Civilization","[+33]% Strength bonus for [All] units within [1] tiles","[+100]% Strength <starting from the [New Imperial Era]>",
+	    "[+60]% Strength <starting from the [First World War]>","[+60]% Strength <starting from the [Second World War]>","[+70]% Strength <starting from the [Cold War]>",
+	    "[+200]% Strength <starting from the [Post Cold War]>"],
+		"attackSound": "shot"
+        },
+	{
+		"name": "Ngự Lâm Quân",
+		"uniqueTo":"Vietnam",
+		"replaces":"Grenadier",
+        "upgradesTo": "Rifleman",
+        "obsoleteTech": "Replaceable Parts",
+        "requiredTech": "Dynamite",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 26,
+        "cost": 100,
+        "uniques": ["[+45]% Strength <when fighting in [Friendly Land] tiles>","Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+        },
+	{
+		"name": "Ox Cart",
+		"uniqueTo":"Denmark",
+		"replaces":"Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["All tiles cost 1 movement",
+			"Can build [Ranch] improvements on tiles","Can build [Mill] improvements on tiles","Can build [House] improvements on tiles",
+			"Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Ingeniør",
+		"uniqueTo":"Denmark",
+		"replaces":"Grenadier",
+        "upgradesTo": "Rifleman",
+        "obsoleteTech": "Replaceable Parts",
+        "requiredTech": "Dynamite",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 23,
+		"promotions":["[Ingeniør] Ability"],
+        "uniques": ["Never appears as a Barbarian unit"],
+		"cost": 78,
+		"attackSound": "shot"
+        },
+	{
+		"name": "Beväring",
+		"uniqueTo":"Sweden",
+		"replaces":"Line Infantry",
+        "upgradesTo": "Grenadier",
+        "requiredTech": "Rifling",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 14,
+		"cost": 65,
+		"promotions":["Scout I"],
+		"attackSound": "shot"
+        },
+	{
+		"name": "Mujahid Militia",
+		"uniqueTo":"Zaydi Imamate",
+		"replaces":"Skirmisher",
+        "upgradesTo": "Grenadier",
+        "requiredTech": "Industrialization",
+		"obsoleteTech": "Dynamite",
+		"unitType": "Infantry",
+        "range": 2,
+		"movement": 3,
+		"strength": 10,
+        "rangedStrength": 10,
+		"promotions":["[Mujahid Militia] Ability"],
+		"cost": 55,
+		"attackSound": "shot"
+        },
+	{
 		"name": "Pombo Governor",
 		"uniqueTo":"Kongo",
 		"replaces":"Great General",
@@ -61,7 +159,8 @@
 		"movement": 2,
 		"strength": 10,
 		"cost": 66, 
-        "uniques": ["[+100]% Strength <when defending>","Only available <if [Revolutionary Uprising] is constructed>"],
+		"promotions":["[Boxer] Ability"],
+        "uniques": ["Only available <if [Revolutionary Uprising] is constructed>"],
 		"attackSound": "metalhit"
         },
 	{
@@ -89,7 +188,8 @@
 		"movement": 4,
 		"strength": 19,
 		"cost": 85, 
-        "uniques": ["[+40]% Strength <vs [Infantry] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"promotions":["[Trangolaf] Ability"],
+        "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
         },
 	{
@@ -275,7 +375,8 @@
 		"movement": 3,
 		"strength": 12,
 		"cost": 60, 
-        "uniques": ["[+15]% Strength <upon defeating a [All] unit> <for [5] turns>","[+30]% Strength <vs [Heavy Cavalry] units>","[+40]% Strength <vs [Light Cavalry] units>","[+40]% Strength <vs [Camel] units>"],
+		"promotions":["[Indio] Ability"],
+        "uniques": ["[+30]% Strength <vs [Heavy Cavalry] units>","[+40]% Strength <vs [Light Cavalry] units>","[+40]% Strength <vs [Camel] units>"],
 		"attackSound": "metalhit"
         },
 	{
@@ -288,7 +389,8 @@
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 20,
-        "uniques": ["No movement cost to pillage","[+35]% Strength <when fighting in [Pillaged] tiles>","Never appears as a Barbarian unit"],
+		"promotions":["[Changmao] Ability"],
+        "uniques": ["Never appears as a Barbarian unit"],
 		"cost": 70,
 		"attackSound": "shot"
         },
@@ -316,7 +418,8 @@
 		"movement": 2,
 		"strength": 20,
 		"rangedStrength": 23,
-        "uniques": ["[+24]% Strength <when defending>","Never appears as a Barbarian unit"],
+		"promotions":["[Troupe de la Marine] Ability"],
+        "uniques": ["Never appears as a Barbarian unit"],
 		"cost": 70,
 		"attackSound": "shot"
         },
@@ -1087,9 +1190,9 @@
         "requiredTech": "Novel",
 		"unitType": "Heavy Cavalry",
 		"movement": 4,
-		"strength": 27,
-		"cost": 140, 
-                "uniques": ["[-22]% Strength <vs [Light Cavalry] units>","[-22]% Strength <vs [Camel] units>","Blast radius [2]","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"strength": 29,
+		"cost": 130, 
+                "uniques": ["[-22]% Strength <vs [Light Cavalry] units>","[-22]% Strength <vs [Camel] units>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
         },
 		{
@@ -2650,7 +2753,19 @@
 		"cost": 250,
 		"requiredTech": "Steam Power",
 		"requiredResource": "Coal",
-		"uniques": ["[-22]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
+		"uniques": ["Unavailable <for [Nordic] Civilizations> <hidden from users>","[-22]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Gunboat",
+        "obsoleteTech": "Radio",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 39,
+		"cost": 200,
+		"requiredTech": "Steam Power",
+		"requiredResource": "Coal",
+		"uniques": ["Only available <for [Nordic] Civilizations>","[-22]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
 	},
         {
@@ -2984,20 +3099,6 @@
 		"cost": 90,
 		"attackSound": "shot"
         },
-        {
-		"name": "Viet Cong",
-                "uniqueTo": "Vietnam",
-                "replaces": "River Patrol",
-                "upgradesTo": "AK47",
-                "obsoleteTech": "Afganistan/Irak Wars",
-                "requiredTech": "Vietnam War",
-		"unitType": "Infantry",
-                "uniques": ["Invisible to non-adjacent units","Double movement in [Forest]","Double movement in [Jungle]", "Never appears as a Barbarian unit"],
-		"movement": 2,
-		"strength": 70,
-		"cost": 260,
-		"attackSound": "shot"
-        },
 		{
 			"name": "Jinete",
 			"uniqueTo": "Venezuela",
@@ -3153,10 +3254,10 @@
                 "obsoleteTech": "Replaceable Parts",
                 "requiredTech": "Dynamite",
 		"unitType": "Infantry",
-                "range": 2,
+        "range": 2,
 		"movement": 2,
 		"strength": 20,
-                "uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Gold]"],
+        "promotions":["[Chapelgorris] Ability"],
 		"cost": 70,
 		"attackSound": "shot"
         },
@@ -3294,19 +3395,6 @@
 		"attackSound": "cannon"
 	},
         {
-		"name": "Stridsfordon 90",
-                "uniqueTo": "Sweden",
-                "replaces": "Mechanized Infantry",
-		"unitType": "Armored",
-		"movement": 3,
-		"strength": 90,
-		"cost": 520,
-"requiredTech": "NAFTA",
-		"requiredResource": "Oil",
-		"uniques": ["Limited to [4] per Civilization","[+22]% Strength <vs [Armored] units>","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
-	},
-        {
 		"name": "Bicycle Troop",
                 "uniqueTo": "Belgium",
                 "replaces": "Cavalry",
@@ -3316,7 +3404,8 @@
 		"movement": 4,
 		"strength": 30,
 		"cost": 210, 
-                "uniques": ["Can move after attacking","No defensive terrain bonus","[+33]% Strength <vs [Armored] units>","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"promotions":["[Bicycle Troop] Ability"],
+                "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
         },
         {
@@ -3439,7 +3528,8 @@
 		"movement": 3,
 		"strength": 44,
 		"cost": 150,
-                 "uniques": ["[+33]% Strength <when fighting in [Acacia] tiles>","[+33]% Strength <when fighting in [Dry Tree] tiles>",
+		"promotions":["[Bushranger] Ability"],
+                 "uniques": [
 				 "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
         },
@@ -3605,7 +3695,8 @@
 		"movement": 2,
 		"strength": 12,
 		"cost": 55, 
-        "uniques": ["Never appears as a Barbarian unit","[+15]% Strength bonus for [Artillery] units within [2] tiles"],
+		"promotions":["[Yung] Ability"],
+        "uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "shot"
         },
         {
@@ -4177,22 +4268,6 @@
                 "uniques": ["Can build [Slave Labor Plantation] improvements on tiles","[+22]% Strength <vs [Wounded] units>"],
 		"attackSound": "metalhit"
         },
-
-        {
-		"name": "Ukfa Troop",
-                "uniqueTo": "Yemen",
-		"replaces": "Great War Infantry",
-                "upgradesTo": "Infantry",
-                "obsoleteTech": "Plastics",
-                "requiredTech": "Ballistics",
-		"unitType": "Infantry",
-		"movement": 2,
-		"strength": 45,
-		"cost": 160,
-                "promotions": ["Drill I","Drill II"],
-                 "uniques": ["Never appears as a Barbarian unit"],
-		"attackSound": "shot"
-        },
         {
 		"name": "Fursan",
                 "uniqueTo": "Darfur",
@@ -4374,7 +4449,7 @@
 		"movement": 3,
 		"strength": 10,
                 "rangedStrength": 10,
-                "uniques": ["[+11]% Strength <when defending>","[-35]% Strength for enemy [Wounded] units in adjacent [Plains] tiles","[-35]% Strength for enemy [Wounded] units in adjacent [Forest] tiles"],           
+                "promotions":["[Red Band] Ability"],           
 		"cost": 55,
 		"attackSound": "shot"
         },
@@ -4402,7 +4477,7 @@
 				"movement": 4,
 				"strength": 29,
 				"cost": 105, 
-						"uniques": ["[70]% production cost <in cities with a [Stable]>","[+8]% Strength <when defending>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+						"uniques": ["[+28]% Strength <when defending>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 				"attackSound": "horse"
 				},
 				{
@@ -4416,7 +4491,8 @@
 					"movement": 4,
 					"strength": 22,
 					"cost": 80, 
-							"uniques": ["[+30]% XP gained from combat","Excess Food converted to Production when under construction","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+					"promotions":["[Mambi Cavalry] Ability"],
+							"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 					"attackSound": "horse"
 					},
 			{
@@ -4442,7 +4518,8 @@
 					"movement": 3,
 					"strength": 15,
 					"cost": 80, 
-"uniques": ["[+44]% Strength <vs cities>", "Never appears as a Barbarian unit"],
+					"promotions":["[Bedouin Raider] Ability"],
+"uniques": ["Never appears as a Barbarian unit"],
 					"obsoleteTech": "Dynamite",
 					"requiredResource": "Camel",
 					"attackSound": "camel"
@@ -4516,7 +4593,8 @@
 		"movement": 2,
 		"strength": 15,
 		"cost": 80, 
-                "uniques": ["Double movement in [Desert]","[+50]% Strength <vs [Barbarian] units>","[+33]% Strength <vs [Infantry] units> <when below [5] HP>","[+30]% Strength <vs [Heavy Cavalry] units>","[+30]% Strength <vs [Light Cavalry] units>","[+30]% Strength <vs [Camel] units>"],
+		"promotions":["[Merchant Guard] Ability"],
+                "uniques": ["[+30]% Strength <vs [Heavy Cavalry] units>","[+30]% Strength <vs [Light Cavalry] units>","[+30]% Strength <vs [Camel] units>"],
 		"attackSound": "metalhit"
         },
 		{
@@ -4646,14 +4724,15 @@
 			"name": "Sandinista",
 			"uniqueTo": "Nicaragua",
             "replaces": "Great War Infantry",
-					"upgradesTo": "Infantry",
-					"obsoleteTech": "Plastics",
-					"requiredTech": "Ballistics",
+			"upgradesTo": "Infantry",
+			"obsoleteTech": "Plastics",
+			"requiredTech": "Ballistics",
 			"unitType": "Machinegun",
 			"movement": 2,
 			"strength": 45,
 			"cost": 140,
-					 "uniques": ["[+30]% Strength <vs [Machinegun] units>","Never appears as a Barbarian unit"],
+			"promotions":["[Sandinista] Ability"],
+			"uniques": ["Never appears as a Barbarian unit"],
 			"attackSound": "shot"
 			},
 		{

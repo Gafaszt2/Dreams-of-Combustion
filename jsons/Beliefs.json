@@ -23,12 +23,12 @@
     {
         "name": "Global Religion",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Luxury resource]"]
+        "uniques": ["[+2 Faith] from every [Luxury resource]"]
     },
     {
         "name": "Strategical Religion",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Strategic resource]"]
+        "uniques": ["[+2 Faith] from every [Strategic resource]"]
     },
     {
         "name": "Dry Tree Fire",
@@ -88,7 +88,7 @@
     {
         "name": "Passion for Art",
         "type": "Pantheon",
-        "uniques": ["[+4 Faith] from every [Monument]"]
+        "uniques": ["[+2 Faith] from every [Monument]"]
     },
     {
         "name": "Expansive Faith",

@@ -443,6 +443,104 @@
 			"Only available <for [Non Middle Eastern] Civilizations>"]
 	},
 	{
+		"name": "Arvshall",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Comment [Unlock Modules as you gain Nordic Golden Age points.]",
+		"[+10]% [Culture] from every [House]","[+10]% [Production] from every [House]",
+		"Only available <for [Nordic] Civilizations>"]
+	},
+	{
+		"name": "Stjärnvalvet",
+		"isNationalWonder": true,
+		"requiredBuilding": "Arvshall",
+		"cost": 100,
+		"uniques": ["Must have an owned [Tundra] within [3] tiles",
+		"[+25]% [Science] from every [Tundra]",
+		"Only available <for [Nordic] Civilizations>"]
+	},
+	{
+		"name": "Maypole",
+		"isNationalWonder": true,
+		"requiredBuilding": "Arvshall",
+		"cost": 100,
+		"uniques": ["Must have an owned [Ranch] within [2] tiles",
+		"[+10]% [Food] from every [Ranch]",
+		"Only available <for [Nordic] Civilizations>"]
+	},
+	{
+		"name": "Torp",
+		"isNationalWonder": true,
+		"requiredBuilding": "Arvshall",
+		"cost": 100,
+		"uniques": ["Must have an owned [House] within [2] tiles",
+		"[+5]% [Culture] from every [House]",
+		"[+5]% [Food] from every [House]",
+		"[+5]% [Gold] from every [House]",
+		"Only available <for [Nordic] Civilizations>"]
+	},
+	{
+		"name": "Rusthall",
+		"isNationalWonder": true,
+		"requiredNearbyImprovedResources":["Horses"],
+		"requiredBuilding": "Arvshall",
+		"cost": 100,
+		"uniques": ["Must have an owned [Ocean] within [3] tiles",
+		"[+25]% [Production] from every [Horses]","[+25]% [Gold] from every [Horses]",
+		"Only available <for [Nordic] Civilizations>"]
+	},
+	{
+		"name": "Sögusalur",
+		"isNationalWonder": true,
+		"requiredBuilding": "Arvshall",
+		"cost": 100,
+		"uniques": ["Must have an owned [Ocean] within [3] tiles",
+		"[+25]% [Culture] from every [Fishing Boats]",
+		"Provides [1] [Literary Work]",
+		"Only available <for [Nordic] Civilizations>"]
+	},
+	{
+		"name": "Innovasjonsfløyen",
+		"isNationalWonder": true,
+		"requiredBuilding": "Arvshall",
+		"cost": 100,
+		"uniques": ["Must have an owned [Manufactory] within [3] tiles",
+		"[+25]% [Science] from every [Manufactory]",
+		"Free [Great Scientist] appears",
+		"Only available <for [Nordic] Civilizations>"]
+	},
+	{
+		"name": "Diplomatgalleriet",
+		"isNationalWonder": true,
+		"requiredBuilding": "Arvshall",
+		"cost": 100,
+		"uniques": ["Must have an owned [Fishing Boats] within [2] tiles",
+		"[+25]% [Gold] from every [Luxury resource]",
+		"Provides [1] [Silver]","Provides [1] [Furs]",
+		"Only available <for [Nordic] Civilizations>"]
+	},
+	{
+		"name": "Hyvinvointiaatriumi",
+		"isNationalWonder": true,
+		"requiredNearbyImprovedResources":["Deer","Fish"],
+		"requiredBuilding": "Arvshall",
+		"cost": 100,
+		"uniques": ["Only available <in cities with a [Hospital]>",
+		"[+25]% [Culture] from every [Deer]",
+		"[+25]% [Culture] from every [Fish]",
+		"Only available <for [Nordic] Civilizations>"]
+	},
+	{
+		"name": "Hållbarhetskupolen",
+		"isNationalWonder": true,
+		"requiredBuilding": "Arvshall",
+		"cost": 100,
+		"uniques": ["Only available <in cities with a [Museum]>","Must have an owned [Forest] within [3] tiles",
+		"[+25]% [Production] from every [Strategic resource]",
+		"[+2 Production, +1 Gold] [in all cities]",
+		"Only available <for [Nordic] Civilizations>"]
+	},
+	{
 		"name": "Federation Hall",
 		"isNationalWonder": true,
 		"cost": 100,
@@ -1075,7 +1173,7 @@
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+44]% Strength <vs [Camel] units>",
 			"Only available <in cities without a [Court - Ottoman - Yemen]>","Only available <in cities without a [Court - Hejaz - Yemen]>",
-			"Only available <for [Yemen] Civilizations>"]
+			"Only available <for [Zaydi Imamate] Civilizations>"]
 	},
 	{
 		"name": "Court - Ottoman - Yemen",
@@ -1083,7 +1181,7 @@
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+36]% Production when constructing [Artillery] units [in all cities]",
 			"Only available <in cities without a [Court - Oman - Yemen]>","Only available <in cities without a [Court - Hejaz - Yemen]>",
-			"Only available <for [Yemen] Civilizations>"]
+			"Only available <for [Zaydi Imamate] Civilizations>"]
 	},
 	{
 		"name": "Court - Hejaz - Yemen",
@@ -1091,7 +1189,7 @@
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+80]% Strength <vs [Barbarian] units>",
 			"Only available <in cities without a [Court - Ottoman - Yemen]>","Only available <in cities without a [Court - Oman - Yemen]>",
-			"Only available <for [Yemen] Civilizations>"]
+			"Only available <for [Zaydi Imamate] Civilizations>"]
 	},
 	{
 		"name": "Court - French - FNA",
@@ -1458,12 +1556,6 @@
 		"requiredTech": "Social Media"
 	},
         {
-		"name": "Havn",
-                "requiredTech": "Settlement"
-                "uniqueTo": "Denmark",
-                "uniques": ["[+10]% Production when constructing [Water] units [in this city]","[1] free [Worker] units appear <with [100]% chance>"]
-	},
-        {
 		"name": "Slave Market",
                 "requiredTech": "Settlement"
                 "uniques": ["Unbuildable","Unsellable","Free [Slave] appears"],
@@ -1477,14 +1569,6 @@
 		"name": "Central Industry",
                 "requiredTech": "Settlement"
                 "uniques": ["Unbuildable","Unsellable","[1] free [Line Infantry] units appear <with [100]% chance>"]
-	},
-        
-        {
-		"name": "Tillaegscenter",
-                "uniqueTo": "Denmark",
-                "requiredTech": "Combined Arms",
-                "requiredBuilding": "Havn",
-                "uniques": ["[+10]% Production when constructing [Water] units [in this city]","[1] free [Worker] units appear <with [100]% chance>"],
 	},
         {
 		"name": "Military Academy",
@@ -2263,7 +2347,7 @@
 {
 		"name": "Mudbrick Skyscraper",
                 "replaces": "Granary",
-		"uniqueTo": "Yemen",
+		"uniqueTo": "Zaydi Imamate",
 		"food": 2,
                 "culture": 1,
 		"maintenance": 1,
@@ -2380,7 +2464,7 @@
         "requiredTech": "Fridge",
 		"maintenance": 2,
 		"happiness":1,
-		"requiredBuilding": "Trade Depot",
+		"requiredBuilding": "Tropical Resort",
 		"uniques": [
 		"New [Military] units start with [15] XP [in this city]"
 			]
