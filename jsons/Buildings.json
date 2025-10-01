@@ -443,6 +443,78 @@
 			"Only available <for [Non Middle Eastern] Civilizations>"]
 	},
 	{
+		"name": "National Assembly Hall",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": [
+		    "[+15]% [Culture] [in all cities]","[+15]% [Gold] [in all cities]",
+			"Only available <for [Benelux] Civilizations>"]
+	},
+	{
+		"name": "Merchant's Guildhall",
+		"requiredBuilding":"National Assembly Hall",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+1 Gold, +1 Science] from every [Bank]",
+		    "[+25]% [Science] [in all cities]","[+25]% [Production] [in all cities]",
+			"Only available <for [Benelux] Civilizations>"]
+	},
+	{
+		"name": "Colonial Trade Office",
+		"requiredBuilding":"National Assembly Hall",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","[+44]% Production when constructing [Worker] units [in this city]","[+33]% Production when constructing [Explorer] units [in this city]",
+		    "[+15]% [Food] [in all cities]","[+15]% [Gold] [in all cities]",
+			"Only available <for [Benelux] Civilizations>"]
+	},
+	{
+		"name": "Admiralty Office",
+		"requiredBuilding":"National Assembly Hall",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]","Free [Great Admiral] appears","[+12]% Production when constructing [Water] units [in this city]",
+		    "[+15]% [Food] [in all cities]","[+15]% [Gold] [in all cities]",
+			"Only available <for [Benelux] Civilizations>"]
+	},
+	{
+		"name": "Benteng",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]",
+            "[+15]% [Production] [in all cities]",
+			"[+10]% Strength <for [Land] units>",
+			"Only available <for [Javanese] Civilizations>"]
+	},
+	{
+		"name": "Panggung Krapyak",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]",
+            "[+25]% [Food] [in all cities]","[+10]% [Food] from every [Granary]","[+10]% [Food] from every [Ranch]",
+			"Provides [1] [Dog Meat]",
+			"Only available <for [Javanese] Civilizations>"]
+	},
+	{
+		"name": "Defensive Post",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]",
+            "[+15]% [Production] [in all cities]",
+			"All newly-trained [All] units [in all cities] receive the [Scout I] promotion",
+			"All newly-trained [All] units [in all cities] receive the [Healing I] promotion",
+			"Only available <for [Javanese] Civilizations>"]
+	},
+	{
+		"name": "Kepatihan",
+		"isNationalWonder": true,
+		"cost": 100,
+		"uniques": ["Consumes [1] [National Choice]",
+            "[+15]% [Culture] [in all cities]","[+25]% [Gold] [in all cities]",
+			"[+33]% Strength <for [Javanese] units>",
+			"Only available <for [Javanese] Civilizations>"]
+	},
+	{
 		"name": "Arvshall",
 		"isNationalWonder": true,
 		"cost": 100,
@@ -1928,7 +2000,18 @@
 		"cost": 400,
 		"hurryCostModifier": 20,
 		"uniques": ["Destroyed when the city is captured"]
-	}
+	},
+	{
+		"name": "Constitutional Chamber",
+		"uniqueTo": "Luxemburg",
+        "replaces": "Monument",
+		"culture": 2,
+		"happiness":1,
+		"gold":2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"uniques": ["Destroyed when the city is captured"]
+	},
         {
 		"name": "Puskesmas",
                 "uniqueTo": "Indonesia",
@@ -2136,14 +2219,23 @@
 		"uniques": ["[+30]% [Faith] <during a Golden Age>","Destroyed when the city is captured"]
 	},
 
-        {
+    {
 		"name": "Temple",
 		"faith": 4,
         "greatPersonPoints": {"Great Prophet": 1},
 		"cost": 100,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Unavailable <for [Javanese] Civilizations> <hidden from users>","Destroyed when the city is captured"]
+	},
+	{
+		"name": "Surau",
+		"faith": 4,
+        "greatPersonPoints": {"Great Prophet": 1},
+		"cost": 100,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Only available <for [Javanese] Civilizations>","[+5]% [Faith] [in this city]","Destroyed when the city is captured"]
 	},
 	{
 		"name": "Heavenly Hall",

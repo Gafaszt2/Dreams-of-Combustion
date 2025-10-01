@@ -1,11 +1,24 @@
 [
 	{
+		"name": "Garde Civique",
+		"uniqueTo":"Luxemburg",
+		"replaces":"Explorer",
+		"unitType": "Infantry",
+		"movement": 3,
+		"strength": 6,
+		"cost": 40,
+		"uniques":["[+50]% XP gained from combat","[+100]% Strength <starting from the [New Imperial Era]>",
+	    "[+60]% Strength <starting from the [First World War]>","[+60]% Strength <starting from the [Second World War]>","[+70]% Strength <starting from the [Cold War]>",
+	    "[+200]% Strength <starting from the [Post Cold War]>"],
+		"attackSound": "shot"
+        },
+	{
 		"name": "Warga",
 		"uniqueTo":"Yogyakarta",
 		"replaces":"Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Uncapturable",
+		"uniques": ["Uncapturable","Javanese",
 		"[+35]% maintenance costs",
 		"Can transform to [Skirmisher] <during the [New Imperial Era]> <during a Golden Age>",
 		"Can transform to [Great War Infantry] <during the [First World War]> <during a Golden Age>",
@@ -20,7 +33,7 @@
 		"movement": 3,
 		"strength": 6,
 		"cost": 40,
-		"uniques":["Limited to [2] per Civilization","[+33]% Strength bonus for [All] units within [1] tiles","[+100]% Strength <starting from the [New Imperial Era]>",
+		"uniques":["Javanese","Limited to [2] per Civilization","[+33]% Strength bonus for [All] units within [1] tiles","[+100]% Strength <starting from the [New Imperial Era]>",
 	    "[+60]% Strength <starting from the [First World War]>","[+60]% Strength <starting from the [Second World War]>","[+70]% Strength <starting from the [Cold War]>",
 	    "[+200]% Strength <starting from the [Post Cold War]>"],
 		"attackSound": "shot"
@@ -1448,7 +1461,7 @@
 		"unitType": "Infantry",
 		"movement": 3,
 		"strength": 7,
-                "uniques": ["[+15]% Strength bonus for [Infantry] units within [2] tiles"],
+                "uniques": ["Javanese","[+15]% Strength bonus for [Infantry] units within [2] tiles"],
                 "civilopediaText": [
 			{"text": "Female Musketeer, stronger in groups."}
 		]
@@ -1467,7 +1480,7 @@
 		"strength": 17,
                 "rangedStrength": 24,
 		"cost": 160, 
-                "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+                "uniques": ["Javanese","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
         },
 
@@ -1806,7 +1819,19 @@
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 20,
-        "uniques": ["Never appears as a Barbarian unit"],
+        "uniques": ["Unavailable <for [Javanese] Civilizations> <hidden from users>","Never appears as a Barbarian unit"],
+		"cost": 70,
+		"attackSound": "shot"
+        },
+		{
+		"name": "Pemuras",
+        "upgradesTo": "Rifleman",
+        "obsoleteTech": "Replaceable Parts",
+        "requiredTech": "Dynamite",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 20,
+        "uniques": ["[+10]% XP gained from combat","Only available <for [Javanese] Civilizations>","Never appears as a Barbarian unit"],
 		"cost": 70,
 		"attackSound": "shot"
         },

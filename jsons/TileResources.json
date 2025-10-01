@@ -443,6 +443,11 @@
 		"gold": 1
 	},
 	{
+		"name": "Dog Meat",
+		"resourceType": "Luxury",
+		"gold": 1
+	},
+	{
 		"name": "Citrus",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Flood plains","Mud"],
