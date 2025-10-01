@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Warga",
-		"uniqueTo":"Java",
+		"uniqueTo":"Yogyakarta",
 		"replaces":"Worker",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -14,7 +14,7 @@
 	},
 	{
 		"name": "Bupati",
-		"uniqueTo":"Java",
+		"uniqueTo":"Yogyakarta",
 		"replaces":"Explorer",
 		"unitType": "Infantry",
 		"movement": 3,

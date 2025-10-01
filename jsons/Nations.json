@@ -6,9 +6,9 @@
 //		"innerColor": [255,255,255]
 },
 {
-		"name": "Java",
+		"name": "Yogyakarta",
 		"leaderName": "Prince Diponegoro",
-		"adjective": ["Java"],
+		"adjective": ["Yogyakarta"],
 		"startBias":["Coast","Jungle","Atoll"],
 		"preferredVictoryType": "Supremacy",
 		"startIntroPart1": "",
