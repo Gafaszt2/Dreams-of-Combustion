@@ -2229,7 +2229,7 @@
 		"uniques": ["Unavailable <for [Javanese] Civilizations> <hidden from users>","Destroyed when the city is captured"]
 	},
 	{
-		"name": "Surau",
+		"name": "Pesantren",
 		"faith": 4,
         "greatPersonPoints": {"Great Prophet": 1},
 		"cost": 100,
