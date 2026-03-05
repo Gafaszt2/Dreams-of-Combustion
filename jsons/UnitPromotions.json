@@ -75,13 +75,13 @@
 		"name": "[Changmao] Ability",
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],
-		"uniques": ["No movement cost to pillage","[+35]% Strength <when fighting in [Pillaged] tiles>"]
+		"uniques": ["No movement cost to pillage","[+35]% Strength <when fighting in [pillaged] tiles>"]
 	},
     {
 		"name": "[Indio] Ability",
 		"innerColor": [128, 154, 196],
 		"outerColor": [23, 27, 33],
-		"uniques": ["[+15]% Strength <upon defeating a [All] unit> <for [5] turns>"]
+		"uniques": ["[+22]% Strength <vs cities>"]
 	},
 	{
 		"name": "[Trangolaf] Ability",
@@ -1005,7 +1005,7 @@
 	"innerColor": [128, 154, 196],
 	"outerColor": [23, 27, 33],
 	"prerequisites": ["Anti-Tank II"],
-	"uniques": ["Only available <after discovering [Tanks]>","[+34]% Strength <vs [BarbarArmoredians] units>"],
+	"uniques": ["Only available <after discovering [Tanks]>","[+34]% Strength <vs [Armored] units>"],
 	"unitTypes": ["Archaic Infantry","Culverin","Infantry","Light Cavalry","Heavy Cavalry","Camel","Elephant","Armored","Machinegun","Drone","Artillery"]
 },
 {

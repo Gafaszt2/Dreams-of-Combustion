@@ -560,7 +560,7 @@
 		"movementCost": 1,
 		"RGB": [135, 116, 101],
 		"defenceBonus": 0.25,
-		"uniques": ["Semi-Aird","Considered [Desirable] when determining start locations"]
+		"uniques": ["Considered [Desirable] when determining start locations"]
 	},
 	{
 		"name": "Pines",

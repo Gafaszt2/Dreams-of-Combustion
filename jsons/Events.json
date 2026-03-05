@@ -1,0 +1,102 @@
+[
+{
+		"name": "World War II Begins",
+		"text": "War erupts once more as nations mobilize on an unprecedented scale. The world must decide: stand against fascism, align with the Axis, or remain neutral in hopes of survival.",
+		"choices": [
+			{ "text": "Join the war",
+			  "uniques": [	"[+35]% Strength <for [Infantry] units> <for [10] turns>",
+			                "[+35]% Production when constructing [Infantry] units [in all cities] <for [10] turns>"]}
+				
+				{ "text": "Let's focus on ourselves",
+			  "uniques": [	"[+55]% Production when constructing [Production] buildings [in all cities] <for [10] turns>",
+                            "[+55]% Production when constructing [Food] buildings [in all cities] <for [10] turns>",
+                            "[+55]% Production when constructing [Gold] buildings [in all cities] <for [10] turns>",]}
+      
+      			{ "text": "Sell goods to the major powers",
+			  "uniques": [	"[+6 Gold] [in all cities] <for [10] turns>"] }
+      
+     			{ "text": "Produce national propaganda",
+			  "uniques": [ 	
+							"[+3 Culture, +3 Happiness] [in all cities] <for [10] turns>"] } ]
+},
+{
+		"name": "The Great War Begins",
+		"text": "Europe erupts into war as alliances fracture and armies mobilize. The world watches as nations must decide: join the conflict, pick a side, or remain neutral.",
+		"choices": [
+			{ "text": "Join the war",
+			  "uniques": [	"[+25]% Strength <for [Armored] units> <for [10] turns>",
+			                "[+25]% Production when constructing [Armored] units [in all cities] <for [10] turns>"]}
+      
+      			{ "text": "Sell goods to the major powers",
+			  "uniques": [	"[+4 Gold] [in all cities] <for [10] turns>"] }
+      
+     			{ "text": "Produce national propaganda",
+			  "uniques": [ 	
+							"[+2 Culture, +2 Happiness] [in all cities] <for [10] turns>"] } ]
+},
+{
+		"name": "The New Art of War",
+		"text": "Your nation stands at the threshold of mass production, mechanized labor, and urban expansion. How will you guide this transformation?",
+		"choices": [
+			{ "text": "Modernize the Army",
+			  "uniques": [	"[+25]% Strength <for [Artillery] units> <for [10] turns>"]}
+      
+      			{ "text": "Invest in Cavalry & Tradition",
+			  "uniques": [	"[+25]% Strength <for [Heavy Cavalry] units> <for [10] turns>",
+							"[+25]% Strength <for [Light Cavalry] units> <for [10] turns>"] }
+      
+     			{ "text": "Expand Officer Academies",
+			  "uniques": [ 	
+							"Free [Great General] appears"] } 
+				{ "text": "Resist Militarization",
+			  "uniques": [ 	
+							"[+2 Culture] [in all cities] <for [10] turns>"] } ]
+},
+{
+		"name": "The Machine Age Dawns",
+		"text": "Your nation stands at the threshold of mass production, mechanized labor, and urban expansion. How will you guide this transformation?",
+		"choices": [
+			{ "text": "Embrace Heavy Industry",
+			  "uniques": [	"[+2 Production] [in all cities] <for [10] turns>"]}
+      
+      			{ "text": "Promote Social Reform",
+			  "uniques": [	
+							"[+1 Happiness] [in all cities] <for [10] turns>"] }
+      
+     			{ "text": "Encourage Urban Expansion",
+			  "uniques": [ 	
+							"[+2 Food] [in all cities] <for [10] turns>"] } 
+				{ "text": "Restrict Industrial Growth",
+			  "uniques": [ 	
+							"[+2 Culture] [in all cities] <for [10] turns>"] } ]
+},
+{
+		"name": "Illuminating the Streets",
+		"text": "With the advent of gas lighting, your cities can extend activity into the night. But how should this new technology be implemented?",
+		"choices": [
+			{ "text": "Light the Public Streets",
+			  "uniques": [	"[+2 Happiness] [in all cities] <for [10] turns>"]}
+      
+      			{ "text": "Restrict to Elite Districts",
+			  "uniques": [	"Gain [120] [Gold]",
+							"[-1 Happiness] [in all cities] <for [10] turns>"] }
+      
+     			{ "text": "Encourage Industrial Use",
+			  "uniques": [ 	
+							"[+1 Production] [in all cities] <for [10] turns>"] } ]
+},
+  {
+		"name": "The Rise of the Hunting Clubs",
+		"text": "Upon discovering Hunting Dogs, nobles and industrial elites begin forming hunting societies. This sparks debate about land use, tradition, and modernization.",
+		"choices": [
+			{ "text": "Encourage Hunting Clubs",
+			  "uniques": [	"[+2 Happiness] [in all cities] <for [10] turns>"]}
+      
+      			{ "text": "Restrict Hunting Rights",
+			  "uniques": [	"[+1 Food] [in all cities] <for [10] turns>"] }
+      
+     			{ "text": "Commercialize Hunting",
+			  "uniques": [ 	"Gain [120] [Gold]",
+							"[-1 Culture] [in all cities] <for [10] turns>"] } ]
+  }
+]

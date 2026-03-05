@@ -222,42 +222,43 @@
 		// ca
 	{
 		"name": "Altos Escopetero",
+		"uniqueTo":"Central Americans",
         "upgradesTo": "Grenadier",
 		"obsoleteTech": "Dynamite",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 9,
-		"uniques":["Only available <if [Pact of Los Altos] is constructed>",
-			"Only available <for [Central American] Civilizations>","Only available <after discovering [Rifling]>","[+50]% Strength <with [40]% chance>","[+1] Range <upon defeating a [All] unit> <for [5] turns>"],
+		"uniques":["Only available <if [Pact of Los Altos] is constructed>","Only available <after discovering [Rifling]>","[+50]% Strength <with [40]% chance>","[+1] Range"],
 		"cost": 55,
 		"attackSound": "shot"
         },
 		{
 		"name": "Federal Conscript",
+		"uniqueTo":"Central Americans",
         "upgradesTo": "Halberdier",
         "obsoleteTech": "Dynamite",
 		"unitType": "Archaic Infantry",
 		"movement": 3,
 		"strength": 17,
 		"cost": 65, 
-        "uniques": ["Only available <if [Pact of Los Altos] is constructed>",
-			"Only available <for [Central American] Civilizations>","Only available <after discovering [Railway]>","[+50]% Strength <with [40]% chance>"],
+        "uniques": ["Only available <if [Pact of Los Altos] is constructed>","Only available <after discovering [Railway]>","[+50]% Strength <with [40]% chance>"],
 		"attackSound": "shot"
         },
 	{
 		"name": "Catracho",
+		"uniqueTo":"Central Americans",
         "upgradesTo": "Grenadier",
 		"obsoleteTech": "Dynamite",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 14,
-		"uniques":["Only available <if [Pact of Nicaragua] is constructed>",
-			"Only available <for [Central American] Civilizations>","Only available <after discovering [Rifling]>"],
+		"uniques":["Only available <if [Pact of Nicaragua] is constructed>","Only available <after discovering [Rifling]>"],
 		"cost": 55,
 		"attackSound": "shot"
         },
 	{
 		"name": "Federal Jinete",
+		"uniqueTo":"Central Americans",
         "upgradesTo": "Cavalry",
         "obsoleteTech": "Replaceable Parts",
 		"unitType": "Heavy Cavalry",
@@ -265,36 +266,36 @@
 		"strength": 17,
         "rangedStrength": 14,
 		"cost": 130, 
-        "uniques": ["Only available <if [Pact of Nicaragua] is constructed>",
-			"Only available <for [Central American] Civilizations>","Only available <after discovering [Military Science]>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+        "uniques": ["Only available <if [Pact of Nicaragua] is constructed>","Only available <after discovering [Military Science]>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
         },
 	{
 		"name": "Escopetero",
+		"uniqueTo":"Central Americans",
         "upgradesTo": "Grenadier",
 		"obsoleteTech": "Dynamite",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 12,
-		"uniques":["Only available <if [Pact of Guatemala] is constructed>",
-			"Only available <for [Central American] Civilizations>","Only available <after discovering [Rifling]>","[+1] Range <upon defeating a [All] unit> <for [5] turns>"],
+		"uniques":["Only available <if [Pact of Guatemala] is constructed>","Only available <after discovering [Rifling]>","[+1] Range"],
 		"cost": 55,
 		"attackSound": "shot"
         },
 	{
 		"name": "Guardia",
+		"uniqueTo":"Central Americans",
         "upgradesTo": "Halberdier",
         "obsoleteTech": "Dynamite",
 		"unitType": "Archaic Infantry",
 		"movement": 3,
 		"strength": 19,
 		"cost": 65, 
-        "uniques": ["Only available <if [Pact of Guatemala] is constructed>",
-			"Only available <for [Central American] Civilizations>","Only available <after discovering [Railway]>"],
+        "uniques": ["Only available <if [Pact of Guatemala] is constructed>","Only available <after discovering [Railway]>"],
 		"attackSound": "metalhit"
         },
 	{
 		"name": "Dragón Rojo",
+		"uniqueTo":"Central Americans",
         "upgradesTo": "Cavalry",
         "obsoleteTech": "Replaceable Parts",
 		"unitType": "Heavy Cavalry",
@@ -302,61 +303,61 @@
 		"strength": 17,
         "rangedStrength": 14,
 		"cost": 150, 
-        "uniques": ["Only available <if [Pact of Honduras] is constructed>",
-			"Only available <for [Central American] Civilizations>","Only available <after discovering [Military Science]>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+        "uniques": ["Only available <if [Pact of Honduras] is constructed>","Only available <after discovering [Military Science]>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
         },
 	{
 		"name": "Perico",
+		"uniqueTo":"Central Americans",
         "upgradesTo": "Rifleman",
         "obsoleteTech": "Replaceable Parts",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 20,
-        "uniques": ["Only available <if [Pact of Honduras] is constructed>",
-			"Only available <for [Central American] Civilizations>","Only available <after discovering [Dynamite]>","Never appears as a Barbarian unit"],
+        "uniques": ["Only available <if [Pact of Honduras] is constructed>","Only available <after discovering [Dynamite]>","Never appears as a Barbarian unit"],
 		"cost": 70,
 		"attackSound": "shot"
         },
 	{
 		"name": "Escolta",
+		"uniqueTo":"Central Americans",
         "upgradesTo": "Cavalry",
         "obsoleteTech": "Replaceable Parts",
 		"unitType": "Heavy Cavalry",
 		"movement": 4,
 		"strength": 25,
 		"cost": 120, 
-        "uniques": ["Only available <if [Pact of El Salvador] is constructed>",
-			"Only available <for [Central American] Civilizations>","Only available <after discovering [Novel]>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+        "uniques": ["Only available <if [Pact of El Salvador] is constructed>","Only available <after discovering [Novel]>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
         },
 	{
 		"name": "Machetero",
+		"uniqueTo":"Central Americans",
         "upgradesTo": "Halberdier",
         "obsoleteTech": "Dynamite",
 		"unitType": "Archaic Infantry",
 		"movement": 3,
 		"strength": 19,
 		"cost": 65, 
-        "uniques": ["Only available <if [Pact of El Salvador] is constructed>",
-			"Only available <for [Central American] Civilizations>","Only available <after discovering [Railway]>"],
+        "uniques": ["Only available <if [Pact of El Salvador] is constructed>","Only available <after discovering [Railway]>"],
 		"attackSound": "metalhit"
         },
 	{
 		"name": "Volante",
+		"uniqueTo":"Central Americans",
         "obsoleteTech": "Combustion",
 		"unitType": "Culverin",
 		"movement": 2,
 		"strength": 10,
 		"rangedStrength": 20,
 		"cost": 135,
-		"uniques": ["[+60]% Strength <vs [Artillery] units>","Only available <if [Pact of Costa Rica] is constructed>",
-			"Only available <for [Central American] Civilizations>","Only available <after discovering [Artillery]>",
+		"uniques": ["[+60]% Strength <vs [Artillery] units>","Only available <if [Pact of Costa Rica] is constructed>","Only available <after discovering [Artillery]>",
 		"Limited to [4] per Civilization","[-15]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
 	{
 		"name": "Federal Pardo",
+		"uniqueTo":"Central Americans",
         "upgradesTo": "Halberdier",
         "obsoleteTech": "Dynamite",
 		"unitType": "Archaic Infantry",
@@ -478,7 +479,7 @@
 		"movement": 3,
 		"strength": 9,
         "rangedStrength": 9,
-		"uniques":["[+1] Range <upon defeating a [All] unit> <for [5] turns>"],           
+		"uniques":["[+1] Range"],           
 		"cost": 55,
 		"attackSound": "shot"
         },
@@ -493,8 +494,7 @@
 		"movement": 4,
 		"strength": 19,
 		"cost": 85, 
-        "uniques": [
-		"[+1] Movement <upon defeating a [All] unit> <for [5] turns>","[+15]% Strength <upon defeating a [All] unit> <for [5] turns>",
+        "uniques": ["No movement cost to pillage","[+20]% Strength <when fighting in [Desert] tiles> <when attacking>",
 		"[+15]% Strength <vs [Infantry] units>","[+15]% Strength <vs [Archaic Infantry] units>",
 		"Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
@@ -510,7 +510,7 @@
 		"rangedStrength": 30,
 		"cost": 185,
 		"requiredTech": "Artillery",
-		"uniques": ["[+1] Movement <upon defeating a [All] unit> <for [5] turns>","[+30]% Strength <upon defeating a [All] unit> <for [5] turns>",
+		"uniques": ["[+15]% Strength <vs [Infantry] units>","[+15]% Strength <vs [Archaic Infantry] units>",
 			"Limited to [4] per Civilization","[-15]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
@@ -1357,6 +1357,17 @@
 		"religiousStrength": 1000
 	},
 	{
+		"name": "Missionary",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight", "Unbuildable", "Religious Unit", "Only available <when religion is enabled>"],
+		"movement": 4,
+		"religiousStrength": 1000
+	},
+	{
 		"name": "Great General",
 		"unitType": "Civilian",
 		"uniques": ["Can be earned through combat",
@@ -1563,19 +1574,6 @@
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
 	},
-	{
-		"name": "Batyr Champions",
-		"uniqueTo": "The Kazakhs",
-        "upgradesTo": "Grenadier",
-        "requiredTech": "Rifling",
-		"obsoleteTech": "Dynamite",
-		"unitType": "Heavy Cavalry",
-		"movement": 2,
-		"strength": 12,
-		"uniques": ["[+70]% Strength <upon entering a new era>"],
-		"cost": 55,
-		"attackSound": "shot"
-        },
         {
 		"name": "Assegai",
                 "uniqueTo": "Zulu",
@@ -3647,12 +3645,22 @@
 			"movement": 3,
 			"uniques": ["Limited to [2] per Civilization","Unbuildable",
 			"Consumes [1] [Aboriginal Rights]",
-			"Can be purchased for [450] [Faith] <(modified by game speed)> [in all cities]",
+			"Can be purchased for [450] [Faith] [in all cities] <(modified by game speed)>",
 			"Only available <for [Australian British] Civilizations>",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
 			"Gain [300] [Culture] <(modified by game speed)> <by consuming this unit>"],
 			"cost": 100
 		},
+		{
+		"name": "Inquisitor",
+		"unitType": "Civilian",
+		"uniques": ["Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+            "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+1] Sight", "Only available <when religion is enabled>", "Unbuildable", "Religious Unit"
+		],
+		"movement": 3
+	},
         {
 		"name": "Nte",
                 "uniqueTo": "Buganda",

@@ -1,7 +1,6 @@
 [
 	{
 		"name": "Self-Strengthening Movement",
-		"isNationalWonder": true,
 		"cost": 20,
 		"uniques": [
 			"[+2 Production] per [2] social policies adopted",
@@ -26,7 +25,6 @@
 	},
 	{
 		"name": "Imperial Submission",
-		"isNationalWonder": true,
 		"cost": 20,
 		"uniques": [
 			"[+33]% [Gold] from Trade Routes","[Gold] cost of purchasing [Infantry] units [-25]%","[+3 Gold] per [4] population [in all cities]",
@@ -49,7 +47,6 @@
 	},
 	{
 		"name": "Revolutionary Uprising",
-		"isNationalWonder": true,
 		"cost": 20,
 		"uniques": ["[+10]% Strength <when attacking>",
 			"[Gold] cost of purchasing [Great General] units [-50]%","[Gold] cost of purchasing [Great Admiral] units [-50]%",
@@ -63,7 +60,6 @@
 	},
 	{
 		"name": "Diplomatic Balancing",
-		"isNationalWonder": true,
 		"cost": 20,
 		"uniques": ["[Faith] cost of purchasing [Great Merchant] units [-33]%","[Faith] cost of purchasing [Great Engineer] units [-33]%","[+5]% [Culture] [in this city]",
 			"[+5 Faith] per [4] population [in all cities]","[+5 Culture] per [4] population [in all cities]",
@@ -78,7 +74,6 @@
 	// CA
 	{
 		"name": "Pact of Costa Rica",
-		"isNationalWonder": true,
 		"cost": 20,
 		"uniques": ["[+2 Culture] from every specialist [in all cities]","[+2 Culture] per [3] social policies adopted",
 			"Comment [Enables the Federal Pardo and Volante units]",
@@ -88,7 +83,6 @@
 	},
 	{
 		"name": "Pact of El Salvador",
-		"isNationalWonder": true,
 		"cost": 20,
 		"uniques": ["[+2 Science] in cities on [Fresh Water] tiles","[+2 Science] in cities on [Jungle] tiles","[+20]% [Science] [in capital]",
 			"Comment [Enables the Machetero and Escolta units]",
@@ -98,7 +92,6 @@
 	},
 	{
 		"name": "Pact of Honduras",
-		"isNationalWonder": true,
 		"cost": 20,
 		"uniques": ["[+5]% [Faith] from every [House]","[+5]% [Gold] from every [House]","[+5]% [Culture] from every [House]",
 			"Comment [Enables the Perico and Dragón Rojo units]",
@@ -108,7 +101,6 @@
 	},
 	{
 		"name": "Pact of Guatemala",
-		"isNationalWonder": true,
 		"cost": 20,
 		"uniques": ["[+25]% growth [in capital]","[+2 Happiness] from every [Temple]","[-30]% unhappiness from the number of cities","[+1 Culture] per [6] population [in this city]",
 			"Comment [Enables the Escopetero and Guardia units]",
@@ -118,7 +110,6 @@
 	},
 	{
 		"name": "Pact of Nicaragua",
-		"isNationalWonder": true,
 		"cost": 20,
 		"uniques": ["[+5]% Strength <vs [Light Cavalry] units>","[+5]% Strength <vs [Heavy Cavalry] units>","[+30]% Production when constructing [Light Cavalry] units [in this city]","[+30]% Production when constructing [Heavy Cavalry] units [in this city]",
 			"Comment [Enables the Federal Jinete and Catracho units]",
@@ -128,7 +119,6 @@
 	},
 	{
 		"name": "Pact of Los Altos",
-		"isNationalWonder": true,
 		"cost": 20,
 		"uniques": ["[+5]% Strength <vs [Archaic Infantry] units>","[+5]% Strength <vs [Infantry] units>","[+30]% Production when constructing [Infantry] units [in this city]","[+30]% Production when constructing [Archaic Infantry] units [in this city]",
 			"Comment [Enables the Federal Conscript and Altos Escopetero units]",
@@ -139,30 +129,26 @@
 	//
 	{
 		"name": "Court - Bosniak",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","Comment [Enables the Bosniak Lancer unit]","[+1 Culture] per [3] population [in all cities]",
 			"Only available <for [ME] Civilizations>"]
 	},
 	{
 		"name": "Religion - Islam",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+33]% Strength <within [4] tiles of a [Holy site]>","[+2 Culture] from every [Mosque]",
-			"Only available <in cities without a [Religion - Judaism]>","Only available <in cities without a [Religion - Christianism]>",
+			"Only available <in cities without a [Religion - Judaism]>","Only available <in cities without a [Religion - Christianity]>",
 		    "Only available <for [Syria Palestina] Civilizations>"]
 	},
 	{
 		"name": "Religion - Judaism",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+33]% Production when constructing [Civilian] units [in all cities]","[+2 Culture] from every [Synagogue]",
-			"Only available <in cities without a [Religion - Islam]>","Only available <in cities without a [Religion - Christianism]>",
+			"Only available <in cities without a [Religion - Islam]>","Only available <in cities without a [Religion - Christianity]>",
 			"Only available <for [Syria Palestina] Civilizations>"]
 	},
 	{
 		"name": "Religion - Christianity",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+33]% Production when constructing [Infantry] units [in all cities]","[+2 Culture] from every [Cathedral]",
 			"Only available <in cities without a [Religion - Judaism]>","Only available <in cities without a [Religion - Islam]>",
@@ -170,7 +156,6 @@
 	},
 	{
 		"name": "Court - Bedouin - Syria",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+2 Food] from [Camel] tiles [in all cities]",
 			"Only available <in cities without a [Court - French - Syria]>","Only available <in cities without a [Court - Ottoman - Syria]>",
@@ -178,7 +163,6 @@
 	},
 	{
 		"name": "Court - French - Syria",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
 			"Only available <in cities without a [Court - Bedouin - Syria]>","Only available <in cities without a [Court - Ottoman - Syria]>",
@@ -186,7 +170,6 @@
 	},
 	{
 		"name": "Court - Ottoman - Syria",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+36]% Production when constructing [Artillery] units [in all cities]",
 			"Only available <in cities without a [Court - French - Syria]>","Only available <in cities without a [Court - Bedouin - Syria]>",
@@ -194,7 +177,6 @@
 	},
 	{
 		"name": "Court - British - Levant",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
 			"Only available <in cities without a [Court - Jordan - Levant]>","Only available <in cities without a [Court - Maronite - Levant]>",
@@ -202,7 +184,6 @@
 	},
 	{
 		"name": "Court - Jordan - Levant",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+44]% Strength <vs [Camel] units>",
 			"Only available <in cities without a [Court - British - Levant]>","Only available <in cities without a [Court - Maronite - Levant]>",
@@ -210,7 +191,6 @@
 	},
 	{
 		"name": "Court - Maronite - Levant",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","Comment [Enables the Maronite Church building]","Comment [Enables the Maronite Rifleman unit]",
 			"Only available <in cities without a [Court - British - Levant]>","Only available <in cities without a [Court - Jordan - Levant]>",
@@ -218,7 +198,6 @@
 	},
 	{
 		"name": "Court - Majlis al-Asha'ir - Transjordan",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Culture] from [House] tiles [in this city]",
 			"Only available <in cities without a [Court - Ottoman - Transjordan]>","Only available <in cities without a [Court - British - Transjordan]>",
@@ -226,7 +205,6 @@
 	},
 	{
 		"name": "Court - Ottoman - Transjordan",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+36]% Production when constructing [Artillery] units [in all cities]",
 			"Only available <in cities without a [Court - Majlis al-Asha'ir - Transjordan]>","Only available <in cities without a [Court - British - Transjordan]>",
@@ -234,7 +212,6 @@
 	},
 	{
 		"name": "Court - British - Transjordan",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
 			"Only available <in cities without a [Court - Ottoman - Transjordan]>","Only available <in cities without a [Court - Majlis al-Asha'ir - Transjordan]>",
@@ -242,7 +219,6 @@
 	},
 	{
 		"name": "Immigrant Colony - Chinese",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","Immigrant Colony","Only available <in cities without a [Immigrant Colony - German]>","Only available <in cities without a [Immigrant Colony - Spaniard]>","Only available <in cities without a [Immigrant Colony - Italian]>",
 		"Only available <in cities without a [Immigrant Colony - Lebanese]>","Only available <in cities without a [Immigrant Colony - Polish]>","Only available <in cities without a [Immigrant Colony - Japanese]>",
@@ -250,7 +226,6 @@
 	},
 	{
 		"name": "Immigrant Colony - Japanese",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","Immigrant Colony","Only available <in cities without a [Immigrant Colony - German]>","Only available <in cities without a [Immigrant Colony - Spaniard]>","Only available <in cities without a [Immigrant Colony - Chinese]>",
 		"Only available <in cities without a [Immigrant Colony - Lebanese]>","Only available <in cities without a [Immigrant Colony - Polish]>","Only available <in cities without a [Immigrant Colony - Italian]>",
@@ -258,7 +233,6 @@
 	},
 	{
 		"name": "Immigrant Colony - Polish",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","Immigrant Colony","Only available <in cities without a [Immigrant Colony - German]>","Only available <in cities without a [Immigrant Colony - Spaniard]>","Only available <in cities without a [Immigrant Colony - Chinese]>",
 		"Only available <in cities without a [Immigrant Colony - Lebanese]>","Only available <in cities without a [Immigrant Colony - Italian]>","Only available <in cities without a [Immigrant Colony - Japanese]>",
@@ -266,7 +240,6 @@
 	},
 	{
 		"name": "Immigrant Colony - Lebanese",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","Immigrant Colony","Only available <in cities without a [Immigrant Colony - German]>","Only available <in cities without a [Immigrant Colony - Spaniard]>","Only available <in cities without a [Immigrant Colony - Chinese]>",
 		"Only available <in cities without a [Immigrant Colony - Italian]>","Only available <in cities without a [Immigrant Colony - Polish]>","Only available <in cities without a [Immigrant Colony - Japanese]>",
@@ -274,7 +247,6 @@
 	},
 	{
 		"name": "Immigrant Colony - Spaniard",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","Immigrant Colony","Only available <in cities without a [Immigrant Colony - German]>","Only available <in cities without a [Immigrant Colony - Italian]>","Only available <in cities without a [Immigrant Colony - Chinese]>",
 		"Only available <in cities without a [Immigrant Colony - Lebanese]>","Only available <in cities without a [Immigrant Colony - Polish]>","Only available <in cities without a [Immigrant Colony - Japanese]>",
@@ -282,7 +254,6 @@
 	},
 	{
 		"name": "Immigrant Colony - German",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","Immigrant Colony","Only available <in cities without a [Immigrant Colony - Italian]>","Only available <in cities without a [Immigrant Colony - Spaniard]>","Only available <in cities without a [Immigrant Colony - Chinese]>",
 		"Only available <in cities without a [Immigrant Colony - Lebanese]>","Only available <in cities without a [Immigrant Colony - Polish]>","Only available <in cities without a [Immigrant Colony - Japanese]>",
@@ -290,7 +261,6 @@
 	},
 	{
 		"name": "Immigrant Colony - Italian",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","Immigrant Colony","Only available <in cities without a [Immigrant Colony - German]>","Only available <in cities without a [Immigrant Colony - Spaniard]>","Only available <in cities without a [Immigrant Colony - Chinese]>",
 		"Only available <in cities without a [Immigrant Colony - Lebanese]>","Only available <in cities without a [Immigrant Colony - Polish]>","Only available <in cities without a [Immigrant Colony - Japanese]>",
@@ -298,137 +268,117 @@
 	},
 	{
 		"name": "Council Lodge - Elder",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Council Lodge - Wise Mother]>","Only available <in cities without a [Council Lodge - Hunter]>","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]","Only available <for [Native American] Civilizations>"]
 	},
 	{
 		"name": "Council Lodge - Wise Mother",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Council Lodge - Hunter]>","Only available <in cities without a [Council Lodge - Elder]>","[+1 Food] per [3] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+5]% Production when constructing [All] units [in this city]","Only available <for [Native American] Civilizations>"]
 	},
 	{
 		"name": "Council Lodge - Hunter",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Council Lodge - Wise Mother]>","Only available <in cities without a [Council Lodge - Elder]>","[+22]% Production when constructing [All] units [in this city]","Only available <for [Native American] Civilizations>"]
 	},
 	{
 		"name": "Tribal Monument",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from [Hunter Lodge] tiles [in this city]","[+1 Production] per [6] population [in all cities]","[+4]% Production when constructing [All] units [in this city]","Only available <for [Tribal East African] Civilizations>"]
 	},
 	{
 		"name": "Ivory Artistry",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from [Hunter Lodge] tiles [in this city]","[+1 Production] per [6] population [in all cities]","[+4]% Production when constructing [All] units [in this city]","Only available <for [Central African] Civilizations>"]
 	},
 	{
 		"name": "Great Mapungubwe",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from [Hunter Lodge] tiles [in this city]","[+1 Production] per [6] population [in all cities]","[+4]% Production when constructing [All] units [in this city]","Only available <for [Southern African] Civilizations>"]
 	},
 	{
 		"name": "Royal Court",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from [Hunter Lodge] tiles [in this city]","[+1 Production] per [6] population [in all cities]","[+4]% Production when constructing [All] units [in this city]","Only available <for [West African] Civilizations>"]
 	},
 	{
 		"name": "Swahili Mosque",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from [Hunter Lodge] tiles [in this city]","[+1 Production] per [6] population [in all cities]","[+4]% Production when constructing [All] units [in this city]","Only available <for [East African] Civilizations>"]
 	},
 	{
 		"name": "Stele",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from [Hunter Lodge] tiles [in this city]","[+1 Production] per [6] population [in all cities]","[+4]% Production when constructing [All] units [in this city]","Only available <for [Ethiopia] Civilizations>"]
 	},
 	{
 		"name": "Council Circle - Merina",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from [Hunter Lodge] tiles [in this city]","[+1 Production] per [6] population [in all cities]","[+4]% Production when constructing [All] units [in this city]","Only available <for [Madagascar] Civilizations>"]
 	},
 	{
 		"name": "Council Circle - Sakalava",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Faith] from [Hunter Lodge] tiles [in this city]","[+1 Production] per [6] population [in all cities]","[+4]% Production when constructing [All] units [in this city]","Only available <for [Madagascar] Civilizations>"]
 	},
 	{
 		"name": "Council Circle - Betsimisaraka",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] from [Hunter Lodge] tiles [in this city]","[+1 Production] per [6] population [in all cities]","[+4]% Production when constructing [All] units [in this city]","Only available <for [Madagascar] Civilizations>"]
 	},
 	{
 		"name": "Regional Consulate",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+2 Faith] from every [Monument]","[+12]% Production when constructing [All] units [in this city]","Only available <for [Asian] Civilizations>"]
 	},
 	{
 		"name": "Songline",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+15]% [Food] [in this city]","[+10]% Production when constructing [Archaic Infantry] units [in this city]","Only available <for [Australian] Civilizations>"]
 	},
 	{
 		"name": "Gilbertese",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]",
-		            "[+10]% [Happiness] [in this city] <upon entering a new era>",
-		            "[+15]% [Gold] [in this city] <upon entering a new era>",
-					"[+15]% [Culture] [in this city] <upon entering a new era>",
+		            "[+10]% [Happiness] [in this city]",
+		            "[+15]% [Gold] [in this city]",
+					"[+15]% [Culture] [in this city]",
 					"Only available <for [Oceanian] Civilizations>"]
 	},
 	{
 		"name": "Voyage to Tonga",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Voyage to Aotearoa]>","Only available <in cities without a [Voyage to Taputapuātea]>","Only available <in cities without a [Voyage to Samoa]>",
-		"Only available <in cities without a [Voyage to Voyage to Hawaiki]>",
+		"Only available <in cities without a [Voyage to Hawaiki]>",
 			"[+1 Gold] per [5] population [in all cities]","[+7]% Production when constructing [Archaic Infantry] units [in this city]","[+7]% Production when constructing [Water] units [in this city]",
 			"Only available <for [Polynesian] Civilizations>"]
 	},
 	{
 		"name": "Voyage to Samoa",
-		"isNationalWonder": true,
 		"cost": 100,
-		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Voyage to Aotearoa]>","Only available <in cities without a [Voyage to Taputapuātea]>","Only available <in cities without a [Voyage to Voyage to Hawaiki]>",
+		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Voyage to Aotearoa]>","Only available <in cities without a [Voyage to Taputapuātea]>","Only available <in cities without a [Voyage to Hawaiki]>",
 		"Only available <in cities without a [Voyage to Tonga]>",
 			"[+1 Gold] per [5] population [in all cities]","[+15]% [Happiness] [in this city]","[+7]% Production when constructing [Water] units [in this city]",
 			"Only available <for [Polynesian] Civilizations>"]
 	},
 	{
 		"name": "Voyage to Taputapuātea",
-		"isNationalWonder": true,
 		"cost": 100,
-		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Voyage to Aotearoa]>","Only available <in cities without a [Voyage to Voyage to Hawaiki]>","Only available <in cities without a [Voyage to Samoa]>",
+		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Voyage to Aotearoa]>","Only available <in cities without a [Voyage to Hawaiki]>","Only available <in cities without a [Voyage to Samoa]>",
 		"Only available <in cities without a [Voyage to Tonga]>",
 			"[+1 Gold] per [5] population [in all cities]","[+1 Gold] from every [Mine]","[+7]% Production when constructing [Water] units [in this city]",
 			"Only available <for [Polynesian] Civilizations>"]
 	},
 	{
 		"name": "Voyage to Aotearoa",
-		"isNationalWonder": true,
 		"cost": 100,
-		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Voyage to Voyage to Hawaiki]>","Only available <in cities without a [Voyage to Taputapuātea]>","Only available <in cities without a [Voyage to Samoa]>",
+		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Voyage to Hawaiki]>","Only available <in cities without a [Voyage to Taputapuātea]>","Only available <in cities without a [Voyage to Samoa]>",
 		"Only available <in cities without a [Voyage to Tonga]>",
 			"[+1 Gold] per [5] population [in all cities]","[+1 Science] per [6] population [in all cities]","[+7]% Production when constructing [Water] units [in this city]",
 			"Only available <for [Polynesian] Civilizations>"]
 	},
 	{
 		"name": "Voyage to Hawaiki",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Voyage to Aotearoa]>","Only available <in cities without a [Voyage to Taputapuātea]>","Only available <in cities without a [Voyage to Samoa]>",
 		"Only available <in cities without a [Voyage to Tonga]>",
@@ -437,14 +387,12 @@
 	},
 	{
 		"name": "National Court",
-		"isNationalWonder": true,
 		"cost": 100,
-		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
+		"uniques": ["Consumes [1] [National Choice]","[+25]% [Food] [in this city]","[+25]% [Culture] [in this city]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
 			"Only available <for [Non Middle Eastern] Civilizations>"]
 	},
 	{
 		"name": "National Assembly Hall",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": [
 		    "[+15]% [Culture] [in all cities]","[+15]% [Gold] [in all cities]",
@@ -453,7 +401,6 @@
 	{
 		"name": "Merchant's Guildhall",
 		"requiredBuilding":"National Assembly Hall",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Gold, +1 Science] from every [Bank]",
 		    "[+25]% [Science] [in all cities]","[+25]% [Production] [in all cities]",
@@ -462,7 +409,6 @@
 	{
 		"name": "Colonial Trade Office",
 		"requiredBuilding":"National Assembly Hall",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+44]% Production when constructing [Worker] units [in this city]","[+33]% Production when constructing [Explorer] units [in this city]",
 		    "[+15]% [Food] [in all cities]","[+15]% [Gold] [in all cities]",
@@ -471,7 +417,6 @@
 	{
 		"name": "Admiralty Office",
 		"requiredBuilding":"National Assembly Hall",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","Free [Great Admiral] appears","[+12]% Production when constructing [Water] units [in this city]",
 		    "[+15]% [Food] [in all cities]","[+15]% [Gold] [in all cities]",
@@ -479,7 +424,6 @@
 	},
 	{
 		"name": "Benteng",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]",
             "[+15]% [Production] [in all cities]",
@@ -488,7 +432,6 @@
 	},
 	{
 		"name": "Panggung Krapyak",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]",
             "[+25]% [Food] [in all cities]","[+10]% [Food] from every [Granary]","[+10]% [Food] from every [Ranch]",
@@ -497,7 +440,6 @@
 	},
 	{
 		"name": "Defensive Post",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]",
             "[+15]% [Production] [in all cities]",
@@ -507,7 +449,6 @@
 	},
 	{
 		"name": "Kepatihan",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]",
             "[+15]% [Culture] [in all cities]","[+25]% [Gold] [in all cities]",
@@ -516,7 +457,6 @@
 	},
 	{
 		"name": "Arvshall",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","Comment [Unlock Modules as you gain Nordic Golden Age points.]",
 		"[+10]% [Culture] from every [House]","[+10]% [Production] from every [House]",
@@ -524,7 +464,6 @@
 	},
 	{
 		"name": "Stjärnvalvet",
-		"isNationalWonder": true,
 		"requiredBuilding": "Arvshall",
 		"cost": 100,
 		"uniques": ["Must have an owned [Tundra] within [3] tiles",
@@ -533,7 +472,6 @@
 	},
 	{
 		"name": "Maypole",
-		"isNationalWonder": true,
 		"requiredBuilding": "Arvshall",
 		"cost": 100,
 		"uniques": ["Must have an owned [Ranch] within [2] tiles",
@@ -542,7 +480,6 @@
 	},
 	{
 		"name": "Torp",
-		"isNationalWonder": true,
 		"requiredBuilding": "Arvshall",
 		"cost": 100,
 		"uniques": ["Must have an owned [House] within [2] tiles",
@@ -553,7 +490,6 @@
 	},
 	{
 		"name": "Rusthall",
-		"isNationalWonder": true,
 		"requiredNearbyImprovedResources":["Horses"],
 		"requiredBuilding": "Arvshall",
 		"cost": 100,
@@ -563,7 +499,6 @@
 	},
 	{
 		"name": "Sögusalur",
-		"isNationalWonder": true,
 		"requiredBuilding": "Arvshall",
 		"cost": 100,
 		"uniques": ["Must have an owned [Ocean] within [3] tiles",
@@ -573,7 +508,6 @@
 	},
 	{
 		"name": "Innovasjonsfløyen",
-		"isNationalWonder": true,
 		"requiredBuilding": "Arvshall",
 		"cost": 100,
 		"uniques": ["Must have an owned [Manufactory] within [3] tiles",
@@ -583,7 +517,6 @@
 	},
 	{
 		"name": "Diplomatgalleriet",
-		"isNationalWonder": true,
 		"requiredBuilding": "Arvshall",
 		"cost": 100,
 		"uniques": ["Must have an owned [Fishing Boats] within [2] tiles",
@@ -593,7 +526,6 @@
 	},
 	{
 		"name": "Hyvinvointiaatriumi",
-		"isNationalWonder": true,
 		"requiredNearbyImprovedResources":["Deer","Fish"],
 		"requiredBuilding": "Arvshall",
 		"cost": 100,
@@ -604,7 +536,6 @@
 	},
 	{
 		"name": "Hållbarhetskupolen",
-		"isNationalWonder": true,
 		"requiredBuilding": "Arvshall",
 		"cost": 100,
 		"uniques": ["Only available <in cities with a [Museum]>","Must have an owned [Forest] within [3] tiles",
@@ -614,14 +545,12 @@
 	},
 	{
 		"name": "Federation Hall",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["[+1 Gold] per [5] population [in all cities]","[+10]% Production when constructing [Infantry] units [in this city]",
 			"Only available <for [Australian British] Civilizations>"]
 	},
 	{
 		"name": "First Nations Assembly",
-		"isNationalWonder": true,
 		"requiredBuilding":"Federation Hall",
 		"cost": 100,
 		"uniques": ["[Gold] cost of purchasing [Archaic Infantry] units [-25]%","[Gold] cost of purchasing [Slave] units [+15]%","Provides [1] [Aboriginal Rights]",
@@ -630,7 +559,6 @@
 	},
 	{
 		"name": "Penal Colony Command",
-		"isNationalWonder": true,
 		"requiredBuilding":"Federation Hall",
 		"cost": 100,
 		"uniques": ["[1] free [Convict] units appear","[+1 Gold] from every [Mine]",
@@ -639,7 +567,6 @@
 	},
 	{
 		"name": "White Supremacy Doctrine",
-		"isNationalWonder": true,
 		"requiredBuilding":"Federation Hall",
 		"cost": 100,
 		"uniques": ["[+50]% Strength <vs [Barbarian] units>",
@@ -648,14 +575,12 @@
 	},
 	{
 		"name": "Parlament House",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["[+1 Production] per [2] population [in all cities]","[+5]% [Happiness] [in capital]",
 			"Only available <for [Anglo] Civilizations>"]
 	},
 	{
 		"name": "Vote for Imperial Loyalty",
-		"isNationalWonder": true,
 		"requiredBuilding":"Parlament House",
 		"cost": 100,
 		"uniques": ["[Gold] cost of purchasing [Infantry] units [-20]%","[Gold] cost of purchasing [Slave] units [-20]%",
@@ -664,7 +589,6 @@
 	},
 	{
 		"name": "Vote for Abolition of Slavery",
-		"isNationalWonder": true,
 		"requiredBuilding":"Parlament House",
 		"cost": 100,
 		"uniques": ["[+33]% [Happiness] [in all cities]","[Gold] cost of purchasing [Slave] units [+450]%",
@@ -673,16 +597,14 @@
 	},
 	{
 		"name": "Vote for Ban on Child Labor",
-		"isNationalWonder": true,
 		"requiredBuilding":"Parlament House",
 		"cost": 100,
-		"uniques": ["[+5]% [Happiness] [in all cities] <upon entering a new era>",
+		"uniques": ["[+25]% [Happiness] [in all cities]",
 			"Consumes [1] [National Choice]",
 			"Only available <for [Anglo] Civilizations>"]
 	},
 	{
 		"name": "Vote for Universal Male Suffrage",
-		"isNationalWonder": true,
 		"requiredBuilding":"Parlament House",
 		"cost": 100,
 		"uniques": ["[+2 Happiness] <in cities connected to the capital>",
@@ -691,7 +613,6 @@
 	},
 	{
 		"name": "Vote for Land Reform for Settlers",
-		"isNationalWonder": true,
 		"requiredBuilding":"Parlament House",
 		"cost": 100,
 		"uniques": ["[-50]% Gold cost of acquiring tiles [in all cities]",
@@ -700,7 +621,6 @@
 	},
 	{
 		"name": "Vote for Pro-Slavery Conservatism",
-		"isNationalWonder": true,
 		"requiredBuilding":"Parlament House",
 		"cost": 100,
 		"uniques": ["[Gold] cost of purchasing [Slave] units [-50]%",
@@ -709,7 +629,6 @@
 	},
 	{
 		"name": "Vote for Religious Supremacy",
-		"isNationalWonder": true,
 		"requiredBuilding":"Parlament House",
 		"cost": 100,
 		"uniques": ["[+22]% [Faith] <in cities connected to the capital>",
@@ -718,7 +637,6 @@
 	},
 	{
 		"name": "Vote for Indigenous Relations",
-		"isNationalWonder": true,
 		"requiredBuilding":"Parlament House",
 		"cost": 100,
 		"uniques": ["[+1 Food] from every [Mill]","[-10]% Strength <vs [Barbarian] units>",
@@ -727,7 +645,6 @@
 	},
 	{
 		"name": "Vote for Free Trade",
-		"isNationalWonder": true,
 		"requiredBuilding":"Parlament House",
 		"cost": 100,
 		"uniques": ["[+4 Gold] [in all cities]","[+15]% [Gold] [in this city]",
@@ -736,7 +653,6 @@
 	},
 	{
 		"name": "Vote for Protectionism",
-		"isNationalWonder": true,
 		"requiredBuilding":"Parlament House",
 		"cost": 100,
 		"uniques": ["[+2 Gold] [in all cities]","[+1 Production] [in all cities]","[+10]% [Food] [in this city]",
@@ -745,7 +661,6 @@
 	},
 	{
 		"name": "Vote for Public Education",
-		"isNationalWonder": true,
 		"requiredBuilding":"Parlament House",
 		"cost": 100,
 		"uniques": ["[+2 Science] [in all cities]",
@@ -754,7 +669,6 @@
 	},
 	{
 		"name": "Vote for Laboral Rights",
-		"isNationalWonder": true,
 		"requiredBuilding":"Parlament House",
 		"cost": 100,
 		"uniques": ["[+25]% [Happiness] [in all cities]","[+60]% maintenance costs <for [Civilian] units>",
@@ -763,7 +677,6 @@
 	},
 	{
 		"name": "Lombards of Austria",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]",
 		"Instantly provides [10] [Food] <upon entering a new era>",
@@ -774,7 +687,6 @@
 	},
 	{
 		"name": "Lombards of France",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]",
 		"Instantly provides [10] [Food] <upon entering a new era>",
@@ -785,18 +697,16 @@
 	},
 	{
 		"name": "Lombards of Germany",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]",
 		"Instantly provides [10] [Food] <upon entering a new era>",
 		"Instantly provides [10] [Wood] <upon entering a new era>",
 		"Instantly provides [10] [Coin] <upon entering a new era>",
-		"[+1 Production] from [Resource] tiles [in this city]",
+		"[+1 Production] from [Mine] tiles [in this city]",
 		"Only available <for [Italian] Civilizations>"]
 	},
 	{
 		"name": "Lombards of Switzerland",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]",
 		"Instantly provides [10] [Food] <upon entering a new era>",
@@ -807,7 +717,6 @@
 	},
 	{
 		"name": "Lombards of Hungary",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]",
 		"Instantly provides [10] [Food] <upon entering a new era>",
@@ -818,7 +727,6 @@
 	},
 	{
 		"name": "Export Food I",
-		"isNationalWonder": false,
 		"cost": 100,
 		"uniques": ["Instantly consumes [10] [Food]","[+2 Food] per [10] population [in this city]",
 		"Only available <when above [9] [Food]>",
@@ -827,7 +735,6 @@
 	},
 	{
 		"name": "Export Food II",
-		"isNationalWonder": false,
 		"cost": 100,
 		"requiredBuilding": "Export Food I",
 		"uniques": ["Instantly consumes [10] [Food]","[+2 Food] per [10] population [in this city]",
@@ -837,7 +744,6 @@
 	},
 	{
 		"name": "Export Food III",
-		"isNationalWonder": false,
 		"cost": 100,
 		"requiredBuilding": "Export Food II",
 		"uniques": ["Instantly consumes [10] [Food]","[+2 Food] per [10] population [in this city]",
@@ -847,7 +753,6 @@
 	},
 	{
 		"name": "Export Food IV",
-		"isNationalWonder": false,
 		"cost": 100,
 		"requiredBuilding": "Export Food III",
 		"uniques": ["Instantly consumes [10] [Food]","[+2 Food] per [10] population [in this city]",
@@ -857,7 +762,6 @@
 	},
 	{
 		"name": "Export Wood I",
-		"isNationalWonder": false,
 		"cost": 100,
 		"uniques": ["Instantly consumes [10] [Wood]","[+2 Production] per [10] population [in this city]",
 		"Only available <when above [9] [Wood]>",
@@ -866,7 +770,6 @@
 	},
 	{
 		"name": "Export Wood II",
-		"isNationalWonder": false,
 		"cost": 100,
 		"requiredBuilding": "Export Wood I",
 		"uniques": ["Instantly consumes [10] [Wood]","[+2 Production] per [10] population [in this city]",
@@ -876,7 +779,6 @@
 	},
 	{
 		"name": "Export Wood III",
-		"isNationalWonder": false,
 		"cost": 100,
 		"requiredBuilding": "Export Wood II",
 		"uniques": ["Instantly consumes [10] [Wood]","[+2 Production] per [10] population [in this city]",
@@ -886,7 +788,6 @@
 	},
 	{
 		"name": "Export Wood IV",
-		"isNationalWonder": false,
 		"cost": 100,
 		"requiredBuilding": "Export Wood III",
 		"uniques": ["Instantly consumes [10] [Wood]","[+2 Production] per [10] population [in this city]",
@@ -896,7 +797,6 @@
 	},
 	{
 		"name": "Export Gold I",
-		"isNationalWonder": false,
 		"cost": 100,
 		"uniques": ["Instantly consumes [10] [Coin]","[+2 Gold] per [10] population [in this city]",
 		"Only available <when above [9] [Coin]>",
@@ -905,7 +805,6 @@
 	},
 	{
 		"name": "Export Gold II",
-		"isNationalWonder": false,
 		"cost": 100,
 		"requiredBuilding": "Export Gold I",
 		"uniques": ["Instantly consumes [10] [Coin]","[+2 Gold] per [10] population [in this city]",
@@ -915,7 +814,6 @@
 	},
 	{
 		"name": "Export Gold III",
-		"isNationalWonder": false,
 		"cost": 100,
 		"requiredBuilding": "Export Gold II",
 		"uniques": ["Instantly consumes [10] [Coin]","[+2 Gold] per [10] population [in this city]",
@@ -925,7 +823,6 @@
 	},
 	{
 		"name": "Export Gold IV",
-		"isNationalWonder": false,
 		"cost": 100,
 		"requiredBuilding": "Export Gold III",
 		"uniques": ["Instantly consumes [10] [Coin]","[+2 Gold] per [10] population [in this city]",
@@ -935,21 +832,18 @@
 	},
 	{
 		"name": "Domnița Court",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
 			"Only available <for [Balkan] Civilizations>"]
 	},
 	{
 		"name": "Masjid Raya",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
 			"Only available <for [SEA] Civilizations>"]
 	},
 	{
 		"name": "Court - British - Persia",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
 			"Only available <in cities without a [Court - Russia - Persia]>","Only available <in cities without a [Court - Austria-Hungary - Persia]>",
@@ -957,14 +851,12 @@
 	},
 	{
 		"name": "Court - British - Raj",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
 			"Only available <for [British Raj] Civilizations>"]
 	},
 	{
 		"name": "Court - Austria-Hungary - Persia",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from every [Mill]","[+1 Food] per [3] population [in all cities]","[+1 Gold] per [8] population [in all cities]",
 			"Only available <in cities without a [Court - Russia - Persia]>","Only available <in cities without a [Court - British - Persia]>",
@@ -972,7 +864,6 @@
 	},
 	{
 		"name": "Court - Russia - Persia",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+24]% Production when constructing [Infantry] units [in all cities]",
 			"Only available <in cities without a [Court - British - Persia]>","Only available <in cities without a [Court - Austria-Hungary - Persia]>",
@@ -980,7 +871,6 @@
 	},
 	{
 		"name": "Court - British - Afghan",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
 			"Only available <in cities without a [Court - Russia - Afghan]>","Only available <in cities without a [Court - Persian - Afghan]>",
@@ -988,7 +878,6 @@
 	},
 	{
 		"name": "Court - Russia - Afghan",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+24]% Production when constructing [Infantry] units [in all cities]",
 			"Only available <in cities without a [Court - British - Afghan]>","Only available <in cities without a [Court - Persian - Afghan]>",
@@ -996,7 +885,6 @@
 	},
 	{
 		"name": "Court - Persian - Afghan",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[1] free [Sardar] units appear <upon discovering [Dynamite] technology>","[4] free [Janbaz] units appear <upon discovering [Dynamite] technology>",
 			"Only available <in cities without a [Court - Russia - Afghan]>","Only available <in cities without a [Court - British - Afghan]>",
@@ -1004,7 +892,6 @@
 	},
 	{
 		"name": "Court - Austria-Hungary - Ottoman",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from every [Mill]","[+1 Food] per [3] population [in all cities]","[+1 Gold] per [8] population [in all cities]",
 			"Only available <in cities without a [Court - French - Ottoman]>","Only available <in cities without a [Court - German - Ottoman]>",
@@ -1012,7 +899,6 @@
 	},
 	{
 		"name": "Court - French - Ottoman",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
 			"Only available <in cities without a [Court - Austria-Hungary - Ottoman]>","Only available <in cities without a [Court - German - Ottoman]>",
@@ -1020,7 +906,6 @@
 	},
 	{
 		"name": "Court - German - Ottoman",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","Free [Krupp Steel Cannon] appears <upon discovering [Mining] technology>","[-20]% maintenance costs <for [Land] units>",
 			"Only available <in cities without a [Court - French - Ottoman]>","Only available <in cities without a [Court - Austria-Hungary - Ottoman]>",
@@ -1028,31 +913,27 @@
 	},
 	{
 		"name": "Court - Khedive - Sudan",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
-			"Only available <in cities without a [Court - Nubian - Ottoman]>","Only available <in cities without a [Court - British - Ottoman]>",
+			"Only available <in cities without a [Court - Nubian - Sudan]>","Only available <in cities without a [Court - British - Sudan]>",
 			"Only available <for [Sudan] Civilizations>"]
 	},
 	{
 		"name": "Court - Nubian - Sudan",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from every [Mill]","[+1 Food] per [3] population [in all cities]","[+1 Gold] per [8] population [in all cities]",
-			"Only available <in cities without a [Court - Khedive - Ottoman]>","Only available <in cities without a [Court - British - Ottoman]>",
+			"Only available <in cities without a [Court - Khedive - Sudan]>","Only available <in cities without a [Court - British - Sudan]>",
 			"Only available <for [Sudan] Civilizations>"]
 	},
 	{
 		"name": "Court - British - Sudan",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
-			"Only available <in cities without a [Court - Nubian - Ottoman]>","Only available <in cities without a [Court - Khedive - Ottoman]>",
+			"Only available <in cities without a [Court - Khedive - Sudan]>","Only available <in cities without a [Court - Nubian - Sudan]>",
 			"Only available <for [Sudan] Civilizations>"]
 	},
 	{
 		"name": "Court - French - Egypt",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
 			"Only available <in cities without a [Court - Ottoman - Egypt]>","Only available <in cities without a [Court - British - Egypt]>",
@@ -1060,7 +941,6 @@
 	},
 	{
 		"name": "Court - Ottoman - Egypt",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+36]% Production when constructing [Artillery] units [in all cities]",
 			"Only available <in cities without a [Court - French - Egypt]>","Only available <in cities without a [Court - British - Egypt]>",
@@ -1068,7 +948,6 @@
 	},
 	{
 		"name": "Court - British - Egypt",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
 			"Only available <in cities without a [Court - Ottoman - Egypt]>","Only available <in cities without a [Court - French - Egypt]>",
@@ -1076,7 +955,6 @@
 	},
 	{
 		"name": "Court - British - Mughal",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
 			"Only available <in cities without a [Court - Portuguese - Mughal]>","Only available <in cities without a [Court - Danish - Mughal]>",
@@ -1084,7 +962,6 @@
 	},
 	{
 		"name": "Court - Portuguese - Mughal",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Culture] per [3] population [in all cities]",
 			"Only available <in cities without a [Court - British - Mughal]>","Only available <in cities without a [Court - Danish - Mughal]>",
@@ -1092,7 +969,6 @@
 	},
 	{
 		"name": "Court - Danish - Mughal",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+36]% Production when constructing [Water] units [in this city]","[+1 Culture] per [6] population [in all cities]",
 			"Only available <in cities without a [Court - Portuguese - Mughal]>","Only available <in cities without a [Court - British - Mughal]>",
@@ -1100,28 +976,24 @@
 	},
 	{
 		"name": "Court - Persian - Uzbek",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Court - Russia - Uzbek]>","Only available <in cities without a [Court - China - Uzbek]>",
 			"[1] free [Sardar] units appear <upon discovering [Dynamite] technology>","[4] free [Janbaz] units appear <upon discovering [Dynamite] technology>","Only available <for [Uzbekistan] Civilizations>"]
 	},
 	{
 		"name": "Court - Russia - Uzbek",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Court - Persian - Uzbek]>","Only available <in cities without a [Court - China - Uzbek]>",
 			"Comment [Enables the Frontovik unit]","Comment [Enables the Canton School building]","[+3]% Production when constructing [All] units [in this city]","Only available <for [Uzbekistan] Civilizations>"]
 	},
 	{
 		"name": "Court - China - Uzbek",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","Only available <in cities without a [Court - Russia - Uzbek]>","Only available <in cities without a [Court - Persian - Uzbek]>",
 			"[+1 Gold] per [5] population [in all cities]","Comment [Enables the Kansu Brave unit]","Only available <for [Uzbekistan] Civilizations>"]
 	},
 	{
 		"name": "Court - Ottoman - Circassia",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+36]% Production when constructing [Artillery] units [in all cities]",
 			"Only available <in cities without a [Court - Russia - Circassia]>","Only available <in cities without a [Court - Circassian Tribes - Circassia]>",
@@ -1129,7 +1001,6 @@
 	},
 	{
 		"name": "Court - Russia - Circassia",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+24]% Production when constructing [Infantry] units [in all cities]",
 			"Only available <in cities without a [Court - Ottoman - Circassia]>","Only available <in cities without a [Court - Circassian Tribes - Circassia]>",
@@ -1137,7 +1008,6 @@
 	},
     {
 		"name": "Court - Circassian Tribes - Circassia",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+2 Food] from [Camel] tiles [in this city]",
 			"Only available <in cities without a [Court - Russia - Circassia]>","Only available <in cities without a [Court - Ottoman - Circassia]>",
@@ -1145,7 +1015,6 @@
 	},
 	{
 		"name": "Court - Nejd - Bedouin",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+2 Food] from [Camel] tiles [in this city]",
 			"Only available <in cities without a [Court - Hejaz - Bedouin]>","Only available <in cities without a [Court - Oman - Bedouin]>",
@@ -1153,7 +1022,6 @@
 	},
 	{
 		"name": "Court - Hejaz - Bedouin",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+80]% Strength <vs [Barbarian] units>",
 			"Only available <in cities without a [Court - Nejd - Bedouin]>","Only available <in cities without a [Court - Oman - Bedouin]>",
@@ -1161,7 +1029,6 @@
 	},
 	{
 		"name": "Court - Oman - Bedouin",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+2 Food] from [Camel] tiles [in this city]",
 			"Only available <in cities without a [Court - Hejaz - Bedouin]>","Only available <in cities without a [Court - Nejd - Bedouin]>",
@@ -1169,7 +1036,6 @@
 	},
 	{
 		"name": "Court - Russia - Kazakh",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+24]% Production when constructing [Infantry] units [in all cities]",
 			"Only available <in cities without a [Court - Uzbek - Kazakh]>","Only available <in cities without a [Court - Kazakh Nomads - Kazakh]>",
@@ -1177,7 +1043,6 @@
 	},
 	{
 		"name": "Court - Uzbek - Kazakh",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Faith] from [Hunter Lodge] tiles [in this city]",
 			"Only available <in cities without a [Court - Russia - Kazakh]>","Only available <in cities without a [Court - Kazakh Nomads - Kazakh]>",
@@ -1185,7 +1050,6 @@
 	},
 	{
 		"name": "Court - Kazakh Nomads - Kazakh",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from [House] tiles [in this city]",
 			"Only available <in cities without a [Court - Uzbek - Kazakh]>","Only available <in cities without a [Court - Russia - Kazakh]>",
@@ -1193,7 +1057,6 @@
 	},
 	{
 		"name": "Court - Spanish - Morocco",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from [House] tiles [in this city]",
 			"Only available <in cities without a [Court - French - Morocco]>","Only available <in cities without a [Court - British - Morocco]>",
@@ -1201,7 +1064,6 @@
 	},
 	{
 		"name": "Court - French - Morocco",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
 			"Only available <in cities without a [Court - Spanish - Morocco]>","Only available <in cities without a [Court - British - Morocco]>",
@@ -1209,7 +1071,6 @@
 	},
 	{
 		"name": "Court - British - Morocco",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
 			"Only available <in cities without a [Court - French - Morocco]>","Only available <in cities without a [Court - Spanish - Morocco]>",
@@ -1217,7 +1078,6 @@
 	},
 	{
 		"name": "Court - Ottoman - Trucial States",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+36]% Production when constructing [Artillery] units [in all cities]",
 			"Only available <in cities without a [Court - Oman - Trucial States]>","Only available <in cities without a [Court - British - Trucial States]>",
@@ -1225,7 +1085,6 @@
 	},
 	{
 		"name": "Court - Oman - Trucial States",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+44]% Strength <vs [Camel] units>",
 			"Only available <in cities without a [Court - Ottoman - Trucial States]>","Only available <in cities without a [Court - British - Trucial States]>",
@@ -1233,7 +1092,6 @@
 	},
 	{
 		"name": "Court - British - Trucial States",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
 			"Only available <in cities without a [Court - Oman - Trucial States]>","Only available <in cities without a [Court - Ottoman - Trucial States]>",
@@ -1241,7 +1099,6 @@
 	},
 	{
 		"name": "Court - Oman - Yemen",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+44]% Strength <vs [Camel] units>",
 			"Only available <in cities without a [Court - Ottoman - Yemen]>","Only available <in cities without a [Court - Hejaz - Yemen]>",
@@ -1249,7 +1106,6 @@
 	},
 	{
 		"name": "Court - Ottoman - Yemen",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+36]% Production when constructing [Artillery] units [in all cities]",
 			"Only available <in cities without a [Court - Oman - Yemen]>","Only available <in cities without a [Court - Hejaz - Yemen]>",
@@ -1257,7 +1113,6 @@
 	},
 	{
 		"name": "Court - Hejaz - Yemen",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+80]% Strength <vs [Barbarian] units>",
 			"Only available <in cities without a [Court - Ottoman - Yemen]>","Only available <in cities without a [Court - Oman - Yemen]>",
@@ -1265,14 +1120,12 @@
 	},
 	{
 		"name": "Court - French - FNA",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
 			"Only available <for [French North Africa] Civilizations>"]
 	},
 	{
 		"name": "Court - French - Karamanli",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
 			"Only available <in cities without a [Court - Nejd - Karamanli]>","Only available <in cities without a [Court - Ottoman - Karamanli]>",
@@ -1280,7 +1133,6 @@
 	},
 	{
 		"name": "Court - Nejd - Karamanli",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+2 Food] from [Camel] tiles [in all cities]",
 			"Only available <in cities without a [Court - French - Karamanli]>","Only available <in cities without a [Court - Ottoman - Karamanli]>",
@@ -1288,7 +1140,6 @@
 	},
 	{
 		"name": "Court - Ottoman - Karamanli",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+36]% Production when constructing [Artillery] units [in all cities]",
 			"Only available <in cities without a [Court - Nejd - Karamanli]>","Only available <in cities without a [Court - French - Karamanli]>",
@@ -1296,7 +1147,6 @@
 	},
 	{
 		"name": "Court - French - Bukhara",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
 			"Only available <in cities without a [Court - Russia - Bukhara]>","Only available <in cities without a [Court - Austria-Hungary - Bukhara]>",
@@ -1304,7 +1154,6 @@
 	},
 	{
 		"name": "Court - Russia - Bukhara",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+24]% Production when constructing [Infantry] units [in all cities]",
 			"Only available <in cities without a [Court - French - Bukhara]>","Only available <in cities without a [Court - Austria-Hungary - Bukhara]>",
@@ -1312,7 +1161,6 @@
 	},
 	{
 		"name": "Court - Austria-Hungary - Bukhara",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from every [Mill]","[+1 Food] per [3] population [in all cities]","[+1 Gold] per [8] population [in all cities]",
 			"Only available <in cities without a [Court - Russia - Bukhara]>","Only available <in cities without a [Court - French - Bukhara]>",
@@ -1320,7 +1168,6 @@
 	},
 	{
 		"name": "Court - French - Dervish",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Gold] per [5] population [in all cities]","[+1 Production] per [3] population [in all cities]","[+3]% Production when constructing [All] units [in this city]",
 			"Only available <in cities without a [Court - Ottoman - Dervish]>","Only available <in cities without a [Court - Sufi - Dervish]>",
@@ -1328,7 +1175,6 @@
 	},
 	{
 		"name": "Court - Ottoman - Dervish",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+36]% Production when constructing [Artillery] units [in all cities]",
 			"Only available <in cities without a [Court - French - Dervish]>","Only available <in cities without a [Court - Sufi - Dervish]>",
@@ -1336,7 +1182,6 @@
 	},
 	{
 		"name": "Court - Sufi - Dervish",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Culture] from every [Temple]","[+1 Faith] per [7] population [in all cities]",
 			"Only available <in cities without a [Court - Ottoman - Dervish]>","Only available <in cities without a [Court - French - Dervish]>",
@@ -1344,7 +1189,6 @@
 	},
 	{
 		"name": "Court - British - Somalia",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
 			"Only available <in cities without a [Court - Dutch - Somalia]>","Only available <in cities without a [Court - Portuguese - Somalia]>",
@@ -1352,7 +1196,6 @@
 	},
 	{
 		"name": "Court - Dutch - Somalia",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+5 Gold] from every [Bank]","[+1 Culture] from every [Bank]",
 			"Only available <in cities without a [Court - British - Somalia]>","Only available <in cities without a [Court - Portuguese - Somalia]>",
@@ -1360,7 +1203,6 @@
 	},
 	{
 		"name": "Court - Portuguese - Somalia",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Culture] per [3] population [in all cities]",
 			"Only available <in cities without a [Court - Dutch - Somalia]>","Only available <in cities without a [Court - British - Somalia]>",
@@ -1368,7 +1210,6 @@
 	},
 	{
 		"name": "Court - Prussian - Darfur",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Culture] from every [Temple]","[+1 Faith] per [7] population [in all cities]",
 			"Only available <in cities without a [Court - Spanish - Darfur]>","Only available <in cities without a [Court - Ottoman - Darfur]>",
@@ -1376,7 +1217,6 @@
 	},
 	{
 		"name": "Court - Spanish - Darfur",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from [House] tiles [in this city]",
 			"Only available <in cities without a [Court - Prussian - Darfur]>","Only available <in cities without a [Court - Ottoman - Darfur]>",
@@ -1384,7 +1224,6 @@
 	},
 	{
 		"name": "Court - Ottoman - Darfur",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+36]% Production when constructing [Artillery] units [in all cities]",
 			"Only available <in cities without a [Court - Spanish - Darfur]>","Only available <in cities without a [Court - Prussian - Darfur]>",
@@ -1392,7 +1231,6 @@
 	},
 	{
 		"name": "Court - Venetian - Busaid",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Food] from every [Temple]","[+1 Faith] per [4] population [in all cities]",
 			"Only available <in cities without a [Court - British - Busaid]>","Only available <in cities without a [Court - German - Busaid]>",
@@ -1400,7 +1238,6 @@
 	},
 	{
 		"name": "Court - British - Busaid",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
 			"Only available <in cities without a [Court - Venetian - Busaid]>","Only available <in cities without a [Court - German - Busaid]>",
@@ -1408,7 +1245,6 @@
 	},
 	{
 		"name": "Court - German - Busaid",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","Free [Krupp Steel Cannon] appears <upon discovering [Mining] technology>","[-20]% maintenance costs <for [Land] units>",
 			"Only available <in cities without a [Court - British - Busaid]>","Only available <in cities without a [Court - Venetian - Busaid]>",
@@ -1416,7 +1252,6 @@
 	},
 	{
 		"name": "Court - Wahhabi - Nejd",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+1 Happiness] from every [Temple]","[+1 Happiness] per [4] population [in all cities]",
 			"Only available <in cities without a [Court - Nejd Tribes - Nejd]>","Only available <in cities without a [Court - British - Nejd]>",
@@ -1424,7 +1259,6 @@
 	},
 	{
 		"name": "Court - Nejd Tribes - Nejd",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[+2 Food] from [Camel] tiles [in all cities]",
 			"Only available <in cities without a [Court - Wahhabi - Nejd]>","Only available <in cities without a [Court - British - Nejd]>",
@@ -1432,7 +1266,6 @@
 	},
 	{
 		"name": "Court - British - Nejd",
-		"isNationalWonder": true,
 		"cost": 100,
 		"uniques": ["Consumes [1] [National Choice]","[4] free [Sepoy] units appear <upon entering the [First World War]>","[+1 Production] from [Mine] tiles [in this city] <during a Golden Age>",
 			"Only available <in cities without a [Court - Nejd Tribes - Nejd]>","Only available <in cities without a [Court - Wahhabi - Nejd]>",
@@ -1441,7 +1274,6 @@
 	/////
 	{
 		"name": "Canton School",
-		"isNationalWonder":true,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["Only available <in cities with a [Court - Russia - Uzbek]>","Comment [Enables the Frontovik unit]"],
@@ -1450,7 +1282,6 @@
 	{
 		"name": "Maronite Church",
 		"faith": 2,
-		"isNationalWonder":true,
 		"cost": 100,
 		"hurryCostModifier": 40,
 		"maintenance": 2,
@@ -3320,7 +3151,7 @@
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
-		"uniques":["[+1 Gold] from [Horse] tiles [in this city]","New [Heavy Cavalry] units start with [5] XP [in this city]"],
+		"uniques":["[+1 Gold] from [Horses] tiles [in this city]","New [Heavy Cavalry] units start with [5] XP [in this city]"],
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Vaccine"
 	},

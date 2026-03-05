@@ -337,7 +337,7 @@
 		"outerColor": [53, 132, 222],
 		"innerColor": [255, 255, 255],
 		"uniqueName": "Destroyer of Bau",
-		"uniques": ["Oceanian","Military Units gifted from City-States start with [15] XP","Receive triple Gold from Barbarian encampments and pillaging Cities","Militaristic City-States grant units [2] times as fast when you are at war with a common nation"],
+		"uniques": ["Oceanian","Military Units gifted from City-States start with [15] XP","Receive [+200]% Gold from Barbarian encampments and pillaging Cities","Militaristic City-States grant units [2] times as fast when you are at war with a common nation"],
 		"cities": ["Levuka", "Suva", "Bau", "Nausori", "Viseisei", "Lasakau", "Soso", "Naitasiri", "Tailevu", "Ra", "Savusavu"],
 		"spyNames": ["Saki"]
 	},
@@ -362,7 +362,7 @@
 		"outerColor": [252, 78, 3],
 		"innerColor": [28, 9, 0],
 		"uniqueName": "The Last Tyrant",
-		"uniques": ["Oceanian","Provides [1] [Copra] <upon founding a city>","[+15]% [Culture] [in all cities]","[+33]% [Culture] [in all cities] <upon declaring friendship> <for [5] turns>"],
+		"uniques": ["Oceanian","Provides [1] [Copra]","[+25]% [Culture] [in all cities]","[+33]% [Culture] [in all cities] <upon declaring friendship> <for [5] turns>"],
 		"cities": ["Kariatebike", "Buariki", "Tabiang", "Kabangaki", "Baretoa", "Tabontebike", "Takaeang", "Tekatirirake", "Norauea", "Baurua", "Manenaua"],
 		"spyNames": ["Saki"]
 	},
@@ -662,8 +662,8 @@
 	"neutralHello": "Hello.",
 	"hateHello": "We do not fear war",
 	"tradeRequest": "Check out this",
-	"outerColor": [228, 234, 240],
-    "innerColor": [59, 152, 245],
+	"outerColor": [135, 195, 255],
+    "innerColor": [20, 34, 48],
 	"uniqueName": "Bariba Traders",
 	"uniques": ["West African","[+10]% [Gold] [in all cities]","[+2 Gold] from each Trade Route","Gifts of Gold to City-States generate [+50]% more Influence"],
 	"cities": ["Bussa", "Illo", "Wawa", "Nikki", "Kandi", "Parakou", "Gaya", "Sinende", "Malanville", "Banikoara"],
@@ -690,7 +690,7 @@
 	"outerColor": [72, 108, 240],
     "innerColor": [10, 12, 18],
 	"uniqueName": "Cavalry of the Savannah",
-	"uniques": ["West African","[+10]% [Culture] [in all cities]","[+1 Production] from [Horses] tiles [in all cities]","[+1 Gold] from [Horses] tiles [in all cities]","[+1 Faith] from all [Palace] buildings <upon entering a new era>"],
+	"uniques": ["West African","[+10]% [Culture] [in all cities]","[+1 Production] from [Horses] tiles [in all cities]","[+1 Gold] from [Horses] tiles [in all cities]","[+1 Faith] from all [Palace] buildings"],
 	"cities": ["Oyo-Ile", "Ibadan", "Ilorin", "Iseyin", "Ogbomoso", "Ede", "Osogbo", "Ikirun", "Iwo", "Egba"],
 	"spyNames": ["Saki"]
     },
@@ -712,8 +712,8 @@
 	"neutralHello": "Hello.",
 	"hateHello": "We do not fear war",
 	"tradeRequest": "Check out this",
-	"outerColor": [60, 181, 139],
-    "innerColor": [255, 252, 230],
+	"outerColor": [255, 255, 255],
+    "innerColor": [52, 120, 70],
 	"uniqueName": "Black Flag Army",
 	"uniques": ["Asian","Earn [60]% of killed [Military] unit's [Strength] as [Gold]","[+60]% Yield from pillaging tiles"],
 	"cities": ["Tainan","Taipei","Anping","Keelung","Tamsui","Hsinchu","Chiayi","Talibu","Takau","Changhua"],
@@ -790,7 +790,7 @@
 	"outerColor": [82, 32, 7],
 	"innerColor": [255, 177, 61],
 	"uniqueName": "Adnyapatra",
-	"uniques": ["[+10]% growth [in coastal cities]","[+20]% Production when constructing [Gold] buildings [in all cities]","[2] free [Gurab] units appear <upon discovering [Industrialization] technology>"],
+	"uniques": ["Asian","[+10]% growth [in all cities]","[+20]% Production when constructing [Gold] buildings [in all cities]","[2] free [Gurab] units appear <upon discovering [Industrialization] technology>"],
 	"cities": ["Raigad", "Pune", "Sangameshwar", "Vishalgad", "Ginge", "Sinhagad", "Dhar", "Indore", "Gwalior", "Gingee", "Palkhed", "Vasai", "Arcot", "Tiruchirappalli", "Katak", "Raipur", "Ratanpur", "Bilaspur"],
 	"spyNames": ["Saki"]
     },
@@ -1063,7 +1063,7 @@
 	"outerColor": [23, 209, 82],
 	"innerColor": [28, 28, 28],
 	"uniqueName": "Madhist Jihad State",
-	"uniques": [
+	"uniques": ["ME",
 	"[Gold] cost of purchasing [Camel] units [-60]%","[+2 Gold] from [Camel] tiles [in all cities]","[+1 Production] from [Desert] tiles [in all cities]"],
 	"cities": ["Omdurman",
 "Khartoum",
@@ -1272,7 +1272,7 @@
 	"innerColor": [80, 61, 110],
 	"uniqueName": "Sandalwood",
 	"uniques": ["Asian",
-	"Provides [2] [Sandalwood] <upon conquering a city>","[2] free [African Slave] units appear <upon founding a Religion>"],
+	"Provides [2] [Sandalwood]","[+25]% [Gold] [in all cities]","[2] free [African Slave] units appear <upon founding a Religion>"],
 	"cities": ["Dili",
 "Baucau",
 "Manatuto",
@@ -1761,8 +1761,8 @@
 		"innerColor": [247, 246, 181],
                 "favoredReligion": "Islam",
 		"uniqueName": "The Sinless Emir",
-		"uniques": ["ME",
-		"May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <upon founding a Pantheon>","Gain a free [Namazgah] [in all cities] <upon conquering a city>"],
+		"uniques": ["ME","[+25]% [Faith] [in all cities]",
+		"May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost","Gain a free [Namazgah] [in all cities] <upon conquering a city>"],
 		"cities": ["Bukhara", "Samarkand", "Qarshi", "Balkh", "Shakhrisabz", "Chardjuy", "Hisor", "G'uzor", "Kattakurgan", "Sheberghan", "Khujand", "Jizzakh", "Maimana", "Chirakchi", "Denau", "Kulab", "Nurota", "Termez", "Kurganteppa", "Karakul", "Kermine", "Vobkent", "Uroteppa"],
 	},
 {
@@ -2060,8 +2060,7 @@
 		"innerColor": [74, 23, 18],
         "favoredReligion": "Catholic",
 		"uniqueName": "Dutch´s Slave Trade",
-		"uniques": ["West African",
-		"[+1 Gold] from every [Luxury resource] <upon entering a new era>","[+30]% Yield from every [Monument] <upon entering a new era>"],
+		"uniques": ["West African","[+15]% [Gold] [in all cities]","[+50]% Yield from every [Monument]","[+50]% Yield from every [House]","[+50]% Yield from every [Palace]","[+50]% Yield from every [Temple]"],
 		"cities": ["Kumasi","Denkyira","Bonoman","Akan","Togo","Ivory Coast"]
 	},
 {
@@ -2139,7 +2138,7 @@
 		"outerColor": [147, 189, 182],
 		"innerColor": [18, 18, 46],
 		"uniqueName": "Windjana Resistance",
-		"uniques": [
+		"uniques": ["Australian",
 		"Earn [55]% of killed [Military] unit's [Strength] as [Faith]"],
 		"cities": ["Junjuwa","Daringunaya","Bandilngan","Dimalurru", "Yaranggi", "Baraa", "Jijidu", "Yuwa", "Miluwindi", "Mindi Rardi", "Gurang.ngadja", "Dawadiya", "Danggu", "Biridu", "Balili", "Kurnangki", "Bungardi", "Galamunda", "Malarabah", "Yirimalay", "Buruwa", "Jimbalakudunj"],
 	},
@@ -2304,7 +2303,7 @@
 		"innerColor": [110, 36, 2],
                 "favoredReligion": "Islam",
 		"uniqueName": "Gateway to Africa",
-		"uniques": ["[+20]% Strength <for [Camel] units>","[+15]% [Culture] [in all cities] <upon entering a new era>","[-30]% XP required for promotions <upon entering a new era>","[+20]% City Strength from defensive buildings <upon entering a new era>"],
+		"uniques": ["[+20]% Strength <for [Camel] units>","[+15]% [Culture] [in all cities]","[-30]% XP required for promotions","[+30]% City Strength from defensive buildings"],
 		"cities": ["Fez","Marrakech","Mequinez","Rabat","Tanger","Sale","Uchda","Kenitra","Agadir","Tetuan"],
 	},
 {
@@ -2688,7 +2687,7 @@
 		"innerColor": [118, 245, 164],
                 "favoredReligion": "Islam",
 		"uniqueName": "Emirate of Bukhara Silk Road Merchants",
-		"uniques": ["ME","[+15]% [Culture] [in all cities] <upon entering a new era>","[+20]% Production when constructing [Culture] buildings [in all cities]","[+20]% Production when constructing [Gold] buildings [in all cities]"],
+		"uniques": ["ME","[+15]% [Culture] [in all cities]","[+20]% Production when constructing [Faith] buildings [in all cities]","[+20]% Production when constructing [Culture] buildings [in all cities]","[+20]% Production when constructing [Gold] buildings [in all cities]"],
 		"cities": ["Tashkent","Samarkand","Bukhara","Nukus","Fergana","Qarshi","Kokand","Margilan","Termez","Jizzakh","Angren","Chirchiq","Navoiy","Urgench","Shahrisabz"]
 	},
 {
@@ -3526,7 +3525,7 @@
 
 		"favoredReligion": "Hinduism",
 		"uniqueName": "Oppression",
-		"uniques": [
+		"uniques": ["Asian",
 		"[+2 Gold] in cities on [River] tiles","[+2 Gold] in cities on [Hill] tiles","[+2 Gold] in cities on [Jungle] tiles","[+35]% [Gold] [in all cities]","[-10]% [Happiness] [in all cities]"],
 		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
 			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
