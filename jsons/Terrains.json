@@ -540,7 +540,7 @@
 		"production": 1,
 		"movementCost": 1,
 		"RGB": [135, 116, 101],
-		"uniques": [
+		"uniques": ["Doesn't generate naturally",
 			"Considered [Desirable] when determining start locations"]
 	},
 	{
@@ -549,7 +549,7 @@
 		"food": 1,
 		"movementCost": 1,
 		"RGB": [247, 239, 233],
-		"uniques": [
+		"uniques": ["Doesn't generate naturally",
 			"Considered [Desirable] when determining start locations"]
 	},
 	{
@@ -560,7 +560,7 @@
 		"movementCost": 1,
 		"RGB": [135, 116, 101],
 		"defenceBonus": 0.25,
-		"uniques": ["Considered [Desirable] when determining start locations"]
+		"uniques": ["Doesn't generate naturally","Considered [Desirable] when determining start locations"]
 	},
 	{
 		"name": "Pines",
@@ -672,7 +672,7 @@
 		"uniques": ["Doesn't generate naturally",
 					"Provides a one-time bonus of [+1 Gold, +2 Production] to the closest city when cut down <(modified by game speed)>",
 					"Blocks line-of-sight from tiles at same elevation",
-					"[25]% Chance to be destroyed by nukes"],
+					"[25]% Chance to be destroyed by nukes"]
 	},
         {
 		"name": "Fertile Coast",
@@ -680,7 +680,8 @@
 		"food": 1,
 		"overrideStats": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Coast"],
+		"uniques":["Doesn't generate naturally"],
+		"occursOn": ["Coast"]
 	},
         {
 		"name": "Mountain Range",
@@ -688,7 +689,8 @@
 		"faith": 1,
 		"overrideStats": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Mountain"],
+		"uniques":["Doesn't generate naturally"],
+		"occursOn": ["Mountain"]
 	},
         {
 		"name": "Fresh Lake",
@@ -696,7 +698,8 @@
 		"faith": 1,
 		"overrideStats": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Lakes"],
+		"uniques":["Doesn't generate naturally"],
+		"occursOn": ["Lakes"]
 	},
 {
 		"name": "Andes Soil",
@@ -704,7 +707,8 @@
 		"faith": 1,
 		"overrideStats": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Mountain Land"],
+		"uniques":["Doesn't generate naturally"],
+		"occursOn": ["Mountain Land"]
 	},
 
         {
@@ -713,21 +717,21 @@
 		"faith": 1,
 		"overrideStats": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Beach"],
+		"occursOn": ["Beach"]
 	},
         {
 		"name": "Clean Coast",
 		"type": "TerrainFeature",
 		"faith": 1,
 		"overrideStats": false,
-		"occursOn": ["Coast"],
+		"occursOn": ["Coast"]
 	},
         {
 		"name": "Clean Ocean",
 		"type": "TerrainFeature",
 		"faith": 1,
 		"overrideStats": false,
-		"occursOn": ["Ocean"],
+		"occursOn": ["Ocean"]
 	},
         {
 		"name": "Japan Mountain",
@@ -735,7 +739,7 @@
 		"faith": 1,
 		"overrideStats": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Mountain"],
+		"occursOn": ["Mountain"]
 	},
         {
 		"name": "Snow Mountain",
@@ -743,7 +747,7 @@
 		"faith": 1,
 		"overrideStats": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Mountain"],
+		"occursOn": ["Mountain"]
 	},
  {
 		"name": "Andes Mountain",
@@ -751,7 +755,7 @@
 		"faith": 1,
 		"overrideStats": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Mountain"],
+		"occursOn": ["Mountain"]
 	},
 
         {
@@ -759,15 +763,17 @@
 		"type": "Land",
 		"food": 1,
 		"culture": 1,
+		"uniques":["Doesn't generate naturally"],
 		"movementCost": 2,
-		"RGB": [71, 67, 53],
+		"RGB": [71, 67, 53]
 	},
         {
 		"name": "Beach",
 		"type": "Land",
 		"food": 2,
 		"movementCost": 1,
-		"RGB": [242, 224, 170],
+		"uniques":["Doesn't generate naturally"],
+		"RGB": [242, 224, 170]
 	},
         {
 		"name": "Mountain Land",
@@ -775,13 +781,14 @@
 		"food": 1,
 		"faith": 1,
 		"movementCost": 1,
-		"RGB": [194, 175, 153],
+		"uniques":["Doesn't generate naturally"],
+		"RGB": [194, 175, 153]
 	},
 	{
 		"name": "Pampas Grassland",
 		"type": "Land",
 		"food": 2,
-		"uniques":["Grassland"],
+		"uniques":["Grassland","Doesn't generate naturally"],
 		"movementCost": 1,
 		"RGB": [147, 194, 126]
 	},
@@ -791,7 +798,8 @@
 		"food": 1,
 		"faith": 1,
 		"movementCost": 1,
-		"RGB": [108, 168, 110],
+		"uniques":["Doesn't generate naturally"],
+		"RGB": [108, 168, 110]
 	},
         {
 		"name": "Savannah",
@@ -799,20 +807,23 @@
 		"food": 1,
 		"faith": 1,
 		"movementCost": 1,
-		"RGB": [201, 219, 154],
+		"uniques":["Doesn't generate naturally"],
+		"RGB": [201, 219, 154]
 	},
         {
 		"name": "Dry Soil",
 		"type": "Land",
 		"food": 1,
 		"movementCost": 1,
-		"RGB": [219, 214, 184],
+		"uniques":["Doesn't generate naturally"],
+		"RGB": [219, 214, 184]
 	},
         {
 		"name": "Fresh Soil",
 		"type": "Land",
 		"food": 2,
 		"movementCost": 1,
-		"RGB": [157, 179, 120],
+		"uniques":["Doesn't generate naturally"],
+		"RGB": [157, 179, 120]
 	},
 ]

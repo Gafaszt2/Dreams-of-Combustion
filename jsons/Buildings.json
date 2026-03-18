@@ -1,5 +1,67 @@
 [
 	{
+        "name": "Mwamwa",
+		"uniqueTo":"The Kanak",
+		"replaces":"Constabulary",
+        "cost": 160,
+        "maintenance": 1,
+        "hurryCostModifier": 10,
+        "uniques": ["Only available <when espionage is enabled>","New [Archaic Infantry] units start with [15] XP [in this city]", "[-25]% enemy spy effectiveness [in this city]"],
+        "requiredTech": "Gas Lighting"
+    },
+	{
+        "name": "National Intelligence Agency",
+        "cost": 120,
+        "culture": 1,
+        "isNationalWonder": true,
+        "uniques": ["Only available <when espionage is enabled>",
+            "New spies start with [1] level(s)",
+            "Promotes all spies [1] time(s)",
+            "Gain an extra spy", // Order is significant here
+			"[-15]% enemy spy effectiveness [in this city]",
+			"Only available <if [Police Station] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"],
+        "requiredTech": "Radio"
+    },
+	{
+        "name": "Police Station",
+        "cost": 300,
+        "maintenance": 1,
+        "hurryCostModifier": 10,
+        "uniques": ["Only available <when espionage is enabled>", "[-25]% enemy spy effectiveness [in this city]"],
+        "requiredBuilding": "Constabulary",
+        "requiredTech": "Psychoanalysis"
+    },
+	{
+        "name": "Constabulary",
+        "cost": 160,
+        "maintenance": 1,
+        "hurryCostModifier": 10,
+        "uniques": ["Only available <when espionage is enabled>", "[-25]% enemy spy effectiveness [in this city]"],
+        "requiredTech": "Gas Lighting"
+    },
+	{
+		"name": "Mfongo",
+		"uniqueTo":"The Chagga",
+		"replaces":"Water Mill",
+		"food": 1,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be next to [Mountain]","Must be next to [Hill]","[+1 Food] from [House] tiles [in this city]"],
+		"requiredTech": "Saw"
+	},
+	{
+		"name": "Shamba",
+		"uniqueTo":"Utetera",
+		"replaces":"Market",
+		"gold": 2,
+		"uniques":["[+15]% Production when constructing [Infantry] units [in this city]","[+2 Gold] from [Slave Labor Plantation] tiles [in this city]"],
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Vaccine"
+	},
+	{
 		"name": "Self-Strengthening Movement",
 		"cost": 20,
 		"uniques": [
@@ -1536,29 +1598,6 @@
 		"uniques": ["Only available <in cities without a [Solar Plant]>"]
 	},
         {
-		"name": "Communist Wall",
-		"cost": 500,
-                "production": 3,
-		"cityStrength": 25,
-		"cityHealth": 60,
-		"hurryCostModifier": 25,
-		"requiredBuilding": "Trenchs",
-		"requiredTech": "Reconstruction",
-		"uniques": ["Destroyed when the city is captured", "Only available <in cities without a [Capitalist Wall]>"]
-	},
-        {
-		"name": "Capitalist Wall",
-		"cost": 500,
-                "gold": 5,
-                "happiness": 2,
-		"cityStrength": 25,
-		"cityHealth": 60,
-		"hurryCostModifier": 25,
-		"requiredBuilding": "Trenchs",
-		"requiredTech": "Reconstruction",
-		"uniques": ["Destroyed when the city is captured", "Only available <in cities without a [Communist Wall]>"]
-	},
-        {
 		"name": "Walls",
 		"cityStrength": 5,
 		"cityHealth": 50,
@@ -1820,18 +1859,6 @@
 		"hurryCostModifier": 40,
 		"uniques": ["Destroyed when the city is captured"]
 	},
-        {
-		"name": "Narkomat",
-                "uniqueTo": "Soviet Union",
-                "replaces": "National Visitor Center",
-		"culture": 2,
-                "production": 4, 
-                "gold": 4,
-                "requiredTech": "Coexistency",
-		"cost": 400,
-		"hurryCostModifier": 20,
-		"uniques": ["Destroyed when the city is captured"]
-	},
 	{
 		"name": "Constitutional Chamber",
 		"uniqueTo": "Luxemburg",
@@ -1858,7 +1885,7 @@
 		"cityHealth": 60,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Trenchs",
-		"requiredTech": "Coexistency",
+		"requiredTech": "Defense Alliances",
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
@@ -1869,15 +1896,6 @@
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Bomb Shelter",
 		"requiredTech": "Biodefense",
-		"uniques": ["Destroyed when the city is captured"]
-	},
-        {
-		"name": "National Visitor Center",
-		"culture": 2,
-                "production": 4,
-                "requiredTech": "Coexistency",
-		"cost": 400,
-		"hurryCostModifier": 20,
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
@@ -2305,7 +2323,7 @@
 		"uniques": ["[+35]% [Culture] [in this city]",
 
 "[+35]% Great Person generation [in this city]", "Cost increases by [50] per owned city"],
-		"requiredTech": "Paris Agreements"
+		"requiredTech": "Aerosol Can"
 	},
 	{
 		"name": "Olive Terrace",
@@ -3042,19 +3060,19 @@
 
         {
 		"name": "Memorial",
-                "specialistSlots": {"Artist": 5},
+        "specialistSlots": {"Artist": 3},
 		"hurryCostModifier": 25,
-		"culture": 3,
-                "production": 1,
-		"uniques": ["[+35]% Great Person generation [in this city]", "Cost increases by [50] per owned city"],
-		"requiredTech": "Paris Agreements"
+		"culture": 1,
+        "production": 1,
+		"uniques": ["[+25]% Great Person generation [in this city]", "Cost increases by [250] per owned city"],
+		"requiredTech": "Aerosol Can"
 	},
 	{
 		"name": "Modern Barracks",
 		"hurryCostModifier": 25,
-		"production": 5,
-		"uniques": ["New [Military] units start with [50] XP [in this city]"],
-		"requiredTech": "Paris Agreements"
+		"production": 2,
+		"uniques": ["New [Military] units start with [10] XP [in this city]"],
+		"requiredTech": "Plastics"
 	},
 	{
 		"name": "Market",
@@ -3488,16 +3506,9 @@
         {
 		"name": "Military Factory",
                 "production": 2,
-                "uniques": ["[+5]% Production when constructing [Armored] units [in this city]"],
+                "uniques": ["[+25]% Production when constructing [Armored] units [in this city]"],
 		"hurryCostModifier": 0,
-		"requiredTech": "Post War"
-	},
-        {
-		"name": "Peace Conferency",
-                "happiness": 2,
-                "uniques": ["[+15]% Production when constructing [Infantry] units [in this city]"],
-		"hurryCostModifier": 0,
-		"requiredTech": "Post War"
+		"requiredTech": "Plastics"
 	},
         {
 		"name": "Great War Arsenal",
@@ -3557,54 +3568,24 @@
 		"requiredTech": "Satellites"
 	},
         {
-		"name": "Fruit Market",
-                "maintenance": 1,
-                "uniques": ["[+15]% [Food] [in this city]", "Only available <in cities without a [Home Appliances Market]>"],
-		"hurryCostModifier": 0,
-		"requiredTech": "Free Market"
-	},
-        {
-		"name": "Home Appliances Market",
-                "maintenance": 1,
-                "uniques": ["[+15]% [Gold] [in this city]", "Only available <in cities without a [Fruit Market]>"],
-		"hurryCostModifier": 0,
-		"requiredTech": "Free Market"
-	},
-        {
 		"name": "War Ministry",
                 "production": 1,
                 "uniques": ["[+100]% Yield from every [Great Improvement]","New [Military] units start with [35] XP [in this city]"],
 		"hurryCostModifier": 0,
-		"requiredTech": "European Union"
-	},
-        {
-		"name": "Fertilizer and Sulphate",
-                "food": 1,
-                "uniques": ["[+1 Food] from every [Mill]"],
-		"hurryCostModifier": 25,
-		"requiredResource": "Nitter"
-		"requiredTech": "Farm Technology"
-	},
-        {
-		"name": "Artificial Seed",
-                "food": 1,
-                "uniques": ["[+1 Food] from every [Wheat]"],
-		"hurryCostModifier": 25,
-		"requiredResource": "Nitter"
-		"requiredTech": "Farm Technology"
+		"requiredTech": "Global Institutions"
 	},
         {
 		"name": "Digital Service",
                 "uniques": ["[+1 Science] from every [Luxury resource]"],
 		"hurryCostModifier": 25,
-		"requiredResource": "Computer"
+		"requiredResource": "Computer",
 		"requiredTech": "Cloud Computing"
 	},
         {
 		"name": "Digital Propaganda",
                 "uniques": ["[+1 Science] from every [Strategic resource]"],
 		"hurryCostModifier": 25,
-		"requiredResource": "Computer"
+		"requiredResource": "Computer",
 		"requiredTech": "Cloud Computing"
 	},
         {
@@ -3613,7 +3594,7 @@
 		"isNationalWonder": true,
 		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion",
 			"Only available <when [Space Race] Victory is enabled>", "Cannot be hurried"],
-		"requiredTech": "Space Race"
+		"requiredTech": "Space Militarization"
 	},
 	///////////// WONDERS
 
@@ -3735,7 +3716,7 @@
 		"isWonder": true,
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 2},
-		"requiredTech": "European Union",
+		"requiredTech": "Global Institutions",
 		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion"]
 	},
 	{

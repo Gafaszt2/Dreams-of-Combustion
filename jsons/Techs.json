@@ -378,27 +378,30 @@
 		"wonderCost": 500,
 		"techs": [
 			{
-				"name": "Post War", 
+				"name": "Post-Conflict Militarization", 
 				"row": 2,
 				"prerequisites": ["Atomic Bomb"],
 			},
                         {
-				"name": "Coexistency", 
+				"name": "Global Coexistence", 
 				"row": 4,
+				"uniques":["Gifts of Gold to City-States generate [+50]% more Influence","Allied City-States will occasionally gift Great People"],
 				"prerequisites": ["Enigma", "Aerosol Can"],
 			},
                         {
-				"name": "SALT Agreements", 
+				"name": "Strategic Deterrence", 
 				"row": 5,
+				"uniques":["[+25]% Strength <when fighting in [Friendly Land] tiles>","[+10]% Yield from every [Trench]"],
 				"prerequisites": ["Penicillin", "Synthetic Rubber"],
 			},
 			{
-				"name": "Truman Doctrine",
+				"name": "Defense Alliances",
 				"row": 7,
+				"uniques":["[+2 Culture, +2 Faith, +2 Happiness] from every [Trenchs]", "[+10]% Yield from every [Barbed Wire]"],
 				"prerequisites": ["Atomic Bomb","Enigma"],
 			},
                         {
-				"name": "Arms Race",
+				"name": "Nuclear Escalation",
 				"row": 9,
 				"prerequisites": ["Pressurized Cabin"],
 			}
@@ -412,29 +415,31 @@
 		"wonderCost": 500,
 		"techs": [
 			{
-				"name": "Space Race", 
+				"name": "Space Militarization", 
 				"row": 2,
-				"prerequisites": ["Truman Doctrine"],
+				"prerequisites": ["Defense Alliances"],
 			},
                         {
-				"name": "Korea War", 
+				"name": "Proxy Conflicts", 
 				"row": 4,
-				"prerequisites": ["Arms Race", "Truman Doctrine"],
+				"prerequisites": ["Nuclear Escalation", "Defense Alliances"],
 			},
                         {
-				"name": "Vietnam War", 
+				"name": "Modern Interventions", 
 				"row": 5,
-				"prerequisites": ["SALT Agreements", "Post War"],
+				"prerequisites": ["Strategic Deterrence", "Post-Conflict Militarization"],
 			},
 			{
-				"name": "Reconstruction",
+				"name": "Post-War Recovery",
 				"row": 7,
-				"prerequisites": ["Arms Race","Coexistency"],
+				"uniques":["[+2 Happiness, +2 Food, +1 Production] from [Bonus resource] tiles [in all cities]","[+10]% Yield from every [Bonus resource]"],
+				"prerequisites": ["Nuclear Escalation","Global Coexistence"],
 			},
                         {
-				"name": "Free Market",
+				"name": "Market Liberalization",
 				"row": 9,
-				"prerequisites": ["Coexistency"],
+				"uniques":["[+33]% [Gold] [in all cities]","[+2 Gold] from [Civil Factory] tiles [in all cities]"],
+				"prerequisites": ["Global Coexistence"],
 			}
 		]
 	},
@@ -448,32 +453,32 @@
 			{
 				"name": "Globalization", 
 				"row": 2,
-				"prerequisites": ["Free Market","Reconstruction"],
+				"prerequisites": ["Market Liberalization","Post-War Recovery"]
 			},
                         {
 				"name": "International Trade Agreements", 
 				"row": 3,
-				"prerequisites": ["Korea War", "Reconstruction"],
+				"prerequisites": ["Proxy Conflicts", "Post-War Recovery"]
 			},
                         {
-				"name": "Afganistan/Irak Wars", 
+				"name": "Terrorism Response", 
 				"row": 4,
-				"prerequisites": ["Korea War", "Vietnam War"],
+				"prerequisites": ["Proxy Conflicts", "Modern Interventions"]
 			},
                         {
-				"name": "Paris Agreements",
+				"name": "Environmental Governance",
 				"row": 7,
-				"prerequisites": ["Vietnam War"],
+				"prerequisites": ["Modern Interventions"]
 			},
 			{
 				"name": "Personal Computing",
 				"row": 8,
-				"prerequisites": ["Space Race"],
+				"prerequisites": ["Space Militarization"]
 			},
                         {
 				"name": "NAFTA",
 				"row": 9,
-				"prerequisites": ["Reconstruction"],
+				"prerequisites": ["Post-War Recovery"]
 			}
 		]
 	},
@@ -488,24 +493,24 @@
 				"name": "Internet", 
 				"uniques": ["[+2 Science, +3 Happiness] [in all cities]"],
 				"row": 2,
-				"prerequisites": ["Globalization", "International Trade Agreements","Personal Computing"],
+				"prerequisites": ["Globalization", "International Trade Agreements","Personal Computing"]
 			},
             {
-				"name": "European Union", 
+				"name": "Global Institutions", 
 				"row": 4,
 				"uniques": ["[+2 Production] from [Military Factory] tiles [in all cities]"],
-				"prerequisites": ["Paris Agreements", "NAFTA","International Trade Agreements"],
+				"prerequisites": ["Environmental Governance", "NAFTA","International Trade Agreements"]
 			},
             {
-				"name": "Desert Storm", 
+				"name": "Conventional Warfare", 
 				"row": 6,
-				"prerequisites": ["Afganistan/Irak Wars","NAFTA"],
+				"prerequisites": ["Terrorism Response","NAFTA"]
 			},
 			{
 				"name": "Social Media",
 				"uniques": ["[+2 Happiness] from [House] tiles [in all cities]"],
 				"row": 9,
-				"prerequisites": ["Globalization", "Personal Computing","Afganistan/Irak Wars"],
+				"prerequisites": ["Globalization", "Personal Computing","Terrorism Response"]
 			}
 		]
 	},
@@ -520,7 +525,7 @@
 				"name": "Farm Technology", 
 				"row": 2,
 				"uniques": ["[+4 Production] from [Wheat] tiles [in all cities]","[+4 Production] from [Ranch] tiles [in all cities]","[+4 Production] from [Stable] tiles [in all cities]"],
-				"prerequisites": ["European Union", "Desert Storm"],
+				"prerequisites": ["Global Institutions", "Conventional Warfare"],
 			},
                         {
 				"name": "Ecology",
@@ -532,7 +537,7 @@
 				"name": "Renewable Materials", 
 				"row": 3,
                 "uniques": ["[+2 Gold, +2 Production] from [Strategic resource] tiles [in all cities]"],
-				"prerequisites": ["European Union", "Desert Storm"],
+				"prerequisites": ["Global Institutions", "Conventional Warfare"],
 			},
                         {
 				"name": "Smartphones",
